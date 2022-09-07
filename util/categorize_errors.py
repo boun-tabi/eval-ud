@@ -6,6 +6,7 @@ opt_parser = argparse.ArgumentParser()
 arg_group = opt_parser.add_argument_group("Argument Group")
 arg_group.add_argument('--ud-validation', action="store", required=True)
 arg_group.add_argument('--conllu', action="store", required=True)
+arg_group.add_argument('--errors', action="store", required=True)
 args = opt_parser.parse_args()
 
 conllu_filepath = args.conllu
@@ -17,7 +18,7 @@ python_script = sys.executable
 validation_script = args.ud_validation
 lang = 'tr'
 output = subprocess.run([python_script, validation_script, f'--lang={lang}', '--max-err=0', conllu_filepath], capture_output=True, text=True).stderr
-error_folder = os.path.join(THIS_DIR, 'Errors')
+error_folder = args.errors
 if not os.path.exists(error_folder): os.mkdir(error_folder)
 conllu_filename_without_ext = conllu_filename.replace('.conllu', '')
 treebank_error_folder = os.path.join(error_folder, conllu_filename_without_ext)
