@@ -41,11 +41,18 @@ disregard_l = ["'N/A' is not an auxiliary verb in language [tr]", "'N/A' is not 
 lines_d = dict()
 for err_type in error_types:
     lines_d[err_type] = []
+include = True
 for line in lines:
     for err_type in error_types:
         if err_type in line:
-            
-            lines_d[err_type].append(line)
+            for dr in disregard_l:
+                if dr in line:
+                    include = False
+                    break
+            if include:
+                lines_d[err_type].append(line)
+            break
+    include = True
 
 for err_type in error_types:
     if len(lines_d[err_type]) == 0: continue

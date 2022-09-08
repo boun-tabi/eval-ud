@@ -658,7 +658,7 @@
 7	olduğunu	ol	VERB	Ptcp	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
 8	bilmiyoruz	bil	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	3	conj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	12	punct	_	_
-10	bugün	bugün	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl:tmp	_	_
+10	bugün	bugün	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl:tmod	_	_
 11	ziyaret	ziyaret	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
 12	yasak	yasak	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	nullcop=3s|SpaceAfter=No
 13	,	,	PUNCT	Comma	_	3	punct	_	SpaceAfter=No
@@ -1575,7 +1575,7 @@
 9	resmi	resim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	_
 10	yapıştırılıyor	yapış	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	_
 11	sene	sene	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
-12	başında	baş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl:tmp	_	SpaceAfter=No
+12	başında	baş	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl:tmod	_	SpaceAfter=No
 13	.	.	PUNCT	Stop	_	10	punct	_	SpacesAfter=\r\n
 
 # sent_id = pop_354
@@ -1606,7 +1606,7 @@
 8	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
 9	sadece	sadece	ADV	_	_	12	advmod	_	_
 10	30	30	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	11	nummod	_	_
-11	dakika	dakika	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl:tmp	_	_
+11	dakika	dakika	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl:tmod	_	_
 12-13	sürmüştü	_	_	_	_	_	_	_	SpaceAfter=No
 12	sürmüş	sür	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	0	root	_	_
 13	tü	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	12	root	_	_
@@ -2897,7 +2897,7 @@
 # sent_id = bio_1686
 # text = Her sabah nizamiyeden giren araçta benim ismimin olduğuna emindim ama bir türlü çıkmıyordu.
 1	Her	her	DET	Det	_	2	det	_	_
-2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmp	_	_
+2	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	_	_
 3	nizamiyeden	nizamiye	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 4	giren	gir	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	araçta	araç	NOUN	_	Case=Loc|Number=Sing|Person=3	9	obl	_	_
@@ -5867,7 +5867,7 @@
 17	-	-	PUNCT	Punc	_	16	punct	_	SpaceAfter=No
 18	19.00	19.00	NUM	ANum	NumType=Card	16	conj	_	_
 19	saatleri	saat	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	nmod:poss	_	_
-20	arasında	ara	ADJ	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	obl:tmp	_	SpaceAfter=No
+20	arasında	ara	ADJ	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	obl:tmod	_	SpaceAfter=No
 21	,	,	PUNCT	Comma	_	27	punct	_	_
 22	bilimsel	bilimsel	ADJ	Adj	_	26	amod	_	df=bilim
 23	ve	ve	CCONJ	Conj	_	24	cc	_	_
@@ -10585,7 +10585,7 @@
 2	geçip	geç	VERB	Conv	Polarity=Pos|VerbForm=Conv	3	advcl	_	_
 3	gidiyorlardı	git	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	12	punct	_	_
-5	sabahleyin	sabahleyin	NOUN	_	Case=Gen|Number=Sing|Person=3	10	obl:tmp	_	_
+5	sabahleyin	sabahleyin	NOUN	_	Case=Gen|Number=Sing|Person=3	10	obl:tmod	_	_
 6	çalılıklar	çalılık	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nmod:poss	_	df=çalı
 7	arasında	ara	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 8	zorlukla	zorluk	NOUN	_	Case=Ins|Number=Sing|Person=3	10	obl	_	_
@@ -12544,7 +12544,7 @@
 # sent_id = ess_444
 # text = Ertesi günü gene gelip dövdüler...
 1	Ertesi	ertesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
-2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl:tmp	_	_
+2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl:tmod	_	_
 3	gene	gen	ADV	_	Case=Dat|Number=Sing|Person=3	5	advmod	_	_
 4	gelip	gel	VERB	Conv	Polarity=Pos|VerbForm=Conv	5	advcl	_	_
 5	dövdüler	döv	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
@@ -14022,7 +14022,7 @@
 1	"	"	PUNCT	Punc	_	12	punct	_	SpaceAfter=No
 2	Mavi	mavi	ADJ	Adj	_	4	amod	_	_
 3	yaz	yaz	VERB	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
-4	akşamlan	akşam	NOUN	_	Case=Nom|Mood=Imp|Number=Sing|Person=2|Polarity=Pos	12	obl:tmp	_	SpaceAfter=No
+4	akşamlan	akşam	NOUN	_	Case=Nom|Mood=Imp|Number=Sing|Person=2|Polarity=Pos	12	obl:tmod	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	patikalarda	patika	NOUN	_	Case=Loc|Number=Plur|Person=3	13	obl	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	8	punct	_	_
@@ -14262,7 +14262,7 @@
 3	takdirde	takdir	NOUN	_	Case=Loc|Number=Sing|Person=3	16	obl	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	16	punct	_	_
 5	ülkemiz	ülke	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	16	nsubj	_	_
-6	bugün	bugün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl:tmp	_	_
+6	bugün	bugün	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl:tmod	_	_
 7	içinde	iç	ADJ	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 8	bulunduğu	bulun	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
 9	durumdan	durum	NOUN	_	Case=Abl|Number=Sing|Person=3	12	obl	_	_
@@ -14888,7 +14888,7 @@
 # sent_id = news_1005
 # text = Akşam saatlerinde yapılan tek idmanda oyuncular düz koşu ve istasyon çalışmasının ardından yarım sahada çift kale maç yaptı.
 1	Akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
-2	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl:tmp	_	_
+2	saatlerinde	saat	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl:tmod	_	_
 3	yapılan	yap	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	5	acl	_	_
 4	tek	tek	ADJ	Adj	_	5	amod	_	_
 5	idmanda	idman	NOUN	_	Case=Loc|Number=Sing|Person=3	17	obl	_	_

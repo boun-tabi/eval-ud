@@ -2860,7 +2860,7 @@
 # text = Bu, akşamınan bir yel çıkacağına dalaletti.
 1	Bu	bu	DET	Det	Case=Nom|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	7	punct	_	_
-3	akşamınan	akşamınan	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl:tmp	_	typo=yes
+3	akşamınan	akşamınan	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl:tmod	_	typo=yes
 4	bir	bir	DET	Indef	_	5	det	_	_
 5	yel	yel	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 6	çıkacağına	çık	VERB	Ptcp	Aspect=Imp|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Future|VerbForm=Part	7	obl	_	_
@@ -4726,7 +4726,7 @@
 
 # sent_id = ins_1764
 # text = 1766'da görülmektedir.
-1	1766'da	1766	NUM	NNum	Case=Loc|Number=Sing|Person=3|NumType=Card	2	obl:tmp	_	_
+1	1766'da	1766	NUM	NNum	Case=Loc|Number=Sing|Person=3|NumType=Card	2	obl:tmod	_	_
 2	görülmektedir	gör	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Stop	_	2	punct	_	SpacesAfter=\n
 
@@ -5164,7 +5164,7 @@
 13	ziyaret	ziyaret	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 14	edilecek	et	VERB	_	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Voice=Pass	13	compound:lvc	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	21	punct	_	_
-16	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	21	obl:tmp	_	_
+16	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	21	obl:tmod	_	_
 17	KTÜ	KTÜ	PROPN	Abr	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 18	Sahil	sahil	PROPN	_	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
 19	Tesisleri'nde	tesis	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
@@ -5730,7 +5730,7 @@
 1	Yemek	yemek	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	sonunda	sonunda	ADV	_	_	14	advmod	_	_
 3	sabah	sabah	NOUN	_	Case=Nom|Number=Sing|Person=3	4	amod	_	_
-4	sıfıraltıda	sıfıraltı	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:tmp	_	_
+4	sıfıraltıda	sıfıraltı	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:tmod	_	_
 5	kalkış	kalk	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	13	amod	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	10	punct	_	_
 7	sıfıryedi	sıfıryedi	NUM	ANum	NumType=Card	10	advmod	_	_
@@ -6400,7 +6400,7 @@
 8	,	,	PUNCT	Comma	_	26	punct	_	_
 9	son	son	ADJ	Adj	_	11	amod	_	_
 10	bir	bir	DET	Indef	_	11	det	_	_
-11	yılda	yıl	NOUN	_	Case=Loc|Number=Sing|Person=3	26	obl:tmp	_	_
+11	yılda	yıl	NOUN	_	Case=Loc|Number=Sing|Person=3	26	obl:tmod	_	_
 12	internet	İnternet	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
 13	alan	alan	NOUN	_	_	14	nmod:poss	_	_
 14	adlarının	ad	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
@@ -6646,7 +6646,7 @@
 # text = Ama o gece o erkekle yaşadıkları maceranın en heyecanlı ânı, biraz utangaçça yürüyüp o çanaktan bir anahtar aldıkları, bu oyunun bir parçası olmayı kabul ettikleri andı;oandabütünkimliklerini,kurallarını,ahlaklarınıdeğiştiriyor,birbaşkasıoluyorlardı.
 1	Ama	ama	CCONJ	Conj	_	43	nmod	_	_
 2	o	o	DET	Det	_	3	det	_	_
-3	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl:tmp	_	_
+3	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl:tmod	_	_
 4	o	o	DET	Det	_	5	det	_	_
 5	erkekle	erkek	NOUN	_	Case=Ins|Number=Sing|Person=3	6	obl	_	_
 6	yaşadıkları	yaşa	VERB	Ptcp	Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
