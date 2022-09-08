@@ -4,9 +4,9 @@ THIS_DIR = os.path.realpath(os.path.dirname(__file__))
 
 opt_parser = argparse.ArgumentParser()
 arg_group = opt_parser.add_argument_group("Argument Group")
-arg_group.add_argument('--ud-validation', action="store", required=True)
 arg_group.add_argument('--conllu', action="store", required=True)
-arg_group.add_argument('--errors', action="store", required=True)
+arg_group.add_argument('--errors', action="store")
+arg_group.add_argument('--ud-validation', action="store")
 args = opt_parser.parse_args()
 
 conllu_filepath = args.conllu
@@ -15,10 +15,19 @@ if not conllu_filename.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
 home = os.path.expanduser('~')
 python_script = sys.executable
-validation_script = args.ud_validation
+if args.ud_validation:
+    validation_script = args.ud_validation
+else:
+    validation_script = os.path.join(THIS_DIR, 'validate.py')
+    if not os.path.exists(validation_script):
+        print("You did not use the 'ud-validation' flag for the validation script's path and it doesn't exist in the 'util' folder either. Aborting.")
+        exit()
 lang = 'tr'
 output = subprocess.run([python_script, validation_script, f'--lang={lang}', '--max-err=0', conllu_filepath], capture_output=True, text=True).stderr
-error_folder = args.errors
+if args.errors:
+    error_folder = args.errors
+else:
+    error_folder = os.path.join(THIS_DIR, 'Errors')
 if not os.path.exists(error_folder): os.mkdir(error_folder)
 conllu_filename_without_ext = conllu_filename.replace('.conllu', '')
 treebank_error_folder = os.path.join(error_folder, conllu_filename_without_ext)
