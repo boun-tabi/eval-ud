@@ -37,12 +37,14 @@ with open(os.path.join(treebank_error_folder, 'all.txt'), 'w', encoding='utf-8')
 
 lines = output.splitlines()
 error_types = ['Metadata', 'Syntax', 'Morpho', 'Format', 'Enhanced']
+disregard_l = ["'N/A' is not an auxiliary verb in language [tr]", "'N/A' is not a copula in language [tr]", "'y' is not an auxiliary verb in language [tr]", "'y' is not a copula in language [tr]"]
 lines_d = dict()
 for err_type in error_types:
     lines_d[err_type] = []
 for line in lines:
     for err_type in error_types:
         if err_type in line:
+            
             lines_d[err_type].append(line)
 
 for err_type in error_types:
