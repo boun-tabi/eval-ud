@@ -49,5 +49,5 @@ for sentence in sentences:
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
-with open(conllu_filepath, 'w', encoding='utf-8') as f:
+with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
     f.write(new_tb)

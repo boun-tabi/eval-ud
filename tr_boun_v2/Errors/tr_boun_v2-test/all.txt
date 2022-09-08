@@ -1394,9 +1394,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15182 Sent news_1252]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 15207 Sent ess_429 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 15223 Sent ess_280 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 15248 Sent bio_60]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
-Format errors: 2
+Format errors: 1
 Metadata errors: 201
 Morpho errors: 709
 Syntax errors: 450
-*** FAILED *** with 1362 errors
+*** FAILED *** with 1361 errors
