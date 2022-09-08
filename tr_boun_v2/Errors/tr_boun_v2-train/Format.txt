@@ -27,9 +27,12 @@
 [Line 102627 Sent ins_286]: [L1 Format overlapping-word-intervals] Range overlaps with others: 13-14
 [Line 104174 Sent ins_377]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
 [Tree number 6804 on line 110331 Sent news_77]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 114036 Sent pop_486]: [L1 Format number-of-columns] The line has 6 columns but 10 are expected. The contents of the columns will not be checked.
-[Line 114037 Sent pop_486]: [L1 Format invalid-line] Spurious line: '	0	root	_	_'. All non-empty lines should start with a digit or the # character.
-[Line 119406 Sent ess_493]: [L1 Format number-of-columns] The line has 6 columns but 10 are expected. The contents of the columns will not be checked.
-[Line 119407 Sent ess_493]: [L1 Format invalid-line] Spurious line: '	8	cop	_	_'. All non-empty lines should start with a digit or the # character.
-[Line 121101 Sent bio_1245]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-Format errors: 34
+[Tree number 7039 on line 114034 Sent pop_486]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,4,5,6,7'. Expected '1,2,3,4,5,6'.
+[Line 114040 Sent pop_486]: [L1 Format word-interval-out] Spurious token interval 7-7 (out of range)
+[Tree number 7039 on line 114034 Sent pop_486]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 7380 on line 119395 Sent ess_493]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'.
+[Line 119414 Sent ess_493]: [L1 Format word-interval-out] Spurious token interval 19-19 (out of range)
+[Tree number 7380 on line 119395 Sent ess_493]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 121097 Sent bio_1245]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+[Line 126661 Sent ins_946]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
+Format errors: 37

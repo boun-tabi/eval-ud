@@ -69,33 +69,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 623 Sent bio_1932]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 652 Sent bio_314]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 652 Sent bio_314]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 661 Sent bio_314]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
-
-ERROR in _tr/dep/advcl-cond.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/auxpass.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/auxpass.md: No examples found for relation 'auxpass'.
-ERROR in _tr/dep/auxpass.md: Relation 'auxpass' is not a subtype of any approved main type.
-ERROR in _tr/dep/ccomp-cau.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/ccomp-cau.md: No examples found for relation 'ccomp:cau'.
-ERROR in _tr/dep/csubjpass.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/csubjpass.md: Relation 'csubjpass' is not a subtype of any approved main type.
-ERROR in _tr/dep/dobj-cau.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/dobj-cau.md: Relation 'dobj:cau' is not a subtype of any approved main type.
-ERROR in _tr/dep/expl.md: No examples found for relation 'expl'.
-ERROR in _tr/dep/neg.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/neg.md: Relation 'neg' is not a subtype of any approved main type.
-ERROR in _tr/dep/nmod-cau.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/nmod-pass.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/nsubjpass.md: Documentation does not belong to UD v2 guidelines.
-ERROR in _tr/dep/nsubjpass.md: Relation 'nsubjpass' is not a subtype of any approved main type.
-The following 55 relations are currently permitted in language [tr]:
-acl, acl:relcl, advcl, advmod, advmod:emph, amod, appos, aux, aux:q, case, cc, cc:preconj, ccomp, clf, compound, compound:lvc, compound:prt, compound:redup, conj, cop, csubj, csubj:cop, csubj:outer, dep, det, discourse, dislocated, fixed, flat, flat:foreign, flat:name, goeswith, iobj, list, mark, nmod, nmod:comp, nmod:part, nmod:poss, nmod:tmod, nsubj, nsubj:cop, nsubj:outer, nummod, obj, obl, obl:agent, obl:tmod, orphan, parataxis, punct, reparandum, root, vocative, xcomp
-If a language needs a relation subtype that is not documented in the universal guidelines, the relation
-must have a language-specific documentation page in a prescribed format.
-See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
-Documented dependency relations can be specifically turned on/off for each language in which they are used.
-See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_deprel.pl for details.
-
 [Line 695 Sent pop_1654 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 695 Sent pop_1654 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 706 Sent news_1]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -135,6 +108,32 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 900 Sent bio_1413 Node 6]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
 [Line 931 Sent ess_6]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 939 Sent ins_178]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+
+ERROR in _tr/dep/advcl-cond.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/auxpass.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/auxpass.md: No examples found for relation 'auxpass'.
+ERROR in _tr/dep/auxpass.md: Relation 'auxpass' is not a subtype of any approved main type.
+ERROR in _tr/dep/ccomp-cau.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/ccomp-cau.md: No examples found for relation 'ccomp:cau'.
+ERROR in _tr/dep/csubjpass.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/csubjpass.md: Relation 'csubjpass' is not a subtype of any approved main type.
+ERROR in _tr/dep/dobj-cau.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/dobj-cau.md: Relation 'dobj:cau' is not a subtype of any approved main type.
+ERROR in _tr/dep/expl.md: No examples found for relation 'expl'.
+ERROR in _tr/dep/neg.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/neg.md: Relation 'neg' is not a subtype of any approved main type.
+ERROR in _tr/dep/nmod-cau.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/nmod-pass.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/nsubjpass.md: Documentation does not belong to UD v2 guidelines.
+ERROR in _tr/dep/nsubjpass.md: Relation 'nsubjpass' is not a subtype of any approved main type.
+The following 55 relations are currently permitted in language [tr]:
+acl, acl:relcl, advcl, advmod, advmod:emph, amod, appos, aux, aux:q, case, cc, cc:preconj, ccomp, clf, compound, compound:lvc, compound:prt, compound:redup, conj, cop, csubj, csubj:cop, csubj:outer, dep, det, discourse, dislocated, fixed, flat, flat:foreign, flat:name, goeswith, iobj, list, mark, nmod, nmod:comp, nmod:part, nmod:poss, nmod:tmod, nsubj, nsubj:cop, nsubj:outer, nummod, obj, obl, obl:agent, obl:tmod, orphan, parataxis, punct, reparandum, root, vocative, xcomp
+If a language needs a relation subtype that is not documented in the universal guidelines, the relation
+must have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+Documented dependency relations can be specifically turned on/off for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_deprel.pl for details.
+
 [Line 936 Sent ins_178 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 944 Sent ins_178 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 944 Sent ins_178 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -188,11 +187,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 1527 Sent news_629 Node 11]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 1549 Sent bio_1953 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 1549 Sent bio_1953 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 1578 Sent ess_1296]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 1569 Sent ess_1296 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
 [Line 1576 Sent ess_1296 Node 10]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 1594 Sent pop_354]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 1609 Sent news_1874]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 1614 Sent news_1874]: [L2 Syntax root-is-not-0] DEPREL cannot be 'root' if HEAD is not 0.
 [Line 1612 Sent news_1874 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 1636 Sent ess_1111 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -318,7 +315,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 2862 Sent news_34 Node 16]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 2891 Sent bio_1988]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[19-20] is 'Gillespie'ydi' but text is 'Gillespie 'ydi bu....'
 [Line 2896 Sent bio_1988]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Gillespie 'ydi bu.'
-[Line 2900 Sent bio_1686]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 2909 Sent bio_1686 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 2909 Sent bio_1686 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 2915 Sent bio_1686 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -581,7 +577,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5828 Sent bio_975]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir insandan nefret etmek için, onun seni k\u0131rmas\u0131, sana kötülük yapmas\u0131 gerekir de\u011fil mi? Bana hiçbir \u015fey yapm\u0131yordu.'
 [Line 5815 Sent bio_975 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
 [Line 5820 Sent bio_975 Node 15]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 5870 Sent news_794]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 5886 Sent ins_1370]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 5893 Sent ins_1370]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5904 Sent bio_417]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[4-5] is 'ya\u015f\u0131ndaym\u0131\u015f' but text is 'ya\u015f\u0131nda ym\u0131\u015f o zaman......'
@@ -1041,7 +1036,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 10534 Sent news_984 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 10538 Sent news_984 Node 21]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 10565 Sent news_228 Node 14]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 10588 Sent bio_43]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 10610 Sent ins_1367]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 10622 Sent news_230]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 10653 Sent pop_421 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -1206,7 +1200,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 12515 Sent ins_1161]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 12541 Sent bio_971 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 12541 Sent bio_971 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 12547 Sent ess_444]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 12548 Sent ess_444]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 12548 Sent ess_444]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 12580 Sent ess_881]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
@@ -1352,7 +1345,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 14007 Sent ins_693 Node 17]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 14013 Sent ins_693 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 14025 Sent ess_1005]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 14025 Sent ess_1005]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 14034 Sent ess_1005]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 14045 Sent ess_292]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 14057 Sent news_476 Node 8]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
@@ -1372,7 +1364,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 14249 Sent pop_1070]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 14249 Sent pop_1070]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 14253 Sent pop_1070]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 14265 Sent bio_660]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 14300 Sent ins_1631]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 14323 Sent news_1203]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 14330 Sent news_1203]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -1413,7 +1404,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 14879 Sent pop_31]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 14882 Sent pop_31]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 14885 Sent pop_31]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14891 Sent news_1005]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 14904 Sent news_1005 Node 15]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
 [Line 14951 Sent ess_919]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 14967 Sent ins_654]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -1456,7 +1446,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15362 Sent ess_685 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 15362 Sent ess_685 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 15384 Sent bio_1714]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 15386 Sent bio_1714]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
+Format errors: 1
 Metadata errors: 207
 Morpho errors: 738
-Syntax errors: 478
-*** FAILED *** with 1423 errors
+Syntax errors: 468
+*** FAILED *** with 1414 errors

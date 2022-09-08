@@ -354,7 +354,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 2861 Sent ins_736]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 2861 Sent ins_736]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 2861 Sent ins_736]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 2863 Sent ins_736]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 2866 Sent ins_736]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 2868 Sent ins_736]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 2868 Sent ins_736]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
@@ -519,7 +518,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4693 Sent bio_1698]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4691 Sent bio_1698 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 4729 Sent ins_1764]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Loc|Number=Sing|Person=3|NumType=Card'.
-[Line 4729 Sent ins_1764]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 4744 Sent ess_1057]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4741 Sent ess_1057]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[7] is 'keyifli' but text is 'keyif li keyif li etraf\u0131 se...'
 [Line 4756 Sent ess_1057]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'keyif li keyif li etraf\u0131 seyrederken bir bakm\u0131\u015f\u0131m, sen oradaym\u0131\u015fs\u0131n,benibekliyormu\u015fsun.'
@@ -557,7 +555,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5133 Sent bio_1142]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 5140 Sent bio_1142 Node 35]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'CCONJ'
 [Line 5140 Sent bio_1142 Node 35]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 5167 Sent news_21]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 5184 Sent ins_1476]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5184 Sent ins_1476]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 5181 Sent ins_1476 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
@@ -601,7 +598,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5679 Sent bio_1153 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 5720 Sent ins_1090]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 5718 Sent ins_1090 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 5733 Sent bio_292]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 5736 Sent bio_292 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
 [Line 5772 Sent ins_465 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 5772 Sent ins_465 Node 3]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
@@ -653,7 +649,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6379 Sent ins_514]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 6388 Sent ins_514 Node 23]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 6388 Sent ins_514 Node 23]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 6403 Sent news_1320]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 6408 Sent news_1320 Node 16]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nsubj'.
 [Line 6431 Sent pop_1984]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 6458 Sent news_177]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
@@ -662,7 +657,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6543 Sent bio_960 Node 8]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 6598 Sent ess_683 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
 [Line 6622 Sent news_375 Node 9]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 6649 Sent ess_1290]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:tmp'
 [Line 6675 Sent ess_1290]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #30 because the text is ';oandabütünkimlikler[...]'.
 [Line 6676 Sent ess_1290]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #31 because the text is 'oandabütünkimlikleri[...]'.
 [Line 6677 Sent ess_1290]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #32 because the text is 'andabütünkimliklerin[...]'.
@@ -1400,8 +1394,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15182 Sent news_1252]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 15207 Sent ess_429 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 15223 Sent ess_280 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-Format errors: 1
+[Line 15248 Sent bio_60]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
+Format errors: 2
 Metadata errors: 201
 Morpho errors: 709
-Syntax errors: 456
-*** FAILED *** with 1367 errors
+Syntax errors: 450
+*** FAILED *** with 1362 errors
