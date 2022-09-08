@@ -32,7 +32,7 @@ if not os.path.exists(error_folder): os.mkdir(error_folder)
 conllu_filename_without_ext = conllu_filename.replace('.conllu', '')
 treebank_error_folder = os.path.join(error_folder, conllu_filename_without_ext)
 if not os.path.exists(treebank_error_folder): os.mkdir(treebank_error_folder)
-with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8') as f:
+with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8', newline='\n') as f:
     f.write(output)
 
 lines = output.splitlines()
@@ -60,6 +60,6 @@ for err_type in error_types:
         if os.path.exists(err_txt_path):
             os.remove(err_txt_path)
         continue
-    with open(err_txt_path, 'w', encoding='utf-8') as f:
+    with open(err_txt_path, 'w', encoding='utf-8', newline='\n') as f:
         for line in lines_d[err_type]:
             f.write(f'{line}\n')
