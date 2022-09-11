@@ -6,11 +6,10 @@ import argparse
 
 THIS_DIR = os.path.realpath(os.path.dirname(__file__))
 
-opt_parser = argparse.ArgumentParser()
-arg_group = opt_parser.add_argument_group("Argument Group")
-arg_group.add_argument('--conllu', action="store", required=True)
-arg_group.add_argument('--ud-validation', action="store")
-args = opt_parser.parse_args()
+parser = argparse.ArgumentParser()
+parser.add_argument('--conllu', action="store", required=True)
+parser.add_argument('--ud-validation', action="store")
+args = parser.parse_args()
 
 conllu_filepath = args.conllu
 conllu_filename = os.path.split(conllu_filepath)[-1]

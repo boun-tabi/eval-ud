@@ -789,7 +789,7 @@
 4	hem	hem	CCONJ	Conj	_	7	cc:preconj	_	_
 5	bir	bir	DET	Indef	_	6	det	_	_
 6	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
-7	yapamazsınız	yap	VERB	_	Aspect=Hab|Number=Plur|Person=2|Polarity=Neg|Tense=Aor|Mood=Pot	0	root	_	SpaceAfter=No
+7	yapamazsınız	yap	VERB	_	Aspect=Hab|Mood=Pot|Number=Plur|Person=2|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_354
@@ -1095,7 +1095,7 @@
 1	Babasının	baba	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
 2	el	el	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	yazısıyla	yazı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
-4	yazılmış	yaz	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=PosVoice|VerbForm=Part=Pass	7	acl	_	_
+4	yazılmış	yaz	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=PosVoice|VerbForm=Part|Voice=Pass	7	acl	_	_
 5	küçük	küçük	ADJ	Adj	_	7	amod	_	_
 6	bir	bir	DET	Indef	_	7	det	_	_
 7	kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
@@ -1601,7 +1601,7 @@
 # text = Beni hücreden çıkarıp, saçımı bıyığımı kesip tek tip bir elbise giydirerek koğuşa götürdüler.
 1	Beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1	3	obj	_	_
 2	hücreden	hücre	NOUN	_	Case=Abl|Number=Sing|Person=3	3	obl	_	_
-3	çıkarıp	çık	VERB	Conv	Voice=Cau|Polarity=Pos|VerbForm=Conv	12	advcl	_	SpaceAfter=No
+3	çıkarıp	çık	VERB	Conv	Polarity=Pos|VerbForm=Conv|Voice=Cau	12	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	7	punct	_	_
 5	saçımı	saçı	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	7	obj	_	_
 6	bıyığımı	bıyık	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	5	conj	_	_
@@ -3507,7 +3507,7 @@
 39	müfredatlı	müfredatlı	ADJ	Adj	Case=Nom|Number=Sing|Person=3	35	conj	_	df=müfredat
 40	bir	bir	DET	Indef	_	41	det	_	_
 41	lisede	lise	NOUN	_	Case=Loc|Number=Sing|Person=3	42	obl	_	_
-42	okumuştan	okumuş	VERB	Ptcp	Case=Abl|Number=Sing|Person=3|VerbForm=Part|Polarity=Pos|Aspect=Imp	44	obl	_	_
+42	okumuştan	okumuş	VERB	Ptcp	Aspect=Imp|Case=Abl|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	44	obl	_	_
 43	farklı	farklı	ADJ	Adj	_	44	amod	_	df=fark
 44	olmaz	ol	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	13	conj	_	_
 45	üniversiteden	üniversite	NOUN	_	Case=Abl|Number=Sing|Person=3	46	obl	_	_
@@ -4726,7 +4726,7 @@
 
 # sent_id = ins_1764
 # text = 1766'da görülmektedir.
-1	1766'da	1766	NUM	NNum	Case=Loc|Number=Sing|Person=3|NumType=Card	2	obl:tmod	_	_
+1	1766'da	1766	NUM	NNum	Case=Loc|Number=Sing|NumType=Card|Person=3	2	obl:tmod	_	_
 2	görülmektedir	gör	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	Stop	_	2	punct	_	SpacesAfter=\n
 
@@ -4903,7 +4903,7 @@
 6	bile	bile	ADV	_	_	4	advmod:emph	_	_
 7	farkına	fark	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 8-9	varamamıştı	_	_	_	_	_	_	_	_
-8	varamamış	var	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Mood=Imp|VerbForm=Part	7	compound	_	_
+8	varamamış	var	VERB	Ptcp	Aspect=Imp|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	7	compound	_	_
 9	tı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 10	koloniler	koloni	NOUN	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
 11	elinden	el	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	advcl	_	_
@@ -5583,7 +5583,7 @@
 # sent_id = pop_523
 # text = Hayatta kalanların ilk tepkisi, "Suuu..." bağırışları...
 1	Hayatta	hayat	NOUN	_	Case=Loc|Number=Sing|Person=3	2	obl	_	_
-2	kalanların	kalan	VERB	Ptcp	Case=Gen|Number=Plur|Person=3|VerbForm=Part|Polarity=Pos	4	nmod:poss	_	_
+2	kalanların	kalan	VERB	Ptcp	Case=Gen|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part	4	nmod:poss	_	_
 3	ilk	ilk	ADJ	Adj	_	4	amod	_	_
 4	tepkisi	tepki	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	9	punct	_	_
@@ -6714,7 +6714,7 @@
 # sent_id = ins_1565
 # text = Doğru bilgilenen sosyal ortaklar doğru kararlar alır, risklerini tahmin edebilir ve kuruma güvenir.
 1	Doğru	doğru	ADJ	Adj	_	2	amod	_	_
-2	bilgilenen	bilgi	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|Tense=Pres	4	acl	_	_
+2	bilgilenen	bilgi	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	4	acl	_	_
 3	sosyal	sosyal	ADJ	Adj	_	4	amod	_	_
 4	ortaklar	ortak	NOUN	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
 5	doğru	doğru	ADJ	Adj	_	6	amod	_	_
@@ -7685,7 +7685,7 @@
 2	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2	8	iobj	_	_
 3	farklı	farklı	ADJ	Adj	_	4	amod	_	_
 4	yönlere	yön	NOUN	_	Case=Dat|Number=Plur|Person=3	5	iobj	_	_
-5	bakan	bakan	VERB	Ptcp	Case=Nom|Number=Sing|Person=3|VerbForm=Part|Polarity=Pos	6	acl	_	_
+5	bakan	bakan	VERB	Ptcp	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	6	acl	_	_
 6	pencereler	pencere	NOUN	_	Case=Nom|Number=Plur|Person=3	7	obj	_	_
 7	açmaya	aç	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	ccomp	_	_
 8	çalışıyoruz	çalış	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
@@ -8340,7 +8340,7 @@
 13	süre	süre	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 14	devam	devam	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 15-16	edebilmiştir	_	_	_	_	_	_	_	SpaceAfter=No
-15	edebilmiş	et	VERB	Ptcp	Mood=Pot|Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	14	compound:lvc	_	_
+15	edebilmiş	et	VERB	Ptcp	Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	14	compound:lvc	_	_
 16	tir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	15	compound:lvc	_	_
 17	.	.	PUNCT	Stop	_	14	punct	_	SpacesAfter=\r\n
 
