@@ -51,12 +51,13 @@ for sentence in sentences:
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)
 
-            # used for sorting morphological features
+            # used for sorting morphological features, 9/11/2022
             if i == field_d['feats']:
                 feats = field.split('|')
                 if len(feats) == 1 and feats[0] == '_': continue
                 feat_d = dict()
                 feat_l = list()
+                feat_count = 0
                 for feat in feats:
                     if feat.count('=') > 1:
                         # print('more than 1 =:', fields, feat, 'sent_id:', sent_id)
@@ -64,6 +65,9 @@ for sentence in sentences:
                         feat_d[feat[:feat.index('=')]] = 'more than 1 ='
                         continue
                     if '=' in feat: tag, value = feat.split('=')
+                    else:
+                        print('empty feat:', 'node:', fields[0], 'sent_id:', sent_id)
+                        continue
                     if value == '_':
                         # print('empty value:', fields, 'sent_id:', sent_id)
                         print('empty value:', 'node:', fields[0], 'sent_id:', sent_id)
@@ -75,7 +79,7 @@ for sentence in sentences:
                     value = feat_d[tag]
                     feat_l.append('{tag}={value}'.format(tag=tag, value=value))
                 fields[i] = '|'.join(feat_l)
-                line = '\t'.join(fields)
+                # line = '\t'.join(fields)
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
