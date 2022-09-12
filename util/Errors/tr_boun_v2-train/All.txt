@@ -886,9 +886,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 13928 Sent pop_618 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 13928 Sent pop_618 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 14005 Sent news_1540]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14016 Sent news_1540]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 14016 Sent news_1540]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
-[Line 14016 Sent news_1540]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 14060 Sent news_890]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 14117 Sent ess_1441]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:cl'
 [Line 14136 Sent bio_1400 Node 2]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -1922,9 +1920,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 30749 Sent bio_1507]: [L2 Format invalid-deps] Failed to parse DEPS: 'Indef'.
 [Line 30762 Sent ess_679]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 30762 Sent ess_679]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 30763 Sent ess_679]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 30763 Sent ess_679]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
-[Line 30763 Sent ess_679]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 30763 Sent ess_679]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #4 because the text is '\u015föyledir.'.
 [Line 30773 Sent ess_741]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 30782 Sent ess_741]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Mood=Gen'.
@@ -2576,17 +2572,11 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 37701 Sent ins_1241]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 37712 Sent ins_3 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 37712 Sent ins_3 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 37765 Sent news_912]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Dat|Number=Sing|Person=3|Polarity=Pos||VerbForm=Vnoun'.
-[Line 37765 Sent news_912]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 37768 Sent news_912 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 37768 Sent news_912 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 37789 Sent news_324]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 37792 Sent news_324]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Gen|Number=Sing|Person=3|Polarity=Pos||VerbForm=Vnoun'.
-[Line 37792 Sent news_324]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 37806 Sent pop_513]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 37806 Sent pop_513]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 37830 Sent ess_1233]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Polarity=Pos||VerbForm=Conv'.
-[Line 37830 Sent ess_1233]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 37830 Sent ess_1233 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 37856 Sent news_1942]: [L4 Morpho feature-value-upos-not-permitted] Value Gen of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 37856 Sent news_1942]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
@@ -3243,8 +3233,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 44368 Sent pop_1767]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #11 because the text is 'vard\u0131r.'.
 [Line 44413 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Polarity=Pos|Voice=Pass|VerbForm=Conv'.
 [Line 44416 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm=Part'.
-[Line 44418 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm?Part'.
-[Line 44418 Sent pop_1261]: [L2 Morpho invalid-feature] Spurious morphological feature: 'VerbForm?Part'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
+[Line 44418 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm=Part'.
 [Line 44439 Sent ins_267]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 44439 Sent ins_267]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 44440 Sent ins_267]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -3699,7 +3688,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 49280 Sent bio_949 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 49287 Sent bio_949 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 49287 Sent bio_949 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 49318 Sent news_412]: [L2 Morpho repeated-feature] Repeated features are disallowed: 'Polarity=Pos|Tense=Pres|VerbForm=Part|VerbForm=Part'.
 [Line 49331 Sent ess_466]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 49331 Sent ess_466]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 49331 Sent ess_466]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
@@ -5046,8 +5034,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 65376 Sent news_190]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 65404 Sent ess_557 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 65404 Sent ess_557 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 65425 Sent ins_1581]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun|Mood=Gen|VerbForm=Vnoun'.
-[Line 65425 Sent ins_1581]: [L2 Morpho repeated-feature] Repeated features are disallowed: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun|Mood=Gen|VerbForm=Vnoun'.
+[Line 65425 Sent ins_1581]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun'.
 [Line 65425 Sent ins_1581]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #16 because the text is 'demektir."'.
 [Line 65466 Sent ess_1043]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Mood=Gen'.
 [Line 65466 Sent ess_1043]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -5225,8 +5212,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 67423 Sent ess_583]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #10 because the text is 'çe\u015fitliliklerindendir.'.
 [Line 67421 Sent ess_583 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 67421 Sent ess_583 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 67457 Sent pop_1631]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Imp||Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass'.
-[Line 67457 Sent pop_1631]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 67462 Sent pop_1631 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 67462 Sent pop_1631 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 67500 Sent ins_264 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5623,8 +5608,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 73064 Sent news_1479]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past|Polarity=Pos'.
 [Line 73064 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 73064 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 73078 Sent ins_1256]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Mood=Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass|VerbForm=Vnoun'.
-[Line 73078 Sent ins_1256]: [L2 Morpho invalid-feature] Spurious morphological feature: 'Mood=Mood=Pot'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
+[Line 73078 Sent ins_1256]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass|VerbForm=Vnoun'.
 [Line 73069 Sent ins_1256 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
 [Line 73072 Sent ins_1256 Node 4]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
 [Line 73137 Sent ins_1129 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -6319,9 +6303,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 81649 Sent ins_359 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 81684 Sent ins_643 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 81684 Sent ins_643 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 81732 Sent bio_409]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 81732 Sent bio_409]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
-[Line 81732 Sent bio_409]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 81732 Sent bio_409]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #11 because the text is 'aittir.'.
 [Line 81774 Sent ins_680]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 81774 Sent ins_680]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
@@ -10005,6 +9987,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 Enhanced errors: 6
 Format errors: 36
 Metadata errors: 385
-Morpho errors: 5841
+Morpho errors: 5823
 Syntax errors: 3701
-*** FAILED *** with 9969 errors
+*** FAILED *** with 9951 errors

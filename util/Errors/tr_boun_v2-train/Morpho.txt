@@ -252,9 +252,7 @@
 [Line 13868 Sent bio_1552]: [L4 Morpho feature-upos-not-permitted] Feature Foreign is not permitted with UPOS NOUN in language [tr].
 [Line 13870 Sent bio_1552]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 14005 Sent news_1540]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14016 Sent news_1540]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 14016 Sent news_1540]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
-[Line 14016 Sent news_1540]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 14191 Sent ess_1449]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
 [Line 14225 Sent ess_57]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
 [Line 14272 Sent ins_902]: [L4 Morpho feature-value-unknown] Value RflPass is not documented for feature Voice in language [tr].
@@ -528,9 +526,7 @@
 [Line 30749 Sent bio_1507]: [L2 Morpho invalid-feature] Spurious morphological feature: 'Indef'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 30762 Sent ess_679]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 30762 Sent ess_679]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 30763 Sent ess_679]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 30763 Sent ess_679]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
-[Line 30763 Sent ess_679]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 30782 Sent ess_741]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Mood=Gen'.
 [Line 30782 Sent ess_741]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
 [Line 30908 Sent pop_1788]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Mood=Gen'.
@@ -824,14 +820,8 @@
 [Line 37687 Sent ins_921]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 37701 Sent ins_1241]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 37701 Sent ins_1241]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 37765 Sent news_912]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Dat|Number=Sing|Person=3|Polarity=Pos||VerbForm=Vnoun'.
-[Line 37765 Sent news_912]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
-[Line 37792 Sent news_324]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Gen|Number=Sing|Person=3|Polarity=Pos||VerbForm=Vnoun'.
-[Line 37792 Sent news_324]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 37806 Sent pop_513]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 37806 Sent pop_513]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 37830 Sent ess_1233]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Polarity=Pos||VerbForm=Conv'.
-[Line 37830 Sent ess_1233]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 37856 Sent news_1942]: [L4 Morpho feature-value-upos-not-permitted] Value Gen of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 37856 Sent news_1942]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 37856 Sent news_1942]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
@@ -1113,8 +1103,7 @@
 [Line 44288 Sent news_548]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 44413 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Polarity=Pos|Voice=Pass|VerbForm=Conv'.
 [Line 44416 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm=Part'.
-[Line 44418 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm?Part'.
-[Line 44418 Sent pop_1261]: [L2 Morpho invalid-feature] Spurious morphological feature: 'VerbForm?Part'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
+[Line 44418 Sent pop_1261]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|VerbForm=Part'.
 [Line 44439 Sent ins_267]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 44439 Sent ins_267]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 44440 Sent ins_267]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -1311,7 +1300,6 @@
 [Line 49169 Sent news_849]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
 [Line 49189 Sent news_1647]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 49189 Sent news_1647]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 49318 Sent news_412]: [L2 Morpho repeated-feature] Repeated features are disallowed: 'Polarity=Pos|Tense=Pres|VerbForm=Part|VerbForm=Part'.
 [Line 49331 Sent ess_466]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 49331 Sent ess_466]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 49340 Sent ins_622]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PRON in language [tr].
@@ -1921,8 +1909,7 @@
 [Line 65144 Sent news_557]: [L4 Morpho feature-value-unknown] Value Caus is not documented for feature Voice in language [tr].
 [Line 65164 Sent ess_409]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 65164 Sent ess_409]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 65425 Sent ins_1581]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun|Mood=Gen|VerbForm=Vnoun'.
-[Line 65425 Sent ins_1581]: [L2 Morpho repeated-feature] Repeated features are disallowed: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun|Mood=Gen|VerbForm=Vnoun'.
+[Line 65425 Sent ins_1581]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|Mood=Gen|VerbForm=Vnoun'.
 [Line 65466 Sent ess_1043]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Mood=Gen'.
 [Line 65466 Sent ess_1043]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 65507 Sent pop_655]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -1989,8 +1976,6 @@
 [Line 67410 Sent ess_682]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
 [Line 67427 Sent ess_583]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Abl|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|Mood=Gen'.
 [Line 67427 Sent ess_583]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 67457 Sent pop_1631]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Imp||Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass'.
-[Line 67457 Sent pop_1631]: [L2 Morpho invalid-feature] Spurious morphological feature: ''. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 67555 Sent bio_1242]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 67555 Sent bio_1242]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PROPN in language [tr].
 [Line 67787 Sent ess_865]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
@@ -2139,8 +2124,7 @@
 [Line 73064 Sent news_1479]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past|Polarity=Pos'.
 [Line 73064 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 73064 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 73078 Sent ins_1256]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Mood=Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass|VerbForm=Vnoun'.
-[Line 73078 Sent ins_1256]: [L2 Morpho invalid-feature] Spurious morphological feature: 'Mood=Mood=Pot'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
+[Line 73078 Sent ins_1256]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Case=Nom|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass|VerbForm=Vnoun'.
 [Line 73331 Sent bio_1283]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
 [Line 73431 Sent bio_154]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS CCONJ in language [tr].
 [Line 73433 Sent bio_154]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS CCONJ in language [tr].
@@ -2402,9 +2386,7 @@
 [Line 81607 Sent ins_95]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 81636 Sent ess_1698]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 81636 Sent ess_1698]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 81732 Sent bio_409]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Mood=Gen|_'.
 [Line 81732 Sent bio_409]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
-[Line 81732 Sent bio_409]: [L2 Morpho invalid-feature] Spurious morphological feature: '_'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 81774 Sent ins_680]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 81774 Sent ins_680]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 81774 Sent ins_680]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
@@ -3755,4 +3737,4 @@
 [Line 126598 Sent ins_593]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Mood=Pot|VerbForm=Part'.
 [Line 126629 Sent ins_416]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Mood=Pot'.
 [Line 126639 Sent ins_416]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Mood=Pot'.
-Morpho errors: 5841
+Morpho errors: 5823
