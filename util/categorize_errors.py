@@ -1,4 +1,8 @@
-import os, subprocess, sys, argparse
+import os
+import subprocess
+import sys
+import argparse
+import json
 
 THIS_DIR = os.path.realpath(os.path.dirname(__file__))
 
@@ -22,34 +26,29 @@ else:
         print("You did not use the 'ud-validation' flag for the validation script's path and it doesn't exist in the 'util' folder either. Aborting.")
         exit()
 lang = 'tr'
-output = subprocess.run([python_script, validation_script, f'--lang={lang}', '--max-err=0', conllu_filepath], capture_output=True, text=True).stderr
+output = subprocess.run([python_script, validation_script,
+                        f'--lang={lang}', '--max-err=0', conllu_filepath], capture_output=True, text=True).stderr
 if args.errors:
     error_folder = args.errors
 else:
     error_folder = os.path.join(THIS_DIR, 'Errors')
-if not os.path.exists(error_folder): os.mkdir(error_folder)
+if not os.path.exists(error_folder):
+    os.mkdir(error_folder)
 conllu_filename_without_ext = conllu_filename.replace('.conllu', '')
 treebank_error_folder = os.path.join(error_folder, conllu_filename_without_ext)
-if not os.path.exists(treebank_error_folder): os.mkdir(treebank_error_folder)
+if not os.path.exists(treebank_error_folder):
+    os.mkdir(treebank_error_folder)
 with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8', newline='\n') as f:
     f.write(output)
 
 lines = output.splitlines()
 error_types = ['Metadata', 'Syntax', 'Morpho', 'Format', 'Enhanced']
-disregard_l = [
-    # is not a/an copula/auxiliary verb
-    "'N/A' is not an auxiliary verb in language [tr]",
-    "'N/A' is not a copula in language [tr]",
-    "'y' is not an auxiliary verb in language [tr]",
-    "'y' is not a copula in language [tr]",
-
-    # Unknown DEPREL labels
-    "Unknown DEPREL label: 'dep:der'",
-    "Unknown DEPREL label: 'advcl:cond'",
-    "Unknown DEPREL label: 'obl:cl'",
-    "Unknown DEPREL label: 'discourse:q'",
-    "Unknown DEPREL label: 'obl:comp'"
-]
+disregard_l = []
+with open(os.path.join(THIS_DIR, 'disregard_list.json'), 'r', encoding='utf-8') as f:
+    disregard_d = json.load(f)
+for key in disregard_d.keys():
+    for label in disregard_d[key]['labels']:
+        disregard_l.append(label)
 lines_d = dict()
 for err_type in error_types:
     lines_d[err_type] = []
