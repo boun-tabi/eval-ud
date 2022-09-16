@@ -1,37 +1,19 @@
-[Line 26879 Sent ess_211]: [L1 Format overlapping-word-intervals] Range overlaps with others: 23-24
-[Line 30757 Sent bio_1507]: [L2 Format invalid-deps] Failed to parse DEPS: 'Indef'.
-[Line 30757 Sent bio_1507]: [L2 Format invalid-deps] Failed to parse DEPS: 'Indef'.
-[Line 30749 Sent bio_1507]: [L2 Format invalid-deps] Failed to parse DEPS: 'Indef'.
-[Line 32622 Sent bio_1948]: [L1 Format overlapping-word-intervals] Range overlaps with others: 10-11
-[Line 40720 Sent ess_1851]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 41027 Sent ess_989]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '0'.
-[Line 41137 Sent ess_517]: [L1 Format overlapping-word-intervals] Range overlaps with others: 20-21
-[Line 41917 Sent ins_344]: [L1 Format overlapping-word-intervals] Range overlaps with others: 8-9
-[Line 48324 Sent bio_466]: [L1 Format overlapping-word-intervals] Range overlaps with others: 9-10
-[Line 51123 Sent pop_1986]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=haz\u0131rla'.
-[Line 51123 Sent pop_1986]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=haz\u0131rla'.
-[Line 51121 Sent pop_1986]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=haz\u0131rla'.
-[Line 57893 Sent ins_59]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
-[Line 61502 Sent ins_1208]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 63122 Sent pop_1839]: [L1 Format overlapping-word-intervals] Range overlaps with others: 10-11
-[Line 69838 Sent ess_1324]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 73317 Sent ins_1823]: [L1 Format overlapping-word-intervals] Range overlaps with others: 2-3
-[Line 75277 Sent ess_1218]: [L1 Format overlapping-word-intervals] Range overlaps with others: 16-17
-[Line 87839 Sent pop_1557]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
-[Tree number 5521 on line 89558 Sent ess_27]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 98194 Sent ins_1592]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=ver'.
-[Line 98194 Sent ins_1592]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=ver'.
-[Line 98192 Sent ins_1592]: [L2 Format invalid-deps] Failed to parse DEPS: 'df=ver'.
-[Line 100085 Sent bio_1032]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '2'.
-[Line 101688 Sent ess_1156]: [L1 Format invalid-whitespace] White space not allowed in column FEATS: 'Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun oun'.
-[Line 102627 Sent ins_286]: [L1 Format overlapping-word-intervals] Range overlaps with others: 13-14
-[Line 104174 Sent ins_377]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Tree number 6804 on line 110331 Sent news_77]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 7039 on line 114034 Sent pop_486]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,4,5,6,7'. Expected '1,2,3,4,5,6'.
-[Line 114040 Sent pop_486]: [L1 Format word-interval-out] Spurious token interval 7-7 (out of range)
-[Tree number 7039 on line 114034 Sent pop_486]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 7380 on line 119395 Sent ess_493]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17,18,19'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'.
-[Line 119414 Sent ess_493]: [L1 Format word-interval-out] Spurious token interval 19-19 (out of range)
-[Tree number 7380 on line 119395 Sent ess_493]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 121097 Sent bio_1245]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-Format errors: 36
+[Line 40716 Sent ess_1851]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+[Line 41023 Sent ess_989]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '0'.
+[Line 41133 Sent ess_517]: [L1 Format overlapping-word-intervals] Range overlaps with others: 20-21
+[Line 41913 Sent ins_344]: [L1 Format overlapping-word-intervals] Range overlaps with others: 8-9
+[Line 48320 Sent bio_466]: [L1 Format overlapping-word-intervals] Range overlaps with others: 9-10
+[Line 57887 Sent ins_59]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
+[Line 61496 Sent ins_1208]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+[Line 63116 Sent pop_1839]: [L1 Format overlapping-word-intervals] Range overlaps with others: 10-11
+[Line 69832 Sent ess_1324]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+[Line 73311 Sent ins_1823]: [L1 Format overlapping-word-intervals] Range overlaps with others: 2-3
+[Line 75271 Sent ess_1218]: [L1 Format overlapping-word-intervals] Range overlaps with others: 16-17
+[Line 87833 Sent pop_1557]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
+[Tree number 5521 on line 89552 Sent ess_27]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 100079 Sent bio_1032]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '2'.
+[Line 102621 Sent ins_286]: [L1 Format overlapping-word-intervals] Range overlaps with others: 13-14
+[Line 104168 Sent ins_377]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+[Tree number 6804 on line 110325 Sent news_77]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 121093 Sent bio_1245]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
+Format errors: 18
