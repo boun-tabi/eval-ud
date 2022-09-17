@@ -1,19 +1,8 @@
-[Line 40716 Sent ess_1851]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 41023 Sent ess_989]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '0'.
-[Line 41133 Sent ess_517]: [L1 Format overlapping-word-intervals] Range overlaps with others: 20-21
-[Line 41913 Sent ins_344]: [L1 Format overlapping-word-intervals] Range overlaps with others: 8-9
-[Line 48320 Sent bio_466]: [L1 Format overlapping-word-intervals] Range overlaps with others: 9-10
-[Line 57887 Sent ins_59]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
-[Line 61496 Sent ins_1208]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 63116 Sent pop_1839]: [L1 Format overlapping-word-intervals] Range overlaps with others: 10-11
-[Line 69832 Sent ess_1324]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Line 73311 Sent ins_1823]: [L1 Format overlapping-word-intervals] Range overlaps with others: 2-3
-[Line 75271 Sent ess_1218]: [L1 Format overlapping-word-intervals] Range overlaps with others: 16-17
-[Line 87833 Sent pop_1557]: [L1 Format overlapping-word-intervals] Range overlaps with others: 4-5
-[Tree number 5521 on line 89552 Sent ess_27]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 100079 Sent bio_1032]: [L2 Format mwt-nonempty-field] A multi-word token line must have '_' in the column HEAD. Now: '2'.
-[Line 102621 Sent ins_286]: [L1 Format overlapping-word-intervals] Range overlaps with others: 13-14
-[Line 104168 Sent ins_377]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-[Tree number 6804 on line 110325 Sent news_77]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 121093 Sent bio_1245]: [L1 Format overlapping-word-intervals] Range overlaps with others: 11-12
-Format errors: 18
+[Tree number 6416 on line 104126 Sent ins_377]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,13,14,15'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14'.
+[Line 104142 Sent ins_377]: [L1 Format word-interval-out] Spurious token interval 15-15 (out of range)
+[Tree number 6416 on line 104126 Sent ins_377]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 7470 on line 121045 Sent bio_1245]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,19,20'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19'.
+[Line 121065 Sent bio_1245]: [L1 Format word-interval-out] Spurious token interval 20-20 (out of range)
+[Tree number 7470 on line 121045 Sent bio_1245]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 126633 Sent ins_946]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
+Format errors: 7

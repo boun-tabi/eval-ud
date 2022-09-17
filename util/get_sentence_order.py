@@ -29,10 +29,10 @@ for sentence in sentences:
             found = re.search(sent_id_pattern, line)
             if found:
                 sent_id = found.group(1)
-                order += 1
                 if sent_id == args.sent_id:
                     print('Order: {order}'.format(order=order))
                     sentence_found = True
                     break
+                order += 1
     if sentence_found:
         break
