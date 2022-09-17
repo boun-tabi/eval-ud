@@ -1,14 +1,12 @@
 [Line 61 Sent news_986 Node 15]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound:lvc'
 [Line 73 Sent pop_1916 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 73 Sent pop_1916 Node 6]: [L5 Syntax cop-lemma] 'ik' is not a copula in language [tr]
-[Line 127 Sent ess_1229 Node 17]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 166 Sent ins_1250 Node 13]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 182 Sent pop_539 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 365 Sent ins_139 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 374 Sent bio_284 Node 1]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 416 Sent news_1596 Node 2]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 571 Sent ins_1908 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 584 Sent bio_1064 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 711 Sent news_1 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 724 Sent ess_677 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
 [Line 725 Sent ess_677 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -23,7 +21,6 @@
 [Line 1061 Sent news_411 Node 1]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 1094 Sent pop_1571 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 1302 Sent bio_888 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 1310 Sent bio_888 Node 12]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 1365 Sent ess_586 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7, 8]
 [Line 1373 Sent ess_586 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:ya:cc --> 13:da:compound)
 [Line 1436 Sent ess_276 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4]
@@ -62,7 +59,6 @@
 [Line 3484 Sent ins_1419 Node 3]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
 [Line 3593 Sent ins_364 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 3632 Sent bio_1246 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 3625 Sent bio_1246 Node 4]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 3711 Sent news_1290 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 3725 Sent bio_921 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 3727 Sent bio_921 Node 4]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'flat'
@@ -86,9 +82,7 @@
 [Line 4840 Sent ess_245 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 4882 Sent news_881 Node 26]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 4899 Sent ess_1486 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 6, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 4922 Sent news_942 Node 4]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 4979 Sent bio_369 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 4981 Sent bio_369 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 5039 Sent ess_1223 Node 39]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
 [Line 5070 Sent news_1533 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 5085 Sent news_1533 Node 17]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
@@ -96,9 +90,7 @@
 [Line 5122 Sent pop_1306 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 5137 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:de\u011fildi:cop --> 19:Herhalde:advmod)
 [Line 5138 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:de\u011fildi:cop --> 20:maçta:obl)
-[Line 5139 Sent pop_1306 Node 21]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 5238 Sent ins_1880 Node 13]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 5266 Sent pop_233 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 5288 Sent ins_1294 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 5311 Sent bio_1018]: [L2 Syntax root-is-not-0] DEPREL cannot be 'root' if HEAD is not 0.
 [Line 5457 Sent ess_595 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -110,13 +102,11 @@
 [Line 5787 Sent news_429 Node 6]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 5796 Sent news_429 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 5815 Sent bio_975 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
-[Line 5820 Sent bio_975 Node 15]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 6003 Sent ess_337 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
 [Line 6003 Sent ess_337 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23]
 [Line 6008 Sent ess_337 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:ya:cc --> 9:da:compound)
 [Line 6192 Sent bio_692 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 6233 Sent bio_585 Node 18]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 6313 Sent ess_510 Node 5]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 6359 Sent bio_952 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 6449 Sent ins_672 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 6592 Sent bio_1047 Node 1]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'CCONJ'
@@ -143,7 +133,6 @@
 [Line 8066 Sent news_485 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 8087 Sent news_1060 Node 6]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 8115 Sent ess_13 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 8172 Sent bio_469 Node 3]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 8288 Sent ess_961 Node 14]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 8359 Sent ess_1862 Node 26]: [L3 Syntax rel-upos-cc] 'cc' should not be 'AUX'
 [Line 8358 Sent ess_1862 Node 26]: [L3 Syntax leaf-cc] 'cc' not expected to have children (26:de\u011fil:cc --> 25:toprak:compound)
@@ -152,7 +141,6 @@
 [Line 8387 Sent ess_645 Node 16]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 8396 Sent ess_645 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 8452 Sent ess_288 Node 8]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
-[Line 8458 Sent ess_288 Node 14]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 8469 Sent ins_952 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 8513 Sent news_187 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 8525 Sent news_187 Node 14]: [L3 Syntax leaf-cc] 'cc' not expected to have children (14:ya:cc --> 15:da:compound)
@@ -174,7 +162,6 @@
 [Line 8835 Sent pop_1484 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
 [Line 8840 Sent pop_1484 Node 6]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
 [Line 8904 Sent ess_628 Node 3]: [L5 Syntax cop-lemma] 'm\u0131' is not a copula in language [tr]
-[Line 8915 Sent news_1293 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 8920 Sent bio_946 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 8968 Sent ins_700 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 8990 Sent ess_442 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -224,14 +211,12 @@
 [Line 11219 Sent ess_17 Node 5]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
 [Line 11241 Sent bio_1805 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
 [Line 11270 Sent pop_556 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 11294 Sent news_1221 Node 11]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 11598 Sent ins_1500 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 11661 Sent ess_753 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 11666 Sent ess_753 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 11670 Sent ess_753 Node 15]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
 [Line 11748 Sent pop_1292 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 11766 Sent news_200 Node 1]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 11810 Sent news_938 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 11940 Sent ess_700 Node 12]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 11972 Sent bio_1208 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 11985 Sent bio_1208 Node 24]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
@@ -276,7 +261,6 @@
 [Line 13513 Sent ess_726 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 13545 Sent pop_668 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 13627 Sent ins_709 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 13627 Sent ins_709 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
 [Line 13658 Sent ins_1270 Node 8]: [L5 Syntax cop-lemma] 'dür' is not a copula in language [tr]
 [Line 13795 Sent bio_1506 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 [Line 13821 Sent news_892 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
