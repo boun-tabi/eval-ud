@@ -407,8 +407,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5569 Sent ess_1138]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 5584 Sent ess_1138]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Number=Sing|Person=3|Mood=Gen|Polarity=Pos'.
 [Line 5584 Sent ess_1138]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 5562 Sent ess_1138]: [L2 Syntax head-self-loop] HEAD == ID for 6
-[Tree number 354 on line 5557 Sent ess_1138]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 5586 Sent ess_1138 Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29]
 [Line 5643 Sent bio_630]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
 [Line 5658 Sent news_904]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 5692 Sent pop_1006]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
@@ -998,8 +997,13 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15728 Sent ess_1249]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
 [Line 15734 Sent ess_1249]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
 [Line 15747 Sent ess_1249]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
-[Line 15714 Sent ess_1249]: [L2 Syntax head-self-loop] HEAD == ID for 2
-[Tree number 1001 on line 15713 Sent ess_1249]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 15721 Sent ess_1249 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 15755 Sent ess_1249 Node 41]: [L3 Syntax leaf-punct] 'punct' not expected to have children (41:,:punct --> 42:o:det)
+[Line 15762 Sent ess_1249 Node 48]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [30, 47]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15737 Sent ess_1249 Node 24]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 15737 Sent ess_1249 Node 24]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 15763 Sent ess_1249 Node 49]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 15763 Sent ess_1249 Node 49]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 15782 Sent ess_1053]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'obl:cl'
 [Line 15807 Sent ins_320]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
 [Line 15807 Sent ins_320]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -9852,9 +9856,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126599 Sent ins_416]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Mood=Pot'.
 [Line 126609 Sent ins_416]: [L2 Morpho unsorted-features] Morphological features must be sorted: 'Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|Mood=Pot'.
 [Line 126626 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 126633 Sent ins_946]: [L1 Format non-unix-newline] Only the unix-style LF line terminator is allowed.
-Format errors: 3
 Metadata errors: 367
-Morpho errors: 5795
-Syntax errors: 3655
-*** FAILED *** with 9820 errors
+Morpho errors: 5797
+Syntax errors: 3659
+*** FAILED *** with 9823 errors

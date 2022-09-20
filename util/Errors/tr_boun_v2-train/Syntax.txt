@@ -3,7 +3,7 @@
 [Line 3966 Sent ess_48 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 5124 Sent pop_211 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 5275 Sent bio_1247 Node 16]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 5562 Sent ess_1138]: [L2 Syntax head-self-loop] HEAD == ID for 6
+[Line 5586 Sent ess_1138 Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29]
 [Line 5908 Sent bio_135 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 6203 Sent ess_1715 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 6845 Sent ess_207 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
@@ -20,7 +20,9 @@
 [Line 15061 Sent ins_469 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 15354 Sent bio_806 Node 23]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 15515 Sent bio_558 Node 19]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 15714 Sent ess_1249]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 15721 Sent ess_1249 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 15755 Sent ess_1249 Node 41]: [L3 Syntax leaf-punct] 'punct' not expected to have children (41:,:punct --> 42:o:det)
+[Line 15762 Sent ess_1249 Node 48]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [30, 47]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 17036 Sent ess_967 Node 17]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16]
 [Line 17552 Sent ess_1367 Node 14]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 17681 Sent ess_1900 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
@@ -747,4 +749,4 @@
 [Line 126173 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 8:ve:cc)
 [Line 126175 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 10:ekonomisini:obj)
 [Line 126176 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 11:olumsuz:advmod)
-Syntax errors: 3655
+Syntax errors: 3659
