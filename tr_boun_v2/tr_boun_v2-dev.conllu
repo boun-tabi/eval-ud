@@ -260,7 +260,7 @@
 11	.	.	PUNCT	Stop	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1201
-# text = "Refah lı başkan travestilerle yakalanmış.
+# text = "Refahlı başkan travestilerle yakalanmış.
 1	"	"	PUNCT	Punc	_	0	root	_	SpaceAfter=No
 2	Refahlı	refahlı	ADJ	Adj	_	4	nmod	_	df=refah
 3	başkan	başkan	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
@@ -398,7 +398,7 @@
 5	.	.	PUNCT	Stop	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1412
-# text = Faili meçhul cinayet kurbanları için yıllar dır karanlığa kurşun sıkılıyor.
+# text = Faili meçhul cinayet kurbanları için yıllardır karanlığa kurşun sıkılıyor.
 1	Faili	fail	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	amod	_	_
 2	meçhul	meçhul	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 3	cinayet	cinayet	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
@@ -890,7 +890,7 @@
 10	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1413
-# text = Alkolün bir tanımlaması da şudur:"Yiğidisustururamakorkağıcoşturur."Yanişişededurduğugibidurmaz.
+# text = Alkolün bir tanımlaması da şudur: "Yiğidi susturur ama korkağı coşturur." Yani şişede durduğu gibi durmaz.
 1	Alkolün	alkol	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
 3	tanımlaması	tanımla	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	5	nsubj	_	_
@@ -1145,7 +1145,7 @@
 2	...	...	PUNCT	TDots	_	1	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_1168
-# text = O, kişisel ve günlük siyaset yerine her zaman uzun vade li düşünen, siyaseti halkın yaşamını iyileştirmek, adalet li bir toplum ve dünya yaratmak olarak anlayan bir siyasetçiydi.
+# text = O, kişisel ve günlük siyaset yerine her zaman uzun vadeli düşünen, siyaseti halkın yaşamını iyileştirmek, adaletli bir toplum ve dünya yaratmak olarak anlayan bir siyasetçiydi.
 1	O	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	28	punct	_	_
 3	kişisel	kişisel	ADJ	Adj	_	6	amod	_	df=kişi
@@ -2153,7 +2153,7 @@
 11	.	.	PUNCT	Stop	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = ess_455
-# text = İçinden de şöyle diyordu: Hangi ilim adamı üniversitede ki yoksul öğrencisine parasız ders verir, kaç tane talebesine yardımda bulunur?
+# text = İçinden de şöyle diyordu: Hangi ilim adamı üniversitedeki yoksul öğrencisine parasız ders verir, kaç tane talebesine yardımda bulunur?
 1	İçinden	iç	ADJ	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	şöyle	şöyle	ADV	_	_	4	obj	_	_
@@ -2321,7 +2321,7 @@
 12	.	.	PUNCT	Stop	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1330
-# text = Avşar Beyleri türküsünde, "Karşıda düşmanların bakışıp durur," diyor ya, karşıda ki düşmanı da, bakışını da saptadı.
+# text = Avşar Beyleri türküsünde, "Karşıda düşmanların bakışıp durur," diyor ya, karşıdaki düşmanı da, bakışını da saptadı.
 1	Avşar	Avşar	PROPN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	Beyleri	bey	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
 3	türküsünde	Türkü	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	SpaceAfter=No
@@ -2371,7 +2371,7 @@
 10	.	.	PUNCT	Stop	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1302
-# text = Dünya ve yüzeyinde ki varoluş, vizyon realitedir.
+# text = Dünya ve yüzeyindeki varoluş, vizyon realitedir.
 1	Dünya	Dünya	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	ve	ve	CCONJ	Conj	_	5	cc	_	_
 3-4	yüzeyindeki	_	_	_	_	_	_	_	_
@@ -2869,7 +2869,7 @@
 23	.	.	PUNCT	Stop	_	22	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1988
-# text = Bir öğle yemeği dönüşü, odamda ellerini ensesinde bağlamış uyuyan bir zenci buldum, hemen tanıdım, Dizzy Gillespie 'ydi bu.
+# text = Bir öğle yemeği dönüşü, odamda ellerini ensesinde bağlamış uyuyan bir zenci buldum, hemen tanıdım, Dizzy Gillespie'ydi bu.
 1	Bir	bir	DET	Indef	_	4	det	_	_
 2	öğle	öğle	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	yemeği	yemek	NOUN	_	Case=Acc|Number=Sing|Person=3	4	nmod:poss	_	_
@@ -3553,7 +3553,7 @@
 13	.	.	PUNCT	Stop	_	12	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1597
-# text = Büyük çoğunluğu oluşturan herkesin bir kaynama noktası ve bede li var...
+# text = Büyük çoğunluğu oluşturan herkesin bir kaynama noktası ve bedeli var...
 1	Büyük	büyük	ADJ	Adj	_	2	amod	_	_
 2	çoğunluğu	çoğunluk	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 3	oluşturan	oluş	VERB	_	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	6	acl	_	_
@@ -3854,7 +3854,7 @@
 13	.	.	PUNCT	Stop	_	12	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1719
-# text = Bir yandan da "Buranın çıkışı vardır,buradayılanvardır"diyedüşünüpkendikendimegülüyorum.
+# text = Bir yandan da "Buranın çıkışı vardır, burada yılan vardır" diye düşünüp kendi kendime gülüyorum.
 1	bir	bir	DET	Indef	_	19	advmod	_	_
 2	yandan	yan	ADJ	_	Case=Abl|Number=Sing|Person=3	1	compound	_	_
 3	da	da	ADV	Emph	_	1	advmod:emph	_	_
@@ -4204,7 +4204,7 @@
 20	.	.	PUNCT	Stop	_	18	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1575
-# text = Cafe Armani'de kapuçino içmek zorunda olduğum karşılıklı,biradetdahiBotoksKadınıyokhayatımda.
+# text = Cafe Armani'de kapuçino içmek zorunda olduğum karşılıklı, bir adet dahi Botoks Kadını yok hayatımda.
 1	Cafe	Cafe	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
 2	Armani'de	Armani	PROPN	_	Case=Loc|Number=Sing|Person=3	1	flat	_	_
 3	kapuçino	kapuçino	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
@@ -4248,7 +4248,7 @@
 13	.	.	PUNCT	Stop	_	12	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_330
-# text = Kıskançlıklarla, kuşkularla, hesaplaşmalarla süren sancılı bir aşkın orta yerinde ki bir sevişmeden sonra adam odadan çıktığında başlayan bir hava bombardımanında ev isabet alıyor ve adamın biraz önce geçtiği bölüm çöküyor.
+# text = Kıskançlıklarla, kuşkularla, hesaplaşmalarla süren sancılı bir aşkın orta yerindeki bir sevişmeden sonra adam odadan çıktığında başlayan bir hava bombardımanında ev isabet alıyor ve adamın biraz önce geçtiği bölüm çöküyor.
 1	Kıskançlıklarla	kıskançlık	NOUN	_	Case=Ins|Number=Plur|Person=3	6	obl	_	df=kıskanç|SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
 3	kuşkularla	kuşku	NOUN	_	Case=Ins|Number=Plur|Person=3	1	conj	_	SpaceAfter=No
@@ -4397,7 +4397,7 @@
 4	.	.	PUNCT	Stop	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = ess_364
-# text = "Sen benim hiçbir şeyim olmayacaksın ve ben senin hiçbir şeyin olmayacağım" deyişteki korkunç vazgeçiş, hep biraz uzakta kalıp arada ki bağın, kararlarla, sözlerle, açıklamalarla, nikâh kâğıtlarına atılan imzalarla, birbirinin sahibi olabilmek için duyulan isteklerle değil de yalnızca karşısındakine hissedilen sevgiyle sürebileceğine olan muhteşem inanç, bir aşkı bir buçuk asır sonra da hatırlanır kılıyor elbet.
+# text = "Sen benim hiçbir şeyim olmayacaksın ve ben senin hiçbir şeyin olmayacağım" deyişteki korkunç vazgeçiş, hep biraz uzakta kalıp aradaki bağın, kararlarla, sözlerle, açıklamalarla, nikâh kâğıtlarına atılan imzalarla, birbirinin sahibi olabilmek için duyulan isteklerle değil de yalnızca karşısındakine hissedilen sevgiyle sürebileceğine olan muhteşem inanç, bir aşkı bir buçuk asır sonra da hatırlanır kılıyor elbet.
 1	"	"	PUNCT	Punc	_	63	punct	_	SpaceAfter=No
 2	Sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2	63	nsubj	_	_
 3	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1	63	nmod	_	_
@@ -4502,7 +4502,7 @@
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1774
-# text = Herkes önünde ki en iyi seçeneğin bu gün, bu saatte, bu yerden, bilet alınan yere yapılacak bu yolculuk olduğuna inanmıştı.
+# text = Herkes önündeki en iyi seçeneğin bu gün, bu saatte, bu yerden, bilet alınan yere yapılacak bu yolculuk olduğuna inanmıştı.
 1	Herkes	herkes	NOUN	_	Case=Nom|Number=Sing|Person=3	23	nsubj	_	_
 2-3	önündeki	_	_	_	_	_	_	_	_
 2	önünde	ön	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	amod	_	_
@@ -4604,7 +4604,7 @@
 9	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1070
-# text = Tam da dediği gibi,"Bu, hükümetin kararı. " Demek ki, Silah lı Kuvvetler'e susmak ve seçilmiş hükümetin verdiği emirleri ses çıkarmadan yerine getirmek düşer.
+# text = Tam da dediği gibi,"Bu, hükümetin kararı. " Demek ki, Silahlı Kuvvetler'e susmak ve seçilmiş hükümetin verdiği emirleri ses çıkarmadan yerine getirmek düşer.
 1	Tam	tam	ADV	_	_	3	advmod	_	_
 2	da	da	ADV	Emph	_	1	advmod:emph	_	_
 3	dediği	de	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	7	acl	_	_
@@ -4740,7 +4740,7 @@
 10	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1341
-# text = Ve "yanıtlar rüzgârda uçuşuyor. " Bazen, o rahatsızlık, Böcek'te olduğu gibi, yani kapalı kapta ki suyun kaynama noktasına geldiğinde kazanı patlatması gibi ortaya çıkar ve bir çırpıda somutlaşır.
+# text = Ve "yanıtlar rüzgârda uçuşuyor. " Bazen, o rahatsızlık, Böcek'te olduğu gibi, yani kapalı kaptaki suyun kaynama noktasına geldiğinde kazanı patlatması gibi ortaya çıkar ve bir çırpıda somutlaşır.
 1	Ve	ve	CCONJ	Conj	_	0	root	_	_
 2	"	"	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
 3	yanıtlar	yanıt	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
@@ -5897,7 +5897,7 @@
 16	.	.	PUNCT	Stop	_	15	punct	_	SpacesAfter=\n
 
 # sent_id = bio_417
-# text = Barış daha 19 yaşında ymış o zaman...
+# text = Barış daha 19 yaşındaymış o zaman...
 1	Barış	barış	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 2	daha	daha	ADV	_	_	3	advmod	_	_
 3	19	19	NUM	ANum	NumType=Card	4	nummod	_	_
@@ -6317,7 +6317,7 @@
 9	...	...	PUNCT	TDots	_	8	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_609
-# text = İnsanlar ise yer yemez zehirlenip ölüyorlarmış! Birimizin kalbi ötekinde acı Arabaların çoğu eski, bakımsız, eksikli,noksanlı...
+# text = İnsanlar ise yer yemez zehirlenip ölüyorlarmış! Birimizin kalbi ötekinde acı Arabaların çoğu eski, bakımsız, eksikli, noksanlı...
 1	İnsanlar	insan	NOUN	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 2	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	1	discourse	_	_
 3	yer	yer	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	6	advcl	_	_
@@ -7589,7 +7589,7 @@
 26	.	.	PUNCT	Stop	_	23	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1572
-# text = Olamaz, çünkü üretimin küresel olduğu, hiçbir ülkenin kendine yeterli olmadığı bir dünyada, ulusal bağımsızlık uygulanabilir liği olmayan, afa ki bir amaçtır.
+# text = Olamaz, çünkü üretimin küresel olduğu, hiçbir ülkenin kendine yeterli olmadığı bir dünyada, ulusal bağımsızlık uygulanabilirliği olmayan, afaki bir amaçtır.
 1	Olamaz	ol	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	çünkü	çünkü	SCONJ	_	_	23	cc	_	_
@@ -7671,7 +7671,7 @@
 12	.	.	PUNCT	Stop	_	10	punct	_	SpacesAfter=\n
 
 # sent_id = ess_651
-# text = Hasan tam ocağın önünde ydi ve ilk gürültüyü duydu.
+# text = Hasan tam ocağın önündeydi ve ilk gürültüyü duydu.
 1	Hasan	Hasan	PROPN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
 2	tam	tam	ADV	_	_	4	advmod	_	_
 3	ocağın	ocak	NOUN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
@@ -7849,7 +7849,7 @@
 5	.	.	PUNCT	Stop	_	4	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_480
-# text = Kitap korsanlığı varken,yazmakneye?
+# text = Kitap korsanlığı varken, yazmak neye?
 1	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	korsanlığı	korsanlık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3-4	varken	_	_	_	_	_	_	_	SpaceAfter=No
@@ -7992,7 +7992,7 @@
 9	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1750
-# text = Oysa, ortalığı boş bulup, Bahçeşehir'di,KemerCountryidi,çalışançağdaşinsanasaygısızlıksayılabilecekişlerisergileyenleroldu.
+# text = Oysa, ortalığı boş bulup, Bahçeşehir'di, Kemer Country idi, çalışan çağdaş insana saygısızlık sayılabilecek işleri sergileyenler oldu.
 1	Oysa	oysa	CCONJ	Conj	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	7	punct	_	_
 3	ortalığı	ortalık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
@@ -8110,7 +8110,7 @@
 29	.	.	PUNCT	Stop	_	28	punct	_	SpacesAfter=\n
 
 # sent_id = ess_13
-# text = Günler dir yoksun.
+# text = Günlerdir yoksun.
 1-2	Günlerdir	_	_	_	_	_	_	_	_
 1	Günler	gün	NOUN	_	Case=Nom|Number=Plur|Person=3	3	advmod	_	_
 2	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
@@ -8173,7 +8173,7 @@
 4	...	...	PUNCT	TDots	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1873
-# text = Tüm, "Dağdan gelip, bağda kini kovma" çabaları bu yüzden meşruluk maskesine büründürülmedi mi?
+# text = Tüm, "Dağdan gelip, bağdakini kovma" çabaları bu yüzden meşruluk maskesine büründürülmedi mi?
 1	Tüm	tüm	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	16	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	16	punct	_	_
 3	"	"	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
@@ -8270,7 +8270,7 @@
 8	.	.	PUNCT	Stop	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ess_961
-# text = Biri, Gazap Üzümleri'nde ki kadın gibi süt dolu memeleriyle aç bir adamı emzirmeli, biri, Umut romanında ki çılgın cumhuriyetçiler gibi, sokağın başını tutan faşistlerin, topunun üstüne, bir kamyona binip canlı bir el bombası gibi bindirmeli.
+# text = Biri, Gazap Üzümleri'ndeki kadın gibi süt dolu memeleriyle aç bir adamı emzirmeli, biri, Umut romanındaki çılgın cumhuriyetçiler gibi, sokağın başını tutan faşistlerin, topunun üstüne, bir kamyona binip canlı bir el bombası gibi bindirmeli.
 1	Biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	14	punct	_	_
 3	Gazap	gazap	PROPN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
@@ -8657,7 +8657,7 @@
 5	!	!	PUNCT	Excl	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = ess_230
-# text = AŞK, MEŞK, ÇIKMA, AYARTMA VE SONUÇ: EVLİLİK Zil sesi miydi, yok sa bir düş mü ydü hiç düşünmedi...
+# text = AŞK, MEŞK, ÇIKMA, AYARTMA VE SONUÇ: EVLİLİK Zil sesi miydi, yoksa bir düş müydü hiç düşünmedi...
 1	AŞK	aşk	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
 3	MEŞK	meşk	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
@@ -8775,7 +8775,7 @@
 20	.	.	PUNCT	Stop	_	19	punct	_	SpacesAfter=\n
 
 # sent_id = ess_329
-# text = Birkaç yıldır,Kürt,Kıbrıs,Ermenivediğerazınlıksorunlarının,AB'yegirişin,İslamcıkökenlibirpartininiktidaragelişininetkisiylevebunlaratepkiolarak,milliyetçilikyükselmeyebaşladı.
+# text = Birkaç yıldır, Kürt, Kıbrıs, Ermeni ve diğer azınlık sorunlarının, AB'ye girişin, İslamcı kökenli bir partinin iktidara gelişinin etkisiyle ve bunlara tepki olarak, milliyetçilik yükselmeye başladı.
 1	Birkaç	birkaç	DET	Det	_	2	det	_	_
 2-3	yıldır	_	_	_	_	_	_	_	SpaceAfter=No
 2	yıl	yıl	NOUN	_	Case=Nom|Number=Sing|Person=3	32	advmod	_	_
@@ -9554,7 +9554,7 @@
 48	.	.	PUNCT	Stop	_	47	punct	_	SpacesAfter=\n
 
 # sent_id = ess_548
-# text = Ve bir gün kuşlar sabahı ben siz çağırana kadar da beklediğim birşeyler olacaktı.
+# text = Ve bir gün kuşlar sabahı bensiz çağırana kadar da beklediğim birşeyler olacaktı.
 1	Ve	ve	CCONJ	Conj	_	13	conj	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
 3	gün	gün	NOUN	_	Case=Nom|Number=Sing|Person=3	13	obl	_	_
@@ -10761,7 +10761,7 @@
 33	.	.	PUNCT	Stop	_	32	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1681
-# text = O varlıkların insan görüntüsünü ben mi yaratıyorum, yok sa Dünya boyutu içinde ki boyut varlıkları oldukları için mi insana benziyorlar?
+# text = O varlıkların insan görüntüsünü ben mi yaratıyorum, yoksa Dünya boyutu içindeki boyut varlıkları oldukları için mi insana benziyorlar?
 1	O	o	DET	Det	_	2	det	_	_
 2	varlıkların	varlık	NOUN	_	Case=Gen|Number=Plur|Person=3	4	nmod:poss	_	df=var
 3	insan	insan	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
@@ -10807,7 +10807,7 @@
 16	.	.	PUNCT	Stop	_	14	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1565
-# text = Hafif hafif yağmur çiseliyordu,akşam üstüydü,düğünalayıköyegirdi.
+# text = Hafif hafif yağmur çiseliyordu, akşam üstüydü, düğün alayı köye girdi.
 1	Hafif	hafif	ADV	_	_	4	advmod	_	_
 2	hafif	hafif	ADV	_	_	1	compound:redup	_	_
 3	yağmur	yağmur	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
@@ -11210,7 +11210,7 @@
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_17
-# text = Yalnızca yanımızda biri var ken başımızı dayamaya ihtiyaç duyarız.
+# text = Yalnızca yanımızda biri varken başımızı dayamaya ihtiyaç duyarız.
 1	Yalnızca	yalnızca	ADV	_	_	4	advmod	_	_
 2	yanımızda	yan	ADJ	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	3	amod	_	_
 3	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
@@ -11651,7 +11651,7 @@
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_753
-# text = Gerçek olmayan birinin kılığına girerken, onun gibi konuşurken, hatta onun gibi düşünür ken kendi gerçek kimliğine ne oluyor, o gerçek kimlik nereye saklanıyor?
+# text = Gerçek olmayan birinin kılığına girerken, onun gibi konuşurken, hatta onun gibi düşünürken kendi gerçek kimliğine ne oluyor, o gerçek kimlik nereye saklanıyor?
 1	Gerçek	gerçek	ADJ	Adj	Case=Nom|Number=Sing|Person=3	2	obj	_	_
 2	olmayan	ol	VERB	Ptcp	Polarity=Neg|Tense=Pres|VerbForm=Part	3	acl	_	_
 3	birinin	biri	PRON	Quant	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
@@ -12064,7 +12064,7 @@
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1785
-# text = Buna karşılık, ayrıntılı,derinlemesineyololacakbirokuma,ayrımlarınbuncanet,kesinolmadığınıgösteriyor:Cennetlevhasındacennetimgesiyle,imgeninbildiktanımlarıbetimleriileçelişenögelergözeçarpıyoröylebakıldığında;Cehennemlevhasındadabenzerbirdurumsözkonusu.
+# text = Buna karşılık, ayrıntılı, derinlemesine yol olacak bir okuma, ayrımların bunca net, kesin olmadığını gösteriyor: Cennet levhasında cennet imgesiyle, imgenin bildik tanımları betimleri ile çelişen ögeler göze çarpıyor öyle bakıldığında; Cehennem levhasında da benzer bir durum söz konusu.
 1	Buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3	2	nmod	_	_
 2	karşılık	karşılık	NOUN	_	Case=Nom|Number=Sing|Person=3	18	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	8	punct	_	_
@@ -12751,7 +12751,7 @@
 12	.	.	PUNCT	Stop	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = bio_117
-# text = Örneğin salnamelerde ki sayısal bilgiler bile din temeline göre, yani "Müslim", "Gayri müslim" vb.
+# text = Örneğin salnamelerdeki sayısal bilgiler bile din temeline göre, yani "Müslim", "Gayri müslim" vb.
 1	Örneğin	örnek	CCONJ	Conj	Case=Gen|Number=Sing|Person=3	8	discourse	_	_
 2-3	salnamelerdeki	_	_	_	_	_	_	_	_
 2	salnamelerde	salname	NOUN	_	Case=Loc|Number=Plur|Person=3	5	amod	_	_
@@ -12808,7 +12808,7 @@
 9	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = ess_900
-# text = Ay lardır "Defile yaz, moda yaz, gittiğin davetleri yaz" (sanki her gece o kokteyl senin, bu davet benim geziyormuşum gibi) diye, üzerimde psikolojik baskı uygulayan, çoğunluğu kadın, gazeteci arkadaşların gönlünü hoş etmek için gözlem yapmaya başladım.
+# text = Aylardır "Defile yaz, moda yaz, gittiğin davetleri yaz" (sanki her gece o kokteyl senin, bu davet benim geziyormuşum gibi) diye, üzerimde psikolojik baskı uygulayan, çoğunluğu kadın, gazeteci arkadaşların gönlünü hoş etmek için gözlem yapmaya başladım.
 1	Aylardır	aylardır	ADV	_	_	32	advmod	_	_
 2	"	"	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
 3	Defile	defile	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
@@ -12915,7 +12915,7 @@
 15	.	.	PUNCT	Stop	_	13	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1578
-# text = Öte yandan köşklerin yazgısı, yakların kinden çok daha parlak değil.
+# text = Öte yandan köşklerin yazgısı, yaklarınkinden çok daha parlak değil.
 1	Öte	öte	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obl	_	_
 2	yandan	yan	ADJ	_	Case=Abl|Number=Sing|Person=3	11	amod	_	_
 3	köşklerin	köşk	NOUN	_	Case=Gen|Number=Plur|Person=3	4	nmod:poss	_	_
@@ -13110,7 +13110,7 @@
 13	.	.	PUNCT	Stop	_	11	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1727
-# text = Yok sa gereğini yapın...
+# text = Yoksa gereğini yapın...
 1-2	Yoksa	_	_	_	_	_	_	_	_
 1	Yok	yok	NOUN	Exist	Number=Sing|Person=3|Polarity=Neg	4	amod	_	_
 2	sa	i	AUX	Zero	Aspect=Perf|Mood=Cnd|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
@@ -13119,7 +13119,7 @@
 5	...	...	PUNCT	TDots	_	4	punct	_	SpacesAfter=\r\n
 
 # sent_id = bio_1557
-# text = Dedemin huyu belliydi,kafayıbuluncaillakidediğiolacak.
+# text = Dedemin huyu belliydi, kafayı bulunca illa ki dediği olacak.
 1	Dedemin	Dede	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	nmod:poss	_	_
 2	huyu	huy	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3-4	belliydi	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13346,7 +13346,7 @@
 3	.	.	PUNCT	Stop	_	2	punct	_	SpacesAfter=\n
 
 # sent_id = bio_662
-# text = Onu babama benzetir benzetmez dikleniveriyor: "Sanki," diyor bana, "aşkını içinize gömdüğünüz Oktay Rıfat nedir?Karısınıherkestenkıskanıyor!."
+# text = Onu babama benzetir benzetmez dikleniveriyor: "Sanki," diyor bana, "aşkını içinize gömdüğünüz Oktay Rıfat nedir? Karısını herkesten kıskanıyor!."
 1	Onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 2	babama	baba	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	iobj	_	_
 3	benzetir	benze	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|Voice=Cau	5	advcl	_	_
@@ -13500,7 +13500,7 @@
 9	)	)	PUNCT	Punc	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = ess_726
-# text = Ortada bir toplum varsa, insanların karşılık lı saygı çerçevesi içinde birbirlerine eleştiri de olmalıdır.
+# text = Ortada bir toplum varsa, insanların karşılıklı saygı çerçevesi içinde birbirlerine eleştiri de olmalıdır.
 1	Ortada	orta	ADJ	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
 3	toplum	toplum	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
@@ -14512,7 +14512,7 @@
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\n
 
 # sent_id = ess_1717
-# text = Tevekke li değil bütün artizler, mankenler, "Söylediklerimizi yazmıyorlar, çarpıtıyorlar!" deyip duruyor.
+# text = Tevekkeli değil bütün artizler, mankenler, "Söylediklerimizi yazmıyorlar, çarpıtıyorlar!" deyip duruyor.
 1	Tevekkeli	tevekkeli	INTJ	_	_	2	discourse	_	_
 2	değil	değil	AUX	Overt	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
 3	bütün	bütün	ADJ	Adj	_	4	det	_	_
@@ -15383,4 +15383,5 @@
 3	"	"	PUNCT	Punc	_	2	punct	_	_
 4	denemez	dene	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	Stop	_	4	punct	_	SpacesAfter=\n
+
 
