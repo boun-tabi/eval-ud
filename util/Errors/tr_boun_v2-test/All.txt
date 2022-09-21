@@ -658,583 +658,582 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 7653 Sent ess_1546]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 7680 Sent news_992 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 7680 Sent news_992 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 7722 Sent pop_1141]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 7729 Sent pop_1141]: [L1 Format overlapping-word-intervals] Range overlaps with others: 2-3
-[Line 7719 Sent pop_1141]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[2-3] is 'Geçmi\u015fya\u015famdaki' but text is 'arkada\u015flar\u0131ndan hayatta olan var m\u0131...'
-[Line 7727 Sent pop_1141 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 7737 Sent pop_1827]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 7751 Sent ess_1880 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 7763 Sent ins_1724]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #3-4 because the text is 'kimlerdir?'.
-[Line 7771 Sent ess_298]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 7776 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 7776 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 7788 Sent bio_1331]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 7817 Sent ins_970]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 7817 Sent ins_970]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 7818 Sent ins_970 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 7818 Sent ins_970 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 7846 Sent ins_291]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 7836 Sent ins_291 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 7854 Sent ins_1103 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 7877 Sent ess_97 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 7881 Sent ess_97 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 7881 Sent ess_97 Node 5]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 7901 Sent ess_960]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 7954 Sent news_716]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 7962 Sent news_716]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 7962 Sent news_716]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 7952 Sent news_716 Node 13]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
-[Line 7983 Sent ess_1875 Node 15]: [L5 Morpho aux-lemma] 't\u0131r' is not an auxiliary verb in language [tr]
-[Line 7983 Sent ess_1875 Node 15]: [L5 Syntax cop-lemma] 't\u0131r' is not a copula in language [tr]
-[Line 7988 Sent bio_1923]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir an duraks\u0131yorlar....'
-[Line 7992 Sent bio_1923]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir an duraks\u0131yorlar.'
-[Line 8025 Sent news_1819]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 8027 Sent news_1819]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8029 Sent news_1819 Node 25]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 8069 Sent news_88]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8073 Sent news_88]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 8097 Sent ess_1579]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 8100 Sent ess_1579 Node 7]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 8112 Sent bio_1039]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8118 Sent ins_1056]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8148 Sent ess_875 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 8155 Sent ess_875 Node 8]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 8172 Sent pop_1052]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 8184 Sent pop_1052]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8193 Sent ess_834]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 8193 Sent ess_834]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 8189 Sent ess_834 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 8195 Sent ess_834 Node 7]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 8195 Sent ess_834 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 8239 Sent bio_198]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir barda\u011fa ihtiyac\u0131m v...'
-[Line 8244 Sent bio_198]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir barda\u011fa ihtiyac\u0131m var.'
-[Line 8262 Sent ins_241 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 8271 Sent ins_1192]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8280 Sent ess_1689]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 8287 Sent ess_1689]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 8296 Sent ess_1689 Node 21]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 8296 Sent ess_1689 Node 22]: [L3 Syntax leaf-punct] 'punct' not expected to have children (22:,:punct --> 21:çarp\u0131k:conj)
-[Line 8393 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 8393 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 8393 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 8393 Sent bio_1137]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 8394 Sent bio_1137 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 8394 Sent bio_1137 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 8414 Sent news_566 Node 16]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 8440 Sent ins_569]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8452 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8455 Sent ins_1816]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 8456 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 8462 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8492 Sent ess_1897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8498 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 8498 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 8498 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-[Line 8502 Sent pop_987]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8512 Sent pop_1776 Node 6]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
-[Line 8537 Sent pop_1543]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 8543 Sent pop_1543 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 8543 Sent pop_1543 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 8565 Sent ess_1120]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8568 Sent ess_1120]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8590 Sent ins_1668 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 8612 Sent bio_1978 Node 5]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 8634 Sent news_764]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 8648 Sent news_764]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8622 Sent news_764 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 8632 Sent news_764 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 8646 Sent news_764 Node 27]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obl'
-[Line 8655 Sent pop_363]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 8655 Sent pop_363]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 8672 Sent pop_363 Node 20]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 8672 Sent pop_363 Node 20]: [L5 Syntax cop-lemma] 'mu' is not a copula in language [tr]
-[Line 8702 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8709 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 8716 Sent bio_1503]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 8717 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8723 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 8745 Sent news_939 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 8746 Sent news_939 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 8792 Sent ess_673]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8801 Sent bio_1466]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 8819 Sent bio_1761]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 8826 Sent bio_1761]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 8835 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8840 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8849 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 8867 Sent pop_1300 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 8895 Sent pop_866]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 8895 Sent pop_866]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 8944 Sent ess_270]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 8944 Sent ess_270]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 8980 Sent ess_270 Node 36]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 8992 Sent news_1434]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 8992 Sent news_1434]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 9002 Sent news_1434]: [L4 Morpho feature-value-unknown] Value Pre is not documented for feature Tense in language [tr].
-[Line 8996 Sent news_1434 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 9008 Sent pop_747 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
-[Line 9027 Sent bio_498 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 9027 Sent bio_498 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 9070 Sent pop_995 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:ya:cc --> 6:da:compound)
-[Line 9094 Sent news_1750]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9138 Sent news_818]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 9158 Sent pop_1563]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
-[Line 9195 Sent bio_968]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 9195 Sent bio_968]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 9196 Sent bio_968 Node 10]: [L5 Morpho aux-lemma] 'tur' is not an auxiliary verb in language [tr]
-[Line 9196 Sent bio_968 Node 10]: [L5 Syntax cop-lemma] 'tur' is not a copula in language [tr]
-[Line 9213 Sent bio_778]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 9218 Sent bio_778]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 9242 Sent ins_879 Node 6]: [L3 Syntax leaf-cc] 'cc' not expected to have children (6:ya:cc --> 7:da:compound)
-[Line 9295 Sent pop_1056]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 9299 Sent pop_1056]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 9343 Sent pop_1783 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 9359 Sent bio_1853]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 9383 Sent ess_413]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9383 Sent ess_413]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 9373 Sent ess_413 Node 4]: [L5 Morpho aux-lemma] 'Ken' is not an auxiliary verb in language [tr]
-[Line 9373 Sent ess_413 Node 4]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
-[Line 9378 Sent ess_413 Node 8]: [L5 Morpho aux-lemma] 'Ken' is not an auxiliary verb in language [tr]
-[Line 9378 Sent ess_413 Node 8]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
-[Line 9391 Sent pop_1219]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9411 Sent pop_684]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 9411 Sent pop_684]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 9411 Sent pop_684]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 9417 Sent pop_684]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9396 Sent pop_684]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir evi temizlemek nas\u0131...'
-[Line 9419 Sent pop_684]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir evi temizlemek nas\u0131l ki öncelikle çöpleri, döküntüleri uzakla\u015ft\u0131rmak ve her \u015feyi yerine yerle\u015ftirmeye dayan\u0131yorsa, ba\u015fa\u011f\u0131n de zihni böyle çal\u0131\u015f\u0131r.'
-[Line 9425 Sent bio_1054]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 9457 Sent pop_710 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 9524 Sent news_1563 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:hem:cc --> 9:de:advmod)
-[Line 9528 Sent news_1563 Node 12]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 9559 Sent bio_734]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9615 Sent bio_879 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 9613 Sent bio_879 Node 12]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 9633 Sent ess_342]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 9633 Sent ess_342]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 9665 Sent pop_679]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 9665 Sent pop_679]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 9736 Sent news_1792]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 9818 Sent pop_895 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 9833 Sent ess_217]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9833 Sent ess_217 Node 4]: [L5 Morpho aux-lemma] 'sev' is not an auxiliary verb in language [tr]
-[Line 9887 Sent ins_441]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #8 because the text is 'yiyecektir.'.
-[Line 9932 Sent pop_1019 Node 8]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
-[Line 9932 Sent pop_1019 Node 8]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
-[Line 9944 Sent bio_1025]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 9956 Sent ins_1231 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 9987 Sent ess_710]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 9983 Sent ess_710 Node 4]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 10008 Sent pop_909 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:ya:cc --> 13:da:compound)
-[Line 10037 Sent pop_1346]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 10040 Sent pop_1346]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 10040 Sent pop_1346]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 10041 Sent pop_1346 Node 17]: [L5 Morpho aux-lemma] 'burç' is not an auxiliary verb in language [tr]
-[Line 10060 Sent pop_929]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 10079 Sent bio_1504]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10093 Sent bio_1759]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 10093 Sent bio_1759]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 10088 Sent bio_1759 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 10088 Sent bio_1759 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 10094 Sent bio_1759 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 10094 Sent bio_1759 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 10099 Sent pop_622]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 10103 Sent pop_622]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 10108 Sent pop_622]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10114 Sent bio_733 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 10129 Sent ess_95 Node 1]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
-[Line 10129 Sent ess_95 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 10135 Sent ess_95 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
-[Line 10138 Sent ess_95 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7, 8, 9]
-[Line 10164 Sent ess_1528]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 10167 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10172 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 10175 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10218 Sent pop_1341]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10227 Sent ins_1224]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10242 Sent bio_1586 Node 4]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 10245 Sent bio_1586 Node 7]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 10262 Sent ins_1498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10266 Sent ins_1498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10275 Sent pop_360]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 10280 Sent pop_360]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10285 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Perf of feature Aspect is not permitted with UPOS PROPN in language [tr].
-[Line 10285 Sent ess_221]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
-[Line 10285 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 10285 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS PROPN in language [tr].
-[Line 10300 Sent news_416 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10314 Sent ins_458]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 10314 Sent ins_458]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 10325 Sent ins_458]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10323 Sent ins_458]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[15] is 'bir' but text is 'Bir türlü vazgeçmezler ...'
-[Line 10329 Sent ins_458]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir türlü vazgeçmezler sizleri uyarmaktan...'
-[Line 10323 Sent ins_458 Node 15]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
-[Line 10342 Sent pop_1636]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10339 Sent pop_1636 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10351 Sent bio_1479 Node 5]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 10394 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 10394 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 10437 Sent news_719 Node 22]: [L3 Syntax leaf-cc] 'cc' not expected to have children (22:ya:cc --> 23:da:compound)
-[Line 10439 Sent news_719 Node 25]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
-[Line 10458 Sent ess_814 Node 8]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 10461 Sent ess_814 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10467 Sent ess_814 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10471 Sent ess_814 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10576 Sent ess_1299]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10591 Sent ess_1299]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10624 Sent bio_1147]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10630 Sent bio_1791 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10652 Sent pop_942]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 10683 Sent pop_426 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10694 Sent ins_623]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10733 Sent pop_1015]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 10733 Sent pop_1015 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 10771 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
-[Line 10771 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
-[Line 10771 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 10789 Sent ess_646 Node 14]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 10792 Sent ess_646 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 10816 Sent pop_803 Node 15]: [L5 Morpho aux-lemma] 'YD\u0130' is not an auxiliary verb in language [tr]
-[Line 10816 Sent pop_803 Node 15]: [L5 Syntax cop-lemma] 'YD\u0130' is not a copula in language [tr]
-[Line 10823 Sent pop_803 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 10823 Sent pop_803 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 10830 Sent ess_1936]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 10839 Sent ess_1936]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10852 Sent ins_1536]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10863 Sent ess_31 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10869 Sent ess_31 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 10885 Sent ins_1076]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 10885 Sent ins_1076]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 10927 Sent bio_1177 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
-[Line 10932 Sent bio_1177 Node 6]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
-[Line 10933 Sent bio_1177 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 10940 Sent bio_1177 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:ne:cc --> 14:de:advmod)
-[Line 10956 Sent pop_1464]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 10956 Sent pop_1464]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 10957 Sent pop_1464]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10972 Sent pop_1464]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 10982 Sent pop_1464]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10980 Sent pop_1464 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 11007 Sent ins_894]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11007 Sent ins_894]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 11008 Sent ins_894 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 11035 Sent news_662]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 11073 Sent news_886]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 11078 Sent news_886]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 11078 Sent news_886]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 11147 Sent ess_1489]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 11140 Sent ess_1489 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 11248 Sent bio_507 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 11278 Sent news_635]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 11278 Sent news_635]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 11296 Sent news_635]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 11280 Sent news_635 Node 3]: [L5 Morpho aux-lemma] '"uyum' is not an auxiliary verb in language [tr]
-[Line 11331 Sent ins_1867 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 11351 Sent ess_181 Node 6]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 11364 Sent ess_181 Node 18]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
-[Line 11352 Sent ess_181 Node 7]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
-[Line 11352 Sent ess_181 Node 7]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
-[Line 11405 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 11405 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 11407 Sent bio_363]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11409 Sent bio_363 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 11409 Sent bio_363 Node 9]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 11436 Sent ess_769]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 11438 Sent ess_769 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4]
-[Line 11452 Sent ins_298]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 11448 Sent ins_298 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 11461 Sent bio_644]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11457 Sent bio_644 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 11468 Sent pop_1415]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 11475 Sent pop_1415]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11482 Sent pop_1415]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 11508 Sent ess_835]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 11508 Sent ess_835]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 11502 Sent ess_835 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 11515 Sent pop_1220]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 11515 Sent pop_1220]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 11516 Sent pop_1220]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 11582 Sent pop_444 Node 8]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 11582 Sent pop_444 Node 8]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 11604 Sent pop_598 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
-[Line 11640 Sent ess_151 Node 8]: [L5 Morpho aux-lemma] 'T\u0130R' is not an auxiliary verb in language [tr]
-[Line 11640 Sent ess_151 Node 8]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
-[Line 11648 Sent bio_480]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 11707 Sent news_1727 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 11746 Sent news_1306]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 11751 Sent news_1306]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 11751 Sent news_1306]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 11754 Sent news_1306]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11764 Sent ins_332 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 11783 Sent bio_1200]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 11798 Sent ins_1202]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 11804 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 11804 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 11804 Sent ins_1202]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 11814 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 11814 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 11813 Sent ins_1202 Node 19]: [L5 Morpho aux-lemma] 'YDU' is not an auxiliary verb in language [tr]
-[Line 11813 Sent ins_1202 Node 19]: [L5 Syntax cop-lemma] 'YDU' is not a copula in language [tr]
-[Line 11858 Sent news_1141 Node 16]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obl'
-[Line 11889 Sent news_1286]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[21] is 'bir' but text is 'Bir defa, ben çok prati...'
-[Line 11896 Sent news_1286]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir defa, ben çok prati\u011fimdir.'
-[Line 11880 Sent news_1286 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
-[Line 11943 Sent bio_1494]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 11943 Sent bio_1494]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 11962 Sent bio_1353]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11965 Sent bio_1353]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 11984 Sent bio_1482 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 11999 Sent ins_448]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12009 Sent bio_1713]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12019 Sent bio_1713]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12059 Sent ins_1792]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12065 Sent ins_1792]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12075 Sent ins_1325 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12082 Sent ins_1325 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:hem:cc --> 13:de:advmod)
-[Line 12086 Sent ins_1325 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12093 Sent bio_919]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 12097 Sent bio_919 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 12115 Sent news_539]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 12122 Sent news_539]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 12148 Sent ess_822]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 12157 Sent ess_822 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 12179 Sent bio_1649 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12212 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 12212 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 12212 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 12214 Sent ess_1933]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 12243 Sent ess_1933]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 12219 Sent ess_1933 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:::punct --> 8:kar\u015f\u0131s\u0131nda:amod)
-[Line 12235 Sent ess_1933 Node 23]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 12259 Sent pop_1463]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 12260 Sent pop_1463]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 12260 Sent pop_1463]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 12277 Sent bio_1675 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 12299 Sent bio_771]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir 30 A\u011fustos Zafer Ba...'
-[Line 12313 Sent bio_771]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir 30 A\u011fustos Zafer Bayram\u0131 günü bu hastal\u0131\u011f\u0131n en berbat türüne ben yakaland\u0131m.'
-[Line 12317 Sent ins_1904]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 12317 Sent ins_1904]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 12347 Sent ess_72]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 12332 Sent ess_72 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12333 Sent ess_72 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12350 Sent ess_72 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12353 Sent ess_72 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [6, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 12360 Sent pop_947]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12360 Sent pop_947]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 12381 Sent pop_947]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 12381 Sent pop_947]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 12398 Sent pop_1496]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 12422 Sent ess_351 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 12424 Sent ess_351 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 12440 Sent pop_1885 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 12447 Sent ess_1838]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12462 Sent ess_147]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 12458 Sent ess_147 Node 4]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 12456 Sent ess_147 Node 2]: [L5 Morpho aux-lemma] 'din(I)' is not an auxiliary verb in language [tr]
-[Line 12469 Sent bio_1359]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir an üç, üç buçuk ay ...'
-[Line 12479 Sent bio_1359]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir an üç, üç buçuk ay öncesine gittim.'
-[Line 12499 Sent news_329]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12525 Sent ins_1869]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12529 Sent ins_1869]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12553 Sent news_1903 Node 20]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 12565 Sent pop_1041 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12623 Sent news_1956]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 12623 Sent news_1956]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 12634 Sent ess_1338]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 12660 Sent news_1446 Node 8]: [L5 Morpho aux-lemma] 'tur' is not an auxiliary verb in language [tr]
-[Line 12660 Sent news_1446 Node 8]: [L5 Syntax cop-lemma] 'tur' is not a copula in language [tr]
-[Line 12691 Sent ess_133]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 12691 Sent ess_133]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 12726 Sent bio_1291 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17]
-[Line 12733 Sent pop_1729]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12771 Sent ess_827]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 12777 Sent ess_827]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS ADJ in language [tr].
-[Line 12738 Sent ess_827 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 12753 Sent ess_827 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12769 Sent ess_827 Node 32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12771 Sent ess_827 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12813 Sent ess_126 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12837 Sent pop_707]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12871 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12871 Sent ess_839]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 12875 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12879 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12879 Sent ess_839]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 12884 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12869 Sent ess_839]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[7] is 'bir' but text is 'Bir erke\u011fi e\u011fitirseniz ...'
-[Line 12888 Sent ess_839]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir erke\u011fi e\u011fitirseniz tek insan\u0131 e\u011fitmi\u015f olursunuz, bir kad\u0131n\u0131 e\u011fitirseniz bütün bir aileyi e\u011fitmi\u015f olursunuz" diyor.'
-[Line 12896 Sent bio_391]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 12896 Sent bio_391]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 12951 Sent ess_1651]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 12951 Sent ess_1651 Node 3]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 12967 Sent pop_1737]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 12987 Sent ins_1184]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 13013 Sent bio_1443]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 13013 Sent bio_1443]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 13016 Sent bio_1443 Node 8]: [L5 Morpho aux-lemma] 'T\u0130R' is not an auxiliary verb in language [tr]
-[Line 13016 Sent bio_1443 Node 8]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
-[Line 13027 Sent ins_897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13053 Sent ess_1562]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13151 Sent ess_370 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 13154 Sent ess_370 Node 22]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 13155 Sent ess_370 Node 23]: [L5 Morpho aux-lemma] 'siz' is not an auxiliary verb in language [tr]
-[Line 13261 Sent news_1945]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 13254 Sent news_1945 Node 12]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 13327 Sent ins_1207]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 13327 Sent ins_1207 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 13370 Sent news_1922]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13370 Sent news_1922 Node 14]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [6, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 13406 Sent pop_653]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 13406 Sent pop_653]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 13409 Sent pop_653]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13461 Sent ins_208 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 13461 Sent ins_208 Node 6]: [L5 Syntax cop-lemma] 'ik' is not a copula in language [tr]
-[Line 13476 Sent news_1069]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 13476 Sent news_1069]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 13501 Sent news_1481]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13508 Sent ess_21 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 13542 Sent news_512]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 13542 Sent news_512]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 13542 Sent news_512]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 13540 Sent news_512 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 13589 Sent ins_1011 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 13590 Sent ins_1011 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 13608 Sent ess_1790]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13597 Sent ess_1790 Node 2]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
-[Line 13635 Sent ess_259 Node 20]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [14, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 13669 Sent ins_1199]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13669 Sent ins_1199]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 13679 Sent ins_816 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 13682 Sent ins_816 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 13682 Sent ins_816 Node 9]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 13710 Sent ess_1655]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 13710 Sent ess_1655]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 13745 Sent news_331]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 13760 Sent pop_1107]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 13770 Sent pop_1107]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13783 Sent pop_1978]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir süre kimse konu\u015fama...'
-[Line 13788 Sent pop_1978]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir süre kimse konu\u015famad\u0131.'
-[Line 13796 Sent news_863]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13855 Sent news_843 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 13899 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13902 Sent pop_468]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 13903 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13915 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13911 Sent pop_468 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 13933 Sent news_1391 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 13955 Sent bio_29]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 13947 Sent bio_29]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir taraftan da para bi...'
-[Line 13971 Sent bio_29]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir taraftan da para biriktirece\u011fiz, yeterince para biriktirinceye, yani i\u015fin finans yönünden aksamamas\u0131 teminat alt\u0131na al\u0131n\u0131ncaya kadar da kampusun in\u015faat\u0131na girmeyece\u011fiz."'
-[Line 13993 Sent ins_254 Node 2]: [L5 Morpho aux-lemma] 'üzüm' is not an auxiliary verb in language [tr]
-[Line 14002 Sent ess_1440 Node 6]: [L5 Morpho aux-lemma] 'de' is not an auxiliary verb in language [tr]
-[Line 14002 Sent ess_1440 Node 6]: [L5 Syntax cop-lemma] 'de' is not a copula in language [tr]
-[Line 14025 Sent news_219 Node 18]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
-[Line 14025 Sent news_219 Node 18]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
-[Line 14075 Sent ess_897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14076 Sent ess_897]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
-[Line 14092 Sent ins_1681 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14110 Sent pop_1713]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 14107 Sent pop_1713 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 14149 Sent pop_1535]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14196 Sent bio_1914]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 14196 Sent bio_1914]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 14197 Sent bio_1914]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14203 Sent bio_1914]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14203 Sent bio_1914]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14209 Sent news_951 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 14268 Sent ess_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 14268 Sent ess_1738]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 14286 Sent ess_148 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14284 Sent ess_148 Node 7]: [L5 Morpho aux-lemma] 'TU' is not an auxiliary verb in language [tr]
-[Line 14284 Sent ess_148 Node 7]: [L5 Syntax cop-lemma] 'TU' is not a copula in language [tr]
-[Line 14295 Sent bio_1067]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 14293 Sent bio_1067 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 14313 Sent ins_200]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 14313 Sent ins_200]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 14310 Sent ins_200 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14339 Sent pop_721 Node 15]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 14381 Sent ess_845 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 14412 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14413 Sent ins_1775]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 14414 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14421 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 14432 Sent news_1895]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14450 Sent ins_1809]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14450 Sent ins_1809]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14485 Sent news_1744]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14457 Sent news_1744 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 14498 Sent bio_1468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14540 Sent pop_1148]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14574 Sent pop_1148]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 14551 Sent pop_1148 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14553 Sent pop_1148 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 14570 Sent pop_1148 Node 34]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [33]
-[Line 14592 Sent pop_1357]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14598 Sent pop_1357]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14592 Sent pop_1357 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14594 Sent pop_1357 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14608 Sent pop_1403 Node 6]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 14639 Sent ins_1142]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14645 Sent ins_1142]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14655 Sent bio_1764]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14667 Sent ins_498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14673 Sent ins_498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14693 Sent bio_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
-[Line 14693 Sent bio_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS ADJ in language [tr].
-[Line 14697 Sent bio_1738 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'CCONJ'
-[Line 14697 Sent bio_1738 Node 11]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
-[Line 14718 Sent news_926]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14731 Sent ess_1085]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14723 Sent ess_1085]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir tuhaf iklim yan\u0131 ba...'
-[Line 14735 Sent ess_1085]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir tuhaf iklim yan\u0131 ba\u015f\u0131n\u0131zda tarifsiz imbatlar\u0131 al\u0131p götürürdü körfezin derinliklerinden.'
-[Line 14752 Sent bio_24]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14758 Sent pop_250]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 14759 Sent pop_250]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 14788 Sent ins_989]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 14768 Sent ins_989 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14786 Sent ins_989 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 14799 Sent ess_1586]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14811 Sent ess_1524]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 14862 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 14862 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 14865 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 14865 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 14867 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
-[Line 14867 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
-[Line 14867 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 14857 Sent pop_1278 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 14894 Sent ess_1179]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 14894 Sent ess_1179]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 14926 Sent ins_743]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 14956 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 14956 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 14956 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 14977 Sent ins_1390 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 14978 Sent ins_1390 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 14992 Sent ess_1700 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 15003 Sent ess_1001]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 15023 Sent news_844]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 15017 Sent news_844 Node 7]: [L3 Syntax leaf-cc] 'cc' not expected to have children (7:ya:cc --> 8:da:compound)
-[Line 15049 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 15058 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 15058 Sent news_941]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 15058 Sent news_941]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 15058 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 15075 Sent pop_1886 Node 8]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 15080 Sent pop_1886 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 15105 Sent ins_1024]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir de \u015fu gerçek var ki...'
-[Line 15117 Sent ins_1024]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir de \u015fu gerçek var ki çizgi karakterler sanal dünyaya aitler.'
-[Line 15124 Sent pop_1844]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 15141 Sent ess_559 Node 7]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 15150 Sent pop_1255]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 15172 Sent news_1252]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 15172 Sent news_1252]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 15182 Sent news_1252]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 15207 Sent ess_429 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 15223 Sent ess_280 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 15249 Sent bio_60]: [L1 Format extra-empty-line] Spurious empty line. Only one empty line is expected after every sentence.
-Format errors: 2
+[Line 7721 Sent pop_1141]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 7719 Sent pop_1141]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[4] is 'ki' but text is 'arkada\u015flar\u0131ndan hayatt...'
+[Line 7726 Sent pop_1141 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 7736 Sent pop_1827]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 7750 Sent ess_1880 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 7762 Sent ins_1724]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #3-4 because the text is 'kimlerdir?'.
+[Line 7770 Sent ess_298]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 7775 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 7775 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 7787 Sent bio_1331]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 7816 Sent ins_970]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 7816 Sent ins_970]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 7817 Sent ins_970 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 7817 Sent ins_970 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 7845 Sent ins_291]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 7835 Sent ins_291 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 7853 Sent ins_1103 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 7876 Sent ess_97 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 7880 Sent ess_97 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 7880 Sent ess_97 Node 5]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 7900 Sent ess_960]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 7953 Sent news_716]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 7961 Sent news_716]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 7961 Sent news_716]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 7951 Sent news_716 Node 13]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 7982 Sent ess_1875 Node 15]: [L5 Morpho aux-lemma] 't\u0131r' is not an auxiliary verb in language [tr]
+[Line 7982 Sent ess_1875 Node 15]: [L5 Syntax cop-lemma] 't\u0131r' is not a copula in language [tr]
+[Line 7987 Sent bio_1923]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir an duraks\u0131yorlar....'
+[Line 7991 Sent bio_1923]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir an duraks\u0131yorlar.'
+[Line 8024 Sent news_1819]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 8026 Sent news_1819]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8028 Sent news_1819 Node 25]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 8068 Sent news_88]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8072 Sent news_88]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 8096 Sent ess_1579]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 8099 Sent ess_1579 Node 7]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 8111 Sent bio_1039]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8117 Sent ins_1056]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8147 Sent ess_875 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 8154 Sent ess_875 Node 8]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 8171 Sent pop_1052]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 8183 Sent pop_1052]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8192 Sent ess_834]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 8192 Sent ess_834]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 8188 Sent ess_834 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 8194 Sent ess_834 Node 7]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 8194 Sent ess_834 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 8238 Sent bio_198]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir barda\u011fa ihtiyac\u0131m v...'
+[Line 8243 Sent bio_198]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir barda\u011fa ihtiyac\u0131m var.'
+[Line 8261 Sent ins_241 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 8270 Sent ins_1192]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8279 Sent ess_1689]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 8286 Sent ess_1689]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 8295 Sent ess_1689 Node 21]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 8295 Sent ess_1689 Node 22]: [L3 Syntax leaf-punct] 'punct' not expected to have children (22:,:punct --> 21:çarp\u0131k:conj)
+[Line 8392 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 8392 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 8392 Sent bio_1137]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 8392 Sent bio_1137]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 8393 Sent bio_1137 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 8393 Sent bio_1137 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 8413 Sent news_566 Node 16]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 8439 Sent ins_569]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8451 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8454 Sent ins_1816]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 8455 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 8461 Sent ins_1816]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8491 Sent ess_1897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8497 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 8497 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 8497 Sent pop_987]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+[Line 8501 Sent pop_987]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8511 Sent pop_1776 Node 6]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
+[Line 8536 Sent pop_1543]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 8542 Sent pop_1543 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 8542 Sent pop_1543 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 8564 Sent ess_1120]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8567 Sent ess_1120]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8589 Sent ins_1668 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 8611 Sent bio_1978 Node 5]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 8633 Sent news_764]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 8647 Sent news_764]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8621 Sent news_764 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 8631 Sent news_764 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 8645 Sent news_764 Node 27]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obl'
+[Line 8654 Sent pop_363]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 8654 Sent pop_363]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 8671 Sent pop_363 Node 20]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
+[Line 8671 Sent pop_363 Node 20]: [L5 Syntax cop-lemma] 'mu' is not a copula in language [tr]
+[Line 8701 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8708 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 8715 Sent bio_1503]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 8716 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8722 Sent bio_1503]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 8744 Sent news_939 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 8745 Sent news_939 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 8791 Sent ess_673]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8800 Sent bio_1466]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 8818 Sent bio_1761]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 8825 Sent bio_1761]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 8834 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8839 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8848 Sent pop_1421]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 8866 Sent pop_1300 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 8894 Sent pop_866]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 8894 Sent pop_866]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 8943 Sent ess_270]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 8943 Sent ess_270]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 8979 Sent ess_270 Node 36]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 8991 Sent news_1434]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 8991 Sent news_1434]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 9001 Sent news_1434]: [L4 Morpho feature-value-unknown] Value Pre is not documented for feature Tense in language [tr].
+[Line 8995 Sent news_1434 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 9007 Sent pop_747 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NUM'
+[Line 9026 Sent bio_498 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 9026 Sent bio_498 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 9069 Sent pop_995 Node 5]: [L3 Syntax leaf-cc] 'cc' not expected to have children (5:ya:cc --> 6:da:compound)
+[Line 9093 Sent news_1750]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9137 Sent news_818]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 9157 Sent pop_1563]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
+[Line 9194 Sent bio_968]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 9194 Sent bio_968]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 9195 Sent bio_968 Node 10]: [L5 Morpho aux-lemma] 'tur' is not an auxiliary verb in language [tr]
+[Line 9195 Sent bio_968 Node 10]: [L5 Syntax cop-lemma] 'tur' is not a copula in language [tr]
+[Line 9212 Sent bio_778]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 9217 Sent bio_778]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 9241 Sent ins_879 Node 6]: [L3 Syntax leaf-cc] 'cc' not expected to have children (6:ya:cc --> 7:da:compound)
+[Line 9294 Sent pop_1056]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 9298 Sent pop_1056]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 9342 Sent pop_1783 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 9358 Sent bio_1853]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 9382 Sent ess_413]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9382 Sent ess_413]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 9372 Sent ess_413 Node 4]: [L5 Morpho aux-lemma] 'Ken' is not an auxiliary verb in language [tr]
+[Line 9372 Sent ess_413 Node 4]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
+[Line 9377 Sent ess_413 Node 8]: [L5 Morpho aux-lemma] 'Ken' is not an auxiliary verb in language [tr]
+[Line 9377 Sent ess_413 Node 8]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
+[Line 9390 Sent pop_1219]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9410 Sent pop_684]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 9410 Sent pop_684]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 9410 Sent pop_684]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 9416 Sent pop_684]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9395 Sent pop_684]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir evi temizlemek nas\u0131...'
+[Line 9418 Sent pop_684]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir evi temizlemek nas\u0131l ki öncelikle çöpleri, döküntüleri uzakla\u015ft\u0131rmak ve her \u015feyi yerine yerle\u015ftirmeye dayan\u0131yorsa, ba\u015fa\u011f\u0131n de zihni böyle çal\u0131\u015f\u0131r.'
+[Line 9424 Sent bio_1054]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 9456 Sent pop_710 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 9523 Sent news_1563 Node 8]: [L3 Syntax leaf-cc] 'cc' not expected to have children (8:hem:cc --> 9:de:advmod)
+[Line 9527 Sent news_1563 Node 12]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 9558 Sent bio_734]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9614 Sent bio_879 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 9612 Sent bio_879 Node 12]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
+[Line 9632 Sent ess_342]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 9632 Sent ess_342]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 9664 Sent pop_679]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 9664 Sent pop_679]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 9735 Sent news_1792]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 9817 Sent pop_895 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 9832 Sent ess_217]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9832 Sent ess_217 Node 4]: [L5 Morpho aux-lemma] 'sev' is not an auxiliary verb in language [tr]
+[Line 9886 Sent ins_441]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #8 because the text is 'yiyecektir.'.
+[Line 9931 Sent pop_1019 Node 8]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
+[Line 9931 Sent pop_1019 Node 8]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
+[Line 9943 Sent bio_1025]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 9955 Sent ins_1231 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 9986 Sent ess_710]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 9982 Sent ess_710 Node 4]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 10007 Sent pop_909 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:ya:cc --> 13:da:compound)
+[Line 10036 Sent pop_1346]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 10039 Sent pop_1346]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 10039 Sent pop_1346]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 10040 Sent pop_1346 Node 17]: [L5 Morpho aux-lemma] 'burç' is not an auxiliary verb in language [tr]
+[Line 10059 Sent pop_929]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 10078 Sent bio_1504]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10092 Sent bio_1759]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 10092 Sent bio_1759]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 10087 Sent bio_1759 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 10087 Sent bio_1759 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 10093 Sent bio_1759 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 10093 Sent bio_1759 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 10098 Sent pop_622]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 10102 Sent pop_622]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 10107 Sent pop_622]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10113 Sent bio_733 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 10128 Sent ess_95 Node 1]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 10128 Sent ess_95 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 10134 Sent ess_95 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 10137 Sent ess_95 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7, 8, 9]
+[Line 10163 Sent ess_1528]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 10166 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10171 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 10174 Sent ess_1528]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10217 Sent pop_1341]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10226 Sent ins_1224]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10241 Sent bio_1586 Node 4]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 10244 Sent bio_1586 Node 7]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 10261 Sent ins_1498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10265 Sent ins_1498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10274 Sent pop_360]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 10279 Sent pop_360]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10284 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Perf of feature Aspect is not permitted with UPOS PROPN in language [tr].
+[Line 10284 Sent ess_221]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
+[Line 10284 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS PROPN in language [tr].
+[Line 10284 Sent ess_221]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS PROPN in language [tr].
+[Line 10299 Sent news_416 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10313 Sent ins_458]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 10313 Sent ins_458]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 10324 Sent ins_458]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10322 Sent ins_458]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[15] is 'bir' but text is 'Bir türlü vazgeçmezler ...'
+[Line 10328 Sent ins_458]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir türlü vazgeçmezler sizleri uyarmaktan...'
+[Line 10322 Sent ins_458 Node 15]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 10341 Sent pop_1636]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10338 Sent pop_1636 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10350 Sent bio_1479 Node 5]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 10393 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 10393 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 10436 Sent news_719 Node 22]: [L3 Syntax leaf-cc] 'cc' not expected to have children (22:ya:cc --> 23:da:compound)
+[Line 10438 Sent news_719 Node 25]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 10457 Sent ess_814 Node 8]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 10460 Sent ess_814 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10466 Sent ess_814 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10470 Sent ess_814 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10575 Sent ess_1299]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10590 Sent ess_1299]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10623 Sent bio_1147]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10629 Sent bio_1791 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10651 Sent pop_942]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 10682 Sent pop_426 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10693 Sent ins_623]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10732 Sent pop_1015]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 10732 Sent pop_1015 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 10770 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
+[Line 10770 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
+[Line 10770 Sent ins_841]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 10788 Sent ess_646 Node 14]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 10791 Sent ess_646 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 10815 Sent pop_803 Node 15]: [L5 Morpho aux-lemma] 'YD\u0130' is not an auxiliary verb in language [tr]
+[Line 10815 Sent pop_803 Node 15]: [L5 Syntax cop-lemma] 'YD\u0130' is not a copula in language [tr]
+[Line 10822 Sent pop_803 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 10822 Sent pop_803 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
+[Line 10829 Sent ess_1936]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 10838 Sent ess_1936]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10851 Sent ins_1536]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10862 Sent ess_31 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10868 Sent ess_31 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 10884 Sent ins_1076]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 10884 Sent ins_1076]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 10926 Sent bio_1177 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
+[Line 10931 Sent bio_1177 Node 6]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
+[Line 10932 Sent bio_1177 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 10939 Sent bio_1177 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:ne:cc --> 14:de:advmod)
+[Line 10955 Sent pop_1464]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 10955 Sent pop_1464]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 10956 Sent pop_1464]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10971 Sent pop_1464]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 10981 Sent pop_1464]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 10979 Sent pop_1464 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 11006 Sent ins_894]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11006 Sent ins_894]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 11007 Sent ins_894 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 11034 Sent news_662]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 11072 Sent news_886]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 11077 Sent news_886]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 11077 Sent news_886]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 11146 Sent ess_1489]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
+[Line 11139 Sent ess_1489 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 11247 Sent bio_507 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 11277 Sent news_635]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 11277 Sent news_635]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 11295 Sent news_635]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 11279 Sent news_635 Node 3]: [L5 Morpho aux-lemma] '"uyum' is not an auxiliary verb in language [tr]
+[Line 11330 Sent ins_1867 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 11350 Sent ess_181 Node 6]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 11363 Sent ess_181 Node 18]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
+[Line 11351 Sent ess_181 Node 7]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
+[Line 11351 Sent ess_181 Node 7]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
+[Line 11404 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 11404 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 11406 Sent bio_363]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11408 Sent bio_363 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 11408 Sent bio_363 Node 9]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 11435 Sent ess_769]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 11437 Sent ess_769 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4]
+[Line 11451 Sent ins_298]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 11447 Sent ins_298 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 11460 Sent bio_644]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11456 Sent bio_644 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 11467 Sent pop_1415]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 11474 Sent pop_1415]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11481 Sent pop_1415]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 11507 Sent ess_835]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 11507 Sent ess_835]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 11501 Sent ess_835 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 11514 Sent pop_1220]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 11514 Sent pop_1220]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 11515 Sent pop_1220]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 11581 Sent pop_444 Node 8]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 11581 Sent pop_444 Node 8]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 11603 Sent pop_598 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
+[Line 11639 Sent ess_151 Node 8]: [L5 Morpho aux-lemma] 'T\u0130R' is not an auxiliary verb in language [tr]
+[Line 11639 Sent ess_151 Node 8]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
+[Line 11647 Sent bio_480]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 11706 Sent news_1727 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 11745 Sent news_1306]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 11750 Sent news_1306]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 11750 Sent news_1306]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 11753 Sent news_1306]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11763 Sent ins_332 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 11782 Sent bio_1200]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 11797 Sent ins_1202]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 11803 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 11803 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 11803 Sent ins_1202]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 11813 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 11813 Sent ins_1202]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 11812 Sent ins_1202 Node 19]: [L5 Morpho aux-lemma] 'YDU' is not an auxiliary verb in language [tr]
+[Line 11812 Sent ins_1202 Node 19]: [L5 Syntax cop-lemma] 'YDU' is not a copula in language [tr]
+[Line 11857 Sent news_1141 Node 16]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obl'
+[Line 11888 Sent news_1286]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[21] is 'bir' but text is 'Bir defa, ben çok prati...'
+[Line 11895 Sent news_1286]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir defa, ben çok prati\u011fimdir.'
+[Line 11879 Sent news_1286 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 11942 Sent bio_1494]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 11942 Sent bio_1494]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 11961 Sent bio_1353]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11964 Sent bio_1353]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 11983 Sent bio_1482 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 11998 Sent ins_448]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12008 Sent bio_1713]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12018 Sent bio_1713]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12058 Sent ins_1792]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12064 Sent ins_1792]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12074 Sent ins_1325 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12081 Sent ins_1325 Node 12]: [L3 Syntax leaf-cc] 'cc' not expected to have children (12:hem:cc --> 13:de:advmod)
+[Line 12085 Sent ins_1325 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12092 Sent bio_919]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 12096 Sent bio_919 Node 5]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 12114 Sent news_539]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 12121 Sent news_539]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 12147 Sent ess_822]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 12156 Sent ess_822 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 12178 Sent bio_1649 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12211 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 12211 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 12211 Sent ess_1933]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 12213 Sent ess_1933]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 12242 Sent ess_1933]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 12218 Sent ess_1933 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:::punct --> 8:kar\u015f\u0131s\u0131nda:amod)
+[Line 12234 Sent ess_1933 Node 23]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 12258 Sent pop_1463]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 12259 Sent pop_1463]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 12259 Sent pop_1463]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 12276 Sent bio_1675 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 12298 Sent bio_771]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir 30 A\u011fustos Zafer Ba...'
+[Line 12312 Sent bio_771]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir 30 A\u011fustos Zafer Bayram\u0131 günü bu hastal\u0131\u011f\u0131n en berbat türüne ben yakaland\u0131m.'
+[Line 12316 Sent ins_1904]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 12316 Sent ins_1904]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 12346 Sent ess_72]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 12331 Sent ess_72 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12332 Sent ess_72 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12349 Sent ess_72 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12352 Sent ess_72 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [6, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12359 Sent pop_947]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12359 Sent pop_947]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 12380 Sent pop_947]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 12380 Sent pop_947]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 12397 Sent pop_1496]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 12421 Sent ess_351 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 12423 Sent ess_351 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 12439 Sent pop_1885 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 12446 Sent ess_1838]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12461 Sent ess_147]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 12457 Sent ess_147 Node 4]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 12455 Sent ess_147 Node 2]: [L5 Morpho aux-lemma] 'din(I)' is not an auxiliary verb in language [tr]
+[Line 12468 Sent bio_1359]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir an üç, üç buçuk ay ...'
+[Line 12478 Sent bio_1359]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir an üç, üç buçuk ay öncesine gittim.'
+[Line 12498 Sent news_329]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12524 Sent ins_1869]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12528 Sent ins_1869]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12552 Sent news_1903 Node 20]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
+[Line 12564 Sent pop_1041 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12622 Sent news_1956]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 12622 Sent news_1956]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 12633 Sent ess_1338]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 12659 Sent news_1446 Node 8]: [L5 Morpho aux-lemma] 'tur' is not an auxiliary verb in language [tr]
+[Line 12659 Sent news_1446 Node 8]: [L5 Syntax cop-lemma] 'tur' is not a copula in language [tr]
+[Line 12690 Sent ess_133]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 12690 Sent ess_133]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 12725 Sent bio_1291 Node 18]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17]
+[Line 12732 Sent pop_1729]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12770 Sent ess_827]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 12776 Sent ess_827]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS ADJ in language [tr].
+[Line 12737 Sent ess_827 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 12752 Sent ess_827 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12768 Sent ess_827 Node 32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12770 Sent ess_827 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12812 Sent ess_126 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 12836 Sent pop_707]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12870 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12870 Sent ess_839]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 12874 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12878 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12878 Sent ess_839]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 12883 Sent ess_839]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12868 Sent ess_839]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[7] is 'bir' but text is 'Bir erke\u011fi e\u011fitirseniz ...'
+[Line 12887 Sent ess_839]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir erke\u011fi e\u011fitirseniz tek insan\u0131 e\u011fitmi\u015f olursunuz, bir kad\u0131n\u0131 e\u011fitirseniz bütün bir aileyi e\u011fitmi\u015f olursunuz" diyor.'
+[Line 12895 Sent bio_391]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 12895 Sent bio_391]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 12950 Sent ess_1651]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 12950 Sent ess_1651 Node 3]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12966 Sent pop_1737]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 12986 Sent ins_1184]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 13012 Sent bio_1443]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 13012 Sent bio_1443]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 13015 Sent bio_1443 Node 8]: [L5 Morpho aux-lemma] 'T\u0130R' is not an auxiliary verb in language [tr]
+[Line 13015 Sent bio_1443 Node 8]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
+[Line 13026 Sent ins_897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13052 Sent ess_1562]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13150 Sent ess_370 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 13153 Sent ess_370 Node 22]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 13154 Sent ess_370 Node 23]: [L5 Morpho aux-lemma] 'siz' is not an auxiliary verb in language [tr]
+[Line 13260 Sent news_1945]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 13253 Sent news_1945 Node 12]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 13326 Sent ins_1207]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 13326 Sent ins_1207 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 13369 Sent news_1922]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13369 Sent news_1922 Node 14]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [6, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 13405 Sent pop_653]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 13405 Sent pop_653]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 13408 Sent pop_653]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13460 Sent ins_208 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 13460 Sent ins_208 Node 6]: [L5 Syntax cop-lemma] 'ik' is not a copula in language [tr]
+[Line 13475 Sent news_1069]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 13475 Sent news_1069]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 13500 Sent news_1481]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13507 Sent ess_21 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 13541 Sent news_512]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 13541 Sent news_512]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 13541 Sent news_512]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 13539 Sent news_512 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 13588 Sent ins_1011 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 13589 Sent ins_1011 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 13607 Sent ess_1790]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13596 Sent ess_1790 Node 2]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 13634 Sent ess_259 Node 20]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [14, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 13668 Sent ins_1199]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13668 Sent ins_1199]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 13678 Sent ins_816 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 13681 Sent ins_816 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 13681 Sent ins_816 Node 9]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 13709 Sent ess_1655]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 13709 Sent ess_1655]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 13744 Sent news_331]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 13759 Sent pop_1107]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 13769 Sent pop_1107]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13782 Sent pop_1978]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir süre kimse konu\u015fama...'
+[Line 13787 Sent pop_1978]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir süre kimse konu\u015famad\u0131.'
+[Line 13795 Sent news_863]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13854 Sent news_843 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 13898 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13901 Sent pop_468]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 13902 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13914 Sent pop_468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 13910 Sent pop_468 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 13932 Sent news_1391 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 13954 Sent bio_29]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 13946 Sent bio_29]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir taraftan da para bi...'
+[Line 13970 Sent bio_29]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir taraftan da para biriktirece\u011fiz, yeterince para biriktirinceye, yani i\u015fin finans yönünden aksamamas\u0131 teminat alt\u0131na al\u0131n\u0131ncaya kadar da kampusun in\u015faat\u0131na girmeyece\u011fiz."'
+[Line 13992 Sent ins_254 Node 2]: [L5 Morpho aux-lemma] 'üzüm' is not an auxiliary verb in language [tr]
+[Line 14001 Sent ess_1440 Node 6]: [L5 Morpho aux-lemma] 'de' is not an auxiliary verb in language [tr]
+[Line 14001 Sent ess_1440 Node 6]: [L5 Syntax cop-lemma] 'de' is not a copula in language [tr]
+[Line 14024 Sent news_219 Node 18]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
+[Line 14024 Sent news_219 Node 18]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
+[Line 14074 Sent ess_897]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14075 Sent ess_897]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
+[Line 14091 Sent ins_1681 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14109 Sent pop_1713]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 14106 Sent pop_1713 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 14148 Sent pop_1535]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14195 Sent bio_1914]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 14195 Sent bio_1914]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 14196 Sent bio_1914]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14202 Sent bio_1914]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14202 Sent bio_1914]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14208 Sent news_951 Node 2]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 14267 Sent ess_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 14267 Sent ess_1738]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 14285 Sent ess_148 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14283 Sent ess_148 Node 7]: [L5 Morpho aux-lemma] 'TU' is not an auxiliary verb in language [tr]
+[Line 14283 Sent ess_148 Node 7]: [L5 Syntax cop-lemma] 'TU' is not a copula in language [tr]
+[Line 14294 Sent bio_1067]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 14292 Sent bio_1067 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
+[Line 14312 Sent ins_200]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 14312 Sent ins_200]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 14309 Sent ins_200 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14338 Sent pop_721 Node 15]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 14380 Sent ess_845 Node 1]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
+[Line 14411 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14412 Sent ins_1775]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 14413 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14420 Sent ins_1775]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 14431 Sent news_1895]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14449 Sent ins_1809]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14449 Sent ins_1809]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14484 Sent news_1744]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14456 Sent news_1744 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 14497 Sent bio_1468]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14539 Sent pop_1148]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14573 Sent pop_1148]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 14550 Sent pop_1148 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14552 Sent pop_1148 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 14569 Sent pop_1148 Node 34]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [33]
+[Line 14591 Sent pop_1357]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14597 Sent pop_1357]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14591 Sent pop_1357 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14593 Sent pop_1357 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14607 Sent pop_1403 Node 6]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 14638 Sent ins_1142]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14644 Sent ins_1142]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14654 Sent bio_1764]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14666 Sent ins_498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14672 Sent ins_498]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14692 Sent bio_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
+[Line 14692 Sent bio_1738]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS ADJ in language [tr].
+[Line 14696 Sent bio_1738 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'CCONJ'
+[Line 14696 Sent bio_1738 Node 11]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 14717 Sent news_926]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14730 Sent ess_1085]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14722 Sent ess_1085]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir tuhaf iklim yan\u0131 ba...'
+[Line 14734 Sent ess_1085]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir tuhaf iklim yan\u0131 ba\u015f\u0131n\u0131zda tarifsiz imbatlar\u0131 al\u0131p götürürdü körfezin derinliklerinden.'
+[Line 14751 Sent bio_24]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14757 Sent pop_250]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 14758 Sent pop_250]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 14787 Sent ins_989]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
+[Line 14767 Sent ins_989 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14785 Sent ins_989 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 14798 Sent ess_1586]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14810 Sent ess_1524]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 14861 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 14861 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 14864 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 14864 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 14866 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
+[Line 14866 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
+[Line 14866 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 14856 Sent pop_1278 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
+[Line 14893 Sent ess_1179]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 14893 Sent ess_1179]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 14925 Sent ins_743]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 14955 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 14955 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 14955 Sent news_604]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 14976 Sent ins_1390 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 14977 Sent ins_1390 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 14991 Sent ess_1700 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 15002 Sent ess_1001]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 15022 Sent news_844]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 15016 Sent news_844 Node 7]: [L3 Syntax leaf-cc] 'cc' not expected to have children (7:ya:cc --> 8:da:compound)
+[Line 15048 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
+[Line 15057 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 15057 Sent news_941]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 15057 Sent news_941]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
+[Line 15057 Sent news_941]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 15074 Sent pop_1886 Node 8]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
+[Line 15079 Sent pop_1886 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15104 Sent ins_1024]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[1] is 'bir' but text is 'Bir de \u015fu gerçek var ki...'
+[Line 15116 Sent ins_1024]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir de \u015fu gerçek var ki çizgi karakterler sanal dünyaya aitler.'
+[Line 15123 Sent pop_1844]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
+[Line 15140 Sent ess_559 Node 7]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
+[Line 15149 Sent pop_1255]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 15171 Sent news_1252]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 15171 Sent news_1252]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 15181 Sent news_1252]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 15206 Sent ess_429 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
+[Line 15222 Sent ess_280 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 15248 Sent bio_60]: [L1 Format extra-empty-line] Spurious empty line. Only one empty line is expected after every sentence.
+Format errors: 1
 Metadata errors: 50
 Morpho errors: 698
 Syntax errors: 450
-*** FAILED *** with 1200 errors
+*** FAILED *** with 1199 errors
