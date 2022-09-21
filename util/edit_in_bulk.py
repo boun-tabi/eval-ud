@@ -13,7 +13,6 @@ conllu_filepath = args.conllu
 if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
 home = os.path.expanduser('~')
-sentence_pattern = r'(.*?)\n\n'
 sentence_pattern = r'# sent_id = (.*?)\n# text = (.*?)\n(.*?)\n\n'
 with open(conllu_filepath, 'r', encoding='utf-8') as f:
     tb = f.read()

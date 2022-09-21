@@ -175,7 +175,7 @@
 4	edebiyatın	edebiyat	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
 5	algılanışı	algıla	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	7	nsubj	_	_
 6	da	da	PART	Emph	_	5	advmod:emph	_	_
-7	dönüştü	dönüş	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+7	dönüştü	dönüş	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 8	;	;	PUNCT	Punc	_	7	punct	_	_
 9	giderek	git	VERB	Conv	Mood=Imp|Polarity=Pos|VerbForm=Conv	19	advcl	_	_
 10	bir	bir	DET	Indef	_	12	det	_	_
@@ -479,8 +479,8 @@
 8-9	girebilirdik	_	_	_	_	_	_	_	SpaceAfter=No
 8	girebilir	gir	VERB	_	Aspect=Hab|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	1	conj	_	_
 9	dik	i	AUX	Zero	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past	8	cop	_	_
-10	.	.	PUNCT	Stop	_	8	punct	_	_
-11	"	"	PUNCT	Punc	_	10	punct	_	_
+10	.	.	PUNCT	Stop	_	8	punct	_	SpaceAfter=No
+11	"	"	PUNCT	Punc	_	10	punct	_	SpaceAfter=No
 12	...	...	PUNCT	TDots	_	8	punct	_	SpacesAfter=\r\n
 
 # sent_id = ess_277
@@ -5349,7 +5349,7 @@
 10	ve	ve	CCONJ	Conj	_	12	cc	_	_
 11	halk	halk	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
 12	oyunlarıyla	oyun	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	conj	_	_
-13	coştu	coş	ADV	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+13	coştu	coş	ADV	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	Stop	_	13	punct	_	SpacesAfter=\n
 
 # sent_id = pop_517
@@ -5470,7 +5470,7 @@
 5	bırakan	bırak	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
 6	renkleriyle	renk	NOUN	_	Case=Ins|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 7	korunan	koru	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl	_	_
-8-9	hayvanlardır	_	_	_	_	_	_	_	_
+8-9	hayvanlardır	_	_	_	_	_	_	_	SpaceAfter=No
 8	hayvanlardır	hayvan	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 9	dır	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	8	cop	_	_
 10	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
@@ -7759,7 +7759,7 @@
 # text = Buluş yapanlar kimlerdir?
 1	Buluş	bul	NOUN	_	Case=Nom|Number=Sing|Person=3|Polarity=Pos	2	obj	_	_
 2	yapanlar	yap	VERB	Ptcp	Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	3	nsubj	_	_
-3-4	kimlerdir	_	_	_	_	_	_	_	_
+3-4	kimlerdir	_	_	_	_	_	_	_	SpaceAfter=No
 3	kimlerdir	kimler	PRON	Ques	Case=Nom|Number=Plur|Person=3	0	root	_	_
 4	dir	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	3	cop	_	_
 5	?	?	PUNCT	Ques	_	3	punct	_	SpacesAfter=\n
@@ -9883,7 +9883,7 @@
 5	gittikten	git	VERB	Ptcp	Aspect=Perf|Case=Abl|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	advcl	_	_
 6	sonra	sonra	ADP	PCAbl	_	5	case	_	_
 7	üzümleri	üzüm	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
-8	yiyecektir	yiyecek	VERB	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+8	yiyecektir	yiyecek	VERB	_	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	Stop	_	8	punct	_	SpacesAfter=\n
 
 # sent_id = pop_1794

@@ -39,7 +39,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 51 Sent ins_1181 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 92 Sent pop_883 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 104 Sent pop_812]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 178 Sent news_145]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #7 because the text is 'dönü\u015ftü; giderek bir[...]'.
 [Line 208 Sent ess_1128]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 223 Sent ins_183 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 223 Sent ins_183 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -68,8 +67,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 467 Sent bio_265]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 451 Sent bio_265 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 [Line 480 Sent ess_1473]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 480 Sent ess_1473]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #10 because the text is '."...'.
-[Line 481 Sent ess_1473]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #11 because the text is '"...'.
 [Line 494 Sent ess_277 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
 [Line 500 Sent news_1476 Node 2]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 500 Sent news_1476 Node 2]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -513,10 +510,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5352 Sent news_1018]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 5352 Sent news_1018]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 5352 Sent news_1018]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS ADV in language [tr].
-[Line 5352 Sent news_1018]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #13 because the text is 'co\u015ftu.'.
 [Line 5447 Sent pop_561]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 5441 Sent pop_561 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 5473 Sent ins_1951]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #8-9 because the text is 'hayvanlard\u0131r.'.
 [Line 5499 Sent ess_1180]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 5511 Sent ins_1008]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 5554 Sent ess_1198]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -663,7 +658,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 7726 Sent pop_1141 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
 [Line 7736 Sent pop_1827]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 7750 Sent ess_1880 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
-[Line 7762 Sent ins_1724]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #3-4 because the text is 'kimlerdir?'.
 [Line 7770 Sent ess_298]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 7775 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 7775 Sent ess_298]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
@@ -817,7 +811,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 9817 Sent pop_895 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 9832 Sent ess_217]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 9832 Sent ess_217 Node 4]: [L5 Morpho aux-lemma] 'sev' is not an auxiliary verb in language [tr]
-[Line 9886 Sent ins_441]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #8 because the text is 'yiyecektir.'.
 [Line 9931 Sent pop_1019 Node 8]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [tr]
 [Line 9931 Sent pop_1019 Node 8]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
 [Line 9943 Sent bio_1025]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -1231,7 +1224,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15181 Sent news_1252]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 15206 Sent ess_429 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 15222 Sent ess_280 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-Metadata errors: 50
+Metadata errors: 43
 Morpho errors: 698
 Syntax errors: 450
-*** FAILED *** with 1198 errors
+*** FAILED *** with 1191 errors

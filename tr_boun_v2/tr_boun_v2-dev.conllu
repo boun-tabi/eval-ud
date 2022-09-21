@@ -3181,7 +3181,7 @@
 11	Abdulaziz	Abdulaziz	PROPN	_	Case=Nom|Number=Sing|Person=3	13	nummod	_	_
 12	Muhammed	Muhammed	PROPN	_	Case=Nom|Number=Sing|Person=3	11	flat	_	_
 13	adlı	adlı	ADJ	Adj	_	14	amod	_	df=ad
-14	Felluceli	Felluceli	PROPN	_	Case=Nom|Number=Sing|Person=3	30	nsubj	_	df=Felluce
+14	Felluceli	Felluceli	PROPN	_	Case=Nom|Number=Sing|Person=3	30	nsubj	_	df=Felluce|SpaceAfter=No
 15	,	,	PUNCT	Comma	_	30	punct	_	_
 16	kızgın	kızgın	ADJ	Adj	_	17	amod	_	_
 17	kalabalığın	kalabalık	NOUN	_	Case=Gen|Number=Sing|Person=3	20	nsubj	_	_
@@ -4211,7 +4211,7 @@
 4	içmek	iç	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun	3	compound	_	_
 5	zorunda	zor	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	amod	_	_
 6	olduğum	ol	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	7	conj	_	_
-7	karşılıklı	karşılık	NOUN	_	Case=Inst|Number=Sing|Person=3	14	compound	_	df=karşı
+7	karşılıklı	karşılık	NOUN	_	Case=Inst|Number=Sing|Person=3	14	compound	_	df=karşı|SpaceAfter=No
 8	,	,	PUNCT	Comma	_	14	punct	_	_
 9	bir	bir	DET	Indef	_	10	det	_	_
 10	adet	âdet	NOUN	_	Case=Nom|Number=Sing|Person=3	11	compound	_	_
@@ -5194,7 +5194,7 @@
 # text = Bazıları ona kızdı.
 1	Bazıları	bazı	PRON	Quant	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	3	nsubj	_	_
 2	ona	o	PRON	Pers	Case=Dat|Number=Sing|Person=3	3	obl	_	_
-3	kızdı	kız	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	kızdı	kız	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	Stop	_	3	punct	_	SpacesAfter=\n
 
 # sent_id = ess_163
@@ -6337,7 +6337,7 @@
 16	,	,	PUNCT	Comma	_	17	punct	_	_
 17	bakımsız	bakımsız	ADJ	Adj	_	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	Comma	_	19	punct	_	_
-19	eksikli	eksikli	ADJ	Adj	_	15	conj	_	df=eksik
+19	eksikli	eksikli	ADJ	Adj	_	15	conj	_	df=eksik|SpaceAfter=No
 20	,	,	PUNCT	Comma	_	21	punct	_	_
 21	noksanlı	noksanlı	ADJ	Adj	_	15	conj	_	df=noksan|SpaceAfter=No
 22	...	...	PUNCT	TDots	_	15	punct	_	SpacesAfter=\r\n
@@ -8061,7 +8061,7 @@
 8	faizlerin	faiz	NOUN	_	Case=Gen|Number=Plur|Person=3	9	nsubj	_	_
 9	belirlenmesinde	belirle	VERB	Vnoun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	6	conj	_	_
 10	özellikle	özellikle	ADV	_	_	11	advmod	_	_
-11	önemli	önemli	ADJ	Adj	_	0	root	_	df=önem
+11	önemli	önemli	ADJ	Adj	_	0	root	_	df=önem|SpaceAfter=No
 12	,	,	PUNCT	Comma	_	18	punct	_	_
 13	dolayısıyla	dolayı	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	advmod	_	_
 14	seçimlerde	seçim	NOUN	_	Case=Loc|Number=Plur|Person=3	17	obl	_	_
@@ -9515,7 +9515,7 @@
 9	her	her	DET	Det	_	10	det	_	_
 10	takımın	takım	NOUN	_	Case=Gen|Number=Sing|Person=3	11	nmod:poss	_	_
 11	başına	baş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	advcl:cond	_	_
-12	gelseydi	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Past	11	compound	_	_
+12	gelseydi	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Past	11	compound	_	SpaceAfter=No
 13	,	,	PUNCT	Comma	_	17	punct	_	_
 14	hiç	hiç	ADV	_	_	17	advmod	_	_
 15	olmazsa	ol	VERB	_	Aspect=Hab|Mood=Cnd|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	14	compound	_	_
@@ -10117,7 +10117,7 @@
 # sent_id = pop_219
 # text = Deniz manzaralı, üç oda bir salon...
 1	Deniz	deniz	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
-2	manzaralı	manzaralı	ADJ	Adj	_	5	amod	_	df=manzara
+2	manzaralı	manzaralı	ADJ	Adj	_	5	amod	_	df=manzara|SpaceAfter=No
 3	,	,	PUNCT	Comma	_	5	punct	_	_
 4	üç	üç	NUM	ANum	NumType=Card	5	nummod	_	_
 5	oda	oda	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -10286,7 +10286,7 @@
 5	No	no	PROPN	_	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	SpaceAfter=No
 6	:	:	PUNCT	Punc	_	5	punct	_	_
 7	42	42	NUM	ANum	NumType=Card	5	nummod	_	_
-8-9	adresindeki	_	_	_	_	_	_	_	_
+8-9	adresindeki	_	_	_	_	_	_	_	SpaceAfter=No
 8	adresinde	adres	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	amod	_	_
 9	ki	ki	PART	Attr	_	8	dep:der	_	_
 10	,	,	PUNCT	Comma	_	16	punct	_	_
@@ -11422,7 +11422,7 @@
 16	çomak	çomak	NOUN	_	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	19	punct	_	_
 18	küçük	küçük	ADJ	Adj	_	19	amod	_	_
-19-20	arabalardır	_	_	_	_	_	_	_	_
+19-20	arabalardır	_	_	_	_	_	_	_	SpaceAfter=No
 19	arabalar	araba	NOUN	_	Case=Nom|Number=Plur|Person=3	4	conj	_	_
 20	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 21	.	.	PUNCT	Stop	_	19	punct	_	SpacesAfter=\n
@@ -12068,7 +12068,7 @@
 1	Buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3	2	nmod	_	_
 2	karşılık	karşılık	NOUN	_	Case=Nom|Number=Sing|Person=3	18	obj	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	8	punct	_	_
-4	ayrıntılı	ayrıntılı	ADJ	Adj	_	8	obj	_	_
+4	ayrıntılı	ayrıntılı	ADJ	Adj	_	8	obj	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	4	punct	_	_
 6	derinlemesine	derinle	VERB	Vnoun	Aspect=Perf|Case=Dat|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Pres|VerbForm=Vnoun	4	compound	_	_
 7	yol	yol	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound	_	_
