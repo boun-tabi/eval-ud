@@ -33,7 +33,8 @@ else:
     error_folder = os.path.join(THIS_DIR, 'Errors')
 if not os.path.exists(error_folder):
     os.mkdir(error_folder)
-treebank_error_folder = os.path.join(error_folder, os.path.basename(conllu_filepath).replace('.conllu', ''))
+treebank_error_folder = os.path.join(
+    error_folder, os.path.basename(conllu_filepath).replace('.conllu', ''))
 if not os.path.exists(treebank_error_folder):
     os.mkdir(treebank_error_folder)
 with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8', newline='\n') as f:
@@ -41,7 +42,7 @@ with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8',
 
 lines = output.splitlines()
 error_types = ['Metadata', 'Syntax', 'Morpho', 'Format', 'Enhanced']
-disregard_l = []
+disregard_l = list()
 with open(os.path.join(THIS_DIR, 'disregard_list.json'), 'r', encoding='utf-8') as f:
     disregard_d = json.load(f)
 for key in disregard_d.keys():
@@ -49,9 +50,11 @@ for key in disregard_d.keys():
         disregard_l.append(label)
 lines_d = dict()
 for err_type in error_types:
-    lines_d[err_type] = []
+    lines_d[err_type] = list()
 include = True
-disregard_count = 0
+disregard_d = dict()
+for err_type in error_types:
+    disregard_d[err_type] = 0
 for line in lines:
     for err_type in error_types:
         if err_type in line:
@@ -62,7 +65,7 @@ for line in lines:
             if include:
                 lines_d[err_type].append(line)
             else:
-                disregard_count += 1
+                disregard_d[err_type] += 1
             break
     include = True
 
@@ -75,4 +78,9 @@ for err_type in error_types:
     with open(err_txt_path, 'w', encoding='utf-8', newline='\n') as f:
         for line in lines_d[err_type]:
             f.write(f'{line}\n')
-print('Disregarded lines: {dr_c}'.format(dr_c=disregard_count))
+
+print('Disregarded line counts by error types in {tb_title}:'.format(tb_title=os.path.basename(conllu_filepath)))
+for err_type in error_types:
+    if disregard_d[err_type] != 0:
+        print('\t{err_type}: {dr_c}'.format(err_type=err_type, dr_c=disregard_d[err_type]))
+print('\tAll: {all}'.format(all=sum([disregard_d[key] for key in disregard_d.keys()])))
