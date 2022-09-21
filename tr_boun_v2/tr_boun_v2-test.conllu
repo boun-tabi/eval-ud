@@ -7716,7 +7716,6 @@
 # text = - Geçmişyaşamdaki arkadaşlarından hayatta olan var mı?
 1	-	-	PUNCT	Punc	_	8	punct	_	_
 2-3	Geçmişyaşamdaki	_	_	_	_	_	_	_	_
-2-3	Geçmişyaşamdaki	_	_	_	_	_	_	_	_
 2	geçmiş	geçmiş	ADJ	Adj	_	5	amod	_	typo:yes
 3	yaşamda	yaşam	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	amod	_	typo:yes
 4	ki	ki	PART	Attr	_	2	dep:der	_	typo:yes
