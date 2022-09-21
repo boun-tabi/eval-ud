@@ -50,9 +50,9 @@ print('All the sentences added: {all_count}'.format(
 entire_treebank_filepath = os.path.join(
     treebank_folderpath, '{tb_title}-entire.conllu'.format(tb_title=os.path.basename(treebank_folderpath)))
 with open(entire_treebank_filepath, 'w', encoding='utf-8', newline='\n') as f:
-    f.write(tb_dev[:-1])
-    f.write(tb_test[:-1])
-    f.write(tb_train[:-1])
+    f.write(tb_dev)
+    f.write(tb_test)
+    f.write(tb_train)
 
 output = subprocess.run([python_script, validation_script,
                         f'--lang={lang}', '--max-err=0', entire_treebank_filepath], capture_output=True, text=True).stderr

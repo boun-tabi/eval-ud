@@ -32,7 +32,7 @@ for sentence in sentences:
     sent_id, text, lines_str = sentence
     new_tb += '# sent_id = {sent_id}\n# text = {text}\n'.format(
         sent_id=sent_id, text=text)
-    text_l = text.split(' ')
+    # text_l = text.split(' ')
     lines = lines_str.split('\n')
     for j, line in enumerate(lines):
         fields = line.split('\t')
@@ -69,7 +69,7 @@ for sentence in sentences:
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)
 
-            # used for sorting morphological features, 9/11/2022
+            # used for sorting morphological features, 9/11/2022 & 9/21/2022
             # if i == field_d['feats']:
             #     feats = field.split('|')
             #     if len(feats) == 1 and feats[0] == '_': continue
@@ -97,12 +97,15 @@ for sentence in sentences:
             #         value = feat_d[tag]
             #         feat_l.append('{tag}={value}'.format(tag=tag, value=value))
             #     fields[i] = '|'.join(feat_l)
-            # line = '\t'.join(fields)
+            #     line = '\t'.join(fields)
+
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
-# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-#     f.write(new_tb)
+with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+    f.write(new_tb)
+if new_tb != tb:
+    print('Treebank changed!')
 
 # used for morphological feature counting by dis/allowed, 9/21/2022 11:25 AM
 # feats_count_folder = os.path.join(THIS_DIR, 'Feats-Count')
