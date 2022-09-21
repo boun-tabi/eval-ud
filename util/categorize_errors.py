@@ -13,8 +13,7 @@ parser.add_argument('--ud-validation', action="store")
 args = parser.parse_args()
 
 conllu_filepath = args.conllu
-conllu_filename = os.path.split(conllu_filepath)[-1]
-if not conllu_filename.endswith('.conllu'):
+if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
 home = os.path.expanduser('~')
 python_script = sys.executable
@@ -34,8 +33,7 @@ else:
     error_folder = os.path.join(THIS_DIR, 'Errors')
 if not os.path.exists(error_folder):
     os.mkdir(error_folder)
-conllu_filename_without_ext = conllu_filename.replace('.conllu', '')
-treebank_error_folder = os.path.join(error_folder, conllu_filename_without_ext)
+treebank_error_folder = os.path.join(error_folder, os.path.basename(conllu_filepath).replace('.conllu', ''))
 if not os.path.exists(treebank_error_folder):
     os.mkdir(treebank_error_folder)
 with open(os.path.join(treebank_error_folder, 'All.txt'), 'w', encoding='utf-8', newline='\n') as f:

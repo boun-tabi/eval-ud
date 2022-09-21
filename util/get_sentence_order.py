@@ -10,8 +10,7 @@ parser.add_argument('--sent-id', action="store", required=True)
 args = parser.parse_args()
 
 conllu_filepath = args.conllu
-conllu_filename = os.path.split(conllu_filepath)[-1]
-if not conllu_filename.endswith('.conllu'):
+if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
 home = os.path.expanduser('~')
 sentence_pattern = r'(.*?)\n\n'

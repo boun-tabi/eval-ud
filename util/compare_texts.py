@@ -11,9 +11,7 @@ args = parser.parse_args()
 
 conllu1_filepath = args.conllu1
 conllu2_filepath = args.conllu2
-conllu1_filename = os.path.split(conllu1_filepath)[-1]
-conllu2_filename = os.path.split(conllu2_filepath)[-1]
-if not conllu1_filename.endswith('.conllu') or not conllu2_filename.endswith('.conllu'):
+if not conllu1_filepath.endswith('.conllu') or not conllu2_filepath.endswith('.conllu'):
     print('At least one of the conllu files do not have the appropriate extension')
 home = os.path.expanduser('~')
 metadata_pattern = r'# sent_id = (.*?)\n# text = (.*?)\n'
