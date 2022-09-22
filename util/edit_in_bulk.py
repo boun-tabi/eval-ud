@@ -26,7 +26,7 @@ new_tb, sent_id = '', ''
 # with open(os.path.join(THIS_DIR, 'allowed-feats-tr.json'), 'r') as f:
 #     allowed_feat_l = json.load(f)
 # feats_d = {"allowed_feats": {}, "disallowed_feats": {}}
-
+count = 0
 for sentence in sentences:
     sent_id, text, lines_str = sentence
     new_tb += '# sent_id = {sent_id}\n# text = {text}\n'.format(
@@ -38,6 +38,7 @@ for sentence in sentences:
         if len(fields) != 10:
             continue
         for i, field in enumerate(fields):
+
             # Editing a specific field
             # if i == field_d['xpos'] and field == 'Zero':
             #     print(line)
@@ -47,6 +48,11 @@ for sentence in sentences:
             #     feats = field.split('|')
             #     for feat in feats:
             #         if '=' in feat: tag, value = feat.split('=')
+
+            # used to change the forms 'bir' to 'Bir' if text starts with 'Bir', 9/22/2022 1:49 PM
+            # if j == 0 and text.startswith('Bir ') and fields[field_d['id']] == '1' and i == field_d['form'] and field == 'bir':
+            #     fields[i] = 'Bir'
+            #     line = '\t'.join(fields)
 
             # used for morphological feature counting by dis/allowed, 9/21/2022 11:25 AM
             # if i == field_d['feats']:
@@ -64,6 +70,10 @@ for sentence in sentences:
             #                 allowed=allowed_str)][feat] = 1
 
             # used for changing obl:tmp to obl:tmod, 9/8/2022 3:35 PM
+            # if i == field_d['deprel'] and field == 'obl:tmp':
+            #     fields[i] = 'obl:tmod'
+            #     line = '\t'.join(fields)
+
             # if i == field_d['deprel'] and field == 'obl:tmp':
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)

@@ -1369,14 +1369,4 @@
 [Line 155118 Sent news_694]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
 [Line 155326 Sent pop_404 Node 3]: [L5 Syntax cop-lemma] 'sa' is not a copula in language [tr]
 [Line 155485 Sent news_1379 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:.:punct --> 3:yaz\u0131kt\u0131r:ccomp)
-[Line 155991 Sent ess_1452 Node 5]: [L3 Syntax leaf-punct] 'punct' not expected to have children (5:":punct --> 2:kemikleri:ccomp)
-[Line 156042 Sent bio_1801 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:gömlek:nmod)
-[Line 156168 Sent news_738 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:":punct --> 11:yani:discourse)
-[Line 156303 Sent bio_1813 Node 7]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (7:de\u011fil:aux --> 8:di:cop)
-[Line 156497 Sent pop_540 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 156507 Sent pop_540 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:gerekli":punct --> 20:yapmak:csubj)
-[Line 156625 Sent bio_44 Node 44]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [33, 39]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 156797 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 8:ve:cc)
-[Line 156799 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 10:ekonomisini:obj)
-[Line 156800 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 11:olumsuz:advmod)
-Syntax errors: 4576
+Syntax errors: 4566
