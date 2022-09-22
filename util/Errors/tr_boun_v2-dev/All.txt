@@ -901,8 +901,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 10797 Sent news_1073]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 10797 Sent news_1073]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
 [Line 10798 Sent news_1073]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 10816 Sent bio_1565]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[6] is 'ak\u015fam' but text is ' ak\u015fam üstüydü, dü\u011fün ala...'
-[Line 10826 Sent bio_1565]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: ' ak\u015fam üstüydü, dü\u011fün alay\u0131 köye girdi.'
 [Line 10831 Sent ess_892 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
 [Line 10835 Sent ess_892 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 10851 Sent news_1357]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS PROPN in language [tr].
@@ -1226,7 +1224,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15362 Sent ess_685 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 15362 Sent ess_685 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 15384 Sent bio_1714]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-Metadata errors: 2
 Morpho errors: 723
 Syntax errors: 468
-*** FAILED *** with 1193 errors
+*** FAILED *** with 1191 errors
