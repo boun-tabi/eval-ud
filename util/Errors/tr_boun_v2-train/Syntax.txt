@@ -1,21 +1,38 @@
 [Line 770 Sent pop_933 Node 15]: [L3 Syntax right-to-left-flat] Relation 'flat' must go left-to-right.
 [Line 771 Sent pop_933 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [17]
+[Line 1506 Sent ess_382 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 1757 Sent news_235 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 2967 Sent ins_759 Node 7]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 3138 Sent pop_1818 Node 3]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 3966 Sent ess_48 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 4492 Sent ins_621 Node 11]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 4592 Sent ess_303 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 4619 Sent news_421 Node 9]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 4788 Sent ess_24 Node 11]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 5124 Sent pop_211 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 5275 Sent bio_1247 Node 16]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 5586 Sent ess_1138 Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29]
 [Line 5908 Sent bio_135 Node 13]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 6203 Sent ess_1715 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 6829 Sent ess_144 Node 3]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 6845 Sent ess_207 Node 12]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 7234 Sent ins_1040 Node 18]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 8431 Sent ess_1131 Node 46]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 8611 Sent pop_1790 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29, 30, 31, 32, 33, 34]
+[Line 9173 Sent ins_318 Node 11]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 9924 Sent ess_494 Node 16]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 9936 Sent pop_308 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 10700 Sent ess_1892 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 10704 Sent ess_1892 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 11361 Sent ess_1555 Node 7]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 12647 Sent ins_1351 Node 2]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 12925 Sent ess_615 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 13283 Sent news_304 Node 22]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 13422 Sent ess_1380 Node 13]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 13633 Sent news_847 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 13705 Sent ess_968 Node 13]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 13734 Sent ins_1504 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 13782 Sent ess_177 Node 12]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 14284 Sent pop_750 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 15061 Sent ins_469 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 15354 Sent bio_806 Node 23]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
@@ -23,29 +40,39 @@
 [Line 15721 Sent ess_1249 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 15755 Sent ess_1249 Node 41]: [L3 Syntax leaf-punct] 'punct' not expected to have children (41:,:punct --> 42:o:det)
 [Line 15762 Sent ess_1249 Node 48]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [30, 47]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 16935 Sent pop_165 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 17036 Sent ess_967 Node 17]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16]
 [Line 17552 Sent ess_1367 Node 14]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 17681 Sent ess_1900 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 18917 Sent pop_230 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 19762 Sent ess_1529 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 19801 Sent ess_55 Node 12]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 20294 Sent ess_610 Node 59]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [58]
 [Line 20298 Sent ess_610 Node 63]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [62]
+[Line 20640 Sent pop_1313 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 20703 Sent ess_89 Node 52]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [42, 47]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 21294 Sent ins_1808 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 22169 Sent ins_1058 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 22292 Sent pop_1750 Node 16]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 23748 Sent bio_1517 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 24011 Sent ess_727 Node 13]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
+[Line 24519 Sent ins_1521 Node 3]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 25592 Sent ins_40 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 25713 Sent ess_433 Node 11]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 25877 Sent news_4 Node 14]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 26437 Sent ess_1800 Node 12]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 26726 Sent news_103 Node 15]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 27035 Sent ess_1329 Node 11]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 27892 Sent pop_1078 Node 15]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [7, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 27987 Sent ins_459 Node 8]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 28039 Sent ins_909 Node 7]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 28411 Sent ess_1151 Node 8]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 28460 Sent bio_159 Node 3]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 29269 Sent ins_1190 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 29492 Sent news_1722 Node 5]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 30573 Sent ess_1733 Node 31]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [27, 29]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 31102 Sent ess_1829 Node 26]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 31129 Sent ess_1576 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:):punct --> 9:dü\u015fürüldü\u011fünden:obl)
+[Line 31129 Sent ess_1576 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:):punct --> 9:düşürüldüğünden:obl)
 [Line 31165 Sent ess_80 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
 [Line 31190 Sent ess_80 Node 26]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 31196 Sent ess_80 Node 32]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [33, 34, 35, 36]
@@ -62,18 +89,18 @@
 [Line 31605 Sent news_1190 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 31663 Sent news_1828 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 31758 Sent news_473 Node 9]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 31751 Sent news_473 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:oldu\u011funa:cop --> 2:toplumunun:nsubj)
-[Line 31753 Sent news_473 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:oldu\u011funa:cop --> 4:konusunda:obl)
-[Line 32213 Sent ess_195 Node 1]: [L3 Syntax leaf-punct] 'punct' not expected to have children (1:':punct --> 2:Ça\u011f:obj)
-[Line 32345 Sent ess_305 Node 10]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (10:oldu\u011fu:aux --> 4:nokta:nsubj)
-[Line 32347 Sent ess_305 Node 10]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (10:oldu\u011fu:aux --> 6:hemen:advmod)
+[Line 31751 Sent news_473 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:olduğuna:cop --> 2:toplumunun:nsubj)
+[Line 31753 Sent news_473 Node 9]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (9:olduğuna:cop --> 4:konusunda:obl)
+[Line 32213 Sent ess_195 Node 1]: [L3 Syntax leaf-punct] 'punct' not expected to have children (1:':punct --> 2:Çağ:obj)
+[Line 32345 Sent ess_305 Node 10]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (10:olduğu:aux --> 4:nokta:nsubj)
+[Line 32347 Sent ess_305 Node 10]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (10:olduğu:aux --> 6:hemen:advmod)
 [Line 32378 Sent pop_1632 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
 [Line 32378 Sent pop_1632 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [12, 14, 15, 16, 17, 18, 19, 20, 21]
 [Line 32380 Sent pop_1632 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10, 12]
 [Line 32380 Sent pop_1632 Node 13]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [14, 15, 16, 17, 18, 19, 20, 21]
 [Line 32386 Sent pop_1632 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 9, 11, 13, 14, 17, 29]
 [Line 32440 Sent ins_1085 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 32805 Sent ess_1914 Node 19]: [L3 Syntax leaf-punct] 'punct' not expected to have children (19:":punct --> 18:hastal\u0131klar\u0131:compound)
+[Line 32805 Sent ess_1914 Node 19]: [L3 Syntax leaf-punct] 'punct' not expected to have children (19:":punct --> 18:hastalıkları:compound)
 [Line 32825 Sent ess_1914 Node 36]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [28, 35]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 33219 Sent news_1114 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 33330 Sent ess_1403]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'compund:redup'
@@ -97,7 +124,7 @@
 [Line 36064 Sent ess_496 Node 14]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJP'
 [Line 36139 Sent ess_664 Node 18]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 36151 Sent ess_664 Node 30]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 36502 Sent news_226 Node 15]: [L5 Syntax cop-lemma] 'm\u0131' is not a copula in language [tr]
+[Line 36502 Sent news_226 Node 15]: [L5 Syntax cop-lemma] 'mı' is not a copula in language [tr]
 [Line 36871 Sent ess_1074 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:sonuç:punct --> 6:tan:case)
 [Line 36876 Sent ess_1074 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:gerçek:punct --> 11:ten:case)
 [Line 36949 Sent ins_990 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -247,6 +274,7 @@
 [Line 55504 Sent ess_1658 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
 [Line 55545 Sent ins_1217 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 55563 Sent ins_341 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
+[Line 55752 Sent ess_199 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 56174 Sent ins_638 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 56389 Sent ins_247 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 56578 Sent ess_248 Node 39]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -284,7 +312,7 @@
 [Line 60293 Sent bio_280 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6, 7, 8, 10]
 [Line 60668 Sent ins_1443 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 61369 Sent pop_364 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 61964 Sent ins_1616 Node 13]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (13:düm:cop --> 10:tarlas\u0131d\u0131r:advcl)
+[Line 61964 Sent ins_1616 Node 13]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (13:düm:cop --> 10:tarlasıdır:advcl)
 [Line 62069 Sent pop_178 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5]
 [Line 62138 Sent ess_1442 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 62198 Sent ess_1889 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -310,11 +338,11 @@
 [Line 65772 Sent news_1304 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 66109 Sent bio_796 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 66163 Sent news_362 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 4:serimize:obl)
-[Line 66166 Sent news_362 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 7:ba\u015flamay\u0131:ccomp)
+[Line 66166 Sent news_362 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 7:başlamayı:ccomp)
 [Line 66300 Sent ins_231 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 66498 Sent ess_616 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 66631 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 16:yapt\u0131ktan:advcl)
-[Line 66633 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 18:Müslümanlar\u0131:obj)
+[Line 66631 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 16:yaptıktan:advcl)
+[Line 66633 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 18:Müslümanları:obj)
 [Line 66635 Sent news_1484 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19]
 [Line 66920 Sent ess_672 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 66927 Sent ess_672 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
@@ -336,7 +364,7 @@
 [Line 69759 Sent pop_921 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69827 Sent pop_1371 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69992 Sent ins_764 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:":punct --> 8:Cochrane:nmod)
-[Line 69993 Sent ins_764 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:":punct --> 9:bula\u015f\u0131k:nmod)
+[Line 69993 Sent ins_764 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:":punct --> 9:bulaşık:nmod)
 [Line 69995 Sent ins_764 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
 [Line 70123 Sent ess_44 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 70144 Sent ess_717 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
@@ -354,7 +382,7 @@
 [Line 71960 Sent ess_448 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 72063 Sent bio_1327 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 72166 Sent news_1521 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 72493 Sent ess_1307 Node 7]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
+[Line 72493 Sent ess_1307 Node 7]: [L5 Syntax cop-lemma] 'TİR' is not a copula in language [tr]
 [Line 72715 Sent news_589 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 72973 Sent ins_1449 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73038 Sent ins_1256 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
@@ -386,7 +414,7 @@
 [Line 78132 Sent ess_273 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 78193 Sent pop_1381 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 78209 Sent news_1107 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
-[Line 78210 Sent news_1107 Node 12]: [L3 Syntax leaf-punct] 'punct' not expected to have children (12:":punct --> 10:i\u015f:obj)
+[Line 78210 Sent news_1107 Node 12]: [L3 Syntax leaf-punct] 'punct' not expected to have children (12:":punct --> 10:iş:obj)
 [Line 78400 Sent news_1520 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'PART'
 [Line 78400 Sent news_1520 Node 3]: [L5 Syntax cop-lemma] 'ki' is not a copula in language [tr]
 [Line 78597 Sent ins_1540 Node 11]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
@@ -394,12 +422,12 @@
 [Line 78644 Sent news_641 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'advcl'
 [Line 79063 Sent news_291 Node 21]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
 [Line 79064 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 22:ama:cc)
-[Line 79067 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:yapaca\u011f\u0131:csubj)
+[Line 79067 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:yapacağı:csubj)
 [Line 79108 Sent news_1834 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 79206 Sent ins_685 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 79337 Sent ess_123 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 79499 Sent ins_1827 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 79949 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 1:Yapt\u0131klar\u0131m\u0131:obj)
+[Line 79949 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 1:Yaptıklarımı:obj)
 [Line 79950 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 2:herkes:nsubj)
 [Line 80079 Sent pop_321 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5]
 [Line 80999 Sent pop_7 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -413,16 +441,17 @@
 [Line 82077 Sent ess_513 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 82137 Sent ess_742 Node 3]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 82203 Sent news_1821 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
-[Line 82202 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 2:görü\u015ferek:advcl)
+[Line 82202 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 2:görüşerek:advcl)
 [Line 82206 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 6:gidermeye:ccomp)
 [Line 82313 Sent bio_810 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 82319 Sent bio_810 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 82322 Sent bio_810 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 82327 Sent bio_810 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
+[Line 82309 Sent bio_810 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 82458 Sent ess_1831 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5, 6, 7, 8]
 [Line 82565 Sent pop_968 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 82575 Sent pop_968 Node 19]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'csubj'
-[Line 82578 Sent pop_968 Node 21]: [L5 Syntax cop-lemma] 'T\u0130R' is not a copula in language [tr]
+[Line 82578 Sent pop_968 Node 21]: [L5 Syntax cop-lemma] 'TİR' is not a copula in language [tr]
 [Line 82729 Sent bio_1393 Node 10]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obl'
 [Line 82927 Sent news_1850 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 83074 Sent ins_1035]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'subj'
@@ -453,7 +482,7 @@
 [Line 85624 Sent ins_491 Node 53]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 85646 Sent bio_1889 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85808 Sent news_498 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 85809 Sent news_498 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:de\u011fildirler:aux --> 4:dirler:cop)
+[Line 85809 Sent news_498 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:değildirler:aux --> 4:dirler:cop)
 [Line 85821 Sent pop_1135 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85834 Sent ess_1635 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5]
 [Line 86071 Sent bio_1748 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
@@ -462,7 +491,7 @@
 [Line 86235 Sent ess_581 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 86253 Sent pop_1957 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 86266 Sent ess_908 Node 6]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 86283 Sent ess_652 Node 7]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (7:de\u011fil:aux --> 8:dir:cop)
+[Line 86283 Sent ess_652 Node 7]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (7:değil:aux --> 8:dir:cop)
 [Line 86536 Sent ins_666 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 86684 Sent ess_950 Node 14]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [13, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 86732 Sent news_1314 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
@@ -499,7 +528,7 @@
 [Line 90094 Sent bio_1625 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90266 Sent ess_824 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90541 Sent pop_1483 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 90631 Sent bio_1165 Node 5]: [L5 Syntax cop-lemma] 't\u0131r' is not a copula in language [tr]
+[Line 90631 Sent bio_1165 Node 5]: [L5 Syntax cop-lemma] 'tır' is not a copula in language [tr]
 [Line 90841 Sent news_438 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90857 Sent news_438 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90945 Sent pop_1541 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
@@ -529,7 +558,7 @@
 [Line 93643 Sent pop_1663 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 93906 Sent ess_1432 Node 11]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 4, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 93941 Sent ins_1166 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:.:punct --> 5:gereklidir:ccomp)
-[Line 94034 Sent ess_598 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:,:punct --> 4:yüzy\u0131ld\u0131r:advmod)
+[Line 94034 Sent ess_598 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:,:punct --> 4:yüzyıldır:advmod)
 [Line 94434 Sent ins_1010 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 94502 Sent ins_30 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 94505 Sent ins_30 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -544,7 +573,7 @@
 [Line 95907 Sent ins_455 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96071 Sent news_1230 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96197 Sent ins_1756 Node 20]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 96185 Sent ins_1756 Node 8]: [L5 Syntax cop-lemma] 'YD\u0130' is not a copula in language [tr]
+[Line 96185 Sent ins_1756 Node 8]: [L5 Syntax cop-lemma] 'YDİ' is not a copula in language [tr]
 [Line 96219 Sent ess_1863 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96252 Sent ins_660 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96473 Sent ins_1873 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
@@ -564,7 +593,7 @@
 [Line 97958 Sent bio_1560 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2, 5]
 [Line 97958 Sent bio_1560 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 [Line 98123 Sent bio_1152 Node 15]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (15:du:cop --> 12:cumhuriyettir:ccomp)
-[Line 98180 Sent pop_1994 Node 28]: [L3 Syntax leaf-punct] 'punct' not expected to have children (28:.:punct --> 8:ta\u015f\u0131m\u0131\u015flar:advcl)
+[Line 98180 Sent pop_1994 Node 28]: [L3 Syntax leaf-punct] 'punct' not expected to have children (28:.:punct --> 8:taşımışlar:advcl)
 [Line 98222 Sent pop_1204 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
 [Line 98494 Sent pop_806 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 98585 Sent bio_659 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
@@ -573,7 +602,7 @@
 [Line 98995 Sent ess_1856 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 99289 Sent bio_688 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 99403 Sent news_571 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:":punct --> 13:ve:cc)
-[Line 99409 Sent news_571 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:":punct --> 19:b\u0131rakmas\u0131:csubj)
+[Line 99409 Sent news_571 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:":punct --> 19:bırakması:csubj)
 [Line 99724 Sent news_1437 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 99835 Sent ess_1048 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 100075 Sent ins_1695 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
@@ -608,6 +637,7 @@
 [Line 104533 Sent news_709 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 104557 Sent news_709 Node 26]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 104564 Sent news_709 Node 33]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 104533 Sent news_709 Node 2]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 104607 Sent news_1681 Node 6]: [L3 Syntax leaf-punct] 'punct' not expected to have children (6:":punct --> 7:olarak:case)
 [Line 104606 Sent news_1681 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
 [Line 104606 Sent news_1681 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5]
@@ -659,7 +689,7 @@
 [Line 111485 Sent ess_988 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11]
 [Line 111490 Sent ess_988 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [19]
 [Line 111637 Sent bio_1078 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 112414 Sent ins_1128 Node 9]: [L5 Syntax cop-lemma] 'i\u015f' is not a copula in language [tr]
+[Line 112414 Sent ins_1128 Node 9]: [L5 Syntax cop-lemma] 'iş' is not a copula in language [tr]
 [Line 112480 Sent pop_573 Node 13]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 112480 Sent pop_573 Node 13]: [L5 Syntax cop-lemma] 'de' is not a copula in language [tr]
 [Line 112936 Sent news_1858 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
@@ -678,8 +708,8 @@
 [Line 114883 Sent ins_1454 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 115067 Sent pop_677 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 115120 Sent pop_1677 Node 11]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
-[Line 115121 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:d\u0131r:punct --> 12:elbette:advmod)
-[Line 115122 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:d\u0131r:punct --> 13:ki:advmod)
+[Line 115121 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:dır:punct --> 12:elbette:advmod)
+[Line 115122 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:dır:punct --> 13:ki:advmod)
 [Line 115269 Sent bio_413 Node 2]: [L3 Syntax goeswith-nospace] 'goeswith' cannot connect nodes that are not separated by whitespace
 [Line 115271 Sent bio_413 Node 3]: [L3 Syntax leaf-goeswith] 'goeswith' not expected to have children (3:.C:goeswith --> 4:.:punct)
 [Line 115713 Sent bio_1284 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [4, 8]
@@ -705,7 +735,7 @@
 [Line 119650 Sent news_1034 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
 [Line 119766 Sent pop_682 Node 5]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
 [Line 119829 Sent pop_1419 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 120187 Sent ins_1898 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:de\u011filler:aux --> 19:dir:cop)
+[Line 120187 Sent ins_1898 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:değiller:aux --> 19:dir:cop)
 [Line 120305 Sent ess_132 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 120384 Sent ins_399 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 120593 Sent bio_389 Node 27]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
@@ -723,9 +753,9 @@
 [Line 122751 Sent news_516 Node 34]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
 [Line 122752 Sent news_516 Node 35]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 26]
 [Line 122753 Sent news_516 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 26]
-[Line 122725 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 8:y\u0131l:obl)
+[Line 122725 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 8:yıl:obl)
 [Line 122743 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 26:Hi:obl)
-[Line 123503 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 5:Sat\u0131l\u0131k:amod)
+[Line 123503 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 5:Satılık:amod)
 [Line 123504 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 6:tahta:amod)
 [Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 8]
 [Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8]
@@ -737,15 +767,8 @@
 [Line 124414 Sent ess_1357 Node 23]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [13, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 124485 Sent news_694]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
 [Line 124693 Sent pop_404 Node 3]: [L5 Syntax cop-lemma] 'sa' is not a copula in language [tr]
-[Line 124852 Sent news_1379 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:.:punct --> 3:yaz\u0131kt\u0131r:ccomp)
+[Line 124852 Sent news_1379 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:.:punct --> 3:yazıktır:ccomp)
 [Line 125358 Sent ess_1452 Node 5]: [L3 Syntax leaf-punct] 'punct' not expected to have children (5:":punct --> 2:kemikleri:ccomp)
-[Line 125409 Sent bio_1801 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:gömlek:nmod)
-[Line 125535 Sent news_738 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:":punct --> 11:yani:discourse)
-[Line 125670 Sent bio_1813 Node 7]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (7:de\u011fil:aux --> 8:di:cop)
-[Line 125864 Sent pop_540 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 125874 Sent pop_540 Node 21]: [L3 Syntax leaf-punct] 'punct' not expected to have children (21:gerekli":punct --> 20:yapmak:csubj)
-[Line 125992 Sent bio_44 Node 44]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [33, 39]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 126164 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 8:ve:cc)
-[Line 126166 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 10:ekonomisini:obj)
-[Line 126167 Sent news_192 Node 13]: [L3 Syntax leaf-punct] 'punct' not expected to have children (13:":punct --> 11:olumsuz:advmod)
-Syntax errors: 3658
+[Line 125876 Sent pop_540]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'punkt'
+[Line 125876 Sent pop_540 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'punkt'
+Syntax errors: 3651
