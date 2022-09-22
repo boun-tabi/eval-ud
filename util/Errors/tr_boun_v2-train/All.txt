@@ -9035,7 +9035,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 125309 Sent pop_1825 Node 16]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 125309 Sent pop_1825 Node 16]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 125335 Sent bio_617]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 125358 Sent ess_1452 Node 5]: [L3 Syntax leaf-punct] 'punct' not expected to have children (5:":punct --> 2:kemikleri:ccomp)
 [Line 125377 Sent ess_1452 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 125377 Sent ess_1452 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 125391 Sent bio_1801 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -9075,9 +9074,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 125811 Sent news_1905 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 125811 Sent news_1905 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 125847 Sent ins_77]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 125876 Sent pop_540]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'punkt'
 [Line 125875 Sent pop_540]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #21 because the text is 'gerekli" deyip savun[...]'.
-[Line 125876 Sent pop_540 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'punkt'
 [Line 125862 Sent pop_540 Node 8]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
 [Line 125895 Sent ess_285]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 125895 Sent ess_285]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
@@ -9118,5 +9115,5 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126618 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 Metadata errors: 131
 Morpho errors: 5301
-Syntax errors: 3651
-*** FAILED *** with 9083 errors
+Syntax errors: 3648
+*** FAILED *** with 9080 errors

@@ -768,7 +768,4 @@
 [Line 124485 Sent news_694]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
 [Line 124693 Sent pop_404 Node 3]: [L5 Syntax cop-lemma] 'sa' is not a copula in language [tr]
 [Line 124852 Sent news_1379 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:.:punct --> 3:yazıktır:ccomp)
-[Line 125358 Sent ess_1452 Node 5]: [L3 Syntax leaf-punct] 'punct' not expected to have children (5:":punct --> 2:kemikleri:ccomp)
-[Line 125876 Sent pop_540]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'punkt'
-[Line 125876 Sent pop_540 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'punkt'
-Syntax errors: 3651
+Syntax errors: 3648
