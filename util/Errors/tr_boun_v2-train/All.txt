@@ -8904,10 +8904,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 123510 Sent bio_291]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 123510 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PROPN in language [tr].
 [Line 123510 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 123503 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 5:Sat\u0131l\u0131k:amod)
+[Line 123502 Sent bio_291 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
+[Line 123503 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 5:Satılık:amod)
 [Line 123504 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 6:tahta:amod)
-[Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 8]
-[Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8]
 [Line 123518 Sent bio_291 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 123518 Sent bio_291 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 123632 Sent news_245 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -9108,5 +9107,5 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126619 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 Metadata errors: 132
 Morpho errors: 5300
-Syntax errors: 3641
-*** FAILED *** with 9073 errors
+Syntax errors: 3640
+*** FAILED *** with 9072 errors
