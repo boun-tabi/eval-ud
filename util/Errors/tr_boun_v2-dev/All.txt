@@ -827,8 +827,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 9637 Sent ess_656]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 9648 Sent ins_531]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 9648 Sent ins_531 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 9673 Sent bio_1674]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[7] is 'bir' but text is 'Bir süre akü ta\u015f\u0131maktan...'
-[Line 9683 Sent bio_1674]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir süre akü ta\u015f\u0131maktan kurtulmu\u015ftum.'
 [Line 9669 Sent bio_1674 Node 2]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
 [Line 9673 Sent bio_1674 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 9673 Sent bio_1674 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -865,8 +863,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 10086 Sent ess_1384]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 10099 Sent news_861 Node 9]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 10112 Sent ins_1249]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 10137 Sent pop_1393]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[2] is 'bir' but text is 'Bir defa da sen idare e...'
-[Line 10144 Sent pop_1393]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'Bir defa da sen idare etseydin.'
 [Line 10137 Sent pop_1393 Node 2]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
 [Line 10138 Sent pop_1393 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 10151 Sent ins_934]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
@@ -1230,7 +1226,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15362 Sent ess_685 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 15362 Sent ess_685 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 15384 Sent bio_1714]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-Metadata errors: 6
+Metadata errors: 2
 Morpho errors: 723
 Syntax errors: 468
-*** FAILED *** with 1197 errors
+*** FAILED *** with 1193 errors

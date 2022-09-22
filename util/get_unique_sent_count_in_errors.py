@@ -15,7 +15,6 @@ args = parser.parse_args()
 conllu_filepath = args.conllu
 if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
-home = os.path.expanduser('~')
 python_script = sys.executable
 if args.ud_validation:
     validation_script = args.ud_validation

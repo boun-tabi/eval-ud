@@ -15,7 +15,6 @@ args = parser.parse_args()
 conllu_filepath = args.conllu
 if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
-home = os.path.expanduser('~')
 python_script = sys.executable
 if args.ud_validation:
     validation_script = args.ud_validation
@@ -53,7 +52,9 @@ for err_type in error_types:
     lines_d[err_type] = list()
 include = True
 disregard_d = dict()
+error_d = dict()
 for err_type in error_types:
+    error_d[err_type] = 0
     disregard_d[err_type] = 0
 for line in lines:
     for err_type in error_types:
@@ -63,6 +64,7 @@ for line in lines:
                     include = False
                     break
             if include:
+                error_d[err_type] += 1
                 lines_d[err_type].append(line)
             else:
                 disregard_d[err_type] += 1
@@ -79,8 +81,14 @@ for err_type in error_types:
         for line in lines_d[err_type]:
             f.write(f'{line}\n')
 
-print('Disregarded line counts by error types in {tb_title}:'.format(tb_title=os.path.basename(conllu_filepath)))
+print('{tb_title}'.format(tb_title=os.path.basename(conllu_filepath)))
+print('\tError counts by error types:')
+for err_type in error_types:
+    if error_d[err_type] != 0:
+        print('\t\t{err_type}: {err_c}'.format(err_type=err_type, err_c=error_d[err_type]))
+print('\t\tAll: {all}'.format(all=sum([error_d[key] for key in error_d.keys()])))
+print('\tDisregarded line counts by error types:')
 for err_type in error_types:
     if disregard_d[err_type] != 0:
-        print('\t{err_type}: {dr_c}'.format(err_type=err_type, dr_c=disregard_d[err_type]))
-print('\tAll: {all}'.format(all=sum([disregard_d[key] for key in disregard_d.keys()])))
+        print('\t\t{err_type}: {dr_c}'.format(err_type=err_type, dr_c=disregard_d[err_type]))
+print('\t\tAll: {all}'.format(all=sum([disregard_d[key] for key in disregard_d.keys()])))

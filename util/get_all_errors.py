@@ -21,7 +21,6 @@ conllu_train_filepath = os.path.join(
     treebank_folderpath, '{tb_title}-train.conllu'.format(tb_title=os.path.basename(treebank_folderpath)))
 if not conllu_dev_filepath.endswith('.conllu') or not conllu_test_filepath.endswith('.conllu') or not conllu_train_filepath.endswith('.conllu'):
     print('At least one of the conllu files does not have the appropriate extension')
-home = os.path.expanduser('~')
 python_script = sys.executable
 if args.ud_validation:
     validation_script = args.ud_validation

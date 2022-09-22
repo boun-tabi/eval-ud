@@ -13,7 +13,6 @@ conllu1_filepath = args.conllu1
 conllu2_filepath = args.conllu2
 if not conllu1_filepath.endswith('.conllu') or not conllu2_filepath.endswith('.conllu'):
     print('At least one of the conllu files does not have the appropriate extension')
-home = os.path.expanduser('~')
 metadata_pattern = r'# sent_id = (.*?)\n# text = (.*?)\n'
 with open(conllu1_filepath, 'r', encoding='utf-8') as f:
     tb1 = f.read()

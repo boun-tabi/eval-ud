@@ -12,7 +12,6 @@ args = parser.parse_args()
 conllu_filepath = args.conllu
 if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
-home = os.path.expanduser('~')
 sentence_pattern = r'# sent_id = (.*?)\n# text = (.*?)\n(.*?)\n\n'
 with open(conllu_filepath, 'r', encoding='utf-8') as f:
     tb = f.read()
@@ -26,17 +25,39 @@ new_tb, sent_id = '', ''
 # with open(os.path.join(THIS_DIR, 'allowed-feats-tr.json'), 'r') as f:
 #     allowed_feat_l = json.load(f)
 # feats_d = {"allowed_feats": {}, "disallowed_feats": {}}
-count = 0
+
+# count = 0
+
 for sentence in sentences:
     sent_id, text, lines_str = sentence
     new_tb += '# sent_id = {sent_id}\n# text = {text}\n'.format(
         sent_id=sent_id, text=text)
     # text_l = text.split(' ')
+    # rem_text = text
     lines = lines_str.split('\n')
+    # not_consider = []
     for j, line in enumerate(lines):
         fields = line.split('\t')
         if len(fields) != 10:
             continue
+
+        # used for checking form mismatches, 9/22/2022 8:30 PM
+        # if '-' in fields[field_d['id']]:
+        #     for el in [id_t for id_t in fields[field_d['id']].split('-')]:
+        #         not_consider.append(el)
+        # if fields[field_d['id']] in not_consider:
+        #     pass
+        # elif not rem_text.startswith(fields[field_d['form']]):
+        #     print(rem_text, fields[field_d['form']])
+        #     print(text)
+        #     input()
+        #     pass
+        # else:
+            # print(rem_text)
+            # rem_text = rem_text[len(fields[field_d['form']]):].lstrip()
+            # print(rem_text);input()
+            # print(rem_text, fields[field_d['form']]);input()
+
         for i, field in enumerate(fields):
 
             # Editing a specific field
@@ -50,6 +71,9 @@ for sentence in sentences:
             #         if '=' in feat: tag, value = feat.split('=')
 
             # used to change the forms 'bir' to 'Bir' if text starts with 'Bir', 9/22/2022 1:49 PM
+            # print(rem_text);input()
+            # if re.search(r'^.*?Bir[ ]+', text) and i == field_d['form'] and field == 'bir':
+            #     print(text, fields);input()
             # if j == 0 and text.startswith('Bir ') and fields[field_d['id']] == '1' and i == field_d['form'] and field == 'bir':
             #     fields[i] = 'Bir'
             #     line = '\t'.join(fields)
@@ -111,10 +135,13 @@ for sentence in sentences:
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
-with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-    f.write(new_tb)
+# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+#     f.write(new_tb)
 if new_tb != tb:
     print('Treebank changed!')
+
+# check_len = 1000
+# print(new_tb[:check_len] == tb[:check_len])
 
 # used for morphological feature counting by dis/allowed, 9/21/2022 11:25 AM
 # feats_count_folder = os.path.join(THIS_DIR, 'Feats-Count')

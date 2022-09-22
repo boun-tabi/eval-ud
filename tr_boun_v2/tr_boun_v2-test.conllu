@@ -413,7 +413,7 @@
 13	ve	ve	CCONJ	Conj	_	18	cc	_	_
 14	yanımda	yan	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	18	obl	_	_
 15	Isabelle	Isabelle	PROPN	_	Case=Nom|Number=Sing|Person=3	18	obl	_	_
-16	_ani	_ani	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	15	flat	_	_
+16	Adjani	Adjani	CCONJ	Conj	Case=Nom|Number=Sing|Person=3	15	flat	_	_
 17	ile	ile	CCONJ	Conj	_	15	case	_	_
 18	oturduğumda	otur	VERB	Ptcp	Aspect=Perf|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	20	advcl	_	_
 19	mutlu	mutlu	ADJ	Adj	_	20	amod	_	df=mut
@@ -2409,7 +2409,7 @@
 21	yazıyordu	yaz	VERB	_	Aspect=Prog|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 22	:	:	PUNCT	Punc	_	28	punct	_	_
 23	"	"	PUNCT	Punc	_	28	punct	_	SpaceAfter=No
-24	bir	bir	DET	Indef	_	25	det	_	_
+24	Bir	bir	DET	Indef	_	25	det	_	_
 25	toplumda	toplum	NOUN	_	Case=Loc|Number=Sing|Person=3	28	obl	_	_
 26	oruçlular	oruçlu	NOUN	_	Case=Nom|Number=Plur|Person=3	28	nsubj	_	df=oruç
 27	da	da	PART	Emph	_	26	advmod:emph	_	_
@@ -7716,7 +7716,7 @@
 # text = - Geçmişyaşamdaki arkadaşlarından hayatta olan var mı?
 1	-	-	PUNCT	Punc	_	8	punct	_	_
 2-3	Geçmişyaşamdaki	_	_	_	_	_	_	_	_
-2	geçmiş	geçmiş	ADJ	Adj	_	5	amod	_	typo:yes
+2	Geçmiş	geçmiş	ADJ	Adj	_	5	amod	_	typo:yes
 3	yaşamda	yaşam	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	amod	_	typo:yes
 4	ki	ki	PART	Attr	_	2	dep:der	_	typo:yes
 5	arkadaşlarından	arkadaş	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
@@ -10319,7 +10319,7 @@
 12	şu	şu	DET	Det	_	13	det	_	_
 13	büyükleriniz	büyük	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=2	17	nsubj	_	SpaceAfter=No
 14	!	!	PUNCT	Excl	_	13	punct	_	_
-15	bir	bir	DET	Indef	_	16	nummod	_	_
+15	Bir	bir	DET	Indef	_	16	nummod	_	_
 16	türlü	türlü	ADJ	Adj	_	17	advmod	_	_
 17	vazgeçmezler	vazgeç	NOUN	_	Aspect=Hab|Number=Plur|Person=3|Polarity=Neg|Tense=Aor	1	conj	_	_
 18	sizleri	siz	NOUN	_	Case=Acc|Number=Plur|Person=2	17	obj	_	_
@@ -11885,7 +11885,7 @@
 18	ediyor	et	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	17	compound:lvc	_	SpaceAfter=No
 19	:	:	PUNCT	Punc	_	17	punct	_	_
 20	"	"	PUNCT	Punc	_	26	punct	_	SpaceAfter=No
-21	bir	bir	DET	Indef	_	22	det	_	_
+21	Bir	bir	DET	Indef	_	22	det	_	_
 22	defa	defa	NOUN	_	Case=Nom|Number=Sing|Person=3	26	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	Comma	_	26	punct	_	_
 24	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1	26	nsubj	_	_
@@ -12865,7 +12865,7 @@
 4	diyor	de	VERB	_	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	Punc	_	4	punct	_	_
 6	"	"	PUNCT	Punc	_	4	punct	_	SpaceAfter=No
-7	bir	bir	DET	Indef	_	8	det	_	_
+7	Bir	bir	DET	Indef	_	8	det	_	_
 8	erkeği	erkek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	eğitirseniz	eğit	VERB	_	Aspect=Hab|Mood=Cnd|Number=Plur|Person=2|Polarity=Pos|Tense=Aor	12	advcl:cond	_	_
 10	tek	tek	ADJ	Adj	_	11	amod	_	_

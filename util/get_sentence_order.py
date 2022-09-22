@@ -12,7 +12,6 @@ args = parser.parse_args()
 conllu_filepath = args.conllu
 if not conllu_filepath.endswith('.conllu'):
     print('conllu file does not have the appropriate extension')
-home = os.path.expanduser('~')
 sentence_pattern = r'(.*?)\n\n'
 sent_id_pattern = r'# sent_id = (.*)'
 with open(conllu_filepath, 'r', encoding='utf-8') as f:
