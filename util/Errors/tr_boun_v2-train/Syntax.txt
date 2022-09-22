@@ -759,13 +759,5 @@
 [Line 123504 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 6:tahta:amod)
 [Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 8]
 [Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8]
-[Line 123528 Sent ess_1395 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON'
-[Line 123639 Sent bio_383 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 123929 Sent ess_1671 Node 37]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [31, 35]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 124181 Sent pop_1950 Node 15]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 124291 Sent news_1957 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 124414 Sent ess_1357 Node 23]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [13, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 124485 Sent news_694]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
-[Line 124693 Sent pop_404 Node 3]: [L5 Syntax cop-lemma] 'sa' is not a copula in language [tr]
-[Line 124852 Sent news_1379 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:.:punct --> 3:yazıktır:ccomp)
-Syntax errors: 3648
+Syntax errors: 3641
