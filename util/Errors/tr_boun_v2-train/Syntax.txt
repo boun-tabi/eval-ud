@@ -755,9 +755,8 @@
 [Line 122753 Sent news_516 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 26]
 [Line 122725 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 8:yıl:obl)
 [Line 122743 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 26:Hi:obl)
+[Line 123502 Sent bio_291 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
 [Line 123503 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 5:Satılık:amod)
 [Line 123504 Sent bio_291 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 6:tahta:amod)
-[Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 8]
-[Line 123507 Sent bio_291 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8]
 [Line 123929 Sent ess_1671 Node 37]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [31, 35]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 3641
+Syntax errors: 3640
