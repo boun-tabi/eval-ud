@@ -70,15 +70,16 @@ for sentence in sentences:
             #     for feat in feats:
             #         if '=' in feat: tag, value = feat.split('=')
 
-            if i == field_d['misc'] and 'SpaceAfter=No' in field and j != len(lines)-1 and fields[field_d['form']] + lines[j+1].split('\t')[field_d['form']] not in text and '-' not in fields[field_d['id']]:
-                misc = fields[field_d['misc']]
-                misc_l = misc.split('|')
-                misc_l.remove('SpaceAfter=No')
-                new_misc = '|'.join(misc_l)
-                if new_misc == '': new_misc = '_'
-                fields[field_d['misc']] = new_misc
+            # used to remove SpaceAfter=No (text-form-mismatch & text-extra-chars) in MISC field for dev-test-train, 9/22/2022 9:56 PM
+            # if i == field_d['misc'] and 'SpaceAfter=No' in field and j != len(lines)-1 and fields[field_d['form']] + lines[j+1].split('\t')[field_d['form']] not in text and '-' not in fields[field_d['id']]:
+            #     misc = fields[field_d['misc']]
+            #     misc_l = misc.split('|')
+            #     misc_l.remove('SpaceAfter=No')
+            #     new_misc = '|'.join(misc_l)
+            #     if new_misc == '': new_misc = '_'
+            #     fields[field_d['misc']] = new_misc
                 # print(line, text, sent_id);input()
-                line = '\t'.join(fields)
+                # line = '\t'.join(fields)
 
             # used to change the forms 'bir' to 'Bir' if text starts with 'Bir', 9/22/2022 1:49 PM
             # print(rem_text);input()
@@ -145,8 +146,8 @@ for sentence in sentences:
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
-with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-    f.write(new_tb)
+# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+#     f.write(new_tb)
 if new_tb != tb:
     print('Treebank changed!')
 
