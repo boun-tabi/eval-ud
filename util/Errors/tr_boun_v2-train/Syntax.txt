@@ -21,13 +21,9 @@
 [Line 54095 Sent ess_1178 Node 1]: [L3 Syntax leaf-cc] 'cc' not expected to have children (1:Ya:cc --> 2:da:advmod)
 [Line 54392 Sent ess_1518 Node 17]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 54461 Sent ins_487 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7]
-[Line 54690 Sent bio_215 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 54693 Sent bio_215 Node 6]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 54695 Sent bio_215 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 54791 Sent news_1620]: [L2 Syntax head-self-loop] HEAD == ID for 12
+[Line 54790 Sent news_1620 Node 11]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [12]
 [Line 55404 Sent ess_1478 Node 27]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [8, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 58812 Sent ins_1240 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3, 4, 5, 6, 7, 8, 9, 10]
-[Line 59387 Sent ess_168]: [L2 Syntax head-self-loop] HEAD == ID for 8
 [Line 59476 Sent news_327 Node 16]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [9, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 59630 Sent ess_458 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [7, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 59899 Sent news_1282 Node 9]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nsubj'
@@ -38,41 +34,26 @@
 [Line 60308 Sent bio_280 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6, 7, 8, 10]
 [Line 61979 Sent ins_1616 Node 13]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (13:düm:cop --> 10:tarlasıdır:advcl)
 [Line 62084 Sent pop_178 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5]
-[Line 62566 Sent ess_647 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 62590 Sent pop_455 Node 5]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PROPN'
-[Line 62927 Sent pop_1871 Node 8]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
 [Line 63702 Sent news_882 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [13, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 63788 Sent ess_639 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 64082 Sent pop_2000 Node 7]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
 [Line 64110 Sent bio_1330 Node 19]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 16]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 64410 Sent pop_1042 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 64551 Sent pop_576 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 64849 Sent news_949 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
-[Line 65067 Sent pop_1240 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 65170 Sent ess_409 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 65210 Sent ins_1017 Node 9]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nsubj'
-[Line 65515 Sent pop_655 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 65787 Sent news_1304 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 66124 Sent bio_796 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 66178 Sent news_362 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 4:serimize:obl)
 [Line 66181 Sent news_362 Node 9]: [L3 Syntax leaf-punct] 'punct' not expected to have children (9:":punct --> 7:başlamayı:ccomp)
-[Line 66315 Sent ins_231 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 66513 Sent ess_616 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 66646 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 16:yaptıktan:advcl)
 [Line 66648 Sent news_1484 Node 20]: [L3 Syntax leaf-punct] 'punct' not expected to have children (20:":punct --> 18:Müslümanları:obj)
 [Line 66650 Sent news_1484 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [19]
-[Line 66935 Sent ess_672 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 66942 Sent ess_672 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 67146 Sent news_507 Node 17]: [L3 Syntax leaf-punct] 'punct' not expected to have children (17:":punct --> 3:geçerek:advcl)
 [Line 67157 Sent news_507 Node 17]: [L3 Syntax leaf-punct] 'punct' not expected to have children (17:":punct --> 14:ülkeye:obl)
 [Line 67158 Sent news_507 Node 17]: [L3 Syntax leaf-punct] 'punct' not expected to have children (17:":punct --> 15:mal:obj)
 [Line 67161 Sent news_507 Node 17]: [L3 Syntax leaf-punct] 'punct' not expected to have children (17:":punct --> 18:diye:case)
-[Line 67774 Sent pop_386 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 67833 Sent ins_471 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
-[Line 67891 Sent ins_1193 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 68040 Sent bio_1708 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 68084 Sent ess_1030 Node 19]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [11, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 68467 Sent news_1376 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 68471 Sent news_1376 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 68850 Sent bio_1028 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69229 Sent bio_1918 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -99,7 +80,6 @@
 [Line 71975 Sent ess_448 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 72078 Sent bio_1327 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 72181 Sent news_1521 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 72508 Sent ess_1307 Node 7]: [L5 Syntax cop-lemma] 'TİR' is not a copula in language [tr]
 [Line 72730 Sent news_589 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 72988 Sent ins_1449 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73053 Sent ins_1256 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
@@ -451,4 +431,4 @@
 [Line 122758 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 26:Hi:obl)
 [Line 123517 Sent bio_291 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
 [Line 123944 Sent ess_1671 Node 37]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [31, 35]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-Syntax errors: 3369
+Syntax errors: 3351
