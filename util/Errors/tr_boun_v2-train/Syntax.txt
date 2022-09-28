@@ -150,10 +150,9 @@
 [Line 108599 Sent ess_1183 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [11]
 [Line 108631 Sent news_1760 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10]
 [Line 109892 Sent bio_1693 Node 22]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [13, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Tree number 6798 on line 110230 Sent news_1346]: [L2 Syntax non-tree] Non-tree structure. Words 2,5,6,7,9 are not reachable from the root 0.
-[Line 111347 Sent news_645 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 110231 Sent news_1346 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
+[Line 110231 Sent news_1346 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4]
+[Line 110238 Sent news_1346 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8]
 [Line 112959 Sent news_1858 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
-[Line 113220 Sent pop_1498 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8, 9, 10, 11, 13, 14, 15]
-[Line 113226 Sent pop_1498 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13, 14, 15]
 [Line 116960 Sent ins_1970 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
-Syntax errors: 3085
+Syntax errors: 3084
