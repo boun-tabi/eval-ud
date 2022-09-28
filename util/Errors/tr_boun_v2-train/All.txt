@@ -4486,7 +4486,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 67923 Sent news_1902 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 67923 Sent news_1902 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 67939 Sent pop_52]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 68040 Sent bio_1708 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 68053 Sent bio_1708 Node 22]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 68053 Sent bio_1708 Node 22]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 68084 Sent ess_1030 Node 19]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [11, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
@@ -4517,7 +4516,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 68469 Sent news_1376]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 68474 Sent news_1376]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 68474 Sent news_1376]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 68471 Sent news_1376 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 68496 Sent ins_1812]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 68533 Sent pop_1710]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 68562 Sent pop_1176]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -4530,7 +4528,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 68819 Sent news_218]: [L4 Morpho feature-value-unknown] Value Plu is not documented for feature Number in language [tr].
 [Line 68838 Sent ins_1893]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 68864 Sent bio_1028]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
-[Line 68850 Sent bio_1028 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 68931 Sent ins_1698]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 68931 Sent ins_1698]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 68986 Sent news_567 Node 29]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4549,7 +4546,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 69164 Sent ins_1984 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 69169 Sent ins_1984 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 69169 Sent ins_1984 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 69229 Sent bio_1918 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69240 Sent ins_1302 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 69240 Sent ins_1302 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 69280 Sent ess_773]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -4583,10 +4579,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 69656 Sent ess_1824]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 69753 Sent bio_1490 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 69753 Sent bio_1490 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 69774 Sent pop_921 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69820 Sent ess_1324 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 69820 Sent ess_1324 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 69842 Sent pop_1371 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 69906 Sent news_1416 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 69906 Sent news_1416 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 70007 Sent ins_764 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:":punct --> 8:Cochrane:nmod)
@@ -4601,11 +4595,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 70086 Sent pop_1120 Node 26]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 70139 Sent ess_44]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 70139 Sent ess_44]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 70138 Sent ess_44 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 70159 Sent ess_717 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 70192 Sent pop_1492 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19]
 [Line 70191 Sent pop_1492 Node 19]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
-[Line 70207 Sent ess_1561 Node 7]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
 [Line 70253 Sent news_573 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 70253 Sent news_573 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 70279 Sent ess_383]: [L4 Morpho feature-value-unknown] Value Place is not documented for feature VerbForm in language [tr].
@@ -4617,7 +4609,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 70385 Sent bio_1266]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
 [Line 70384 Sent bio_1266 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 70384 Sent bio_1266 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 70397 Sent ins_10 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 70475 Sent news_1607]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 70484 Sent news_1607 Node 22]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 70484 Sent news_1607 Node 22]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -4660,8 +4651,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 71149 Sent ess_340]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 71166 Sent pop_706]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 71166 Sent pop_706]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 71186 Sent pop_706 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 71188 Sent pop_706 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 71177 Sent pop_706 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 71177 Sent pop_706 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 71235 Sent pop_1862 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4699,7 +4688,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 71485 Sent bio_293]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 71520 Sent ins_118 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 71520 Sent ins_118 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 71554 Sent ins_547 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 71603 Sent pop_109]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 71603 Sent pop_109]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 71621 Sent ins_20]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -4710,7 +4698,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 71660 Sent ess_1720]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 71676 Sent pop_1979]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NUM in language [tr].
 [Line 71676 Sent pop_1979]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NUM in language [tr].
-[Line 71680 Sent pop_1979 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 71684 Sent pop_1979 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 71684 Sent pop_1979 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 71710 Sent pop_368 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4718,7 +4705,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 71760 Sent bio_433]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 71768 Sent bio_433 Node 27]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 71768 Sent bio_433 Node 27]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 71780 Sent ess_533 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 71794 Sent ess_1071]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 71794 Sent ess_1071]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 71849 Sent bio_1700]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -4726,7 +4712,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 71899 Sent bio_629 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 71912 Sent pop_1358 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5, 6, 7, 8]
 [Line 71953 Sent ess_448]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 71975 Sent ess_448 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 71968 Sent ess_448 Node 16]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 71968 Sent ess_448 Node 16]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 71993 Sent pop_1840]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -4739,10 +4724,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 72062 Sent news_150]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 72062 Sent news_150]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 72062 Sent news_150]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 72078 Sent bio_1327 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 72128 Sent bio_172 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 72128 Sent bio_172 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 72181 Sent news_1521 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 72222 Sent ess_1854 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 72222 Sent ess_1854 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 72285 Sent ins_1712 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4772,7 +4755,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 72670 Sent ins_755 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 72728 Sent news_589]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 72732 Sent news_589]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 72730 Sent news_589 Node 18]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 72777 Sent ins_356 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 72777 Sent ins_356 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 72785 Sent pop_1548]: [L4 Morpho feature-value-unknown] Value Plu is not documented for feature Number in language [tr].
@@ -4804,13 +4786,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 72952 Sent bio_487]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
 [Line 72978 Sent news_733 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 72978 Sent news_733 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 72988 Sent ins_1449 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73047 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 73048 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 73048 Sent news_1479]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 73053 Sent ins_1256 Node 1]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
-[Line 73056 Sent ins_1256 Node 4]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
-[Line 73121 Sent ins_1129 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73149 Sent bio_1250]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[10] is 'anladı' but text is 'ğimi anladı....'
 [Line 73153 Sent bio_1250]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'ğimi anladı.'
 [Line 73150 Sent bio_1250 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4848,13 +4826,11 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 73634 Sent news_1245]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 73645 Sent news_1245 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 73645 Sent news_1245 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 73706 Sent news_595 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73719 Sent news_595 Node 18]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 73719 Sent news_595 Node 18]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 73726 Sent pop_1033]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 73857 Sent ess_118]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 73857 Sent ess_118]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 73860 Sent ess_118 Node 32]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 73867 Sent bio_1263]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 73867 Sent bio_1263]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 73871 Sent bio_1263 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -4878,19 +4854,15 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 74118 Sent pop_1011 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 74135 Sent ess_1949 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 74135 Sent ess_1949 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 74220 Sent bio_1178 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 74231 Sent bio_1178 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 74231 Sent bio_1178 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 74331 Sent news_1595]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 74353 Sent ins_1338 Node 2]: [L5 Morpho aux-lemma] 'se' is not an auxiliary verb in language [tr]
-[Line 74353 Sent ins_1338 Node 2]: [L5 Syntax cop-lemma] 'se' is not a copula in language [tr]
 [Line 74382 Sent ess_343]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 74382 Sent ess_343]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number[psor] is not permitted with UPOS ADV in language [tr].
 [Line 74382 Sent ess_343]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 74382 Sent ess_343]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
 [Line 74408 Sent bio_479 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 74408 Sent bio_479 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 74424 Sent ins_1116 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 74439 Sent ins_1116 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 74439 Sent ins_1116 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 74487 Sent ins_761]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -4957,7 +4929,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 75473 Sent pop_1402]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 75473 Sent pop_1402]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 75473 Sent pop_1402]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 75492 Sent ess_174 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 75552 Sent news_1075]: [L2 Morpho invalid-upos] Invalid UPOS value 'NO)UN'.
 [Line 75552 Sent news_1075]: [L2 Morpho unknown-upos] Unknown UPOS tag: 'NO)UN'.
 [Line 75552 Sent news_1075]: [L4 Morpho feature-upos-not-permitted] Feature Case is not permitted with UPOS NO)UN in language [tr].
@@ -4978,7 +4949,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 75711 Sent ins_924]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 75711 Sent ins_924]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 75772 Sent news_611 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
-[Line 75799 Sent news_611 Node 39]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 75873 Sent ins_753]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 75894 Sent bio_814 Node 16]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 75894 Sent bio_814 Node 16]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -4990,7 +4960,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 76008 Sent ins_854]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 76015 Sent ins_854 Node 27]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76015 Sent ins_854 Node 27]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 76036 Sent ins_1485 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 76069 Sent news_29]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 76069 Sent news_29]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 76162 Sent news_506]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -5000,7 +4969,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 76202 Sent bio_237 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76202 Sent bio_237 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 76215 Sent pop_217]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 76258 Sent ins_1209 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 76264 Sent ins_1209 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76264 Sent ins_1209 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 76284 Sent bio_878]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
@@ -5012,8 +4980,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 76341 Sent ins_978]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 76423 Sent pop_944 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76423 Sent pop_944 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 76460 Sent ins_1339 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 76468 Sent ins_1339 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 76477 Sent ins_1153]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 76477 Sent ins_1153]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 76484 Sent ins_1153]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -5037,8 +5003,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 76705 Sent bio_1043 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 76762 Sent ess_958 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76762 Sent ess_958 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 76784 Sent pop_1829 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 76798 Sent ins_1676 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 76826 Sent ins_855 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76826 Sent ins_855 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 76840 Sent news_685 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5046,7 +5010,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 76846 Sent pop_1361]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 76846 Sent pop_1361]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 76846 Sent pop_1361]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 76973 Sent ins_1122 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 76986 Sent ins_1122 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 76986 Sent ins_1122 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 77012 Sent ess_1628]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -5125,7 +5088,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 77811 Sent ess_930 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 77912 Sent bio_1173]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 77912 Sent bio_1173]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 77916 Sent bio_1173 Node 22]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 77916 Sent bio_1173 Node 22]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 77916 Sent bio_1173 Node 22]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 77937 Sent bio_993 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 77937 Sent bio_993 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -5151,13 +5114,11 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 78151 Sent ess_273]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 78152 Sent ess_273]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 78153 Sent ess_273]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 78147 Sent ess_273 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 78176 Sent ins_982]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
 [Line 78176 Sent ins_982]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
 [Line 78176 Sent ins_982]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
 [Line 78193 Sent ins_615 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 78193 Sent ins_615 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 78208 Sent pop_1381 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 78224 Sent news_1107 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
 [Line 78225 Sent news_1107 Node 12]: [L3 Syntax leaf-punct] 'punct' not expected to have children (12:":punct --> 10:iş:obj)
 [Line 78221 Sent news_1107 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5168,8 +5129,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 78346 Sent bio_405]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 78346 Sent bio_405]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
 [Line 78381 Sent pop_1444]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 78415 Sent news_1520 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'PART'
-[Line 78415 Sent news_1520 Node 3]: [L5 Syntax cop-lemma] 'ki' is not a copula in language [tr]
+[Line 78415 Sent news_1520]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 78465 Sent news_1298]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[13] is 'yazarın' but text is 'r yazarın....'
 [Line 78469 Sent news_1298]: [L2 Metadata text-extra-chars] Extra characters at the end of the text attribute, not accounted for in the FORM fields: 'r yazarın.'
 [Line 78466 Sent news_1298 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5189,7 +5149,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 78655 Sent news_641]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 78660 Sent news_641]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 78660 Sent news_641]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
-[Line 78653 Sent news_641 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 78659 Sent news_641 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'advcl'
 [Line 78738 Sent bio_1960 Node 25]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 78738 Sent bio_1960 Node 25]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -5224,7 +5183,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 79102 Sent pop_1301 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79102 Sent pop_1301 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79109 Sent news_693]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 79123 Sent news_1834 Node 8]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 79120 Sent news_1834 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79120 Sent news_1834 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79128 Sent bio_732]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -5237,7 +5195,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 79200 Sent ins_1862 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79209 Sent ins_685]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 79209 Sent ins_685]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 79221 Sent ins_685 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 79244 Sent ess_324 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79244 Sent ess_324 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79255 Sent ess_324 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5245,7 +5202,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 79286 Sent news_1652]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 79332 Sent bio_1995 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79332 Sent bio_1995 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 79352 Sent ess_123 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 79380 Sent ess_1031]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 79374 Sent ess_1031]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #12-13 because the text is 'oturduğun yerden sey[...]'.
 [Line 79375 Sent ess_1031]: [L2 Metadata text-form-mismatch] Mismatch between the text attribute and the FORM field. Form[14] is 'yerden' but text is 'ğun yerden seyret kardeşim...'
@@ -5263,7 +5219,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 79486 Sent bio_1705 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79493 Sent bio_1705 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79493 Sent bio_1705 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 79514 Sent ins_1827 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 79534 Sent ins_1827 Node 36]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 79534 Sent ins_1827 Node 36]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 79540 Sent ins_1448]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -5381,11 +5336,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 80924 Sent ess_1951 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 80987 Sent news_1471 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 80987 Sent news_1471 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 81014 Sent pop_7 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 81068 Sent ins_329]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 81068 Sent ins_329]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 81068 Sent ins_329]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 81104 Sent bio_1916 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 81088 Sent bio_1916 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 81088 Sent bio_1916 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 81098 Sent bio_1916 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5402,7 +5355,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 81174 Sent ins_645]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 81217 Sent bio_831]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 81217 Sent bio_831]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 81233 Sent ins_1942 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 81252 Sent ess_1968]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 81252 Sent ess_1968]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 81252 Sent ess_1968]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
@@ -5428,10 +5380,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 81409 Sent ins_1543]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 81409 Sent ins_1543]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 81425 Sent ess_931]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NUM in language [tr].
-[Line 81444 Sent ess_1476 Node 8]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
-[Line 81450 Sent ess_1476 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 81450 Sent ess_1476 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 81459 Sent pop_911 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
+[Line 81443 Sent ess_1476]: [L2 Syntax head-self-loop] HEAD == ID for 7
+[Tree number 5031 on line 81437 Sent ess_1476]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
 [Line 81482 Sent pop_1589]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 81487 Sent pop_1589]: [L4 Morpho feature-value-unknown] Value Plu is not documented for feature Number in language [tr].
 [Line 81510 Sent news_14 Node 3]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'amod'
@@ -5447,7 +5397,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 81616 Sent ess_1698]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 81616 Sent ess_1698]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 81616 Sent ess_1698]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 81629 Sent ins_359 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 81664 Sent ins_643 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 81664 Sent ins_643 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 81712 Sent bio_409]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
@@ -5469,7 +5418,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 82031 Sent news_1897]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 82076 Sent ins_1131 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 82076 Sent ins_1131 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 82092 Sent ess_513 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 82135 Sent pop_389 Node 18]: [L5 Morpho aux-lemma] 'ad(I)' is not an auxiliary verb in language [tr]
 [Line 82158 Sent ess_742]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 82152 Sent ess_742 Node 3]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
@@ -5488,9 +5436,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 82340 Sent bio_810]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 82340 Sent bio_810]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 82346 Sent bio_810]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 82328 Sent bio_810 Node 9]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 82334 Sent bio_810 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 82337 Sent bio_810 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 82342 Sent bio_810 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
 [Line 82324 Sent bio_810 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 82379 Sent pop_510 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5511,11 +5456,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 82586 Sent pop_968]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 82586 Sent pop_968]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 82588 Sent pop_968]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 82580 Sent pop_968 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 82590 Sent pop_968 Node 19]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'csubj'
 [Line 82582 Sent pop_968 Node 11]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 82593 Sent pop_968 Node 21]: [L5 Morpho aux-lemma] 'TİR' is not an auxiliary verb in language [tr]
-[Line 82593 Sent pop_968 Node 21]: [L5 Syntax cop-lemma] 'TİR' is not a copula in language [tr]
+[Line 82593 Sent pop_968 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 82593 Sent pop_968 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 82599 Sent ess_632]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 82599 Sent ess_632]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PROPN in language [tr].
 [Line 82651 Sent news_737 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5536,7 +5480,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 82883 Sent ins_290]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 82883 Sent ins_290]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 82883 Sent ins_290]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 82942 Sent news_1850 Node 22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 82999 Sent pop_1718]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 82999 Sent pop_1718]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 82999 Sent pop_1718]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
@@ -5545,7 +5488,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 83087 Sent ins_1035]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 83087 Sent ins_1035]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 83087 Sent ins_1035]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 83089 Sent ins_1035]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'subj'
 [Line 83105 Sent ess_8 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 83105 Sent ess_8 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 83154 Sent ins_1647 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5580,19 +5522,15 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 83503 Sent pop_137]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 83520 Sent pop_137]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 83520 Sent pop_137]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
-[Line 83515 Sent pop_137 Node 23]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 83535 Sent news_1502]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 83548 Sent pop_1265 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 83637 Sent ins_1649]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 83639 Sent ins_1649]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 83639 Sent ins_1649]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 83646 Sent ins_1649]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 83634 Sent ins_1649 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 83644 Sent ins_1649 Node 13]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
 [Line 83703 Sent bio_392 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3, 4]
 [Line 83736 Sent ess_1505]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 83768 Sent ess_136]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 83783 Sent ins_1054 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 83793 Sent ess_1285]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 83793 Sent ess_1285]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 83798 Sent ess_1285]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -5602,28 +5540,21 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 83812 Sent ins_1715 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 83845 Sent ins_561]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 83845 Sent ins_561]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 83839 Sent ins_561 Node 4]: [L5 Morpho aux-lemma] 'se' is not an auxiliary verb in language [tr]
-[Line 83839 Sent ins_561 Node 4]: [L5 Syntax cop-lemma] 'se' is not a copula in language [tr]
 [Line 83877 Sent pop_1396]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
 [Line 83899 Sent ess_1713 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 83899 Sent ess_1713 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 83916 Sent ins_737]: [L4 Morpho feature-value-unknown] Value Plu is not documented for feature Number in language [tr].
-[Line 83946 Sent pop_1581 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 84004 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 84004 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 84022 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 84022 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 84024 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 84024 Sent ess_562]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 84025 Sent ess_562 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 84018 Sent ess_562 Node 13]: [L5 Morpho aux-lemma] 'se' is not an auxiliary verb in language [tr]
-[Line 84018 Sent ess_562 Node 13]: [L5 Syntax cop-lemma] 'se' is not a copula in language [tr]
 [Line 84049 Sent bio_1489 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 84049 Sent bio_1489 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 84085 Sent ess_804]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 84085 Sent ess_804]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 84101 Sent bio_1786]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 84118 Sent bio_1751 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 84200 Sent bio_67]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 84200 Sent bio_67]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 84200 Sent bio_67]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS DET in language [tr].
@@ -5636,7 +5567,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 84265 Sent news_1126]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 84316 Sent news_775 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 84316 Sent news_775 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 84357 Sent ins_552 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 84406 Sent bio_658 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 84406 Sent bio_658 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 84411 Sent ins_230]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
@@ -5666,7 +5596,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 84645 Sent ins_1667 Node 9]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 84646 Sent ins_1667 Node 10]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 84646 Sent ins_1667 Node 10]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 84733 Sent news_1030 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 84874 Sent ess_937]: [L4 Morpho feature-value-upos-not-permitted] Value Loc of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 84874 Sent ess_937]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 84874 Sent ess_937]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
@@ -5686,22 +5615,17 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 85046 Sent ess_108 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85046 Sent ess_108 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85051 Sent news_426]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS ADP in language [tr].
-[Line 85061 Sent news_426 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 85067 Sent news_426 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85055 Sent news_426 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85055 Sent news_426 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85099 Sent bio_1742 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 85162 Sent ins_1107 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85162 Sent ins_1107 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85173 Sent ins_1405 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85173 Sent ins_1405 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85191 Sent pop_1848]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PROPN in language [tr].
-[Line 85191 Sent pop_1848 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 85190 Sent pop_1848 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85190 Sent pop_1848 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85229 Sent ins_198 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85229 Sent ins_198 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85235 Sent bio_55 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85244 Sent bio_1433]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 85245 Sent bio_1433 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85245 Sent bio_1433 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -5720,7 +5644,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 85343 Sent news_463]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
 [Line 85376 Sent bio_1488 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85376 Sent bio_1488 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85423 Sent news_924 Node 42]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85418 Sent news_924 Node 37]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85418 Sent news_924 Node 37]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85443 Sent news_89]: [L2 Morpho invalid-feature] Spurious morphological feature: 'Mood=pot'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
@@ -5744,13 +5667,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 85566 Sent ess_938 Node 34]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85582 Sent ess_938 Node 50]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85582 Sent ess_938 Node 50]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85639 Sent ins_491 Node 53]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 85640 Sent ins_491 Node 54]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [53]
 [Line 85645 Sent ess_105]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS SCONJ in language [tr].
 [Line 85645 Sent ess_105]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS SCONJ in language [tr].
 [Line 85645 Sent ess_105]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS SCONJ in language [tr].
 [Line 85651 Sent ess_105 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85651 Sent ess_105 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85661 Sent bio_1889 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85671 Sent pop_1495]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 85671 Sent pop_1495]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 85671 Sent pop_1495]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
@@ -5760,11 +5682,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 85776 Sent bio_602 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 85814 Sent ess_1740 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85814 Sent ess_1740 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85823 Sent news_498 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 85824 Sent news_498 Node 3]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (3:değildirler:aux --> 4:dirler:cop)
 [Line 85824 Sent news_498 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 85824 Sent news_498 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 85836 Sent pop_1135 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 85848 Sent ess_1635]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 85854 Sent ess_1635]: [L4 Morpho feature-value-upos-not-permitted] Value Gen of feature Case is not permitted with UPOS PART in language [tr].
 [Line 85849 Sent ess_1635 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5]
@@ -5782,17 +5701,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 86069 Sent news_33]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 86069 Sent news_33]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 86069 Sent news_33]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 86086 Sent bio_1748 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 86103 Sent bio_608 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 86122 Sent bio_1336 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86122 Sent bio_1336 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 86178 Sent news_158 Node 29]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
 [Line 86163 Sent news_158 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86163 Sent news_158 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 86199 Sent news_158 Node 49]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86199 Sent news_158 Node 49]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 86250 Sent ess_581 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 86268 Sent pop_1957 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 86281 Sent ess_908 Node 6]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 86285 Sent ess_908 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86285 Sent ess_908 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -5813,7 +5727,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 86409 Sent ess_1050 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 86481 Sent news_916 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86481 Sent news_916 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 86551 Sent ins_666 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 86563 Sent news_474]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 86578 Sent news_474]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 86646 Sent news_104]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -5834,7 +5747,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 86871 Sent ess_1408 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86871 Sent ess_1408 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 86878 Sent bio_643 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2, 7]
-[Line 86901 Sent bio_643 Node 25]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 86896 Sent bio_643 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 86896 Sent bio_643 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 86931 Sent bio_736 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5856,7 +5768,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 87104 Sent ins_682 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87104 Sent ins_682 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 87121 Sent ins_1196]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 87124 Sent ins_1196 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 87146 Sent news_82 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87146 Sent news_82 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 87191 Sent news_391 Node 34]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5871,14 +5782,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 87237 Sent news_363]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS ADJ in language [tr].
 [Line 87237 Sent news_363]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS ADJ in language [tr].
 [Line 87237 Sent news_363]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS ADJ in language [tr].
-[Line 87238 Sent news_363 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 87255 Sent news_363 Node 23]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 87275 Sent pop_1324 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87275 Sent pop_1324 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 87285 Sent bio_425 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 87288 Sent bio_425 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87288 Sent bio_425 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 87315 Sent ess_578 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 87355 Sent pop_1196 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5]
 [Line 87420 Sent ess_1186]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 87428 Sent ess_1186]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
@@ -5886,16 +5793,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 87455 Sent ess_1186]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 87455 Sent ess_1186]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 87463 Sent ess_1186]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 87415 Sent ess_1186 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 87457 Sent ess_1186 Node 40]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 87461 Sent ess_1186 Node 44]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 87508 Sent news_639 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87508 Sent news_639 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 87519 Sent pop_620 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87519 Sent pop_620 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 87532 Sent ins_1075 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87532 Sent ins_1075 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 87550 Sent ess_301 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 87638 Sent bio_315 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 87638 Sent bio_315 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 87667 Sent bio_315 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -5984,8 +5887,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 88487 Sent news_1864 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 88547 Sent ess_1313 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 88547 Sent ess_1313 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 88568 Sent ins_1178 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 88588 Sent ins_975 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 88594 Sent ins_975 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 88594 Sent ins_975 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 88627 Sent ess_182 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6025,13 +5926,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 88926 Sent ess_696 Node 11]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 88935 Sent ins_728 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 88935 Sent ins_728 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 88958 Sent ess_428 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 89001 Sent news_923 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 89012 Sent ins_1290 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89012 Sent ins_1290 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 89023 Sent ess_815 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89023 Sent ess_815 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 89040 Sent ins_1027 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 89056 Sent pop_1428]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 89056 Sent pop_1428]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 89074 Sent ins_1174]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6040,7 +5938,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 89090 Sent ess_1499]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 89101 Sent bio_1083 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89101 Sent bio_1083 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 89199 Sent ins_123 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 89210 Sent pop_1200]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 89245 Sent news_431 Node 15]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
 [Line 89265 Sent pop_164 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
@@ -6066,11 +5963,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 89569 Sent pop_259 Node 23]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 89581 Sent pop_259 Node 34]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89599 Sent pop_259 Node 51]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
-[Line 89627 Sent pop_629 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 89651 Sent ess_1604]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 89661 Sent ess_1604]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 89681 Sent ess_1604]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 89655 Sent ess_1604 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 89682 Sent ess_1604 Node 34]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [17, 21, 33]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 89695 Sent pop_388 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89695 Sent pop_388 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6087,7 +5982,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 89783 Sent ins_124]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #12 because the text is 'edilmelidir?'.
 [Line 89827 Sent news_1593 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89827 Sent news_1593 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 89853 Sent news_1677 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 89876 Sent ins_1285 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89876 Sent ins_1285 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 89919 Sent bio_824 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6096,7 +5990,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 89972 Sent ess_1627 Node 27]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 89977 Sent ess_1627 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89977 Sent ess_1627 Node 31]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 90001 Sent ess_464 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 89986 Sent ess_464 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 89986 Sent ess_464 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 89995 Sent ess_464 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6107,7 +6000,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 90066 Sent pop_1912]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 90066 Sent pop_1912]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 90066 Sent pop_1912]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 90109 Sent bio_1625 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90108 Sent bio_1625 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90108 Sent bio_1625 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90243 Sent news_477]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6116,7 +6008,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 90239 Sent news_477 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90257 Sent news_477 Node 37]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90257 Sent news_477 Node 37]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 90281 Sent ess_824 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90320 Sent pop_1252]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 90328 Sent pop_1252]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 90326 Sent pop_1252]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #15 because the text is 'şeklidir.'.
@@ -6135,15 +6026,14 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 90535 Sent pop_998]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 90548 Sent ins_1563 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90548 Sent ins_1563 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 90556 Sent pop_1483 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 90561 Sent pop_1483 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90561 Sent pop_1483 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90580 Sent ins_1863 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90580 Sent ins_1863 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90642 Sent bio_1165]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 90642 Sent bio_1165]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
-[Line 90646 Sent bio_1165 Node 5]: [L5 Morpho aux-lemma] 'tır' is not an auxiliary verb in language [tr]
-[Line 90646 Sent bio_1165 Node 5]: [L5 Syntax cop-lemma] 'tır' is not a copula in language [tr]
+[Line 90646 Sent bio_1165 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 90646 Sent bio_1165 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90658 Sent news_1749 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90658 Sent news_1749 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90669 Sent news_1192 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6174,8 +6064,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 90822 Sent pop_1434]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS ADJ in language [tr].
 [Line 90828 Sent ins_204]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 90828 Sent ins_204]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 90856 Sent news_438 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 90872 Sent news_438 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 90876 Sent news_438 Node 32]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 90876 Sent news_438 Node 32]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90897 Sent bio_1281]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6189,22 +6077,15 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 90927 Sent ins_1039 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 90951 Sent pop_1541]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 90951 Sent pop_1541]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 90960 Sent pop_1541 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 90970 Sent ins_1233 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 90976 Sent ins_1233 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 91056 Sent pop_1143 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91056 Sent pop_1143 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 91117 Sent pop_1524 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 91138 Sent bio_606 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91138 Sent bio_606 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 91155 Sent ins_1350]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
-[Line 91208 Sent ess_1433 Node 5]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
 [Line 91214 Sent ess_1433 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91214 Sent ess_1433 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 91243 Sent ess_608 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 91288 Sent news_1682]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 91318 Sent ins_1855]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 91339 Sent ess_1927 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 91375 Sent ess_855 Node 16]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91375 Sent ess_855 Node 16]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 91403 Sent ins_1998 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6219,7 +6100,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 91506 Sent ess_621]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 91518 Sent ess_621 Node 29]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91518 Sent ess_621 Node 29]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 91559 Sent ins_1206 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 91566 Sent ins_1206 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91566 Sent ins_1206 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 91601 Sent ess_1623 Node 4]: [L5 Morpho aux-lemma] 'N/A' is not an auxiliary verb in language [tr]
@@ -6244,7 +6124,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 91847 Sent ins_228 Node 20]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
 [Line 91934 Sent news_813 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 91934 Sent news_813 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 91955 Sent ess_693 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 91966 Sent ess_940]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 91966 Sent ess_940]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 91967 Sent ess_940]: [L2 Morpho invalid-feature] Spurious morphological feature: 'spect=Perf'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
@@ -6265,7 +6144,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 92230 Sent ins_1186]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 92254 Sent bio_1444]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 92254 Sent bio_1444]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 92252 Sent bio_1444 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 92269 Sent bio_1348]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 92269 Sent bio_1348]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 92269 Sent bio_1348]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
@@ -6273,15 +6151,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 92293 Sent bio_1348]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 92293 Sent bio_1348]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
 [Line 92329 Sent ess_1743]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 92333 Sent ess_1743 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 92361 Sent ess_1076 Node 4]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
 [Line 92366 Sent ess_1076 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 92366 Sent ess_1076 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 92383 Sent bio_486 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 92383 Sent bio_486 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 92421 Sent news_625 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 92421 Sent news_625 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 92428 Sent ins_31 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 92439 Sent ess_302]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 92439 Sent ess_302]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 92445 Sent ess_302 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6296,7 +6171,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 92658 Sent ess_1840]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 92683 Sent bio_285 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 92683 Sent bio_285 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 92718 Sent ins_1422 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 92744 Sent ins_1422 Node 30]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 92744 Sent ins_1422 Node 30]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 92752 Sent ins_35 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6371,11 +6245,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 93539 Sent ins_1445]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
 [Line 93555 Sent bio_1854 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 93555 Sent bio_1854 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 93575 Sent bio_543 Node 16]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 93580 Sent ins_1273 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 93619 Sent news_1741 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 93619 Sent news_1741 Node 31]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 93658 Sent pop_1663 Node 17]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 93669 Sent ins_1839 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 93669 Sent ins_1839 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 93678 Sent ins_1216 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6481,15 +6352,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 94420 Sent ins_827 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 94425 Sent bio_416]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 94425 Sent bio_416]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 94449 Sent ins_1010 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
 [Line 94453 Sent ins_1010 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94453 Sent ins_1010 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 94487 Sent news_1216 Node 29]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94487 Sent news_1216 Node 29]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 94494 Sent ess_1788 Node 2]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94494 Sent ess_1788 Node 2]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 94517 Sent ins_30 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 94520 Sent ins_30 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 94553 Sent bio_1220 Node 28]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94553 Sent bio_1220 Node 28]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 94559 Sent bio_536]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
@@ -6501,7 +6369,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 94652 Sent ins_908 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 94659 Sent ins_908 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94659 Sent ins_908 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 94718 Sent pop_808 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 94742 Sent bio_900]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
 [Line 94739 Sent bio_900 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 94739 Sent bio_900 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6521,17 +6388,14 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 95022 Sent bio_1349 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 95077 Sent ins_983]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 95077 Sent ins_983]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 95074 Sent ins_983 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 95146 Sent bio_1366]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 95146 Sent bio_1366]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 95171 Sent bio_790 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95171 Sent bio_790 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 95252 Sent bio_1839 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95252 Sent bio_1839 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 95257 Sent ins_632 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 95282 Sent pop_454]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 95326 Sent ess_1325 Node 19]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 95339 Sent ess_1325 Node 32]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 95352 Sent ess_1549 Node 6]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 95424 Sent ins_868 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95424 Sent ins_868 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6544,7 +6408,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 95642 Sent bio_229]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 95646 Sent bio_229 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95646 Sent bio_229 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 95671 Sent ess_104 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 95719 Sent ess_1234 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95719 Sent ess_1234 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 95750 Sent pop_433]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6560,12 +6423,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 95876 Sent ins_1952 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 95898 Sent pop_408 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 95898 Sent pop_408 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 95922 Sent ins_455 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96030 Sent news_1605 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96030 Sent news_1605 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96049 Sent ins_382 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96049 Sent ins_382 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 96086 Sent news_1230 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96164 Sent news_42 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96164 Sent news_42 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96184 Sent bio_1679 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6574,18 +6435,15 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 96187 Sent bio_1679 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96199 Sent ins_1756]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 96212 Sent ins_1756 Node 20]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 96200 Sent ins_1756 Node 8]: [L5 Morpho aux-lemma] 'YDİ' is not an auxiliary verb in language [tr]
-[Line 96200 Sent ins_1756 Node 8]: [L5 Syntax cop-lemma] 'YDİ' is not a copula in language [tr]
-[Line 96234 Sent ess_1863 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
+[Line 96200 Sent ins_1756 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 96200 Sent ins_1756 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96286 Sent ins_660]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 96286 Sent ins_660]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 96267 Sent ins_660 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96287 Sent ins_660 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96287 Sent ins_660 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96301 Sent ins_542 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96301 Sent ins_542 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96399 Sent ins_631]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS NOUN in language [tr].
-[Line 96488 Sent ins_1873 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 96494 Sent ins_1873 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96494 Sent ins_1873 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96530 Sent news_1717]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
@@ -6609,17 +6467,14 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 96727 Sent ess_849 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96735 Sent ess_849 Node 21]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96735 Sent ess_849 Node 21]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 96752 Sent pop_474 Node 13]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 96768 Sent bio_148 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96768 Sent bio_148 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 96781 Sent ess_626]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
 [Line 96781 Sent ess_626]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 96781 Sent ess_626]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 96782 Sent ess_626 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96824 Sent ess_479 Node 24]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 96832 Sent news_497]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 96840 Sent news_497]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 96836 Sent news_497 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 96933 Sent ess_955 Node 22]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 96946 Sent pop_1643 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 96946 Sent pop_1643 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6631,7 +6486,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 97041 Sent ess_134 Node 34]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97055 Sent news_519 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97055 Sent news_519 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 97078 Sent ins_1137 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 97111 Sent pop_1627 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97111 Sent pop_1627 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97123 Sent ess_46 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6644,7 +6498,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 97187 Sent ins_553]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 97214 Sent ess_183 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97214 Sent ess_183 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 97286 Sent news_1615 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 97289 Sent news_1615 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97289 Sent news_1615 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97321 Sent pop_47]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -6652,7 +6505,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 97338 Sent ess_471]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 97409 Sent bio_593]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 97409 Sent bio_593]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 97427 Sent news_176 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 97436 Sent pop_1927]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 97436 Sent pop_1927]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 97469 Sent bio_974]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6676,9 +6528,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 97610 Sent news_1855 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97639 Sent bio_862 Node 18]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97639 Sent bio_862 Node 18]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 97647 Sent bio_1613 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 97699 Sent ess_1122 Node 20]: [L5 Morpho aux-lemma] 'oyla' is not an auxiliary verb in language [tr]
-[Line 97699 Sent ess_1122 Node 20]: [L5 Syntax cop-lemma] 'oyla' is not a copula in language [tr]
+[Line 97699 Sent ess_1122 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 97699 Sent ess_1122 Node 20]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97719 Sent bio_1241 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97719 Sent bio_1241 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97729 Sent news_1396]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
@@ -6687,7 +6538,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 97765 Sent bio_1356 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97765 Sent bio_1356 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 97849 Sent ess_1480]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 97873 Sent ess_1480 Node 27]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 97875 Sent ess_1480 Node 29]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [17, 21, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 97900 Sent bio_1267 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 97900 Sent bio_1267 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6760,7 +6610,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 98487 Sent bio_1523 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 98499 Sent ess_1649]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 98499 Sent ess_1649]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 98509 Sent pop_806 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 98521 Sent ess_894]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 98521 Sent ess_894]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 98546 Sent pop_104]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6776,14 +6625,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 98712 Sent news_1263]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 98743 Sent bio_1337 Node 26]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 98743 Sent bio_1337 Node 26]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 98807 Sent ins_378 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 98851 Sent bio_1986 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 98851 Sent bio_1986 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 98887 Sent ess_1142]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 98892 Sent ess_1142 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 98892 Sent ess_1142 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 98911 Sent ins_1597]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 98906 Sent ins_1597 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 98947 Sent ess_885 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 98947 Sent ess_885 Node 31]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 98954 Sent ess_885 Node 37]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6792,7 +6639,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 98984 Sent ess_885 Node 66]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 98999 Sent ins_1125]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 98999 Sent ins_1125]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 99010 Sent ess_1856 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 99014 Sent ess_1856 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 99014 Sent ess_1856 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 99024 Sent news_155 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6820,7 +6666,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 99237 Sent ess_542 Node 2]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 99237 Sent ess_542 Node 2]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 99300 Sent bio_688]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 99304 Sent bio_688 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 99370 Sent pop_1854]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 99400 Sent news_309]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 99429 Sent news_571]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -6856,7 +6701,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 99715 Sent bio_124]: [L2 Morpho invalid-feature] Spurious morphological feature: 'VerbForm=Vnoın'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 99728 Sent bio_124 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 99728 Sent bio_124 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 99739 Sent news_1437 Node 7]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 99808 Sent pop_1130]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
 [Line 99825 Sent ins_1332]: [L4 Morpho feature-value-upos-not-permitted] Value Loc of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 99825 Sent ins_1332]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
@@ -6865,7 +6709,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 99818 Sent ins_1332 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 99830 Sent ins_1332 Node 16]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 99830 Sent ins_1332 Node 16]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 99850 Sent ess_1048 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 99853 Sent ess_1048 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 99853 Sent ess_1048 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 99860 Sent pop_940]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -6890,7 +6733,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 100078 Sent bio_1032 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 100093 Sent ins_1695]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 100093 Sent ins_1695]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
-[Line 100090 Sent ins_1695 Node 8]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 100092 Sent ins_1695 Node 10]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'advcl'
 [Line 100143 Sent ins_1665]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 100150 Sent ins_1665 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6898,14 +6740,11 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 100171 Sent ins_1439]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 100205 Sent ins_1251 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100205 Sent ins_1251 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 100219 Sent ess_394 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 100228 Sent bio_95 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 100396 Sent bio_339]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 100399 Sent bio_339 Node 75]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100399 Sent bio_339 Node 75]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 100408 Sent bio_431 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100408 Sent bio_431 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 100419 Sent news_1268 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 100427 Sent bio_57]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 100442 Sent pop_850 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100442 Sent pop_850 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -6913,10 +6752,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 100488 Sent news_201 Node 22]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 100504 Sent ess_1246]: [L4 Morpho feature-value-upos-not-permitted] Value Abl of feature Case is not permitted with UPOS PART in language [tr].
 [Line 100504 Sent ess_1246]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 100496 Sent ess_1246 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 100511 Sent ess_1246 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100511 Sent ess_1246 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 100521 Sent pop_925 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 100525 Sent pop_925 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 100525 Sent pop_925 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 100553 Sent ins_1884]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -6965,7 +6802,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 101014 Sent pop_1360]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 101014 Sent pop_1360]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
 [Line 101017 Sent pop_1360]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS PROPN in language [tr].
-[Line 101030 Sent bio_1352 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 101048 Sent pop_1550 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 101048 Sent pop_1550 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 101059 Sent pop_1550 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -6990,7 +6826,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 101257 Sent ess_662]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 101257 Sent ess_662]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 101265 Sent bio_1514]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 101272 Sent ins_1683 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 101296 Sent bio_1268 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 101296 Sent bio_1268 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 101340 Sent bio_1857 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -7006,7 +6841,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 101384 Sent news_151 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 101384 Sent news_151 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 101403 Sent ess_495]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 101400 Sent ess_495 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 101411 Sent news_325]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 101411 Sent news_325]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 101434 Sent news_325]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS INTJ in language [tr].
@@ -7029,7 +6863,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 101702 Sent ins_490]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 101710 Sent ins_490 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 101710 Sent ins_490 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 101725 Sent ins_945 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 101751 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 101751 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 101751 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
@@ -7039,9 +6872,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 101759 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 101759 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 101759 Sent ess_631]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 101768 Sent ess_1525 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 101778 Sent ins_480]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 101784 Sent ins_480 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 101797 Sent bio_111]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 101826 Sent bio_111 Node 35]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 101826 Sent bio_111 Node 35]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -7060,7 +6891,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 102068 Sent ess_924 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 102068 Sent ess_924 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 102153 Sent ess_1327 Node 22]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [11, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 102201 Sent ess_180 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 102211 Sent ess_180 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 102211 Sent ess_180 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 102240 Sent ess_1879 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -7098,15 +6928,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 102701 Sent ess_1379]: [L4 Morpho feature-value-upos-not-permitted] Value Perf of feature Aspect is not permitted with UPOS PROPN in language [tr].
 [Line 102701 Sent ess_1379]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 102701 Sent ess_1379]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 102687 Sent ess_1379 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 102736 Sent ins_746 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 102736 Sent ins_746 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 102802 Sent ess_1500 Node 21]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 102790 Sent ess_1500 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 102790 Sent ess_1500 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 102798 Sent ess_1500 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 102798 Sent ess_1500 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 102802 Sent ess_1500 Node 21]: [L5 Syntax cop-lemma] 'dur' is not a copula in language [tr]
 [Line 102853 Sent pop_1905]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 102853 Sent pop_1905]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 102871 Sent ess_935 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -7216,8 +7043,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 104458 Sent bio_884]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
 [Line 104458 Sent bio_884]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
 [Line 104458 Sent bio_884]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 104446 Sent bio_884 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 104450 Sent bio_884 Node 15]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 104450 Sent bio_884 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 104450 Sent bio_884 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 104461 Sent bio_884 Node 25]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 104461 Sent bio_884 Node 25]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -7229,9 +7055,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 104556 Sent news_709]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 104556 Sent news_709]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
 [Line 104558 Sent news_709]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-[Line 104548 Sent news_709 Node 2]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 104572 Sent news_709 Node 26]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 104579 Sent news_709 Node 33]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 104548 Sent news_709 Node 2]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 104606 Sent ins_467]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 104622 Sent news_1681 Node 6]: [L3 Syntax leaf-punct] 'punct' not expected to have children (6:":punct --> 7:olarak:case)
@@ -7262,15 +7086,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 105179 Sent news_453]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PROPN in language [tr].
 [Line 105217 Sent pop_247 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 105217 Sent pop_247 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 105233 Sent ess_447 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 105228 Sent ess_447 Node 6]: [L5 Morpho aux-lemma] 'N/A' is not an auxiliary verb in language [tr]
 [Line 105228 Sent ess_447 Node 6]: [L5 Syntax cop-lemma] 'N/A' is not a copula in language [tr]
 [Line 105238 Sent ess_447 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 105238 Sent ess_447 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 105292 Sent ins_259 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 105292 Sent ins_259 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 105313 Sent ess_1551 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'VERB'
-[Line 105319 Sent ess_1551 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 105369 Sent ess_1917]: [L2 Morpho invalid-feature] Spurious morphological feature: 'VerbForm=iş'. Should be of the form Feature=Value and must start with [A-Z] and only contain [A-Za-z0-9].
 [Line 105363 Sent ess_1917 Node 2]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 105363 Sent ess_1917 Node 2]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -7290,7 +7111,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 105554 Sent ess_525]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 105567 Sent ins_1378 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 105567 Sent ins_1378 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 105638 Sent pop_1684 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 105644 Sent bio_1223]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 105644 Sent bio_1223]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 105653 Sent bio_1223]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
@@ -7300,7 +7120,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 105673 Sent ess_1094]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number[psor] is not permitted with UPOS ADV in language [tr].
 [Line 105673 Sent ess_1094]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 105673 Sent ess_1094]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 105705 Sent bio_1947 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 105719 Sent pop_1189]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 105762 Sent bio_1264]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 105762 Sent bio_1264]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
@@ -7352,12 +7171,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 106520 Sent ins_420 Node 24]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 106520 Sent ins_420 Node 24]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 106549 Sent bio_180]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 106551 Sent bio_180 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 106565 Sent pop_1676 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 106565 Sent pop_1676 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 106622 Sent bio_1228 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 106622 Sent bio_1228 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 106655 Sent ins_210]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
 [Line 106664 Sent ins_1362]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 106664 Sent ins_1362]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 106664 Sent ins_1362]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
@@ -7437,7 +7254,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 107541 Sent ess_425]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 107584 Sent news_441 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 107584 Sent news_441 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 107592 Sent ins_1725 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 107597 Sent ins_1725 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 107597 Sent ins_1725 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 107615 Sent news_435]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -7445,7 +7261,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 107651 Sent bio_741]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 107651 Sent bio_741]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 107649 Sent bio_741 Node 8]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
-[Line 107670 Sent news_1522 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 107677 Sent ins_1642 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 [Line 107688 Sent ins_1642 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 107688 Sent ins_1642 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -7459,7 +7274,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 107828 Sent ins_161]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 107856 Sent ess_53 Node 23]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 107856 Sent ess_53 Node 23]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 107911 Sent ess_82 Node 33]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
 [Line 107923 Sent pop_1809]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 107928 Sent pop_1809 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 107928 Sent pop_1809 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -7536,7 +7350,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 108719 Sent news_1978 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 108815 Sent news_929]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 108859 Sent bio_773]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 108915 Sent news_1102 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 108947 Sent ins_1305 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 108947 Sent ins_1305 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 108960 Sent bio_841 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -7602,7 +7415,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 109635 Sent news_1856]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 109751 Sent ess_1098]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 109801 Sent pop_1258]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 109818 Sent ins_1149 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
 [Line 109858 Sent ins_60 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 109858 Sent ins_60 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 109867 Sent bio_1693]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -7654,7 +7466,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 110750 Sent pop_1832]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 110772 Sent bio_1992 Node 10]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 110772 Sent bio_1992 Node 10]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 110800 Sent ins_213]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'nmof'
 [Line 110814 Sent ins_213]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 110814 Sent ins_213]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
 [Line 110814 Sent ins_213]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
@@ -7669,7 +7480,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 110875 Sent news_656]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 110875 Sent news_656]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 110875 Sent news_656]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 110913 Sent ess_170 Node 4]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 110977 Sent ins_1296]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
 [Line 110977 Sent ins_1296]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 110977 Sent ins_1296]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
@@ -7711,7 +7521,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 111629 Sent pop_1243 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 111645 Sent bio_1078]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 111645 Sent bio_1078]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 111652 Sent bio_1078 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 111646 Sent bio_1078 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 111646 Sent bio_1078 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 111655 Sent bio_1078 Node 20]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -7780,12 +7589,12 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 112299 Sent ess_347]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 112339 Sent ess_347 Node 63]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 112339 Sent ess_347 Node 63]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 112429 Sent ins_1128 Node 9]: [L5 Morpho aux-lemma] 'iş' is not an auxiliary verb in language [tr]
-[Line 112429 Sent ins_1128 Node 9]: [L5 Syntax cop-lemma] 'iş' is not a copula in language [tr]
+[Line 112429 Sent ins_1128 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 112429 Sent ins_1128 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 112477 Sent news_492 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 112477 Sent news_492 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 112495 Sent pop_573 Node 13]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 112495 Sent pop_573 Node 13]: [L5 Syntax cop-lemma] 'de' is not a copula in language [tr]
+[Line 112495 Sent pop_573 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
+[Line 112495 Sent pop_573 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 112500 Sent ess_1284]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS NOUN in language [tr].
 [Line 112540 Sent bio_1017]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 112540 Sent bio_1017]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
@@ -8757,8 +8566,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126597 Sent news_830 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 126597 Sent news_830 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 126634 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-Format errors: 2
+Format errors: 3
 Metadata errors: 92
-Morpho errors: 5279
-Syntax errors: 3351
-*** FAILED *** with 8724 errors
+Morpho errors: 5278
+Syntax errors: 3160
+*** FAILED *** with 8533 errors
