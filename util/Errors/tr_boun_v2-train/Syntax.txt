@@ -197,24 +197,14 @@
 [Line 113772 Sent news_1538 Node 3]: [L3 Syntax leaf-punct] 'punct' not expected to have children (3:":punct --> 4:diye:case)
 [Line 114235 Sent pop_65 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 114244 Sent pop_65 Node 12]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 114644 Sent news_857 Node 16]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
-[Line 114819 Sent ess_1648 Node 6]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 115135 Sent pop_1677 Node 11]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
-[Line 115136 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:dır:punct --> 12:elbette:advmod)
-[Line 115137 Sent pop_1677 Node 11]: [L3 Syntax leaf-punct] 'punct' not expected to have children (11:dır:punct --> 13:ki:advmod)
-[Line 115284 Sent bio_413 Node 2]: [L3 Syntax goeswith-nospace] 'goeswith' cannot connect nodes that are not separated by whitespace
-[Line 115286 Sent bio_413 Node 3]: [L3 Syntax leaf-goeswith] 'goeswith' not expected to have children (3:.C:goeswith --> 4:.:punct)
-[Line 115728 Sent bio_1284 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [4, 8]
-[Line 115917 Sent ess_1377 Node 9]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ'
-[Line 115975 Sent news_1469 Node 30]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 116619 Sent pop_77 Node 8]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 116950 Sent ins_1970 Node 17]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [16, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 118072 Sent news_1709 Node 24]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
-[Line 119844 Sent pop_1419]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'aex'
-[Line 119837 Sent pop_1419]: [L2 Syntax head-self-loop] HEAD == ID for 15
-[Line 121053 Sent bio_1245 Node 18]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (18:olabilir:aux --> 4:ayak:csubj)
-[Line 121695 Sent ins_1746]: [L2 Syntax head-self-loop] HEAD == ID for 5
-[Line 122764 Sent news_516 Node 33]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [34, 35]
-[Line 122766 Sent news_516 Node 35]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [33]
-[Line 122757 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 26:Hi:obl)
-Syntax errors: 3143
+[Line 114646 Sent news_857 Node 17]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
+[Line 114648 Sent news_857 Node 19]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18]
+[Line 115138 Sent pop_1677 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:dır:cop --> 12:elbette:advmod)
+[Line 115139 Sent pop_1677 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:dır:cop --> 13:ki:advmod)
+[Line 115286 Sent bio_413 Node 2]: [L3 Syntax goeswith-gap] Violation of guidelines: gaps in goeswith group [2, 4] != [2, 3, 4].
+[Line 115286 Sent bio_413 Node 2]: [L3 Syntax goeswith-nospace] 'goeswith' cannot connect nodes that are not separated by whitespace
+[Line 115922 Sent ess_1377]: [L2 Syntax head-self-loop] HEAD == ID for 10
+[Line 116944 Sent ins_1970 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
+[Line 118079 Sent news_1709 Node 27]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
+[Line 121707 Sent ins_1746]: [L2 Syntax head-self-loop] HEAD == ID for 12
+Syntax errors: 3134

@@ -1085,7 +1085,6 @@
 [Line 50002 Sent news_915]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 50002 Sent news_915]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 50050 Sent ins_229]: [L4 Morpho feature-value-upos-not-permitted] Value Dist of feature NumType is not permitted with UPOS DET in language [tr].
-[Line 50147 Sent bio_864]: [L4 Morpho feature-value-unknown] Value Refl is not documented for feature Voice in language [tr].
 [Line 50166 Sent bio_864]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS PROPN in language [tr].
 [Line 50232 Sent ess_358]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS ADJ in language [tr].
 [Line 50236 Sent ess_358]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
@@ -2894,299 +2893,294 @@
 [Line 113986 Sent ess_1130]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 114057 Sent pop_251]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 114057 Sent pop_251]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 114163 Sent pop_442]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 114244 Sent pop_65]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 114538 Sent ins_1595]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS NOUN in language [tr].
-[Line 114693 Sent ins_1157]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 114698 Sent ins_1157]: [L4 Morpho feature-value-upos-not-permitted] Value Prs of feature PronType is not permitted with UPOS NOUN in language [tr].
-[Line 114732 Sent ess_1190]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 114732 Sent ess_1190]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 114732 Sent ess_1190]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 114961 Sent pop_146]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 114961 Sent pop_146]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 114999 Sent ess_1126]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
-[Line 115128 Sent pop_1677]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 115128 Sent pop_1677]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 115283 Sent bio_413]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 115283 Sent bio_413]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 115284 Sent bio_413 Node 2]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 115285 Sent bio_413 Node 3]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 115285 Sent bio_413 Node 3]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 115296 Sent bio_1455]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 115296 Sent bio_1455]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 115435 Sent bio_1422]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 115435 Sent bio_1422]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 115449 Sent ess_1133]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 115449 Sent ess_1133]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 115663 Sent bio_222]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
-[Line 115783 Sent ins_299]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 115783 Sent ins_299]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 115874 Sent ess_956]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 115894 Sent ess_1165]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 115940 Sent news_47]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 116109 Sent bio_759]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 116109 Sent bio_759]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 116125 Sent bio_317]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
-[Line 116219 Sent ins_1760]: [L4 Morpho feature-value-upos-not-permitted] Value Loc of feature Case is not permitted with UPOS PART in language [tr].
-[Line 116255 Sent ess_446]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 116255 Sent ess_446]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 116304 Sent pop_1400]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 116304 Sent pop_1400]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 116477 Sent pop_1477]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 116626 Sent news_679]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PROPN in language [tr].
-[Line 116721 Sent news_1975]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 116774 Sent news_728]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 116774 Sent news_728]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 116919 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 116919 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 116919 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 116919 Sent ess_828]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 117057 Sent ess_387]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 117057 Sent ess_387]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 117086 Sent ins_1981]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 117086 Sent ins_1981]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 117133 Sent pop_1819]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 117272 Sent ess_1958]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
-[Line 117538 Sent ess_403]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 117571 Sent pop_555]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 117646 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 117646 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 117646 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 117646 Sent ess_674]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 117755 Sent ess_1781]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 117755 Sent ess_1781]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
-[Line 117755 Sent ess_1781]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 117755 Sent ess_1781]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 117832 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
-[Line 117849 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 117849 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 117856 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
-[Line 117856 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
-[Line 117856 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 114695 Sent ins_1157]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 114700 Sent ins_1157]: [L4 Morpho feature-value-upos-not-permitted] Value Prs of feature PronType is not permitted with UPOS NOUN in language [tr].
+[Line 114734 Sent ess_1190]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 114734 Sent ess_1190]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 114734 Sent ess_1190]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 114963 Sent pop_146]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 114963 Sent pop_146]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 115001 Sent ess_1126]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
+[Line 115130 Sent pop_1677]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 115130 Sent pop_1677]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 115286 Sent bio_413 Node 2]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 115288 Sent bio_413 Node 4]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 115288 Sent bio_413 Node 4]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 115299 Sent bio_1455]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 115299 Sent bio_1455]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 115438 Sent bio_1422]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 115438 Sent bio_1422]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 115452 Sent ess_1133]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 115452 Sent ess_1133]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 115666 Sent bio_222]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
+[Line 115787 Sent ins_299]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 115787 Sent ins_299]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 115878 Sent ess_956]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 115898 Sent ess_1165]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 115944 Sent news_47]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 116113 Sent bio_759]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 116113 Sent bio_759]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 116129 Sent bio_317]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
+[Line 116223 Sent ins_1760]: [L4 Morpho feature-value-upos-not-permitted] Value Loc of feature Case is not permitted with UPOS PART in language [tr].
+[Line 116259 Sent ess_446]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 116259 Sent ess_446]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 116308 Sent pop_1400]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 116308 Sent pop_1400]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 116481 Sent pop_1477]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 116630 Sent news_679]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PROPN in language [tr].
+[Line 116725 Sent news_1975]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 116778 Sent news_728]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 116778 Sent news_728]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 116923 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 116923 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 116923 Sent ess_828]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 116923 Sent ess_828]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 117061 Sent ess_387]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 117061 Sent ess_387]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 117090 Sent ins_1981]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 117090 Sent ins_1981]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 117137 Sent pop_1819]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 117276 Sent ess_1958]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
+[Line 117542 Sent ess_403]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 117575 Sent pop_555]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 117650 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 117650 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 117650 Sent ess_674]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 117650 Sent ess_674]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 117759 Sent ess_1781]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 117759 Sent ess_1781]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
+[Line 117759 Sent ess_1781]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 117759 Sent ess_1781]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 117836 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADJ in language [tr].
+[Line 117853 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 117853 Sent pop_644]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
 [Line 117860 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 117860 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 117860 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 117939 Sent pop_1519]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 117939 Sent pop_1519]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 117992 Sent ess_1167]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
-[Line 118382 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 118382 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 118391 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 118391 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 118502 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 118502 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 118502 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-[Line 118655 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 118655 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 118655 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-[Line 118766 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 118766 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Evident is not permitted with UPOS PART in language [tr].
-[Line 118766 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 118785 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 118785 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 119000 Sent bio_1884]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119000 Sent bio_1884]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 119114 Sent pop_1127]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119114 Sent pop_1127]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 119135 Sent bio_1233]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 119135 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
-[Line 119135 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 119135 Sent bio_1233]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 119143 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119143 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 119212 Sent pop_1883]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 119355 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 119355 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 119355 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 119553 Sent ins_1319]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119553 Sent ins_1319]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 119601 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 119601 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 119601 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 119685 Sent news_1034]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 119857 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value Gen of feature Case is not permitted with UPOS CCONJ in language [tr].
-[Line 119857 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
-[Line 119857 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 119933 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119933 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 119933 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 119933 Sent ess_681]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 119947 Sent ess_681]: [L4 Morpho feature-value-unknown] Value Pros is not documented for feature Aspect in language [tr].
-[Line 119985 Sent bio_1226]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 119985 Sent bio_1226]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120027 Sent ins_1870]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
-[Line 120027 Sent ins_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120027 Sent ins_1870]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120055 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120055 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120064 Sent bio_742]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 120064 Sent bio_742]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 120066 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120066 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120197 Sent ins_1898]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 120243 Sent bio_763]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120243 Sent bio_763]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120314 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120314 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120321 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
-[Line 120321 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120321 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120329 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 120329 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
-[Line 120329 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 120329 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 120457 Sent bio_239]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120457 Sent bio_239]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120481 Sent news_1258]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 120502 Sent pop_746]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120502 Sent pop_746]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120653 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Prosp of feature Aspect is not permitted with UPOS NUM in language [tr].
-[Line 120653 Sent ess_225]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NUM in language [tr].
-[Line 120653 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS NUM in language [tr].
-[Line 120653 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NUM in language [tr].
-[Line 120703 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 120703 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 120703 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS DET in language [tr].
-[Line 120703 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 120703 Sent pop_1349]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS DET in language [tr].
-[Line 120860 Sent ins_1100]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 120891 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 120891 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 120891 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 120891 Sent bio_1061]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 121013 Sent pop_1570]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 121013 Sent pop_1570]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 121013 Sent pop_1570]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 121044 Sent ess_1404]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS NOUN in language [tr].
-[Line 121248 Sent ins_146]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 121248 Sent ins_146]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 121277 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 121277 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 121277 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 121277 Sent pop_554]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 121277 Sent pop_554]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS ADV in language [tr].
-[Line 121437 Sent pop_1264]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 121437 Sent pop_1264]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 121534 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS CCONJ in language [tr].
-[Line 121534 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
-[Line 121534 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
-[Line 121585 Sent ins_443]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 121594 Sent ess_1697]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 121594 Sent ess_1697]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 121604 Sent pop_844]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 121604 Sent pop_844]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 121673 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 121673 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 121673 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-[Line 121751 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 121751 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 121751 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number[psor] is not permitted with UPOS DET in language [tr].
-[Line 121751 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 121751 Sent ess_1202]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS DET in language [tr].
-[Line 121834 Sent ins_226]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 121834 Sent ins_226]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 122120 Sent bio_817]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 122120 Sent bio_817]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 122208 Sent ins_962]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 122455 Sent ess_96]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
-[Line 122473 Sent ess_289]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NUM in language [tr].
-[Line 122473 Sent ess_289]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NUM in language [tr].
-[Line 122671 Sent ess_538]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 122671 Sent ess_538]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 122847 Sent ess_272]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 122847 Sent ess_272]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 122868 Sent ess_625]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 122868 Sent ess_625]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
-[Line 122868 Sent ess_625]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 122868 Sent ess_625]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 122991 Sent news_1723]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 122991 Sent news_1723]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123014 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123014 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 123014 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123014 Sent news_1361]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 123120 Sent pop_1842]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 123139 Sent news_1052]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123139 Sent news_1052]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123240 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123240 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 123240 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123240 Sent news_1233]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 123250 Sent ins_1268]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123250 Sent ins_1268]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123381 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123381 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123383 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123383 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123394 Sent ins_1847]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
-[Line 123524 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Perf of feature Aspect is not permitted with UPOS PROPN in language [tr].
-[Line 123524 Sent bio_291]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
-[Line 123524 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PROPN in language [tr].
-[Line 123524 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 123804 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 123804 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 123816 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 123816 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 123825 Sent ess_453]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123825 Sent ess_453]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123869 Sent ins_1269]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123869 Sent ins_1269]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 123883 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 123883 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 124112 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 124112 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 124112 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-[Line 124205 Sent ins_713]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 124205 Sent ins_713]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 124273 Sent pop_656]: [L4 Morpho feature-value-unknown] Value Imp is not documented for feature Evident in language [tr].
-[Line 124312 Sent news_1957]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 124327 Sent news_1957]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 124459 Sent ins_1473]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 124459 Sent ins_1473]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 124574 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 124574 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 124575 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 124575 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 124716 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
-[Line 124716 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
-[Line 124716 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
-[Line 124719 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS PART in language [tr].
-[Line 124922 Sent ins_1604]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 124922 Sent ins_1604]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
-[Line 124953 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 124953 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
-[Line 124953 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 124953 Sent ess_544]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
-[Line 125138 Sent pop_461]: [L4 Morpho feature-value-unknown] Value Refl is not documented for feature Voice in language [tr].
-[Line 125541 Sent news_738]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
-[Line 125666 Sent ess_307]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 125666 Sent ess_307]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 125713 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 125713 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 125718 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
-[Line 125718 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 125767 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 125767 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 125789 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 125789 Sent ins_900]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 125789 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 125812 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 125812 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
-[Line 125812 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 125877 Sent pop_540 Node 8]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
-[Line 125910 Sent ess_285]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 125910 Sent ess_285]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
-[Line 125910 Sent ess_285]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 125910 Sent ess_285]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 126053 Sent ess_1768]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 126053 Sent ess_1768]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 126258 Sent ess_1497]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 126258 Sent ess_1497]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 126370 Sent ess_1092]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 126370 Sent ess_1092]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 126376 Sent ess_115]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 126376 Sent ess_115]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
-[Line 126498 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
-[Line 126498 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
-[Line 126498 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
-Morpho errors: 5278
+[Line 117864 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
+[Line 117864 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
+[Line 117864 Sent bio_142]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 117943 Sent pop_1519]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 117943 Sent pop_1519]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 117996 Sent ess_1167]: [L4 Morpho feature-value-unknown] Value Quant is not documented for feature PronType in language [tr].
+[Line 118387 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 118387 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 118396 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 118396 Sent bio_73]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 118507 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 118507 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 118507 Sent news_1870]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+[Line 118660 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 118660 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 118660 Sent pop_392]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+[Line 118771 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 118771 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Evident is not permitted with UPOS PART in language [tr].
+[Line 118771 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 118790 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 118790 Sent news_1776]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 119005 Sent bio_1884]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119005 Sent bio_1884]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 119119 Sent pop_1127]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119119 Sent pop_1127]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 119140 Sent bio_1233]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 119140 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
+[Line 119140 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 119140 Sent bio_1233]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 119148 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119148 Sent bio_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 119217 Sent pop_1883]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 119360 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 119360 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 119360 Sent news_1527]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 119558 Sent ins_1319]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119558 Sent ins_1319]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 119606 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 119606 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 119606 Sent news_70]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 119690 Sent news_1034]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 119862 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value Gen of feature Case is not permitted with UPOS CCONJ in language [tr].
+[Line 119862 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
+[Line 119862 Sent ess_1025]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 119938 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119938 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 119938 Sent ess_681]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 119938 Sent ess_681]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 119952 Sent ess_681]: [L4 Morpho feature-value-unknown] Value Pros is not documented for feature Aspect in language [tr].
+[Line 119990 Sent bio_1226]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 119990 Sent bio_1226]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120032 Sent ins_1870]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
+[Line 120032 Sent ins_1870]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120032 Sent ins_1870]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120060 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120060 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120069 Sent bio_742]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 120069 Sent bio_742]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 120071 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120071 Sent bio_742]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120202 Sent ins_1898]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 120248 Sent bio_763]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120248 Sent bio_763]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120319 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120319 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120326 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADV in language [tr].
+[Line 120326 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120326 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120334 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 120334 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
+[Line 120334 Sent ess_132]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 120334 Sent ess_132]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 120462 Sent bio_239]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120462 Sent bio_239]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120486 Sent news_1258]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 120507 Sent pop_746]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120507 Sent pop_746]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120658 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Prosp of feature Aspect is not permitted with UPOS NUM in language [tr].
+[Line 120658 Sent ess_225]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NUM in language [tr].
+[Line 120658 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS NUM in language [tr].
+[Line 120658 Sent ess_225]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NUM in language [tr].
+[Line 120708 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 120708 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 120708 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS DET in language [tr].
+[Line 120708 Sent pop_1349]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 120708 Sent pop_1349]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS DET in language [tr].
+[Line 120865 Sent ins_1100]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 120896 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 120896 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 120896 Sent bio_1061]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 120896 Sent bio_1061]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 121018 Sent pop_1570]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 121018 Sent pop_1570]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 121018 Sent pop_1570]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 121049 Sent ess_1404]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS NOUN in language [tr].
+[Line 121253 Sent ins_146]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 121253 Sent ins_146]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 121282 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 121282 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 121282 Sent pop_554]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 121282 Sent pop_554]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 121282 Sent pop_554]: [L4 Morpho feature-upos-not-permitted] Feature Reflex is not permitted with UPOS ADV in language [tr].
+[Line 121442 Sent pop_1264]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 121442 Sent pop_1264]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 121539 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS CCONJ in language [tr].
+[Line 121539 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
+[Line 121539 Sent pop_717]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
+[Line 121590 Sent ins_443]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 121599 Sent ess_1697]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 121599 Sent ess_1697]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 121609 Sent pop_844]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 121609 Sent pop_844]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 121678 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 121678 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 121678 Sent ins_1574]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+[Line 121756 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 121756 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 121756 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number[psor] is not permitted with UPOS DET in language [tr].
+[Line 121756 Sent ess_1202]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 121756 Sent ess_1202]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS DET in language [tr].
+[Line 121839 Sent ins_226]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 121839 Sent ins_226]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 122125 Sent bio_817]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 122125 Sent bio_817]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 122213 Sent ins_962]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 122460 Sent ess_96]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS ADJ in language [tr].
+[Line 122478 Sent ess_289]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NUM in language [tr].
+[Line 122478 Sent ess_289]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NUM in language [tr].
+[Line 122676 Sent ess_538]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 122676 Sent ess_538]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 122852 Sent ess_272]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 122852 Sent ess_272]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 122873 Sent ess_625]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 122873 Sent ess_625]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
+[Line 122873 Sent ess_625]: [L4 Morpho feature-value-upos-not-permitted] Value 2 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 122873 Sent ess_625]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 122996 Sent news_1723]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 122996 Sent news_1723]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123019 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123019 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 123019 Sent news_1361]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123019 Sent news_1361]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 123125 Sent pop_1842]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 123144 Sent news_1052]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123144 Sent news_1052]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123245 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123245 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 123245 Sent news_1233]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123245 Sent news_1233]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 123255 Sent ins_1268]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123255 Sent ins_1268]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123386 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123386 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123388 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123388 Sent ess_688]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123399 Sent ins_1847]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PRON in language [tr].
+[Line 123529 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Perf of feature Aspect is not permitted with UPOS PROPN in language [tr].
+[Line 123529 Sent bio_291]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
+[Line 123529 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PROPN in language [tr].
+[Line 123529 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PROPN in language [tr].
+[Line 123809 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 123809 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 123821 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 123821 Sent ess_699]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 123830 Sent ess_453]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123830 Sent ess_453]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123874 Sent ins_1269]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123874 Sent ins_1269]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 123888 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 123888 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 124117 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 124117 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 124117 Sent news_1152]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+[Line 124210 Sent ins_713]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 124210 Sent ins_713]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 124278 Sent pop_656]: [L4 Morpho feature-value-unknown] Value Imp is not documented for feature Evident in language [tr].
+[Line 124317 Sent news_1957]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
+[Line 124332 Sent news_1957]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
+[Line 124464 Sent ins_1473]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 124464 Sent ins_1473]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 124579 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 124579 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 124580 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 124580 Sent pop_1231]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 124721 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS DET in language [tr].
+[Line 124721 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS DET in language [tr].
+[Line 124721 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS DET in language [tr].
+[Line 124724 Sent pop_1597]: [L4 Morpho feature-value-upos-not-permitted] Value Dat of feature Case is not permitted with UPOS PART in language [tr].
+[Line 124927 Sent ins_1604]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 124927 Sent ins_1604]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
+[Line 124958 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 124958 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number[psor] is not permitted with UPOS ADV in language [tr].
+[Line 124958 Sent ess_544]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 124958 Sent ess_544]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS ADV in language [tr].
+[Line 125546 Sent news_738]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
+[Line 125671 Sent ess_307]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 125671 Sent ess_307]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 125718 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 125718 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 125723 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
+[Line 125723 Sent ess_414]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
+[Line 125772 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 125772 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 125794 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 125794 Sent ins_900]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 125794 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 125817 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 125817 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
+[Line 125817 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 125882 Sent pop_540 Node 8]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
+[Line 125915 Sent ess_285]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 125915 Sent ess_285]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
+[Line 125915 Sent ess_285]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
+[Line 125915 Sent ess_285]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 126058 Sent ess_1768]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 126058 Sent ess_1768]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 126263 Sent ess_1497]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 126263 Sent ess_1497]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 126375 Sent ess_1092]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
+[Line 126375 Sent ess_1092]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
+[Line 126381 Sent ess_115]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
+[Line 126381 Sent ess_115]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
+[Line 126503 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS INTJ in language [tr].
+[Line 126503 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS INTJ in language [tr].
+[Line 126503 Sent pop_348]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS INTJ in language [tr].
+Morpho errors: 5273
