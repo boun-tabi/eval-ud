@@ -193,18 +193,6 @@
 [Line 112951 Sent news_1858 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
 [Line 113220 Sent pop_1498 Node 14]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'obj'
 [Line 113645 Sent news_745 Node 10]: [L3 Syntax leaf-punct] 'punct' not expected to have children (10:":punct --> 8:ve:cc)
-[Line 113769 Sent news_1538 Node 3]: [L3 Syntax leaf-punct] 'punct' not expected to have children (3:":punct --> 1:Bekleme:nmod)
-[Line 113772 Sent news_1538 Node 3]: [L3 Syntax leaf-punct] 'punct' not expected to have children (3:":punct --> 4:diye:case)
-[Line 114235 Sent pop_65 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 114244 Sent pop_65 Node 12]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 114646 Sent news_857 Node 17]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'ccomp'
-[Line 114648 Sent news_857 Node 19]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18]
-[Line 115138 Sent pop_1677 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:dır:cop --> 12:elbette:advmod)
-[Line 115139 Sent pop_1677 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:dır:cop --> 13:ki:advmod)
-[Line 115286 Sent bio_413 Node 2]: [L3 Syntax goeswith-gap] Violation of guidelines: gaps in goeswith group [2, 4] != [2, 3, 4].
-[Line 115286 Sent bio_413 Node 2]: [L3 Syntax goeswith-nospace] 'goeswith' cannot connect nodes that are not separated by whitespace
-[Line 115922 Sent ess_1377]: [L2 Syntax head-self-loop] HEAD == ID for 10
-[Line 116944 Sent ins_1970 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [17]
-[Line 118079 Sent news_1709 Node 27]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
-[Line 121707 Sent ins_1746]: [L2 Syntax head-self-loop] HEAD == ID for 12
-Syntax errors: 3134
+[Line 114236 Sent pop_65]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 116949 Sent ins_1970 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
+Syntax errors: 3123
