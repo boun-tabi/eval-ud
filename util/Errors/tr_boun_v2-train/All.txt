@@ -8288,7 +8288,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 122474 Sent ess_289]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NUM in language [tr].
 [Line 122509 Sent news_1327]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 122555 Sent bio_560]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #15 because the text is 'kurtardık.'.
-[Line 122552 Sent bio_560 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8]
 [Line 122549 Sent bio_560 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 122549 Sent bio_560 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 122566 Sent ess_392]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
@@ -8302,12 +8301,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 122700 Sent bio_1022 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 122700 Sent bio_1022 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 122772 Sent news_516]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 122765 Sent news_516 Node 33]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26, 27, 28, 29, 30, 31, 32]
-[Line 122766 Sent news_516 Node 34]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
-[Line 122767 Sent news_516 Node 35]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 26]
-[Line 122768 Sent news_516 Node 36]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 26]
-[Line 122740 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 8:yıl:obl)
-[Line 122758 Sent news_516 Node 44]: [L3 Syntax leaf-punct] 'punct' not expected to have children (44:":punct --> 26:Hi:obl)
+[Line 122764 Sent news_516]: [L2 Syntax head-self-loop] HEAD == ID for 32
+[Tree number 7569 on line 122733 Sent news_516]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
 [Line 122794 Sent ess_1780 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 122794 Sent ess_1780 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 122810 Sent news_509 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -8367,7 +8362,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 123525 Sent bio_291]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
 [Line 123525 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PROPN in language [tr].
 [Line 123525 Sent bio_291]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS PROPN in language [tr].
-[Line 123517 Sent bio_291 Node 4]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
 [Line 123533 Sent bio_291 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 123533 Sent bio_291 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 123647 Sent news_245 Node 31]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -8394,7 +8388,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 123884 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 123884 Sent pop_1799]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 123889 Sent pop_1799]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 123944 Sent ess_1671 Node 37]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [31, 35]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 123936 Sent ess_1671 Node 29]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 123936 Sent ess_1671 Node 29]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 123964 Sent bio_307 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -8566,8 +8559,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126597 Sent news_830 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 126597 Sent news_830 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 126634 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-Format errors: 3
+Format errors: 4
 Metadata errors: 92
 Morpho errors: 5278
-Syntax errors: 3160
-*** FAILED *** with 8533 errors
+Syntax errors: 3152
+*** FAILED *** with 8526 errors
