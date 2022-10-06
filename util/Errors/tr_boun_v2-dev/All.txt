@@ -167,7 +167,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 1549 Sent bio_1953 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 1549 Sent bio_1953 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 1569 Sent ess_1296 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
-[Line 1576 Sent ess_1296 Node 10]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1576 Sent ess_1296 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 1594 Sent pop_354]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 1614 Sent news_1874]: [L2 Syntax root-is-not-0] DEPREL cannot be 'root' if HEAD is not 0.
 [Line 1612 Sent news_1874 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -311,7 +311,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 3136 Sent news_919 Node 12]: [L5 Morpho aux-lemma] 'Ken' is not an auxiliary verb in language [tr]
 [Line 3136 Sent news_919 Node 12]: [L5 Syntax cop-lemma] 'Ken' is not a copula in language [tr]
 [Line 3179 Sent news_255]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 3179 Sent news_255 Node 9]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [2, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3179 Sent news_255 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 3181 Sent news_255 Node 11]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'PROPN'
 [Line 3249 Sent news_1547]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 3243 Sent news_1547 Node 8]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
@@ -396,7 +396,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4424 Sent ess_364]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 4450 Sent ess_364]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 4462 Sent ess_364]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 4463 Sent ess_364 Node 62]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [16, 52, 57, 61]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4463 Sent ess_364 Node 62]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [16, 52, 57, 61]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 4477 Sent ins_270]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4469 Sent ins_270 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 4488 Sent pop_1390]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -431,7 +431,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4869 Sent news_881]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
 [Line 4882 Sent news_881]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4882 Sent news_881 Node 26]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 4899 Sent ess_1486 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [4, 6, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4899 Sent ess_1486 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 6, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 4905 Sent bio_1288]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 4910 Sent bio_1288]: [L4 Morpho feature-value-unknown] Value Caus is not documented for feature Voice in language [tr].
 [Line 4922 Sent news_942 Node 4]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
@@ -529,7 +529,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6199 Sent bio_692]: [L4 Morpho feature-value-upos-not-permitted] Value Plur of feature Number is not permitted with UPOS PART in language [tr].
 [Line 6199 Sent bio_692]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 6192 Sent bio_692 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 6233 Sent bio_585 Node 18]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6233 Sent bio_585 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 6234 Sent bio_585 Node 19]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 6234 Sent bio_585 Node 19]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 6257 Sent ess_754]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
@@ -569,7 +569,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6732 Sent news_754 Node 15]: [L3 Syntax leaf-cc] 'cc' not expected to have children (15:ne:cc --> 16:de:advmod)
 [Line 6758 Sent ins_846]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 6759 Sent ins_846 Node 9]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
-[Line 6857 Sent ess_1726 Node 7]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6857 Sent ess_1726 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 6888 Sent ins_1820]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 6888 Sent ins_1820]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
 [Line 6896 Sent ins_1820 Node 13]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
@@ -602,7 +602,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 7235 Sent bio_1103 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 7269 Sent bio_1041]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 7272 Sent bio_1041]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 7277 Sent bio_1041 Node 31]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [7, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7277 Sent bio_1041 Node 31]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 7308 Sent bio_187]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 7320 Sent bio_187]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 7320 Sent bio_187]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
@@ -676,7 +676,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8269 Sent bio_21 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 8279 Sent ess_961]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 8295 Sent ess_961]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 8288 Sent ess_961 Node 14]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 8288 Sent ess_961 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 8329 Sent bio_926 Node 8]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 8329 Sent bio_926 Node 8]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 8340 Sent ess_1862]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
@@ -685,7 +685,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8362 Sent ess_1862]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 8359 Sent ess_1862 Node 26]: [L3 Syntax rel-upos-cc] 'cc' should not be 'AUX'
 [Line 8358 Sent ess_1862 Node 26]: [L3 Syntax leaf-cc] 'cc' not expected to have children (26:de\u011fil:cc --> 25:toprak:compound)
-[Line 8367 Sent ess_1862 Node 34]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [22, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 8367 Sent ess_1862 Node 34]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [22, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 8376 Sent ess_645]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 8392 Sent ess_645]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 8393 Sent ess_645]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -909,7 +909,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 10932 Sent news_1857]: [L4 Morpho feature-value-upos-not-permitted] Value Vnoun of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 10932 Sent news_1857]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 11014 Sent ess_830 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON'
-[Line 11057 Sent bio_205 Node 22]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [9, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11057 Sent bio_205 Node 22]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 11076 Sent pop_651]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 11106 Sent bio_465]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
 [Line 11125 Sent ess_1075]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
@@ -975,7 +975,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 12046 Sent ins_479]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 12042 Sent ins_479 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 12047 Sent ins_479 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 12085 Sent ess_1785 Node 18]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [12, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12085 Sent ess_1785 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [12, 14]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 12135 Sent bio_1678 Node 2]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
 [Line 12138 Sent bio_1678 Node 5]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
 [Line 12146 Sent ins_1731 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -1019,8 +1019,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 12602 Sent bio_1849]: [L4 Morpho feature-upos-not-permitted] Feature Person is not permitted with UPOS NO;UN in language [tr].
 [Line 12602 Sent bio_1849]: [L4 Morpho feature-upos-not-permitted] Feature Person[psor] is not permitted with UPOS NO;UN in language [tr].
 [Line 12624 Sent bio_1392 Node 10]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 12632 Sent bio_1392 Node 17]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 12645 Sent bio_188 Node 8]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12632 Sent bio_1392 Node 17]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12645 Sent bio_188 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 12677 Sent ess_787 Node 9]: [L3 Syntax goeswith-gap] Violation of guidelines: gaps in goeswith group [9, 11] != [9, 10, 11].
 [Line 12677 Sent ess_787 Node 9]: [L3 Syntax goeswith-nospace] 'goeswith' cannot connect nodes that are not separated by whitespace
 [Line 12677 Sent ess_787 Node 9]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
@@ -1115,7 +1115,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 13856 Sent bio_1824 Node 9]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 13856 Sent bio_1824 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 13887 Sent ins_1549 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 13889 Sent ins_1549 Node 13]: [L3 Syntax too-many-subjects] Node has more than one subject that is not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 13889 Sent ins_1549 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 13896 Sent bio_766]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 13953 Sent bio_1645 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 13959 Sent bio_1645 Node 7]: [L5 Morpho aux-lemma] 'götür' is not an auxiliary verb in language [tr]

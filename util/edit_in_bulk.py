@@ -109,10 +109,6 @@ for sentence in sentences:
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)
 
-            # if i == field_d['deprel'] and field == 'obl:tmp':
-            #     fields[i] = 'obl:tmod'
-            #     line = '\t'.join(fields)
-
             # used for sorting morphological features, 9/11/2022 & 9/21/2022
             # if i == field_d['feats']:
             #     feats = field.split('|')
