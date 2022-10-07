@@ -8372,18 +8372,10 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 125791 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
 [Line 125791 Sent bio_1606]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 125802 Sent ins_1946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 125813 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Aspect is not permitted with UPOS PART in language [tr].
-[Line 125813 Sent ins_900]: [L4 Morpho feature-value-upos-not-permitted] Value 1 of feature Person is not permitted with UPOS PART in language [tr].
-[Line 125813 Sent ins_900]: [L4 Morpho feature-upos-not-permitted] Feature Tense is not permitted with UPOS PART in language [tr].
-[Line 125813 Sent ins_900]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
-[Line 125836 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS ADV in language [tr].
-[Line 125836 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value Card of feature NumType is not permitted with UPOS ADV in language [tr].
-[Line 125836 Sent bio_1596]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS ADV in language [tr].
 [Line 125850 Sent news_1905 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 125850 Sent news_1905 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 125886 Sent ins_77]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 125914 Sent pop_540]: [L2 Metadata missing-spaceafter] 'SpaceAfter=No' is missing in the MISC field of node #21 because the text is 'gerekli" deyip savun[...]'.
-[Line 125901 Sent pop_540 Node 8]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
 [Line 125934 Sent ess_285]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'discourse:q'
 [Line 126192 Sent bio_1869 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 126192 Sent bio_1869 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -8408,6 +8400,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 126657 Sent ins_946]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 Format errors: 26
 Metadata errors: 99
-Morpho errors: 5175
-Syntax errors: 3073
-*** FAILED *** with 8373 errors
+Morpho errors: 5168
+Syntax errors: 3072
+*** FAILED *** with 8365 errors
