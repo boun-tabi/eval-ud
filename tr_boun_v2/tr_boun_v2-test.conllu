@@ -529,7 +529,7 @@
 9	edecek	et	VERB	Ptcp	Aspect=Prosp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	8	compound:lvc	_	_
 10	olsaydı	ol	VERB	_	Aspect=Perf|Evident=Fh|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Tense=Past	15	advcl:cond	_	SpaceAfter=No
 11	,	,	PUNCT	Comma	_	15	punct	_	_
-12	sizce	siz	ADV	_	Case=Equ|Number=Plur|Person=2	15	advmod	_	_
+12	sizce	siz	ADV	_	_	15	advmod	_	_
 13	hangi	hangi	DET	Adj	_	14	det	_	_
 14	özelliğini	özellik	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	df=özel
 15-16	söylerdi	_	_	_	_	_	_	_	SpaceAfter=No
@@ -649,7 +649,7 @@
 2	.	.	PUNCT	Stop	_	1	punct	_	_
 3	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obj	_	_
 4	okumak	oku	VERB	Vnoun	Case=Nom|Polarity=Pos|VerbForm=Vnoun	6	csubj	_	_
-5	neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	6	advmod	_	_
+5	neden	neden	ADV	Ques	_	6	advmod	_	_
 6-7	önemlidir	_	_	_	_	_	_	_	SpaceAfter=No
 6	önemli	önem	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 7	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
@@ -1302,7 +1302,7 @@
 # sent_id = ins_1532
 # text = Fakat nedense babamın umurundaymış.
 1	Fakat	fakat	CCONJ	Conj	_	4	cc	_	_
-2	nedense	neden	ADV	_	Case=Nom|Mood=Cnd|Number=Sing|Person=3	4	advmod	_	_
+2	nedense	neden	ADV	_	_	4	advmod	_	_
 3	babamın	baba	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	4	nmod:poss	_	_
 4-5	umurundaymış	_	_	_	_	_	_	_	SpaceAfter=No
 4	umurunda	umur	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
@@ -1517,7 +1517,7 @@
 1	Medyalamacılığın	Medyalamacılık	NOUN	_	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
 2	efendisi	efendi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
 3	olarak	ol	ADP	PCNom	_	2	case	_	_
-4	baştan	baş	ADV	_	Case=Abl|Number=Sing|Person=3	5	advmod	_	_
+4	baştan	baş	ADV	_	_	5	advmod	_	_
 5	kabul	kabul	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
 6	etmezsin	et	VERB	_	Aspect=Hab|Number=Sing|Person=2|Polarity=Neg|Tense=Aor	5	compound:lvc	_	_
 7	teklifini	teklif	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
@@ -4855,7 +4855,7 @@
 
 # sent_id = ess_926
 # text = Hiç yaşanmamış bir aşk, yeryüzünün en büyük ve en unutulmaz aşklarından biri olarak yazıldı insanların o karmaşık tarihine.
-1	Hiç	hiç	ADV	_	Case=Nom|Number=Sing|Person=3	2	advmod	_	_
+1	Hiç	hiç	ADV	_	_	2	advmod	_	_
 2	yaşanmamış	yaşa	VERB	Ptcp	Evident=Nfh|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
 3	bir	bir	DET	Indef	_	4	det	_	_
 4	aşk	aşk	NOUN	_	Case=Nom|Number=Sing|Person=3	15	nsubj	_	SpaceAfter=No
@@ -5074,7 +5074,7 @@
 # sent_id = ins_543
 # text = 1. Sizce insanlar niçin hayal kurarlar?
 1	1.	1	NUM	ANum	NumType=Ord	5	obl	_	_
-2	Sizce	siz	ADV	_	Case=Equ|Number=Plur|Person=2	5	advmod	_	_
+2	Sizce	siz	ADV	_	_	5	advmod	_	_
 3	insanlar	insan	NOUN	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
 4	niçin	niçin	ADV	_	_	5	advmod	_	_
 5	hayal	hayal	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -7188,7 +7188,7 @@
 
 # sent_id = news_143
 # text = Sayaç koyalım ve bizim petrollerimizi size ve aracılığınızla Batı'ya satalım" önerisinde bulundu.
-1	Sayaç	sayaç	ADV	_	Case=Nom|Number=Sing|Person=3	2	advmod	_	_
+1	Sayaç	sayaç	ADV	_	_	2	advmod	_	_
 2	koyalım	koy	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	12	nmod:poss	_	_
 3	ve	ve	CCONJ	Conj	_	10	cc	_	_
 4	bizim	biz	PRON	Pers	Case=Gen|Number=Plur|Person=1	5	nmod:poss	_	_
@@ -7214,7 +7214,7 @@
 7	olan	ol	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
 8	kitap	kitap	VERB	_	Case=Nom|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	14	punct	_	_
-10	neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	14	advmod	_	_
+10	neden	neden	ADV	Ques	_	14	advmod	_	_
 11	iyi	iyi	ADJ	Adj	_	13	amod	_	_
 12	bir	bir	DET	Indef	_	13	det	_	_
 13	arkadaş	arkadaş	NOUN	_	Case=Nom|Number=Sing|Person=3	14	obj	_	_
@@ -7650,7 +7650,7 @@
 
 # sent_id = ess_1546
 # text = Başta Güneydoğu sorunu...
-1	Başta	baş	ADV	_	Case=Loc|Number=Sing|Person=3	3	advmod	_	_
+1	Başta	baş	ADV	_	_	3	advmod	_	_
 2	Güneydoğu	güneydoğu	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	sorunu	sorun	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	SpaceAfter=No
 4	...	...	PUNCT	TDots	_	3	punct	_	SpacesAfter=\r\n
@@ -7772,7 +7772,7 @@
 4	yerde	yer	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 5	bulunmaları	bulun	VERB	Vnoun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	6	nsubj	_	_
 6	gerekenler	gerek	VERB	Ptcp	Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	9	nsubj	_	_
-7	neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	9	advmod	_	_
+7	neden	neden	ADV	Ques	_	9	advmod	_	_
 8	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3	9	obl	_	_
 9	değiller	değil	VERB	Neg	Case=Nom|Number=Plur|Person=3	0	root	_	SpaceAfter=No
 10	?	?	PUNCT	Ques	_	9	punct	_	SpaceAfter=No
@@ -8891,7 +8891,7 @@
 
 # sent_id = pop_866
 # text = İşte asıl şarkıyı söyleyen ve söyleten gerçek bu.
-1	İşte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	7	advmod	_	_
+1	İşte	iş	ADV	_	_	7	advmod	_	_
 2	asıl	asıl	ADJ	Adj	_	3	amod	_	_
 3	şarkıyı	şarkı	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	_	_
 4	söyleyen	söyle	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
@@ -8940,7 +8940,7 @@
 
 # sent_id = ess_270
 # text = Sarhoş, kabadayı, şımarık bir zengin piçi, yüzünü hiç görmediğim, fotoğraflarda da yaşamından kesintiler saptanamamış, sadece annemin tanımlarıyla anlattığı öykülerle belleğimde canlılığını sürdüren on sekiz yaşındaki kapı gibi, yakışıklı mı yakışıklı Nazmi Dayımı öldürmüş.
-1	Sarhoş	sarhoş	ADV	_	Case=Nom|Number=Sing|Person=3	12	advmod	_	SpaceAfter=No
+1	Sarhoş	sarhoş	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	Comma	_	3	punct	_	_
 3	kabadayı	kabadayı	NOUN	_	Case=Nom|Number=Sing|Person=3	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	Comma	_	7	punct	_	_
@@ -9661,7 +9661,7 @@
 4	'	'	PUNCT	Punc	_	5	punct	_	_
 5	dedim	de	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	Comma	_	8	punct	_	_
-7	işte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	8	advmod	_	_
+7	işte	iş	ADV	_	_	8	advmod	_	_
 8	oldu	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	1	conj	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	18	punct	_	_
 10	bana	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1	14	obl	_	_
@@ -11274,7 +11274,7 @@
 
 # sent_id = news_635
 # text = Avrupa aydınlanmasına "uyum" niteliği taşıyan bu fermanı Batı olumlu karşılamış, 1853'te başlayan Kırım savaşında Abdülmecit'e yardım etmişti.
-1	Avrupa	Avrupa	ADV	_	Case=Nom|Number=Sing|Person=3	2	advmod	_	_
+1	Avrupa	Avrupa	ADV	_	_	2	advmod	_	_
 2	aydınlanmasına	aydınlan	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	3	obl	_	_
 3	"uyum	"uyum	AUX	Ques	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	nmod:poss	_	SpaceAfter=No
 4	"	"	PUNCT	Punc	_	3	punct	_	_
@@ -11504,7 +11504,7 @@
 3	ki	ki	PART	Attr	_	2	case	_	_
 4	değişimleri	değişim	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
 5	hep	hep	ADV	_	_	7	advmod	_	_
-6	birlikte	birlik	ADV	_	Case=Loc|Number=Sing|Person=3	7	advmod	_	_
+6	birlikte	birlik	ADV	_	_	7	advmod	_	_
 7	öğreniyoruz	öğren	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Stop	_	7	punct	_	SpacesAfter=\r\n
 
@@ -11810,7 +11810,7 @@
 18-19	buydu	_	_	_	_	_	_	_	_
 18	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	5	conj	_	_
 19	ydu	YDU	AUX	Zero	Case=Nom|Number=Sing|Person=3	18	cop	_	_
-20	işte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	18	advmod	_	SpaceAfter=No
+20	işte	iş	ADV	_	_	18	advmod	_	SpaceAfter=No
 21	:	:	PUNCT	Punc	_	26	punct	_	_
 22	Hiç	hiç	ADV	_	_	24	advmod	_	_
 23	sonu	son	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nsubj	_	_
@@ -12256,7 +12256,7 @@
 # text = Peki öyleyse neden pişiriyoruz? Bunun iki nedeni var.
 1	Peki	peki	ADV	_	_	4	advmod	_	_
 2	öyleyse	öyle	NOUN	_	Mood=Cnd|Number=Sing|Person=3	4	advcl	_	_
-3	neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	4	advmod	_	_
+3	neden	neden	ADV	Ques	_	4	advmod	_	_
 4	pişiriyoruz	pişir	VERB	_	Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	Ques	_	4	punct	_	_
 6	Bunun	bu	PRON	Demons	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
@@ -12687,7 +12687,7 @@
 
 # sent_id = ess_133
 # text = Hiç sorulmaması gereken bir soru daha sordu.
-1	Hiç	hiç	ADV	_	Case=Nom|Number=Sing|Person=3	2	advmod	_	_
+1	Hiç	hiç	ADV	_	_	2	advmod	_	_
 2	sorulmaması	sor	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Voice=Pass	3	nsubj	_	_
 3	gereken	gerek	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 4	bir	bir	DET	Indef	_	5	det	_	_
@@ -13706,7 +13706,7 @@
 
 # sent_id = ess_1655
 # text = İşte atalarımızın göbeğinin kesilip gömüldüğü Kazakistan toprağına, Orta Asya toprağına ayak bastığımda, benzer duygular zihnimi harman etti.
-1	İşte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	13	advmod	_	_
+1	İşte	iş	ADV	_	_	13	advmod	_	_
 2	atalarımızın	ata	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1	3	nmod:poss	_	_
 3	göbeğinin	göbek	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 4	kesilip	kes	VERB	Conv	Polarity=Pos|VerbForm=Conv|Voice=Pass	5	nmod	_	_
@@ -14264,7 +14264,7 @@
 4	önümde	ön	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	6	obl	_	_
 5	bomboş	bomboş	ADJ	Adj	_	6	amod	_	_
 6	duran	dur	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
-7	sayfadan	sayfa	ADV	_	Case=Abl|Number=Sing|Person=3	9	advmod	_	_
+7	sayfadan	sayfa	ADV	_	_	9	advmod	_	_
 8	başka	başka	ADJ	Adj	_	9	amod	_	_
 9	bir	bir	DET	Indef	_	10	det	_	_
 10	şey	şey	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
@@ -14852,7 +14852,7 @@
 
 # sent_id = pop_1278
 # text = Demek ki deveci devenin başını çekip gittiğinde çok sigara içtiğinden, deve dumana alışmış...
-1	Demek	de	ADV	_	Case=Nom|Polarity=Pos	14	advmod	_	_
+1	Demek	de	ADV	_	_	14	advmod	_	_
 2	ki	ki	SCONJ	_	_	1	advmod:emph	_	_
 3	deveci	deveci	ADJ	Adj	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 4	devenin	deve	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_

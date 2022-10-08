@@ -154,7 +154,7 @@
 1	-	-	PUNCT	Punc	_	16	punct	_	_
 2	Çocuklar	çocuk	NOUN	_	Case=Nom|Number=Plur|Person=3	16	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	Comma	_	16	punct	_	_
-4	gördüğünüz	gör	ADV	_	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	16	advmod	_	_
+4	gördüğünüz	gör	ADV	_	_	16	advmod	_	_
 5	gibi	gibi	ADP	PCNom	_	4	case	_	_
 6	dinleneceğimiz	dinlen	NOUN	_	Aspect=Imp|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Future|VerbForm=Part	15	acl	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	8	punct	_	_
@@ -620,7 +620,7 @@
 4	Ağlayarak	ağla	VERB	Conv	Mood=Imp|Polarity=Pos|VerbForm=Conv	15	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	Comma	_	15	punct	_	_
 6	"	"	PUNCT	Punc	_	8	punct	_	SpaceAfter=No
-7	Neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	8	advmod	_	_
+7	Neden	neden	ADV	Ques	_	8	advmod	_	_
 8	aramadın	ara	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=2|Polarity=Neg|Tense=Past	15	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	Comma	_	12	punct	_	_
 10	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1	12	obj	_	_
@@ -3803,7 +3803,7 @@
 # sent_id = ess_844
 # text = İnsan neden ister bunu?
 1	İnsan	insan	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
-2	neden	neden	ADV	Ques	Case=Nom|Number=Sing|Person=3	3	advmod	_	_
+2	neden	neden	ADV	Ques	_	3	advmod	_	_
 3	ister	iste	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 4	bunu	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
 5	?	?	PUNCT	Ques	_	3	punct	_	_
@@ -4617,7 +4617,7 @@
 10	kararı	karar	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	Stop	_	10	punct	_	_
 12	"	"	PUNCT	Punc	_	11	punct	_	_
-13	Demek	de	ADV	_	Case=Nom|Polarity=Pos	29	advmod	_	_
+13	Demek	de	ADV	_	_	29	advmod	_	_
 14	ki	ki	SCONJ	_	_	13	advmod:emph	_	SpaceAfter=No
 15	,	,	PUNCT	Comma	_	13	punct	_	_
 16-17	Silahlı	_	_	_	_	_	_	_	_
@@ -5244,7 +5244,7 @@
 
 # sent_id = ess_580
 # text = Sizce de Haydar Dümen’in artık emekliye ayrılması gerekmiyor mu?
-1	Sizce	siz	ADV	_	Case=Equ|Number=Plur|Person=2	8	advmod	_	_
+1	Sizce	siz	ADV	_	_	8	advmod	_	_
 2	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
 3	Haydar	Haydar	PROPN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 4	Dümen’in	dümen	PROPN	_	Case=Gen|Number=Sing|Person=3	3	flat	_	_
@@ -8623,7 +8623,7 @@
 2	ağzını	ağız	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	açtırıp	aç	VERB	Conv	Polarity=Pos|VerbForm=Conv|Voice=Cau	6	advcl	_	_
 4	boğazına	boğaz	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
-5	dikkatlice	dikkat	ADV	_	Case=Nom|Number=Sing|Person=3	6	advmod	_	_
+5	dikkatlice	dikkat	ADV	_	_	6	advmod	_	_
 6	baktı	bak	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	Stop	_	6	punct	_	SpacesAfter=\n
 
@@ -12162,7 +12162,7 @@
 
 # sent_id = ins_844
 # text = Sizce hedef kitlenin yapısını değiştiren dinamikler nelerdir? Tartışınız.
-1	Sizce	siz	ADV	_	Case=Equ|Number=Plur|Person=2	7	advmod	_	_
+1	Sizce	siz	ADV	_	_	7	advmod	_	_
 2	hedef	hedef	NOUN	_	Case=Nom|Number=Sing|Person=3	3	amod	_	_
 3	kitlenin	kitle	NOUN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	yapısını	yapı	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
@@ -12418,7 +12418,7 @@
 8	sevgi	sevgi	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	devam	devam	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
 10	ediyorsa	et	VERB	_	Aspect=Prog|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
-11	işte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	17	advmod	_	_
+11	işte	iş	ADV	_	_	17	advmod	_	_
 12	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2	17	nsubj	_	_
 13	o	o	DET	Det	_	14	det	_	_
 14	kahveyi	kahve	NOUN	_	Case=Acc|Number=Sing|Person=3	16	obj	_	_
@@ -12545,7 +12545,7 @@
 # text = Ertesi günü gene gelip dövdüler...
 1	Ertesi	ertesi	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2	günü	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl:tmod	_	_
-3	gene	gen	ADV	_	Case=Dat|Number=Sing|Person=3	5	advmod	_	_
+3	gene	gen	ADV	_	_	5	advmod	_	_
 4	gelip	gel	VERB	Conv	Polarity=Pos|VerbForm=Conv	5	advcl	_	_
 5	dövdüler	döv	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
 6	...	...	PUNCT	TDots	_	5	punct	_	SpacesAfter=\r\n
@@ -13786,7 +13786,7 @@
 7	ilginç	ilginç	ADJ	Adj	_	9	amod	_	_
 8	bir	bir	DET	Indef	_	9	det	_	_
 9	düeti	düet	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-10	işte	iş	ADV	_	Case=Loc|Number=Sing|Person=3	9	advmod	_	SpaceAfter=No
+10	işte	iş	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	Stop	_	9	punct	_	SpacesAfter=\n
 
 # sent_id = bio_1506

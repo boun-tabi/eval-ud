@@ -27,7 +27,7 @@ new_tb, sent_id = '', ''
 # feats_d = {"allowed_feats": {}, "disallowed_feats": {}}
 
 # count = 0
-
+# counter = 0
 for sentence in sentences:
     sent_id, text, lines_str = sentence
     new_tb += '# sent_id = {sent_id}\n# text = {text}\n'.format(
@@ -58,6 +58,15 @@ for sentence in sentences:
             # print(rem_text);input()
             # print(rem_text, fields[field_d['form']]);input()
 
+        # if fields[field_d['upos']] == 'PART' and fields[field_d['feats']] != '_':
+        #     counter += 1
+           # print(lines[j-2:j+2]);input()
+
+        # used 10/8/2022 11:08 AM
+        # if fields[field_d['upos']] == 'ADV' and fields[field_d['deprel']] == 'advmod':
+        #     fields[field_d['feats']] = '_'
+        #     line = '\t'.join(fields)
+
         for i, field in enumerate(fields):
 
             # Editing a specific field
@@ -78,8 +87,8 @@ for sentence in sentences:
             #     new_misc = '|'.join(misc_l)
             #     if new_misc == '': new_misc = '_'
             #     fields[field_d['misc']] = new_misc
-                # print(line, text, sent_id);input()
-                # line = '\t'.join(fields)
+            # print(line, text, sent_id);input()
+            # line = '\t'.join(fields)
 
             # used to change the forms 'bir' to 'Bir' if text starts with 'Bir', 9/22/2022 1:49 PM
             # print(rem_text);input()
@@ -142,8 +151,9 @@ for sentence in sentences:
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
-# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-#     f.write(new_tb)
+# print(counter)
+with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+    f.write(new_tb)
 if new_tb != tb:
     print('Treebank changed!')
 
