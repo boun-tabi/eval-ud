@@ -73,6 +73,18 @@ for sentence in sentences:
             # if i == field_d['xpos'] and field == 'Zero':
             #     print(line)
 
+            # used for changing _Form to VerbForm in feats
+            if i == field_d['feats']:
+                feats = field.split('|')
+                if len(feats) == 1 and feats[0] == '_': continue
+                for k, feat in enumerate(feats):
+                    tag, value = feat.split('=')
+                    if tag == '_Form':
+                        tag = 'VerbForm'
+                        feats[k] = '='.join([tag, value])
+                fields[i] = '|'.join(feats)
+                line = '\t'.join(fields)
+
             # Editing morphological features
             # if i == field_d['feats']:
             #     feats = field.split('|')
@@ -152,8 +164,8 @@ for sentence in sentences:
         new_tb += f'{line}\n'
     new_tb += '\n'
 # print(counter)
-with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-    f.write(new_tb)
+# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+#     f.write(new_tb)
 if new_tb != tb:
     print('Treebank changed!')
 
