@@ -1,4 +1,4 @@
-# used to split quotation marks from words for dev-test-train, 9/28/2022 4:56 PM
+# used to split quotation marks from words for dev-test-train, 9/28/2022 4:56 PM ; actually updated treebanks: 10/15/2022 10:36 PM
 import argparse
 import os
 import re
@@ -53,19 +53,25 @@ for sentence in sentences:
                             id_quote_int_t = int(id_quote_t)
                             if form_t == '"':
                                 quote_head = id_quote_int_t
-                            elif form_t.endswith('"'):
+                                break
+                            elif '"' in form_t:
                                 quote_head = id_quote_int_t+1
+                                break
                     to_split = True
+                    break
         if to_split:
             break
     if to_split:
         lines_str = ''
         line_insert = {"line": '', 'place': -1}
+        place_increment_allowed = True
         for i, line in enumerate(lines):
             fields = line.split('\t')
             if len(fields) != 10:
                 continue
             id_t = fields[field_d['id']]
+            if place_increment_allowed:
+                line_insert['place'] += 1
             if id_t.isnumeric():
                 id_int_t = int(id_t)
                 if id_int_t > id_split:
@@ -77,15 +83,16 @@ for sentence in sentences:
                         fields[field_d['id']] = str(id_int_t+1)
                         fields[field_d['form']] = fields[field_d['form']].replace('"', '')
                         fields[field_d['lemma']] = fields[field_d['lemma']].replace('"', '')
-                        line_insert['line'] = value_split.replace('ID', id_t).replace('HEAD', str(quote_head))
-                        line_insert['place'] = id_int_t-1
+                        if quote_head == -1:
+                            line_insert['line'] = value_split.replace('ID', id_t).replace('HEAD', str(id_int_t+1))
+                        else:
+                            line_insert['line'] = value_split.replace('ID', id_t).replace('HEAD', str(quote_head))
                     elif direction_split == 'after':
                         fields[field_d['form']] = fields[field_d['form']].replace('"', '')
                         fields[field_d['lemma']] = fields[field_d['lemma']].replace('"', '')
                         misc_split = fields[field_d['misc']].split('|')
-                        if len(misc_split) == 1:
-                            if misc_split[0] == '_':
-                                fields[field_d['misc']] = 'SpaceAfter=No'
+                        if len(misc_split) == 1 and misc_split[0] == '_':
+                            fields[field_d['misc']] = 'SpaceAfter=No'
                         else:
                             misc_d = {'SpaceAfter': 'No'}
                             for ms in misc_split:
@@ -96,8 +103,11 @@ for sentence in sentences:
                                 new_misc_l.append('{key}={value}'.format(key=key, value=misc_d[key]))
                             fields[field_d['misc']] = '|'.join(new_misc_l)
                         line_insert['line'] = value_split.replace('ID', str(id_int_t+1)).replace('HEAD', id_t)
-                        line_insert['place'] = id_int_t
-                        
+                        line_insert['place'] = line_insert['place']+1
+                    place_increment_allowed = False
+                    # if sent_id == 'bio_692':
+                    #     print(line_insert, direction_split, fields)
+                    #     input()
             elif '-' in id_t:
                 id_l = [int(id_t2) for id_t2 in id_t.split('-')]
                 if id_l[0] > id_split:
@@ -106,13 +116,14 @@ for sentence in sentences:
             head_t = fields[field_d['head']]
             if head_t.isnumeric():
                 head_int_t = int(head_t)
-                if head_int_t > id_split:
+                if head_int_t > id_split or (direction_split == 'before' and head_int_t >= id_split):
                     head_int_t += 1
                     head_t = str(head_int_t)
                     fields[field_d['head']] = head_t
             lines[i] = '\t'.join(fields)
         lines.insert(line_insert['place'], line_insert['line'])
         lines_str = '\n'.join(lines)
+        quote_head = -1
     new_tb += f'{lines_str}\n\n'
 # with open(os.path.join(THIS_DIR, 'split_forms_output.conllu'), 'w', encoding='utf-8', newline='\n') as f:
 with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
