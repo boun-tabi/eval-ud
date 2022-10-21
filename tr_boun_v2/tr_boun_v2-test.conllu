@@ -3488,7 +3488,7 @@
 3	iktidardan	iktidar	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
 4	gelen	gel	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	tehdide	tehdit	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obj	_	_
-6	direnip	diren	VERB	Conv	Polarity=Pos|VerbForm=Conv|Tense=Fut	13	advcl	_	SpaceAfter=No
+6	direnip	diren	VERB	Conv	Polarity=Pos|Tense=Fut|VerbForm=Conv	13	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	Comma	_	13	punct	_	_
 8	sonra	sonra	ADV	_	_	13	advmod	_	_
 9	askeri	askeri	ADJ	Adj	_	10	amod	_	_
@@ -5111,7 +5111,7 @@
 1	Hiçbir	hiçbir	DET	Det	_	2	det	_	_
 2	şeye	şey	NOUN	_	Case=Dat|Number=Sing|Person=3	3	obj	_	_
 3	gönül	gönül	NOUN	_	Case=Nom|Number=Sing|Person=3	7	acl	_	_
-4	indiremeyecek	in	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|Voice=Cau|VerbForm=Part	3	compound	_	_
+4	indiremeyecek	in	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Part|Voice=Cau	3	compound	_	_
 5	denli	denli	NOUN	_	Case=Nom|Number=Sing|Person=3	3	case	_	DerivedFrom=den
 6	bir	bir	DET	Indef	_	7	det	_	_
 7	Kibir	kibir	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl	_	_
@@ -12449,7 +12449,7 @@
 11	,	,	PUNCT	Comma	_	15	punct	_	_
 12	ölmeye	öl	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	15	obl	_	_
 13	veya	veya	CCONJ	Conj	_	14	cc	_	_
-14	öldürmeye	öl	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|Voice=Cau|VerbForm=Vnoun	12	conj	_	_
+14	öldürmeye	öl	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Cau	12	conj	_	_
 15	teşvik	teşvik	NOUN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
 16	eden	et	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	15	compound:lvc	_	SpaceAfter=No
 17	,	,	PUNCT	Comma	_	19	punct	_	_
@@ -13068,7 +13068,7 @@
 6	;	;	PUNCT	Punc	_	16	punct	_	_
 7	arslan	arslan	VERB	_	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
 8	payı	pay	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
-9	hesaplanmaksızın	hesapla	VERB	Conv	Polarity=Pos|Voice=Pass|VerbForm=Conv	16	advcl	_	_
+9	hesaplanmaksızın	hesapla	VERB	Conv	Polarity=Pos|VerbForm=Conv|Voice=Pass	16	advcl	_	_
 10	suya	su	NOUN	_	Case=Dat|Number=Sing|Person=3	16	obl	_	_
 11	yüksek	yüksek	ADJ	Adj	_	12	amod	_	_
 12	dozda	doz	NOUN	_	Case=Loc|Number=Sing|Person=3	16	obl	_	_
@@ -14037,7 +14037,7 @@
 6	,	,	PUNCT	Comma	_	23	punct	_	_
 7	yeterince	yeter	ADV	_	_	9	advmod	_	_
 8	para	para	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obj	_	_
-9	biriktirinceye	birik	VERB	Conv	Case=Dat|Number=Sing|Person=3|Polarity=Pos|Voice=Cau|VerbForm=Conv	23	advcl	_	SpaceAfter=No
+9	biriktirinceye	birik	VERB	Conv	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Conv|Voice=Cau	23	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	Comma	_	16	punct	_	_
 11	yani	yani	CCONJ	Conj	_	16	cc	_	_
 12	işin	iş	NOUN	_	Case=Gen|Number=Sing|Person=3	15	nsubj	_	_
@@ -14624,7 +14624,7 @@
 1	ABD'de	ABD	PROPN	_	Case=Loc|Number=Sing|Person=3	4	obl	_	_
 2	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	1	discourse	_	_
 3	bunun	bu	PRON	Demons	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
-4	yapılışı	yap	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass|VerbForm=Vnoun	7	csubj	_	_
+4	yapılışı	yap	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	7	csubj	_	_
 5	çok	çok	ADV	_	_	6	advmod	_	_
 6	daha	daha	ADV	_	_	7	advmod	_	_
 7	farklı	farklı	ADJ	Adj	_	0	root	_	DerivedFrom=fark
