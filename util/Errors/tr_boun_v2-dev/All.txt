@@ -18,7 +18,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 75 Sent pop_1916 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 75 Sent pop_1916 Node 6]: [L5 Syntax cop-lemma] 'ik' is not a copula in language [tr]
 [Line 91 Sent bio_1383]: [L4 Morpho feature-value-unknown] Value Pros is not documented for feature Aspect in language [tr].
-[Line 129 Sent ess_1229 Node 17]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 129 Sent ess_1229 Node 17]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 151 Sent bio_394]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 161 Sent ins_1250]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 161 Sent ins_1250]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
@@ -50,7 +50,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 534 Sent pop_626]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 534 Sent pop_626]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 574 Sent ins_1908 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 587 Sent bio_1064 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 587 Sent bio_1064 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 606 Sent pop_767]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 615 Sent pop_767]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 656 Sent bio_314]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS PROPN in language [tr].
@@ -70,7 +70,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 813 Sent ess_659 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 815 Sent ess_659 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9]
 [Line 836 Sent news_558 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 837 Sent news_558 Node 17]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (17:gitmi\u015f:aux --> 18:tik:aux)
+[Line 837 Sent news_558 Node 17]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (17:gitmiş:aux --> 18:tik:aux)
 [Line 837 Sent news_558 Node 18]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 843 Sent ess_363]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 854 Sent bio_472 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
@@ -133,7 +133,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 1313 Sent bio_888]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 1329 Sent bio_888]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 1307 Sent bio_888 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 1315 Sent bio_888 Node 12]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 1315 Sent bio_888 Node 12]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 1343 Sent ess_1211]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 1361 Sent bio_146 Node 13]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 1361 Sent bio_146 Node 13]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -153,7 +153,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 1461 Sent ess_605]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 1462 Sent ess_605 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 1462 Sent ess_605 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 1464 Sent ess_605 Node 5]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 1464 Sent ess_605 Node 5]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 1472 Sent pop_1948]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 1517 Sent pop_698]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 1532 Sent news_629 Node 11]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
@@ -271,7 +271,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 2799 Sent ess_194 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 [Line 2803 Sent ess_194 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 2809 Sent ess_194 Node 30]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 2794 Sent ess_194 Node 15]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 2794 Sent ess_194 Node 15]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 2843 Sent ins_89 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 2847 Sent ins_89 Node 14]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 2847 Sent ins_89 Node 14]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -338,7 +338,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 3604 Sent ins_364 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 3604 Sent ins_364 Node 6]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 3639 Sent bio_1246 Node 10]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 3632 Sent bio_1246 Node 4]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 3632 Sent bio_1246 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 3640 Sent bio_1246 Node 11]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 3640 Sent bio_1246 Node 11]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 3713 Sent bio_1461 Node 6]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -412,7 +412,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4784 Sent ess_1341]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4788 Sent ess_1341]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 4762 Sent ess_1341 Node 6]: [L3 Syntax leaf-punct] 'punct' not expected to have children (6:.:punct --> 8:Bazen:advmod)
-[Line 4765 Sent ess_1341 Node 6]: [L3 Syntax leaf-punct] 'punct' not expected to have children (6:.:punct --> 11:rahats\u0131zl\u0131k:conj)
+[Line 4765 Sent ess_1341 Node 6]: [L3 Syntax leaf-punct] 'punct' not expected to have children (6:.:punct --> 11:rahatsızlık:conj)
 [Line 4844 Sent pop_505 Node 23]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 4844 Sent pop_505 Node 23]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 4851 Sent ess_245 Node 3]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
@@ -425,7 +425,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4910 Sent ess_1486 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 6, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 4916 Sent bio_1288]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 4921 Sent bio_1288]: [L4 Morpho feature-value-unknown] Value Caus is not documented for feature Voice in language [tr].
-[Line 4933 Sent news_942 Node 4]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 4933 Sent news_942 Node 4]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 4951 Sent bio_423]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 4956 Sent bio_423]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
 [Line 4974 Sent news_415]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
@@ -433,7 +433,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 4975 Sent news_415 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 4975 Sent news_415 Node 3]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 4990 Sent bio_369 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 4992 Sent bio_369 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 4992 Sent bio_369 Node 7]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 5004 Sent ins_1487]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5005 Sent ins_1487]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5021 Sent ess_1223]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
@@ -447,9 +447,9 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5100 Sent news_1533 Node 21]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
 [Line 5143 Sent pop_1306]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 5134 Sent pop_1306 Node 4]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
-[Line 5149 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:de\u011fildi:cop --> 19:Herhalde:advmod)
-[Line 5150 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:de\u011fildi:cop --> 20:maçta:obl)
-[Line 5151 Sent pop_1306 Node 21]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 5149 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:değildi:cop --> 19:Herhalde:advmod)
+[Line 5150 Sent pop_1306 Node 21]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (21:değildi:cop --> 20:maçta:obl)
+[Line 5151 Sent pop_1306 Node 21]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 5195 Sent pop_1778 Node 18]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 5195 Sent pop_1778 Node 18]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 5202 Sent pop_1778 Node 24]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -459,13 +459,13 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5250 Sent ins_1880 Node 13]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 5267 Sent ess_580 Node 9]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
 [Line 5280 Sent pop_233]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
-[Line 5278 Sent pop_233 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 5278 Sent pop_233 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 5309 Sent ins_1294]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5300 Sent ins_1294 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 5323 Sent bio_1018]: [L2 Syntax root-is-not-0] DEPREL cannot be 'root' if HEAD is not 0.
 [Line 5320 Sent bio_1018 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 5331 Sent bio_1368 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-[Line 5352 Sent bio_333 Node 6]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 5352 Sent bio_333 Node 6]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 5407 Sent ess_1447 Node 4]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 5407 Sent ess_1447 Node 4]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 5435 Sent ins_1195]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -499,7 +499,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 5812 Sent news_429 Node 15]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 5835 Sent bio_975]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 5831 Sent bio_975 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
-[Line 5836 Sent bio_975 Node 15]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 5836 Sent bio_975 Node 15]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 5854 Sent pop_837 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11]
 [Line 5903 Sent ins_1370]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 5910 Sent ins_1370]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -533,7 +533,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6316 Sent news_1833 Node 12]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 6322 Sent news_1833 Node 17]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 6322 Sent news_1833 Node 17]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
-[Line 6331 Sent ess_510 Node 5]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 6331 Sent ess_510 Node 5]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 6341 Sent ess_609]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 6342 Sent ess_609]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 6346 Sent ess_609 Node 7]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -571,7 +571,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 6981 Sent ins_391 Node 9]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 7001 Sent ins_892]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 7001 Sent ins_892 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 7013 Sent ess_1794 Node 5]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 7013 Sent ess_1794 Node 5]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 7030 Sent ess_352 Node 3]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 7038 Sent ess_235 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 7080 Sent pop_1694]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -656,7 +656,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8099 Sent ins_710]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 8109 Sent news_1060 Node 6]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 8137 Sent ess_13 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
-[Line 8194 Sent bio_469 Node 3]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 8194 Sent bio_469 Node 3]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 8207 Sent ess_1873]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 8223 Sent ins_401]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 8223 Sent ins_401]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
@@ -678,7 +678,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8384 Sent ess_1862]: [L4 Morpho feature-value-upos-not-permitted] Value Nfh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 8384 Sent ess_1862]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 8381 Sent ess_1862 Node 26]: [L3 Syntax rel-upos-cc] 'cc' should not be 'AUX'
-[Line 8380 Sent ess_1862 Node 26]: [L3 Syntax leaf-cc] 'cc' not expected to have children (26:de\u011fil:cc --> 25:toprak:compound)
+[Line 8380 Sent ess_1862 Node 26]: [L3 Syntax leaf-cc] 'cc' not expected to have children (26:değil:cc --> 25:toprak:compound)
 [Line 8389 Sent ess_1862 Node 34]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [22, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 8398 Sent ess_645]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 8414 Sent ess_645]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -691,7 +691,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8451 Sent ess_29 Node 2]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 8451 Sent ess_29 Node 2]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 [Line 8474 Sent ess_288 Node 8]: [L3 Syntax rel-upos-cc] 'cc' should not be 'ADJ'
-[Line 8480 Sent ess_288 Node 14]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 8480 Sent ess_288 Node 14]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 8493 Sent ins_952]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 8491 Sent ins_952 Node 7]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 8503 Sent news_579 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -744,11 +744,11 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 8908 Sent ins_1876]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
 [Line 8912 Sent ins_1876]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 8922 Sent pop_1012]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
-[Line 8929 Sent ess_628 Node 3]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
-[Line 8929 Sent ess_628 Node 3]: [L5 Syntax cop-lemma] 'm\u0131' is not a copula in language [tr]
+[Line 8929 Sent ess_628 Node 3]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
+[Line 8929 Sent ess_628 Node 3]: [L5 Syntax cop-lemma] 'mı' is not a copula in language [tr]
 [Line 8937 Sent news_1293]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 8937 Sent news_1293]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
-[Line 8940 Sent news_1293 Node 7]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 8940 Sent news_1293 Node 7]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 8953 Sent bio_946]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 8963 Sent bio_946]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 8966 Sent bio_946]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
@@ -821,7 +821,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 9662 Sent ess_656]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 9673 Sent ins_531]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 9673 Sent ins_531 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB'
-[Line 9694 Sent bio_1674 Node 2]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 9694 Sent bio_1674 Node 2]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 9698 Sent bio_1674 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 9698 Sent bio_1674 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 9706 Sent bio_1674 Node 12]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -930,7 +930,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 11302 Sent pop_556 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN'
 [Line 11319 Sent news_1221]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 11319 Sent news_1221]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 11326 Sent news_1221 Node 11]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 11326 Sent news_1221 Node 11]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 11333 Sent bio_101 Node 2]: [L5 Morpho aux-lemma] 'mu' is not an auxiliary verb in language [tr]
 [Line 11488 Sent ins_261]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 11493 Sent ins_261]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -954,7 +954,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 11817 Sent news_200]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 11800 Sent news_200 Node 1]: [L3 Syntax right-to-left-appos] Relation 'appos' must go left-to-right.
 [Line 11842 Sent news_938]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
-[Line 11844 Sent news_938 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 11844 Sent news_938 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 11853 Sent news_1648]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 11875 Sent ins_751]: [L4 Morpho feature-value-upos-not-permitted] Value Fh of feature Evident is not permitted with UPOS NOUN in language [tr].
 [Line 11875 Sent ins_751]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
@@ -967,7 +967,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 11975 Sent ess_700 Node 12]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 12007 Sent bio_1208 Node 11]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
 [Line 12020 Sent bio_1208 Node 24]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 12007 Sent bio_1208 Node 11]: [L5 Syntax cop-lemma] 'de\u011f' is not a copula in language [tr]
+[Line 12007 Sent bio_1208 Node 11]: [L5 Syntax cop-lemma] 'değ' is not a copula in language [tr]
 [Line 12055 Sent news_1650]: [L4 Morpho feature-value-upos-not-permitted] Value Nom of feature Case is not permitted with UPOS CCONJ in language [tr].
 [Line 12055 Sent news_1650]: [L4 Morpho feature-value-upos-not-permitted] Value Sing of feature Number is not permitted with UPOS CCONJ in language [tr].
 [Line 12055 Sent news_1650]: [L4 Morpho feature-value-upos-not-permitted] Value 3 of feature Person is not permitted with UPOS CCONJ in language [tr].
@@ -1074,7 +1074,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 13395 Sent bio_662]: [L4 Morpho feature-value-unknown] Value Rapid is not documented for feature Mood in language [tr].
 [Line 13404 Sent bio_662 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 [Line 13422 Sent pop_161 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN'
-[Line 13463 Sent bio_223 Node 9]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 13463 Sent bio_223 Node 9]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 13477 Sent pop_490]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
 [Line 13513 Sent ins_348 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 [Line 13526 Sent bio_1357]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
@@ -1087,14 +1087,14 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 13656 Sent ins_646]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 13656 Sent ins_646]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 13670 Sent ins_709 Node 6]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 13670 Sent ins_709 Node 6]: [L5 Syntax cop-lemma] 'de\u011fil' is not a copula in language [tr]
+[Line 13670 Sent ins_709 Node 6]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 13701 Sent ins_1270 Node 8]: [L5 Morpho aux-lemma] 'dür' is not an auxiliary verb in language [tr]
 [Line 13701 Sent ins_1270 Node 8]: [L5 Syntax cop-lemma] 'dür' is not a copula in language [tr]
 [Line 13741 Sent pop_1425]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 13786 Sent pop_939]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
 [Line 13791 Sent ins_800]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 13806 Sent pop_757]: [L4 Morpho feature-value-unknown] Value Aor is not documented for feature Tense in language [tr].
-[Line 13818 Sent pop_1123 Node 8]: [L5 Morpho aux-lemma] 'm\u0131' is not an auxiliary verb in language [tr]
+[Line 13818 Sent pop_1123 Node 8]: [L5 Morpho aux-lemma] 'mı' is not an auxiliary verb in language [tr]
 [Line 13838 Sent bio_1506 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ'
 [Line 13857 Sent bio_1879]: [L4 Morpho feature-value-unknown] Value Ptcp is not documented for feature VerbForm in language [tr].
 [Line 13858 Sent bio_1879 Node 3]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -1190,7 +1190,7 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_dep
 [Line 15148 Sent news_624]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS PRON in language [tr].
 [Line 15163 Sent bio_1654]: [L4 Morpho feature-value-unknown] Value Future is not documented for feature Tense in language [tr].
 [Line 15166 Sent bio_1654 Node 5]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
-[Line 15166 Sent bio_1654 Node 5]: [L5 Syntax cop-lemma] 'de\u011f' is not a copula in language [tr]
+[Line 15166 Sent bio_1654 Node 5]: [L5 Syntax cop-lemma] 'değ' is not a copula in language [tr]
 [Line 15186 Sent ins_1603]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
 [Line 15186 Sent ins_1603]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS ADP in language [tr].
 [Line 15212 Sent ins_1603]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS ADP in language [tr].
