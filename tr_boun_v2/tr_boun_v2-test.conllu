@@ -3459,11 +3459,11 @@
 
 # sent_id = pop_410
 # text = Ancak sol ayağını ovuşturmaya başlamış...
-1	Ancak	ancak	CCONJ	Conj	_	5	cc	_	_
-3	ayağını	ayak	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
-4	ovuşturmaya	ovuştur	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	5	ccomp	_	_
-5	başlamış	başla	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-6	...	...	PUNCT	TDots	_	5	punct	_	SpacesAfter=\n
+1	Ancak	ancak	CCONJ	Conj	_	4	cc	_	_
+2	ayağını	ayak	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	ovuşturmaya	ovuştur	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	4	ccomp	_	_
+4	başlamış	başla	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+5	...	...	PUNCT	TDots	_	4	punct	_	SpacesAfter=\n
 
 # sent_id = bio_258
 # text = Damat iyice sapıtır.
