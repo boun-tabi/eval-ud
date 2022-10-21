@@ -2390,7 +2390,7 @@
 10	doğruldu	doğrul	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 11	Süpermen	Süpermen	PROPN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	11	punct	_	_
-13-14	sırtındaki	_	_	_	_	_	_	_	SpaceAfter=No
+13-14	sırtındaki	_	_	_	_	_	_	_	_
 13	sırtında	sırt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod	_	_
 14	ki	ki	PART	Attr	_	13	dep:der	_	_
 15	patlıcanı	patlıcan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	19	obj	_	SpaceAfter=No
@@ -3459,11 +3459,12 @@
 
 # sent_id = pop_410
 # text = Ancak sol ayağını ovuşturmaya başlamış...
-1	Ancak	ancak	CCONJ	Conj	_	4	cc	_	_
-2	ayağını	ayak	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
-3	ovuşturmaya	ovuştur	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	4	ccomp	_	_
-4	başlamış	başla	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
-5	...	...	PUNCT	TDots	_	4	punct	_	SpacesAfter=\n
+1	Ancak	ancak	CCONJ	Conj	_	5	cc	_	_
+2	sol	sol	ADJ	Adj	_	3	amod	_	_
+3	ayağını	ayak	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
+4	ovuşturmaya	ovuştur	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	5	ccomp	_	_
+5	başlamış	başla	VERB	_	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+6	...	...	PUNCT	TDots	_	5	punct	_	SpacesAfter=\n
 
 # sent_id = bio_258
 # text = Damat iyice sapıtır.
@@ -5657,7 +5658,7 @@
 4	istifade	istifade	NOUN	_	Case=Nom|Number=Sing|Person=3	7	csubj	_	_
 5	edin	et	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	4	compound:lvc	_	SpaceAfter=No
 6	"	"	PUNCT	Punc	_	4	punct	_	_
-7-8	denilmişti	_	_	_	_	_	_	_	SpaceAfter=No
+7-8	denilmişti	_	_	_	_	_	_	_	_
 7	denilmiş	de	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
 8	ti	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	7	cop	_	_
 9	bize	biz	PRON	Pers	Case=Dat|Number=Plur|Person=1	7	obl	_	SpaceAfter=No
@@ -6093,7 +6094,7 @@
 5	gibi	gibi	ADP	PCNom	_	3	case	_	_
 6	daha	daha	ADV	_	_	7	advmod	_	_
 7	çok	çok	ADV	_	_	13	advmod	_	_
-8	"	"	PUNCT	Punc	_	9	punct	_	_
+8	"	"	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
 9	açıkhava	açıkhava	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 10	toplantılarında	toplantı	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	SpaceAfter=No
 11	"	"	PUNCT	Punc	_	10	punct	_	_
@@ -7756,7 +7757,7 @@
 # sent_id = pop_1141
 # text = - Geçmişyaşamdaki arkadaşlarından hayatta olan var mı?
 1	-	-	PUNCT	Punc	_	8	punct	_	_
-2-3	Geçmişyaşamdaki	_	_	_	_	_	_	_	_
+2-4	Geçmişyaşamdaki	_	_	_	_	_	_	_	_
 2	Geçmiş	geçmiş	ADJ	Adj	_	5	amod	_	typo:yes
 3	yaşamda	yaşam	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	2	amod	_	typo:yes
 4	ki	ki	PART	Attr	_	2	dep:der	_	typo:yes
@@ -9269,9 +9270,9 @@
 3	yine	yine	ADV	_	_	6	advmod	_	_
 4	Suna	Suna	PROPN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 5	Kıraç'a	kıraç	PROPN	_	Case=Dat|Number=Sing|Person=3	4	flat	_	_
-6-7	gelmişti	_	_	_	_	_	_	_	SpaceAfter=No
-6	gelmiş	gel	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	0	root	_	_
-7	ti	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	6	cop	_	_
+6-7	düşmüştü	_	_	_	_	_	_	_	SpaceAfter=No
+6	düşmüş	düş	VERB	Ptcp	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part	0	root	_	_
+7	tü	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	6	cop	_	_
 8	.	.	PUNCT	Stop	_	6	punct	_	SpacesAfter=\n
 
 # sent_id = ins_1594
