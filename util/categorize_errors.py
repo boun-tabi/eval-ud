@@ -84,9 +84,9 @@ for err_type in error_types:
 print('{tb_title}'.format(tb_title=os.path.basename(conllu_filepath)))
 print('\tError counts by error types:')
 for err_type in error_types:
-    if error_d[err_type] != 0:
-        print('\t\t{err_type}: {err_c}'.format(err_type=err_type, err_c=error_d[err_type]))
-print('\t\tAll: {all}'.format(all=sum([error_d[key] for key in error_d.keys()])))
+    if error_d[err_type] > 1: # > 1 due to lines like 'Syntax errors: \d+'
+        print('\t\t{err_type}: {err_c}'.format(err_type=err_type, err_c=error_d[err_type]-1)) # -1 due to lines like 'Syntax errors: \d+'
+print('\t\tAll: {all}'.format(all=sum([error_d[key] for key in error_d.keys()]) - len([i for i in error_d.keys() if error_d[i] != 0]))) # -len(error_d.keys()) due to lines like 'Format errors: \d+'
 print('\tDisregarded line counts by error types:')
 for err_type in error_types:
     if disregard_d[err_type] != 0:

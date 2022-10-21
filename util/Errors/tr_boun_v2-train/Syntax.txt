@@ -14,13 +14,13 @@
 [Line 77246 Sent ess_377 Node 22]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [23, 24]
 [Line 77343 Sent pop_1010 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
 [Line 78269 Sent news_1107 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11]
-[Line 78270 Sent news_1107 Node 12]: [L3 Syntax leaf-punct] 'punct' not expected to have children (12:":punct --> 10:iş:obj)
+[Line 78270 Sent news_1107 Node 12]: [L3 Syntax leaf-punct] 'punct' not expected to have children (12:":punct --> 10:i\u015f:obj)
 [Line 78657 Sent ins_1540 Node 11]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'PART'
 [Line 78704 Sent news_641 Node 12]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'advcl'
 [Line 79123 Sent news_291 Node 21]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [26]
 [Line 79124 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 22:ama:cc)
-[Line 79127 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:yapacağı:csubj)
-[Line 80009 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 1:Yaptıklarımı:obj)
+[Line 79127 Sent news_291 Node 27]: [L3 Syntax leaf-punct] 'punct' not expected to have children (27:":punct --> 25:yapaca\u011f\u0131:csubj)
+[Line 80009 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 1:Yapt\u0131klar\u0131m\u0131:obj)
 [Line 80010 Sent news_1932 Node 4]: [L3 Syntax leaf-punct] 'punct' not expected to have children (4:":punct --> 2:herkes:nsubj)
 [Line 80139 Sent pop_321 Node 6]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5]
 [Line 81488 Sent ess_1476]: [L2 Syntax head-self-loop] HEAD == ID for 7
@@ -28,7 +28,7 @@
 [Line 81966 Sent bio_916 Node 47]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [39, 46]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 82198 Sent ess_742 Node 3]: [L3 Syntax right-to-left-conj] Relation 'conj' must go left-to-right.
 [Line 82264 Sent news_1821 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [7]
-[Line 82263 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 2:görüşerek:advcl)
+[Line 82263 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 2:görü\u015ferek:advcl)
 [Line 82267 Sent news_1821 Node 8]: [L3 Syntax leaf-punct] 'punct' not expected to have children (8:":punct --> 6:gidermeye:ccomp)
 [Line 82388 Sent bio_810 Node 22]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'nmod:poss'
 [Line 82519 Sent ess_1831 Node 3]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5, 6, 7, 8]
