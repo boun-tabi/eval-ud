@@ -175,7 +175,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 7040 Sent news_973]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS PRON in language [tr].
 [Line 7494 Sent ins_1692 Node 13]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 7511 Sent bio_1107]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'dep:der'
-[Line 7666 Sent bio_571 Node 41]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [42]
 [Line 7667 Sent bio_571 Node 42]: [L5 Morpho aux-lemma] 'd' is not an auxiliary verb in language [tr]
 [Line 7703 Sent news_992 Node 5]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 7703 Sent news_992 Node 5]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
@@ -189,7 +188,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 7923 Sent ess_960]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
 [Line 7986 Sent news_716]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 7986 Sent news_716]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 7972 Sent news_716 Node 11]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [12]
 [Line 8007 Sent ess_1875 Node 15]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
 [Line 8007 Sent ess_1875 Node 15]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 8217 Sent ess_834]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
@@ -264,7 +262,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 10345 Sent ins_458]: [L4 Morpho feature-upos-not-permitted] Feature Mood is not permitted with UPOS NOUN in language [tr].
 [Line 10345 Sent ins_458]: [L4 Morpho feature-value-upos-not-permitted] Value Conv of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 10356 Sent ins_458]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
-[Line 10339 Sent ins_458 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2, 3, 4, 5, 6, 7, 8, 9]
+[Line 10339 Sent ins_458]: [L2 Syntax head-self-loop] HEAD == ID for 1
+[Tree number 666 on line 10339 Sent ins_458]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
 [Line 10425 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 10425 Sent ins_697]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 10683 Sent pop_942]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
@@ -290,7 +289,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 11384 Sent ess_181 Node 7]: [L5 Syntax cop-lemma] 'y' is not a copula in language [tr]
 [Line 11438 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Pres of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 11438 Sent bio_363]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
-[Line 11433 Sent bio_363 Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [2]
 [Line 11442 Sent bio_363 Node 10]: [L5 Syntax cop-lemma] 'değil' is not a copula in language [tr]
 [Line 11485 Sent ins_298]: [L4 Morpho feature-value-unknown] Value Pqb is not documented for feature Tense in language [tr].
 [Line 11501 Sent pop_1415]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
@@ -360,7 +358,6 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 13783 Sent news_331]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS PRON in language [tr].
 [Line 13798 Sent pop_1107]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
 [Line 13941 Sent pop_468]: [L4 Morpho feature-value-upos-not-permitted] Value Fut of feature Tense is not permitted with UPOS PRON in language [tr].
-[Line 13934 Sent pop_468 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9, 10]
 [Line 13994 Sent bio_29]: [L4 Morpho feature-upos-not-permitted] Feature Voice is not permitted with UPOS NOUN in language [tr].
 [Line 14032 Sent ins_254 Node 2]: [L5 Morpho aux-lemma] 'üzüm' is not an auxiliary verb in language [tr]
 [Line 14064 Sent news_219 Node 18]: [L5 Morpho aux-lemma] 'y' is not an auxiliary verb in language [tr]
@@ -385,8 +382,8 @@ See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_fea
 [Line 14902 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Past of feature Tense is not permitted with UPOS NOUN in language [tr].
 [Line 14902 Sent pop_1278]: [L4 Morpho feature-value-upos-not-permitted] Value Part of feature VerbForm is not permitted with UPOS NOUN in language [tr].
 [Line 15164 Sent pop_1844]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'advcl:cond'
-Format errors: 1
+Format errors: 2
 Metadata errors: 4
 Morpho errors: 208
-Syntax errors: 139
-*** FAILED *** with 352 errors
+Syntax errors: 135
+*** FAILED *** with 349 errors
