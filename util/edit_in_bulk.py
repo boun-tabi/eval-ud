@@ -73,6 +73,14 @@ for sentence in sentences:
             # if i == field_d['xpos'] and field == 'Zero':
             #     print(line)
 
+            # used for dev-test, 10/27-28/2022
+            if i == field_d['deprel'] and (field == 'obl:comp' or field == 'obl:cl'):
+                fields[field_d['deprel']] = 'obl'
+                line = '\t'.join(fields)
+            if i == field_d['deprel'] and field == 'advcl:cond':
+                fields[field_d['deprel']] = 'advcl'
+                line = '\t'.join(fields)
+
             # used for changing _Form to VerbForm in feats
             # if i == field_d['feats']:
             #     feats = field.split('|')
@@ -102,17 +110,18 @@ for sentence in sentences:
             # print(line, text, sent_id);input()
             # line = '\t'.join(fields)
 
-            if i == field_d['misc'] and 'df=' in field:
-                misc = fields[field_d['misc']]
-                misc_l = misc.split('|')
-                for m, misc_t in enumerate(misc_l):
-                    key, value = misc_t.split('=')
-                    if key == 'df':
-                        key = 'DerivedFrom'
-                    misc_l[m] =  '='.join([key, value])
-                new_misc = '|'.join(misc_l)
-                fields[field_d['misc']] = new_misc
-            line = '\t'.join(fields)
+            # df to DerivedFrom, used 10/27 and before
+            # if i == field_d['misc'] and 'df=' in field:
+            #     misc = fields[field_d['misc']]
+            #     misc_l = misc.split('|')
+            #     for m, misc_t in enumerate(misc_l):
+            #         key, value = misc_t.split('=')
+            #         if key == 'df':
+            #             key = 'DerivedFrom'
+            #         misc_l[m] =  '='.join([key, value])
+            #     new_misc = '|'.join(misc_l)
+            #     fields[field_d['misc']] = new_misc
+            # line = '\t'.join(fields)
 
             # used to change the forms 'bir' to 'Bir' if text starts with 'Bir', 9/22/2022 1:49 PM
             # print(rem_text);input()
@@ -142,42 +151,42 @@ for sentence in sentences:
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)
 
-            # used for sorting morphological features, 9/11/2022 & 9/21/2022 & 10/21
-#            if i == field_d['feats']:
-#                feats = field.split('|')
-#                if len(feats) == 1 and feats[0] == '_': continue
-#                feat_d = dict()
-#                feat_l = list()
-#                feat_count = 0
-#                for feat in feats:
-#                    if feat.count('=') > 1:
-#                        print('more than 1 =:', fields, feat, 'sent_id:', sent_id)
-#                        print('more than 1 =:', 'node:', fields[0], 'sent_id:', sent_id)
-#                        feat_d[feat[:feat.index('=')]] = 'more than 1 ='
-#                        continue
-#                    if '=' in feat: tag, value = feat.split('=')
-#                    else:
-#                        print('empty feat:', 'node:', fields[0], 'sent_id:', sent_id)
-#                        continue
-#                    if value == '_':
-#                        print('empty value:', fields, 'sent_id:', sent_id)
-#                        print('empty value:', 'node:', fields[0], 'sent_id:', sent_id)
-#                    feat_d[tag] = value
-#                if len(feats) != len(feat_d.keys()):
-#                    print('duplicate tag:', fields, 'sent_id:', sent_id)
-#                    print('duplicate tag:', 'node:', fields[0], 'sent_id:', sent_id)
-#                for tag in sorted(feat_d.keys(), key=str.casefold): # case-insensitive sort
-#                    value = feat_d[tag]
-#                    feat_l.append('{tag}={value}'.format(tag=tag, value=value))
-#                fields[i] = '|'.join(feat_l)
-#                line = '\t'.join(fields)
+            # used for sorting morphological features, 9/11/2022 & 9/21/2022 & 10/21 & 10/27
+            # if i == field_d['feats']:
+            #     feats = field.split('|')
+            #     if len(feats) == 1 and feats[0] == '_': continue
+            #     feat_d = dict()
+            #     feat_l = list()
+            #     feat_count = 0
+            #     for feat in feats:
+            #         if feat.count('=') > 1:
+            #             print('more than 1 =:', fields, feat, 'sent_id:', sent_id)
+            #             print('more than 1 =:', 'node:', fields[0], 'sent_id:', sent_id)
+            #             feat_d[feat[:feat.index('=')]] = 'more than 1 ='
+            #             continue
+            #         if '=' in feat: tag, value = feat.split('=')
+            #         else:
+            #             print('empty feat:', 'node:', fields[0], 'sent_id:', sent_id)
+            #             continue
+            #         if value == '_':
+            #             print('empty value:', fields, 'sent_id:', sent_id)
+            #             print('empty value:', 'node:', fields[0], 'sent_id:', sent_id)
+            #         feat_d[tag] = value
+            #     if len(feats) != len(feat_d.keys()):
+            #         print('duplicate tag:', fields, 'sent_id:', sent_id)
+            #         print('duplicate tag:', 'node:', fields[0], 'sent_id:', sent_id)
+            #     for tag in sorted(feat_d.keys(), key=str.casefold): # case-insensitive sort
+            #         value = feat_d[tag]
+            #         feat_l.append('{tag}={value}'.format(tag=tag, value=value))
+            #     fields[i] = '|'.join(feat_l)
+            #     line = '\t'.join(fields)
 
             pass
         new_tb += f'{line}\n'
     new_tb += '\n'
 # print(counter)
-# with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-#     f.write(new_tb)
+with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
+    f.write(new_tb)
 if new_tb != tb:
     print('Treebank changed!')
 
