@@ -1,22 +1,66 @@
 [Tree number 53 on line 718 Sent ins_1403]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 264 on line 4178 Sent ins_53]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 277 on line 4447 Sent ins_889]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Line 15523 Sent bio_558]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
-[Tree number 1940 on line 31395 Sent ins_589]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,910'. Expected '1,2,3,4,5,6,7,8,9,10'.
-[Line 31407 Sent ins_589]: [L1 Format word-interval-out] Spurious token interval 910-910 (out of range)
-[Tree number 1940 on line 31395 Sent ins_589]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 2920 on line 47768 Sent news_1323]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,10,12,13,14,15'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'.
-[Tree number 2920 on line 47768 Sent news_1323]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 3235 on line 52677 Sent pop_619]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,35,36,37,38,39,40,41,42,43,44,45,46,47,48'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46'.
-[Line 52725 Sent pop_619]: [L1 Format word-interval-out] Spurious token interval 47-47 (out of range)
-[Line 52725 Sent pop_619]: [L1 Format word-interval-out] Spurious token interval 48-48 (out of range)
-[Tree number 3235 on line 52677 Sent pop_619]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 3558 on line 57970 Sent pop_377]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34,35,36'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35'.
-[Line 58005 Sent pop_377]: [L1 Format word-interval-out] Spurious token interval 36-36 (out of range)
-[Tree number 3558 on line 57970 Sent pop_377]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 3683 on line 59965 Sent news_1438]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'.
-[Line 59985 Sent news_1438]: [L1 Format word-interval-out] Spurious token interval 21-21 (out of range)
-[Tree number 3683 on line 59965 Sent news_1438]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-[Tree number 7362 on line 119214 Sent pop_1127]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,26,27,28,29,30,31,32,33,34,35,36'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37'.
-[Tree number 7362 on line 119214 Sent pop_1127]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
-Format errors: 21
+[Tree number 264 on line 4182 Sent ins_53]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 277 on line 4451 Sent ins_889]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 381 on line 6048 Sent ins_1573]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 8827 Sent pop_1184]: [L1 Format empty-column] Empty value in column MISC.
+[Line 13627 Sent ins_1210]: [L1 Format number-of-columns] The line has 9 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 971 on line 15374 Sent bio_1355]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 15565 Sent bio_558]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 1103 on line 17628 Sent ins_1992]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1120 on line 17892 Sent pop_1875]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,17'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18'.
+[Tree number 1120 on line 17892 Sent pop_1875]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1256 on line 20133 Sent pop_38]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,6'. Expected '1,2,3,4,5,6,7'.
+[Tree number 1256 on line 20133 Sent pop_38]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1371 on line 22063 Sent pop_1211]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1505 on line 24413 Sent pop_1373]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1726 on line 28134 Sent ins_909]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 1939 on line 31485 Sent ins_589]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,910'. Expected '1,2,3,4,5,6,7,8,9,10'.
+[Line 31497 Sent ins_589]: [L1 Format word-interval-out] Spurious token interval 910-910 (out of range)
+[Tree number 1939 on line 31485 Sent ins_589]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 33586 Sent pop_1267]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Line 33886 Sent news_471]: [L1 Format empty-column] Empty value in column MISC.
+[Tree number 2673 on line 44213 Sent bio_1108]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 2674 on line 44225 Sent bio_1108]: [L1 Format word-id-sequence] Words do not form a sequence. Got '12,13,14'. Expected '1,2,3'.
+[Line 44229 Sent bio_1108]: [L1 Format word-interval-out] Spurious token interval 12-13 (out of range)
+[Line 44229 Sent bio_1108]: [L1 Format word-interval-out] Spurious token interval 14-14 (out of range)
+[Tree number 2674 on line 44225 Sent bio_1108]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 2734 on line 45109 Sent ins_1297]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,10,11,12'. Expected '1,2,3,4,5,6,7,8,9,10'.
+[Line 45121 Sent ins_1297]: [L1 Format word-interval-out] Spurious token interval 11-11 (out of range)
+[Line 45121 Sent ins_1297]: [L1 Format word-interval-out] Spurious token interval 12-12 (out of range)
+[Tree number 2734 on line 45109 Sent ins_1297]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 2782 on line 45803 Sent ins_1330]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 2905 on line 47669 Sent ins_1627]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 2919 on line 47911 Sent news_1323]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,10,12,13,14,15'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'.
+[Tree number 2919 on line 47911 Sent news_1323]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 48387 Sent pop_1073]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Line 51474 Sent ess_1876]: [L1 Format extra-empty-line] Spurious empty line. Only one empty line is expected after every sentence.
+[Tree number 3142 on line 51475 Sent ess_1876]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 3233 on line 52846 Sent pop_619]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,35,36,37,38,39,40,41,42,43,44,45,46,47,48'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46'.
+[Line 52894 Sent pop_619]: [L1 Format word-interval-out] Spurious token interval 47-47 (out of range)
+[Line 52894 Sent pop_619]: [L1 Format word-interval-out] Spurious token interval 48-48 (out of range)
+[Tree number 3233 on line 52846 Sent pop_619]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 57322 Sent pop_1458]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 3555 on line 58150 Sent pop_377]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,27,28,29,30,31,32,33,34,35,36'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35'.
+[Line 58185 Sent pop_377]: [L1 Format word-interval-out] Spurious token interval 36-36 (out of range)
+[Tree number 3555 on line 58150 Sent pop_377]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 3680 on line 60151 Sent news_1438]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20'.
+[Line 60171 Sent news_1438]: [L1 Format word-interval-out] Spurious token interval 21-21 (out of range)
+[Tree number 3680 on line 60151 Sent news_1438]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 3692 on line 60344 Sent pop_1503]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 68791 Sent pop_1710]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 4243 on line 69087 Sent ess_1711]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 71538 Sent pop_1559]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 4920 on line 80112 Sent bio_360]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 5174 on line 84091 Sent ess_1285]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 6002 on line 97733 Sent bio_593]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,12'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13'.
+[Tree number 6002 on line 97733 Sent bio_593]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 6158 on line 100280 Sent ins_8]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 6464 on line 105418 Sent ins_64]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 6515 on line 106208 Sent ins_780]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 7026 on line 114307 Sent ess_405]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 116865 Sent pop_1477]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+[Tree number 7347 on line 119365 Sent pop_612]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Tree number 7356 on line 119483 Sent pop_1127]: [L1 Format word-id-sequence] Words do not form a sequence. Got '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,26,27,28,29,30,31,32,33,34,35,36'. Expected '1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37'.
+[Tree number 7356 on line 119483 Sent pop_1127]: [L2 Format skipped-corrupt-tree] Skipping annotation tests because of corrupt tree structure.
+[Line 119602 Sent pop_1883]: [L1 Format number-of-columns] The line has 13 columns but 10 are expected. The contents of the columns will not be checked.
+Format errors: 65
