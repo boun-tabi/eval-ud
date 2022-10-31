@@ -63,5 +63,8 @@ for i, line in enumerate(tb.split('\n')):
                 fields[9] = '|'.join(misc_l)
         line = '\t'.join(fields)
     new_tb += f'{line}\n'
+new_tb = new_tb[:-1]
 with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
-    f.write(new_tb[:-1])
+    f.write(new_tb)
+if new_tb != tb:
+    print('Treebank changed!')
