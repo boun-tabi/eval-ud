@@ -44,46 +44,47 @@
 [Line 59108 Sent news_1182]: [L2 Syntax invalid-deprel] Invalid DEPREL value 'df=kayıt|root'.
 [Line 59108 Sent news_1182]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'df=kayıt|root'
 [Line 59114 Sent news_1182]: [L2 Syntax 0-is-not-root] DEPREL must be 'root' if HEAD is 0.
-[Line 60334 Sent pop_1503]: [L2 Syntax head-self-loop] HEAD == ID for 2
-[Line 60999 Sent news_1350 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
-[Line 68781 Sent pop_1710]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
-[Line 69081 Sent ess_1711]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '8'.
-[Tree number 4248 on line 69075 Sent ess_1711]: [L2 Syntax non-tree] Non-tree structure. Words 4 are not reachable from the root 0.
-[Line 69686 Sent ins_1292 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 3:yaz:nmod)
-[Line 71527 Sent pop_1559]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
-[Line 76100 Sent ins_515 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 6:kemik:nmod)
-[Line 78889 Sent ins_1540 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8]
-[Tree number 4926 on line 80099 Sent bio_360]: [L2 Syntax non-tree] Non-tree structure. Words 1,2 are not reachable from the root 0.
-[Tree number 5180 on line 84078 Sent ess_1285]: [L2 Syntax non-tree] Non-tree structure. Words 7,8 are not reachable from the root 0.
-[Line 84632 Sent ess_1286 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [12]
-[Line 84632 Sent ess_1286 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11, 12]
-[Line 86000 Sent news_1224 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 7:perakende:nmod)
-[Line 88304 Sent pop_1234 Node 2]: [L3 Syntax leaf-punct] 'punct' not expected to have children (2:::punct --> 10:dut:nmod)
-[Line 88303 Sent pop_1234 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
-[Line 88303 Sent pop_1234 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10]
-[Line 94479 Sent ess_1926 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
-[Line 99871 Sent pop_843 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
-[Line 99876 Sent pop_843 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6]
-[Line 100268 Sent ins_8]: [L2 Syntax head-self-loop] HEAD == ID for 2
-[Line 103581 Sent pop_1076 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
-[Tree number 6470 on line 105405 Sent ins_64]: [L2 Syntax non-tree] Non-tree structure. Words 1,2,3 are not reachable from the root 0.
-[Line 106196 Sent ins_780]: [L2 Syntax head-self-loop] HEAD == ID for 2
-[Line 108115 Sent bio_899 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 113011 Sent ess_1804 Node 28]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (28:musunuz:aux --> 26:nedir:obl)
-[Line 114274 Sent bio_395 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Tree number 7032 on line 114294 Sent ess_405]: [L2 Syntax non-tree] Non-tree structure. Words 1,2,3,4,5,6 are not reachable from the root 0.
-[Line 116853 Sent pop_1477]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
-[Line 117099 Sent news_1975 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [29]
-[Line 117099 Sent news_1975 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29, 30]
-[Line 119352 Sent pop_612]: [L2 Syntax head-self-loop] HEAD == ID for 2
-[Line 119589 Sent pop_1883]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
-[Line 122125 Sent ess_1202 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
-[Line 122584 Sent ins_962 Node 11]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (11:mı:aux --> 12:yız:cop)
-[Line 124928 Sent news_1825 Node 2]: [L3 Syntax leaf-punct] 'punct' not expected to have children (2:,:punct --> 18:Batı:nmod)
-[Line 124917 Sent news_1825 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
-[Line 124917 Sent news_1825 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18, 19]
-[Line 124926 Sent news_1825 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
-[Line 124926 Sent news_1825 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18, 19]
-[Line 126903 Sent news_782 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
-[Line 126903 Sent news_782 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9]
-Syntax errors: 2759
+[Tree number 3623 on line 59252 Sent news_779]: [L2 Syntax multiple-roots] Multiple root words: [8, 12]
+[Line 60336 Sent pop_1503]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 61001 Sent news_1350 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 68783 Sent pop_1710]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
+[Line 69083 Sent ess_1711]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '8'.
+[Tree number 4248 on line 69077 Sent ess_1711]: [L2 Syntax non-tree] Non-tree structure. Words 4 are not reachable from the root 0.
+[Line 69688 Sent ins_1292 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 3:yaz:nmod)
+[Line 71529 Sent pop_1559]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
+[Line 76102 Sent ins_515 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 6:kemik:nmod)
+[Line 78891 Sent ins_1540 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8]
+[Tree number 4926 on line 80101 Sent bio_360]: [L2 Syntax non-tree] Non-tree structure. Words 1,2 are not reachable from the root 0.
+[Tree number 5180 on line 84080 Sent ess_1285]: [L2 Syntax non-tree] Non-tree structure. Words 7,8 are not reachable from the root 0.
+[Line 84634 Sent ess_1286 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [12]
+[Line 84634 Sent ess_1286 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [9, 10, 11, 12]
+[Line 86002 Sent news_1224 Node 2]: [L3 Syntax leaf-cc] 'cc' not expected to have children (2:ve:cc --> 7:perakende:nmod)
+[Line 88306 Sent pop_1234 Node 2]: [L3 Syntax leaf-punct] 'punct' not expected to have children (2:::punct --> 10:dut:nmod)
+[Line 88305 Sent pop_1234 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10]
+[Line 88305 Sent pop_1234 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10]
+[Line 94481 Sent ess_1926 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
+[Line 99873 Sent pop_843 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+[Line 99878 Sent pop_843 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [5, 6]
+[Line 100270 Sent ins_8]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 103583 Sent pop_1076 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [5]
+[Tree number 6470 on line 105407 Sent ins_64]: [L2 Syntax non-tree] Non-tree structure. Words 1,2,3 are not reachable from the root 0.
+[Line 106198 Sent ins_780]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 108117 Sent bio_899 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Line 113013 Sent ess_1804 Node 28]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (28:musunuz:aux --> 26:nedir:obl)
+[Line 114276 Sent bio_395 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
+[Tree number 7032 on line 114296 Sent ess_405]: [L2 Syntax non-tree] Non-tree structure. Words 1,2,3,4,5,6 are not reachable from the root 0.
+[Line 116855 Sent pop_1477]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
+[Line 117101 Sent news_1975 Node 28]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [29]
+[Line 117101 Sent news_1975 Node 28]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [29, 30]
+[Line 119354 Sent pop_612]: [L2 Syntax head-self-loop] HEAD == ID for 2
+[Line 119591 Sent pop_1883]: [L2 Syntax unknown-head] Undefined HEAD (no such ID): '1'.
+[Line 122127 Sent ess_1202 Node 2]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NOUN'
+[Line 122586 Sent ins_962 Node 11]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (11:mı:aux --> 12:yız:cop)
+[Line 124930 Sent news_1825 Node 2]: [L3 Syntax leaf-punct] 'punct' not expected to have children (2:,:punct --> 18:Batı:nmod)
+[Line 124919 Sent news_1825 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
+[Line 124919 Sent news_1825 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18, 19]
+[Line 124928 Sent news_1825 Node 16]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [18]
+[Line 124928 Sent news_1825 Node 16]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [18, 19]
+[Line 126905 Sent news_782 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 126905 Sent news_782 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [8, 9]
+Syntax errors: 2760
