@@ -73,13 +73,13 @@ for sentence in sentences:
             # if i == field_d['xpos'] and field == 'Zero':
             #     print(line)
 
-            # used for dev-test, 10/27-28/2022
-            if i == field_d['deprel'] and (field == 'obl:comp' or field == 'obl:cl'):
-                fields[field_d['deprel']] = 'obl'
-                line = '\t'.join(fields)
-            if i == field_d['deprel'] and field == 'advcl:cond':
-                fields[field_d['deprel']] = 'advcl'
-                line = '\t'.join(fields)
+            # used for dev-test, 10/27-28/2022 ; used for train, 10/31
+            # if i == field_d['deprel'] and (field == 'obl:comp' or field == 'obl:cl'):
+            #     fields[field_d['deprel']] = 'obl'
+            #     line = '\t'.join(fields)
+            # if i == field_d['deprel'] and field == 'advcl:cond':
+            #     fields[field_d['deprel']] = 'advcl'
+            #     line = '\t'.join(fields)
 
             # used for changing _Form to VerbForm in feats
             # if i == field_d['feats']:
@@ -110,12 +110,15 @@ for sentence in sentences:
             # print(line, text, sent_id);input()
             # line = '\t'.join(fields)
 
-            # df to DerivedFrom, used 10/27 and before
+            # df to DerivedFrom, used 10/27 and before ; 10/31 in train
             # if i == field_d['misc'] and 'df=' in field:
             #     misc = fields[field_d['misc']]
             #     misc_l = misc.split('|')
             #     for m, misc_t in enumerate(misc_l):
-            #         key, value = misc_t.split('=')
+            #         try:
+            #             key, value = misc_t.split('=')
+            #         except:
+            #             print(misc_t, fields);input()
             #         if key == 'df':
             #             key = 'DerivedFrom'
             #         misc_l[m] =  '='.join([key, value])
@@ -151,7 +154,7 @@ for sentence in sentences:
             #     fields[i] = 'obl:tmod'
             #     line = '\t'.join(fields)
 
-            # used for sorting morphological features, 9/11/2022 & 9/21/2022 & 10/21 & 10/27
+            # used for sorting morphological features, 9/11/2022 & 9/21/2022 & 10/21 & 10/27 & 10/31
             # if i == field_d['feats']:
             #     feats = field.split('|')
             #     if len(feats) == 1 and feats[0] == '_': continue
