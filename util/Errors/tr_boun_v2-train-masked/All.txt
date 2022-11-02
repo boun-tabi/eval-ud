@@ -1,0 +1,16 @@
+[Line 6483 Sent pop_1406 Node 10]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (10:ki:mark --> 7:yaşadığı:acl)
+[Line 13811 Sent pop_1376 Node 5]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
+[Line 33451 Sent ess_1403]: [L4 Syntax unknown-deprel] Unknown DEPREL label: 'compund:redup'
+
+ERROR in _tr/dep/advcl-cond.md: Documentation does not belong to UD v2 guidelines.
+The following 60 relations are currently permitted in language [tr]:
+acl, acl:relcl, advcl, advmod, advmod:emph, amod, appos, aux, aux:q, case, cc, cc:preconj, ccomp, clf, compound, compound:lvc, compound:prt, compound:redup, conj, cop, csubj, csubj:cop, csubj:outer, csubj:pass, dep, det, discourse, dislocated, expl, fixed, flat, flat:foreign, flat:name, goeswith, iobj, list, mark, nmod, nmod:comp, nmod:part, nmod:poss, nmod:tmod, nsubj, nsubj:cop, nsubj:outer, nsubj:pass, nummod, obj, obj:cau, obl, obl:agent, obl:cau, obl:tmod, orphan, parataxis, punct, reparandum, root, vocative, xcomp
+If a language needs a relation subtype that is not documented in the universal guidelines, the relation
+must have a language-specific documentation page in a prescribed format.
+See https://universaldependencies.org/contributing_language_specific.html for further guidelines.
+Documented dependency relations can be specifically turned on/off for each language in which they are used.
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_deprel.pl for details.
+
+[Line 109511 Sent news_1766 Node 2]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (2:ki:mark --> 3:Türk:nmod)
+Syntax errors: 4
+*** FAILED *** with 4 errors
