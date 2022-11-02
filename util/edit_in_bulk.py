@@ -67,13 +67,14 @@ for sentence in sentences:
         #     fields[field_d['feats']] = '_'
         #     line = '\t'.join(fields)
 
+        # used prefreeze, Nov 1 11 PM
         # if fields[field_d['lemma']] == 'mi' and fields[field_d['upos']] == 'PART':
         #     fields[field_d['upos']] = 'AUX'
         #     line = '\t'.join(fields)
 
-        if fields[field_d['lemma']] == 'N/A':
-            fields[field_d['lemma']] = 'null'
-            line = '\t'.join(fields)
+        # if fields[field_d['lemma']] == 'N/A':
+        #     fields[field_d['lemma']] = 'null'
+        #     line = '\t'.join(fields)
 
         # used 31 Oct 6 PM
         # if fields[field_d['lemma']] == 'mi' and fields[field_d['upos']] == 'AUX' and fields[field_d['deprel']] == 'aux:q':
