@@ -7,6 +7,7 @@ THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--conllu', action="store", required=True)
+parser.add_argument('--output', action="store")
 args = parser.parse_args()
 
 conllu_filepath = args.conllu
@@ -72,6 +73,11 @@ for sentence in sentences:
         #     fields[field_d['upos']] = 'AUX'
         #     line = '\t'.join(fields)
 
+        # used after freeze to get treebank without UD restrictions, 11/5
+        # if fields[field_d['lemma']] == 'mi' and fields[field_d['upos']] == 'AUX':
+        #     fields[field_d['upos']] = 'PART'
+        #     line = '\t'.join(fields)
+
         # if fields[field_d['lemma']] == 'N/A':
         #     fields[field_d['lemma']] = 'null'
         #     line = '\t'.join(fields)
@@ -82,7 +88,7 @@ for sentence in sentences:
         #     fields[field_d['deprel']] = 'discourse:q'
         #     line = '\t'.join(fields)
 
-        for i, field in enumerate(fields):
+        # for i, field in enumerate(fields):
 
             # Editing a specific field
             # if i == field_d['xpos'] and field == 'Zero':
@@ -203,6 +209,8 @@ for sentence in sentences:
         new_tb += f'{line}\n'
     new_tb += '\n'
 # print(counter)
+if args.output:
+    conllu_filepath = args.output
 with open(conllu_filepath, 'w', encoding='utf-8', newline='\n') as f:
     f.write(new_tb)
 if new_tb != tb:
