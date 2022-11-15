@@ -1,0 +1,104 @@
+{
+    "experiment": "boun_treebank_v2.11",
+    "name": "lemma_only_baseline",
+    "n_gpu": 1,
+
+    "model": {
+        "type": "MultiParser",
+        "args": {
+            "embeddings_processor": {
+                "type": "XLMRobertaWrapper",
+                "args": {
+                    "model_path": "xlm-roberta-base",
+                    "fine_tune": true,
+                    "hidden_dropout": 0.2,
+                    "attn_dropout": 0.2,
+                    "output_dropout": 0.5,
+                    "scalar_mix_layer_dropout": 0.1,
+                    "token_mask_prob": 0.15
+                }
+            },
+
+            "outputs": {
+                "ufeats": {
+                    "type": "SequenceTagger",
+                    "args": {
+                        "hidden_size": 0,
+                        "input_dropout": 0.2,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "v2.11_lemma.vocab"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    "data_loaders": {
+        "type": "BucketedCONLLLoader",
+
+        "args": {
+            "annotation_layers": {
+                "ufeats": {
+                    "type": "TagSequence",
+                    "source_column": 2,
+                    "args": {
+                        "ignore_root": true
+                    }
+                }
+            },
+
+            "batch_size": 1,
+            "bucket_size": 512,
+            "max_tokens_per_batch": 156800,
+            "num_workers": 2
+        },
+        "paths": {
+            "train": "v2.11/train.conllu",
+            "dev": "v2.11/dev.conllu",
+            "test": "v2.11/test.conllu"
+        }
+    },
+
+    "trainer": {
+        "min_epochs": 15,
+        "max_epochs": 300,
+        "early_stop": 15,
+
+        "save_dir": "trained_models/",
+        "save_period": 20,
+        "verbosity": 2,
+
+        "validation_criterion": {
+            "metrics": {
+                "ufeats": "fscore"
+            },
+            "weighting": "multiplicative"
+        },
+
+        "optimizer": {
+            "type": "AdamW",
+            "args": {
+                "lr": 4e-5,
+                "weight_decay": 0.0
+            }
+        },
+
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "args": {
+                "lr_lambda": "SqrtSchedule(400)"
+            }
+        },
+
+        "loss": {
+            "type": "CrossEntropyLoss",
+            "args": {
+                "ignore_index": -1
+            }
+        }
+    }
+}
