@@ -29,7 +29,7 @@ output = subprocess.run([python_script, validation_script,
 if args.errors:
     error_folder = args.errors
 else:
-    error_folder = os.path.join(THIS_DIR, 'Errors')
+    error_folder = os.path.join(os.path.dirname(conllu_filepath), 'errors')
 if not os.path.exists(error_folder):
     os.mkdir(error_folder)
 treebank_error_folder = os.path.join(
