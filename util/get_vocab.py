@@ -1,19 +1,27 @@
-import os, re
+import os, re, argparse
+
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-treebank_name = 'tr_boun-ud'
-folder = os.path.join(THIS_DIR, 'UD_Turkish-BOUN')
-files = ['tr_boun-ud-train.conllu', 'tr_boun-ud-dev.conllu', 'tr_boun-ud-test.conllu']
-source_column = 5
-cats_pattern = r'(?:.+\t){5}(.+)\t(?:.+\t){3}.+'
-feats_set = set()
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--source-column', action="store", required=True)
+parser.add_argument('--type', action="store", required=True)
+parser.add_argument('--treebank', action="store", required=True)
+args = parser.parse_args()
+
+treebank = args.treebank
+vocab_type = args.type
+folder = os.path.join(THIS_DIR, treebank)
+files = ['train.conllu', 'dev.conllu', 'test.conllu']
+source_column = int(args.source_column)
+cats_pattern = r'(?:.+\t){' + str(source_column) + '}(.+)\t(?:.+\t){' + str(10 - source_column - 2) + '}.+'
+vocab_set = set()
 for file in files:
     with open(os.path.join(folder, file), 'r', encoding='utf-8') as f:
         content = f.read()
     lines = re.findall(cats_pattern, content)
     for l in lines:
-        # feat_l = l.split('|')
-        # for feat_t in feat_l:
-        feats_set.add(l)
-with open(os.path.join(THIS_DIR, f'{treebank_name}.vocab'), 'w', encoding='utf-8', newline='\n') as f:
-    for feat_t in feats_set:
-        f.write(feat_t + '\n')
+        vocab_set.add(l)
+tb_name = os.path.dirname(treebank).split('/')[-1]
+with open(os.path.join(THIS_DIR, '{tb}-{type}.vocab'.format(tb=tb_name, type=vocab_type)), 'w', encoding='utf-8', newline='\n') as f:
+    for el in vocab_set:
+        f.write(el + '\n')

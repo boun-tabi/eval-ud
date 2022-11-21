@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "v2.11_feats.vocab"
+                                "vocab_filename": "~/eval-ud/trains/feats-only/vocabs/v2.11_feats.vocab"
                             }
                         }
                     }
@@ -57,9 +57,9 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "v2.11/train.conllu",
-            "dev": "v2.11/dev.conllu",
-            "test": "v2.11/test.conllu"
+            "train": "~/eval-ud/tr_boun/v2.11/train.conllu",
+            "dev": "~/eval-ud/tr_boun/v2.11/dev.conllu",
+            "test": "~/eval-ud/tr_boun/v2.11/test.conllu"
         }
     },
 

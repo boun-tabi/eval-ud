@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "v2.8_lemma.vocab"
+                                "vocab_filename": "~/eval-ud/trains/lemma-only/vocabs/v2.8_lemma.vocab"
                             }
                         }
                     }
@@ -57,9 +57,9 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "v2.8/train.conllu",
-            "dev": "v2.8/dev.conllu",
-            "test": "v2.8/test.conllu"
+            "train": "~/eval-ud/tr_boun/v2.8/train.conllu",
+            "dev": "~/eval-ud/tr_boun/v2.8/dev.conllu",
+            "test": "~/eval-ud/tr_boun/v2.8/test.conllu"
         }
     },
 
