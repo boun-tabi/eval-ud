@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "~/eval-ud/trains/pos-only/vocabs/v2.11_pos.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/pos-only/vocabs/v2.11_pos.vocab"
                             }
                         }
                     }
@@ -57,9 +57,9 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "~/eval-ud/tr_boun/v2.11/train.conllu",
-            "dev": "~/eval-ud/tr_boun/v2.11/dev.conllu",
-            "test": "~/eval-ud/tr_boun/v2.11/test.conllu"
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/train.conllu",
+            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/dev.conllu",
+            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/test.conllu"
         }
     },
 
@@ -68,7 +68,7 @@
         "max_epochs": 300,
         "early_stop": 15,
 
-        "save_dir": "trained_models/",
+        "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",
         "save_period": 20,
         "verbosity": 2,
 
