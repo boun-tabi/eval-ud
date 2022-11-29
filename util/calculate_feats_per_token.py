@@ -18,3 +18,15 @@ print('Total tokens:', total_token_count)
 print('Feats per token:', feat_count / total_token_count)
 
 # used to calculate feats per token in treebanks UD_English-ATIS (1.0251296885857883) & UD_Turkish-ATIS (2.4460817438692097)
+
+'''
+UD_English-ATIS/stats.xml:
+Non-unique feats: 63434
+Total tokens: 61879
+Feats per token: 1.0251296885857883
+
+UD_Turkish-ATIS/stats.xml:
+Non-unique feats: 112214
+Total tokens: 45875
+Feats per token: 2.4460817438692097
+'''
