@@ -1,6 +1,6 @@
 {
     "experiment": "boun_treebank_v2.11-unr",
-    "name": "feats_only_baseline",
+    "name": "lemma_only_baseline",
     "n_gpu": 1,
 
     "model": {
@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/feats-only/vocabs/v2.11-unr_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/lemma-only/vocabs/v2.11-unr_lemma.vocab"
                             }
                         }
                     }
@@ -44,7 +44,7 @@
             "annotation_layers": {
                 "ufeats": {
                     "type": "TagSequence",
-                    "source_column": 5,
+                    "source_column": 2,
                     "args": {
                         "ignore_root": true
                     }
