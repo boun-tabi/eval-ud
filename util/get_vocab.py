@@ -1,3 +1,4 @@
+# python3 util/get_vocab.py --source-column 5 --type feats --treebank .
 import os, re, argparse
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -10,8 +11,9 @@ args = parser.parse_args()
 
 treebank = args.treebank
 vocab_type = args.type
-folder = os.path.join(THIS_DIR, treebank)
-files = ['train.conllu', 'dev.conllu', 'test.conllu']
+folder = treebank
+# files = ['train.conllu', 'dev.conllu', 'test.conllu']
+files = [i for i in os.listdir(folder) if i.endswith('.conllu')]
 source_column = int(args.source_column)
 cats_pattern = r'(?:.+\t){' + str(source_column) + '}(.+)\t(?:.+\t){' + str(10 - source_column - 2) + '}.+'
 vocab_set = set()
