@@ -1,5 +1,5 @@
 {
-    "experiment": "boun_treebank_v2.8",
+    "experiment": "boun_treebank_v2.11-unr",
     "name": "dep_parsing",
     "n_gpu": 1,
 
@@ -41,7 +41,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing/vocabs/v2.8_dep.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing/vocabs/v2.11-unr_deprel.vocab"
                             }
                         }
                     }
@@ -89,9 +89,9 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/train.conllu",
-            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/dev.conllu",
-            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/test.conllu"
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/train.conllu",
+            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/dev.conllu",
+            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/test.conllu"
         }
     },
 
