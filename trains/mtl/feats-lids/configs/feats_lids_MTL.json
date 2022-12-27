@@ -1,5 +1,5 @@
 {
-    "experiment": "qtd_2.7.1_MTL",
+    "experiment": "boun_treebank_v2.8",
     "name": "feats_lids_baseline",
     "n_gpu": 1,
 
@@ -9,7 +9,7 @@
             "embeddings_processor": {
                 "type": "XLMRobertaWrapper",
                 "args": {
-                    "model_path": "/mount/projekte/codeswitch/betul/steps_parser_2/pretrained_model/xlm-roberta-base",
+                    "model_path": "/clusterusers/furkan.akkurt@boun.edu.tr/xlm-roberta-base",
                     "fine_tune": true,
                     "hidden_dropout": 0.2,
                     "attn_dropout": 0.2,
@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/mount/projekte/codeswitch/betul/steps_parser_2/qtd_2.7.1_lids.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/feats-lids-baseline//vocabs/v2.8_lids.vocab"
                             }
                         }
                     }
@@ -41,7 +41,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/mount/projekte/codeswitch/betul/steps_parser/qtd_sagt_2.7.1_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing/vocabs/v2.8_feats.vocab"
                             }
                         }
                     }
@@ -77,18 +77,18 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-train-lid.conllu",
-            "dev": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-finetuning-lid.conllu",
-            "test": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-test-lid.conllu"
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/train.conllu",
+            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/dev.conllu",
+            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/test.conllu"
         }
     },
 
     "trainer": {
         "min_epochs": 15,
-        "max_epochs": 300,
+        "max_epochs": 3000,
         "early_stop": 15,
 
-        "save_dir": "/mount/projekte/codeswitch/betul/steps_parser_2/trained_models/",
+        "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",
         "save_period": 20,
         "verbosity": 2,
 
