@@ -1,0 +1,128 @@
+{
+    "experiment": "qtd_2.7.1_MTL",
+    "name": "feats_lids_baseline",
+    "n_gpu": 1,
+
+    "model": {
+        "type": "MultiParser",
+        "args": {
+            "embeddings_processor": {
+                "type": "XLMRobertaWrapper",
+                "args": {
+                    "model_path": "/mount/projekte/codeswitch/betul/steps_parser_2/pretrained_model/xlm-roberta-base",
+                    "fine_tune": true,
+                    "hidden_dropout": 0.2,
+                    "attn_dropout": 0.2,
+                    "output_dropout": 0.5,
+                    "scalar_mix_layer_dropout": 0.1,
+                    "token_mask_prob": 0.15
+                }
+            },
+
+            "outputs": {
+                "lids": {
+                    "type": "SequenceTagger",
+                    "args": {
+                        "hidden_size": 0,
+                        "input_dropout": 0.2,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "/mount/projekte/codeswitch/betul/steps_parser_2/qtd_2.7.1_lids.vocab"
+                            }
+                        }
+                    }
+                },
+                "ufeats": {
+                    "type": "SequenceTagger",
+                    "args": {
+                        "hidden_size": 0,
+                        "input_dropout": 0.2,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "/mount/projekte/codeswitch/betul/steps_parser/qtd_sagt_2.7.1_feats.vocab"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    "data_loaders": {
+        "type": "BucketedCONLLLoader",
+
+        "args": {
+            "annotation_layers": {
+                "lids": {
+                    "type": "TagSequence",
+                    "source_column": 9,
+                    "args": {
+                        "ignore_root": true
+                    }
+                },
+                "ufeats": {
+                    "type": "TagSequence",
+                    "source_column": 5,
+                    "args": {
+                        "ignore_root": true
+                    }
+                }
+            },
+
+            "batch_size": 32,
+            "bucket_size": 512,
+            "max_tokens_per_batch": 156800,
+            "num_workers": 2
+        },
+        "paths": {
+            "train": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-train-lid.conllu",
+            "dev": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-finetuning-lid.conllu",
+            "test": "/mount/projekte/codeswitch/betul/treebanks/qtd_sagt_2.7.1/data_trde_qtd_sagt-ud-test-lid.conllu"
+        }
+    },
+
+    "trainer": {
+        "min_epochs": 15,
+        "max_epochs": 300,
+        "early_stop": 15,
+
+        "save_dir": "/mount/projekte/codeswitch/betul/steps_parser_2/trained_models/",
+        "save_period": 20,
+        "verbosity": 2,
+
+        "validation_criterion": {
+            "metrics": {
+                "ufeats": "fscore"
+            },
+            "weighting": "multiplicative"
+        },
+
+        "optimizer": {
+            "type": "AdamW",
+            "args": {
+                "lr": 4e-5,
+                "weight_decay": 0.0
+            }
+        },
+
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "args": {
+                "lr_lambda": "SqrtSchedule(400)"
+            }
+        },
+
+        "loss": {
+            "type": "CrossEntropyLoss",
+            "args": {
+                "ignore_index": -1
+            }
+        },
+
+       "loss_scaling": {
+            "lids": "lambda epoch: 0.05"
+        }
+    }
+}
