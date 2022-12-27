@@ -1,5 +1,23 @@
+morph script: evaluate_morp_in_conllu.py
 
 # Scores
+
+## Average scores
+
+feats_only_baseline
+     UFeats
+2.8   92.57
+2.11  82.58
+
+lemma_only_baseline
+     Lemmas
+2.8   90.03
+2.11  88.16
+
+pos_only_baseline
+       UPOS
+2.8   91.92
+2.11  93.12
 
 ## Types
 
@@ -24,6 +42,7 @@ uas_final_test: 100.00%
 las_final_test: 100.00%
 
 - 2. JOB 214 ; epoch 175 ; 103.7 mins ; 1210_162727 ; eval 160 epoch
+morph script accuracy (MSA): 0.92
 Evaluation on test set:
 Metric     | Precision |    Recall |  F1 Score
 -----------+-----------+-----------+----------
@@ -132,6 +151,7 @@ MLAS       |     77.11 |     77.11 |     77.11
 BLEX       |    100.00 |    100.00 |    100.00
 
 - 4. JOB 219 ; epochs 111 ; 66 mins ; 1210_222209 ; eval epoch 96
+MSA: 0.82
 Evaluation on test set:
 Metric     | Precision |    Recall |  F1 Score
 -----------+-----------+-----------+----------
@@ -159,6 +179,24 @@ UAS        |    100.00 |    100.00 |    100.00
 LAS        |    100.00 |    100.00 |    100.00
 CLAS       |    100.00 |    100.00 |    100.00
 MLAS       |     76.39 |     76.39 |     76.39
+BLEX       |    100.00 |    100.00 |    100.00
+uas_final_test: 100.00%
+las_final_test: 100.00%
+
+#### v2.11-unr
+
+- 1. 440 ; epoch 120 ; 1222_222441 ; 68.7 mins ; eval epoch 105
+Evaluation on test set:
+Metric     | Precision |    Recall |  F1 Score
+-----------+-----------+-----------+----------
+Lemmas     |    100.00 |    100.00 |    100.00
+UPOS       |    100.00 |    100.00 |    100.00
+XPOS       |    100.00 |    100.00 |    100.00
+UFeats     |     82.59 |     82.59 |     82.59
+UAS        |    100.00 |    100.00 |    100.00
+LAS        |    100.00 |    100.00 |    100.00
+CLAS       |    100.00 |    100.00 |    100.00
+MLAS       |     76.76 |     76.76 |     76.76
 BLEX       |    100.00 |    100.00 |    100.00
 uas_final_test: 100.00%
 las_final_test: 100.00%
@@ -247,6 +285,22 @@ BLEX       |     86.31 |     86.31 |     86.31
 uas_final_test: 100.00%
 las_final_test: 100.00%
 
+- 6. JOB 441 : no epoch limit ; 1223_093522 ; epoch 389 ; 253 mins ; eval epoch 374
+Evaluation on test set:
+Metric     | Precision |    Recall |  F1 Score
+-----------+-----------+-----------+----------
+Lemmas     |     90.56 |     90.56 |     90.56
+UPOS       |    100.00 |    100.00 |    100.00
+XPOS       |    100.00 |    100.00 |    100.00
+UFeats     |    100.00 |    100.00 |    100.00
+UAS        |    100.00 |    100.00 |    100.00
+LAS        |    100.00 |    100.00 |    100.00
+CLAS       |    100.00 |    100.00 |    100.00
+MLAS       |    100.00 |    100.00 |    100.00
+BLEX       |     87.10 |     87.10 |     87.10
+uas_final_test: 100.00%
+las_final_test: 100.00%
+
 #### v2.11
 
 - 1. JOB 209-210 ; boun_treebank_v2.11/lemma_only_baseline/1209_204204
@@ -332,6 +386,40 @@ LAS        |    100.00 |    100.00 |    100.00
 CLAS       |    100.00 |    100.00 |    100.00
 MLAS       |    100.00 |    100.00 |    100.00
 BLEX       |     83.84 |     83.84 |     83.84
+uas_final_test: 100.00%
+las_final_test: 100.00%
+
+- 6. JOB 442 : no epoch limit ; epoch 502 ; 321 mins ; 1223_221657 ; eval epoch 487
+Evaluation on test set:
+Metric     | Precision |    Recall |  F1 Score
+-----------+-----------+-----------+----------
+Lemmas     |     88.64 |     88.64 |     88.64
+UPOS       |    100.00 |    100.00 |    100.00
+XPOS       |    100.00 |    100.00 |    100.00
+UFeats     |    100.00 |    100.00 |    100.00
+UAS        |    100.00 |    100.00 |    100.00
+LAS        |    100.00 |    100.00 |    100.00
+CLAS       |    100.00 |    100.00 |    100.00
+MLAS       |    100.00 |    100.00 |    100.00
+BLEX       |     84.85 |     84.85 |     84.85
+uas_final_test: 100.00%
+las_final_test: 100.00%
+
+#### v2.11-unr
+
+- 1. JOB 443 ; epoch 300 ; 205 mins ; 1223_221702 ; eval epoch 301
+Evaluation on test set:
+Metric     | Precision |    Recall |  F1 Score
+-----------+-----------+-----------+----------
+Lemmas     |     87.99 |     87.99 |     87.99
+UPOS       |    100.00 |    100.00 |    100.00
+XPOS       |    100.00 |    100.00 |    100.00
+UFeats     |    100.00 |    100.00 |    100.00
+UAS        |    100.00 |    100.00 |    100.00
+LAS        |    100.00 |    100.00 |    100.00
+CLAS       |    100.00 |    100.00 |    100.00
+MLAS       |    100.00 |    100.00 |    100.00
+BLEX       |     83.98 |     83.98 |     83.98
 uas_final_test: 100.00%
 las_final_test: 100.00%
 
@@ -503,4 +591,20 @@ MLAS       |     90.43 |     90.43 |     90.43
 BLEX       |    100.00 |    100.00 |    100.00
 uas_final_test: 100.00%
 las_final_test: 100.00%
+
+#### v2.11-unr
+
+- 1. 438 : 23 epoch ; 15 mins ; 1222_191841 ; eval 8 epoch
+Evaluation on test set:
+Metric     | Precision |    Recall |  F1 Score
+-----------+-----------+-----------+----------
+Lemmas     |    100.00 |    100.00 |    100.00
+UPOS       |     93.00 |     93.00 |     93.00
+XPOS       |    100.00 |    100.00 |    100.00
+UFeats     |    100.00 |    100.00 |    100.00
+UAS        |    100.00 |    100.00 |    100.00
+LAS        |    100.00 |    100.00 |    100.00
+CLAS       |    100.00 |    100.00 |    100.00
+MLAS       |     90.53 |     90.53 |     90.53
+BLEX       |    100.00 |    100.00 |    100.00
 
