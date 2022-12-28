@@ -1,0 +1,161 @@
+{
+    "experiment": "boun_treebank_v2.11",
+    "name": "dep_parsing_feats_MTL",
+    "n_gpu": 1,
+
+    "model": {
+        "type": "MultiParser",
+        "args": {
+            "embeddings_processor": {
+                "type": "XLMRobertaWrapper",
+                "args": {
+                    "model_path": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/xlm-roberta-base",
+                    "fine_tune": true,
+                    "hidden_dropout": 0.2,
+                    "attn_dropout": 0.2,
+                    "output_dropout": 0.5,
+                    "scalar_mix_layer_dropout": 0.1,
+                    "token_mask_prob": 0.15
+                }
+            },
+
+            "outputs": {
+                "heads": {
+                    "type": "ArcScorer",
+                    "args": {
+                        "scorer_class": "DeepBiaffineScorer",
+                        "head_mode": "single_head",
+                        "hidden_size": 1024,
+                        "dropout": 0.33,
+                        "vocab": {
+                            "type": "IntegerVocab"
+                        }
+                    }
+                },
+                "labels": {
+                    "type": "DependencyClassifier",
+                    "args": {
+                        "scorer_class": "DeepBiaffineScorer",
+                        "hidden_size": 256,
+                        "dropout": 0.33,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/dep-parsing-feats/vocabs/v2.11_deprel.vocab"
+                            }
+                        }
+                    }
+                },
+                "ufeats": {
+                    "type": "SequenceTagger",
+                    "args": {
+                        "hidden_size": 0,
+                        "input_dropout": 0.2,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/dep-parsing-feats/vocabs/v2.11_feats.vocab"
+                            }
+                        }
+                    }
+                }
+            },
+
+            "post_processors": [
+                {
+                    "type": "FactorizedMSTPostProcessor",
+                    "args": {
+                        "annotation_ids": [
+                            "heads",
+                            "labels"
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+
+    "data_loaders": {
+        "type": "BucketedCONLLLoader",
+
+        "args": {
+            "annotation_layers": {
+                "heads": {
+                    "type": "TagSequence",
+                    "source_column": 6,
+                    "args": {
+                        "ignore_root": true
+                    }
+                },
+                "labels": {
+                    "type": "DependencyMatrix",
+                    "source_column": [6,7],
+                    "args": {
+                        "ignore_non_relations": true
+                    }
+                },
+                "ufeats": {
+                    "type": "TagSequence",
+                    "source_column": 5,
+                    "args": {
+                        "ignore_root": true
+                    }
+                }
+            },
+
+            "batch_size": 32,
+            "bucket_size": 512,
+            "max_tokens_per_batch": 156800,
+            "num_workers": 2
+        },
+        "paths": {
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/train.conllu",
+            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/dev.conllu",
+            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/test.conllu"
+        }
+    },
+
+    "trainer": {
+        "min_epochs": 15,
+        "max_epochs": 3000,
+        "early_stop": 15,
+
+        "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",
+        "save_period": 20,
+        "verbosity": 2,
+
+        "validation_criterion": {
+            "metrics": {
+                "heads": "fscore",
+                "labels": "fscore"
+            },
+            "weighting": "multiplicative"
+        },
+
+        "optimizer": {
+            "type": "AdamW",
+            "args": {
+                "lr": 4e-5,
+                "weight_decay": 0.0
+            }
+        },
+
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "args": {
+                "lr_lambda": "SqrtSchedule(400)"
+            }
+        },
+
+        "loss": {
+            "type": "CrossEntropyLoss",
+            "args": {
+                "ignore_index": -1
+            }
+        },
+
+       "loss_scaling": {
+            "ufeats": "lambda epoch: 0.05"
+        }
+    }
+}
