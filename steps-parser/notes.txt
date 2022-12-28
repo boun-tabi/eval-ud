@@ -1,0 +1,2 @@
+used `python3 src/parse_corpus.py ~/eval-ud/trained_models/boun_treebank_v2.8/dep_parsing/1227_153113 ~/eval-ud/gitlab-repo/tr_boun/v2.8/test.conllu -o ~/dep-output-2.8.conllu -e basic` ; 12/28/2022 7:03
+    after the keep_column (I had added for int(head) problem) error

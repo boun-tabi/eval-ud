@@ -1,6 +1,6 @@
 {
     "experiment": "boun_treebank_v2.8",
-    "name": "feats_lids_baseline",
+    "name": "dep_parsing_upos_feats_MTL",
     "n_gpu": 1,
 
     "model": {
@@ -20,7 +20,33 @@
             },
 
             "outputs": {
-                "lids": {
+                "heads": {
+                    "type": "ArcScorer",
+                    "args": {
+                        "scorer_class": "DeepBiaffineScorer",
+                        "head_mode": "single_head",
+                        "hidden_size": 1024,
+                        "dropout": 0.33,
+                        "vocab": {
+                            "type": "IntegerVocab"
+                        }
+                    }
+                },
+                "labels": {
+                    "type": "DependencyClassifier",
+                    "args": {
+                        "scorer_class": "DeepBiaffineScorer",
+                        "hidden_size": 256,
+                        "dropout": 0.33,
+                        "vocab": {
+                            "type": "BasicVocab",
+                            "args": {
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/dep-parsing-upos-feats/vocabs/v2.8_deprel.vocab"
+                            }
+                        }
+                    }
+                },
+                "upos": {
                     "type": "SequenceTagger",
                     "args": {
                         "hidden_size": 0,
@@ -28,7 +54,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/feats-lids-baseline/vocabs/v2.8_lids.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/dep-parsing-upos-feats/vocabs/v2.8_upos.vocab"
                             }
                         }
                     }
@@ -41,12 +67,24 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing/vocabs/v2.8_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing-upos-feats/vocabs/v2.8_feats.vocab"
                             }
                         }
                     }
                 }
-            }
+            },
+
+            "post_processors": [
+                {
+                    "type": "FactorizedMSTPostProcessor",
+                    "args": {
+                        "annotation_ids": [
+                            "heads",
+                            "labels"
+                        ]
+                    }
+                }
+            ]
         }
     },
 
@@ -55,9 +93,23 @@
 
         "args": {
             "annotation_layers": {
-                "lids": {
+                "heads": {
                     "type": "TagSequence",
-                    "source_column": 9,
+                    "source_column": 6,
+                    "args": {
+                        "ignore_root": true
+                    }
+                },
+                "labels": {
+                    "type": "DependencyMatrix",
+                    "source_column": [6,7],
+                    "args": {
+                        "ignore_non_relations": true
+                    }
+                },
+                "upos": {
+                    "type": "TagSequence",
+                    "source_column": 3,
                     "args": {
                         "ignore_root": true
                     }
@@ -94,7 +146,8 @@
 
         "validation_criterion": {
             "metrics": {
-                "ufeats": "fscore"
+                "heads": "fscore",
+                "labels": "fscore"
             },
             "weighting": "multiplicative"
         },
@@ -122,7 +175,8 @@
         },
 
        "loss_scaling": {
-            "lids": "lambda epoch: 0.05"
+            "upos": "lambda epoch: 0.05",
+            "ufeats": "lambda epoch: 0.05"
         }
     }
 }

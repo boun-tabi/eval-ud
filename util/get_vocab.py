@@ -7,6 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--source-column', action="store", required=True)
 parser.add_argument('--type', action="store", required=True)
 parser.add_argument('--treebank', action="store", required=True)
+parser.add_argument('--output', action="store")
 args = parser.parse_args()
 
 treebank = args.treebank
@@ -24,6 +25,10 @@ for file in files:
     for l in lines:
         vocab_set.add(l)
 tb_name = os.path.dirname(treebank).split('/')[-1]
-with open(os.path.join(THIS_DIR, '{tb}-{type}.vocab'.format(tb=tb_name, type=vocab_type)), 'w', encoding='utf-8', newline='\n') as f:
+if args.output:
+    vocab_path = args.output
+else:
+    vocab_path = os.path.join(THIS_DIR, '{tb}-{type}.vocab'.format(tb=tb_name, type=vocab_type))
+with open(vocab_path, 'w', encoding='utf-8', newline='\n') as f:
     for el in vocab_set:
         f.write(el + '\n')
