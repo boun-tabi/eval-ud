@@ -9,7 +9,7 @@
             "embeddings_processor": {
                 "type": "XLMRobertaWrapper",
                 "args": {
-                    "model_path": "/clusterusers/furkan.akkurt@boun.edu.tr/xlm-roberta-base",
+                    "model_path": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/xlm-roberta-base",
                     "fine_tune": true,
                     "hidden_dropout": 0.2,
                     "attn_dropout": 0.2,
@@ -67,7 +67,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/dep-parsing-upos-feats/vocabs/v2.8_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/mtl/dep-parsing-upos-feats/vocabs/v2.8_feats.vocab"
                             }
                         }
                     }
