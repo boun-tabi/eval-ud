@@ -242,28 +242,32 @@ UPOS: 87.08
 UAS: 82.52
 LAS: 76.53
 CLAS: 74.86, 74.26, 74.56
-MLAS: 9.65, 9.57, 9.61
 
 #### v2.11
 
 - 1. JOB 559 ; epoch 93 ; 133 mins ; 1228_194042 ; eval epoch 78
 UPOS: 91.21
-XPOS: 50.88
-UFeats: 37.13
 UAS: 81.96
 LAS: 75.09
 CLAS: 73.91, 73.58, 73.74
-MLAS: 9.84, 9.80, 9.82
 
 #### v2.11-unr
 
-- 1. JOB 560
+- 1. JOB 560 ; epoch 92 ; 1228_215014 ; 132 mins ; eval epoch 77
+UPOS: 91.19
+UAS: 82.06
+LAS: 75.33
+CLAS: 74.06, 73.87, 73.97
 
 ### dep_parsing_feats_MTL
 
 #### v2.8
 
-- 1. JOB 561
+- 1. JOB 561 ; epoch 65 ; 1228_220849 ; 92 mins ; eval epoch 50
+UFeats: 70.22
+UAS: 82.36
+LAS: 76.32
+CLAS: 74.40, 73.89, 74.14
 
 #### v2.11
 
