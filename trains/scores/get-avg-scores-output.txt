@@ -1,0 +1,42 @@
+feats_only_baseline
+         UFeats
+2.8       92.57
+2.11      82.58
+2.11-unr  82.59
+
+lemma_only_baseline
+         Lemmas
+2.8       90.12
+2.11      88.16
+2.11-unr  87.99
+
+pos_only_baseline
+           UPOS
+2.8       91.92
+2.11      93.12
+2.11-unr  93.00
+
+dep_parsing
+            UAS    LAS   CLAS
+2.8       82.51  76.55  74.78
+2.11      82.09  75.20  74.05
+2.11-unr  82.29  75.41  74.11
+
+dep_parsing_upos_feats_MTL
+           UPOS UFeats    UAS    LAS   CLAS   MLAS
+2.8       87.31  73.39  81.80  75.87  73.73  41.36
+2.11      91.17  68.99  81.19  74.27  72.89  39.30
+2.11-unr  91.61  72.38  81.38  74.32  72.80  42.91
+
+dep_parsing_upos_MTL
+           UPOS    UAS    LAS   CLAS
+2.8       87.08  82.52  76.53  74.56
+2.11      91.21  81.96  75.09  73.74
+2.11-unr  91.19  82.06  75.33  73.97
+
+dep_parsing_feats_MTL
+         UFeats    UAS    LAS   CLAS
+2.8       70.22  82.36  76.32  74.14
+2.11      66.70  81.78  74.98  73.50
+2.11-unr  68.65  81.88  75.02  73.64
+
