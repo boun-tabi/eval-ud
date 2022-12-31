@@ -288,11 +288,30 @@ CLAS: 73.81, 73.47, 73.64
 
 #### v2.8
 
-- 1. JOB 564
+- 1. JOB 564 ; epoch 99 ; 140 mins ; 1230_154336 ; eval epoch 84
+Lemmas: 56.19
+UAS: 82.25
+LAS: 76.20
+CLAS: 74.17, 73.68, 73.93
+BLEX: 30.50, 30.29, 30.39
 
 #### v2.11
 
+- 1. JOB 565 ; epoch 98 ; 144 mins ; 1230_213501 ; eval epoch 83
+Lemmas: 54.82
+UAS: 81.88
+LAS: 75.12
+CLAS: 73.81, 73.53, 73.67
+BLEX: 29.49, 29.38, 29.43
+
 #### v2.11-unr
+
+- 1. JOB 566 ; epoch 69 ; 1230_213505 ; 103 mins ; eval epoch 54
+Lemmas: 48.19
+UAS: 81.91
+LAS: 75.01
+CLAS: 73.73, 73.48, 73.60
+BLEX: 23.05, 22.97, 23.01
 
 ### feats_upos_MTL
 
