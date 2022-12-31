@@ -10,6 +10,8 @@ scores_d['dep_parsing'] = {'2.8': {'UAS': list(), 'LAS': list(), 'CLAS': list()}
 scores_d['dep_parsing_upos_feats_MTL'] = {'2.8': {'UPOS': list(), 'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'MLAS': list()}, '2.11': {'UPOS': list(), 'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'MLAS': list()}, '2.11-unr': {'UPOS': list(), 'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'MLAS': list()}}
 scores_d['dep_parsing_upos_MTL'] = {'2.8': {'UPOS': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}, '2.11': {'UPOS': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}, '2.11-unr': {'UPOS': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}}
 scores_d['dep_parsing_feats_MTL'] = {'2.8': {'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}, '2.11': {'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}, '2.11-unr': {'UFeats': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list()}}
+scores_d['dep_parsing_lemma_MTL'] = {'2.8': {'Lemmas': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'BLEX': list()}, '2.11': {'Lemmas': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'BLEX': list()}, '2.11-unr': {'Lemmas': list(), 'UAS': list(), 'LAS': list(), 'CLAS': list(), 'BLEX': list()}}
+scores_d['feats_upos_MTL'] = {'2.8': {'UPOS': list(), 'UFeats': list()}, '2.11': {'UPOS': list(), 'UFeats': list()}, '2.11-unr': {'UPOS': list(), 'UFeats': list()}}
 
 scores_d['feats_only_baseline']['2.8']['UFeats'] = [92.49, 92.58, 92.53, 92.88, 92.39]
 scores_d['feats_only_baseline']['2.11']['UFeats'] = [82.56, 82.62, 82.86, 82.57, 82.31]
@@ -77,6 +79,29 @@ scores_d['dep_parsing_feats_MTL']['2.11-unr']['UFeats'] = [68.65]
 scores_d['dep_parsing_feats_MTL']['2.11-unr']['UAS'] = [81.88]
 scores_d['dep_parsing_feats_MTL']['2.11-unr']['LAS'] = [75.02]
 scores_d['dep_parsing_feats_MTL']['2.11-unr']['CLAS'] = [73.64]
+
+scores_d['dep_parsing_lemma_MTL']['2.8']['Lemmas'] = [56.19]
+scores_d['dep_parsing_lemma_MTL']['2.8']['UAS'] = [82.25]
+scores_d['dep_parsing_lemma_MTL']['2.8']['LAS'] = [76.20]
+scores_d['dep_parsing_lemma_MTL']['2.8']['CLAS'] = [73.93]
+scores_d['dep_parsing_lemma_MTL']['2.8']['BLEX'] = [30.39]
+scores_d['dep_parsing_lemma_MTL']['2.11']['Lemmas'] = [54.82]
+scores_d['dep_parsing_lemma_MTL']['2.11']['UAS'] = [81.88]
+scores_d['dep_parsing_lemma_MTL']['2.11']['LAS'] = [75.12]
+scores_d['dep_parsing_lemma_MTL']['2.11']['CLAS'] = [73.67]
+scores_d['dep_parsing_lemma_MTL']['2.11']['BLEX'] = [29.43]
+scores_d['dep_parsing_lemma_MTL']['2.11-unr']['Lemmas'] = [48.19]
+scores_d['dep_parsing_lemma_MTL']['2.11-unr']['UAS'] = [81.91]
+scores_d['dep_parsing_lemma_MTL']['2.11-unr']['LAS'] = [75.01]
+scores_d['dep_parsing_lemma_MTL']['2.11-unr']['CLAS'] = [73.60]
+scores_d['dep_parsing_lemma_MTL']['2.11-unr']['BLEX'] = [23.01]
+
+scores_d['feats_upos_MTL']['2.8']['UPOS'] = []
+scores_d['feats_upos_MTL']['2.8']['UFeats'] = []
+scores_d['feats_upos_MTL']['2.11']['UPOS'] = []
+scores_d['feats_upos_MTL']['2.11']['UFeats'] = []
+scores_d['feats_upos_MTL']['2.11-unr']['UPOS'] = []
+scores_d['feats_upos_MTL']['2.11-unr']['UFeats'] = []
 
 bl_type_l = list(scores_d.keys())
 for bl_type in bl_type_l:
