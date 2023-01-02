@@ -122,8 +122,7 @@
         },
 
        "loss_scaling": {
-            "upos": "lambda epoch: 0.05",
-            "ufeats": "lambda epoch: 0.05"
+            "upos": "lambda epoch: 0.05"
         }
     }
 }
