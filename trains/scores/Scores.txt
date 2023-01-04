@@ -75,6 +75,11 @@ Tag-based score: 82.31
 - 1. 440 ; epoch 120 ; 1222_222441 ; 68.7 mins ; eval epoch 105
 UFeats: 82.59
 
+#### v2.11-small
+
+- 1. 592 ; epoch 135 ; 0104_211550 ; 32 mins ; eval epoch 120 ; feats_only_baseline_v2.11-small.sh
+UFeats: 75.67
+
 ### lemma_only_baseline
 
 _Lemmas_ metric is evaluated with `steps-parser`.
@@ -313,7 +318,7 @@ LAS: 75.01
 CLAS: 73.73, 73.48, 73.60
 BLEX: 23.05, 22.97, 23.01
 
-### feats_upos_MTL
+### upos_feats_MTL
 
 #### v2.8
 
@@ -335,3 +340,9 @@ MLAS: 71.42
 UPOS: 92.69
 UFeats: 82.78
 MLAS: 72.05
+
+#### v2.11-small
+
+- 1. JOB 593 ; epoch 184 ; 0104_211631 ; 40 mins ; eval epoch 169
+UPOS: 86.95
+UFeats: 77.06
