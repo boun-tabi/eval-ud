@@ -1,3 +1,35 @@
+602 : v2.11-small.sh ; dep-parsing
+UAS: 76.58
+LAS: 68.34
+CLAS: 66.43, 66.38, 66.40
+
+601 : v2.11-small.sh ; dep-parsing-lemma
+Lemmas: 33.52
+UAS: 76.71
+LAS: 68.40
+CLAS: 66.43, 66.37, 66.40
+BLEX: 10.15, 10.14, 10.14
+
+599 : v2.11-small.sh ; dep-parsing-upos-feats
+UPOS: 86.93
+UFeats: 60.67
+UAS: 75.32
+LAS: 67.14
+CLAS: 65.07, 65.05, 65.06
+MLAS: 27.25, 27.23, 27.24
+
+597 : v2.11-small.sh ; dep-parsing-upos
+UPOS: 87.08
+UAS: 76.48
+LAS: 68.37
+CLAS: 66.32, 66.29, 66.30
+
+598 : v2.11-small.sh ; dep-parsing-feats
+UFeats: 59.46
+UAS: 76.57
+LAS: 68.17
+CLAS: 66.00, 66.05, 66.02
+
 Job 593 : upos_feats_MTL_v2.11-small.sh
 UPOS: 86.95
 UFeats: 77.06
