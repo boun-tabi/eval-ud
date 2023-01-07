@@ -1,4 +1,7 @@
 # python3 util/get_vocab.py --source-column 5 --type feats --treebank .
+#                                           2        lemma
+#                                           3        upos
+#                                           7        deprel
 import os, re, argparse
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
