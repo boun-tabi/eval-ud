@@ -1,22 +1,5 @@
 # Scores
 
-## Average scores
-
-feats_only_baseline
-     UFeats
-2.8   92.57
-2.11  82.58
-
-lemma_only_baseline
-     Lemmas
-2.8   90.03
-2.11  88.16
-
-pos_only_baseline
-       UPOS
-2.8   91.92
-2.11  93.12
-
 ## Types
 
 ### feats_only_baseline
@@ -47,6 +30,8 @@ Tag-based score: 92.88
 Feature based score: 90.87
 Tag-based score: 92.39
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 203 ; boun_treebank_v2.11/feats_only_baseline/1209_142234 ; 63 mins ; 108 epochs [evaluates from 93rd epoch]
@@ -70,15 +55,17 @@ Tag-based score: 82.57
 Feature based score: 84.94
 Tag-based score: 82.31
 
+#### v2.11-small
+
+- 1. 592 ; epoch 135 ; 0104_211550 ; 32 mins ; eval epoch 120 ; feats_only_baseline_v2.11-small.sh
+UFeats: 75.67
+
 #### v2.11-unr
 
 - 1. 440 ; epoch 120 ; 1222_222441 ; 68.7 mins ; eval epoch 105
 UFeats: 82.59
 
-#### v2.11-small
-
-- 1. 592 ; epoch 135 ; 0104_211550 ; 32 mins ; eval epoch 120 ; feats_only_baseline_v2.11-small.sh
-UFeats: 75.67
+#### v2.11-unr-small
 
 ### lemma_only_baseline
 
@@ -103,6 +90,8 @@ Lemmas: 89.99
 
 - 6. JOB 441 : no epoch limit ; 1223_093522 ; epoch 389 ; 253 mins ; eval epoch 374
 Lemmas: 90.56
+
+#### v2.8-small
 
 #### v2.11
 
@@ -130,10 +119,14 @@ Lemmas: 87.91
 - 6. JOB 442 : no epoch limit ; epoch 502 ; 321 mins ; 1223_221657 ; eval epoch 487
 Lemmas: 88.64
 
+#### v2.11-small
+
 #### v2.11-unr
 
 - 1. JOB 443 ; epoch 300 ; 205 mins ; 1223_221702 ; eval epoch 301
 Lemmas: 87.99
+
+#### v2.11-unr-small
 
 ### pos_only_baseline
 
@@ -158,6 +151,8 @@ UPOS: 91.87
 - 5. JOB 239 ; epoch 65 ; 37 mins ; 1211_223049 ; eval epoch 50
 UPOS: 91.77
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 213 ; 18 mins ; 33 epochs, evaluation epoch 18
@@ -176,10 +171,14 @@ UPOS: 93.10
 - 5. JOB 237 ; epoch 38 ; 21 mins ; 1211_220913 ; eval epoch 23
 UPOS: 92.96
 
+#### v2.11-small
+
 #### v2.11-unr
 
 - 1. JOB 438 : 23 epoch ; 15 mins ; 1222_191841 ; eval 8 epoch
 UPOS: 93.00
+
+#### v2.11-unr-small
 
 ### dep_parsing
 
@@ -190,6 +189,13 @@ UAS: 82.51
 LAS: 76.55
 CLAS: 74.78
 
+#### v2.8-small
+
+- 1. JOB 603 : v2.8-small.sh
+UAS: 77.45
+LAS: 69.73
+CLAS: 67.39, 67.30, 67.34
+
 #### v2.11
 
 - 1. JOB 522 ; epoch 76 ; 93 mins ; 1228_043853 ; eval epoch 61
@@ -197,12 +203,26 @@ UAS: 82.09
 LAS: 75.20
 CLAS: 74.05
 
+#### v2.11-small
+
+- 1. JOB 602 : v2.11-small.sh
+UAS: 76.58
+LAS: 68.34
+CLAS: 66.43, 66.38, 66.40
+
 #### v2.11-unr
 
 - 1. JOB 508 ; epoch 69 ; 87 mins ; 1227_153224 ; eval epoch 54
 UAS: 82.29
 LAS: 75.41
 CLAS: 74.11
+
+#### v2.11-unr-small
+
+- 1. JOB 604 : v2.11-unr-small.sh
+UAS: 77.01
+LAS: 68.78
+CLAS: 66.71, 66.52, 66.62
 
 ### dep_parsing_upos_feats_MTL
 
@@ -217,6 +237,8 @@ LAS: 75.87
 CLAS: 74.01, 73.46, 73.73
 MLAS: 41.52, 41.21, 41.36
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 557 ; epoch 116 ; 1228_151922 ; 189 mins ; eval epoch 101
@@ -226,6 +248,16 @@ UAS: 81.19
 LAS: 74.27
 CLAS: 73.05, 72.73, 72.89
 MLAS: 39.38, 39.21, 39.30
+
+#### v2.11-small
+
+- 1. JOB 599 : v2.11-small.sh
+UPOS: 86.93
+UFeats: 60.67
+UAS: 75.32
+LAS: 67.14
+CLAS: 65.07, 65.05, 65.06
+MLAS: 27.25, 27.23, 27.24
 
 #### v2.11-unr
 
@@ -237,6 +269,8 @@ LAS: 74.32
 CLAS: 72.97, 72.63, 72.80
 MLAS: 43.01, 42.81, 42.91
 
+#### v2.11-unr-small
+
 ### dep_parsing_upos_MTL
 
 #### v2.8
@@ -247,6 +281,14 @@ UAS: 82.52
 LAS: 76.53
 CLAS: 74.86, 74.26, 74.56
 
+#### v2.8-small
+
+- 1. JOB 605 : v2.8-small.sh
+UPOS: 81.45
+UAS: 76.68
+LAS: 69.24
+CLAS: 66.93, 66.69, 66.81
+
 #### v2.11
 
 - 1. JOB 559 ; epoch 93 ; 133 mins ; 1228_194042 ; eval epoch 78
@@ -255,6 +297,14 @@ UAS: 81.96
 LAS: 75.09
 CLAS: 73.91, 73.58, 73.74
 
+#### v2.11-small
+
+- 1. JOB 597 : v2.11-small.sh
+UPOS: 87.08
+UAS: 76.48
+LAS: 68.37
+CLAS: 66.32, 66.29, 66.30
+
 #### v2.11-unr
 
 - 1. JOB 560 ; epoch 92 ; 1228_215014 ; 132 mins ; eval epoch 77
@@ -262,6 +312,14 @@ UPOS: 91.19
 UAS: 82.06
 LAS: 75.33
 CLAS: 74.06, 73.87, 73.97
+
+#### v2.11-unr-small
+
+- 1. JOB 606 : v2.11-unr-small.sh
+UPOS: 86.56
+UAS: 76.83
+LAS: 68.97
+CLAS: 66.77, 66.77, 66.77
 
 ### dep_parsing_feats_MTL
 
@@ -273,6 +331,8 @@ UAS: 82.36
 LAS: 76.32
 CLAS: 74.40, 73.89, 74.14
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 562 ; epoch 43 ; 1229_084615 ; 63 mins ; eval epoch 28
@@ -281,6 +341,14 @@ UAS: 81.78
 LAS: 74.98
 CLAS: 73.64, 73.36, 73.50
 
+#### v2.11-small
+
+- 1. JOB 598 : v2.11-small.sh
+UFeats: 59.46
+UAS: 76.57
+LAS: 68.17
+CLAS: 66.00, 66.05, 66.02
+
 #### v2.11-unr
 
 - 1. JOB 563 ; epoch 66 ; 1229_084618 ; 97 mins ; eval epoch 51
@@ -288,6 +356,8 @@ UFeats: 68.65
 UAS: 81.88
 LAS: 75.02
 CLAS: 73.81, 73.47, 73.64
+
+#### v2.11-unr-small
 
 ### dep_parsing_lemma_MTL
 
@@ -300,6 +370,8 @@ LAS: 76.20
 CLAS: 74.17, 73.68, 73.93
 BLEX: 30.50, 30.29, 30.39
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 565 ; epoch 98 ; 144 mins ; 1230_213501 ; eval epoch 83
@@ -308,6 +380,15 @@ UAS: 81.88
 LAS: 75.12
 CLAS: 73.81, 73.53, 73.67
 BLEX: 29.49, 29.38, 29.43
+
+#### v2.11-small
+
+- 1. JOB 601 : v2.11-small.sh
+Lemmas: 33.52
+UAS: 76.71
+LAS: 68.40
+CLAS: 66.43, 66.37, 66.40
+BLEX: 10.15, 10.14, 10.14
 
 #### v2.11-unr
 
@@ -318,6 +399,8 @@ LAS: 75.01
 CLAS: 73.73, 73.48, 73.60
 BLEX: 23.05, 22.97, 23.01
 
+#### v2.11-unr-small
+
 ### upos_feats_MTL
 
 #### v2.8
@@ -327,12 +410,20 @@ UPOS: 89.39
 UFeats: 87.09
 MLAS: 73.62
 
+#### v2.8-small
+
 #### v2.11
 
 - 1. JOB 575 ; epoch 118 ; 0102_093057 ; 91 mins ; eval epoch 103
 UPOS: 92.41
 UFeats: 82.68
 MLAS: 71.42
+
+#### v2.11-small
+
+- 1. JOB 593 ; epoch 184 ; 0104_211631 ; 40 mins ; eval epoch 169
+UPOS: 86.95
+UFeats: 77.06
 
 #### v2.11-unr
 
@@ -341,8 +432,4 @@ UPOS: 92.69
 UFeats: 82.78
 MLAS: 72.05
 
-#### v2.11-small
-
-- 1. JOB 593 ; epoch 184 ; 0104_211631 ; 40 mins ; eval epoch 169
-UPOS: 86.95
-UFeats: 77.06
+#### v2.11-unr-small

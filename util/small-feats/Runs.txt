@@ -1,5 +1,33 @@
-603 : v2.11-unr-small.sh ; dep-parsing
+ : v2.11-unr-small.sh ; dep-parsing-lemma
+ : v2.8-small.sh ; dep-parsing-lemma
+
+ : v2.11-unr-small.sh ; dep-parsing-feats
+ : v2.8-small.sh ; dep-parsing-feats
+
+ : v2.11-unr-small.sh ; dep-parsing-upos-feats
+ : v2.8-small.sh ; dep-parsing-upos-feats
+
+606 : v2.11-unr-small.sh ; dep-parsing-upos
+UPOS: 86.56
+UAS: 76.83
+LAS: 68.97
+CLAS: 66.77, 66.77, 66.77
+
+605 : v2.8-small.sh ; dep-parsing-upos
+UPOS: 81.45
+UAS: 76.68
+LAS: 69.24
+CLAS: 66.93, 66.69, 66.81
+
+604 : v2.11-unr-small.sh ; dep-parsing
+UAS: 77.01
+LAS: 68.78
+CLAS: 66.71, 66.52, 66.62
+
 603 : v2.8-small.sh ; dep-parsing
+UAS: 77.45
+LAS: 69.73
+CLAS: 67.39, 67.30, 67.34
 
 602 : v2.11-small.sh ; dep-parsing
 UAS: 76.58
