@@ -1,6 +1,6 @@
 {
-    "experiment": "boun_treebank_v2.11-unr",
-    "name": "feats_only_baseline",
+    "experiment": "boun_treebank_v2.11-small",
+    "name": "lemma_only_baseline",
     "n_gpu": 1,
 
     "model": {
@@ -28,7 +28,7 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/feats-only/vocabs/v2.11-unr_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/vocabs/v2.11/small_lemma.vocab"
                             }
                         }
                     }
@@ -45,7 +45,7 @@
             "annotation_layers": {
                 "ufeats": {
                     "type": "TagSequence",
-                    "source_column": 5,
+                    "source_column": 2,
                     "args": {
                         "ignore_root": true
                     }
@@ -58,15 +58,15 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/train.conllu",
-            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/dev.conllu",
-            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/unrestricted/test.conllu"
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/util/small-feats/v2.11/train.conllu",
+            "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/dev.conllu",
+            "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/test.conllu"
         }
     },
 
     "trainer": {
         "min_epochs": 15,
-        "max_epochs": 300,
+        "max_epochs": 3000,
         "early_stop": 15,
 
         "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",

@@ -28,12 +28,13 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/util/small-feats/500-train-v2.11_feats.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/vocabs/v2.11/small_feats.vocab"
                             }
                         }
                     }
                 }
-            }
+            },
+            "post_processors": []
         }
     },
 
@@ -57,7 +58,7 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/util/small-feats/500-train-v2.11.conllu",
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/util/small-feats/v2.11/train.conllu",
             "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/dev.conllu",
             "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.11/test.conllu"
         }

@@ -1,6 +1,6 @@
 {
-    "experiment": "boun_treebank_v2.8",
-    "name": "lemma_only_baseline",
+    "experiment": "boun_treebank_v2.8-small",
+    "name": "feats_only_baseline",
     "n_gpu": 1,
 
     "model": {
@@ -28,12 +28,13 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/lemma-only/vocabs/v2.8_lemma.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/vocabs/v2.8/small_feats.vocab"
                             }
                         }
                     }
                 }
-            }
+            },
+            "post_processors": []
         }
     },
 
@@ -44,7 +45,7 @@
             "annotation_layers": {
                 "ufeats": {
                     "type": "TagSequence",
-                    "source_column": 2,
+                    "source_column": 5,
                     "args": {
                         "ignore_root": true
                     }
@@ -57,7 +58,7 @@
             "num_workers": 2
         },
         "paths": {
-            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/train.conllu",
+            "train": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/util/small-feats/v2.8/train.conllu",
             "dev": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/dev.conllu",
             "test": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/tr_boun/v2.8/test.conllu"
         }
@@ -65,7 +66,7 @@
 
     "trainer": {
         "min_epochs": 15,
-        "max_epochs": 3000,
+        "max_epochs": 300,
         "early_stop": 15,
 
         "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",

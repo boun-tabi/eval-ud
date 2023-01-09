@@ -65,7 +65,7 @@
 
     "trainer": {
         "min_epochs": 15,
-        "max_epochs": 300,
+        "max_epochs": 3000,
         "early_stop": 15,
 
         "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",
