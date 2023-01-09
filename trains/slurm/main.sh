@@ -8,12 +8,14 @@
 #SBATCH --mem=40GB
 #SBATCH -t 0-5:00
 
-log_path=/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/slurm/Logs.txt
-date >> $log_path
-echo $1 >> $log_path
-echo >> $log_path
-
 train_config_path=$(readlink -f $1)
+
+log_path=/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/slurm/Logs.txt
+date=$(date)
+echo date: $date >> $log_path
+echo job: $SLURM_JOBID >> $log_path
+echo path: $train_config_path >> $log_path
+echo >> $log_path
 
 env
 python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py $train_config_path
