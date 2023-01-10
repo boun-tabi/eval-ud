@@ -1,0 +1,71 @@
+{
+    "experiment": "",
+    "name": "",
+    "n_gpu": 1,
+    "model": {
+        "type": "MultiParser",
+        "args": {
+            "embeddings_processor": {
+                "type": "XLMRobertaWrapper",
+                "args": {
+                    "model_path": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/xlm-roberta-base",
+                    "fine_tune": true,
+                    "hidden_dropout": 0.2,
+                    "attn_dropout": 0.2,
+                    "output_dropout": 0.5,
+                    "scalar_mix_layer_dropout": 0.1,
+                    "token_mask_prob": 0.15
+                }
+            },
+            "outputs": {},
+            "post_processors": []
+        }
+    },
+    "data_loaders": {
+        "type": "BucketedCONLLLoader",
+        "args": {
+            "annotation_layers": {},
+            "batch_size": 32,
+            "bucket_size": 512,
+            "max_tokens_per_batch": 156800,
+            "num_workers": 2
+        },
+        "paths": {
+            "train": "",
+            "dev": "",
+            "test": ""
+        }
+    },
+    "trainer": {
+        "min_epochs": 15,
+        "max_epochs": 3000,
+        "early_stop": 15,
+        "save_dir": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/trained_models/",
+        "save_period": 20,
+        "verbosity": 2,
+        "validation_criterion": {
+            "metrics": {},
+            "weighting": "multiplicative"
+        },
+        "optimizer": {
+            "type": "AdamW",
+            "args": {
+                "lr": 4e-05,
+                "weight_decay": 0.0
+            }
+        },
+        "lr_scheduler": {
+            "type": "LambdaLR",
+            "args": {
+                "lr_lambda": "SqrtSchedule(400)"
+            }
+        },
+        "loss": {
+            "type": "CrossEntropyLoss",
+            "args": {
+                "ignore_index": -1
+            }
+        },
+        "loss_scaling": {}
+    }
+}

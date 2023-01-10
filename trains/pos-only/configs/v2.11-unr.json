@@ -28,12 +28,13 @@
                         "vocab": {
                             "type": "BasicVocab",
                             "args": {
-                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/pos-only/vocabs/v2.11-unr_pos.vocab"
+                                "vocab_filename": "/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/vocabs/v2.11-unr/pos.vocab"
                             }
                         }
                     }
                 }
-            }
+            },
+            "post_processors": []
         }
     },
 
