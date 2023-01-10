@@ -11,6 +11,8 @@
 log_path=/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/slurm/Logs.txt
 date=$(date)
 echo date: $date >> $log_path
+echo train-type: $1 >> $log_path
+echo treebank: $2 >> $log_path
 echo job: $SLURM_JOB_ID >> $log_path
 echo >> $log_path
 
