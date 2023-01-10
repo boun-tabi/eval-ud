@@ -4,92 +4,133 @@
 
 ### feats_only_baseline
 
-Tag-based scores are from `steps-parser`. Feature-based scores are from `evaluate_feats_piece.py`.
+Tag-based scores (UFeats) are from `steps-parser`. Feature-based scores (IndFeats) are from `evaluate_feats_piece.py`.
 morph script: evaluate_morp_in_conllu.py
 
 #### v2.8
 
 - 1. JOB 202 ; boun_treebank_v2.8/feats_only_baseline/1209_104827 [start datetime] ; 105 mins ; 180 epochs [evaluates from 165th epoch]
-Feature based score: 90.77
-Tag-based score: 92.49
+UFeats: 92.49
+IndFeats: 90.77
 
 - 2. JOB 214 ; epoch 175 ; 103.7 mins ; 1210_162727 ; eval 160 epoch
 morph script accuracy (MSA): 0.92
-Feature based score: 90.90
-Tag-based score: 92.58
+UFeats: 92.58
+IndFeats: 90.90
 
 - 3. JOB 216 ; 169 epochs ; 101 mins ; 1210_201601 ; evaluation epoch 154
-Feature based score: 91.03
-Tag-based score: 92.53
+UFeats: 92.53
+IndFeats: 91.03
 
 - 4. JOB 218 ; epochs 275 ; 160 mins ; 1210_222206 ; eval epoch 260
-Feature based score: 91.22
-Tag-based score: 92.88
+UFeats: 92.88
+IndFeats: 91.22
 
 - 5. JOB 220 ; epoch 168 ; 102 mins ; 1211_101514 ; eval epoch 153
-Feature based score: 90.87
-Tag-based score: 92.39
+UFeats: 92.39
+IndFeats: 90.87
 
 #### v2.8-small
 
 - 1. JOB 611
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+UFeats: 84.22
+IndFeats: 81.57
+
+- 2. JOB 622
+UFeats: 84.73
+IndFeats: 82.47
+
+- 3. JOB 623
+UFeats: 84.21
+IndFeats: 
+
+- 4. JOB 624
+UFeats: 83.61
+IndFeats: 
+
+- 5. JOB 625
+UFeats: 85.36
+IndFeats: 
 
 #### v2.11
 
 - 1. JOB 203 ; boun_treebank_v2.11/feats_only_baseline/1209_142234 ; 63 mins ; 108 epochs [evaluates from 93rd epoch]
-Feature based score: 85.26
-Tag-based score: 82.56
+UFeats: 82.56
+IndFeats: 85.26
 
 - 2. JOB 215 ; 156 epochs ; 88 mins ; 1210_182940 ; 141 eval epoch
-Feature based score: 85.59
-Tag-based score: 82.62
+UFeats: 82.62
+IndFeats: 85.59
 
 - 3. JOB 217 ; 172 epochs ; 98 mins ; 1210_201606 ; evaluation epoch 157
-Feature based score: 85.87
-Tag-based score: 82.86
+UFeats: 82.86
+IndFeats: 85.87
 
 - 4. JOB 219 ; epochs 111 ; 66 mins ; 1210_222209 ; eval epoch 96
-MSA: 0.82
-Feature based score: 85.60
-Tag-based score: 82.57
+UFeats: 82.57
+IndFeats: 85.60
 
 - 5. JOB 221 ; epoch 99 ; 60 mins ; 1211_101517 ; epoch 84 eval
-Feature based score: 84.94
-Tag-based score: 82.31
+UFeats: 82.31
+IndFeats: 84.94
+
+- 6. JOB 632
+UFeats: 82.23
+
+- 7. JOB 633
+UFeats: 82.26
+
+- 8. JOB 634
+UFeats: 82.32
 
 #### v2.11-small
 
 - 1. 592 ; epoch 135 ; 0104_211550 ; 32 mins ; eval epoch 120 ; feats_only_baseline_v2.11-small.sh
 UFeats: 75.67
+IndFeats: 74.39
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 621
+UFeats: 77.20
+IndFeats: 77.12
+
+- 3. JOB 626
+UFeats: 75.42
+
+- 4. JOB 627
+UFeats: 76.81
+
+- 5. JOB 628
+UFeats: 77.08
 
 #### v2.11-unr
 
 - 1. 440 ; epoch 120 ; 1222_222441 ; 68.7 mins ; eval epoch 105
 UFeats: 82.59
+IndFeats: 85.46
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 635
+UFeats: 82.51
+
+- 3. JOB 636
+UFeats: 82.65
+
+- 4. JOB 637
+UFeats: 82.69
+
+- 5. JOB 638
 
 #### v2.11-unr-small
 
 - 1. JOB 612
 UFeats: 76.54
+IndFeats: 75.93
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 639
+UFeats: 75.89
+
+- 3. JOB 640
+- 4. JOB 641
+- 5. JOB 642
 
 ### lemma_only_baseline
 
