@@ -8,16 +8,19 @@
 #SBATCH --mem=40GB
 #SBATCH -t 1-00:00
 
+train_type=$1
+treebank=$2
+
 log_path=/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/slurm/Logs.txt
 date=$(date)
 echo date: $date >> $log_path
-echo train-type: $1 >> $log_path
-echo treebank: $2 >> $log_path
+echo train-type: $train_type >> $log_path
+echo treebank: $treebank >> $log_path
 echo job: $SLURM_JOB_ID >> $log_path
 echo >> $log_path
 
 env
-/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/stepsenv/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/main.py --train-type $1 --treebank $2
+/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/stepsenv/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/main.py --train-type $train_type --treebank $treebank
 /clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/stepsenv/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/$SLURM_JOB_ID.json
 
 RET=$?

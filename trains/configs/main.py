@@ -16,6 +16,9 @@ with open(os.path.join(THIS_DIR, 'vanilla-config.json'), 'r') as f:
 config['experiment'] = args.treebank
 config['name'] = args.train_type
 
+config['train_type'] = args.train_type
+config['treebank'] = args.treebank
+
 repo_path = '/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo'
 
 tb_folder = os.path.join(repo_path, 'trains/tbs', args.treebank)
