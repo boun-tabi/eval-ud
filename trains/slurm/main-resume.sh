@@ -11,14 +11,14 @@
 log_path=/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/slurm/Logs.txt
 date=$(date)
 echo date: $date >> $log_path
-echo train-type: $1 >> $log_path
+echo train-type resume: $1 >> $log_path
 echo treebank: $2 >> $log_path
 echo job: $SLURM_JOB_ID >> $log_path
 echo >> $log_path
 
 env
 python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/main.py --train-type $1 --treebank $2
-python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/$SLURM_JOB_ID.json
+python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/$SLURM_JOB_ID.json --resume $3
 
 RET=$?
 
