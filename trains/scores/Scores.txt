@@ -422,6 +422,7 @@ UAS: 82.48, LAS: 75.52
 UAS: 82.38, LAS: 75.57
 
 - 5. JOB 726
+UAS: 81.99, LAS: 75.18
 
 #### v2.11-unr-small
 
@@ -431,11 +432,14 @@ UAS: 77.01, LAS: 68.78
 - 2. JOB 727
 UAS: 76.73, LAS: 68.50
 
-- 3. JOB
+- 3. JOB 728
+UAS: 76.95, LAS: 68.75
 
-- 4. JOB
+- 4. JOB 729
+UAS: 77.04, LAS: 68.98
 
-- 5. JOB
+- 5. JOB 730
+UAS: 76.78, LAS: 68.48
 
 ### dep-parsing_upos_feats
 
@@ -445,9 +449,12 @@ UAS: 76.73, LAS: 68.50
 Metric: Precision, Recall, F1 Score
 UAS: 81.80, LAS: 75.87
 
-- 2. JOB
-- 3. JOB
+- 2. JOB 731
+
+- 3. JOB 732
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.8-small
