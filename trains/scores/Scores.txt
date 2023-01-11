@@ -2,7 +2,7 @@
 
 ## Types
 
-### feats_only_baseline
+### feats-only
 
 Tag-based scores (UFeats) are from `steps-parser`. Feature-based scores (IndFeats) are from `evaluate_feats_piece.py`.
 morph script: evaluate_morp_in_conllu.py
@@ -119,7 +119,7 @@ UFeats: 76.99, IndFeats:
 - 5. JOB 642
 UFeats: 76.61, IndFeats: 
 
-### lemma_only_baseline
+### lemma-only
 
 _Lemmas_ metric is evaluated with `steps-parser`.
 
@@ -144,8 +144,10 @@ Lemmas: 89.99
 Lemmas: 90.56
 
 - 7. JOB 704 : no limit
+Lemmas: 90.94
 
 - 8. JOB 706 : no limit
+Lemmas: 91.05
 
 - 9. JOB : no limit
 
@@ -194,6 +196,14 @@ Lemmas: 87.91
 - 6. JOB 442 : no epoch limit ; epoch 502 ; 321 mins ; 1223_221657 ; eval epoch 487
 Lemmas: 88.64
 
+- 7. JOB : no limit
+
+- 8. JOB : no limit
+
+- 9. JOB : no limit
+
+- 10. JOB : no limit
+
 #### v2.11-small
 
 - 1. JOB
@@ -220,7 +230,7 @@ Lemmas: 87.99
 - 4. JOB
 - 5. JOB
 
-### pos_only_baseline
+### pos-only
 
 _UPOS_ metric is evaluated with `steps-parser`.
 
@@ -329,7 +339,7 @@ UPOS: 91.20
 - 5. JOB 665
 UPOS: 91.19
 
-### dep_parsing
+### dep-parsing
 
 #### v2.8
 
@@ -374,29 +384,41 @@ UAS: 82.09, LAS: 75.20
 UAS: 82.33, LAS: 75.54
 
 - 3. JOB 712
+UAS: 82.29, LAS: 75.50
 
 - 4. JOB 714
+UAS: 82.19, LAS: 75.32
 
-- 5. JOB
+- 5. JOB 717
 
 #### v2.11-small
 
 - 1. JOB 602 : v2.11-small.sh
 UAS: 76.58, LAS: 68.34
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 718
+UAS: 77.16, LAS: 68.89
+
+- 3. JOB 720
+UAS: 77.22, LAS: 69.17
+
+- 4. JOB 721
+UAS: 76.97, LAS: 68.92
+
+- 5. JOB 722
+UAS: 76.86, LAS: 68.80
 
 #### v2.11-unr
 
 - 1. JOB 508 ; epoch 69 ; 87 mins ; 1227_153224 ; eval epoch 54
 UAS: 82.29, LAS: 75.41
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
+- 2. JOB 723
+
+- 3. JOB 724
+
+- 4. JOB 725
+
 - 5. JOB
 
 #### v2.11-unr-small
@@ -409,7 +431,7 @@ UAS: 77.01, LAS: 68.78
 - 4. JOB
 - 5. JOB
 
-### dep_parsing_upos_feats_MTL
+### dep-parsing_upos_feats
 
 #### v2.8
 
@@ -468,7 +490,7 @@ UAS: 81.38, LAS: 74.32
 - 4. JOB
 - 5. JOB
 
-### dep_parsing_upos_MTL
+### dep-parsing_upos
 
 #### v2.8
 
@@ -530,7 +552,7 @@ UAS: 76.83, LAS: 68.97
 - 4. JOB
 - 5. JOB
 
-### dep_parsing_feats_MTL
+### dep-parsing_feats
 
 #### v2.8
 
@@ -588,7 +610,7 @@ UAS: 81.88, LAS: 75.02
 - 4. JOB
 - 5. JOB
 
-### dep_parsing_lemma_MTL
+### dep-parsing_lemma
 
 #### v2.8
 
@@ -646,7 +668,7 @@ UAS: 81.91, LAS: 75.01
 - 4. JOB
 - 5. JOB
 
-### upos_feats_MTL
+### upos_feats
 
 #### v2.8
 
