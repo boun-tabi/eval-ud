@@ -10,133 +10,114 @@ morph script: evaluate_morp_in_conllu.py
 #### v2.8
 
 - 1. JOB 202 ; boun_treebank_v2.8/feats_only_baseline/1209_104827 [start datetime] ; 105 mins ; 180 epochs [evaluates from 165th epoch]
-UFeats: 92.49
-IndFeats: 90.77
+UFeats: 92.49, IndFeats: 90.77
 
 - 2. JOB 214 ; epoch 175 ; 103.7 mins ; 1210_162727 ; eval 160 epoch
 morph script accuracy (MSA): 0.92
-UFeats: 92.58
-IndFeats: 90.90
+UFeats: 92.58, IndFeats: 90.90
 
 - 3. JOB 216 ; 169 epochs ; 101 mins ; 1210_201601 ; evaluation epoch 154
-UFeats: 92.53
-IndFeats: 91.03
+UFeats: 92.53, IndFeats: 91.03
 
 - 4. JOB 218 ; epochs 275 ; 160 mins ; 1210_222206 ; eval epoch 260
-UFeats: 92.88
-IndFeats: 91.22
+UFeats: 92.88, IndFeats: 91.22
 
 - 5. JOB 220 ; epoch 168 ; 102 mins ; 1211_101514 ; eval epoch 153
-UFeats: 92.39
-IndFeats: 90.87
+UFeats: 92.39, IndFeats: 90.87
 
 #### v2.8-small
 
 - 1. JOB 611
-UFeats: 84.22
-IndFeats: 81.57
+UFeats: 84.22, IndFeats: 81.57
 
 - 2. JOB 622
-UFeats: 84.73
-IndFeats: 82.47
+UFeats: 84.73, IndFeats: 82.47
 
 - 3. JOB 623
-UFeats: 84.21
-IndFeats: 
+UFeats: 84.21, IndFeats: 
 
 - 4. JOB 624
-UFeats: 83.61
-IndFeats: 
+UFeats: 83.61, IndFeats: 
 
 - 5. JOB 625
-UFeats: 85.36
-IndFeats: 
+UFeats: 85.36, IndFeats: 
 
 #### v2.11
 
 - 1. JOB 203 ; boun_treebank_v2.11/feats_only_baseline/1209_142234 ; 63 mins ; 108 epochs [evaluates from 93rd epoch]
-UFeats: 82.56
-IndFeats: 85.26
+UFeats: 82.56, IndFeats: 85.26
 
 - 2. JOB 215 ; 156 epochs ; 88 mins ; 1210_182940 ; 141 eval epoch
-UFeats: 82.62
-IndFeats: 85.59
+UFeats: 82.62, IndFeats: 85.59
 
 - 3. JOB 217 ; 172 epochs ; 98 mins ; 1210_201606 ; evaluation epoch 157
-UFeats: 82.86
-IndFeats: 85.87
+UFeats: 82.86, IndFeats: 85.87
 
 - 4. JOB 219 ; epochs 111 ; 66 mins ; 1210_222209 ; eval epoch 96
-UFeats: 82.57
-IndFeats: 85.60
+UFeats: 82.57, IndFeats: 85.60
 
 - 5. JOB 221 ; epoch 99 ; 60 mins ; 1211_101517 ; epoch 84 eval
-UFeats: 82.31
-IndFeats: 84.94
+UFeats: 82.31, IndFeats: 84.94
 
 - 6. JOB 632
-UFeats: 82.23
+UFeats: 82.23, IndFeats: 
 
 - 7. JOB 633
-UFeats: 82.26
+UFeats: 82.26, IndFeats: 
 
 - 8. JOB 634
-UFeats: 82.32
+UFeats: 82.32, IndFeats: 
 
 #### v2.11-small
 
 - 1. 592 ; epoch 135 ; 0104_211550 ; 32 mins ; eval epoch 120 ; feats_only_baseline_v2.11-small.sh
-UFeats: 75.67
-IndFeats: 74.39
+UFeats: 75.67, IndFeats: 74.39
 
 - 2. JOB 621
-UFeats: 77.20
-IndFeats: 77.12
+UFeats: 77.20, IndFeats: 77.12
 
 - 3. JOB 626
-UFeats: 75.42
+UFeats: 75.42, IndFeats: 
 
 - 4. JOB 627
-UFeats: 76.81
+UFeats: 76.81, IndFeats: 
 
 - 5. JOB 628
-UFeats: 77.08
+UFeats: 77.08, IndFeats: 
 
 #### v2.11-unr
 
 - 1. 440 ; epoch 120 ; 1222_222441 ; 68.7 mins ; eval epoch 105
-UFeats: 82.59
-IndFeats: 85.46
+UFeats: 82.59, IndFeats: 85.46
 
 - 2. JOB 635
-UFeats: 82.51
+UFeats: 82.51, IndFeats: 
 
 - 3. JOB 636
-UFeats: 82.65
+UFeats: 82.65, IndFeats: 
 
 - 4. JOB 637
-UFeats: 82.69
+UFeats: 82.69, IndFeats: 
 
 - 5. JOB 638
-UFeats: 82.33
+UFeats: 82.33, IndFeats: 
 
 #### v2.11-unr-small
 
 - 1. JOB 612
-UFeats: 76.54
-IndFeats: 75.93
+UFeats: 76.54, IndFeats: 75.93
 
 - 2. JOB 639
-UFeats: 75.89
+UFeats: 75.89, IndFeats: 
 
 - 3. JOB 640
-UFeats: 76.89
+UFeats: 76.89, IndFeats: 
 
 - 4. JOB 641
-UFeats: 76.99
+UFeats: 76.99, IndFeats: 
 
 - 5. JOB 642
-UFeats: 76.61
+UFeats: 76.61, IndFeats: 
 
 ### lemma_only_baseline
 
@@ -353,55 +334,55 @@ UPOS: 91.19
 #### v2.8
 
 - 1. JOB 506 ; epoch 82 ; 101 mins ; 1227_153113 ; eval epoch 67
-UAS: 82.51
-LAS: 76.55
+UAS: 82.51, LAS: 76.55
 
 - 2. JOB 683
-UAS: 82.82
-LAS: 76.91
+UAS: 82.82, LAS: 76.91
 
 - 3. JOB 692
-UAS: 82.35
-LAS: 76.31
+UAS: 82.35, LAS: 76.31
 
 - 4. JOB 702
-UAS: 82.62
-LAS: 76.80
+UAS: 82.62, LAS: 76.80
 
 - 5. JOB 703
-UAS: 82.28
-LAS: 76.35
+UAS: 82.28, LAS: 76.35
 
 #### v2.8-small
 
 - 1. JOB 603 : v2.8-small.sh
-UAS: 77.45
-LAS: 69.73
+UAS: 77.45, LAS: 69.73
 
 - 2. JOB 707
+UAS: 78.09, LAS: 70.50
 
 - 3. JOB 708
+UAS: 77.45, LAS: 69.88
 
-- 4. JOB
+- 4. JOB 709
+UAS: 77.50, LAS: 70.27
 
-- 5. JOB
+- 5. JOB 710
+UAS: 77.64, LAS: 70.31
 
 #### v2.11
 
 - 1. JOB 522 ; epoch 76 ; 93 mins ; 1228_043853 ; eval epoch 61
-UAS: 82.09
-LAS: 75.20
+UAS: 82.09, LAS: 75.20
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
+- 2. JOB 711
+UAS: 82.33, LAS: 75.54
+
+- 3. JOB 712
+
+- 4. JOB 714
+
 - 5. JOB
 
 #### v2.11-small
 
 - 1. JOB 602 : v2.11-small.sh
-UAS: 76.58
-LAS: 68.34
+UAS: 76.58, LAS: 68.34
 
 - 2. JOB
 - 3. JOB
@@ -411,8 +392,7 @@ LAS: 68.34
 #### v2.11-unr
 
 - 1. JOB 508 ; epoch 69 ; 87 mins ; 1227_153224 ; eval epoch 54
-UAS: 82.29
-LAS: 75.41
+UAS: 82.29, LAS: 75.41
 
 - 2. JOB
 - 3. JOB
@@ -422,8 +402,7 @@ LAS: 75.41
 #### v2.11-unr-small
 
 - 1. JOB 604 : v2.11-unr-small.sh
-UAS: 77.01
-LAS: 68.78
+UAS: 77.01, LAS: 68.78
 
 - 2. JOB
 - 3. JOB
@@ -436,8 +415,7 @@ LAS: 68.78
 
 - 1. JOB 540, 553 ; epoch 111 ; 1228_093347, 1228_141029 ; ?, 48 mins ; eval epoch 96
 Metric: Precision, Recall, F1 Score
-UAS: 81.80
-LAS: 75.87
+UAS: 81.80, LAS: 75.87
 
 - 2. JOB
 - 3. JOB
@@ -455,8 +433,7 @@ LAS: 75.87
 #### v2.11
 
 - 1. JOB 557 ; epoch 116 ; 1228_151922 ; 189 mins ; eval epoch 101
-UAS: 81.19
-LAS: 74.27
+UAS: 81.19, LAS: 74.27
 
 - 2. JOB
 - 3. JOB
@@ -466,8 +443,7 @@ LAS: 74.27
 #### v2.11-small
 
 - 1. JOB 599 : v2.11-small.sh
-UAS: 75.32
-LAS: 67.14
+UAS: 75.32, LAS: 67.14
 
 - 2. JOB
 - 3. JOB
@@ -477,8 +453,7 @@ LAS: 67.14
 #### v2.11-unr
 
 - 1. JOB 542, 555 ; 161 ; 1228_093425, 1228_151112 ; ?, 128 mins ; eval epoch 146
-UAS: 81.38
-LAS: 74.32
+UAS: 81.38, LAS: 74.32
 
 - 2. JOB
 - 3. JOB
@@ -498,8 +473,7 @@ LAS: 74.32
 #### v2.8
 
 - 1. JOB 558 ; epoch 75 ; 1228_193543 ; 105 mins ; eval epoch 60
-UAS: 82.52
-LAS: 76.53
+UAS: 82.52, LAS: 76.53
 
 - 2. JOB
 - 3. JOB
@@ -509,8 +483,7 @@ LAS: 76.53
 #### v2.8-small
 
 - 1. JOB 605 : v2.8-small.sh
-UAS: 76.68
-LAS: 69.24
+UAS: 76.68, LAS: 69.24
 
 - 2. JOB
 - 3. JOB
@@ -520,8 +493,7 @@ LAS: 69.24
 #### v2.11
 
 - 1. JOB 559 ; epoch 93 ; 133 mins ; 1228_194042 ; eval epoch 78
-UAS: 81.96
-LAS: 75.09
+UAS: 81.96, LAS: 75.09
 
 - 2. JOB
 - 3. JOB
@@ -531,8 +503,7 @@ LAS: 75.09
 #### v2.11-small
 
 - 1. JOB 597 : v2.11-small.sh
-UAS: 76.48
-LAS: 68.37
+UAS: 76.48, LAS: 68.37
 
 - 2. JOB
 - 3. JOB
@@ -542,8 +513,7 @@ LAS: 68.37
 #### v2.11-unr
 
 - 1. JOB 560 ; epoch 92 ; 1228_215014 ; 132 mins ; eval epoch 77
-UAS: 82.06
-LAS: 75.33
+UAS: 82.06, LAS: 75.33
 
 - 2. JOB
 - 3. JOB
@@ -553,8 +523,7 @@ LAS: 75.33
 #### v2.11-unr-small
 
 - 1. JOB 606 : v2.11-unr-small.sh
-UAS: 76.83
-LAS: 68.97
+UAS: 76.83, LAS: 68.97
 
 - 2. JOB
 - 3. JOB
@@ -566,8 +535,7 @@ LAS: 68.97
 #### v2.8
 
 - 1. JOB 561 ; epoch 65 ; 1228_220849 ; 92 mins ; eval epoch 50
-UAS: 82.36
-LAS: 76.32
+UAS: 82.36, LAS: 76.32
 
 - 2. JOB
 - 3. JOB
@@ -585,8 +553,7 @@ LAS: 76.32
 #### v2.11
 
 - 1. JOB 562 ; epoch 43 ; 1229_084615 ; 63 mins ; eval epoch 28
-UAS: 81.78
-LAS: 74.98
+UAS: 81.78, LAS: 74.98
 
 - 2. JOB
 - 3. JOB
@@ -596,8 +563,7 @@ LAS: 74.98
 #### v2.11-small
 
 - 1. JOB 598 : v2.11-small.sh
-UAS: 76.57
-LAS: 68.17
+UAS: 76.57, LAS: 68.17
 
 - 2. JOB
 - 3. JOB
@@ -607,8 +573,7 @@ LAS: 68.17
 #### v2.11-unr
 
 - 1. JOB 563 ; epoch 66 ; 1229_084618 ; 97 mins ; eval epoch 51
-UAS: 81.88
-LAS: 75.02
+UAS: 81.88, LAS: 75.02
 
 - 2. JOB
 - 3. JOB
@@ -628,8 +593,7 @@ LAS: 75.02
 #### v2.8
 
 - 1. JOB 564 ; epoch 99 ; 140 mins ; 1230_154336 ; eval epoch 84
-UAS: 82.25
-LAS: 76.20
+UAS: 82.25, LAS: 76.20
 
 - 2. JOB
 - 3. JOB
@@ -647,8 +611,7 @@ LAS: 76.20
 #### v2.11
 
 - 1. JOB 565 ; epoch 98 ; 144 mins ; 1230_213501 ; eval epoch 83
-UAS: 81.88
-LAS: 75.12
+UAS: 81.88, LAS: 75.12
 
 - 2. JOB
 - 3. JOB
@@ -658,8 +621,7 @@ LAS: 75.12
 #### v2.11-small
 
 - 1. JOB 601 : v2.11-small.sh
-UAS: 76.71
-LAS: 68.40
+UAS: 76.71, LAS: 68.40
 
 - 2. JOB
 - 3. JOB
@@ -669,8 +631,7 @@ LAS: 68.40
 #### v2.11-unr
 
 - 1. JOB 566 ; epoch 69 ; 1230_213505 ; 103 mins ; eval epoch 54
-UAS: 81.91
-LAS: 75.01
+UAS: 81.91, LAS: 75.01
 
 - 2. JOB
 - 3. JOB
@@ -690,7 +651,7 @@ LAS: 75.01
 #### v2.8
 
 - 1. JOB 574 ; epoch 275 ; 0102_092931 ; 212 mins ; eval epoch 260
-UFeats: 87.09
+UFeats: 87.09, IndFeats: 
 
 - 2. JOB
 - 3. JOB
@@ -708,7 +669,7 @@ UFeats: 87.09
 #### v2.11
 
 - 1. JOB 575 ; epoch 118 ; 0102_093057 ; 91 mins ; eval epoch 103
-UFeats: 82.68
+UFeats: 82.68, IndFeats: 
 
 - 2. JOB
 - 3. JOB
@@ -718,7 +679,7 @@ UFeats: 82.68
 #### v2.11-small
 
 - 1. JOB 593 ; epoch 184 ; 0104_211631 ; 40 mins ; eval epoch 169
-UFeats: 77.06
+UFeats: 77.06, IndFeats: 
 
 - 2. JOB
 - 3. JOB
@@ -728,7 +689,7 @@ UFeats: 77.06
 #### v2.11-unr
 
 - 1. JOB 576 ; epoch 161 ; 0102_122824 ; 123 mins ; eval epoch 146
-UFeats: 82.78
+UFeats: 82.78, IndFeats: 
 
 - 2. JOB
 - 3. JOB
