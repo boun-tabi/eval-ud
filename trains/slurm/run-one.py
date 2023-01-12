@@ -1,4 +1,5 @@
 import os, json
+from smtp_gmail import send_finish_email
 
 THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 os.chdir(THIS_DIR)
@@ -11,6 +12,7 @@ conda_path = '/clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains
 
 if len(run_list) == 0:
     print('No more runs to run.')
+    send_finish_email()
     exit(0)
 current_run = run_list[0]
 os.system('sbatch {cp} {cr}'.format(cp=conda_path, cr=current_run))

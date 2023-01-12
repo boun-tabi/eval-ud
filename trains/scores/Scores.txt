@@ -450,49 +450,79 @@ Metric: Precision, Recall, F1 Score
 UAS: 81.80, LAS: 75.87
 
 - 2. JOB 731
+UAS: 82.14, LAS: 75.93
 
 - 3. JOB 732
+UAS: 81.47, LAS: 75.44
 
-- 4. JOB
+- 4. JOB 733
+UAS: 81.50, LAS: 75.39
 
-- 5. JOB
+- 5. JOB 734
+UAS: 81.75, LAS: 75.78
 
 #### v2.8-small
 
-- 1. JOB
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 1. JOB 735
+UAS: 76.21, LAS: 68.54
+
+- 2. JOB 736
+UAS: 76.21, LAS: 68.66
+
+- 3. JOB 737
+UAS: 75.47, LAS: 67.87
+
+- 4. JOB 738
+UAS: 76.52, LAS: 68.73
+
+- 5. JOB 739
+UAS: 76.11, LAS: 68.21
 
 #### v2.11
 
 - 1. JOB 557 ; epoch 116 ; 1228_151922 ; 189 mins ; eval epoch 101
 UAS: 81.19, LAS: 74.27
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 740
+UAS: 80.95, LAS: 74.09
+
+- 3. JOB 741
+UAS: 81.06, LAS: 74.28
+
+- 4. JOB 742
+UAS: 81.11, LAS: 74.31
+
+- 5. JOB 743
+UAS: 81.65, LAS: 74.67
 
 #### v2.11-small
 
 - 1. JOB 599 : v2.11-small.sh
 UAS: 75.32, LAS: 67.14
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
-- 5. JOB
+- 2. JOB 744
+UAS: 74.95, LAS: 66.86
+
+- 3. JOB 745
+UAS: 75.28, LAS: 67.14
+
+- 4. JOB 746
+UAS: 75.35, LAS: 67.25
+
+- 5. JOB 747
+UAS: 74.86, LAS: 66.73
 
 #### v2.11-unr
 
 - 1. JOB 542, 555 ; 161 ; 1228_093425, 1228_151112 ; ?, 128 mins ; eval epoch 146
 UAS: 81.38, LAS: 74.32
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
+- 2. JOB 748
+
+- 3. JOB 749
+
+- 4. JOB 750
+
 - 5. JOB
 
 #### v2.11-unr-small
