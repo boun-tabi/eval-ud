@@ -54,13 +54,13 @@ for i in range(len(gold_sents)):
             p_feat_d[p_tag_t] = p_val_t
         all_feats_s = set(list(g_feat_d.keys()) + list(p_feat_d.keys()))
 
+        feat_count += len(all_feats_s)
         for feat_t in all_feats_s:
-            feat_count += 1
             if feat_t not in feat_count_d.keys():
                 feat_count_d[feat_t] = 0
+            feat_count_d[feat_t] += 1
             if feat_t not in mispred_feat_d.keys():
                 mispred_feat_d[feat_t] = {'all': 0, 'nmatch': 0, 'gnexist': 0, 'pnexist': 0}
-            feat_count_d[feat_t] += 1
             if feat_t in g_feat_d.keys() and feat_t in p_feat_d.keys() and g_feat_d[feat_t] == p_feat_d[feat_t]:
                 pred_correct += 1
             else:
@@ -87,7 +87,7 @@ for feat_t in feat_count_d.keys():
     mispred_d[args.gold][feat_t]['gnexist'] = mispred_feat_d[feat_t]['gnexist'] / feat_count_d[feat_t]
     mispred_d[args.gold][feat_t]['nmatch'] = mispred_feat_d[feat_t]['nmatch'] / feat_count_d[feat_t]
 mispred_d[args.gold]['score'] = pred_correct / feat_count
-with open(os.path.join(THIS_DIR, 'feat_mispred.json'), 'w', encoding='utf-8') as f:
+with open(mispred_path, 'w', encoding='utf-8') as f:
     json.dump(mispred_d, f, ensure_ascii=False, indent=4)
 
 
