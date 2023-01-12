@@ -564,6 +564,7 @@ UAS: 82.06, LAS: 76.13
 UAS: 82.12, LAS: 76.04
 
 - 5. JOB 760
+UAS: 82.32, LAS: 76.24
 
 #### v2.8-small
 
@@ -574,19 +575,25 @@ UAS: 76.68, LAS: 69.24
 UAS: 77.22, LAS: 69.56
 
 - 3. JOB 762
+UAS: 76.77, LAS: 69.29
 
 - 4. JOB 763
+UAS: 77.36, LAS: 69.90
 
-- 5. JOB 764?
+- 5. JOB 764
+UAS: 77.53, LAS: 70.04
 
 #### v2.11
 
 - 1. JOB 559 ; epoch 93 ; 133 mins ; 1228_194042 ; eval epoch 78
 UAS: 81.96, LAS: 75.09
 
-- 2. JOB
-- 3. JOB
-- 4. JOB
+- 2. JOB 765
+
+- 3. JOB 766
+
+- 4. JOB 767
+
 - 5. JOB
 
 #### v2.11-small
@@ -595,8 +602,11 @@ UAS: 81.96, LAS: 75.09
 UAS: 76.48, LAS: 68.37
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr
@@ -605,8 +615,11 @@ UAS: 76.48, LAS: 68.37
 UAS: 82.06, LAS: 75.33
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr-small
@@ -615,8 +628,11 @@ UAS: 82.06, LAS: 75.33
 UAS: 76.83, LAS: 68.97
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 ### dep-parsing_feats
@@ -627,16 +643,23 @@ UAS: 76.83, LAS: 68.97
 UAS: 82.36, LAS: 76.32
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.8-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11
@@ -645,8 +668,11 @@ UAS: 82.36, LAS: 76.32
 UAS: 81.78, LAS: 74.98
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-small
@@ -655,8 +681,11 @@ UAS: 81.78, LAS: 74.98
 UAS: 76.57, LAS: 68.17
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr
@@ -665,16 +694,23 @@ UAS: 76.57, LAS: 68.17
 UAS: 81.88, LAS: 75.02
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 ### dep-parsing_lemma
@@ -685,16 +721,23 @@ UAS: 81.88, LAS: 75.02
 UAS: 82.25, LAS: 76.20
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.8-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11
@@ -703,8 +746,11 @@ UAS: 82.25, LAS: 76.20
 UAS: 81.88, LAS: 75.12
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-small
@@ -713,8 +759,11 @@ UAS: 81.88, LAS: 75.12
 UAS: 76.71, LAS: 68.40
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr
@@ -723,16 +772,23 @@ UAS: 76.71, LAS: 68.40
 UAS: 81.91, LAS: 75.01
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 ### upos_feats
@@ -743,16 +799,23 @@ UAS: 81.91, LAS: 75.01
 UFeats: 87.09, IndFeats: 90.88
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.8-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11
@@ -761,8 +824,11 @@ UFeats: 87.09, IndFeats: 90.88
 UFeats: 82.68, IndFeats: 85.39
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-small
@@ -771,8 +837,11 @@ UFeats: 82.68, IndFeats: 85.39
 UFeats: 77.06, IndFeats: 76.48
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr
@@ -781,14 +850,21 @@ UFeats: 77.06, IndFeats: 76.48
 UFeats: 82.78, IndFeats: 85.64
 
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
 
 #### v2.11-unr-small
 
 - 1. JOB
+
 - 2. JOB
+
 - 3. JOB
+
 - 4. JOB
+
 - 5. JOB
