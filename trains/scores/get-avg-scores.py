@@ -13,10 +13,11 @@ for bl_type in bl_type_l:
     score_l = list()
     for tb_version in tb_version_l:
         metric_l = list(scores_d[bl_type][tb_version].keys())
+        metric_l.remove('jobs')
         score_m_l = list()
         for metric in metric_l:
             scores_l = scores_d[bl_type][tb_version][metric]
-            if len(scores_l) == 0:
+            if len(scores_l) < 5:
                 score_m_l.append('-')
             else:
                 avg_score = sum(scores_l) / len(scores_l)

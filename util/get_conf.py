@@ -96,8 +96,11 @@ for feat_t in feat_l:
 
     # pprint
     board[0][0] = 'G/P'
-    for i in board:
-        for j in i:
-            print(j, end='\t')
+    for i, row in enumerate(board):
+        for j, el in enumerate(row):
+            print(el, end='')
+            if j != len(row) - 1:
+                print('\t', end='')
         print()
-    print('-' * 50)
+    print(',' if i != len(board) - 1 else '', end='')
+    # print('-' * 50)
