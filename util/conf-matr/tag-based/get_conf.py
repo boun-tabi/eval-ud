@@ -19,7 +19,10 @@ with open(pred_filepath, 'r', encoding='utf-8') as f:
 gold_sents = re.findall(gold_sent_pattern, gold_tb, re.DOTALL)
 pred_sents = re.findall(pred_sent_pattern, pred_tb, re.DOTALL)
 
-feat_d = dict()
+pred_correct = 0
+feat_count = 0
+conf_d = dict()
+feat_count_d = dict()
 for i in range(len(gold_sents)):
     g_sent_id, g_text, g_lines_str = gold_sents[i]
     p_lines_str = pred_sents[i]
@@ -43,56 +46,27 @@ for i in range(len(gold_sents)):
             p_feat_d[p_tag_t] = p_val_t
         all_feats_s = set(list(g_feat_d.keys()) + list(p_feat_d.keys()))
 
+        feat_count += len(all_feats_s)
         for feat_t in all_feats_s:
-            if feat_t not in feat_d.keys():
-                feat_d[feat_t] = dict()
-            if feat_t not in g_feat_d.keys():
-                gold_t = '_'
+            if feat_t not in feat_count_d.keys():
+                feat_count_d[feat_t] = 0
+            feat_count_d[feat_t] += 1
+            if feat_t not in conf_d.keys():
+                conf_d[feat_t] = {'all': 0, 'nmatch': 0, 'gnexist': 0, 'pnexist': 0}
+            if feat_t in g_feat_d.keys() and feat_t in p_feat_d.keys() and g_feat_d[feat_t] == p_feat_d[feat_t]:
+                conf_d[feat_t]['all'] += 1
             else:
-                gold_t = g_feat_d[feat_t]
-            if gold_t not in feat_d[feat_t].keys():
-                feat_d[feat_t][gold_t] = dict()
-            if feat_t not in p_feat_d.keys():
-                pred_t = '_'
-            else:
-                pred_t = p_feat_d[feat_t]
-            if pred_t not in feat_d[feat_t][gold_t].keys():
-                feat_d[feat_t][gold_t][pred_t] = 0
-            feat_d[feat_t][gold_t][pred_t] += 1
+                if feat_t not in p_feat_d.keys():
+                    conf_d[feat_t]['pnexist'] += 1
+                elif feat_t not in g_feat_d.keys():
+                    conf_d[feat_t]['gnexist'] += 1
+                elif g_feat_d[feat_t] != p_feat_d[feat_t]:
+                    conf_d[feat_t]['nmatch'] += 1
 
-feat_l = list(feat_d.keys())
-for feat_t in feat_l:
-    print('# ' + feat_t)
-    all_vals = set()
-    val_l = list(feat_d[feat_t].keys())
-    all_vals = all_vals.union(set(val_l))
-    for gold_t in val_l:
-        val_val_l = list(feat_d[feat_t][gold_t].keys())
-        all_vals = all_vals.union(set(val_val_l))
-    all_val_l = list(all_vals)
-    board = [[0 for i in range(len(all_val_l)+1)] for j in range(len(all_val_l)+1)]
-    board[0][1:] = all_val_l
-    for i in range(len(all_val_l)):
-        board[i + 1][0] = all_val_l[i]
-    for i in range(len(board)):
-        for j in range(len(board[i])):
-            if i == 0 or j == 0:
-                continue
-            if board[i][j] == 0:
-                if board[i][0] not in feat_d[feat_t].keys():
-                    board[i][j] = 0
-                elif board[0][j] not in feat_d[feat_t][board[i][0]].keys():
-                    board[i][j] = 0
-                else:
-                    board[i][j] = feat_d[feat_t][board[i][0]][board[0][j]]
-
-    # pprint
-    board[0][0] = 'G/P'
-    for i, row in enumerate(board):
-        for j, el in enumerate(row):
-            print(el, end='')
-            if j != len(row) - 1:
-                print('\t', end='')
-        print()
-    print(',' if i != len(board) - 1 else '', end='')
-    # print('-' * 50)
+for feat_t in conf_d.keys():
+    all_t, nmatch, gnexist, pnexist = conf_d[feat_t]['all'], conf_d[feat_t]['nmatch'], conf_d[feat_t]['gnexist'], conf_d[feat_t]['pnexist']
+    print('# {}'.format(feat_t))
+    print('G/P\t0\t1')
+    print(f'0\t{nmatch}\t{gnexist}')
+    print(f'1\t{pnexist}\t{all_t}')
+    print()
