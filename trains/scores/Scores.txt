@@ -148,9 +148,9 @@ Lemmas: 90.94
 - 8. JOB 706 : no limit
 Lemmas: 91.05
 
-- 9. JOB : no limit
+- 9. JOB 862 : no limit
 
-- 10. JOB : no limit
+- 10. JOB 863 : no limit
 
 #### v2.8-small
 
@@ -195,7 +195,7 @@ Lemmas: 87.91
 - 6. JOB 442 : no epoch limit ; epoch 502 ; 321 mins ; 1223_221657 ; eval epoch 487
 Lemmas: 88.64
 
-- 7. JOB : no limit
+- 7. JOB 864 : no limit
 
 - 8. JOB : no limit
 
@@ -785,6 +785,7 @@ UAS: 82.38, LAS: 76.25
 UAS: 82.28, LAS: 76.05
 
 - 5. JOB 813
+UAS: 82.26, LAS: 76.31
 
 #### v2.8-small
 
@@ -795,61 +796,81 @@ UAS: 76.21, LAS: 68.78
 UAS: 77.58, LAS: 69.96
 
 - 3. JOB 816
+UAS: 77.57, LAS: 69.94
 
 - 4. JOB 817
+UAS: 76.73, LAS: 69.17
 
-- 5. JOB
+- 5. JOB 818
+UAS: 77.72, LAS: 69.90
 
 #### v2.11
 
 - 1. JOB 565 ; epoch 98 ; 144 mins ; 1230_213501 ; eval epoch 83
 UAS: 81.88, LAS: 75.12
 
-- 2. JOB
+- 2. JOB 819
+UAS: 82.06, LAS: 75.07
 
-- 3. JOB
+- 3. JOB 820
+UAS: 81.71, LAS: 74.83
 
-- 4. JOB
+- 4. JOB 821
+UAS: 82.13, LAS: 75.16
 
-- 5. JOB
+- 5. JOB 822
+UAS: 81.79, LAS: 75.09
 
 #### v2.11-small
 
 - 1. JOB 601 : v2.11-small.sh
 UAS: 76.71, LAS: 68.40
 
-- 2. JOB
+- 2. JOB 823
+UAS: 76.97, LAS: 68.71
 
-- 3. JOB
+- 3. JOB 824
+UAS: 76.45, LAS: 68.26
 
-- 4. JOB
+- 4. JOB 825
+UAS: 76.76, LAS: 68.50
 
-- 5. JOB
+- 5. JOB 826
+UAS: 76.90, LAS: 68.62
 
 #### v2.11-unr
 
 - 1. JOB 566 ; epoch 69 ; 1230_213505 ; 103 mins ; eval epoch 54
 UAS: 81.91, LAS: 75.01
 
-- 2. JOB
+- 2. JOB 827
+UAS: 81.83, LAS: 75.02
 
-- 3. JOB
+- 3. JOB 828
+UAS: 82.09, LAS: 75.21
 
-- 4. JOB
+- 4. JOB 829
+UAS: 81.88, LAS: 75.08
 
-- 5. JOB
+- 5. JOB 830
+UAS: 82.15, LAS: 75.16
 
 #### v2.11-unr-small
 
-- 1. JOB
+- 1. JOB 831
+UAS: 76.46, LAS: 68.33
 
-- 2. JOB
+- 2. JOB 832
+UAS: 76.52, LAS: 68.61
 
-- 3. JOB
+- 3. JOB 833
+UAS: 76.63, LAS: 68.53
 
-- 4. JOB
+- 4. JOB 834
+UAS: 76.36, LAS: 68.19
 
-- 5. JOB
+- 5. JOB 835
+UAS: 76.67, LAS: 68.65
 
 ### upos_feats
 
@@ -858,73 +879,98 @@ UAS: 81.91, LAS: 75.01
 - 1. JOB 574 ; epoch 275 ; 0102_092931 ; 212 mins ; eval epoch 260
 UFeats: 87.09, IndFeats: 90.88
 
-- 2. JOB
+"v2.8": {"IndFeats": [90.88, 91.2, 91.08, 90.67], "UFeats": [87.09, 92.76, 92.63, 92.48], "jobs": [574, 836, 837, 838]}
+- 2. JOB 836
+UFeats: 92.76, IndFeats: 91.2
 
-- 3. JOB
+- 3. JOB 837
+UFeats: 92.63, IndFeats: 91.08
 
-- 4. JOB
+- 4. JOB 838
+UFeats: 92.48, IndFeats: 90.67
 
-- 5. JOB
+- 5. JOB 839
+UFeats: 92.64, IndFeats: 91.04
 
 #### v2.8-small
 
-- 1. JOB
+- 1. JOB 840
+UFeats: 83.37, IndFeats: 80.61
 
-- 2. JOB
+- 2. JOB 841
+UFeats: 82.44, IndFeats: 79.18
 
-- 3. JOB
+- 3. JOB 842
+UFeats: 85.20, IndFeats: 82.87
 
-- 4. JOB
+- 4. JOB 843
+UFeats: 84.84, IndFeats: 82.29
 
-- 5. JOB
+- 5. JOB 844
+UFeats: 83.19, IndFeats: 80.80
 
 #### v2.11
 
 - 1. JOB 575 ; epoch 118 ; 0102_093057 ; 91 mins ; eval epoch 103
 UFeats: 82.68, IndFeats: 85.39
 
-- 2. JOB
+- 2. JOB 845
+UFeats: 82.65, IndFeats: 85.79
 
-- 3. JOB
+- 3. JOB 846
 
-- 4. JOB
+- 4. JOB 847
 
-- 5. JOB
+- 5. JOB 848
+UFeats: 81.73, IndFeats: 84.05
 
 #### v2.11-small
 
 - 1. JOB 593 ; epoch 184 ; 0104_211631 ; 40 mins ; eval epoch 169
 UFeats: 77.06, IndFeats: 76.48
 
-- 2. JOB
+- 2. JOB 849
+UFeats: 76.77, IndFeats: 76.49
 
-- 3. JOB
+- 3. JOB 850
+UFeats: 74.81, IndFeats: 73.21
 
-- 4. JOB
+- 4. JOB 851
+UFeats: 73.10, IndFeats: 70.46
 
-- 5. JOB
+- 5. JOB 852
+UFeats: 76.49, IndFeats: 75.26
 
 #### v2.11-unr
 
 - 1. JOB 576 ; epoch 161 ; 0102_122824 ; 123 mins ; eval epoch 146
 UFeats: 82.78, IndFeats: 85.64
 
-- 2. JOB
+- 2. JOB 853
+UFeats: 82.41, IndFeats: 85.14
 
-- 3. JOB
+- 3. JOB 854
+UFeats: 82.38, IndFeats: 85.18
 
-- 4. JOB
+- 4. JOB 855
+UFeats: 82.76, IndFeats: 85.94
 
-- 5. JOB
+- 5. JOB 856
+UFeats: 82.50, IndFeats: 85.63
 
 #### v2.11-unr-small
 
-- 1. JOB
+- 1. JOB 857
+UFeats: 76.66, IndFeats: 75.17
 
-- 2. JOB
+- 2. JOB 858
+UFeats: 76.54, IndFeats: 76.20
 
-- 3. JOB
+- 3. JOB 859
+UFeats: 76.48, IndFeats: 75.68
 
-- 4. JOB
+- 4. JOB 860
+UFeats: 76.54, IndFeats: 74.39
 
-- 5. JOB
+- 5. JOB 861
+UFeats: 76.13, IndFeats: 74.91
