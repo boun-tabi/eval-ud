@@ -69,7 +69,7 @@ for i in range(len(gold_sents)):
             feat_d[feat_t][gold_t][pred_t] += 1
 
 feat_l = list(feat_d.keys())
-for feat_t in feat_l:
+for feat_t in sorted(feat_l):
     print('# ' + feat_t)
     all_vals = set()
     val_l = list(feat_d[feat_t].keys())
@@ -77,7 +77,7 @@ for feat_t in feat_l:
     for gold_t in val_l:
         val_val_l = list(feat_d[feat_t][gold_t].keys())
         all_vals = all_vals.union(set(val_val_l))
-    all_val_l = list(all_vals)
+    all_val_l = sorted(list(all_vals))
     board = [[0 for i in range(len(all_val_l)+1)] for j in range(len(all_val_l)+1)]
     board[0][1:] = all_val_l
     for i in range(len(all_val_l)):
@@ -102,5 +102,6 @@ for feat_t in feat_l:
             if j != len(row) - 1:
                 print('\t', end='')
         print()
-    print(',' if i != len(board) - 1 else '', end='')
+    print()
+    # print(',' if i != len(board) - 1 else '', end='')
     # print('-' * 50)

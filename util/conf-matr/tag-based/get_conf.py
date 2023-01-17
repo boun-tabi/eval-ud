@@ -63,7 +63,8 @@ for i in range(len(gold_sents)):
                 elif g_feat_d[feat_t] != p_feat_d[feat_t]:
                     conf_d[feat_t]['nmatch'] += 1
 
-for feat_t in conf_d.keys():
+tag_l = sorted(list(conf_d.keys()))
+for feat_t in tag_l:
     all_t, nmatch, gnexist, pnexist = conf_d[feat_t]['all'], conf_d[feat_t]['nmatch'], conf_d[feat_t]['gnexist'], conf_d[feat_t]['pnexist']
     print('# {}'.format(feat_t))
     print('G/P\t0\t1')
