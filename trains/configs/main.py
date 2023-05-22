@@ -35,6 +35,7 @@ feats_on = False
 lemma_on = False
 pos_on = False
 deps_on = False
+form_on = False
 aux_l = list()
 target = str()
 
@@ -76,6 +77,19 @@ elif args.train_type == 'upos_feats':
     pos_on = True
     aux_l = ['upos']
     target = 'ufeats'
+elif args.train_type == 'feats_lemma':
+    feats_on = True
+    lemma_on = True
+    aux_l = ['ufeats']
+    target = 'lemma'
+elif args.train_type == 'form':
+    form_on = True
+    deps_on = True
+    pos_on = True
+    feats_on = True
+    lemma_on = True
+    aux_l = ['upos', 'ufeats', 'lemma', 'heads', 'labels']
+    target = 'form'
 
 if feats_on:
     config['model']['args']['outputs']['ufeats'] = { 'type': 'SequenceTagger', 'args': { 'hidden_size': 0, 'input_dropout': 0.2, 'vocab': { 'type': 'BasicVocab', 'args': { 'vocab_filename': os.path.join(vocab_folder, 'feats.vocab') } } } }
@@ -92,6 +106,9 @@ if deps_on:
     config['data_loaders']['args']['annotation_layers']['heads'] = { 'type': 'TagSequence', 'source_column': 6, 'args': { 'ignore_root': True } }
     config['data_loaders']['args']['annotation_layers']['labels'] = { 'type': 'DependencyMatrix', 'source_column': [6, 7], 'args': { 'ignore_non_relations': True } }
     config['model']['args']['post_processors'] = [ { 'type': 'FactorizedMSTPostProcessor', 'args': { 'annotation_ids': [ 'heads', 'labels' ] } } ]
+if form_on:
+    config['model']['args']['outputs']['form'] = { 'type': 'SequenceTagger', 'args': { 'hidden_size': 0, 'input_dropout': 0.2, 'vocab': { 'type': 'BasicVocab', 'args': { 'vocab_filename': os.path.join(vocab_folder, 'form.vocab') } } } }
+    config['data_loaders']['args']['annotation_layers']['form'] = { 'type': 'TagSequence', 'source_column': 1, 'args': { 'ignore_root': True } }
 
 if target == 'ufeats':
     config['trainer']['validation_criterion']['metrics'] = { 'ufeats': 'fscore' }
@@ -101,6 +118,8 @@ elif target == 'lemma':
     config['trainer']['validation_criterion']['metrics'] = { 'lemma': 'fscore' }
 elif target == 'dep':
     config['trainer']['validation_criterion']['metrics'] = { 'heads': 'fscore', 'labels': 'fscore' }
+elif target == 'form':
+    config['trainer']['validation_criterion']['metrics'] = { 'form': 'fscore' }
 
 for aux in aux_l:
     config['trainer']['loss_scaling'][aux] = 'lambda epoch: 0.05'

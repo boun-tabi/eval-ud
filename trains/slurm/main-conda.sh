@@ -20,8 +20,8 @@ echo job: $SLURM_JOB_ID >> $log_path
 echo >> $log_path
 
 env
-/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/stepsenv/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/main.py --train-type $train_type --treebank $treebank
-/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/stepsenv/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/$SLURM_JOB_ID.json
+/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/steps-parser/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/main.py --train-type $train_type --treebank $treebank
+/clusterusers/furkan.akkurt@boun.edu.tr/.conda/envs/steps-parser/bin/python3 /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/steps-parser/src/train.py /clusterusers/furkan.akkurt@boun.edu.tr/eval-ud/gitlab-repo/trains/configs/$SLURM_JOB_ID.json
 
 RET=$?
 
