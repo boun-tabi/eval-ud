@@ -6,7 +6,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=furkanakkurt9285@gmail.com
 #SBATCH --mem=40GB
-#SBATCH -t 1-00:00
+#SBATCH -t 14-00:00
 
 train_type=$1
 treebank=$2
