@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "boun-treebank-evaluation"
+version = "0.1.0"
+description = ""
+authors = ["Onur Gungor <onurgu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "boun_treebank_evaluation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.188"
+openai = "^0.27.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
