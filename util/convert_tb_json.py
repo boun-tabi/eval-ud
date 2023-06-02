@@ -1,27 +1,37 @@
 import argparse, os, re, json
 
-THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-
 parser = argparse.ArgumentParser()
-parser.add_argument('--treebank', action="store", required=True)
+parser.add_argument('-t', '--treebank', type=str, required=True)
 args = parser.parse_args()
 
-tb_type_l = ['dev', 'test', 'train']
+THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+HOME_DIR = os.path.expanduser('~')
+repo_path = os.path.join(HOME_DIR, 'eval-ud/gitlab-repo')
+data_path = args.treebank
+data_files = [os.path.join(data_path, f) for f in os.listdir(data_path) if f.endswith('.conllu')]
 
-tb_folderpath = args.treebank
-tb_files = [os.path.join(tb_folderpath, i) for i in os.listdir(tb_folderpath) if i.endswith('.conllu')]
-sentence_pattern = r'# sent_id = (.*?)\n# text = (.*?)\n(.*?)\n\n'
-tb_d = dict()
-for file in tb_files:
-    with open(file, 'r', encoding='utf-8') as f:
-        tb = f.read()
-    sentences = re.findall(sentence_pattern, tb, re.DOTALL)
+data_l = []
+md_pattern = '#(.+)=(.+)'
+annotation_pattern = '(.+\t){9}.+'
+for f in data_files:
+    with open(f, 'r') as f:
+        content = f.read()
+    sents = content.split('\n\n')
+    for sent in sents:
+        lines = sent.split('\n')
+        d_t = {}
+        for i, line in enumerate(lines):
+            md_match = re.match(md_pattern, line)
+            if md_match:
+                field = md_match.group(1).strip()
+                value = md_match.group(2).strip()
+                d_t[field] = value
+            annotation_match = re.match(annotation_pattern, line)
+            if annotation_match:
+                annotation = '\n'.join(lines[i:])
+                d_t['table'] = annotation
+                break
+        data_l.append(d_t)
 
-    for sentence in sentences:
-        sent_id, text, annotation = sentence
-        if sent_id in tb_d.keys():
-            print('Duplicate sent_id:', sent_id)
-        tb_d[sent_id] = {'text': text, 'annotation': annotation}
-
-with open(os.path.join(tb_folderpath, 'tb.json'), 'w', encoding='utf-8') as f:
-    json.dump(tb_d, f, ensure_ascii=False)
+with open(os.path.join(data_path, 'treebank.json'), 'w', encoding='utf-8') as f:
+    json.dump(data_l, f, ensure_ascii=False, indent=4)
