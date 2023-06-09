@@ -1,14 +1,16 @@
 import time
 import experiment01_prompts
 
-from util import create_llm_chain, read_file_and_take_N_samples
+from util import create_llm_chain, read_file_and_take_N_samples, experiment01_sample_creator_function
 
 def run_experiment_01(n_samples=1, output_filename="experiment1_output.tsv"):
 
     llm_chain = create_llm_chain(experiment01_prompts.template)
 
     results = []
-    samples = read_file_and_take_N_samples("tr_boun-ud-train-211.conllu.txt", n_samples=n_samples)
+    samples = read_file_and_take_N_samples("tr_boun-ud-train-211.conllu.txt", 
+                                           sample_creator_function=experiment01_sample_creator_function,
+                                           n_samples=n_samples)
     for sample in samples:
         print(sample.original)
         print(sample.hidden)

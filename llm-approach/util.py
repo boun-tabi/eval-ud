@@ -1,8 +1,12 @@
+from collections import namedtuple
 import json
+from typing import Callable
 
 from langchain import LLMChain, PromptTemplate
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
+
+ConlluSample = namedtuple("ConlluSample", ["sent_id", "text", "original", "hidden"])
 
 def ornek_cumleler():
     with open("ornek-cumleler.json", "r") as f:
@@ -42,12 +46,16 @@ def create_llm_chain(template):
     return llm_chain
 
 
-def read_file_and_take_N_samples(filepath, n_samples=10) -> list[ConlluSample]:
+def read_file_and_take_N_samples(filepath: str, 
+                                 sample_creator_function: Callable[[str, int], list], 
+                                 n_samples=10) -> list[ConlluSample]:
 
+    samples = sample_creator_function(filepath, n_samples)
+    return samples
+
+def experiment01_sample_creator_function(filepath: str, n_samples: int) -> list[ConlluSample]:
     samples = []
-
     with open(filepath, "r", encoding="utf-8") as f:
-        
         line = f.readline()
         while line:
             print(line.strip())
@@ -82,6 +90,33 @@ def read_file_and_take_N_samples(filepath, n_samples=10) -> list[ConlluSample]:
             line = f.readline()
             if len(samples) == n_samples:
                 break
+    return samples
+
+
+def experiment02_sample_creator_function(filepath: str, n_samples: int) -> list:
+    """
+    task: Enforce LLm to create an output for each word
+    """
+    samples = experiment01_sample_creator_function(filepath, n_samples)
+
+    return samples
+
+
+def experiment03_sample_creator_function(filepath: str, n_samples: int) -> list:
+    """
+    task: Enforce LLm to create an output for each word
+    """
+    samples = experiment01_sample_creator_function(filepath, n_samples)
+
+    return samples
+
+
+def experiment04_sample_creator_function(filepath: str, n_samples: int) -> list:
+    """
+    task: Enforce LLm to create an output for each word
+    """
+    samples = experiment01_sample_creator_function(filepath, n_samples)
+
     return samples
 
 
