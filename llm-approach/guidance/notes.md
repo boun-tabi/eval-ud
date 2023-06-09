@@ -33,3 +33,5 @@ The following is an annotation of a Turkish sentence in CoNLL-U format.
 3       hava    hava    NOUN    _       Number=Sing     4       compound        _       _       _       _       _       _  __       _       SpaceAfter=No   null    AUX     Zero    Number=Plur|Person=1|Polarity=Pos|Tense=Pres    2       cop     _  _
 4       çok     çok     ADV     _       _       0       root    _       _       sıcak   ADJ     _       Degree=Pos      4  advmod   _       _       .       PUNCT   Stop    _      2       punct   _       SpacesAfter=\n
 ```
+
+It generated more than what I asked for.
