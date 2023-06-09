@@ -27,7 +27,7 @@ table_l = first_table.split('\n')
 for i, row in enumerate(table_l):
     fields = row.split('\t')
     id_t, form, lemma = fields[0], fields[1], fields[2]
-    fields[1] = '{{gen ' + '\'' + id_t + '\' pattern=\'' + lemma + '\w*\'}}'
+    fields[1] = '{{gen ' + '\'' + id_t + '\'}}'
     table_l[i] = '\t'.join(fields)
 
 input = """The following is an annotation of a Turkish sentence in CoNLL-U format.
