@@ -1,4 +1,4 @@
-example_input=""""
+example_input="""
 # sent_id = ins_833
 # text = HIDDEN
 1 HIDDEN 1936 NUM Year Case=Nom|Number=Sing|Person=3 2 nmod:poss _ _
