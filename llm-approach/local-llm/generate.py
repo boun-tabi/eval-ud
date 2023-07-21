@@ -3,11 +3,10 @@ from transformers import GenerationConfig, LlamaForCausalLM, LlamaTokenizer
 from typing import List, Optional
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from langchain.llms.base import LLM
-from utils.prompter import Prompter
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--base_model", type=str, required=True)
-parser.add_argument("--lora_weights", type=str)
+parser.add_argument('--base_model', type=str, required=True)
+parser.add_argument('--lora_weights', type=str)
 args = parser.parse_args()
 
 base_model = args.base_model
@@ -19,16 +18,16 @@ else:
 
 load_8bit = False
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 tokenizer = LlamaTokenizer.from_pretrained(base_model)
 
-if device == "cuda":
+if device == 'cuda':
     model = LlamaForCausalLM.from_pretrained(
         base_model,
         load_in_8bit=load_8bit,
         torch_dtype=torch.float16,
-        device_map="auto",
+        device_map='auto',
     )
     if lora_weights:
         model = PeftModel.from_pretrained(
@@ -38,13 +37,13 @@ if device == "cuda":
         )
 else:
     model = LlamaForCausalLM.from_pretrained(
-        base_model, device_map={"": device}, low_cpu_mem_usage=True
+        base_model, device_map={'': device}, low_cpu_mem_usage=True
     )
     if lora_weights:
         model = PeftModel.from_pretrained(
             model,
             lora_weights,
-            device_map={"": device},
+            device_map={'': device},
         )
 
 model.config.pad_token_id = tokenizer.pad_token_id = 0  # unk
@@ -52,7 +51,7 @@ model.config.bos_token_id = 1
 model.config.eos_token_id = 2
 
 model.eval()
-if torch.__version__ >= "2" and sys.platform != "win32":
+if torch.__version__ >= '2' and sys.platform != 'win32':
     model = torch.compile(model)
 
 def evaluate(
@@ -64,8 +63,8 @@ def evaluate(
     max_new_tokens=128,
     **kwargs,
 ):
-    inputs = tokenizer(prompt, return_tensors="pt")
-    input_ids = inputs["input_ids"].to(device)
+    inputs = tokenizer(prompt, return_tensors='pt')
+    input_ids = inputs['input_ids'].to(device)
     generation_config = GenerationConfig(
         temperature=temperature,
         top_p=top_p,
@@ -89,7 +88,7 @@ def evaluate(
 class CustomLLM(LLM):
     @property
     def _llm_type(self) -> str:
-        return "custom"
+        return 'custom'
 
     def _call(
         self,
@@ -98,20 +97,18 @@ class CustomLLM(LLM):
         run_manager: Optional[CallbackManagerForLLMRun] = None,
     ) -> str:
         if stop is not None:
-            raise ValueError("stop kwargs are not permitted.")
+            raise ValueError('stop kwargs are not permitted.')
         return evaluate(prompt)
 
 llm = CustomLLM()
 
-prompter = Prompter()
+instruction = 'Write a poem about a llama.'
+print('Initial instruction: ', instruction)
+input = 'Llamas are cute.'
+print('Initial input: ', input)
 
-instruction = "Write a poem about a llama."
-print("Initial instruction: ", instruction)
-input = "Llamas are cute."
-print("Initial input: ", input)
-
-prompt = prompter.generate_prompt(instruction, input)
-print("Generated Prompt:", prompt)
+prompt = '\n'.join([instruction, input])
+print('Generated Prompt:', prompt)
 
 response = llm(prompt)
-print("Response: ", response)
+print('Response: ', response)
