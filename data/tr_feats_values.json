@@ -1,0 +1,173 @@
+{
+  "Animacy": {
+    "phrase": "animacy",
+    "values": {
+      "Anim": "animate",
+      "Inan": "inanimate",
+      "Hum": "human",
+      "Nhum": "non-human"
+    }
+  },
+  "Aspect": {
+    "phrase": "aspect",
+    "values": {
+      "Imp": "imperfect aspect",
+      "Perf": "perfect aspect",
+      "Prog": "progressive aspect",
+      "Hab": "habitual aspect (new proposal)",
+      "Rapid": "rapid sudden action (new proposal)",
+      "Dur": "durative aspect (new proposal)",
+      "Prosp": "prospective aspect"
+    }
+  },
+  "Case": {
+    "phrase": "case",
+    "values": {
+      "Nom": "nominative / direct",
+      "Acc": "accusative",
+      "Dat": "dative",
+      "Gen": "genitive",
+      "Loc": "locative",
+      "Ins": "instrumental",
+      "Abl": "ablative",
+      "Equ": "equative"
+    }
+  },
+  "Definite": {
+    "phrase": "definiteness or state",
+    "values": {
+      "Ind": "indefinite",
+      "Def": "definite"
+    }
+  },
+  "Degree": {
+    "phrase": "degree of comparison",
+    "values": {
+      "Cmp": "comparative, second degree",
+      "Sup": "superlative, third degree"
+    }
+  },
+  "Gender": {
+    "phrase": "gender",
+    "values": {
+      "Masc": "masculine gender",
+      "Fem": "feminine gender",
+      "Neut": "neuter gender",
+      "Com": "common gender"
+    }
+  },
+  "Mood": {
+    "phrase": "mood",
+    "values": {
+      "Ind": "indicative",
+      "Gen": "generalized modality",
+      "Imp": "imperative",
+      "Prs": "persuasive (new, not in UD)",
+      "Opt": "optative",
+      "Nec": "necessitative",
+      "NecPot": "necessitative potential",
+      "GenNec": "general or hypothetical necessitative",
+      "GenNecPot": "general or hypothetical necessitative potential",
+      "Pot": "potential",
+      "PotPot": "potential expressed twice",
+      "GenPot": "general or hypothetical potential",
+      "GenPotPot": "generallized modality and potential expressed twice",
+      "CndGenPot": "conditional predicate with generallized modality and potential",
+      "Cnd": "conditional",
+      "CndGen": "general (non-past) conditional",
+      "CndPot": "conditional potential",
+      "Des": "desiderative",
+      "DesPot": "desiderative potential"
+    }
+  },
+  "Number": {
+    "phrase": "number",
+    "values": {
+      "Sing": "singular number",
+      "Plur": "plural number"
+    }
+  },
+  "NumType": {
+    "phrase": "numeral type",
+    "values": {
+      "Card": "cardinal number or corresponding interrogative",
+      "Ord": "ordinal number or corresponding interrogative",
+      "Dist": "distributive numeral"
+    }
+  },
+  "Person": {
+    "phrase": "person",
+    "values": {
+      "1": "first person",
+      "2": "second person",
+      "3": "third person"
+    }
+  },
+  "Polarity": {
+    "phrase": "whether the word can be or is negated",
+    "values": {
+      "Pos": "positive, affirmative",
+      "Neg": "negative"
+    }
+  },
+  "Poss": {
+    "phrase": "possessive",
+    "values": {
+      "Yes": "it is possessive"
+    }
+  },
+  "PronType": {
+    "phrase": "pronominal type",
+    "values": {
+      "Prs": "personal",
+      "Rcp": "reciprocal pronoun",
+      "Int": "interrogative pronoun, determiner, numeral or adverb",
+      "Dem": "demonstrative pronoun",
+      "Ind": "indefinite pronoun",
+      "Loc": "locative pronoun",
+      "Neg": "negative determiner or pronoun",
+      "Art": "article"
+    }
+  },
+  "Reflex": {
+    "phrase": "reflexive",
+    "values": {
+      "Yes": "it is reflexive"
+    }
+  },
+  "Tense": {
+    "phrase": "tense",
+    "values": {
+      "Past": "past tense",
+      "Fut": "future tense",
+      "Pres": "present tense",
+      "Pqp": "pluperfect"
+    }
+  },
+  "VerbForm": {
+    "phrase": "form of verb or deverbative",
+    "values": {
+      "Conv": "converb",
+      "Fin": "finite verb",
+      "Part": "participle",
+      "Vnoun": "verbal noun"
+    }
+  },
+  "Voice": {
+    "phrase": "voice",
+    "values": {
+      "Pass": "passive voice",
+      "PassPass": "double passive voice",
+      "PassRfl": "combination of passive and reflexive voices",
+      "PassRcp": "combination of passive and reciprocal voices",
+      "Rcp": "reciprocal voice",
+      "Cau": "causative voice",
+      "CauCau": "double causative voice",
+      "CauPass": "passive causative voice",
+      "CauCauPass": "passive causative causative voice",
+      "CauRcp": "causative reciprocal voice",
+      "CauPassRcp": "causative reciprocal passive voice",
+      "Rfl": "reflexive voice"
+    }
+  }
+}
