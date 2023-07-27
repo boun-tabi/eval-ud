@@ -1,4 +1,10 @@
 {
+  "Abbr": {
+    "phrase": "abbreviation",
+    "values": {
+      "Yes": "it is abbreviation"
+    }
+  },
   "Animacy": {
     "phrase": "animacy",
     "values": {
@@ -14,9 +20,9 @@
       "Imp": "imperfect aspect",
       "Perf": "perfect aspect",
       "Prog": "progressive aspect",
-      "Hab": "habitual aspect (new proposal)",
-      "Rapid": "rapid sudden action (new proposal)",
-      "Dur": "durative aspect (new proposal)",
+      "Hab": "habitual aspect",
+      "Rapid": "rapid sudden action",
+      "Dur": "durative aspect",
       "Prosp": "prospective aspect"
     }
   },
@@ -47,6 +53,13 @@
       "Sup": "superlative, third degree"
     }
   },
+  "Evident": {
+    "phrase": "evidentiality",
+    "values": {
+      "Fh": "firsthand",
+      "Nfh": "non-firsthand"
+    }
+  },
   "Gender": {
     "phrase": "gender",
     "values": {
@@ -62,7 +75,7 @@
       "Ind": "indicative",
       "Gen": "generalized modality",
       "Imp": "imperative",
-      "Prs": "persuasive (new, not in UD)",
+      "Prs": "persuasive",
       "Opt": "optative",
       "Nec": "necessitative",
       "NecPot": "necessitative potential",
@@ -104,9 +117,9 @@
     }
   },
   "Polarity": {
-    "phrase": "whether the word can be or is negated",
+    "phrase": "polarity",
     "values": {
-      "Pos": "positive, affirmative",
+      "Pos": "positive",
       "Neg": "negative"
     }
   },
@@ -145,7 +158,7 @@
     }
   },
   "VerbForm": {
-    "phrase": "form of verb or deverbative",
+    "phrase": "verb form",
     "values": {
       "Conv": "converb",
       "Fin": "finite verb",

@@ -1,6 +1,4 @@
-import os, json, argparse, time, experiment04_prompts
-from langchain import LLMChain, PromptTemplate
-from langchain.chat_models import ChatOpenAI
+import os, json, argparse, openai
 
 template="""The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 5 words.
 
@@ -18,18 +16,13 @@ Adeta kendimden geçmiş bir haldeyim.
 
 Now, analyze the following test example and try to find the surface text of the sentence. It has {word_count} words.
 
-{test_input}
-"""
+{test_input}"""
 
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(THIS_DIR, 'openai.json')) as f:
     openai_d = json.load(f)
-chat_llm = ChatOpenAI(temperature=0.7, model_name='gpt-3.5-turbo', openai_api_key=openai_d['key'])
-llm_chain = LLMChain(
-        llm=chat_llm,
-        prompt=PromptTemplate.from_template(template)
-    )
+openai.api_key = openai_d['key']
 
 data_dir = os.path.join(THIS_DIR, '../data')
 with open(os.path.join(data_dir, 'tr_feats_values.json'), 'r', encoding='utf-8') as f:
@@ -110,8 +103,14 @@ for i, example in enumerate(treebank_data[30:]):
     if word_count < 5:
         continue
     prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
-    output = llm_chain({'word_count': word_count, 'test_input': '\n'.join(prompt_l)})
-    output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': output})
+    completion = openai.ChatCompletion.create(
+        model='gpt-3.5-turbo',
+        messages=[
+            {'role': 'system', 'content': 'You are a helpful assistant.'},
+            {'role': 'user', 'content': prompt}
+        ]
+    )
+    output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
     with open(os.path.join(output_dir, 'experiment06_output-{}.json'.format(version)), 'w', encoding='utf-8') as f:
         json.dump(output_l, f, ensure_ascii=False, indent=4)
     asked_count += 1
