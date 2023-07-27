@@ -37,10 +37,10 @@ def find_an_example_and_strip_form(example_id):
             line = f.readline()
 
 def create_llm_chain(template):
-    chat_lmm = ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo")
+    chat_llm = ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo")
 
     llm_chain = LLMChain(
-        llm=chat_lmm,
+        llm=chat_llm,
         prompt=PromptTemplate.from_template(template)
     )
     return llm_chain
