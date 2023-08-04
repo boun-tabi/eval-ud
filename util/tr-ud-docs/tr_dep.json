@@ -1,0 +1,190 @@
+{
+  "'obl": {
+    "shortdef": "oblique nominal modifier indicating the causee of a causative predicate",
+    "content": "This subtype of obl is used for marking the performer of the real action, \"causee\", in a causative predicate.\nThe subject of the causative predicate is the actor who causes the action to be taken.\nOccasionally the performer of the action is also included in the phrase/sentence, and it is useful to mark it.\nThe causee is predictable for intransitive verbs,\nsince it is the object of the causative predicate.\nFor transitive verbs, it is often marked with dative Case,\nbut it is ambiguous as a dative nominal modifier also has the function of marking the \"beneficiary\" (and possibly others).\n\nAnnesi bebeği uyuttu . \\n Her mother caused the baby to sleep (=put the baby to sleep)\nobl:cau(uyuttu, bebeği)\nnsubj(uyuttu, Annesi)\n\nÖğretmen kitabı Ali'ye okuttu . \\n The teacher caused (made) Ali to read the book\nobl:cau(okuttu, Ali'ye)\nnsubj(okuttu, Öğretmen)\n\nNote that the above is ambiguous.\nIt may also mean \"The teacher made someone to read the book to/for Ali\".\nIn that case plain obl should be used."
+  },
+  "discourse": {
+    "shortdef": "discourse element",
+    "content": "This is used for interjections and other discourse particles and elements\n(which are not clearly linked to the structure of the sentence, except in an expressive way).\n\nEvet , bugün geldim . \\n Yes, I arrived today .\ndiscourse(geldim, Evet)\n\nAferin , okumuşsun . \\n Well done! You must have read it.\ndiscourse(okumuşsun, Aferin)\n\nPeki , kitabı okudun mu ? \\n OK, have you read the book?\ndiscourse(okudun, Peki)\n\nOkudu mu acaba ? \\n Did he\\/she read (I wonder) ?\ndiscourse(Okudu, acaba)\n\nÇabuk okusa bari . \\n I wish he reads quickly 'bari'\ndiscourse(okusa, bari)"
+  },
+  "aux": {
+    "shortdef": "auxiliary",
+    "content": "Use of aux relation is incosistent across different Turkish  UD\ntreebank, the information below is out of date, and may not reflect the actual use.\n\nAn auxiliary of a clause is a non-main verb of the clause.\n\nIn Turkish two verbs, ol- and, in formal registers, bulun,\ncomplement the main verb with additional tense/aspect/modality suffixes\nthat cannot be attached to the main verb due to morphological restrictions\n(or sometimes stylistic reasons).\n\nThe auxiliary use of ol- is different than its use as a copula,\nwhere the cop relation is used.\n\nWe use a subtype of aux, aux:q, question particle mi.\n\nYarın çalışıyor olacak . \\n He\\/she will be working tomorrow\naux(çalışıyor, olacak)\n\nOkumuş olsa bilirdi . \\n He would know if he had read (it) .\naux(Okumuş, olsa)\n\nSorumluluğu almış bulunduk . \\n He have taken the responsibility\naux(almış, bulunduk)\n\nWe also use aux in case bound auxiliary -abil is separated from the main verb.\n\nGöremeye de bilirdin . \\n You might have also not seen it \naux(Göremeye, bilirdin)"
+  },
+  "appos": {
+    "shortdef": "appositional modifier",
+    "content": "An appositional modifier of a noun is a nominal immediately following\nthe first noun that serves to define or modify that noun. It includes\nparenthesized examples, as well as defining abbreviations in one of\nthese structures.\n\nAli , en iyi arkadaşım , beni partiye davet etmedi . \\n Ali, my best friend, did not invite me to the party .\nappos(Ali, arkadaşım)\n\nDevlet Tiyatroları ( DT ) \\n State Theatre ( DT )\nappos(Tiyatroları, DT)\n\nappos is also used to link key-value pairs in addresses, signatures,\netc. (see also the list label):\n\nAli Yılmaz ,  tel : 555-55-55 , email : ali@example.com\nname(Ali, Yılmaz)\nlist(Ali, tel)\nlist(Ali, email)\nappos(tel, 555-55-55)\nappos(email, ali@example.com)"
+  },
+  "parataxis": {
+    "shortdef": "parataxis",
+    "content": "The parataxis relation is a relation between the main verb of a clause and other sentential elements, \nsuch as a sentential parenthetical, a clause after a “:” or a “;”, \nor two sentences placed side by side without any explicit coordination or subordination.\n\nSabah , babam diyor ki , erken kalkacakmışız . \\n In the morning, my father says, we have to get up early\nparataxis(kalkacakmışız, diyor)\n\nKitabı okudun , değil mi ? \\n You read the book , aren't you ?\nparataxis(okudun, değil)"
+  },
+  "csubj": {
+    "shortdef": "clausal subject",
+    "content": "A clausal subject is a clausal syntactic subject of a clause,\ni.e., the subject is itself a clause.\n\nKitabı okumanız gerek . \\n You need to read the book (You reading the book is necessary)\ncsubj(gerek, okumanız)\n\nKitabı okumak gerek . \\n You need to read the book (Reading the book is necessary)\ncsubj(gerek, okumak)\n\nİyi ki okumuşsun . \\n Good that you have read (that you read it is good)\ncsubj(İyi, okumuşsun)"
+  },
+  "case": {
+    "shortdef": "case marking",
+    "content": "The case relation is used for any case-marking element which is\ntreated as a separate syntactic word (including prepositions,\npostpositions, and clitic case markers). Case-marking elements are\ntreated as dependents of the noun or clause they attach to.\n\nIn Turkish, case marking is typically done through suffixation,\nin which case the case-marked word will carry the appropriate Case feature.\nThe case relation marks postpositions,\nand some of the case-like suffixes that are tokenized as separate syntactic tokens (inflectional groups).\n\nBu kitabı annem için aldım . \\n I bought this book for my mother\ncase(annem, için)\n\nÖğleden sonra dersim var . \\n I have a class after noon (=in the afternoon)\ncase(Öğleden, sonra)\n\nİkiye kadar bunu bitirmem gerek \\n I need to finish this until\\/by two\ncase(İkiye, kadar)\n\nSiyah saç –lı kız \\n The girl with black hair\ncase(saç, –lı)\n\nArabada –ki kız \\n The girl in the car\ncase(Arabada, –ki)\n\nIf the head is a clause,\nmark is used for cross-linguistic parallelism.\n\nAnnem gelinceye kadar bunu bitirmem gerek \\n I need to finish this until my mother arrives\nmark(gelinceye, kadar)\n\nFor postpositions derived from nouns with possessive suffixes,\nnmod:poss relation is used.\nIn this case, the head is the derived postposition.\n\nAğaçların arasında kayboldular . \\n They disappeared between the trees\nnmod:poss(arasında, Ağaçların)\n\ntahminimizin üzerinde \\n above our prediction\nnmod:poss(üzerinde, tahminimizin)\n\niniş sırasında \\n during landing\nnmod:poss(sırasında, iniş)"
+  },
+  "cop": {
+    "shortdef": "copula",
+    "content": "A copula is the relation between a subject complement and a copular verb or copular suffix.\nWe always mark copula as dependent of the subject complement.\n\nThe main means of forming copular constructions, however, is through\nthe bound morpheme -(y),\nand (infrequently) its clitic form i-.\nSince the morpheme -(y) consists only of a \"buffer\" consonant,\nin some morphological contexts, it is not realized.\n\nCopular morphemes carry features, e.g., Number, Person,\nthat may conflict with the complement they are attached to.\nFurthermore, the copular suffixes can also attach to verbal nouns,\ncausing conflicting dependency relations besides more feature conflicts.\nAs a result, all copular markers, \nexectp the \"zero copula\", are considered as separate syntactic tokens.\n\nGüzel idi . (He\\/she\\/it) was beautiful\ncop(Güzel, idi)\n\nGüzel –di . (He\\/she\\/it) was beautiful\ncop(Güzel, –di)\n\nGüzel –im . \\n I am beautiful\ncop(Güzel, –im)\n\nWhen an overt subject is present,\nit is headed by the subject complement (not the copula).\n\nKitap güzel –di . \\n The book was nice\\/beautiful \ncop(güzel, –di)\nnsubj(güzel, Kitap)\n\nIn Turkish, the auxiliary verba ol-,\nand to a lesser extent, bulun-\nmay act like a copula.\ncurrently, they are treated as main verbs rather than copula\n(see the discussion in \nspecific syntactic constructions)."
+  },
+  "'nmod": {
+    "shortdef": "possessive nominal modifier",
+    "content": "This subtype of nmod is used in (genitive-)possessive constructions.\nTypically, the head of the construction is a possessive noun phrase,\nand the dependent can be either in nominative or genitive case.\n\nAli'nin kitabı   \\n Ali's book\nnmod:poss(kitabı, Ali'nin)\n\nSabah kahvesi \\n Morning coffee\nnmod:poss(kahvesi, Sabah)"
+  },
+  "obj": {
+    "shortdef": "direct object",
+    "content": "The direct object of a verb is the noun phrase that denotes the entity\nacted upon.\n\nIn Turkish, direct objects typically take\neither nominative (unmarked), or accusative cases.\nAn object can also be in ablative case if only part of it is \naffected by the predeicate (see below for an example).\nWe do not mark arguments of verbs in other cases with obj,\nthe obl relation is used for any \"non-core\" arguments and adjuncts.\n\nHafta sonları kitap okurum . \\n I read (books) during weekends\nobj(okurum, kitap)\n\nKitabı okudum . \\n I read the book.\nobj(okudum, Kitabı)\n\npastadan yedim \\n I ate (some of) the cake\nobj(yedim, pastadan)\n\nNote that the above differs from, e.g.,\ntabaktan yedim \"I ate from the plate\",\nwhere relation should be obl.\n\nWe also mark the non-case marked or accusative noun phrases as obj\neven if they are not the entities that are acted upon.\n\nDün 10 kilometre koştum . \\n I ran 10 kilometers yesterday\nobj(koştum, kilometre)\n\nDün 10 kilometreyi 35 dakikada koştum . \\n  Yesterday, I ran 10 kilometers in 35 minutes\nobj(koştum, kilometreyi)"
+  },
+  "vocative": {
+    "shortdef": "vocative",
+    "content": "The vocative relation is used to mark dialogue participant addressed in text.\nThe relation links the addressee’s name to its host sentence.\n\nAli , gel . \\n Ali, come here!\nvocative(gel, Ali)"
+  },
+  "'aux": {
+    "shortdef": "question particle",
+    "content": "This is a subtype of aux, used for question particle -mI (mı/mi/mu/mü).\n\nThe question particle, when attached to a predicate,\ntypically carries some of the tense/aspect/modality suffixes as well as person/number agreement suffixes.\n\nAlthough it does not function as an auxiliary when attached to non-predicate words or phrases,\nwe use aux:q for all uses of the question particle.\n\nOkuyacak mısınız ? \\n Are you going to read ?\naux:q(Okuyacak, mısınız)\n\nKitabı Ali'den aldın mı ? \\n Did you take the book from Ali ?\naux:q(aldın, mı)\n\nKitabı Ali'den mi aldın ? \\n Did you take the book from Ali ?\naux:q(Ali'den, mi)\n\nKitabı mı Ali'den aldın ? \\n Did you take the book from Ali ?\naux:q(Kitabı, mı)"
+  },
+  "acl": {
+    "shortdef": "clausal modifier of noun",
+    "content": "acl stands for finite and non-finite clauses that modify a nominal. \nThe head of the acl relation is the noun that is modified, \nand the dependent is the head of the clause that modifies the noun.\n\nLike non-clausal adjectives, most adjectival clauses in Turkish precede the noun they modify.\nThe only exception is the adjectival clauses formed by ki\nthat is similar to English relative pronouns \"which\" or \"who\"\n(not to be confused by suffix -ki).\n\nThe primary means of subordination, including forming adjectival clauses,\nis through the subordinating suffixes attached to the head of the subordinate clause.\nThe adjectival clauses formed by -ki is not as frequent and cover only a limited range uses of adjectival clauses.\n\nAli'nin okuduğu kitap \\n The book that Ali is reading\nacl(kitap, okuduğu)\n\nAli , ki çok kitap okur , henüz son kitabını okumamış. \\n Ali, who reads a lot, hasn't read your last book yet\nacl(Ali, okur)\nmark(okur, ki)\n\nAlmost all adjectival clauses in Turkish are relative clauses.\nThere are only a few marginal constructions where a pronoun referring to the modified noun can be present in the subordinate clause.\n\nAli , ki onu\\/kendisini üç gündür görmüyorduk , evde kitap okuyormuş \\n Ali, who we haven't been seeing (him\\/himself) for three days, has apparently been reading books at home\nacl(Ali, görmüyorduk)\nmark(görmüyorduk, ki)\n\nWe currently do not mark (non-)relative clauses differently."
+  },
+  "compound": {
+    "shortdef": "compound",
+    "content": "The compound relation is one of three relations\nfor multi-word expressions (MWEs) (the other two being fixed and flat).\n\nIn Turkish compound relation is used mainly noun-verb compounds, and numbers.\nFor light-verb constructions we use the subtype compoun:lvc,\nand for reduplicated compounds we use compound:redup.\n\nÇocuğu yoldan çıkarmış .\ncompound(çıkarmış, yoldan)\n\ncompound is also used for numbers, where head is the right-most number.\n\niki yüz bin lira \\n two hundred thousand liras\ncompound(bin, iki)\ncompound(bin, yüz)\nnummod(lira, bin)\n\nFor non-lexicalized (non-MWE) nominal modification,\ne.g., tahta kapı \"wood(en) door\", nmod relation is used."
+  },
+  "'csubj": {
+    "shortdef": "clausal passive subject",
+    "content": "A clausal passive subject is a clausal syntactic subject of a passive clause.\n\nDüya dönmüyor deniyordu . \\n It was said \"the earth is not rotating\"\ncsubj:pass(deniyordu, dönmüyor)\n\nDünyanın dön –düğü biliniyor . \\n (The fact that) the earth is rotating is known\ncsubj:pass(biliniyor, –düğü)\n\nBiliniyor ki dünya dönüyor . \\n It is known that the earth is rotating\ncsubj:pass(Biliniyor, dönüyor)"
+  },
+  "nmod": {
+    "shortdef": "nominal modifier",
+    "content": "The nmod relation is used for nominal modifiers\nof another noun or noun phrase.\n\nThe nmod relation is further specified by\nthe Case feature or case relation.\n\nçelik kapı \\n steel door\nnmod(kapı, çelik)\n\nTürk mühendisler \\n Turkish engineers\nnmod(mühendisler, Türk)\n\nresim –li kitap \\n (the\\/a) book with illustrations\nnmod(kitap, resim)\ncase(resim, –li)\n\nücret –siz hizmet \\n (the\\/a) service without fee (free service)\nnmod(hizmet, ücret)\ncase(ücret, –siz)\n\nFor possessive constructions we use nmod:poss."
+  },
+  "orphan": {
+    "shortdef": "remnant in ellipsis",
+    "content": "The orphan relation is used to provide a satisfactory treatment of certain instances of ellipsis.\n\nAli kitap , Ahmet gazete okudu . \\n Ahmet read newspapers, Ali books.\nnsubj(okudu, Ahmet)\ndobj(okudu, gazete)\nconj(okudu, Ali)\norphan(Ali, kitap)"
+  },
+  "'dep": {
+    "shortdef": "derivational suffix",
+    "content": "Turkish has two types of -ki suffix: Pronominal -ki and\nAdjectival -ki. The main difference between these two\nis the fact that numerous inflectional morphemes can occur\nbefore adjectival -ki. Regarding derivational morphemes as\nopaque causes a loss of significant information. Hence \nsplitting adjectival -ki from its stem allows more in-depth\nannotations. \n\nWe use dep:der relation to connect the splitted adjectival\n-ki to its stem:\nThe stem hosting adjectival -ki is annotated as a NOUN,\nadjectival -ki is connected to the stem as its dependent.\n\nMağazalardaki elbiseleri gördüm . \\n I saw the dresses at stores\ndep:der(ki, Mağazalar)\n\nSendeki kitabı bilmiyorum . \\n I don't know the book you have\ndep:der(ki, Sende)\n\nReferences\nHankamer, Jorge. An ad-phrasal affix in Turkish. \nMIT Working Papers in Linguistics 46 (2004): 289-299."
+  },
+  "ccomp": {
+    "shortdef": "clausal complement",
+    "content": "A clausal complement of a predicate is a dependent clause which is\na core argument.\nThat is, it functions like an object of the predicate.\n\nccomp is used only for direct clausal objects,\ni.e., clauses headed by (non-finite)  verbal nouns\nin accusative or nominative Case.\nOther clausal arguments in are marked using advcl relation.\n\nSonunda \" artık yeter \" dedi . \\n Finally, he said \" that's enough \" .\nccomp(dedi, yeter)\n\nSevmiyorum demedim . \\n I did not say I don't like it .\nccomp(demedim, Sevmiyorum)\n\nSevmediğimi söylemedim . \\n I did not that I don't like it .\nccomp(söylemedim, Sevmediğimi)\n\nYarın gelecek sanıyordum . \\n I thought he'd come tomorrow\nccomp(sanıyordum, gelecek)\n\nSanıyordum ki yarın gelecek . \\n I thought he'd come tomorrow\nccomp(Sanıyordum, gelecek)\nmark(gelecek, ki)\n\nYarın gelecek diye biliyordum . \\n I knew (as if) she'd come tomorrow .\nccomp(biliyordum, gelecek)\nmakr(gelecek, diye)\n\nSee also xcomp."
+  },
+  "iobj": {
+    "shortdef": "indirect object",
+    "content": "We do not use the dependency label iobj.\n\nTODO: link to argument/adjunct discussion.\n\nAlper bana iki elma verdi . \\n Alper gave me two apples .\niobj(verdi, bana)\niobj(gave, bana)"
+  },
+  "'obj": {
+    "shortdef": "direct object of an intransitive causative verb",
+    "content": "This is a subtype of obj.\nWe mark direct objects of causative voice intransitive verbs with this subtype,\nsince the interpretation is different in comparison to a direct object of a non-causative verb.\nIn general, if the verb is intransitive, direct object indicates the \"causee\",\nthe subject of the content verb, or the entity that performs the action.\nIf the verb is transitive the direct object is the entity that is acted upon as in the non-causative case (see nmod:cau).\n\nAnnesi bebeği giydirdi . \\n His mother dressed (caused to dress) the baby\nobj:cau(giydirdi, bebeği)\n\nBebek herkesi sevindirdi . \\n The baby causes everyone to be happy\nobj:cau(sevindirdi, herkesi)\n\nÖğretmen dersi kolaylaştırdı . \\n The teacher made the course easier\nobj:cau(kolaylaştırdı, dersi)"
+  },
+  "'compound": {
+    "shortdef": "light verb construction",
+    "content": "This subtype of compound covers light verbs.\nIn a  light-verb construction the verb that does not have much semantic content.\nThe semantics of the construction is determined by the non-head word,\noften a noun or adjective.\n\nOnlar treni tercih ediyor . \\n The prefer the train .\ncompound:lvc(ediyor, tercih)\nobj(ediyor, treni)\nsubj(ediyor, Onlar)\n\nMost common verbs that act like as a light verb is et-.\nHowever, many other are possible.\n\nYıllarca çile çektiler . \\n They suffered for years .\ncompound:lvc(çektiler, çile)\n\nAlthough the semantically loaded component of a light-verb construction is\ngenerally an adjective or a noun,\nit is common to observe verbs in this position particularly in code-switching settings.\n\nPartiyi  cancel ettik . \\n We canceled the party\ncompound:lvc(ettik, cancel)"
+  },
+  "root": {
+    "shortdef": "root",
+    "content": "The root grammatical relation points to the root of the sentence.\nA fake node \"ROOT\" is used as the governor.\nThe ROOT node is indexed with \"0\", since the indexation of real words in the sentence starts at 1.\n\nROOT Neslihan ağlıyor . \\n Neslihan is crying .\nroot(ROOT, ağlıyor)\n\nROOT Aslı yemek yemek istiyor . \\n Aslı wants to eat .\nroot(ROOT, istiyor)\n\nROOT Ali'nin kitabı  \\n Ali's book\nroot(ROOT, kitap)"
+  },
+  "reparandum": {
+    "shortdef": "overridden disfluency",
+    "content": "We use reparandum to indicate disfluencies overridden in a speech repair.\nThe disfluency is the dependent of the repair.\n\nSağa– sola dön . \\n Turn right- left .\nnmod(dön, sola)\nreparandum(sola, Sağa–)"
+  },
+  "'flat": {
+    "shortdef": "foreign words",
+    "content": "We use foreign to label sequences of foreign words.\nThese are given a linear analysis: the head is the first token in the foreign phrase.\n\nDiplomat ve uzmanlarla off the record görüşmeler yaptım . \\n I had off the record interviews with diplomats and experts .\namod(görüşmeler, off)\nflat:foreign(off, the)\nflat:foreign(off, record)"
+  },
+  "conj": {
+    "shortdef": "conjunct",
+    "content": "A conjunct is the relation between two elements connected by a\ncoordinating conjunction, such as and, or, etc. \n\nFollowing general UD guidelines, the first conjunct is the head\nof the construction.\nAll other conjuncts depend on it via the conj relation.\n\nBir kız , iki erkek çocukları var . \\n They have one girl and two boys.\nconj(kız, erkek)\n\nFilm siyah beyaz . \\n The movie is black and white\nconj(siyah, beyaz)\n\nAyşe'yle Ali kavga ediyoralardı . \\n Ayşe and Ali were fighting .\nconj(Ayşe'yle, Ali)\n\nAyşe , Ali ve beni davet etmedi . \\n He\\/she did not invite Ayşe , Ali and me .\nconj(Ayşe, Ali)\nconj(Ayşe, beni)\ncc(beni, ve)\npunct(Ali, ,-2)\n\nYa Ayşe , ya Ali , ya da  beni davet etmeliydi . \\n He\\/she should have invited either Ayşe , Ali or me .\nconj(Ayşe, Ali)\nconj(Ayşe, beni)\ncc(beni, ya-7)\ncc(Ali, ya-4)\ncc(Ayşe, Ya-1)\nfixed(ya-7, da)\n\nSee the relation cc for a few more examples."
+  },
+  "list": {
+    "shortdef": "list",
+    "content": "The list relation is used for chains of comparable items. In lists with more than two items, all items of the list should modify the first one. Informal and web text often contains passages which are meant to be interpreted as lists but are parsed as single sentences. Email signatures often contain these structures, in the form of contact information: the different contact information items are labeled as list; the key-value pair relations are labeled as appos.\n\nAli Yılmaz ,  tel : 555-55-55 , email : ali@example.com\nname(Ali, Yılmaz)\nlist(Ali, tel)\nlist(Ali, email)\nappos(tel, 555-55-55)\nappos(email, ali@example.com)"
+  },
+  "nsubj": {
+    "shortdef": "nominal subject",
+    "content": "A nominal subject is a noun phrase which is the syntactic subject of a clause. \n\nAli okuyor \\n Ali is reading\nnsubj(okuyor, Ali)\n\nnsubj is also used for subjects of  adjectival or nominal predicates.\n\nAli doktor \\n Ali is a doctor\nnsubj(doktor, Ali)\n\nKitap kalın \\n The book is thick\nnsubj(kalın, Kitap)\n\nFor existential sentences, \"the thing that exists\" is the subject.\nThis includes possessive existentials.\n\nÜç kitap var \\n There are three books\nnsubj(var, kitap)\n\nBenim üç kitabım var \\n I have three books\nnsubj(var, kitabım)\n\nnsubj (without a subtype) is also used\nfor the grammatical subject of a passivized verb.\nThe subtype nsubj:pass is not used.\n\nKitap okundu \\n The book was read\nnsubj(okundu, Kitap)\n\nNote that csubj relation used for clausal subjects,\neven those with a the verbal noun head."
+  },
+  "'discourse": {
+    "shortdef": "discourse particle for questions",
+    "content": "Turkish employs mI (mi, mı, mu, mü) clitics for question \nformation. In contrast to other Turkic languages, question \nclitics in Turkish don't bear sentential stress and can occur \nin different syntactic positions in the sentence without\nrendering it ungrammatical. mI clitic is often preceded\nby the clause being in question.\n\nThe question clitic, when attached to a predicate, typically \ncarries some of the tense/aspect/modality morphemes as well \nas person/number agreement morphemes.\n\nThe main motivation behind introducing this dependency\nrelation is ensuring the linguistic accuracy of annotations.\n\nSen bugün Ayşe'yi mi gördün ? \\n Did you see Ayşe today ?\ndiscourse:q(mi, Ayşe'yi)\n\nSen bugün mü gördün Ayşe'yi ? \\n Did you see Ayşe today ?\ndiscourse:q(mü, bugün)\n\nÇayını içtin mi ? \\n Did you drink your tea ?\ndiscourse:q(mi, içtin)"
+  },
+  "'advmod": {
+    "shortdef": "emphasizing word, intensifier",
+    "content": "This is a subtype of  advmod. \nIt used for (non-clausal) modifiers that emphasize or intensify their heads.\n\nÇok da güzel bir kızmış \\n She was (apparently) a very (very) beautiful girl.\nadmod:emph(Çok, da)\nadmod(güzel, Çok)\n\nGüzel mi güzel bir kız \\n A very (very,very) beautiful girl\nadvmod:emph(Güzel-1, mi)\n\nİlk kitabı bile okumamış \\n He (apparently) hasn't read even the book\nadmod:emph(kitabı, bile)"
+  },
+  "nummod": {
+    "shortdef": "numeric modifier",
+    "content": "A numeric modifier of a noun is any number phrase that serves to modify the meaning of the noun with a quantity.\n\nÜç kitap aldım \\n I bought three books\nnummod(kitap, Üç)\n\nÜçüncü kitabı da bitirdim . \\n I finished third book as well\nnummod(kitap, Üçüncü)\n\nÜçer kitap aldık . \\n We boot three books each\nnummod(kitap, Üçer)\n\n1500 lira harcadı \\n He\\/she spent 1500 liras\nnummod(lira, 1500)"
+  },
+  "goeswith": {
+    "shortdef": "goes with",
+    "content": "This relation links two parts of a word that are separated in text that is not well edited. \nThe head is in some sense the \"main\" part, often the second part.\n\nBu kitap hiç bir işe yaramaz . \\n This book is worth nothing.\ngoeswith(bir, hiç)\ndet(bir)"
+  },
+  "cc": {
+    "shortdef": "coordinating conjunction",
+    "content": "A cc is the relation between the first conjunct and the coordinating conjunction delimiting another conjunct.\n\nSee the conj relation, for more information.\nPunctuation that delimit the conjuncts are indicated with punct relation.\n\nElma ve armut aldık . \\n We both apples and oranges .\ncc(armut, ve)\nconj(Elma, armut)\n\nGeldiler ve film başladı . \\n They arrived and the movie started.\ncc(başladı, ve)\nconj(Geldiler, başladı)\n\nOkudum ama hiçbirşey anlamadım . \\n I read it but I did not understand anything\ncc(anlamadım, ama)\nconj(Okudum, anlamadım)\n\nAli ile Ayşe'yi gördüm .  \\n I saw Ali and Ayşe\nconj(Ali, Ayşe'yi)\ncc(Ayşe'yi, ile)\n\nNote that in instrumental or commutative usage of ile the relation case is used.\n\nYa Ayşe ya Ali oradadır . \\n Either Ayşe or Ali would be there .\ncc(Ali, ya-3)\ncc(Ayşe, Ya-1)\nconj(Ayşe, Ali)\n\nNe Ayşe ne Ali geldi . \\n Neither Ayşe nor Ali came .\ncc(Ali, ne-3)\ncc(Ayşe, Ne-1)\nconj(Ayşe, Ali)\n\nAlmak isterim de çok pahalı . \\n I want to buy but it is too expensive\ncc(pahalı, de)\nconj(isterim, pahalı)\n\nA coordinating conjunction at the beginning of a sentence,\neven there is no conj is also called cc.\n\nVe film başladı . \\n And, the movie started.\ncc(başladı, Ve)"
+  },
+  "dep": {
+    "shortdef": "unspecified dependency",
+    "content": "A dependency is labeled as dep when a system is unable to determine a more precise dependency relation between two words.\n\nWe currently do not use the dep label.\n\na. Oraya gitmiş olabilir. \\n a. S/he may have gone there .\ndep(a, gitmiş)"
+  },
+  "mark": {
+    "shortdef": "marker",
+    "content": "A marker is the subordinating conjunction introducing a finite clause subordinate to another clause.\nThe mark is a dependent of the subordinate clause head.\n\nMost subordinate clauses in Turkish are introduced by morphological means.\nHowever, there are also a few words that introduce subordinate clauses,\nand should be indicated by mark relation.\n\nOkusun diye kitaplar aldım . \\n I bought books for him to read .\nmark(Okusun, diye)\n\nOkudum ki öğreneyim . \\n I read in order to learn.\nmark(öğreneyim, ki)\n\nBaşladın mı ,  gerisi gelir. \\n Once you start, the rest would follow\nmark(Başladın, mı)\n\nOkudum da anladım . \\n I understood by reading\nmark(Okudum, da)\n\nFollowing universal guidlienes mark \nis also used adpositions that attach to verbal nouns.\nFor example, although the the adposiotn  kadar below\ndoes not introduce subordination,\nbut specifies the case of the resulting verbal noun\n(the construction is paralel to\nGül kadar güzel mi? \"is it as beatiful as a rose\",\nwhere case is used),\nmark is used for cross-linguistic compatibility.\n\nGöründüğü kadar güzel mi ? \\n Is it as good as it looks?\nmark(Göründüğü, kadar)\n\nmark is also used for a few redundant markers (mostly borrowings),\nsuch as eğer and şayet.\n\nEğer okumazsan , öğrenemezsin \\n If you do not read you cannot learn\nmark(okumazsan, Eğer)\nadvcl(öğrenemezsin, okumazsan)"
+  },
+  "det": {
+    "shortdef": "determiner",
+    "content": "The relation determiner (det) holds between a nominal head and its determiner.\n\nGüzel bir kitap okudum . \\n I read a nice book\ndet(kitap, bir)\namod(kitap, Güzel)\n\nBu kitabı okumalısın . \\n You should read this book\ndet(kitabı, Bu)\n\nBütün kitapları okudu . \\n (He\\/she) have read all books\ndet(kitapları, Bütün)\n\nHangi kitabı okudun ? \\n Which book did you read\ndet(kitabı, Hangi)"
+  },
+  "flat": {
+    "shortdef": "name",
+    "content": "flat is one of the relations for multi-word expressionsin UD (together with compound and fixed).\nIn Turkish it is used for names, and foreign phrases.\n\nMustafa Kemal\nflat(Mustafa, Kemal)\n\nSimilar to some other treebanks, e.g.,  Czech, \nwe use nmod for titles and honorifics.\n\nGazi Mustafa Kemal\nflat(Mustafa, Kemal)\nnmod(Mustafa, Gazi)\n\nMahmut öğretmen\nnmod(Mahmut, öğretmen)\n\nNames that have a regular syntactic structure, should be annotated\nwith regular syntactic relations.\n\nVan Gölü\nnmod(Gölü, Van)\n\nMavi Marmara\namod(Marmara, Mavi)\n\nTürkiye Büyük Millet Meclisi\nnmod(Meclisi, Millet)\namod(Meclisi, Büyük)\nnmod(Meclisi, Türkiye)\n\nForeign language expressions are also annotated with flat.\n\nplay maker olmak istiyorum\nflat(play, maker)"
+  },
+  "'advcl": {
+    "shortdef": "conditional adverbial clause modifier",
+    "content": "This relation is not used in UD v2. Documentation is kept as reference.\n\nThis relation is a subtype of advcl.\nIt is used for conditional clauses.\n\nKitabı okusaydın anlardın . \\n You would understand if you had read the book\nadvcl:cond(anlardın, okusaydın)\n\nIn Turkish conditional clauses are formed by a verbal inflection on the head of the clause. \nThere are also two redundant words, eğer and şayet that may be included at the beginning or end of the phrase.\nUse of these words are only for emphasis or an early signal that a conditional clause follows.\nWe use discourse (not mark) for marking the relation between these words and head of the conditional clause."
+  },
+  "advmod": {
+    "shortdef": "adverbial modifier",
+    "content": "An adverbial modifier of a word is a (non-clausal) adverb\nor adverbial phrase that serves to modify the meaning of the word.\n\nNote that nouns in particular morphological cases,\nor followed by an adposition are marked\nusing obl even if they function as adverbial modifiers.\n\nÇok iyi bir kitap \\n A very good book\nadvmod(iyi, Çok)\n\nSürekli konuşuyorlar \\n They are talking continuously\nadvmod(konuşuyorlar, Sürekli)\n\nWe use a special label, tr-dep/advmod:emph for adverbial modifiers that are used for emphasis.\n\nNegation\n\nIn UD v1, there was a special relation neg. In UD v2, advmod is used in its place.\nThe negation modifier is the relation between a negation word and the word it modifies.\n\nIn Turkish, negation is typically done through suffixation.\nWe use advmod only if the non-predicative use of  the word değil.\n\nElma değil , armut al demiştim . \\n I asked for pears, not for apples.\nadvmod(Elma, değil)\n\nEn büyüğünü al dedim, küçük değil . \\n I told you to get the biggest\nnot small(est)\nadvmod(küçük, değil)\n\nDeğil üniversite , orta okulu bile bitirmemiş . \\n Let alone the university, he did not even finish the secondary school\nadvmod(üniversite, Değil)"
+  },
+  "'nsubj": {
+    "shortdef": null,
+    "content": "The dependency type nsubj:cop is used for the nominal subject\nof a copular clause. The predicative is the head of the copular\nclause, and also the governor of the nsubj:cop dependency.\n\nMatto on jo kuiva . \\n The_mat is already dry .\nnsubj:cop(kuiva-4, Matto-1)\ncop(kuiva-4, on-2)\nadvmod(kuiva-4, jo-3)\npunct(kuiva-4, .-5)"
+  },
+  "advcl": {
+    "shortdef": "adverbial clause modifier",
+    "content": "An adverbial clause modifier is a clause which modifies\na verb or other predicate (adjective, etc.),\nas a modifier not as a core complement. \nThis includes things such as a temporal clause,\nconsequence, conditional clause, purpose clause, etc.\nThe dependent must be clausal (or else it is an advmod)\nand the dependent is the main predicate of the clause.\n\nTurkish adverbial clauses are mainly formed through morphological inflections.\n\nAli gelince sevindi . \\n He\\/she became happy when Ali arrived\nadvcl(sevindi, gelince)\n\nOkurken uyuyakalmışım . \\n I fell asleep while reading\nadvcl(uyuyakalmışım, Okurken)\n\nKitabı okusaydın anlardın . \\n You would understand if you had read the book\nadvcl(anlardın, okusaydın)\n\nThe subordinator ki and a few other subordinating words may also form adverbial clauses.\n\nBu kitabı sen de okursun diye aldım \\n I bought this book so that you would read it too\nadvcl(aldım, okursun)\nmark(okursun, diye)\n\nBu kitabı aldım ki sen de okuyasın \\n I bought this book so that you would read it too\nadvcl(aldım, okuyasın)\nmark(okuyasın, ki)\n\nBu kitabı okudun mu herşeyi anlayacaksın \\n You will understand everything once you have read this book\nadvcl(anlayacaksın, okudun)\nmark(okudun, mu)"
+  },
+  "fixed": {
+    "shortdef": "multi-word expression",
+    "content": "The multi-word expression (modifier) relation is one of the three relations (compound, fixed, flat) for compounding.\nIt is used for certain fixed grammaticalized expressions that behave like function words or short adverbials.\n\nWe use fixed for some non-productive MWEs such as eski pusku, paldır küldür.\nFor productive reduplication, including m-reduplication compound:redup should be used.\n\nUfak tefek bir çocuk  \\n A little child\nfixed(Ufak, tefek)\namod(çocuk, Ufak)\n\nA few fixed-like MWEs are analyzed as usual.\n\nAli ya da Ahmet  \\n Ali or Ahmet\nadvmod:emph(ya, da)\n\nBir tek Ali okumamış . \\n Only Ali did not read\ndet(Ali, bir)\ndet(Ali, tek)"
+  },
+  "obl": {
+    "shortdef": "oblique argument or adjunct",
+    "content": "The obl relation is used for oblique nominal arguments and adjuncts\nof verbs, adjectives or adverbs.\nThe obl relation is further specified\nby the Case feature or case relation.\n\nTypically, argument with non-accusative case marking are obl.\n\n~~~ conllu\nI read the book on the plane\n1\tKitabı\tkitap\tNOUN\t_\tCase=Acc\t3\tobj\n2\tuçakta\tuçak\tNOUN\t_\tCase=Loc\t3\tobl\n3\tokudum\toku\tVERB\t_\tNumber=Sing|Person=1|Tense=Past\t0\troot\n~~~\n\n~~~ conllu\nI read the book with glasses\n1\tKitabı\tkitap\tNOUN\t_\tCase=Acc\t3\tobj\n2\tgözlükle\tgözlük\t_\tNOUN\tCase=Ins\t3\tobl\n3\tokudum\toku\tVERB\t_\tNumber=Sing|Person=1|Tense=Past\t0\troot\n~~~\n\n~~~ conllu\nI read the book out of curiosity\n1\tKitabı\tkitap\tNOUN\tNOUN\tCase=Acc\t3\tobj\n2\tmeraktan\tmerak\tNOUN\tNOUN\tCase=Abl\t3\tobl\n3\tokudum\toku\tVERB\tVERB\tNumber=Sing|Person=1|Tense=Past\t0\troot\n~~~\n\n~~~ conllu\nI read the book to the children\n1\tKitabı\tkitap\tNOUN\tNOUN\tCase=Acc\t3\tobj\n2\tçocuklara\tçocuk\tNOUN\tNOUN\tCase=Dat\t3\tobl\n3\tokudum\toku\tVERB\tVERB\tNumber=Sing|Person=1|Tense=Past\t0\troot\n~~~"
+  },
+  "punct": {
+    "shortdef": "punctuation",
+    "content": "This is used for any piece of punctuation in a clause. See\nu-dep/punct for details.\n\nKitabı okudum . \\n I read the book\npunct(okudum, .)"
+  },
+  "xcomp": {
+    "shortdef": "open clausal complement",
+    "content": "An open clausal complement of a predicate is\na predicative or clausal complement without its own subject.\nThe reference of the subject is necessarily determined\nby an argument external to the xcomp\n(normally by the object of the next higher clause, if there is one,\nor else by the subject of the next higher clause).\nThese complements are always non-finite,\nand they are complements (arguments of the higher predicate)\nrather than adjuncts/modifiers, such as a purpose clause.\n\nIn majority of the cases, we use xcomp for the verbal nouns\nformed by the suffix -mAk.\n\nOkumak istiyor . \\n He wants to read\nxcomp(istiyor, Okumak)\n\nIn addition, we also use xcomp for secondary predicates, \nor in general, what Göksel & Kerslake (2005) calls \"small clauses\".\nThe decision between a secondary predicate or adverb analysis is often diffcult,\nsince most adjectives also function as adverbs.\n\nAli çayını soğuk içer . \\n Ali drinks his tea cold\nxcomp(içer, soğuk)\n\nBu kitap bir baş yapıt sayılır . \\n This book is considered a master piece\nxcomp(sayılır, yapıt)\n\nOnu İstanbul'da sanıyordum . \\n I tought he\\/she was in Istanbul\nxcomp(sanıyordum, İstanbul'da)\n\nReferences\nAslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.\nLondon: Routledge, 2005."
+  },
+  "amod": {
+    "shortdef": "adjectival modifier",
+    "content": "An adjectival modifier of a noun is\nany adjectival phrase that serves to modify the meaning of the noun.\n\namod is not used for adjectival modifiers of nouns.\nWe use det for determiners (tagged tr-pos/DET),\nand for so-called \"bare noun compounds\",\nwhere the modifier is a noun, we use nmod.\n\nAli kırmızı şarap sever . \\n Ali likes red wine\namod(şarap, kırmızı)\n\nKıza kırmızı bir gül verdi . \\n He gave the girl a red rose .\namod(gül, kırmızı)\ndet(gül, bir)"
+  },
+  "dislocated": {
+    "shortdef": "dislocated elements",
+    "content": "The dislocated relation is used for fronted or postposed elements that do not fulfill the usual core grammatical relations of a sentence.\nThese elements often appear to be in the periphery of the sentence,\nand may be separated off with a comma intonation.\n\nFollowing UD general guidelines,\nthe dislocated element attaches to the head of the clause to which it belongs\n(although this does not allow recovering what is dislocated).\n\nAli ki hızlı okur, o bile kitabı bitiremedi . \\n Ali, who is a fast reader, even he could not finish the book .\ndislocated(bitiremedi, Ali)\nnsubj(bitiremedi, o)\n\nBir öğrenci ki yazım kurallarına dikkat etmez, ben onu dersten geçirmem . \\n A student who does not pay attention to the spelling, I do not allow him/her to pass the course .\nobj(geçirmem, onu)\ndislocated(geçirmem, öğrenci)"
+  }
+}
