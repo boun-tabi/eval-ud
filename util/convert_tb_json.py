@@ -6,9 +6,9 @@ args = parser.parse_args()
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 HOME_DIR = os.path.expanduser('~')
-repo_path = os.path.join(HOME_DIR, 'eval-ud/gitlab-repo')
 data_path = args.treebank
 data_files = [os.path.join(data_path, f) for f in os.listdir(data_path) if f.endswith('.conllu')]
+data_files = sorted(data_files)
 
 data_l = []
 md_pattern = '#(.+)=(.+)'
@@ -31,7 +31,8 @@ for f in data_files:
                 annotation = '\n'.join(lines[i:])
                 d_t['table'] = annotation
                 break
-        data_l.append(d_t)
+        if d_t:
+            data_l.append(d_t)
 
 with open(os.path.join(data_path, 'treebank.json'), 'w', encoding='utf-8') as f:
     json.dump(data_l, f, ensure_ascii=False, indent=4)
