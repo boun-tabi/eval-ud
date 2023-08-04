@@ -1,0 +1,406 @@
+{
+  "Case": {
+    "shortdef": "case",
+    "Nom": {
+      "shortdef": "nominative / direct",
+      "content": "The base form of the noun, typically used as citation form (lemma).\n\nExamples\n\n* Kız uyuyor. \"The girl sleeps.\""
+    },
+    "Acc": {
+      "shortdef": "accusative",
+      "content": "Typically, accusative case in Turkish marks the definite direct object in a sentence.\nIndefinite direct objects do not receive the accusative suffix,\nbut stays in bare form (Nom).\n\nIn Turkish Acc is expressed by suffix -(y)I (ı/i/u/ü/yı/yi/yu/yü).\n\nExamples\n\n* Kitabı okudum \"I read-PAST the book\" (cf. Kitap okudum \"I read a book\" / \"I read books\")"
+    },
+    "Dat": {
+      "shortdef": "dative",
+      "content": "Dative case is typically used to indicate movement into/towards/to a place or time.\nThe oblique arguments of some verbs and complements (noun phrases) of some postpositions also required to be in dative case.\n\nIn Turkish Dat is expressed by suffix -(y)A (e/a/ye/ya).\n\nExamples\n\n* Ankara'ya gidiyorum. \"I am going to Ankara\"\n* Kitabı Ali'ye ver \"Give the book to Ali\"\n* Yağmura rağmen oynuyorlar \"They are playing despite the rain\" (postposition rağmen \"despite\" requires a dative complement)\n* Habere üzüldük \"we are sorry/upset about the news\""
+    },
+    "Gen": {
+      "shortdef": "genitive",
+      "content": "Prototypical meaning of genitive is that the noun phrase somehow belongs to its governor; it would often be translated by the English preposition of.\nComplements of some postpositions are also required to be in genitive case.\nThe genitive morpheme also marks the subject of the subordinate clauses.\n\nIn Turkish Gen is expressed by suffix -(n)In.\n\nExamples\n\n* Ali'nin kitabı \"Ali's book\"\n* Kitabı senin için aldım \"I bought the book for you\""
+    },
+    "Loc": {
+      "shortdef": "locative",
+      "content": "The locative case often expresses location in space or time, which gave it its name.\nThe oblique arguments of some verbs and complements (noun phrases) also required to be in locative case.\n\nIn Turkish Loc is expressed by suffix -DA.\n\nExamples\n\n* Evdeyim \"I am at home\"\n* Toplantı ikide \"The meeting is at two\"\n* Kendi yönteminde ısrar ediyor \"He is insisting on his own method\""
+    },
+    "Ins": {
+      "shortdef": "instrumental",
+      "content": "The role from which the name of the instrumental case is derived is that the noun is used as instrument to do something.\nIn Turkish, instrumental suffix -(y)lA also indicates comitative,\nor signal coordination of two phrases.\nWe mark all meanings/usages as Ins.\nThe oblique arguments of some verbs and complements (noun phrases) of some postpositions also required to carry the instrumental suffix.\n\nTraditionally instrumental and comitative are not considered Cases in Turkish.\n\nWe mark comitative use of -(y)lA as Ins.\n\nExamples\n\n* Ankara'ya trenle gitti \"she went Ankara by train\" (instrumental)\n* Ankara'ya Ali'yle giti \"she went Ankara (together) with Ali\" (comitative)\n* Ankara'yla ilgili bir kitap \"A book about Ankara\"\n* Bebekle ilgilenmiyor \"He does not pay attention to the baby\"\n* Elmayla portakalı pazardan aldım \"I bought the apples and the oranges from the market\"  (coordination)"
+    },
+    "Abl": {
+      "shortdef": "ablative",
+      "content": "Prototypical meaning: direction from some point.\nThe oblique arguments of some verbs and complements (noun phrases) of some postpositions also required to be in ablative case.\n\nExamples\n\n* Ankara'dan gelmişler \"The came from Ankara\"\n* Kitabi Ali'den aldım \"I took/buy the book from Ali\"\n* Ali'den hoşlanıyor \"she likes Ali\"\n* Bunlar Akara'dakilerden dolayı oluyor \"All these are happening because of people in Ankara\""
+    },
+    "Equ": {
+      "shortdef": "equative",
+      "content": "The equative case means “X-like”, “similar to X”, “same as X”. It marks the\nstandard of comparison and it differs from the equative Degree, which\nmarks the property being compared. It occurs in Turkish.\n\nExamples\n\n* ben \"I\"; bence \"like me\""
+    },
+    "content": "Case helps specify the role of the noun phrase in the sentence.\nFor example, the nominative and accusative cases often distinguish subject and object of the verb,\nwhile in fixed-word-order languages these functions would be distinguished merely by the positions of the nouns in the sentence.\n\nIn Turkish, case is an inflectional feature of nouns.  In some cases, numerals) may also be inflected for case when they are used as nouns.\nIt is also valency feature of postpositions (saying that the adposition requires its argument to be in that case).\n\nTraditionally, Turkish is considered to have 6 cases (nominative is\noften not listed): Nom, Acc, Gen, Dat, Loc, Abl.\nWe also consider suffix -lA as a case suffix introducing comitative or instrumental case, and mark it as Ins (although the function may sometimes be Com in some of these cases, currently we do not distinguish the two)."
+  },
+  "Voice": {
+    "shortdef": "voice",
+    "Pass": {
+      "shortdef": "passive voice",
+      "content": "The subject of the verb is affected by the action (patient).\nThe doer (agent) is either unexpressed or it appears as a noun phrase marked with postposition tarafından \"by\" or suffix -IncA.\n\nIn Turkish, a (transitive) verb may get two passive affixes (see below), and intransitive verb may also be passivized.\nThese result in a voice that is called impersonal passive.\nSimilarly a single passive affix on an intransitive verb also\nindicates impersonal passive.\nThe verb's valency is reduced to zero with impersonal passives constructions,\nthe verb cannot have a subject.\n\nExamples\n\n* Ev boyandı  \"The house was painted\"\n* Buradan düşülebilir \"One may fall from here\" (impersonal, intransitive verb passivized)"
+    },
+    "PassPass": {
+      "shortdef": "double passive voice",
+      "content": "When two passive suffixes are attached to a transitive verb, \ntypically it indicates an impersonal passive (see the discussion\nabove). However, in some speakers may also use multiple passives for\nstylistic reasons (even for intransitive verbs), e.g.,\n\nExamples\n\n* Böyle lafa kır-ıl-ınır \"[One] can be hurt by such words\" (Double passive resulting in impersonal. Göksel & Kerslake 2005,p136)\n* Burada uyu-n-ul-abilir  \"One may sleep here / this place is good for sleeping\" (stylistic, single passive suffix attached to an intransitive verb is sufficient for impersonal meaning, second one is redundant)."
+    },
+    "PassRfl": {
+      "shortdef": "combination of passive and reflexive voices",
+      "content": "This language-specific value indicates that a verb with a reflexive suffix is passivized.\n\nExamples\n\n* Burada yıka-n-ıl-dı \"[one] washed himself here\""
+    },
+    "PassRcp": {
+      "shortdef": "combination of passive and reciprocal voices",
+      "content": "This language-specific value indicates that a verb with a reciprocal suffix is passivized.\n\nExamples\n\n* Burada gör-üş-ül-dü \"[two or more people] met here\" (lit: [two or more people] saw each other here)"
+    },
+    "Rcp": {
+      "shortdef": "reciprocal voice",
+      "content": "A reciprocal verb describes an event in which two agents (or groups of agents) perform the same action upon each other.\n\nThe reciprocal is expressed by the suffix -Iş however,\nthe verb roots that can become reciprocal is limited.\n\nExamples\n\n* görüştüler \"they meet (lit: they see each other)\""
+    },
+    "Cau": {
+      "shortdef": "causative voice",
+      "content": "In causative constructions the subject is the entity \"causing\" the action. It generally translate to English as 'cause/make/have/let/allow' someone to perform action described by the main verb.\nMany (lexicalized) verbs that have unrelated roots in other languages are formed are related by the causative suffix in Turkish,\ne.g., öl- \"die\" and öl-dür \"kill\" (to cause someone to die).\n\nExamples\n\n* Evi boya-t-tık “We had the house painted”\n* Ali evi Ahmet'e boyattı “Ali caused (paid/convinced/forced) Ahmet to paint the house”\n* Babam arabayı Ali ustaya yaptırmış “My father made master Ali fix the car” (lit. father-my car-ACC Ali master-DAT fix-CAUS-PAST.NFH)"
+    },
+    "CauCau": {
+      "shortdef": "double causative voice",
+      "content": "Causative suffix is quite productive.\nMultiple causative suffixes can be attached to a verb,\nand the number of causative suffixes are theoretically unbounded.\nIn practice, however, the cases where more than two causative suffixes attached to a verb is rather rare.\nOften, two or more causative suffixes are used for emphasis and do not express multiple levels of causation.\n\nExamples\n\n* Evi boya-t-</b>tır</b>-dık “We had someone to have the house painted”"
+    },
+    "CauPass": {
+      "shortdef": "passive causative voice",
+      "content": "This language-specific value indicates that a verb has been first causativized, then passivized.\nThe meaning is “the subject was caused (by somebody) to do the action.”\n\nExamples\n\n* Ev Ahmet'e boya-t-ıl-dı “Somebody caused Ahmet to paint the house / Ahmet was caused to paint the house”"
+    },
+    "CauCauPass": {
+      "shortdef": "passive causative causative voice",
+      "content": "This language-specific value indicates that a verb has been first causativized twice, then passivized.\nThe meaning is “the subject was caused (by somebody) to cause (by likely somebody else) do the action.”\n\nExamples\n\n* Ev Ahmet'e boya-t-tır-ıl-dı “Somebody caused someone else to cause Ahmet to paint the house (e.g., we asked Ahmet's company to ask Ahmet to paint the house.)\""
+    },
+    "CauRcp": {
+      "shortdef": "causative reciprocal voice",
+      "content": "This language-specific value indicates that a verb with a reciprocal suffix is causativized.\nThe meaning is “the subject was caused (by somebody) to do the action.”\n\nIt describes an event in which two agents (or groups of agents) perform the same action upon each other and another entity causes the action.\n\nExamples\n\n* Babaları kardeşleri öpüş-türdü \"Their father made the siblings kiss each other\""
+    },
+    "CauPassRcp": {
+      "shortdef": "causative reciprocal passive voice",
+      "content": "This language-specific value indicates that a verb with a reciprocal suffix is passivized and causativized.\nThe meaning is “the subject was caused (by somebody) to do the action.”\n\nIt describes an event in which two agents (or groups of agents) perform the same action upon each other and another entity causes the action.\nExamples\n\n* Onlar görüş-tür-ülmediler \"They were not allowed to meet (lit: they were made (by someone) not to see each other)\""
+    },
+    "Rfl": {
+      "shortdef": "reflexive voice",
+      "content": "(Currently not in UD)\n\nA verb in reflexive voice expresses an action that the agent of the action performs on himself/herself.\nThis should not be confused with reflexive verbs in some languages where the verb requires a reflexive pronoun (often without a clear role) in the sentence.\n\nThe reciprocal is expressed by the suffix -In.\nLike reciprocal, reflexive is rather unproductive, and a very limited set of verbs can take the reflexive suffix.\n\nExample\n\n* yıkan \"to wash oneself\"\n* giyin \"to dress oneself\""
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Cau\">Cau</a></td>\n  <td><a href=\"#CauCau\">CauCau</a></td>\n  <td><a href=\"#CauCauPass\">CauCau</a></td>\n  <td><a href=\"#CauPass\">CauPass</a></td>\n  <td><a href=\"#CauPassRcp\">CauPassRcp</a></td>\n  <td><a href=\"#CauRcp\">CauRcp</a></td>\n  <td><a href=\"#Pass\">Pass</a></td>\n  <td><a href=\"#PassPass\">PassPass</a></td>\n  <td><a href=\"#PassRfl\">PassRfl</a></td>\n  <td><a href=\"#PassRcp\">PassRcp</a></td>\n  <td><a href=\"#Rcp\">Rcp</a></td>\n  <td><a href=\"#Rfl\">Rfl</a></td>\n</tr>\n</table>\n\nVoice is a feature of verbs that helps map the traditional syntactic functions,\nsuch as subject and object, to semantic roles, such as agent and patient.\n\n(This feature, as defined currently, cannot correctly handle voice features on Turkish verbs.)\nThe above combinations (of camel-case voice values) are a temporary solution to indicate \"multiple\nvoice\" features, but they are certainly not the best way to indicate\nthese features.\nSee #197 and\n#125\nfor the discussion."
+  },
+  "VerbForm": {
+    "shortdef": "form of verb or deverbative",
+    "Conv": {
+      "shortdef": "converb",
+      "content": "The converb, also called transgressive or adverbial participle,\nis a non-finite verb form that shares properties of verbs and adverbs.\n\nExamples\n\n- yürürken gördüm \"I saw it while I was walking\"\n- okuyarak daha iyi öğreniyor \"She/he learns better by reading\"\n- raporu yazılı olarak istiyorlar \"They want the report in written form\"\n- okuyunca anlayacaksın \"You will understand when you read it\""
+    },
+    "Fin": {
+      "shortdef": "finite verb",
+      "content": "Verbs that are marked for mood (Mood), tense (Tense) or\nperson (Person) are finite and are assigned the VerbForm value Fin.\nEither embedded or matrix verbs can be finite.\nRule of thumb: If the verb and all of its dependents can be uttered alone without a conversational context, the verb should be finite.\n\nExamples\n\n- Eve geldi. \"She came home.\"\n- Eve geldin sanıyordum. \"I thought you came home.\"\n- Eve geldin diye duydum. \"I heard that you came home.\"\n- Eve geldin ya problem kalmadı. \"You came home, so there is no problem.\""
+    },
+    "Part": {
+      "shortdef": "participle",
+      "content": "Participle is a non-finite verb form which functions like an adjective.\nThe participles are introduced using a number of subordinating suffixes.\n\nIf the head of the relative clause is omitted (so-called \"headless relative clauses\"),\nwe treat the word like a verbal noun.\n\nExamples\n\n- okuyacağım kitap \"the book that I will read\"\n- Ali'nin okuduğu kitap \"the book that I have read\"\n- okuyor olduğun kitap \"the book that you are reading\""
+    },
+    "Vnoun": {
+      "shortdef": "verbal noun",
+      "content": "Verbal nouns are derived from verbs. Such words in Turkish take the following suffixes:\n-mA, -(y)Iş, -DIK, -(y)AcAK, -mAK. Note that the forms with -mAK are often called\nthe infinitive (Göksel and Kerslake, p. 412) and used as the citation form of the\nverb. Nevertheless, we annotate them as VerbForm=Vnoun, not Inf.\n\nExamples\n\n- Gitmeni istiyorum. \"I want you to go\"\n- Kalkış yapalım. \"Let’s take off\"\n- Bitirdiğini sanmıştım. \"I thought you were finished\"\n- Oradan geçmek istemiyordum. \"I didn’t want to pass there\"\n\nReferences\n- Aslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.  London: Routledge, 2005."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Conv\">Conv</a></td>\n  <td><a href=\"#Fin\">Fin</a></td>\n  <td><a href=\"#Part\">Part</a></td>\n  <td><a href=\"#Vnoun\">Vnoun</a></td>\n</tr>\n</table>\n\nThe feature VerbForm can be used for verbal or deverbal elements in matrix and embedded clauses.\nAs of now, Turkish treebanks make use of  Conv, Fin, Part, and Vnoun."
+  },
+  "PronType": {
+    "shortdef": "pronominal type",
+    "Prs": {
+      "shortdef": "personal",
+      "content": "Examples\n\n- ben \"I\"\n- sen \"you-SG\"\n- siz \"you-PL\""
+    },
+    "Rcp": {
+      "shortdef": "reciprocal pronoun",
+      "content": "This value covers reciprocal pronoun birbir- and its inflected\nforms.\n\nExamples\n\n- Birbirinize iyi bakın \"Take care of each other\"\n- Akşamları birbirimize kitap okuruz \"We read each other books in the evenings\""
+    },
+    "Int": {
+      "shortdef": "interrogative pronoun, determiner, numeral or adverb",
+      "content": "Examples:\n\n* kim \"who\"\n* ne \"what\"\n* kaç  \"how many\"\n* kimin  \"whose\""
+    },
+    "Dem": {
+      "shortdef": "demonstrative pronoun",
+      "content": "Examples:\n\n* bu \"this\"\n* şu \"that/this\"\n* o \"that\""
+    },
+    "Ind": {
+      "shortdef": "indefinite pronoun",
+      "content": "Examples:\n\n* bazı “some”"
+    },
+    "Loc": {
+      "shortdef": "locative pronoun",
+      "content": "(Not in UD)\n\nLocative pronouns are typically distinguished from their demonstrative counterparts in Turkish.\n\nExamples:\n\n* bura \"here\"\n* şura \"there\"\n* ora \"there\""
+    },
+    "Neg": {
+      "shortdef": "negative determiner or pronoun",
+      "content": "This universal feature is used only a few Turkish treebanks\nfor negative pronouns and determiners.\n\nExamples:\n\n* hiç \"none\"\n* hiçbir \"none\"\n* hiçbiri \"none of them\""
+    },
+    "Art": {
+      "shortdef": "article",
+      "content": "This universal feature is used only a few Turkish treebanks\nfor article-like determiners, mainly for the indefinte determiner\nbir.\n\nExamples:\n\n* bir \"a\""
+    },
+    "content": "This feature typically applies to pronouns, determiners, pronominal numerals (quantifiers) and pronominal adverbs."
+  },
+  "Definite": {
+    "shortdef": "definiteness or state",
+    "Ind": {
+      "shortdef": "indefinite",
+      "content": "Examples\n\n* bir \"a/an\"\n* bazı \"some\"\n* birkaç \"a few/several\""
+    },
+    "Def": {
+      "shortdef": "definite",
+      "content": "Examples\n\n* bu \"this\"\n* bütün \"all\"\n* her \"all/each\""
+    },
+    "content": "Definiteness is typically a feature of determiners.\nIts value distinguishes whether we are talking about something known and concrete, or something general or unknown."
+  },
+  "Number[psor]": {
+    "shortdef": "possessor’s number",
+    "Sing": {
+      "shortdef": "singular possessor",
+      "content": "Examples\n\n* kitabın \"your-SG books\" Number[psor]=Sing|Number=Sing\n* kitaplarım \"my books\" Number[psor]=Sing|Number=Plur"
+    },
+    "Plur": {
+      "shortdef": "plural possessor",
+      "content": "Examples\n\n* kitaplarınız \"your-PL books\" Number[psor]=Plur|Number=Plur\n* kitabımız \"our book\" Number[psor]=Plur|Number=Sing"
+    },
+    "content": "Number[psor] feature captures the possessor's number."
+  },
+  "Tense": {
+    "shortdef": "tense",
+    "Past": {
+      "shortdef": "past tense",
+      "content": "Turkish past tense is realized with -DI or -mIş suffixes on verbal predicates, and  with -(y)DI and -(y)mIş suffixes on nominal predicates.\nThe difference between the -DI and -mIş forms are related to evidentiality (Evident) rather than Tense. Both morphemes refer to a (completed) past event.\n\nThese suffixes also combine with others to refer to time relative to a past event, which will be discussed below.\n\nExamples\n\n eve gitti* 'she went home'\n eve gitmiş* 'she went home' (evidential: speaker does not have direct information on the event)\n eve gitmeliydi* 'she should have gone home'\n eve gitseydi* 'if she went home'\n hastaydı* 'she was sick'\n hastaymış* 'she was sick' (evidential)"
+    },
+    "Fut": {
+      "shortdef": "future tense",
+      "content": "Turkish future tense is expressed with suffix -(y)AcAk.\nCopular predicates cannot directly take future Tense morphemes.\nFuture tense in nominal phrases are expressed using auxiliary ol-.\n\nExamples\n\n eve gidecek* 'she will go home'"
+    },
+    "Pres": {
+      "shortdef": "present tense",
+      "content": "The present tense in Turkish is realized by lack of past or future morphemes.\n\nExamples\n\n eve gidiyor* 'she is going home'\n eve gitmeli* 'she should go home'\n eve gider* 'she goes home'\n\nThe differences between these forms are Aspect and Mood differences."
+    },
+    "Pqp": {
+      "shortdef": "pluperfect",
+      "content": "This denotes an action that happened before a reference time in the past.\nIn Turkish, this is realized by combination of -DI/-mIş and -(y)DI/-(y)mIş (only three combinations exemplified below possible).\nAs in future tense, nominal predicates require the auxiliary ol- for this tense (hasta olmuştu 'she had been sick').\nHence, we only mark verbal predicates with double past indicators as Pqp.\n\nExamples\n\n eve gitmişti 'she had gone home' (this is not* evidential)\n eve gitmişmiş* 'she had gone home' (this is evidential)\n eve gittiydi* 'she had gone home' (colloquial)"
+    },
+    "content": "Turkish has a complex tense/aspect/modality system.\n\nTurkish verbs can indicate actions in the present, past or future.\nComplex tenses for actions that happened before, during, or after a past event can also be specified by suffixation.\nThe actions that happen before, during, or after a future event are expressed using an auxiliary.\n\nThe verbs expressing actions that happened before a reference in the past are marked with value Pqp.\nFor events that happen during the past reference, we use Tense=Past with proper progressive (Prog) or habitual (Hab) Aspect."
+  },
+  "NumType": {
+    "shortdef": "numeral type",
+    "Card": {
+      "shortdef": "cardinal number or corresponding interrogative",
+      "content": "Examples\n\n* 1, 2, 3\n* bir, iki, üç  \"one, two, three\"\n* kaç kitap okudun \"how many books did your read\""
+    },
+    "Ord": {
+      "shortdef": "ordinal number or corresponding interrogative",
+      "content": "In some languages, this is a subtype of adjective or adverb.\nIn Turkish, we mark the ordinal numerals as NUM.\n\nOrdinal numerals are formed by the suffix -IncI.\nA period following a numeral may also indicate ordinal use of the number.\n\nExamples\n\n* 1., 2., 3.\n* birinci, ikinci, üçüncü  \"first, second, third\"\n* kaçıncı kitabı okudun \"which (of a series) book did your read\" (answer should be something like ikinci \"(the) second\")"
+    },
+    "Dist": {
+      "shortdef": "distributive numeral",
+      "content": "Used to express that the same quantity is distributed to each member in a set of targets.\n\nDistributive numerals are formed by the suffix -(ş)Ar.\n\nExamples\n\n* birer, ikişer, üçer  \"one each, two each, three each\"\n* kaçar kitap okudunuz \"how many books have you each read\""
+    },
+    "content": "In Turkish numbers can be cardinal, ordinal or distributive.\nWe also mark the interrogative kaç \"how many\" as a number,\nwhich inflects the same way the numbers are inflected and can become ordinal or distributive."
+  },
+  "Person": {
+    "shortdef": "person",
+    "1": {
+      "shortdef": "first person",
+      "content": "In singular, the first person refers just to the speaker / author. In\nplural, it must include the speaker and one or more additional\npersons.\n\nIt is used for pronouns ben 'I' and biz 'we' and their inflected forms, and verbs with a first person  plural/singular agreement suffix.\n\nExamples\n\n ben* 'I'\n benimle* 'with me'\n bizimki* 'the one that belongs to us'\n (ben) okudum* 'I read-PAST' -- note the optionality of the subject\n (biz) okuyacağız* 'We read-FUT'"
+    },
+    "2": {
+      "shortdef": "second person",
+      "content": "In singular, the second person refers to the addressee of the\nutterance / text. In plural, it may mean several addressees and\noptionally some third persons too.\n\nIt is used for pronouns sen 'you-SING' and siz 'you-PLU' and their inflected forms, and verbs with a second person  plural/singular agreement suffix.\n\nThe second person singular agreement suffix is null for verbs in imperative form.\n\nExamples\n\n seni* 'you(SG)-ACC'\n sizinle* 'with you(PL)'\n sizde* 'you(PL)-LOC - on/at you(PL)'\n oku!* 'read!'\n (sen) okudun* 'you(SG) read-PAST'\n (siz) okuyacaksınız* 'you(PL) read-FUT'"
+    },
+    "3": {
+      "shortdef": "third person",
+      "content": "The third person refers to one or more persons that are neither\nspeakers nor addressees.\n\nIt is used for pronouns o 'he/she/it' and onlar 'they' and their inflected forms, and verbs with a second third plural/singular agreement suffix. The third person singular agreement suffix is null in most cases.\n\nExamples\n\n ona* 'he/she/it-DAT'\n onlarla* 'with them'\n (o) okudu* 'he/she read-PAST'\n (onlar) okudu(lar)* 'they read-PAST' -- note the optionality of the  agreement on the verb\n okudular* 'they read-PAST'"
+    },
+    "content": "In Turkish, Person is a feature of personal pronouns, and verbs.\nPerson marking on verbs are obligatory in Turkish for all finite verb forms.\nThe Person marker on predicates indicate the subject when there is\nno overt subject.\n\nThe verbal markers for person and number are composite, and their form change\ndepending on the other suffixes attached to the verb.\n\nThe person/number marker of verbs may also be attached to the question particle -mI (-mi/mı/mu/mü), which is written separately.\n\nMETU-Sabancı treebank marks all nouns as having 3rd person agreement marker.\nWe do not mark nouns for Person."
+  },
+  "Reflex": {
+    "shortdef": "reflexive",
+    "Yes": {
+      "shortdef": "it is reflexive",
+      "content": "Note that there is no No value. If the word is not reflexive, the\nReflex feature will just not be mentioned in the FEAT\ncolumn. (Which means that empty value has the No meaning.)\n\nExamples\n\n* kendi \"self\"\n* kendisi \"himself/herself/itself\"\n* kendimiz \"ourselves\""
+    },
+    "content": "It tells whether the word is reflexive, i.e. refers to the subject of its clause.\n\nThis marks the reflexive pronoun kendi and its inflected forms."
+  },
+  "Polarity": {
+    "shortdef": "whether the word can be or is negated",
+    "Pos": {
+      "shortdef": "positive, affirmative",
+      "content": "Examples\n\n- Okuyacak \"he/she will read\"\n- Ali doktor \"Ali is a doctor\""
+    },
+    "Neg": {
+      "shortdef": "negative",
+      "content": "Examples\n\n- Okumayacak \"he/she will not read\"\n- Ali doktor değil \"Ali is not a doctor\""
+    },
+    "content": "In Turkish verbs are negated with the suffix -mA (and its allomorphs).\nOnly exception is the verb/particle değil which functions as an auxiliary or copula\n(it is the main means of negating a copular clause, but it can also be used to negate a verbal clause).\ndeğil is marked as Negative=Neg when it is used as a copula or auxiliary.\nWe use the POS tag particle when değil is used for negating non-predicates,\nin which case we use the feature PronType for marking its negativity.\n\nIn Turkish adjectives are normally negated by forming adjectival\nclauses with copula ol-, e.g., verimli olmayan \"unproductive\"\n(lit: \"(something) that is not productive\").\nA non-productive prefix (of Arabic origin), na-, can be used for negating a lexicalized set of adjectives, e.g., namüsait \"not suitable\".\nWe (currently) do not mark adjectives for the Polarity feature."
+  },
+  "Aspect": {
+    "shortdef": "aspect",
+    "Imp": {
+      "shortdef": "imperfect aspect",
+      "content": "The action took / takes / will take some time span and there is no\ninformation whether and when it was / will be completed.\n\nExamples\n\n* yere gitmeyeceğim “I won't go anywhere”"
+    },
+    "Perf": {
+      "shortdef": "perfect aspect",
+      "content": "The action has been / will have been completed.\n\nExamples\n\n eve gitti* 'she went home'\n eve gitmiş* 'she apparently went home'\n eve gidecek* 'she will go home'\n eve gitmişti* 'she had gone home (when I arrived)'"
+    },
+    "Prog": {
+      "shortdef": "progressive aspect",
+      "content": "Action is in progress with respect to current or a reference time.\n\nTurkish has two progressive markers, -(I)yor and -mAktA.\nLatter is used in more formal cases than former.\nOtherwise there is no clear distinction between the two.\nIn some contexts, both suffixes may also indicate habitual aspect (Aspect=Hab described below).\n\nExamples\n\n eve gidiyor* 'she is going home (now)'\n eve gitmekte* 'she is going home (now)'\n eve gidiyordu* 'she was going home (when I saw her)'\n eve gimekteydi* 'she was going home (when I saw her)'"
+    },
+    "Hab": {
+      "shortdef": "habitual aspect (new proposal)",
+      "content": "Verbal morphology in Turkish may indicate an action that happens repeatedly at present or past.\nThis aspect is mainly marked with suffix -A/Ir.\nIn some cases, the progressive suffix -(I)yor may indicate the habitual aspect,\nHer sabah 5 km koşuyorum \"I ran 5 km every morning\".\nSee Göksel and Kerslake (2005, pp289--290) for details.\n\nExamples\n\n çok kitap okur* 'she reads lots of books'\n sigara içerdi* 'she used to smoke'"
+    },
+    "Rapid": {
+      "shortdef": "rapid sudden action (new proposal)",
+      "content": "A particular verb form formed by suffix -Iver refers to actions that are sudden or performed rapidly.\nKornfilt (1995, p.361) calls this rapid or sudden aspect.\n\nExamples\n\n eve gidiver* 'quickly go home!'\n eve gidiverdi* 'she immediately/suddenly went home!'"
+    },
+    "Dur": {
+      "shortdef": "durative aspect (new proposal)",
+      "content": "A situation or action that has persisted over a period of time and still continues. This is called durative action (e.g., Kornfilt 1995, p.362).\nThe suffixes -Akal, -Agel and -Adur indicate this aspect (the first one might better be defined as 'durative stative' and others 'durative progressive').\n\nExamples\n\n bakakaldı* 'she looked (for a while, she was frozen while looking)'\n yapagelmiştir* 'she have gone on doing (something)'\n okuyadur* 'go on reading'"
+    },
+    "Prosp": {
+      "shortdef": "prospective aspect",
+      "content": "The action is/was about to happen.\n\nIn Turkish, combination of feature tense marker -AcAk and the past tense marker -DI signal an event that was about to happen.\nAnother (rather rare) means of expressing prospective aspect is with the suffix -Ayaz.\nThis form is used only in a few fixed expressions,\nand it only combines with the past tense forms.\n\nExamples\n\n düşecekti* 'she was about to fall'\n düşeyazdı* 'she was about to fall'\n\nReferences\n- Aslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.  London: Routledge, 2005.\n- Jaklin Kornfilt. Turkish. London and New York: Routledge, 1997."
+    },
+    "content": "Aspect is a feature that specifies duration of the action in time, whether the action has been completed, ongoing etc.\n\nIn Turkish a set of verbal morphemes alter the Aspect feature of a verb.\nThese morphemes often affect the Tense and Mood features as well.\nThe mapping between the suffixes and the Aspect values may sometimes be non-trivial.\n\nThe following describes the values used for Aspect together with the\nsuffixes typically introduce the defined Aspect value.\nSee tr-overview/special-syntax for the discussion of mapping\nrelevant verbal suffixes to Tense, Aspect and Mood values."
+  },
+  "Mood": {
+    "shortdef": "mood",
+    "Ind": {
+      "shortdef": "indicative",
+      "content": "The indicative can be considered the default mood. A verb in indicative merely states that something happens, has happened or will happen, without adding any attitude of the speaker.\n\nExamples\n\n eve gidiyor* 'she is going home'\n eve gitti* 'she went home'\n* Kaplumbağa yavaş yürüyor. “The tortoise walks/is walking slowly.” (statement about a specific tortoise; Göksel & Kerslake, 2005, p.340)"
+    },
+    "Gen": {
+      "shortdef": "generalized modality",
+      "content": "Turkish modal system includes a distinction between statements of direct experience (Ind) and statements with a more general or theoretical nature (Göksel & Kerslake, 2005, p.295).\nThis mood is typically marked by the aorist marker on verbs, and with -DIr suffix on nominal predicates.\n\n(NOTE: this mood interacts with evidentiality.  One may consider the status of evidentiality expressed by this suffix to be \"inferred\". Hence, an alternative way of marking this could be Evidential=Infer, or something similar)\n\nExamples\n\n park yapılmaz* 'one does not park = no parking'\n iki, iki daha dört eder* 'two plus two is four'\n ikinin karesi dörttür* 'two's square is four'\n Ali işe geç gider* 'Ali goes to work late'\n hastadır* '(I hypothesize/deduce that) she must be sick'\n* Kaplumbağa yavaş yürür. “A tortoise walks slowly.” (a general statement about tortoises; Göksel & Kerslake, 2005, p.340)"
+    },
+    "Imp": {
+      "shortdef": "imperative",
+      "content": "In Turkish imperatives are expressed by lack of any tense/aspect/modality marker. The form of imperative may indicate second or third person plural/singular. Note that, forms other than second person singular may indicate a wish rather than a command, so may be marked as Opt (see below).\n\nExamples\n\n eve git* 'go home!'\n eve gidin* '(you-PLU) go home!'\n eve gitsin* '(I am ordering him/her to) go home!'"
+    },
+    "Prs": {
+      "shortdef": "persuasive (new, not in UD)",
+      "content": "Turkish has a particular form of imperative, where the request is not an order, but an attempt to persuade.\n\nExamples\n\n eve gitsene* '(please) go home'\n eve gitsenize* '(you-PLU, please) go home'"
+    },
+    "Opt": {
+      "shortdef": "optative",
+      "content": "Optative suffix (-(y)A) in Turkish typically combines with first person markers and expresses a suggestion.\nThe use with second/third person markers express a wish, but it is rare.\nWith third person singular agreement the imperative form may also express a wish or suggestion, and more common than -(y)A forms.\n\nExamples\n\n eve gidelim* 'let's go home'\n bakayım* 'let's me see'\n gele* 'I wish he/she comes'\n gelesin* 'I wish you come'"
+    },
+    "Nec": {
+      "shortdef": "necessitative",
+      "content": "This expresses some sort of necessity (must/should/have to in English).\n\nExamples\n\n eve gitmeli* 'she should go home'\n eve gitmeliydi* 'she should have gone home'"
+    },
+    "NecPot": {
+      "shortdef": "necessitative potential",
+      "content": "A combination of the necessitative and potential suffixes yields the meaning of “should be able to”.\n\nExamples\n\n* Benim buradaki büyükelçim de, müşavirim de Çince konuşabilmeli. “Both my ambassador and consultant here should be able to speak Chinese.”"
+    },
+    "GenNec": {
+      "shortdef": "general or hypothetical necessitative",
+      "content": "The necessitative suffix can be combined with a suffix of general modality.\n\nExamples\n\n* Siyasi riskteki artış gözden kaçmamalıdır. “The spike in political risk should not go unnoticed.”"
+    },
+    "GenNecPot": {
+      "shortdef": "general or hypothetical necessitative potential",
+      "content": "Both necessitative and potential can be combined with a suffix of general modality.\n\nExamples\n\n* söyleyebilmelidir “should be able to say”"
+    },
+    "Pot": {
+      "shortdef": "potential",
+      "content": "The suffix -Abil may indicate ability or possibility.\nThese moods are normally distinct, and the same verb may express both at the same time (see PotPot below).\nHowever, it is also very difficult to disambiguate between these two moods.\n\nExamples\n\n eve gidebilir* 'she can go home' ('she is capable of going home', or 'she just may go home')\n yağmur yağabilir* 'it may rain'"
+    },
+    "PotPot": {
+      "shortdef": "potential expressed twice",
+      "content": "The mood we mark as Pot may be expressed multiple times in some\nverbs, particularly in negative forms.\nIn most cases this expresses ability and possibility at the same time\n(someting may (not) have potential to happen).\n\nExamples\n\n* Gelemeyebileceğini biliyordum  \"I knew he/she may not be able to come\""
+    },
+    "GenPot": {
+      "shortdef": "general or hypothetical potential",
+      "content": "When the potential suffix is combined with the non-past (aorist) suffix, the resulting sentence\neither is a statement of generalized validity, or a hypothetical statement (Göksel & Kerslake, 2005, p.346).\n\nExamples\n\n* Kaplumbağa hızlı yürüyemez. “A tortoise can't walk fast.” (Göksel & Kerslake, 2005, p.488)\n* Masayı şuraya koyabiliriz. “We can/could put the table here.” (a hypothetical statement)"
+    },
+    "GenPotPot": {
+      "shortdef": "generallized modality and potential expressed twice",
+      "content": "Similar to above, a generalized statement / hypothesis may have both ability and\npotential expressed.\n\nExamples\n\n eve gidemeyebilir* 'she may not be able to go home' (it is possible that she is not capable of going home)"
+    },
+    "CndGenPot": {
+      "shortdef": "conditional predicate with generallized modality and potential",
+      "content": "A generalized statement / hypothesis may also be conditional and express ability or potential.\n\nExamples\n\n eve zamanında gidebilirse yemek yapacak* 'if he/she can go home, he/she will cook'"
+    },
+    "Cnd": {
+      "shortdef": "conditional",
+      "content": "This expresses conditionality.\nIt is the primary means of forming conditionals in Turkish ('if ...').\nThe suffix responsible for this mood is -sA.\nThe suffix is ambiguous between Cnd and Des (see below).\n\nExamples\n\n eve gittiyse* 'if she went home'\n eve gidiyorsa* 'if she is going home'\n eve giderse* 'if she goes home'\n eve gidecekdiyse* 'if she was going to go home'\n* Arabayı satsa hepimiz rahatlarız. “If he sold the car it would be a relief to all of us.” (Göksel & Kerslake, 2005, p.488)"
+    },
+    "CndGen": {
+      "shortdef": "general (non-past) conditional",
+      "content": "When the conditional suffix is combined with the non-past (aorist) suffix, the resulting sentence\ngets a future or generalized predictive reading.\n\nExamples\n\n* Arabayı satarsa hepimiz rahatlarız. “If he sells the car it will be a relief to all of us.” (Göksel & Kerslake, 2005, p.488)"
+    },
+    "CndPot": {
+      "shortdef": "conditional potential",
+      "content": "The potential modality can be combined with the conditional suffix.\n\nExamples\n\n* durumların çoğu tartışma olmadan çözülebilse “if most situations could be resolved without conflict”"
+    },
+    "Des": {
+      "shortdef": "desiderative",
+      "content": "This mood expresses a wish.\nIt shares the same form as the Cnd mood.\nIt may be disambiguated by particles (keşke: desire, eğer: condition) or by the context.\nFor example, desires do not work well with fixed time references.\nIn general it is difficult to automatically disambiguate between these two moods.\n\nExamples\n\n (keşke) uyusa* 'I wish she sleeps'\n (keşke) uyusaydı* 'I wish she slept'"
+    },
+    "DesPot": {
+      "shortdef": "desiderative potential",
+      "content": "A combination of the desiderative and potential suffixes yields the meaning of “want to be able to”.\n\nExamples\n\n* Dünyaya yayabilsek. “If we could spread it to the world.”\n\nReferences\n\n* Aslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.\n  London: Routledge, 2005."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Cnd\">Cnd</a></td>\n  <td><a href=\"#CndGen\">CndGen</a></td>\n  <td><a href=\"#CndGenPot\">CndGenPot</a></td>\n  <td><a href=\"#CndPot\">CndPot</a></td>\n  <td><a href=\"#Des\">Des</a></td>\n  <td><a href=\"#DesPot\">DesPot</a></td>\n  <td><a href=\"#Gen\">Gen</a></td>\n  <td><a href=\"#GenNec\">GenNec</a></td>\n  <td><a href=\"#GenNecPot\">GenNecPot</a></td>\n  <td><a href=\"#GenPot\">GenPot</a></td>\n  <td><a href=\"#GenPotPot\">GenPotPot</a></td>\n  <td><a href=\"#Imp\">Imp</a></td>\n  <td><a href=\"#Ind\">Ind</a></td>\n  <td><a href=\"#Nec\">Nec</a></td>\n  <td><a href=\"#NecPot\">NecPot</a></td>\n  <td><a href=\"#Opt\">Opt</a></td>\n  <td><a href=\"#Pot\">Pot</a></td>\n  <td><a href=\"#PotPot\">PotPot</a></td>\n  <td><a href=\"#Prs\">Prs</a></td>\n</tr>\n</table>\n\nMood expresses the modality, a speaker's perspective, in finite verbs.\nTurkish verbs may carry a wide range of mood information.\nDifferent moods are indicated by a number of suffixes, which also interact with tense and aspect of the verb.\n\nSimilar to the Voice feature, a Turkish verb may have multiple\nMood values expressed on a single verb.\nCurrently we concatenate the individual mood values,\nbut this is far from a good solution\n(see issues #197 and\n#125\nfor the discussion)."
+  },
+  "Degree": {
+    "shortdef": "degree of comparison",
+    "Cmp": {
+      "shortdef": "comparative, second degree",
+      "content": "The quality of one object is compared to the same quality of another object.\n\nExamples\n\n* daha güzel  \"prettier\"\n* daha çabuk  \"quicker/faster\""
+    },
+    "Sup": {
+      "shortdef": "superlative, third degree",
+      "content": "The quality of one object is compared to the same quality of all other objects within a set.\n\nExamples\n\n* en güzel  \"prettiest\"\n* en çabuk  \"quickest/fastest\""
+    },
+    "content": "Degree of comparison is typically an inflectional feature of some adjectives and adverbs.\n\nIn Turkish, degree of an adjective or adverb is modified through adverbs en \"(the) most\" and daha \"more\".\nWe only annotate these two adverbs with the Degree feature."
+  },
+  "Person[psor]": {
+    "shortdef": "person of possessor",
+    "1": {
+      "shortdef": "first person",
+      "content": "Examples\n\n* kitabım \"my book\"\n* kitaplarım \"my books\"\n* kitabımız \"our book\"\n* kitaplarımız \"our books\""
+    },
+    "2": {
+      "shortdef": "second person",
+      "content": "Examples\n\n* kitabın \"your-SG book\"\n* kitapların \"your-SG books\"\n* kitabınız \"your-PL book\"\n* kitaplarınız \"your-PL books\""
+    },
+    "3": {
+      "shortdef": "third person",
+      "content": "Examples\n\n* kitabı \"his/her book\"\n* kitapları \"his/her books\"\n* kitapları \"their book\"\n* kitapları \"their books\"\n\n(note that last three forms are ambiguous)"
+    },
+    "content": "Number[psor] feature captures the possessor's person."
+  },
+  "Evident": {
+    "shortdef": "evidentiality",
+    "Fh": {
+      "shortdef": "first hand",
+      "content": "This is the default.\nThe speaker has first-hand evidence for the statement/event.\n\nExamples\n(cf. the same examples below for Nfh)\n\n* eve gitti 'she/he went home'\n* eve gidecek 'she/he will go home'\n* eve gidiyor 'she/he is going home'\n* eve gimeli 'she/he has to go home'\n* eve gimişti 'she/he had gone home'"
+    },
+    "Nfh": {
+      "shortdef": "non-first hand",
+      "content": "The speaker has indirect evidence for the statement.\n\nExamples\n\n eve gitmiş*  '(evidently) she went home'\n eve gidecekmiş* '(evidently) she will go home'\n eve gidiyormuş* '(evidently) she is going home (now)'\n eve gitmeliymiş* '(evidently) she has to go home'\n eve gitmemişmiş* '(evidently) she had gone home (by the time I arrived)'"
+    },
+    "content": "Evidentiality is a feature of verbs.\nIt indicates the source of evidence for a given statement.\nIt is often classified as a mood,\nbut some linguists considers it an additional dimension alongside Tense/Aspect/Moodality.\n\nNon-first-hand evidentiality is generally marked the suffix -mIş.\nHowever, in combination with other morphemes,\n-mIş does not necessarily mark evidentiality."
+  },
+  "Number": {
+    "shortdef": "number",
+    "Sing": {
+      "shortdef": "singular number",
+      "content": "A single person or thing. There is no morphological marker for singular for nouns and verbs in 3rd person singular form.\n\nExamples\n\n bir elma* 'one/an apple'\n üc elma* 'three apples' -- note the missing plural marker.\n \\*üç elmalar is ungrammatical.\n okudum* '(I) read-PAST'"
+    },
+    "Plur": {
+      "shortdef": "plural number",
+      "content": "More than one person or thing.\nOn nouns plurality is indicated by suffix -lAr.\nPlurality on verbs is indicated by a set of person/number suffixes which vary depending on the previous suffixes.\n\nExamples\n\n elmallar* 'apples'\n okuduk* '(We) read-PAST'\n Öğrenciler kitap okuyacak(lar)* 'The students will read books' -- the plural marker on the verb is optional.\n Kitap okuyacaklar* '(They) will read books' -- Plurality of the subject is inferred from the agreement marker on the verb"
+    },
+    "content": "Number is an inflectional feature of nouns and other parts of speech (adjectives, verbs) that mark agreement with nouns.\n\nIn Turkish, nouns (NOUN, PROP, PRON) and verbs may have the feature Number.\nNote that, the number agreement between a subject noun and the predicate is not straightforward.\nPlural nouns agree with predicates with both singular an plural\nmarking,\nbut singular nouns disagree with predicates with plural marking.\nWhen subject is present, the singular form of the verb is preferred.\nOtherwise, obligatory the person/number agreement marker indicates the Number feature of the subject (as well as Person).\n\nIn case plurality is indicated by a modifier, the noun does not get an explicit plural marker (see example 2 for Sing).\n\nWe mark Number=Plur only if there is an explicit morphological marker.\n\nThe Nuber feature should not be confused with Number\\[psor\\],\nwhich indicates the whether possessor of a noun is singular or plural."
+  }
+}

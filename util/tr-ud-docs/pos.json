@@ -1,0 +1,70 @@
+{
+  "ADP": {
+    "shortdef": "adposition",
+    "content": "Definition\n\nTurkish only has postpositions.\nThey occur after a complement noun phrase (or a nominal subordinate clause) and they form a single structure with the complement to express its grammatical and semantic relation to another unit within a clause.\n\nA number of postpositions in Turkish are complex,\nderived from a closed set of nouns (see Göksel & Kerslake 2005, ch.17).\nExamples include, alt-ın-da \"below\", arka-sı-nda \"behind\", konu-su-nda \"about\".\nWe also mark these expressions as ADP when they are used as postpositions\n(TODO: this requires discussion).\n\nExamples\n\n- Ali'ye rağmen \"despite Ali\"\n- Ali için \"for Ali\"\n- Kalabalığın arasında \"between/within the crowd\"\n- Ali'nin dışında \"except Ali\"\n\nReferences\n\nAslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.\nLondon: Routledge, 2005."
+  },
+  "AUX": {
+    "shortdef": "auxiliary verb",
+    "content": "Definition\n\nIn Turkish the verbs ol- and bulun- and the question particle mI (mı/mi/mu/mü) may function as auxiliary verbs.\nWe (currently) use the AUX for the question particle.\nThe verbs are marked as ol- and bulun- are always marked as VERB. \nThe dependency label indicates their use (auxiliary, copula or content verb).\n\nExamples\n\n* Okumuş bulunduk \"We have happened to read (it)\"\n* Okuyor olacağım \"I will be reading\"\n* Okumuş muydun \"Have you read (it)?\"\n* Okuymuş olmaycak mıydın \"Weren't you supposed to read (it)\""
+  },
+  "PRON": {
+    "shortdef": "pronoun",
+    "content": "Definition\n\nPronouns are words that substitute for nouns or noun phrases, whose\nmeaning is recoverable from the linguistic or extralinguistic context.\n\nIn Turkish, some pronouns also function as determiners (e.g., bu\n\"this\", o \"that\"),\nthese words are always marked according to their usage (PRON or\nDET).\n\nExamples\n\n- personal pronouns: ben, sen, o, biz, siz, onlar\n  \"I, you, he/she/it, we, you (plural), they\"\n- reflexive pronoun: kendi, kendisi \"oneself\"\n- demonstrative pronouns: bu, şu, o\n- interrogative pronouns: kim, ne \"who, what\"\n- indefinite pronouns: biri, birşey \"somebody, something\"\n- total pronouns: herkes, herşey \"everybody, everything\"\n- negative pronouns: kimse \"nobody\""
+  },
+  "NOUN": {
+    "shortdef": "noun",
+    "content": "Definition\n\nNouns are a part of speech typically denoting a person, place, thing,\nanimal or idea.\n\nThe NOUN tag is intended for common nouns only. See PROPN for\nproper nouns and PRON for pronouns.\n\nTurkish nouns inflect for tr-feat/Number, possessor and tr-feat/Case.\n\nWe also mark the non-root inflectional groups as NOUN in complex derivation involving some suffixes, and subordinate clauses that function as a noun phrase.\nFor details, see the section on subordination in specific constructions.\n\nAll adjectives and some of the adverbs may function as a noun without additional derivation, in this cases, we keep the POS tag of the original word, but assign nominal features to the word.\n(TODO: this needs more discussion)\n\nExamples\n\n- kız \"girl\"\n- kedi \"cat\"\n- ağaç \"tree\""
+  },
+  "PROPN": {
+    "shortdef": "proper noun",
+    "content": "Definition\n\nA proper noun is a noun (or nominal content word) that is the name (or\npart of the name) of a specific individual, place, or object.\n\nNote that PROPN is only used for the subclass of nouns that are used\nas names and that often exhibit special syntactic properties.\nWhen other phrases or sentences are used as names, \nthe component words retain their original tags.\nFor example, in İstanbul Büyük Şehir Belediyesi, \nBüyük is ADJ, Şehir and Belediyesi are NOUN.\n\nAcronyms of proper nouns, such as TBMM and NATO, should be tagged PROPN.\n\nExamples\n\n- Ayşe, Ali\n- Ankara\n- NATO, BM, TBMM"
+  },
+  "INTJ": {
+    "shortdef": "interjection",
+    "content": "Definition\n\nAn interjection is a word that is used most often as an exclamation or part of an exclamation. It typically expresses an emotional reaction, is not syntactically related to other accompanying expressions, and may include a combination of sounds not otherwise found in the language.\n\nExamples\n\n- aaa\n- ay\n- maşallah\n- lütfen  \"please\"\n- tabii   \"of course\"\n- işte"
+  },
+  "PART": {
+    "shortdef": "particle",
+    "content": "Definition\n\nParticles are function words that must be associated with another word\nor phrase to impart meaning and that do not satisfy definitions of\nother universal parts of speech.\n\nWe current use the POS tag PART for the word değil \"not\" when used to negate a non-predicate word\nIf değil modifies a predicate, it is marked as VERB since it functions as a copula and carries other verbal inflections as well."
+  },
+  "CCONJ": {
+    "shortdef": "coordinating conjunction",
+    "content": "Definition\n\nA coordinating conjunction is a word that links words or larger constituents without syntactically subordinating one to the other and expresses a semantic relationship between them.\n\nFor subordinating conjunctions, see SCONJ.\n\nExamples\n\n- ve \"and\"\n- ya da \"or\"\n- ama \"but\""
+  },
+  "VERB": {
+    "shortdef": "verb",
+    "content": "Definition\n\nA verb is a member of the syntactic class of words that typically signal events and actions, \ncan constitute a minimal predicate in a clause,\nand govern the number and types of other constituents which may occur in the clause.\nVerbs are often associated with grammatical categories like\ntense, mood, aspect and voice,\nwhich can either be expressed inflectionally or using auxiliary verbs or particles.\n\nWe tag all verbs, including auxiliary and copula use of verbs \"ol-\" and \"bulun-\" as VERB.\n\nBesides ordinary verb stems, we also mark the non-root inflectional groups that introduce a copular construction, as in Ali evdeydi \"Ali was at home\".\n\nTurkish verbs can get a complex set of inflections which assign voice, tense, aspect, mood, negation, person and number.\nSome feature assignments are ambiguous or non-trivial.\nSee the section on verbal features in tr-overview/specific-syntax.\n\nExamples\n\n- koş, ye \"run, eat\"\n- koştu, yedi \"run (past), ate\"\n- görüştürülmüyorlarmış \"they were not allowed to see each other\""
+  },
+  "SYM": {
+    "shortdef": "symbol",
+    "content": "Definition\n\nA symbol is a word-like entity that differs from ordinary words by form, function, or both.\n\nWe follow the general/universal definition of SYM.\nSee u-pos/SYM for details."
+  },
+  "DET": {
+    "shortdef": "determiner",
+    "content": "Definition\n\nDeterminers are words that modify nouns or noun phrases and express\nthe reference of the noun phrase in context. That is, a determiner may\nindicate whether the noun is referring to a definite or indefinite\nelement of a class, to a closer or more distant element, to an element\nbelonging to a specified person or thing, to a particular number or\nquantity, etc.\n\nTraditionally, Turkish grammars and dictionaries do not make the distinction between a determiner and an adjective (but modern grammars do, see Göksel and Kerslake 2005, ch.15).\n\nTurkish does not have a definite article,\nbut the numeral bir \"one\" also acts as an indefinite article.\nWe mark it as DET in this usage.\n\nExamples\n\n- demonstrative determiners: bu \"this\", şu \"this/that\", o \"that\"\n- interrogative determiners: hangi \"which\", kaç \"how many\"\n- quantity/quantifier determiners: bütün \"all\", bazı \"some\",\n  hiçbir \"none\"\n\nReferences\n\nAslı Göksel and Celia Kerslake. Turkish: A Comprehensive Grammar.  London: Routledge, 2005."
+  },
+  "ADV": {
+    "shortdef": "adverb",
+    "content": "Definition\n\nAdverbs are words that typically modify verbs and adjectives. \nThey may also modify other adverbs and nouns (see examples below).\n\nExamples\n\n- güzel okudu \"he/she has read well\"\n- çok güzel okudu \"he/she has read very well\"\n- çok güzel bir kız \"a very pretty girl\"\n- evi de satmış \"he/she sold the house too\""
+  },
+  "ADJ": {
+    "shortdef": "adjective",
+    "content": "Definition\n\nAdjectives are words that typically modify nouns and specify their properties or attributes.\nThey may also function as predicates, as in\n\n- Mavi araba \"(the) blue car\"  \n- Araba mavi  \"(the) car is blue\"\n\nIn Turkish the Adjective do not inflect.\nDegree is specified using adverbs daha and en.\n\nWe distinguish between adjectives, determiners and numerals.\nWe do not mark determiners as adjectives as is the case in most (traditional)\ndictionaries and grammars.\n\nExamples\n\n- büyük \"big\"\n- eski \"old\"\n- yeşil \"green\""
+  },
+  "X": {
+    "shortdef": "other",
+    "content": "Definition\n\nThe tag X is used for words that for some reason cannot be assigned a real part-of-speech category.\n\nWe follow the general/universal definition of SYM.\nSee u-pos/X for details."
+  },
+  "SCONJ": {
+    "shortdef": "subordinating conjunction",
+    "content": "Definition\n\nA subordinating conjunction is a conjunction that links constructions by making one of them a constituent of the other. \nThe subordinating conjunction typically marks the incorporated constituent which has the status of a (subordinate) clause.\n\nIn Turkish subordinate clauses are mainly formed by suffixation (see the discussion in tr-overview/special-syntax).\nHowever, there are a few words that form subordinate clauses, notably ki and diye.\nThe question particle mI (mı/mi/mu/mü) and clitic dA (da/de) may also form subordinate clauses.\nWe also mark the words, such as madem and eğer, that are syntactically and semantically redundant but signal beginning of a subordinate clause.\n\nFor coordinating conjunctions, see CCONJ.\n\nExamples\n\n- Biliyorum ki gelmeyecek \"I know that he will not come\"\n- Gelmeyecek diye biliiyourm \"I know that he will not come\"\n- Eğer gelmeyecekse söylemeliydi \"He should have told if he would not come\".\n- Madem gelmeyecekti söylemeliydi \"He should have told if he wasn't coming\".\n- Oraya vardın mı, denizi göreceksin \"You will see the sea when you arrive there\"\n- Çok çalıştım da kazandım \"I worked hard in order to win\" / \"I won by working hard\""
+  },
+  "NUM": {
+    "shortdef": "numeral",
+    "content": "Definition\n\nA numeral is a word, functioning most typically as a determiner,\nadjective or pronoun, that expresses a number and a relation to the\nnumber, such as quantity, sequence, frequency or fraction.\n\nNote that cardinal numerals are covered by NUM whether they are expressed as words (four), digits (4) or Roman numerals (IV).\n\nIn Turkish numbers may get features NumType=Ord (ordinal) or NumType=Dist (distributive) through suffixation.\n\nWe also mark interrogative kaç \"how many\" as NUM.\n\nExamples\n\n- 0, 1, 2, 3, 4, 5, 2014, 1000000, 3,14159265359 \n- I, II, III, IV, V, MMXIV\n- bir \"one\", beş \"five\", onbeş \"fifteen\"\n- kaç \"how many\", kaçıncı \"which one (of an ordered entities)\", kaçar \"how many each\""
+  },
+  "PUNCT": {
+    "shortdef": "punctuation",
+    "content": "Definition\n\nPunctuation marks are non-alphabetical characters and character groups used in many languages to delimit linguistic units in printed text.\n\nPunctuation is not taken to include logograms such as $, %, and §, which are instead tagged as SYM.\n\nExamples\n\n- Period: .\n- Comma: ,\n- Parentheses: ()\n \nReferences\n\n- Wikipedia"
+  }
+}
