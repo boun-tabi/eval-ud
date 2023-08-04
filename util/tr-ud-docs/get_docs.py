@@ -10,13 +10,13 @@ dep_tr_dir = os.path.join(tr_dir, 'dep')
 dep_tr_files = [os.path.join(dep_tr_dir, f) for f in os.listdir(dep_tr_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
 feat_tr_dir = os.path.join(tr_dir, 'feat')
 feat_tr_files = [os.path.join(feat_tr_dir, f) for f in os.listdir(feat_tr_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
-# u_dir = os.path.join(docs_dir, '_u')
-# pos_u_dir = os.path.join(docs_dir, '_u-pos')
-# pos_u_files = [os.path.join(pos_u_dir, f) for f in os.listdir(pos_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
-# dep_u_dir = os.path.join(docs_dir, '_u-dep')
-# dep_u_files = [os.path.join(dep_u_dir, f) for f in os.listdir(dep_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
-# feat_u_dir = os.path.join(docs_dir, '_u-feat')
-# feat_u_files = [os.path.join(feat_u_dir, f) for f in os.listdir(feat_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
+u_dir = os.path.join(docs_dir, '_u')
+pos_u_dir = os.path.join(docs_dir, '_u-pos')
+pos_u_files = [os.path.join(pos_u_dir, f) for f in os.listdir(pos_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
+dep_u_dir = os.path.join(docs_dir, '_u-dep')
+dep_u_files = [os.path.join(dep_u_dir, f) for f in os.listdir(dep_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
+feat_u_dir = os.path.join(docs_dir, '_u-feat')
+feat_u_files = [os.path.join(feat_u_dir, f) for f in os.listdir(feat_u_dir) if f.endswith('.md') and f != 'README.md' and f != 'index.md']
 
 pos_d, dep_d, feat_d = {}, {}, {}
 apos_pattern = re.compile(r'^\'.*?\'$')
@@ -30,8 +30,7 @@ link1_pattern = re.compile(r'\[(.*?)\]\(.*?\)')
 feat_pattern = re.compile(r'^<a name=".+?">(.+?)</a>:(.+?)$')
 code_pattern = re.compile(r'`(.*?)`')
 sdparse_pattern = re.compile(r'~~~ sdparse(.*?)~~~', re.DOTALL)
-# for f in pos_tr_files + pos_u_files + dep_tr_files + dep_u_files + feat_tr_files + feat_u_files:
-for f in pos_tr_files + dep_tr_files + feat_tr_files:
+for f in pos_tr_files + pos_u_files + dep_tr_files + dep_u_files + feat_tr_files + feat_u_files:
     with open(f, 'r', encoding='utf-8') as fin:
         content = fin.read()
         lines = content.split('\n')
@@ -89,9 +88,9 @@ for f in pos_tr_files + dep_tr_files + feat_tr_files:
                 feat_d[title][tag]['content'] = feat_d[title][tag]['content'].strip()
             feat_d[title]['content'] = general_content.strip()
 
-with open(os.path.join(THIS_DIR, 'tr_pos.json'), 'w', encoding='utf-8') as fout:
+with open(os.path.join(THIS_DIR, 'pos.json'), 'w', encoding='utf-8') as fout:
     json.dump(pos_d, fout, indent=2, ensure_ascii=False)
-with open(os.path.join(THIS_DIR, 'tr_dep.json'), 'w', encoding='utf-8') as fout:
+with open(os.path.join(THIS_DIR, 'dep.json'), 'w', encoding='utf-8') as fout:
     json.dump(dep_d, fout, indent=2, ensure_ascii=False)
-with open(os.path.join(THIS_DIR, 'tr_feat.json'), 'w', encoding='utf-8') as fout:
+with open(os.path.join(THIS_DIR, 'feat.json'), 'w', encoding='utf-8') as fout:
     json.dump(feat_d, fout, indent=2, ensure_ascii=False)
