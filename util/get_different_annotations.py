@@ -1,7 +1,5 @@
 import os, json, argparse
-from difflib import Differ
-
-d = Differ()
+from difflib import SequenceMatcher
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__)) # util
 parser = argparse.ArgumentParser()
@@ -26,9 +24,8 @@ len_sent_ids = len(sent_ids)
 change_d = {}
 for i, sent_id in enumerate(sent_ids):
     table1, table2 = f_d[sent_id], s_d[sent_id]
-    compare_list = list(d.compare(table1, table2))
-    if compare_list:
-        change_d[sent_id] = len([el for el in compare_list if el[0] == '+' or el[0] == '-'])
+    ratio = SequenceMatcher(None, table1, table2).ratio()
+    change_d[sent_id] = ratio
     if i % 1000 == 0:
         print('Remaining: {} / {}'.format(len_sent_ids - i, len_sent_ids))
 # sort dict
