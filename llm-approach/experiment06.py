@@ -1,4 +1,7 @@
 import os, json, argparse, openai
+from datetime import datetime
+
+now = datetime.now().strftime('%Y%m%d%H%M%S')
 
 template="""The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 5 words.
 
@@ -32,7 +35,7 @@ with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
 diff_anno_path = os.path.join(util_dir, 'different_annotations.json')
 with open(diff_anno_path, 'r', encoding='utf-8') as f:
     diff = json.load(f)
-sent_ids = list(diff.keys())[200:210]
+sent_ids = list(diff.keys())[1200:1210]
 
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
 
@@ -134,8 +137,8 @@ for i, sent_id in enumerate(sent_ids):
         ]
     )
     output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
-    with open(os.path.join(output_dir, 'experiment06_output-{}.json'.format(version)), 'w', encoding='utf-8') as f:
+    with open(os.path.join(output_dir, 'experiment06_output-{}-{}.json'.format(version, now)), 'w', encoding='utf-8') as f:
         json.dump(output_l, f, ensure_ascii=False, indent=4)
 
-with open(os.path.join(output_dir, 'experiment06_output-{}.json'.format(version)), 'w', encoding='utf-8') as f:
+with open(os.path.join(output_dir, 'experiment06_output-{}-{}.json'.format(version, now)), 'w', encoding='utf-8') as f:
     json.dump(output_l, f, ensure_ascii=False, indent=4)
