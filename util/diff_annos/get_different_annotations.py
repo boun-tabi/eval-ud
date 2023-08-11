@@ -23,12 +23,13 @@ sent_ids = list(set(f_d.keys()).union(set(s_d.keys())))
 len_sent_ids = len(sent_ids)
 change_d = {}
 split_included = False
-similarity_type = 'SequenceMatcher.ratio between form + lemma + upos + feats strings ; 1.0 means identical, 0.0 means completely different ; sentences without splits'
-small_tag = 'seq_ratio-upos_feats-no_split'
+similarity_type = 'exact matches among form, lemma, upos and feats strings ; 1 means identical, 0 means completely different ; sentences without splits and with same number of rows'
+small_tag = 'exact_match-upos_feats-no_split'
 for i, sent_id in enumerate(sent_ids):
     table1, table2 = f_d[sent_id], s_d[sent_id]
-    str1, str2 = '', ''
+    l1, l2 = [], []
     split_found = False
+    all_count, change_count = 0, 0
     for el in table1.split('\n'):
         if el.startswith('#'):
             continue
@@ -38,7 +39,7 @@ for i, sent_id in enumerate(sent_ids):
                 split_found = True
                 if not split_included:
                     break
-            str1 += '{} {} {} {}\n'.format(fields[1], fields[2], fields[3], fields[5])
+            l1.append((fields[1], fields[2], fields[3], fields[5]))
     if split_found and not split_included:
         continue
     for el in table2.split('\n'):
@@ -50,11 +51,24 @@ for i, sent_id in enumerate(sent_ids):
                 split_found = True
                 if not split_included:
                     break
-            str2 += '{} {} {} {}\n'.format(fields[1], fields[2], fields[3], fields[5])
+            l2.append((fields[1], fields[2], fields[3], fields[5]))
     if split_found and not split_included:
         continue
-    ratio = SequenceMatcher(None, str1, str2).ratio()
-    change_d[sent_id] = ratio
+    if len(l1) != len(l2):
+        continue
+    for row in range(len(l1)):
+        form1, lemma1, upos1, feats1 = l1[row]
+        form2, lemma2, upos2, feats2 = l2[row]
+        if form1 != form2:
+            change_count += 1
+        if lemma1 != lemma2:
+            change_count += 1
+        if upos1 != upos2:
+            change_count += 1
+        if feats1 != feats2:
+            change_count += 1
+        all_count += 4
+    change_d[sent_id] = change_count / all_count
     if i % 1000 == 0:
         print('Remaining: {} / {}'.format(len_sent_ids - i, len_sent_ids))
 # sort dict
