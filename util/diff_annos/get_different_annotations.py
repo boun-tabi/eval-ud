@@ -23,27 +23,36 @@ sent_ids = list(set(f_d.keys()).union(set(s_d.keys())))
 len_sent_ids = len(sent_ids)
 change_d = {}
 split_included = False
-similarity_type = 'SequenceMatcher.ratio between form + lemma + upos + feats strings ; 1.0 means identical, 0.0 means completely different'
-small_tag = 'seq_ratio-upos-feats'
+similarity_type = 'SequenceMatcher.ratio between form + lemma + upos + feats strings ; 1.0 means identical, 0.0 means completely different ; sentences without splits'
+small_tag = 'seq_ratio-upos_feats-no_split'
 for i, sent_id in enumerate(sent_ids):
     table1, table2 = f_d[sent_id], s_d[sent_id]
     str1, str2 = '', ''
+    split_found = False
     for el in table1.split('\n'):
         if el.startswith('#'):
             continue
         fields = el.split('\t')
         if len(fields) == 10:
-            if not split_included and '-' in fields[0]:
-                continue
+            if '-' in fields[0]:
+                split_found = True
+                if not split_included:
+                    break
             str1 += '{} {} {} {}\n'.format(fields[1], fields[2], fields[3], fields[5])
+    if split_found and not split_included:
+        continue
     for el in table2.split('\n'):
         if el.startswith('#'):
             continue
         fields = el.split('\t')
         if len(fields) == 10:
-            if not split_included and '-' in fields[0]:
-                continue
+            if '-' in fields[0]:
+                split_found = True
+                if not split_included:
+                    break
             str2 += '{} {} {} {}\n'.format(fields[1], fields[2], fields[3], fields[5])
+    if split_found and not split_included:
+        continue
     ratio = SequenceMatcher(None, str1, str2).ratio()
     change_d[sent_id] = ratio
     if i % 1000 == 0:
