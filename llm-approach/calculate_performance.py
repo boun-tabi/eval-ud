@@ -24,8 +24,11 @@ print('Average similarity ratio: {}'.format(ratio_acc / all_count))
 
 # Average similarity ratios
 ## 1
-# - 0.6570594332974276 for v2.11
 # - 0.6580315517304394 for v2.8
+# - 0.6570594332974276 for v2.11
 ## 2
-# - 0.9005500356464718 for v2.11
 # - 0.8678245704165665 for v2.8
+# - 0.9005500356464718 for v2.11
+## 3
+# - 0.8376212923623395 for v2.8
+# - 0.8546488939079127 for v2.11

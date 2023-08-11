@@ -1,4 +1,4 @@
-import os, json, argparse, openai
+import os, json, argparse, openai, random
 from datetime import datetime
 
 now = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -40,6 +40,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-t1', '--treebank1', type=str, required=True)
 parser.add_argument('-t2', '--treebank2', type=str, required=True)
 parser.add_argument('-d', '--diff', type=str, required=True)
+parser.add_argument('-s', '--sentence-count', type=str, required=True)
+parser.add_argument('-c', '--class-count', type=int, required=True)
 args = parser.parse_args()
 treebank1 = args.treebank1
 version1 = '_'.join(os.path.dirname(treebank1).split('/')[-2:])
@@ -47,6 +49,22 @@ treebank2 = args.treebank2
 version2 = '_'.join(os.path.dirname(treebank2).split('/')[-2:])
 with open(args.diff, 'r', encoding='utf-8') as f:
     diff = json.load(f)
+sentence_count = args.sentence_count
+class_count = args.class_count
+inc_per_class = 1 / class_count
+sent_per_class = int(sentence_count) // class_count
+class_l = []
+ratios = diff['ratios']
+perc_l = [i * inc_per_class for i in range(class_count+1)]
+for i in range(len(perc_l)-1):
+    sent_id_l = [k for k, v in ratios.items() if v >= perc_l[i] and v < perc_l[i+1]]
+    random.shuffle(sent_id_l)
+    d = {'lower': perc_l[i], 'upper': perc_l[i+1], 'sent_ids': sent_id_l[:sent_per_class]}
+    class_l.append(d)
+    sent_ids.extend(sent_id_l[:sent_per_class])
+class_path = os.path.join(output_dir, f'{now}_class_l.json')
+with open(class_path, 'w', encoding='utf-8') as f:
+    json.dump(class_l, f, ensure_ascii=False, indent=2)
 
 with open(args.treebank1, 'r', encoding='utf-8') as f:
     treebank1_data = json.load(f)
@@ -139,8 +157,6 @@ for run in [version1, version2]:
             prompt_l.append(', '.join(word_str_l) + '.')
             if not in_split:
                 word_order += 1
-        if word_count < 5:
-            continue
         prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
         completion = openai.ChatCompletion.create(
             model='gpt-3.5-turbo',
@@ -162,3 +178,13 @@ for run in [version1, version2]:
     elif run == version2:
         with open(version2_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
+
+run_l_path = os.path.join(THIS_DIR, 'run_l.json')
+if os.path.exists(run_l_path):
+    with open(run_l_path, 'r', encoding='utf-8') as f:
+        run_l = json.load(f)
+else:
+    run_l = []
+run_l.append({'version1': version1_out, 'version2': version2_out, 'now': now, 'prompt': template, 'class': class_path})
+with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
+    json.dump(run_l, f, ensure_ascii=False, indent=4)
