@@ -1,2 +1,2 @@
-python3 llm-approach/experiment06.py -t1 tr_boun/v2.11/treebank.json -t2 tr_boun/v2.8/treebank.json -d util/diff_annos/different_annotations-exact_match-upos_feats-no_split.json -s 10 -c 5
+python3 llm-approach/experiment06.py -t8 tr_boun/v2.8/treebank.json -t11 tr_boun/v2.11/treebank.json -d util/diff_annos/different_annotations-exact_match-upos_feats-no_split.json -s 20 -c 5
 python3 llm-approach/calculate_pipeline_performance.py

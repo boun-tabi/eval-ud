@@ -35,24 +35,27 @@ with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
 sent_ids = []
 
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
+exp6_dir = os.path.join(output_dir, 'experiment06')
+run_dir = os.path.join(exp6_dir, now)
+os.makedirs(run_dir, exist_ok=True)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-t1', '--treebank1', type=str, required=True)
-parser.add_argument('-t2', '--treebank2', type=str, required=True)
+parser.add_argument('-t8', '--treebank-2-8', type=str, required=True)
+parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
 parser.add_argument('-d', '--diff', type=str, required=True)
-parser.add_argument('-s', '--sentence-count', type=str, required=True)
+parser.add_argument('-s', '--sentence-count', type=int, required=True)
 parser.add_argument('-c', '--class-count', type=int, required=True)
 args = parser.parse_args()
-treebank1 = args.treebank1
-version1 = '_'.join(os.path.dirname(treebank1).split('/')[-2:])
-treebank2 = args.treebank2
-version2 = '_'.join(os.path.dirname(treebank2).split('/')[-2:])
+t8 = args.treebank_2_8
+v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
+t11 = args.treebank_2_11
+v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
 with open(args.diff, 'r', encoding='utf-8') as f:
     diff = json.load(f)
 sentence_count = args.sentence_count
 class_count = args.class_count
 inc_per_class = 1 / class_count
-sent_per_class = int(sentence_count) // class_count
+sent_per_class = sentence_count // class_count
 class_l = []
 ratios = diff['ratios']
 perc_l = [i * inc_per_class for i in range(class_count+1)]
@@ -62,19 +65,19 @@ for i in range(len(perc_l)-1):
     d = {'lower': perc_l[i], 'upper': perc_l[i+1], 'sent_ids': sent_id_l[:sent_per_class]}
     class_l.append(d)
     sent_ids.extend(sent_id_l[:sent_per_class])
-class_path = os.path.join(output_dir, f'{now}_class_l.json')
+class_path = os.path.join(run_dir, 'class_l.json')
 with open(class_path, 'w', encoding='utf-8') as f:
     json.dump(class_l, f, ensure_ascii=False, indent=2)
 
-with open(args.treebank1, 'r', encoding='utf-8') as f:
-    treebank1_data = json.load(f)
-with open(args.treebank2, 'r', encoding='utf-8') as f:
-    treebank2_data = json.load(f)
+with open(t8, 'r', encoding='utf-8') as f:
+    t8_data = json.load(f)
+with open(t11, 'r', encoding='utf-8') as f:
+    t11_data = json.load(f)
 table1_d, table2_d = {}, {}
-for example in treebank1_data:
+for example in t8_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
     table1_d[sent_id] = {'table': table, 'text': text}
-for example in treebank2_data:
+for example in t11_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
     table2_d[sent_id] = {'table': table, 'text': text}
 
@@ -97,12 +100,12 @@ number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th'
             141: '141st', 142: '142nd', 143: '143rd', 144: '144th', 145: '145th', 146: '146th', 147: '147th', 148: '148th',
             149: '149th', 150: '150th', 151: '151st', 152: '152nd', 153: '153rd', 154: '154th', 155: '155th', 156: '156th'}
 output_l = []
-version1_out, version2_out = os.path.join(output_dir, 'experiment06_output-{}-{}.json'.format(version1, now)), os.path.join(output_dir, 'experiment06_output-{}-{}.json'.format(version2, now))
-for run in [version1, version2]:
+v2_8_out, v2_11_out = os.path.join(run_dir, 'v2.8_output.json'), os.path.join(run_dir, 'v2.11_output.json')
+for run in [v2_8, v2_11]:
     for i, sent_id in enumerate(sent_ids):
-        if run == version1:
+        if run == v2_8:
             text, table = table1_d[sent_id]['text'], table1_d[sent_id]['table']
-        elif run == version2:
+        elif run == v2_11:
             text, table = table2_d[sent_id]['text'], table2_d[sent_id]['table']
         lines = table.split('\n')
         word_count = int(lines[-1].split('\t')[0])
@@ -166,17 +169,17 @@ for run in [version1, version2]:
             ]
         )
         output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
-        if run == version1:
-            with open(version1_out, 'w', encoding='utf-8') as f:
+        if run == v2_8:
+            with open(v2_8_out, 'w', encoding='utf-8') as f:
                 json.dump(output_l, f, ensure_ascii=False, indent=4)
-        elif run == version2:
-            with open(version2_out, 'w', encoding='utf-8') as f:
+        elif run == v2_11:
+            with open(v2_11_out, 'w', encoding='utf-8') as f:
                 json.dump(output_l, f, ensure_ascii=False, indent=4)
-    if run == version1:
-        with open(version1_out, 'w', encoding='utf-8') as f:
+    if run == v2_8:
+        with open(v2_8_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
-    elif run == version2:
-        with open(version2_out, 'w', encoding='utf-8') as f:
+    elif run == v2_11:
+        with open(v2_11_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
 
 run_l_path = os.path.join(THIS_DIR, 'run_l.json')
@@ -185,6 +188,6 @@ if os.path.exists(run_l_path):
         run_l = json.load(f)
 else:
     run_l = []
-run_l.append({'version1': version1_out, 'version2': version2_out, 'now': now, 'prompt': template, 'class': class_path})
+run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir})
 with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
     json.dump(run_l, f, ensure_ascii=False, indent=4)

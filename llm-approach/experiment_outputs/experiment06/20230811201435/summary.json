@@ -1,0 +1,90 @@
+{
+    "v2.8_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811201435/v2.8_output.json",
+    "v2.11_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811201435/v2.11_output.json",
+    "results": {
+        "ess_1125": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 0.8533333333333334,
+            "original text": "Bu da öykünün söz evrenini genişletiyor.",
+            "v2.8 text": "Bu da öykünün söz evrenini genişletiyor.",
+            "v2.11 text": "Bu öykü de söz evrenini genişletir."
+        },
+        "ess_1255": {
+            "v2.8 ratio": 0.95,
+            "v2.11 ratio": 0.95,
+            "original text": "Gençlik filmlerinde hep öyle oluyor çünkü.",
+            "v2.8 text": "Gençlik filmlerde hep öyle olur çünkü.",
+            "v2.11 text": "Gençlik filmlerde hep öyle olur çünkü."
+        },
+        "news_1348": {
+            "v2.8 ratio": 0.9465648854961832,
+            "v2.11 ratio": 0.9465648854961832,
+            "original text": "* Geçici personel, her ay için bir gün ücretli izne hak kazanacak.",
+            "v2.8 text": "Geçici personel her ay için bir gün ücretli izin hakkı kazanacak.",
+            "v2.11 text": "Geçici personel her ay için bir gün ücretli izin hakkı kazanacak."
+        },
+        "pop_999": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 0.9772727272727273,
+            "original text": "Hint nehirlerinin efsanevi özellikleri vardı.",
+            "v2.8 text": "Hint nehirlerinin efsanevi özellikleri vardı.",
+            "v2.11 text": "Hint nehirlerin efsanevi özellikleri vardı."
+        },
+        "news_652": {
+            "v2.8 ratio": 0.9714285714285714,
+            "v2.11 ratio": 0.9714285714285714,
+            "original text": "Rasmussen olumsuz",
+            "v2.8 text": "Rasmussen olumsuz.",
+            "v2.11 text": "Rasmussen olumsuz."
+        },
+        "ins_1829": {
+            "v2.8 ratio": 0.9142857142857143,
+            "v2.11 ratio": 0.8648648648648649,
+            "original text": "İyi bak dört yana,",
+            "v2.8 text": "İyi bak dört yan.",
+            "v2.11 text": "İyi bak dörde yana."
+        },
+        "news_529": {
+            "v2.8 ratio": 0.9032258064516129,
+            "v2.11 ratio": 0.9032258064516129,
+            "original text": "Yabancı aşıklar",
+            "v2.8 text": "Yabancı âşıklar.",
+            "v2.11 text": "Yabancı âşıklar."
+        },
+        "news_746": {
+            "v2.8 ratio": 0.8095238095238095,
+            "v2.11 ratio": 0.4473684210526316,
+            "original text": "Arap savunma paktı...",
+            "v2.8 text": "Arap savunur paktını.",
+            "v2.11 text": "The surface text of the sentence is \"Arap savun paktı.\""
+        },
+        "news_1185": {
+            "v2.8 ratio": 0.22857142857142856,
+            "v2.11 ratio": 0.16216216216216217,
+            "original text": "TAM METİNLİ MAKALE",
+            "v2.8 text": "Tam Metin makale.",
+            "v2.11 text": "Tam metinli makale."
+        },
+        "pop_1431": {
+            "v2.8 ratio": 0.17777777777777778,
+            "v2.11 ratio": 0.1276595744680851,
+            "original text": "PİRİNÇLİ KARIŞIK SALATA",
+            "v2.8 text": "Pirinç Karışık salata.",
+            "v2.11 text": "Pirinçli karışık salata."
+        },
+        "ins_220": {
+            "v2.8 ratio": 0.25,
+            "v2.11 ratio": 0.2222222222222222,
+            "original text": "AĞAÇ DİYOR Kİ",
+            "v2.8 text": "Ağaç da ki.",
+            "v2.11 text": "Ağaç değil ki."
+        },
+        "pop_243": {
+            "v2.8 ratio": 0.26229508196721313,
+            "v2.11 ratio": 0.8888888888888888,
+            "original text": "kırmızı biber",
+            "v2.8 text": "The surface text of the sentence is \"Kır biber.\"",
+            "v2.11 text": "Kırmızı biber."
+        }
+    }
+}
