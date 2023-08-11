@@ -53,10 +53,10 @@
         },
         "news_746": {
             "v2.8 ratio": 0.8095238095238095,
-            "v2.11 ratio": 0.4473684210526316,
+            "v2.11 ratio": 0.8947368421052632,
             "original text": "Arap savunma paktı...",
             "v2.8 text": "Arap savunur paktını.",
-            "v2.11 text": "The surface text of the sentence is \"Arap savun paktı.\""
+            "v2.11 text": "Arap savun paktı."
         },
         "news_1185": {
             "v2.8 ratio": 0.22857142857142856,
@@ -80,11 +80,51 @@
             "v2.11 text": "Ağaç değil ki."
         },
         "pop_243": {
-            "v2.8 ratio": 0.26229508196721313,
+            "v2.8 ratio": 0.6956521739130435,
             "v2.11 ratio": 0.8888888888888888,
             "original text": "kırmızı biber",
-            "v2.8 text": "The surface text of the sentence is \"Kır biber.\"",
+            "v2.8 text": "Kır biber.",
             "v2.11 text": "Kırmızı biber."
         }
-    }
+    },
+    "average v2.8 ratio": 0.7372525139540117,
+    "average v2.11 ratio": 0.7301966565578262,
+    "class ratios": [
+        {
+            "lower": 0.0,
+            "upper": 0.2,
+            "sent_ids": [
+                "ess_1125",
+                "ess_1255",
+                "news_1348",
+                "pop_999"
+            ],
+            "v2.8 ratio": 0.9741412213740458,
+            "v2.11 ratio": 0.9317927365255609
+        },
+        {
+            "lower": 0.2,
+            "upper": 0.4,
+            "sent_ids": [
+                "news_652",
+                "ins_1829",
+                "news_529",
+                "news_746"
+            ],
+            "v2.8 ratio": 0.8996159754224271,
+            "v2.11 ratio": 0.9085640212125782
+        },
+        {
+            "lower": 0.4,
+            "upper": 0.6000000000000001,
+            "sent_ids": [
+                "news_1185",
+                "pop_1431",
+                "ins_220",
+                "pop_243"
+            ],
+            "v2.8 ratio": 0.3380003450655624,
+            "v2.11 ratio": 0.3502332119353396
+        }
+    ]
 }
