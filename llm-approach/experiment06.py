@@ -50,7 +50,8 @@ t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
 t11 = args.treebank_2_11
 v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
-with open(args.diff, 'r', encoding='utf-8') as f:
+diff_path = args.diff
+with open(diff_path, 'r', encoding='utf-8') as f:
     diff = json.load(f)
 sentence_count = args.sentence_count
 class_count = args.class_count
@@ -99,9 +100,9 @@ number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th'
             133: '133rd', 134: '134th', 135: '135th', 136: '136th', 137: '137th', 138: '138th', 139: '139th', 140: '140th',
             141: '141st', 142: '142nd', 143: '143rd', 144: '144th', 145: '145th', 146: '146th', 147: '147th', 148: '148th',
             149: '149th', 150: '150th', 151: '151st', 152: '152nd', 153: '153rd', 154: '154th', 155: '155th', 156: '156th'}
-output_l = []
 v2_8_out, v2_11_out = os.path.join(run_dir, 'v2.8_output.json'), os.path.join(run_dir, 'v2.11_output.json')
 for run in [v2_8, v2_11]:
+    output_l = []
     for i, sent_id in enumerate(sent_ids):
         if run == v2_8:
             text, table = table1_d[sent_id]['text'], table1_d[sent_id]['table']
@@ -188,6 +189,6 @@ if os.path.exists(run_l_path):
         run_l = json.load(f)
 else:
     run_l = []
-run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir})
+run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir, 'diff': diff_path, 'sentence_count': sentence_count, 'class_count': class_count})
 with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
     json.dump(run_l, f, ensure_ascii=False, indent=4)

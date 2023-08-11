@@ -1,0 +1,475 @@
+{
+    "v2.8_path": "llm-approach/experiment_outputs/experiment06/20230811204451/v2.8_output.json",
+    "v2.11_path": "llm-approach/experiment_outputs/experiment06/20230811204451/v2.11_output.json",
+    "results": {
+        "pop_919": {
+            "v2.8 ratio": 0.8888888888888888,
+            "v2.11 ratio": 0.9696969696969697,
+            "original text": "2 su bardağı süt",
+            "v2.8 text": "2 su bardağında süt.",
+            "v2.11 text": "2 su bardağı süt."
+        },
+        "ins_174": {
+            "v2.8 ratio": 0.48484848484848486,
+            "v2.11 ratio": 0.7833827893175074,
+            "original text": "* Fuarın beş dev holünün her birinde fuar boyunca çeşitli etkinlikler düzenleniyor: kitap tanıtımları, okumalar, yazarlarla sohbetler, paneller, ödül törenleri, imza günleri...",
+            "v2.8 text": "Fuarın beşinci dev holünün her bir fuarı boyunca çeşitli etkinlikler düzenleniyordu. Kitapların tanıtımı yapılırken yazarlarla sohbet ediliyor, okurlarla panel tartışmaları düzenleniyor ve ödül töreniyle kitapların imzaları alınıyordu. Günün sonunda her fuarın enerjisi yüksek oluyordu.",
+            "v2.11 text": "Fuarın beşinci holündeki her bir fuar boyunca çeşitli etkinlikler düzenlenen kitap tanıtımını okuyan yazarlar sohbet panel ödül töreninde imza gününe katıldılar."
+        },
+        "pop_835": {
+            "v2.8 ratio": 0.5945945945945946,
+            "v2.11 ratio": 0.88,
+            "original text": "Eskişehir'de duvara yazılmış bir uyarı",
+            "v2.8 text": "The surface text of the sentence is:\n\nEskişehir duvara yazıldı bir uyarı.",
+            "v2.11 text": "Eskişehir duvara yazıldığı bir uyarı."
+        },
+        "news_553": {
+            "v2.8 ratio": 0.6808510638297872,
+            "v2.11 ratio": 0.8205128205128205,
+            "original text": "Benim bildiğim girer.",
+            "v2.8 text": "Ben bilgisayarıma girerim.",
+            "v2.11 text": "Ben bileyim girer."
+        },
+        "bio_1606": {
+            "v2.8 ratio": 0.8202247191011236,
+            "v2.11 ratio": 0.8444444444444444,
+            "original text": "Annem benimle hastanede kaldığı dönemlerde kardeşlerime de hep akrabalarımız bakmış (ama ne bakış).",
+            "v2.8 text": "Anne beni hastanede kal dönem kardeşlere de hep akrabaları bak ama ne bana bak!",
+            "v2.11 text": "Anne beni hastanede kal dönem kardeşlere de hep akrabalarım bak ama ne bakılacak."
+        },
+        "ess_1547": {
+            "v2.8 ratio": 0.6571428571428571,
+            "v2.11 ratio": 0.8613138686131386,
+            "original text": "Ayaklarınızdan suya girmeye başladığınızda, kritik karar anı gelir çatar.",
+            "v2.8 text": "Ayakkabınızı sularken başlayan kritik kararları anlatır gelirsiniz.",
+            "v2.11 text": "Ayakların suya gir, başladığın kritik karar anında gelir, çatar."
+        },
+        "pop_1345": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 0.9655172413793104,
+            "original text": "1 paket güllaç",
+            "v2.8 text": "1 paket güllaç",
+            "v2.11 text": "1 paket güllaç."
+        },
+        "pop_94": {
+            "v2.8 ratio": 0.7446808510638298,
+            "v2.11 ratio": 0.7446808510638298,
+            "original text": "Kokluyorsunuz, Fahrenayt kokuyor, Calvin Klein kokuyor, Vakko kokuyor, Caideon kokuyor, şu kokuyor, bu kokuyor.",
+            "v2.8 text": "Koklayın Fahrenayt, kok Calvin, Klein kok Vakko, kok Caideon, kok şu, kok bu.",
+            "v2.11 text": "Koklayan Fahrenayt, kokan Calvin, Klein, Vakko, Caideon, şu koku bu kokuyor.\n"
+        },
+        "pop_732": {
+            "v2.8 ratio": 0.9541284403669725,
+            "v2.11 ratio": 0.9203539823008849,
+            "original text": "Fesleğen yapraklarını ince ince kıyıp, zeytinyağına atın.",
+            "v2.8 text": "Fesleğen yapraklarını ince ince kıy zeytinyağına at.",
+            "v2.11 text": "Fesleğen yapraklarını ince ince kıy zeytinyağı ile atın."
+        },
+        "ins_993": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 1.0,
+            "original text": "Daha sonra Tekirdağ'a nakledildik.",
+            "v2.8 text": "Daha sonra Tekirdağ'a nakledildik.",
+            "v2.11 text": "Daha sonra Tekirdağ'a nakledildik."
+        },
+        "ins_1557": {
+            "v2.8 ratio": 0.9130434782608695,
+            "v2.11 ratio": 0.9361702127659575,
+            "original text": "Yüzme öğretmeni de geldi.",
+            "v2.8 text": "Yüz öğretmende geldi.",
+            "v2.11 text": "Yüz öğretmen de geldi."
+        },
+        "ins_1383": {
+            "v2.8 ratio": 0.813953488372093,
+            "v2.11 ratio": 0.7865168539325843,
+            "original text": "Orada yoklama yaptıktan sonra evlere dağılacağız.",
+            "v2.8 text": "Ora yoklamadan sonra evler dağılacak.",
+            "v2.11 text": "Ora yoklamayı yapıp evlerde dağılacağım."
+        },
+        "news_1867": {
+            "v2.8 ratio": 0.8545454545454545,
+            "v2.11 ratio": 0.9026548672566371,
+            "original text": "İlham Gencer ile bir ikili kurarak okul konserleri veriyorlar.",
+            "v2.8 text": "İlham Gencer ile bir ikili kur, okul konser ver.",
+            "v2.11 text": "İlham Gencer ile bir ikili kur okul konser veriyor."
+        },
+        "ins_1684": {
+            "v2.8 ratio": 0.8055555555555556,
+            "v2.11 ratio": 0.8918918918918919,
+            "original text": "Gece yarısı bizim eve hırsızlar girdi.",
+            "v2.8 text": "Gece yarılarımız eve hırsız girdi.",
+            "v2.11 text": "Gece yarında bizim eve hırsız girdi."
+        },
+        "news_1585": {
+            "v2.8 ratio": 0.822429906542056,
+            "v2.11 ratio": 0.6973684210526315,
+            "original text": "Tekstilde devrim, akıllı giysiler alanında gerçekleşiyor",
+            "v2.8 text": "Text: Tekstil devrim aklı giysi alan gerçekleşiyor.",
+            "v2.11 text": "The surface text of the sentence is:\n\nTekstil devrimi akıllı giysiler alanında gerçekleştiriyor."
+        },
+        "pop_131": {
+            "v2.8 ratio": 0.7922077922077922,
+            "v2.11 ratio": 0.8776978417266187,
+            "original text": "Genel olarak bu element, harita sahibinin güçlü olduğu yönleri açıklayacaktır.",
+            "v2.8 text": "Genel olarak bu element haritasının sahibi güç olabilenler yönü açıklayacak.",
+            "v2.11 text": "Genel ol bu element harita sahibi güçlü oldu yön açıklayacak."
+        },
+        "ins_1399": {
+            "v2.8 ratio": 0.6666666666666666,
+            "v2.11 ratio": 0.8571428571428571,
+            "original text": "Onun için ayıklanmaları gerek.\"",
+            "v2.8 text": "O ayıklanırsa gerek.",
+            "v2.11 text": "O için ayıklanması gerek."
+        },
+        "bio_125": {
+            "v2.8 ratio": 0.8936170212765957,
+            "v2.11 ratio": 0.9148936170212766,
+            "original text": "Mustafa Kemal de Corinne Lütfü'yü başsağlığı için ziyaret eder ve şu sözlerle teselli etmeye çalışır:",
+            "v2.8 text": "Mustafa Kemal de Corinne Lütfü başsağlık için ziyaret eder ve şu sözlerle teselli eder.",
+            "v2.11 text": "Mustafa Kemal de Corinne Lütfü başsağlığı için ziyaret eder ve şu söz teselli et çalış."
+        },
+        "ins_1037": {
+            "v2.8 ratio": 0.7184466019417476,
+            "v2.11 ratio": 0.782608695652174,
+            "original text": "Hem bir şeyler satmaya hem bir şeyler alıp gelmeye.",
+            "v2.8 text": "Hem bir şey sata, hem bir şey ala, hem bir şey gele.",
+            "v2.11 text": "Hem bir şey satıp hem bir şey alıp gider."
+        },
+        "ess_1287": {
+            "v2.8 ratio": 0.8047808764940239,
+            "v2.11 ratio": 0.7983870967741935,
+            "original text": "Kanalizasyonsuz kentlerde üreyen bir tür sivrisineğin hışmına uğrayarak yanağında koca koca İL YARALARI oluşuveren bir kuşak.",
+            "v2.8 text": "Kanalizasyonlu kentlerde üreyen bir tür sivrisineğin hışımına uğrayan yanak kocası kocalarının İl yarasından oluşan bir kuşak.",
+            "v2.11 text": "Kanalizasyonsuz kentlerde üreyen bir tür sivrisineğin hışımını uğra biten yanaklı koca koca il yaralara oluşan bir kuşaktır"
+        },
+        "ess_1624": {
+            "v2.8 ratio": 0.967741935483871,
+            "v2.11 ratio": 0.967741935483871,
+            "original text": "Romantikte de böyle bir yan var.",
+            "v2.8 text": "Romantik de böyle bir yan var.",
+            "v2.11 text": "Romantik de böyle bir yan var."
+        },
+        "ins_1911": {
+            "v2.8 ratio": 0.8571428571428571,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Sarı yuvarlakta ise demir.",
+            "v2.8 text": "Sarı yuvarlak i, Demir.",
+            "v2.11 text": "Sarı yuvarlağa İdemir."
+        },
+        "pop_901": {
+            "v2.8 ratio": 0.8120300751879699,
+            "v2.11 ratio": 0.8244274809160306,
+            "original text": "En son olarak da ölümden sonra anımsadıklarına birkaç örnek vermeye çalıştım.",
+            "v2.8 text": "En son ol da ölüm sonrası anımsa birkaç örnek ver çalış.",
+            "v2.11 text": "En son ol da ölüm sonra anımsa birkaç örnek ver çalış."
+        },
+        "ess_146": {
+            "v2.8 ratio": 0.9285714285714286,
+            "v2.11 ratio": 0.8928571428571429,
+            "original text": "Basketbola ben de bayılıyorum.",
+            "v2.8 text": "Basketbol bende bayılıyor.",
+            "v2.11 text": "Basketbol bende bayılırım."
+        },
+        "news_1326": {
+            "v2.8 ratio": 0.8387096774193549,
+            "v2.11 ratio": 0.8813559322033898,
+            "original text": "Şevki kırılıyor, hedefi kalmıyor.",
+            "v2.8 text": "Şevki kır hedefiyle kalmıyor.",
+            "v2.11 text": "Şevki kırı hedef kalmıyor."
+        },
+        "ins_255": {
+            "v2.8 ratio": 0.8888888888888888,
+            "v2.11 ratio": 0.9508196721311475,
+            "original text": "Sabah ve akşam yürüyüşü yapınız.",
+            "v2.8 text": "Sabah ve akşam yürü yaptığınız.",
+            "v2.11 text": "Sabah ve akşam yürüyüş yapın."
+        },
+        "ess_1363": {
+            "v2.8 ratio": 0.7407407407407407,
+            "v2.11 ratio": 0.9714285714285714,
+            "original text": "Oyunlar yazdınız.",
+            "v2.8 text": "Oyun yazı.",
+            "v2.11 text": "Oyunları yazdınız."
+        },
+        "ins_1959": {
+            "v2.8 ratio": 0.9090909090909091,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "B. Melendiz",
+            "v2.8 text": "B Melendiz.",
+            "v2.11 text": "B Melendiz."
+        },
+        "pop_672": {
+            "v2.8 ratio": 0.9354838709677419,
+            "v2.11 ratio": 0.8823529411764706,
+            "original text": "Dış görünüşünüz 1 evle anlatılır.",
+            "v2.8 text": "Dış görünüşün 1 ev anlatılır.",
+            "v2.11 text": "Dış görünüşünüzdü bir ev anlatılır."
+        },
+        "pop_161": {
+            "v2.8 ratio": 0.9583333333333334,
+            "v2.11 ratio": 0.9347826086956522,
+            "original text": "Muhafızgücü ve Harbokulu'ndan İzmir Denizgücü'ne",
+            "v2.8 text": "Muhafızgücü ve Harbokulu'nun İzmir Denizgücü'ne.",
+            "v2.11 text": "Muhafızgücü ve Harbokulu İzmir Denizgücü'ne."
+        },
+        "bio_1639": {
+            "v2.8 ratio": 0.8421052631578947,
+            "v2.11 ratio": 0.8421052631578947,
+            "original text": "Çaresizler.",
+            "v2.8 text": "Çareler.",
+            "v2.11 text": "Çaresiz."
+        },
+        "pop_1986": {
+            "v2.8 ratio": 0.7272727272727273,
+            "v2.11 ratio": 0.9166666666666666,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırladı.",
+            "v2.11 text": "Hazırlanışı."
+        },
+        "news_1094": {
+            "v2.8 ratio": 0.9130434782608695,
+            "v2.11 ratio": 0.8780487804878049,
+            "original text": "F16'lar modernleşiyor",
+            "v2.8 text": "F16'lar modernleştiriyor.",
+            "v2.11 text": "F16'ler modernleşir."
+        },
+        "pop_1671": {
+            "v2.8 ratio": 0.7169811320754716,
+            "v2.11 ratio": 0.7857142857142857,
+            "original text": "Kızılcıkları yıkayıp süzün.",
+            "v2.8 text": "Kızıl babalar yıkasın süz.",
+            "v2.11 text": "Kızılcığınızı yıkayın, süzün."
+        },
+        "pop_912": {
+            "v2.8 ratio": 0.8148148148148148,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Cevizi dövün.",
+            "v2.8 text": "Ceviz dövüştü.",
+            "v2.11 text": "Cevizi döv!"
+        },
+        "pop_1361": {
+            "v2.8 ratio": 0.5263157894736842,
+            "v2.11 ratio": 0.88,
+            "original text": "Oyunu mu bu",
+            "v2.8 text": "Oyun mu bu?\nIs this a game?",
+            "v2.11 text": "Oyunu mu bunu?"
+        },
+        "pop_1883": {
+            "v2.8 ratio": 0.7,
+            "v2.11 ratio": 0.9166666666666666,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla.",
+            "v2.11 text": "Hazırlanışı."
+        },
+        "news_621": {
+            "v2.8 ratio": 0.8125,
+            "v2.11 ratio": 0.7368421052631579,
+            "original text": "Hengen yumuşaması",
+            "v2.8 text": "Hengen yumuşar.",
+            "v2.11 text": "Hengen yumuşayabilir."
+        },
+        "news_1285": {
+            "v2.8 ratio": 0.46153846153846156,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Şampiyona çöpçülük teklifi",
+            "v2.8 text": "The surface text of the sentence is: \"Şampiyona çöp teklif etti.\"",
+            "v2.11 text": "Şampiyona çöpçülüğünü teklif etti."
+        },
+        "pop_236": {
+            "v2.8 ratio": 0.8717948717948718,
+            "v2.11 ratio": 0.8627450980392157,
+            "original text": "O yöneticilerin derdi.",
+            "v2.8 text": "O yöneticiler de.",
+            "v2.11 text": "Onlar yöneticilerin dertidir."
+        },
+        "ins_1411": {
+            "v2.8 ratio": 0.27586206896551724,
+            "v2.11 ratio": 0.20689655172413793,
+            "original text": "KÜÇÜK DEV ADAM",
+            "v2.8 text": "Küçük Dev adam.",
+            "v2.11 text": "Küçük dev adam."
+        },
+        "news_1185": {
+            "v2.8 ratio": 0.21621621621621623,
+            "v2.11 ratio": 0.16216216216216217,
+            "original text": "TAM METİNLİ MAKALE",
+            "v2.8 text": "Tam Metin makalesi.",
+            "v2.11 text": "Tam metinli makale."
+        },
+        "ins_220": {
+            "v2.8 ratio": 0.25,
+            "v2.11 ratio": 0.25,
+            "original text": "AĞAÇ DİYOR Kİ",
+            "v2.8 text": "Ağaç de ki.",
+            "v2.11 text": "Ağaç da ki."
+        },
+        "pop_269": {
+            "v2.8 ratio": 0.7894736842105263,
+            "v2.11 ratio": 0.8636363636363636,
+            "original text": "tuzsuz kabuklu badem",
+            "v2.8 text": "Tuzlu kabuk badem.",
+            "v2.11 text": "Tuzsuz ve kabuklu badem."
+        },
+        "news_53": {
+            "v2.8 ratio": 0.1875,
+            "v2.11 ratio": 0.16666666666666666,
+            "original text": "BABALIK HEYECANI...",
+            "v2.8 text": "Baba heyecan.",
+            "v2.11 text": "Babalık heyecanı."
+        },
+        "news_1369": {
+            "v2.8 ratio": 0.23333333333333334,
+            "v2.11 ratio": 0.23728813559322035,
+            "original text": "250 MİLYAR DOLARLIK HACMİ VAR",
+            "v2.8 text": "250 milyar dolar haciminin var.",
+            "v2.11 text": "250 milyar dolarlık hacmi var."
+        },
+        "news_1394": {
+            "v2.8 ratio": 0.2222222222222222,
+            "v2.11 ratio": 0.24,
+            "original text": "EVE GİDEN YOL",
+            "v2.8 text": "Ev git yoldur.",
+            "v2.11 text": "Eve git yol."
+        },
+        "pop_243": {
+            "v2.8 ratio": 0.6956521739130435,
+            "v2.11 ratio": 0.8888888888888888,
+            "original text": "kırmızı biber",
+            "v2.8 text": "Kır biber.",
+            "v2.11 text": "Kırmızı biber."
+        },
+        "pop_613": {
+            "v2.8 ratio": 0.14285714285714285,
+            "v2.11 ratio": 0.17391304347826086,
+            "original text": "DÖRTLÜ AYRIM",
+            "v2.8 text": "Dörtlüyü ayrıdı.",
+            "v2.11 text": "Dört ayrım."
+        },
+        "pop_861": {
+            "v2.8 ratio": 0.15789473684210525,
+            "v2.11 ratio": 0.13953488372093023,
+            "original text": "TÜRK KAHVELİ DONDURMA",
+            "v2.8 text": "Türk kahve yapar.",
+            "v2.11 text": "Türk kahveli dondurma."
+        },
+        "pop_1431": {
+            "v2.8 ratio": 0.17777777777777778,
+            "v2.11 ratio": 0.1276595744680851,
+            "original text": "PİRİNÇLİ KARIŞIK SALATA",
+            "v2.8 text": "Pirinç Karışık salata.",
+            "v2.11 text": "Pirinçli karışık salata."
+        }
+    },
+    "sentence_count": 51,
+    "class_count": 10,
+    "average v2.8 ratio": 0.6957352226128071,
+    "average v2.11 ratio": 0.7495201500561433,
+    "class ratios": [
+        {
+            "lower": 0.0,
+            "upper": 0.1,
+            "sent_ids": [
+                "pop_919",
+                "ins_174",
+                "pop_835",
+                "news_553",
+                "bio_1606",
+                "ess_1547",
+                "pop_1345",
+                "pop_94",
+                "pop_732",
+                "ins_993"
+            ],
+            "v2.8 ratio": 0.7825359899836538,
+            "v2.11 ratio": 0.8789902967328906,
+            "sentence count": 10
+        },
+        {
+            "lower": 0.1,
+            "upper": 0.2,
+            "sent_ids": [
+                "ins_1557",
+                "ins_1383",
+                "news_1867",
+                "ins_1684",
+                "news_1585",
+                "pop_131",
+                "ins_1399",
+                "bio_125",
+                "ins_1037",
+                "ess_1287"
+            ],
+            "v2.8 ratio": 0.8085246841862854,
+            "v2.11 ratio": 0.8445332355216821,
+            "sentence count": 10
+        },
+        {
+            "lower": 0.2,
+            "upper": 0.30000000000000004,
+            "sent_ids": [
+                "ess_1624",
+                "ins_1911",
+                "pop_901",
+                "ess_146",
+                "news_1326",
+                "ins_255",
+                "ess_1363",
+                "ins_1959",
+                "pop_672",
+                "pop_161"
+            ],
+            "v2.8 ratio": 0.8836733716827097,
+            "v2.11 ratio": 0.904819052731652,
+            "sentence count": 10
+        },
+        {
+            "lower": 0.30000000000000004,
+            "upper": 0.4,
+            "sent_ids": [
+                "bio_1639",
+                "pop_1986",
+                "news_1094",
+                "pop_1671",
+                "pop_912",
+                "pop_1361",
+                "pop_1883",
+                "news_621",
+                "news_1285",
+                "pop_236"
+            ],
+            "v2.8 ratio": 0.7386366538388796,
+            "v2.11 ratio": 0.8485455532662358,
+            "sentence count": 10
+        },
+        {
+            "lower": 0.4,
+            "upper": 0.5,
+            "sent_ids": [
+                "ins_1411",
+                "news_1185",
+                "ins_220",
+                "pop_269",
+                "news_53",
+                "news_1369",
+                "news_1394"
+            ],
+            "v2.8 ratio": 0.3106582178496879,
+            "v2.11 ratio": 0.30380712568322155,
+            "sentence count": 7
+        },
+        {
+            "lower": 0.5,
+            "upper": 0.6000000000000001,
+            "sent_ids": [
+                "pop_243",
+                "pop_613",
+                "pop_861",
+                "pop_1431"
+            ],
+            "v2.8 ratio": 0.29354545784751734,
+            "v2.11 ratio": 0.33249909763904123,
+            "sentence count": 4
+        }
+    ],
+    "class count": 10
+}

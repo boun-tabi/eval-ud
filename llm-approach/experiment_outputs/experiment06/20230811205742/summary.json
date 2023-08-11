@@ -1,0 +1,422 @@
+{
+    "v2.8_path": "llm-approach/experiment_outputs/experiment06/20230811205742/v2.8_output.json",
+    "v2.11_path": "llm-approach/experiment_outputs/experiment06/20230811205742/v2.11_output.json",
+    "results": {
+        "ins_1806": {
+            "v2.8 ratio": 0.9333333333333333,
+            "v2.11 ratio": 0.9333333333333333,
+            "original text": "Aradan birkaç gün geçti.",
+            "v2.8 text": "Ara birkaç gün geçti.",
+            "v2.11 text": "Ara birkaç gün geçti."
+        },
+        "bio_1236": {
+            "v2.8 ratio": 0.7647058823529411,
+            "v2.11 ratio": 0.7428571428571429,
+            "original text": "Siz duymadınız denizlere olan hasreti",
+            "v2.8 text": "Siz duyduğunuz deniz ol hasret.",
+            "v2.11 text": "Siz duyduğunuz deniz olur hasret."
+        },
+        "ins_1249": {
+            "v2.8 ratio": 0.7384615384615385,
+            "v2.11 ratio": 0.762589928057554,
+            "original text": "Ayaklarının dibine baktığında, çiçeklerin bile kendisine gülümsediğini görmüş.",
+            "v2.8 text": "Ayakların dibe bak çiçek bile kendi güldüğünü gördü.",
+            "v2.11 text": "Ayakların dibe bakarak çiçeklerini bile kendi gülüşünü gördü."
+        },
+        "ess_772": {
+            "v2.8 ratio": 0.7759562841530054,
+            "v2.11 ratio": 0.7979274611398963,
+            "original text": "\"Biz onu çok yanlış tanımışız beyler, aslında AKP de fena parti değil lan\" diyerek açılımlar yapıyorum.",
+            "v2.8 text": "Biz onu çok yanlış tanıdık. Aslında AKP de fena parti değil. Lân de! Açılım yap.",
+            "v2.11 text": "Biz onun çok yanlış tanıdık.\nAslında AKP de fena parti değil, lan! Deyip açılım yapıyoruz."
+        },
+        "ess_1225": {
+            "v2.8 ratio": 0.9629629629629629,
+            "v2.11 ratio": 0.9629629629629629,
+            "original text": "Toplumsal yaşam zor yaşam...",
+            "v2.8 text": "Toplumsal yaşam zor yaşam.",
+            "v2.11 text": "Toplumsal yaşam zor yaşam."
+        },
+        "news_388": {
+            "v2.8 ratio": 0.9312977099236641,
+            "v2.11 ratio": 0.855072463768116,
+            "original text": "Bu yaş diliminin en az çalışanları ise Slovakya, Belçika ve Fransa'da.",
+            "v2.8 text": "Bu yaş dilimin en az çalışanı Slovakya, Belçika ve Fransa'da.",
+            "v2.11 text": "Bu yaşımın dilimi en az çalışıyorum i Slovakya Belçika ve Fransa'da."
+        },
+        "news_599": {
+            "v2.8 ratio": 0.8503937007874016,
+            "v2.11 ratio": 0.768,
+            "original text": "Bunu asla kişisel bir sorun olarak düşünmem\" diyerek sözlerini tamamladı.",
+            "v2.8 text": "Bu asla kişisel bir sorun ol düşün de sözleri tamamla.",
+            "v2.11 text": "Bu kişisel bir sorunu asla düşünmede sözü tamamladı."
+        },
+        "bio_47": {
+            "v2.8 ratio": 0.8,
+            "v2.11 ratio": 0.9696969696969697,
+            "original text": "Bu sırada Letitia ağlayarak gelir.",
+            "v2.8 text": "Bu sıra Letitia, ağla gel!",
+            "v2.11 text": "Bu sıra Letitia ağlayarak gelir."
+        },
+        "bio_962": {
+            "v2.8 ratio": 0.8426150121065376,
+            "v2.11 ratio": 0.8361858190709046,
+            "original text": "Türkiye'nin içinde bulunduğu düzenden birdenbire sosyalist bir devrime geçmenin imkânsızlığını gören, o aşamaya geçmeden önce bir Milli Demokratik Devrim aşamasının geçilmesine inanan bir akımın içine girdik hepimiz o dönem.",
+            "v2.8 text": "Türkiye içinde bulunmuş düzen birdenbire sosyalist bir devrim için geçmiş imkânı gör o aşamaya geç öncesi bir milli demokratik devrim aşamasına geçilmiş inan bir akım içine gir hep o dönem.",
+            "v2.11 text": "Türkiye içinden bulunmuş düzen birdenbire sosyalist bir devrime geçimkânsızlık gör o aşamaya geçince bir milli demokratik devrim aşaması geçirilin bir akımın içine girerek hep o döneme."
+        },
+        "bio_1051": {
+            "v2.8 ratio": 0.9069767441860465,
+            "v2.11 ratio": 0.9534883720930233,
+            "original text": "Bizimle aynı mağarada üç Moskovalı dağcı var.",
+            "v2.8 text": "Biz aynı mağarada üç Moskova dağcısı var.",
+            "v2.11 text": "Biz aynı mağarada üç Moskovalı dağcı var."
+        },
+        "news_417": {
+            "v2.8 ratio": 0.8461538461538461,
+            "v2.11 ratio": 0.9787234042553191,
+            "original text": "AB kadrosu işbaşı yaptı",
+            "v2.8 text": "AB kadrosu işbaşında yapıldı.",
+            "v2.11 text": "AB kadrosu işbaşı yaptı."
+        },
+        "ins_1792": {
+            "v2.8 ratio": 0.8222222222222222,
+            "v2.11 ratio": 0.7885714285714286,
+            "original text": "Çünkü biz, sözcüklerle düşünür, sözcüklerle duyarız; duygularımızı, düşüncelerimizi sözcüklerle anlatırız.",
+            "v2.8 text": "Çünkü biz sözcük düşünür sözcük duyar duygu düşünce sözcüklerle anlatırız.",
+            "v2.11 text": "Çünkü biz sözcük düşünür sözcük duyar duygu düşünce sözcük anlatırız."
+        },
+        "news_1378": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 1.0,
+            "original text": "Yatırım için ideal zaman.",
+            "v2.8 text": "Yatırım için ideal zaman.",
+            "v2.11 text": "Yatırım için ideal zaman."
+        },
+        "ins_1298": {
+            "v2.8 ratio": 0.8837209302325582,
+            "v2.11 ratio": 0.9333333333333333,
+            "original text": "İşte o anda Seyit, oturduğu yerden hızla kalktı.",
+            "v2.8 text": "İşte o Seyit otur yerden hızla kalktı.",
+            "v2.11 text": "İşte o an Seyit oturduğu yer hızla kalktı."
+        },
+        "news_159": {
+            "v2.8 ratio": 0.7850467289719626,
+            "v2.11 ratio": 0.6614173228346457,
+            "original text": "İnananlar intiharın dinimizde yasak sayıldığının bilincindeler.",
+            "v2.8 text": "İnan intihar dini yasağı sayının bilincinde.",
+            "v2.11 text": "İnanılan intihar dinimizin yasak sayılan büyük günahlarındandır."
+        },
+        "ins_1662": {
+            "v2.8 ratio": 0.9700598802395209,
+            "v2.11 ratio": 0.9433962264150944,
+            "original text": "Bu nedenle de Mehmet ve kız kardeşleri için hayatın ilk yılları pek de kolay olmadı.",
+            "v2.8 text": "Bu nedenle Mehmet ve kız kardeşleri için hayatının ilk yılları pek de kolay olmadı.",
+            "v2.11 text": "Bu nedenle Mehmet ve kız kardeşi için hayatın ilk yılı pek de kolay olmadı."
+        },
+        "bio_340": {
+            "v2.8 ratio": 0.946236559139785,
+            "v2.11 ratio": 0.9574468085106383,
+            "original text": "İlk elden dinlediğim bir hikâyesini aktaracağım.",
+            "v2.8 text": "İlkelden dinlediğim bir hikâyeyi aktaracağım.",
+            "v2.11 text": "İlk elden dinlediğim bir hikâyeyi aktaracağım."
+        },
+        "ess_1481": {
+            "v2.8 ratio": 0.9666666666666667,
+            "v2.11 ratio": 0.9666666666666667,
+            "original text": "Oğlu gibi o da spora düşkündü.",
+            "v2.8 text": "Oğul gibi o da spora düşkündü.",
+            "v2.11 text": "Oğul gibi o da spora düşkündü."
+        },
+        "bio_665": {
+            "v2.8 ratio": 0.7377049180327869,
+            "v2.11 ratio": 0.5645161290322581,
+            "original text": "Onun için yol arkadaşlarımızı titizlikle seçer, kendilerini iyice sınarız.",
+            "v2.8 text": "O yol arkadaşlarına titizce seç kendi iyice sın.",
+            "v2.11 text": "O yol, arkadaşlarının titizliğine sık sık katıyor."
+        },
+        "ess_1185": {
+            "v2.8 ratio": 0.8478260869565217,
+            "v2.11 ratio": 0.9347826086956522,
+            "original text": "Şu son yıllarda bile, hâlâ öğrenemediniz mi bunu?",
+            "v2.8 text": "Şu son yıllarda bile hâlâ öğrenmiyor mu bu?",
+            "v2.11 text": "Şu son yıllarda bile hâlâ öğrendin mi bunu?"
+        },
+        "pop_338": {
+            "v2.8 ratio": 0.8301886792452831,
+            "v2.11 ratio": 0.6086956521739131,
+            "original text": "Ne demişler, kefenin cebi yok.",
+            "v2.8 text": "Ne de kefenin cepi yok.",
+            "v2.11 text": "Ne kefeni yoktu."
+        },
+        "pop_71": {
+            "v2.8 ratio": 0.7857142857142857,
+            "v2.11 ratio": 0.8135593220338984,
+            "original text": "Sanalın kolaycılığına sığınmak...",
+            "v2.8 text": "Sanal kolaycı sığınmaz.",
+            "v2.11 text": "Sanal kolaycılığa sığınır."
+        },
+        "ess_1649": {
+            "v2.8 ratio": 0.7341772151898734,
+            "v2.11 ratio": 0.7950310559006211,
+            "original text": "Hiçbir zaman çocukluklarını geçek anlamda yaşayamayan, gelecekten habersiz, mutsuz çocuklar...",
+            "v2.8 text": "Hiçbir zaman çocukluğunda geçek anlamı yaşamayacak mutsuz çocuk.",
+            "v2.11 text": "Hiçbir zaman çocukluğu geçek anlam yaşayacak habersiz mutsuz çocuk."
+        },
+        "news_1238": {
+            "v2.8 ratio": 0.9007633587786259,
+            "v2.11 ratio": 0.9629629629629629,
+            "original text": "İspanyol basını, yeni teknik direktör adayları arasında Boca Juniors'ın eski teknik direktörü Carlos Bianchi'nin de bulunduğunu ileri sürdü.",
+            "v2.8 text": "İspanyol basının yeni teknik direktör adayı ara bocada Juniors eski teknik direktör Carlos Bianchi de bulundu ileri sürdü.",
+            "v2.11 text": "İspanyol basın yeni teknik direktör adayları arasında Boca Juniors'ın eski teknik direktörü Carlos Bianchi de bulundu ileri sürdü."
+        },
+        "pop_283": {
+            "v2.8 ratio": 0.967741935483871,
+            "v2.11 ratio": 0.967741935483871,
+            "original text": "O zamanlar orada çok zaman geçiriyordum, fazla puan yapmak için.",
+            "v2.8 text": "O zaman orada çok zaman geçiriyordum fazla puan yapmak için.",
+            "v2.11 text": "O zaman orada çok zaman geçiriyordum fazla puan yapmak için."
+        },
+        "pop_976": {
+            "v2.8 ratio": 0.8709677419354839,
+            "v2.11 ratio": 0.8923076923076924,
+            "original text": "Kavrulup kahveye de karıştırılır.",
+            "v2.8 text": "Kavrulmuş kahveye de karışır.",
+            "v2.11 text": "Kavrulmuş kahveyi de karıştırır."
+        },
+        "pop_397": {
+            "v2.8 ratio": 0.9787234042553191,
+            "v2.11 ratio": 0.9787234042553191,
+            "original text": "1 çay kaşığı limon suyu",
+            "v2.8 text": "1 çay kaşığı limon suyu.",
+            "v2.11 text": "1 çay kaşığı limon suyu."
+        },
+        "ins_1911": {
+            "v2.8 ratio": 0.9411764705882353,
+            "v2.11 ratio": 0.851063829787234,
+            "original text": "Sarı yuvarlakta ise demir.",
+            "v2.8 text": "Sarı yuvarlakta i, demir.",
+            "v2.11 text": "Sarı yuvarlakı demir."
+        },
+        "news_1873": {
+            "v2.8 ratio": 0.9575757575757575,
+            "v2.11 ratio": 0.9575757575757575,
+            "original text": "Bizim sıkıntımız, düşmanımız, Türkiye'de uygulanan yüksek faiz, düşük kur politikası.",
+            "v2.8 text": "Bizim sıkıntımız düşmanın Türkiye'de uygulanan yüksek faiz düşük kur politikası.",
+            "v2.11 text": "Bizim sıkıntımız düşmanın Türkiye'de uygulanan yüksek faiz düşük kur politikası."
+        },
+        "ins_1874": {
+            "v2.8 ratio": 0.15,
+            "v2.11 ratio": 0.13043478260869565,
+            "original text": "ATATÜRK PARKINA GEZİ",
+            "v2.8 text": "Atatürk, parka gezi.",
+            "v2.11 text": "Atatürk, parka gezi yaptı."
+        },
+        "ins_196": {
+            "v2.8 ratio": 0.9333333333333333,
+            "v2.11 ratio": 0.9787234042553191,
+            "original text": "\"Demokrasiyi çok sevdim.",
+            "v2.8 text": "Demokrasi çok sevdim.",
+            "v2.11 text": "Demokrasiyi çok sevdim."
+        },
+        "news_1247": {
+            "v2.8 ratio": 0.8809523809523809,
+            "v2.11 ratio": 0.9069767441860465,
+            "original text": "Güney Koreli aileler kuzeyde üç gün kalacaklar.",
+            "v2.8 text": "Güney Kore aile kuzey üç gün kalacak.",
+            "v2.11 text": "Güney Koreli aile kuzey üç gün kalacak."
+        },
+        "pop_1892": {
+            "v2.8 ratio": 0.8823529411764706,
+            "v2.11 ratio": 0.8611111111111112,
+            "original text": "Jiletler kırdım, ustama hazırladım.",
+            "v2.8 text": "Jileti kırdım ustayla hazırladım.",
+            "v2.11 text": "Jiletleri kırdım ustanın hazırladığı."
+        },
+        "news_731": {
+            "v2.8 ratio": 0.8421052631578947,
+            "v2.11 ratio": 0.925,
+            "original text": "Kargart, sezonu bomba gibi sergiyle açtı.",
+            "v2.8 text": "Kargart sezonu bombayla sergi açtı.",
+            "v2.11 text": "Kargart sezonuna bomba gibi sergi açtı."
+        },
+        "ess_1585": {
+            "v2.8 ratio": 0.6382978723404256,
+            "v2.11 ratio": 0.9565217391304348,
+            "original text": "Resime karşı ilgim var.",
+            "v2.8 text": "Karşıya resmi ilgim var.",
+            "v2.11 text": "Resmime karşı ilgi var."
+        },
+        "news_1759": {
+            "v2.8 ratio": 0.6666666666666666,
+            "v2.11 ratio": 0.8615384615384616,
+            "original text": "Tansiyonun düşmesi herkesin lehine.",
+            "v2.8 text": "Tansiyonun düşen herkese Leh'e bakmasını söyledi.",
+            "v2.11 text": "Tansiyon düş herkesin Leh'ine."
+        },
+        "news_577": {
+            "v2.8 ratio": 0.7142857142857143,
+            "v2.11 ratio": 0.30303030303030304,
+            "original text": "İstanbul 1.",
+            "v2.8 text": "İstanbul birinci.",
+            "v2.11 text": "The surface text of the sentence is \"İstanbul birinci\"."
+        },
+        "bio_1326": {
+            "v2.8 ratio": 0.7931034482758621,
+            "v2.11 ratio": 0.75,
+            "original text": "Yeniden, Savaş Yılları Ankara'sı",
+            "v2.8 text": "Yeniden savaş yılı Ankara.",
+            "v2.11 text": "Yeniden savaş yılları Ankaramızda geçti."
+        },
+        "pop_1306": {
+            "v2.8 ratio": 0.9154929577464789,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "Milli takım teknik direktörü Şenol Güneş, İsveç ve Azerbaycan maçlarından sonra kendisini eleştiren Erman Toroğlu için \"Herhalde maçta değildi,\" dedi.",
+            "v2.8 text": "Milli takımın teknik direktörü Şenol Güneş, İsveç ve Azerbaycan maçından sonra kendi eleştiri Erman Toroğlu için herhalde maç değildi.",
+            "v2.11 text": "Milli takımın teknik direktörü Şenol Güneş İsveç ve Azerbaycan maçından sonra kendi eleştiriler Erman Toroğlu için herhalde maç değildi."
+        },
+        "news_511": {
+            "v2.8 ratio": 0.8112449799196787,
+            "v2.11 ratio": 0.8387096774193549,
+            "original text": "Avrupa Şampiyonası, Dünya Kupası ve Atina Olimpiyat Oyunları elemelerinde gösterdiği başarılar sonrası dünya klasmanında 12.",
+            "v2.8 text": "Avrupa şampiyonasının Dünya kupası ve Atina Olimpiyat oyunlarında ele gösterilen başarıdan sonra Dünya klasmanının 12 olması.",
+            "v2.11 text": "Avrupa şampiyonası dünya kupası ve Atina olimpiyat oyunları eleme gösterileri başarısından sonra Dünya klasmanında 12. oldu."
+        },
+        "news_1586": {
+            "v2.8 ratio": 0.9032258064516129,
+            "v2.11 ratio": 0.6896551724137931,
+            "original text": "\"Para konuşmadı\"",
+            "v2.8 text": "Para konuşmadı.",
+            "v2.11 text": "Para konuştu."
+        },
+        "bio_204": {
+            "v2.8 ratio": 0.6222222222222222,
+            "v2.11 ratio": 0.8627450980392157,
+            "original text": "Güldüren ve ağlatanla birlikte, binlerce derin duygu...",
+            "v2.8 text": "The surface text of the sentence is:\n\nGül ve ağla birlikte binlerce derin duygu.",
+            "v2.11 text": "Gül ve ağlayarak birlikte binlerce derin duygu."
+        },
+        "pop_798": {
+            "v2.8 ratio": 0.8831168831168831,
+            "v2.11 ratio": 0.9382716049382716,
+            "original text": "Badem, beden ve zihin yorgunluğunu giderir.",
+            "v2.8 text": "Badem beden ve zihin yorgun gider.",
+            "v2.11 text": "Badem beden ve zihin yorgunluğu gider."
+        },
+        "news_940": {
+            "v2.8 ratio": 0.9777777777777777,
+            "v2.11 ratio": 0.8837209302325582,
+            "original text": "Johnson iyi hissediyor",
+            "v2.8 text": "Johnson iyi hissediyor.",
+            "v2.11 text": "Johnson iyi hisseder."
+        },
+        "ins_271": {
+            "v2.8 ratio": 0.8913043478260869,
+            "v2.11 ratio": 0.9423076923076923,
+            "original text": "Ama bazen de bu oyunu oynamak gerçekten güçleşiyor.",
+            "v2.8 text": "Ama bazen de bu oyunu oyna gerçekten güç.",
+            "v2.11 text": "Ama bazen de bu oyunu oynayarak gerçekten güçleniyor."
+        },
+        "ins_922": {
+            "v2.8 ratio": 0.865979381443299,
+            "v2.11 ratio": 0.7708333333333334,
+            "original text": "\"Atatürk bu kitapları bir süs olsun diye toplamamıştır.",
+            "v2.8 text": "Atatürk bu kitapları süs ol diye toplamış.",
+            "v2.11 text": "Atatürk bu kitapları süs olarak toplamış."
+        },
+        "pop_102": {
+            "v2.8 ratio": 0.11764705882352941,
+            "v2.11 ratio": 0.12121212121212122,
+            "original text": "TARAFTAR ÇETELERİ",
+            "v2.8 text": "Taraftar çeteler.",
+            "v2.11 text": "Taraftar çeteyi."
+        },
+        "ess_1179": {
+            "v2.8 ratio": 0.821917808219178,
+            "v2.11 ratio": 0.8137931034482758,
+            "original text": "Daha az tanıdığımız bir süreç, tarihçilerin ve kazıbilimcilerin, filologların ve uygarlık tarihçilerinin son yüzyılın getirileri, kazanımları ile katettikleri mesafedir.",
+            "v2.8 text": "Daha az tanı bir süreç, tarihçiler ve kazıbilimci filologlar ve uygar tarihçisi son yüzyıl getirileri ile katetmesi mesafe.",
+            "v2.11 text": "Daha az tanı bir süreç, tarihçi ve kazıbilimci ve filolog ve uygar tarihçinin son yüzyıl getirileri ile katettiği mesafe."
+        },
+        "bio_1963": {
+            "v2.8 ratio": 0.967741935483871,
+            "v2.11 ratio": 0.5660377358490566,
+            "original text": "Polis durumdan hoşnut değildi.",
+            "v2.8 text": "Polis durumundan hoşnut değildi.",
+            "v2.11 text": "The surface text of the sentence would be:\n\nPolis durumundan hoşnut değildi."
+        },
+        "pop_480": {
+            "v2.8 ratio": 0.9158878504672897,
+            "v2.11 ratio": 0.9454545454545454,
+            "original text": "Bu yüzden zamanında dengeli davranılması faydalı olur.",
+            "v2.8 text": "Bu yüzden zamanındaki dengeli davranışlar fayda olur.",
+            "v2.11 text": "Bu yüzden zamanındaki dengeli davranışları faydalı olur."
+        }
+    },
+    "sentence_count": 50,
+    "class_count": 1,
+    "average v2.8 ratio": 0.8294805297067339,
+    "average v2.11 ratio": 0.8218759692675143,
+    "class ratios": [
+        {
+            "lower": 0.0,
+            "upper": 1.0,
+            "sent_ids": [
+                "ins_1806",
+                "bio_1236",
+                "ins_1249",
+                "ess_772",
+                "ess_1225",
+                "news_388",
+                "news_599",
+                "bio_47",
+                "bio_962",
+                "bio_1051",
+                "news_417",
+                "ins_1792",
+                "news_1378",
+                "ins_1298",
+                "news_159",
+                "ins_1662",
+                "bio_340",
+                "ess_1481",
+                "bio_665",
+                "ess_1185",
+                "pop_338",
+                "pop_71",
+                "ess_1649",
+                "news_1238",
+                "pop_283",
+                "pop_976",
+                "pop_397",
+                "ins_1911",
+                "news_1873",
+                "ins_1874",
+                "ins_196",
+                "news_1247",
+                "pop_1892",
+                "news_731",
+                "ess_1585",
+                "news_1759",
+                "news_577",
+                "bio_1326",
+                "pop_1306",
+                "news_511",
+                "news_1586",
+                "bio_204",
+                "pop_798",
+                "news_940",
+                "ins_271",
+                "ins_922",
+                "pop_102",
+                "ess_1179",
+                "bio_1963",
+                "pop_480"
+            ],
+            "v2.8 ratio": 0.8294805297067339,
+            "v2.11 ratio": 0.8218759692675143,
+            "sentence count": 50
+        }
+    ],
+    "class count": 1
+}

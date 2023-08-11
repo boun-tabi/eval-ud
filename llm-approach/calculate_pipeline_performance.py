@@ -1,16 +1,25 @@
-import os, json, re
+import os, json, re, argparse
 from difflib import SequenceMatcher
 from datetime import datetime
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--run_dir', type=str, default=None, help='The run directory.')
+args = parser.parse_args()
+
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(THIS_DIR, 'experiment_outputs')
-run_l_path = os.path.join(THIS_DIR, 'run_l.json')
-if not os.path.exists(run_l_path):
-    raise Exception('Please run the pipeline first.')
-run_l = json.load(open(run_l_path, 'r', encoding='utf-8'))
-latest_run = run_l[-1]
-v2_8_out, v2_11_out = latest_run['v2.8'], latest_run['v2.11']
-run_dir = latest_run['run_dir']
+if args.run_dir is None:
+    run_l_path = os.path.join(THIS_DIR, 'run_l.json')
+    if not os.path.exists(run_l_path):
+        raise Exception('Please run the pipeline first.')
+    run_l = json.load(open(run_l_path, 'r', encoding='utf-8'))
+    latest_run = run_l[-1]
+    v2_8_out, v2_11_out = latest_run['v2.8'], latest_run['v2.11']
+    run_dir = latest_run['run_dir']
+else:
+    run_dir = args.run_dir
+    v2_8_out = os.path.join(run_dir, 'v2.8_output.json')
+    v2_11_out = os.path.join(run_dir, 'v2.11_output.json')
 class_path = os.path.join(run_dir, 'class_l.json')
 if not os.path.exists(class_path):
     raise Exception('Please run the pipeline first.')
@@ -39,7 +48,7 @@ for result in v2_11_results:
 ratio_acc_v2_8, ratio_acc_v2_11, all_count = 0, 0, 0
 summary_d = {}
 sent_ids = []
-out_d = {'v2.8_path': v2_8_out, 'v2.11_path': v2_11_out, 'results': {}}
+out_d = {'v2.8_path': v2_8_out, 'v2.11_path': v2_11_out, 'results': {}, 'sentence_count': len(v2_8_results), 'class_count': len(class_l)}
 for sent_id in res_d:
     original_text = res_d[sent_id]['original_text']
     v2_8_text = res_d[sent_id]['v2_8_text']
@@ -59,6 +68,7 @@ for sent_id in res_d:
 out_d['average v2.8 ratio'] = ratio_acc_v2_8 / all_count
 out_d['average v2.11 ratio'] = ratio_acc_v2_11 / all_count
 out_d['class ratios'] = []
+out_d['class count'] = len(class_l)
 # classes
 for el in class_l:
     lower, upper, sent_ids = el['lower'], el['upper'], el['sent_ids']
@@ -73,6 +83,7 @@ for el in class_l:
     v2_11_r /= len(sent_ids)
     d['v2.8 ratio'] = v2_8_r
     d['v2.11 ratio'] = v2_11_r
+    d['sentence count'] = len(sent_ids)
     out_d['class ratios'].append(d)
 
 with open(os.path.join(run_dir, 'summary.json'), 'w', encoding='utf-8') as f:

@@ -1,6 +1,6 @@
 {
-    "v2.8_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811201435/v2.8_output.json",
-    "v2.11_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811201435/v2.11_output.json",
+    "v2.8_path": "llm-approach/experiment_outputs/experiment06/20230811201435/v2.8_output.json",
+    "v2.11_path": "llm-approach/experiment_outputs/experiment06/20230811201435/v2.11_output.json",
     "results": {
         "ess_1125": {
             "v2.8 ratio": 1.0,
@@ -87,6 +87,8 @@
             "v2.11 text": "Kırmızı biber."
         }
     },
+    "sentence_count": 12,
+    "class_count": 5,
     "average v2.8 ratio": 0.7372525139540117,
     "average v2.11 ratio": 0.7301966565578262,
     "class ratios": [
@@ -100,7 +102,8 @@
                 "pop_999"
             ],
             "v2.8 ratio": 0.9741412213740458,
-            "v2.11 ratio": 0.9317927365255609
+            "v2.11 ratio": 0.9317927365255609,
+            "sentence count": 4
         },
         {
             "lower": 0.2,
@@ -112,7 +115,8 @@
                 "news_746"
             ],
             "v2.8 ratio": 0.8996159754224271,
-            "v2.11 ratio": 0.9085640212125782
+            "v2.11 ratio": 0.9085640212125782,
+            "sentence count": 4
         },
         {
             "lower": 0.4,
@@ -124,7 +128,9 @@
                 "pop_243"
             ],
             "v2.8 ratio": 0.3380003450655624,
-            "v2.11 ratio": 0.3502332119353396
+            "v2.11 ratio": 0.3502332119353396,
+            "sentence count": 4
         }
-    ]
+    ],
+    "class count": 5
 }

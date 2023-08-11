@@ -1,0 +1,88 @@
+{
+    "v2.8_path": "llm-approach/experiment_outputs/experiment06/20230811204230/v2.8_output.json",
+    "v2.11_path": "llm-approach/experiment_outputs/experiment06/20230811204230/v2.11_output.json",
+    "results": {
+        "news_648": {
+            "v2.8 ratio": 0.9259259259259259,
+            "v2.11 ratio": 0.9,
+            "original text": "Soydan, daha önce iki kez görevden alınmasına rağmen, 3 kez görevine dönmeyi başardı.",
+            "v2.8 text": "Soydan daha önce iki kez görev almasına rağmen 3 kez göreve dönmedim başardı.",
+            "v2.11 text": "Soydan daha önce iki kez görev almasına rağmen 3 kez görev dönünde başardı."
+        },
+        "pop_1931": {
+            "v2.8 ratio": 0.8,
+            "v2.11 ratio": 1.0,
+            "original text": "Kabızlığı giderir.",
+            "v2.8 text": "Kabız gider.",
+            "v2.11 text": "Kabızlığı giderir."
+        },
+        "bio_664": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 0.8,
+            "original text": "İçim burkuldu.",
+            "v2.8 text": "İçim burkuldu.",
+            "v2.11 text": "İçim burk ."
+        },
+        "ess_1370": {
+            "v2.8 ratio": 0.8333333333333334,
+            "v2.11 ratio": 0.7777777777777778,
+            "original text": "Gidip deli gömleği getiriyor.",
+            "v2.8 text": "Gitmeyen del gömleği getiriyor.",
+            "v2.11 text": "Gel deli gömleğini getir."
+        },
+        "pop_269": {
+            "v2.8 ratio": 0.7894736842105263,
+            "v2.11 ratio": 0.926829268292683,
+            "original text": "tuzsuz kabuklu badem",
+            "v2.8 text": "Tuzlu kabuk badem.",
+            "v2.11 text": "Tuzsuz kabuklu badem."
+        },
+        "news_1394": {
+            "v2.8 ratio": 0.25,
+            "v2.11 ratio": 0.1935483870967742,
+            "original text": "EVE GİDEN YOL",
+            "v2.8 text": "Ev git yol.",
+            "v2.11 text": "Ev'e gitmiyor yol."
+        }
+    },
+    "sentence_count": 6,
+    "class_count": 5,
+    "average v2.8 ratio": 0.7664554905782976,
+    "average v2.11 ratio": 0.7663592388612058,
+    "class ratios": [
+        {
+            "lower": 0.0,
+            "upper": 0.2,
+            "sent_ids": [
+                "news_648",
+                "pop_1931"
+            ],
+            "v2.8 ratio": 0.8629629629629629,
+            "v2.11 ratio": 0.95,
+            "sentence count": 2
+        },
+        {
+            "lower": 0.2,
+            "upper": 0.4,
+            "sent_ids": [
+                "bio_664",
+                "ess_1370"
+            ],
+            "v2.8 ratio": 0.9166666666666667,
+            "v2.11 ratio": 0.788888888888889,
+            "sentence count": 2
+        },
+        {
+            "lower": 0.4,
+            "upper": 0.6000000000000001,
+            "sent_ids": [
+                "pop_269",
+                "news_1394"
+            ],
+            "v2.8 ratio": 0.5197368421052632,
+            "v2.11 ratio": 0.5601888276947286,
+            "sentence count": 2
+        }
+    ],
+    "class count": 5
+}
