@@ -50,7 +50,11 @@ parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
 parser.add_argument('-d', '--diff', type=str, required=True)
 parser.add_argument('-s', '--sentence-count', type=int, required=True)
 parser.add_argument('-c', '--class-count', type=int, required=True)
+parser.add_argument('--seed', type=int, default=42)
 args = parser.parse_args()
+
+random.seed(args.seed)
+
 t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
 t11 = args.treebank_2_11
@@ -195,6 +199,6 @@ if os.path.exists(run_l_path):
         run_l = json.load(f)
 else:
     run_l = []
-run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir, 'diff': diff_path, 'sentence_count': sentence_count, 'class_count': class_count})
+run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir, 'diff': diff_path, 'sentence_count': sentence_count, 'class_count': class_count, 'seed': args.seed})
 with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
     json.dump(run_l, f, ensure_ascii=False, indent=4)
