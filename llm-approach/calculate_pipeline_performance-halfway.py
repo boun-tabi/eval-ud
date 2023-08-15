@@ -8,7 +8,7 @@ args = parser.parse_args()
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(THIS_DIR, 'experiment_outputs')
 if args.run_dir is None:
-    run_l_path = os.path.join(THIS_DIR, 'run_l.json')
+    run_l_path = os.path.join(THIS_DIR, 'run_l-halfway.json')
     if not os.path.exists(run_l_path):
         raise Exception('Please run the pipeline first.')
     run_l = json.load(open(run_l_path, 'r', encoding='utf-8'))
@@ -87,14 +87,3 @@ for el in class_l:
 
 with open(os.path.join(run_dir, 'summary.json'), 'w', encoding='utf-8') as f:
     json.dump(out_d, f, indent=4, ensure_ascii=False)
-
-# Average similarity ratios
-## 1
-# - 0.6580315517304394 for v2.8
-# - 0.6570594332974276 for v2.11
-## 2
-# - 0.8678245704165665 for v2.8
-# - 0.9005500356464718 for v2.11
-## 3
-# - 0.8376212923623395 for v2.8
-# - 0.8546488939079127 for v2.11

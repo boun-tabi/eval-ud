@@ -1,0 +1,13 @@
+[
+    {
+        "v2.8": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811204904/v2.8_output.json",
+        "v2.11": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811204904/v2.11_output.json",
+        "now": "20230811204904",
+        "prompt": "The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.\n\nI am asking the surface text of a sentence in Turkish. It has 6 words.\n1st word's lemma is meşrutiyet, its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.\n2nd word's lemma is ilan, its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.\n3rd word's lemma is önceki, and its part of speech is adjective.\n4th word's lemma is siyasi, and its part of speech is adjective.\n5th word's lemma is faaliyet, its part of speech is noun, its case is dative, its number is plural number, and its person is third person.\n6th word's lemma is kat, its part of speech is verb, its aspect is perfect aspect, its evidentiality is firsthand, its number is singular number, its person is third person, its polarity is positive, its tense is past tense, and its voice is reflexive voice.\n\nYour task is to find the surface text of the sentence. For example, your answer for the previous parse should be\n\nMeşrutiyetin ilanından önceki siyasi faaliyetlere katıldı.\n\nNow, analyze the following test example and try to find the surface text of the sentence. It has {word_count} words.\n\n{test_input}",
+        "class": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811204904/class_l.json",
+        "run_dir": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230811204904",
+        "diff": "util/diff_annos/different_annotations-exact_match-upos_feats-no_split.json",
+        "sentence_count": 132,
+        "class_count": 1
+    }
+]
