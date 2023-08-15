@@ -1,7 +1,6 @@
 import os, json, argparse, openai, random
-from datetime import datetime
 
-now = datetime.now().strftime('%Y%m%d%H%M%S')
+now = '20230811204904'
 
 template="""The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
 
@@ -35,7 +34,7 @@ with open(os.path.join(data_dir, 'feat.json'), 'r', encoding='utf-8') as f:
     tag_value_d = json.load(f)
 with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
     pos_d = json.load(f)
-sent_ids = []
+sent_ids = ['bio_711', 'pop_1881', 'ins_188', 'bio_1151', 'pop_1475', 'pop_565', 'ess_868', 'pop_1101', 'news_617', 'ess_1160', 'bio_496', 'ins_1024', 'pop_1288', 'bio_651', 'ins_1371', 'bio_270', 'bio_1628', 'bio_669', 'ess_156', 'pop_74', 'pop_1342', 'pop_1409', 'ins_1566', 'pop_799', 'news_1153', 'news_537', 'pop_441', 'ess_521', 'news_971', 'bio_102', 'pop_648', 'ins_1390', 'news_1035', 'ess_384', 'pop_13', 'bio_734', 'ins_652', 'ins_1678', 'ess_327', 'ess_439', 'ess_1258', 'ess_694', 'pop_295', 'pop_496', 'ins_1606', 'pop_1891', 'pop_1692', 'pop_219', 'ins_850', 'ess_1687', 'pop_1615', 'bio_215', 'ins_980', 'ess_249', 'ess_1326', 'pop_1893', 'ess_806', 'ins_1221', 'ess_886', 'news_413', 'bio_1507', 'pop_913', 'ins_1779', 'ess_1002', 'bio_1739', 'bio_1142', 'news_647', 'ins_1294', 'ins_1677', 'ins_1546', 'pop_534', 'news_454', 'news_755', 'pop_1452', 'news_994', 'pop_1829', 'ins_693', 'pop_738', 'ess_1417', 'ins_762', 'news_37', 'ess_1124', 'bio_950', 'ess_1487', 'bio_681', 'ess_921', 'ins_1615', 'bio_1590', 'pop_1247', 'pop_1688', 'news_989', 'ess_331', 'ess_1032', 'news_1813', 'ess_721', 'ins_1521', 'ins_1063', 'ins_685', 'ess_882', 'pop_1675', 'ins_1147', 'pop_598', 'pop_1459', 'ess_260', 'ins_1277', 'ess_1388', 'ess_990', 'news_1147', 'ins_609', 'news_1922', 'bio_1023', 'bio_1510', 'ess_1609', 'news_1626', 'news_629', 'ess_656', 'news_720', 'news_225', 'bio_1836', 'pop_495', 'ins_1654', 'bio_183', 'news_1273', 'bio_1656', 'ess_1107', 'pop_1775', 'news_817', 'pop_776', 'pop_255', 'ins_797', 'ins_1105', 'bio_564']
 
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
 exp6_dir = os.path.join(output_dir, 'experiment06')
@@ -66,11 +65,15 @@ class_l = []
 ratios = diff['ratios']
 perc_l = [i * inc_per_class for i in range(class_count+1)]
 for i in range(len(perc_l)-1):
-    sent_id_l = [k for k, v in ratios.items() if v >= perc_l[i] and v < perc_l[i+1]]
-    random.shuffle(sent_id_l)
-    d = {'lower': perc_l[i], 'upper': perc_l[i+1], 'sent_ids': sent_id_l[:sent_per_class]}
+    d = {'lower': perc_l[i], 'upper': perc_l[i+1], 'sent_ids': []}
     class_l.append(d)
-    sent_ids.extend(sent_id_l[:sent_per_class])
+for k, v in ratios.items():
+    if k not in sent_ids:
+        continue
+    for i in range(len(perc_l)-1):
+        if v >= perc_l[i] and v < perc_l[i+1]:
+            class_l[i]['sent_ids'].append(k)
+            break
 class_path = os.path.join(run_dir, 'class_l.json')
 with open(class_path, 'w', encoding='utf-8') as f:
     json.dump(class_l, f, ensure_ascii=False, indent=2)
@@ -106,7 +109,9 @@ number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th'
             141: '141st', 142: '142nd', 143: '143rd', 144: '144th', 145: '145th', 146: '146th', 147: '147th', 148: '148th',
             149: '149th', 150: '150th', 151: '151st', 152: '152nd', 153: '153rd', 154: '154th', 155: '155th', 156: '156th'}
 v2_8_out, v2_11_out = os.path.join(run_dir, 'v2.8_output.json'), os.path.join(run_dir, 'v2.11_output.json')
-for run in [v2_8, v2_11]:
+for run in [v2_11]:
+    if run == v2_8:
+        continue
     output_l = []
     for i, sent_id in enumerate(sent_ids):
         if run == v2_8:
@@ -157,7 +162,6 @@ for run in [v2_8, v2_11]:
                     else:
                         print('not found: {fn}={fv}'.format(fn=feat_name, fv=feat_value))
                 else:
-                    feat_phrase = feat_name
                     print('not found: {fn}'.format(fn=feat_name))
                 if psor_on:
                     word_str_l.append('its possessor\'s {fn} is {fv}'.format(fn=feat_phrase, fv=feat_value))
@@ -176,25 +180,9 @@ for run in [v2_8, v2_11]:
             ]
         )
         output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
-        if run == v2_8:
-            with open(v2_8_out, 'w', encoding='utf-8') as f:
-                json.dump(output_l, f, ensure_ascii=False, indent=4)
-        elif run == v2_11:
+        if run == v2_11:
             with open(v2_11_out, 'w', encoding='utf-8') as f:
                 json.dump(output_l, f, ensure_ascii=False, indent=4)
-    if run == v2_8:
-        with open(v2_8_out, 'w', encoding='utf-8') as f:
-            json.dump(output_l, f, ensure_ascii=False, indent=4)
-    elif run == v2_11:
+    if run == v2_11:
         with open(v2_11_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
-
-run_l_path = os.path.join(THIS_DIR, 'run_l.json')
-if os.path.exists(run_l_path):
-    with open(run_l_path, 'r', encoding='utf-8') as f:
-        run_l = json.load(f)
-else:
-    run_l = []
-run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'class': class_path, 'run_dir': run_dir, 'diff': diff_path, 'sentence_count': sentence_count, 'class_count': class_count})
-with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
-    json.dump(run_l, f, ensure_ascii=False, indent=4)
