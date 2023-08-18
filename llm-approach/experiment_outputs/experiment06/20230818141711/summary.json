@@ -1,0 +1,1583 @@
+{
+    "v2.8_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230818141711/v2.8_output.json",
+    "v2.11_path": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/experiment06/20230818141711/v2.11_output.json",
+    "results": {
+        "ess_1454": {
+            "v2.8 ratio": 0.8411214953271028,
+            "v2.11 ratio": 0.9827586206896551,
+            "original text": "Otururlar, ülke sorunları üzerine bir kez daha düşünürler.",
+            "v2.8 text": "Oturulacak ülke sorun üzer, bir kez daha düşünür.",
+            "v2.11 text": "Otururlar ülke sorunları üzerinde bir kez daha düşünürler."
+        },
+        "news_559": {
+            "v2.8 ratio": 0.7818181818181819,
+            "v2.11 ratio": 0.7339449541284404,
+            "original text": "GALLER Prensesi, kalplerin kraliçesi, İngiltere'nin gülü...",
+            "v2.8 text": "Galler Prensesinin kalpleri kraliçe İngiltere gülü.",
+            "v2.11 text": "Galler Prensesinin kalpları kraliçe İngiltere gül."
+        },
+        "pop_1121": {
+            "v2.8 ratio": 0.8941176470588236,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Tutulmalar uzun bir süre daha size uğramayacak.",
+            "v2.8 text": "Tut uzun bir süre daha size uğrayacak.",
+            "v2.11 text": "Uzun bir süre daha size uğranmayacak."
+        },
+        "bio_1225": {
+            "v2.8 ratio": 0.9333333333333333,
+            "v2.11 ratio": 0.967741935483871,
+            "original text": "Şair Ayhan Kırdar, Şair İrfan Alkaya, Pantomimci Ergin Kolbek.",
+            "v2.8 text": "Şair Ayhan Kırdar şair irfan Alkaya Pantomim Ergin Kolbek.",
+            "v2.11 text": "Şair Ayhan Kırdar, şair İrfan Alkaya, pantomimci Ergin Kolbek."
+        },
+        "pop_1589": {
+            "v2.8 ratio": 0.7692307692307693,
+            "v2.11 ratio": 0.8045977011494253,
+            "original text": "Bıraksalar da onların eksiğini eşleri tamamlasın.",
+            "v2.8 text": "Bırak da onun eksiklerini eşlerle tamamla.",
+            "v2.11 text": "Bırak da onun eksik eşleri tamamlayın."
+        },
+        "bio_1797": {
+            "v2.8 ratio": 0.8070175438596491,
+            "v2.11 ratio": 0.7931034482758621,
+            "original text": "Bu duruş, bu hal, senin niyetinin ne olduğunu hemen ele veriyor!",
+            "v2.8 text": "Bu durumu hâlini niyetini ne ol hemen ele veriyor.",
+            "v2.11 text": "Bu dur bu hâlin senin niyetin ne olmuş hemen el ver."
+        },
+        "bio_46": {
+            "v2.8 ratio": 0.9,
+            "v2.11 ratio": 0.9193548387096774,
+            "original text": "\"Eucharistie\" töreninde, Hazreti İsâ simgesel olarak yenilir.",
+            "v2.8 text": "Eucharistie töreninde Hazreti İsâ simgesel olarak yer aldı.",
+            "v2.11 text": "Eucharistie töreninde Hazret İsâ simgesel olarak yenilmektedir."
+        },
+        "news_48": {
+            "v2.8 ratio": 0.4723809523809524,
+            "v2.11 ratio": 0.17744916820702403,
+            "original text": "Bilgisayar üreticileri, azalan satışları dengelemek için kendilerine yeni bir hedef belirlediler: Üçüncü dünya ülkeleri! Birçok şirket, 300 doların altında etiketlere sahip dizüstü bilgisayarlarla, hayatlarında hiç bilgisayar görmemiş kitleleri siber aleme çekmeyi planlıyor.",
+            "v2.8 text": "Bilgisayar üreticileri azalan satışları dengelemek için kendi yeni bir hedef belirledi; üçüncü Dünya ülkelerinde birçok şirket 300 dolar altında etiket sahibi dizüstü bilgisayarlarla hayatı hiç bilgisayar görmedi kitlelere siber âlemde çek planlıyor.",
+            "v2.11 text": "Bilgisayar üreticisi azalıp satışları dengelenmek için kendi yeni bir hedef belirledi, üçüncü Dünya ülkelerindeki birçok şirket 300 dolar altında dizüstü bilgisayarlarına etiket sahip, hayat hiçbir zaman hiçbir bilgisayar gördü, kitleler siber âlemde çekim planladı."
+        },
+        "ess_305": {
+            "v2.8 ratio": 0.8208469055374593,
+            "v2.11 ratio": 0.8193548387096774,
+            "original text": "Bir diğer çarpıcı nokta da hemen hemen her kurumda olduğu bilinen torpil uygulamasının Güzel Sanatlar Fakültelerine öğrenci alımında bile söz konusu olması.",
+            "v2.8 text": "Bir diğer çarpı nokta da hemen hemen her kurumun olabileceği bilinen, torpil uygulamalarının güzel sanat fakültesi öğrenci alım bileşiği söz konusudur.",
+            "v2.11 text": "Bir diğer çarpıcı nokta da hemen hemen her kurumun olabilen bil torpil uygulamaları güzel sanat fakülteleri öğrenci alım bileşiplerine bile söz konusu ol."
+        },
+        "ins_2000": {
+            "v2.8 ratio": 0.8518518518518519,
+            "v2.11 ratio": 0.6666666666666666,
+            "original text": "Karşısında Alibey adacıkları...",
+            "v2.8 text": "Karşı Alibey adacıklar.",
+            "v2.11 text": "Alibeyin karşısındaki adacıklar."
+        },
+        "ess_1449": {
+            "v2.8 ratio": 0.7951807228915663,
+            "v2.11 ratio": 0.8735632183908046,
+            "original text": "Düşünsene, herkes kendi takvimini kendi yapıyor!",
+            "v2.8 text": "Düşün herkes kendi takvimini yapar.",
+            "v2.11 text": "Düşün herkes kendi takvimini kendi yap."
+        },
+        "news_1030": {
+            "v2.8 ratio": 0.8864864864864865,
+            "v2.11 ratio": 0.93048128342246,
+            "original text": "Bu mesele oldukça karışık; çünkü bir yazarın çiftdilliliği, kendi çiftkültürlülüğünü yansıtabilir.",
+            "v2.8 text": "Bu mesele ol karışık çünkü bir yazarın çiftdillilik ve kendi çiftkültürlülüğü yansıtır.",
+            "v2.11 text": "Bu mesele olkarışık çünkü bir yazarın çiftdillilik kendi çiftkültürlülüğünü yansıyabilir."
+        },
+        "ess_527": {
+            "v2.8 ratio": 0.9391304347826087,
+            "v2.11 ratio": 0.907563025210084,
+            "original text": "Mersin Üniversitesi İngiliz Dil Bilimi Bölümüne yerleştim.",
+            "v2.8 text": "Mersin Üniversitesi İngiliz dil bilim bölümüne yerleştim.",
+            "v2.11 text": "Mersin Üniversitesi İngiliz dili bilim bölümüne yerleştirdim."
+        },
+        "ins_1603": {
+            "v2.8 ratio": 0.832,
+            "v2.11 ratio": 0.8328767123287671,
+            "original text": "Charles'e taç giyme hediyesi olarak 1660 yılında 16 metre boyunda \"Mary\" adlı bir yat hediye edilmesi -ki bu tekne Britanya'nın ilk yatıdır- İngiliz yatçılığının doğuş nedeni olarak kabul edilir.",
+            "v2.8 text": "Charles taç giydi. Hediye oldu. 1660 yılında 16 metre boyunda bir Mary adındaki yata hediye etti ki bu tekne Britanya'nın ilk yatıydı. İngiliz yatını doğan neden olarak kabul etti.",
+            "v2.11 text": "Charles'a taç giydir hediyesini ol 1660 yılında 16 metre boyunda Mary adlı bir yatla et ki bu tekneden Britanya'nın ilk yatını İngiliz yatçılık doğma neden ol kabul edet."
+        },
+        "bio_265": {
+            "v2.8 ratio": 0.7929515418502202,
+            "v2.11 ratio": 0.875,
+            "original text": "Ahmet Hamdi Tanpınar, Beş Şehir adlı başyapıtında Konya'yı dile getirirken, 699 yılının o müthiş günlerinden de söz açar.",
+            "v2.8 text": "Ahmet Hamdi Tanpınar beşi benim çalışmalarımın başyapıtı Konya dil getirin 699 yıl o müthiş gün de söz aç.",
+            "v2.11 text": "Ahmet Hamdi Tanpınar beş şehir adlı başyapıtı Konya’ya dil getir 699 yılın o müthiş gününden de söz aç."
+        },
+        "ess_104": {
+            "v2.8 ratio": 0.8860103626943006,
+            "v2.11 ratio": 0.859504132231405,
+            "original text": "Geçmiş bunca güzellikten bir anı olarak Eğer bir ziyaretçi, bu sıcak bal rengi cildin engebeleri üstünde dolaşabilse, kuşku yok, her adımda o sonbahar tapınağının loş ve serin havasını içine çekebilir.",
+            "v2.8 text": "Geçmiş bunca güzel bir anın ol eğer bir ziyaret bu sıcak balı renk cildinin engebesi üstünde dolaşabilir kuşku yok her adımında o sonbahar tapınağının loş ve serin havasında içer çeker.",
+            "v2.11 text": "Geçmiş bunca güzellikten an ol eğer bir ziyaretçi bu sıcak balı renk cilt engebelere üst dolaş kuşku yok her adım o sonbahar tapınağın loş ve serin havayı iç çek."
+        },
+        "ess_149": {
+            "v2.8 ratio": 0.8507462686567164,
+            "v2.11 ratio": 0.8244274809160306,
+            "original text": "Baydemir, bununda farkında mıdır? İsmini dedem yabancı bir filmden almış.",
+            "v2.8 text": "Baydemir bunun farkına mı isim Dede yabancı bir filmden aldı.",
+            "v2.11 text": "Baydemir bunun farkını mı isim dede yabancı bir film alır."
+        },
+        "news_145": {
+            "v2.8 ratio": 0.7927272727272727,
+            "v2.11 ratio": 0.7953667953667953,
+            "original text": "Postmodernleşen dünyayla birlikte edebiyatın algılanışı da dönüştü; giderek bir eğlence nesnesi, hoşça vakit geçirme aracı olarak değerlendiriliyor.",
+            "v2.8 text": "Postmodern Dünya ile edebiyat algılanırken da dönüş git bir eğlence nesne hoştur vakit geçir araç olarak değerlendirilmektedir.",
+            "v2.11 text": "Postmodernleşen dünya ile edebiyat algılanmadı da dönüş git, bir eğlence nesne hoşça vakit geçir araç ol değer."
+        },
+        "news_1364": {
+            "v2.8 ratio": 0.8735632183908046,
+            "v2.11 ratio": 0.8181818181818182,
+            "original text": "Arama motorlarının yardım sayfalarını inceleyin.",
+            "v2.8 text": "Ara motordan yardım sayfalarını incele.",
+            "v2.11 text": "Araçların yardımını sayfaları inceleyin."
+        },
+        "bio_998": {
+            "v2.8 ratio": 0.9166666666666666,
+            "v2.11 ratio": 0.8404669260700389,
+            "original text": "Fethullah Gülen ve taraftarları bütün bu okulları, dersaneleri, yurtları sadece bilim aşkından açmıyorlar elbette.",
+            "v2.8 text": "Fethullah Gülen ve taraftarı bütün bu okul, dersane ve yurtlara sadece bilim aşkından açıyorlar elbet.",
+            "v2.11 text": "Fethullah Gülen ve taraftarları bütün bu okulların dersanelerinin ve yurtlarının sadece bilim aşkından açılmadığı konusunda elbette hemfikirim."
+        },
+        "pop_1584": {
+            "v2.8 ratio": 0.9163879598662207,
+            "v2.11 ratio": 0.9140893470790378,
+            "original text": "Çok çekişmeli geçen maçı, Türk-Müslüman liginin birincisi Fenerbahçe gayrimüslim ligin birincisi, yine bir Türk takımı olan İttihadspor'a karşı 3-2 kazandı.",
+            "v2.8 text": "Çok çekiş geçen maçta Türk Müslüman ligin birincisi Fenerbahçe gayrimüslim lig birincisine yine bir Türk takımı, İttihadspor karşı 3-2 kazandı.",
+            "v2.11 text": "Çok çekişmeli geçen maçı Türk Müslüman birinci Fenerbahçe gayrimüslim lig birinci yine bir Türk takımına İttihadspor karşı 3-2 kazandı."
+        },
+        "bio_396": {
+            "v2.8 ratio": 0.873015873015873,
+            "v2.11 ratio": 0.7663551401869159,
+            "original text": "Düşünün köylerde çocuklar \"Ahmet Amca geliyor\" diye seviniyorlar.",
+            "v2.8 text": "Düşün köyde çocuklar Ahmet amcaya gelirler diye seviniyorlar.",
+            "v2.11 text": "Düşün köy çocuk Ahmet amca gel diye sevin."
+        },
+        "ins_222": {
+            "v2.8 ratio": 0.7472527472527473,
+            "v2.11 ratio": 0.6947368421052632,
+            "original text": "Olsa olsa bunun on-on beş yılı kavgayla geçsin...",
+            "v2.8 text": "Ol,  bu, on, on, beş, yılı, kavgayla, geç.",
+            "v2.11 text": "Olmak isteyen olsun bu on beş yıl kavgayı geç."
+        },
+        "pop_1856": {
+            "v2.8 ratio": 0.8558951965065502,
+            "v2.11 ratio": 0.7647058823529411,
+            "original text": "Taraftar bakışı, yaklaşımı, vs. dediğim zihniyet, asıl olarak, taraftarın bir gruba, bir kitleye mensup oluşuyla vücut bulur.",
+            "v2.8 text": "Taraftar baktığı yaklaşımlara vs de zihniyet asıl ol taraftar bir gruba bir kitle mensup ol vücut bulur.",
+            "v2.11 text": "Taraftarların bakış açısından VS de zihniyet asıl olmayan taraftar bir gruba bir kitlede Mensup olan vücut bulur."
+        },
+        "pop_1564": {
+            "v2.8 ratio": 0.8846153846153846,
+            "v2.11 ratio": 0.9142857142857143,
+            "original text": "Elmalılı Hamdi Yazır, 64 yaşında iken ölümünden az bir süre önce Hak Dini Kuran Dili adlı tefsirini tamamladı.",
+            "v2.8 text": "Elmalı Hamdi Yazır 64 yaşında i ölüme az bir süre önce hâk dini Kuran dil adına tefsiri tamamladı.",
+            "v2.11 text": "Elmalılı Hamdi Yazır 64 yaşında ölümden az bir süre önce Hâk dinin Kuran dil adlı tefsiri tamamladı."
+        },
+        "pop_1148": {
+            "v2.8 ratio": 0.8282828282828283,
+            "v2.11 ratio": 0.7855297157622739,
+            "original text": "ABD'de ise bunun yapılışı çok daha farklı ve çok daha iyi et veriyor; zira buzağı önce anne sütüyle beslenip (7 ay), ardından çayıra çıkarılıyor (4-5 ay) ve en son çit (padok) içinde tahıl ile besleniyor (4 ay).",
+            "v2.8 text": "ABD ise o zaman bu yapılar çok daha farklı ve daha iyi etmiyor zira buzağı önce annesi süt 7 Ay ardından çayırda çıkmıyor 4-5 Ay ve en son çit padok içindeki tahıl ile beslenmiyor 4 Ay.",
+            "v2.11 text": "ABD'yi bu yapı çok daha farklı ve çok daha iyi etti çünkü buzağı önce annesini süt ile beslemeye 7 Ay ardından çayırdan çıkma 4-5 aya en son çit padok içinde tahılı ile besler."
+        },
+        "pop_240": {
+            "v2.8 ratio": 0.7534246575342466,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Seks; kalori harcamamızı kolaylaştırıyor ve ani açlık krizlerinin önüne geçiyor.",
+            "v2.8 text": "Seks kalori harcayarak ve ani açlık krizinden önce önünde geçiyor.",
+            "v2.11 text": "Seks kaloriyi harcamayı kolaylaştır ve ani açlık krizine ön geç."
+        },
+        "news_1425": {
+            "v2.8 ratio": 0.8807339449541285,
+            "v2.11 ratio": 0.9221556886227545,
+            "original text": "Avansın hesabında ele geçen net tutarlar esas alınacak ve aylıkları banka hesaplarına aktarılan personelin avans tutarlarının ilgili bankalarca zamanında ödenmesi sağlanacak.",
+            "v2.8 text": "Avans hesabından ele geçen net tutar esas alın ve Ay bankasına hesapları aktarılacak personel avans tutarının ilgili bankalara zamanında öden sağlanacak.",
+            "v2.11 text": "Avans hesabına ele geçen net tutar esas alınacak ve aylık banka hesaplarına aktarılan personel avans tutarlarıyla ilgili bankalar zamanında ödenecek sağlanacak."
+        },
+        "ins_64": {
+            "v2.8 ratio": 0.9428571428571428,
+            "v2.11 ratio": 0.9859154929577465,
+            "original text": "Ahlak ve toplum sorunlarını inceler.",
+            "v2.8 text": "Ahlak ve toplum sorunları İnceler.",
+            "v2.11 text": "Ahlak ve toplum sorunlarını incele."
+        },
+        "news_1383": {
+            "v2.8 ratio": 0.8059701492537313,
+            "v2.11 ratio": 0.7941176470588235,
+            "original text": "Nema ödemesinde tarih bu ay netleşiyor",
+            "v2.8 text": "Nema ödemesi tarih bu Ay net.",
+            "v2.11 text": "Nema ödemenin tarih bu Ay net."
+        },
+        "ins_1661": {
+            "v2.8 ratio": 0.7450980392156863,
+            "v2.11 ratio": 0.8846153846153846,
+            "original text": "Bir sonraki gelişlerinde düzlüğü daha berbat bulmuşlar.",
+            "v2.8 text": "Bir sonra geleceğimizin düz daha berbat bulduk.",
+            "v2.11 text": "Bir sonraki geldiği düzlüğü daha berbat buldular."
+        },
+        "ins_1785": {
+            "v2.8 ratio": 0.9036544850498339,
+            "v2.11 ratio": 0.8079470198675497,
+            "original text": "Şoför, \"Şu gördüğünüz ardıçların her birinin altında ne maceralarım var benim, evlendikten sonra taşşakları çekilmiş tosuna döndük, tey tey tey\" diye iç çekmiş.",
+            "v2.8 text": "Şoför şu görüp ardıçlık her birinin altında ne maceralar var benim evlendikten sonra taşşaklar çekilip tosun döndü tey tey tey diye iç çekti.",
+            "v2.11 text": "Şoför şu gördüğümüz ardıçlarının her biri altındaki ne maceralara varan benim evlendiğimden sonra taşşak çekip tey tey tey diye içimden çekti."
+        },
+        "news_10": {
+            "v2.8 ratio": 0.9084507042253521,
+            "v2.11 ratio": 0.9446494464944649,
+            "original text": "Zirveye Başbakan Mesut Yılmaz, Devlet Bakanı Güneş Taner, ekonomiyle ilgili üst düzey bürokratlar ve yabancı finans uzmanları katıldı.",
+            "v2.8 text": "Zirveye Başbakan Mesut Yılmaz, Devlet Bakanı Güneş Taner ve ekonomi ile ilgili üst düzey bürokrat ve yabancı finans uzmanlarının katıldığı bildirildi.",
+            "v2.11 text": "Zirveye Başbakan Mesut Yılmaz ve Devlet Bakanı Güneş Taner'in ekonomiye ilgili üst düzey bürokrat ve yabancı finans uzmanlarının katıldı."
+        },
+        "pop_1851": {
+            "v2.8 ratio": 0.9382716049382716,
+            "v2.11 ratio": 0.9156626506024096,
+            "original text": "Yanında pilav veya sebze ile servis yapın.",
+            "v2.8 text": "Yan pilav veya sebze ile servis yaptın.",
+            "v2.11 text": "Yan pilav veya sebze ile servis yaptınız."
+        },
+        "news_1675": {
+            "v2.8 ratio": 0.8524590163934426,
+            "v2.11 ratio": 0.8495575221238938,
+            "original text": "Burayı gürgen ağacından tek başına Şükrü Gökdemir yapmış.",
+            "v2.8 text": "Buranın gürgenden ağaçtan tek başına Şükrü Gökdemir'e yapılmıştı.",
+            "v2.11 text": "Buranın gürgenden tek ağaç başına Şükrü Gökdemir yapmış."
+        },
+        "bio_1838": {
+            "v2.8 ratio": 0.8026315789473685,
+            "v2.11 ratio": 0.8607594936708861,
+            "original text": "Dişi arslan bu mini miniyi kendi yavruları yanında görünce onu da doğurduğunu sandı.",
+            "v2.8 text": "Dişi aslan bu m'ı mini kendi yavrularıyla yan gör o da doğurmuş san.",
+            "v2.11 text": "Dişi arslan bu miniyi kendi yavrularının yanında gör, onu da doğurmuş san."
+        },
+        "ins_1612": {
+            "v2.8 ratio": 0.72,
+            "v2.11 ratio": 0.8,
+            "original text": "Büyüdüğünüzde size bu günleri hatırlatacağım.",
+            "v2.8 text": "Büyüklere bu günleri hatırlat.",
+            "v2.11 text": "Büyü büyüklerin size bu günleri hatırlatacak."
+        },
+        "ess_293": {
+            "v2.8 ratio": 0.35471698113207545,
+            "v2.11 ratio": 0.8511749347258486,
+            "original text": "Öykümüz aynı zamanda, Ortaçağ Avrupası'nda zamanından önce öttüğü için başı kesilen, insanlığın gelmiş geçmiş en içli, en ak, en cömert sevgi mesajı kahramanlarının, Kathar şövalyelerinin destanı.",
+            "v2.8 text": "Öykülerimin aynı zamanda Ortaçağ Avrupa'da geçen Ortaçağ zamanında...",
+            "v2.11 text": "Öykümün aynı zamanlarında Ortaçağ Avrupası'nda zaman öncesinde ötmen için baş kese insanlık geldi geçen en içli en ak en cömert sevgi mesajını kahramanları olan Kathar şövalyeleri destan."
+        },
+        "ins_1097": {
+            "v2.8 ratio": 0.9130434782608695,
+            "v2.11 ratio": 0.8913043478260869,
+            "original text": "\"Atatürk\" temasında, cumhuriyetimizin kurucusu büyük önderimiz Atatürk'ü daha yakından tanıyacağız.",
+            "v2.8 text": "Atatürk temasında cumhuriyetimizin kurucusu büyük önder Atatürk daha yakın tanıyacak.",
+            "v2.11 text": "Atatürk'ün teması cumhuriyetin kurucusu büyük önder Atatürk'ü daha yakın tanıyacağız."
+        },
+        "ess_411": {
+            "v2.8 ratio": 0.7532467532467533,
+            "v2.11 ratio": 0.8021978021978022,
+            "original text": "Sözde \"devlet\" ten yana olanlarını, sözde \"devlet\" için yapılanları meşrulaştırmaya çalışıyoruz.",
+            "v2.8 text": "Söz devlet ten yan ol söz devlet için yap meşru çalışıyor.",
+            "v2.11 text": "Sözde devletten yanaymış gibi sözde devlet için yapılması meşrulaştırılan çalışıyoruz."
+        },
+        "ess_1862": {
+            "v2.8 ratio": 0.19383259911894274,
+            "v2.11 ratio": 0.5060827250608273,
+            "original text": "Çocuklar, sanki bir odadan ötekine geçiyormuşçasına, sanki başlarının üzerinde gökyüzü değil, bir çatı, sanki ayaklarının altında çalı çırpı, taş toprak değil bir zemin varmışçasına bana \"ev\" gezdiriyorlardı...",
+            "v2.8 text": "Çocuklar sanki bir odadan öte geçmek istiyorlarmış gibi, sanki başkalarının üzerinde gökyüzü değil bir çatı, sanki ayakların altındaki çalılar değil bir çırpı taşıyormuş gibi değil bir toprakta değil bir zeminde varmış benim evimi geziyorlardı.",
+            "v2.11 text": "Çocuklar sanki bir odadan öte geçip sanki başının üzerindeki gökyüzü değil bir çatının altında sanki ayakların altındaki çalılar, çırpılar, taşlar, topraklar değil bir zemin var bana evler gezdirdiler."
+        },
+        "news_810": {
+            "v2.8 ratio": 0.6808510638297872,
+            "v2.11 ratio": 0.7368421052631579,
+            "original text": "Sevenleri de sevmeyenleri de hayal kırıklığına uğramayacak.",
+            "v2.8 text": "Sevdesev de hayal kırığı olmayacam.",
+            "v2.11 text": "Sev de, sev de hayal kırıklığı uğra."
+        },
+        "ins_1023": {
+            "v2.8 ratio": 0.7096774193548387,
+            "v2.11 ratio": 0.9514563106796117,
+            "original text": "Ortanca gelin, kaynanasının bu sözlerine kulak asmadı.",
+            "v2.8 text": "Ortanca gelen bu sözlere kulağını astı.",
+            "v2.11 text": "Ortanca gelin kaynananın bu sözlere kulak asmadı."
+        },
+        "ess_1479": {
+            "v2.8 ratio": 0.6885245901639344,
+            "v2.11 ratio": 0.6820809248554913,
+            "original text": "uyandırmayalım erken kalkacakları... \" İçim, yalnızca kendi kabalığıma sızlamıyor onlar sahillerime değince.",
+            "v2.8 text": "Uyanın erken kalkışım yalnızca kendi kabalaşmasını sızlıyor, o sahile değ.\n",
+            "v2.11 text": "Uyanın erken kalkıp iç yalnızca kendi kabalığı sızlamışsahil değ!"
+        },
+        "ins_463": {
+            "v2.8 ratio": 0.835820895522388,
+            "v2.11 ratio": 0.8767123287671232,
+            "original text": "On sekiz yaşlarında sevimli bir kız...",
+            "v2.8 text": "On sekiz yaşlı Sevim bir kız.",
+            "v2.11 text": "On sekiz yaşındaki Sevimli bir kız."
+        },
+        "ins_631": {
+            "v2.8 ratio": 0.9076305220883534,
+            "v2.11 ratio": 0.9291338582677166,
+            "original text": "Bu durum mide bulantısı, kusma, çarpıntı, halsizlik, daha ağır vakalarda nefes darlığı ve kendinden geçmeye (bilinç kaybına) yol açar.",
+            "v2.8 text": "Bu durum mide bulantısı, kusma, çarpıntı, hâl daha ağır vakalarda nefes darlığı ve kendi geç bilinc kaybı yol açar.",
+            "v2.11 text": "Bu durum mide bulantısı, kusma, çarpıntı, hâlsizlik, daha ağır vakalar, nefes darlığı ve kendi geç bilinç kaybıyol açar."
+        },
+        "pop_1283": {
+            "v2.8 ratio": 0.8169014084507042,
+            "v2.11 ratio": 0.8251748251748252,
+            "original text": "Bu sırada meyveleri yıkayıp, kurulayın, ve pudra şekerinin yarısına bulayın.",
+            "v2.8 text": "Bu sıra meyveleri yıka ve kurula, pudra şekeriyle yarıyla bulayın.",
+            "v2.11 text": "Bu sırada meyveleri yıkayın ve pudra şekeriyle yarımlarına bulaşın."
+        },
+        "pop_894": {
+            "v2.8 ratio": 0.7603305785123967,
+            "v2.11 ratio": 0.7936507936507936,
+            "original text": "Tencereyi ocağa alıp, karışım kaynayıncaya kadar sürekli karıştırın.",
+            "v2.8 text": "Tencere ocakta alınan karışımı kaynama sürekli karış.",
+            "v2.11 text": "Tencereyi ocağa alarak karışımını kaynat sürekli karıştır."
+        },
+        "pop_1836": {
+            "v2.8 ratio": 0.7529411764705882,
+            "v2.11 ratio": 0.5647058823529412,
+            "original text": "Ama doktorlar 'Yine de alalım, iyi olur' diyorlar...",
+            "v2.8 text": "Ama doktor yine de al iyi oluyor.",
+            "v2.11 text": "Ama doktor yine de alır mıydınız?"
+        },
+        "bio_1849": {
+            "v2.8 ratio": 0.7120418848167539,
+            "v2.11 ratio": 0.6470588235294118,
+            "original text": "Hareketsizlikten vücudunuz uyuşuyor, soğuğu daha çok hissetmeye başlıyorsunuz, öksürmek bile yok.",
+            "v2.8 text": "Hareketten vücudun uyuşarak soğuk daha çok hissettiklerinde başladığını bile öksürdükleri yok.",
+            "v2.11 text": "Vücuttan uyuşarak soğuk daha çok hissedilirken başlayan öksürük bile yok."
+        },
+        "ess_1777": {
+            "v2.8 ratio": 0.7734806629834254,
+            "v2.11 ratio": 0.8393782383419689,
+            "original text": "insanlar çocukluk günlerini özler, \"Ah ah, ne güzeldi çocukluğum, keşke o günlere dönsem!\" derler.",
+            "v2.8 text": "İnsanların çocukluk günlerinde Öz'le Ah'lar ne güzeldi, keşke o günleri döneyim de.",
+            "v2.11 text": "Insanlar çocukluğu günleri özler, ah ne güzel günlerdi çocukluğumda keşke o günlere döneyim de."
+        },
+        "pop_1267": {
+            "v2.8 ratio": 0.7,
+            "v2.11 ratio": 0.7272727272727273,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla.",
+            "v2.11 text": "Hazırlanan"
+        },
+        "news_1270": {
+            "v2.8 ratio": 0.7972972972972973,
+            "v2.11 ratio": 0.8275862068965517,
+            "original text": "Kendi üzerime düşeni yaptım, bundan sonrasına karışmam diyemem\" şeklinde konuştu.",
+            "v2.8 text": "Kendi üzerime düş yapın, bu sonra karışmadığım da şekilde konuştun.",
+            "v2.11 text": "Kendi üzerime düşeni yaptım, bu sonra karıştım şekilde konuştum."
+        },
+        "ess_1244": {
+            "v2.8 ratio": 0.7941176470588235,
+            "v2.11 ratio": 0.7945205479452054,
+            "original text": "Ya da onu \"paketliyorlar\" bir bakıma...",
+            "v2.8 text": "Ya da onu paketle bir bakıma!",
+            "v2.11 text": "Ya da onu paketlemesin bir bakıma."
+        },
+        "pop_54": {
+            "v2.8 ratio": 0.4626865671641791,
+            "v2.11 ratio": 0.8051948051948052,
+            "original text": "Gerçek hayatta birinden etkilenseniz bile, durumunuz gereği buna izin vermeyebilirsiniz.",
+            "v2.8 text": "Gerçek hayatından biri etkileyebileceğim bile durumu gerek bu izni vermemeniz.\n\nThe surface text of the sentence is:\n\nYou should not even let this situation affect one's real life.",
+            "v2.11 text": "Gerçek hayattan birini etkilesen bile durumun gerek bu izni verir."
+        },
+        "ins_413": {
+            "v2.8 ratio": 0.8403361344537815,
+            "v2.11 ratio": 0.8448275862068966,
+            "original text": "Yayar yaymaz da o taze çiçeklerin burcu burcu kokusunu duydu.",
+            "v2.8 text": "Yay yazar. O taze çiçekleri Burcu burcunun kokusunu duydu.",
+            "v2.11 text": "Yay yaymayan o taze çiçekler Burcu'yu burcu koku duydu."
+        },
+        "pop_1692": {
+            "v2.8 ratio": 0.7,
+            "v2.11 ratio": 0.782608695652174,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla.",
+            "v2.11 text": "Hazırlanır."
+        },
+        "news_617": {
+            "v2.8 ratio": 0.9161290322580645,
+            "v2.11 ratio": 0.8553459119496856,
+            "original text": "Amerikan Kalp Derneği'ne göre Amerika'da en ölümcül hastalık kalp hastalıkları.",
+            "v2.8 text": "Amerikan kalp derneğe göre Amerika en ölümcül hastalık kalp hastalıklarıdır.",
+            "v2.11 text": "Amerikan kalbderneğe göre Amerika en ölümcül hastalıklar kalbin hastalıklarıdır."
+        },
+        "news_1414": {
+            "v2.8 ratio": 0.7901234567901234,
+            "v2.11 ratio": 0.8720379146919431,
+            "original text": "Bnet Genel Müdürü Hakan Akan da, \"Kısa vadede internet servis sağlayıcılığı alanının öncüsü olmayı, uzun vadede telekom liberalizasyonu sonrasında alternatif telekom operatörü olarak faaliyetlerimizi sürdürmeyi hedefliyoruz\" dedi.",
+            "v2.8 text": "Bnet genel müdür Hakan ak da kısa vadede İnternet servis sağladığı alan önünde oldu Telekom liberalizasyon sonra alternatif Telekom operatör olarak faaliyetlerimizi sürdürdük.",
+            "v2.11 text": "Bnet Genel Müdür Hakan Ak da kısa vadeli internet servis sağlayıcılık alanının öncüsü ol, uzun vadeli Telekom liberalizasyon sonrası alternatif telekom operatör ol faaliyetleri sür hedefle de."
+        },
+        "pop_1004": {
+            "v2.8 ratio": 0.7,
+            "v2.11 ratio": 0.7692307692307693,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla.",
+            "v2.11 text": "Hazırlanmamış."
+        },
+        "pop_1223": {
+            "v2.8 ratio": 0.7529411764705882,
+            "v2.11 ratio": 0.6904761904761905,
+            "original text": "Öldürülenlerin gözlükleri alınıp ayrı yere konmuş...",
+            "v2.8 text": "Ölü gözleri alın ayrı yere kondu.",
+            "v2.11 text": "Ölü gözlükler alın yerine kondu."
+        },
+        "ess_291": {
+            "v2.8 ratio": 0.09603340292275574,
+            "v2.11 ratio": 0.06274509803921569,
+            "original text": "Yahudi kâtip de, genç tayfaya, \"Şimdi git\" der, \"her yerde bu gece yaşadıklarını, bütün öyküyü anlat. \" Kim bilir kaç cümle kurdun bugüne dek, şiirle hayatın kesişme noktasına göndermeleri olan: Ben, şiir ya da deneme, yazarak kendime bir yaşama alanı açıyorum.",
+            "v2.8 text": "Yahudi kâtip de genç tayfaya şimdi git, de! Her yerde bu geç yaşa bütün öyküyü anlat! Kim bilmez kaç cümle kurt bugün dek şiir hayatı kesin noktaya gönder! Ol, benim şiirim ya da deneme yaz, kendi bir yaşam alanını aç!",
+            "v2.11 text": "Yahudi kâtibi de genç tayfaya şimdi git! Her yerde bu geç yaşadığı bütün öyküyü anlat. Kim bilebilir kaç cümleyi kurduğunu bugüne dek. Şiir hayatla kesiştiği noktada gönderli ol, ben şiiri ya da denemeyi kendi yaşanda yaz. Kendi aldığın açıyla ısıt."
+        },
+        "news_1301": {
+            "v2.8 ratio": 0.8292682926829268,
+            "v2.11 ratio": 0.9029850746268657,
+            "original text": "Genel Müdür Sığın, yeni Bankalar Yasası'nın, mali sistemin uluslararası standartlara taşınmasında önemli bir adım olduğunu ifade etti.",
+            "v2.8 text": "Genel müdür sığın yeni bankaların Yasa'nın mali sistemine uluslarara standart taşınılmayan önemli bir adım oldu.",
+            "v2.11 text": "Genel müdür Sığın'ın yeni bankalarının Yasa'nın mali sistemi için uluslararası standartlara taşınması önemli bir adım oldu ifade etti."
+        },
+        "pop_1639": {
+            "v2.8 ratio": 0.7368421052631579,
+            "v2.11 ratio": 0.72,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla",
+            "v2.11 text": "Hazırlanıyor."
+        },
+        "bio_1615": {
+            "v2.8 ratio": 0.896551724137931,
+            "v2.11 ratio": 0.9310344827586207,
+            "original text": "'Söyledik ya Sefir Beyefendi.",
+            "v2.8 text": "Söyledik, ya sefir beyefendi.",
+            "v2.11 text": "Söyledik ya, Sefir beyefendi."
+        },
+        "news_941": {
+            "v2.8 ratio": 0.8428927680798005,
+            "v2.11 ratio": 0.8508557457212714,
+            "original text": "Sanatın evrensel bir değer olduğunu vurgulayan ressam, \"Batı karşımızda bir gerçek, artık sağ ve solu bir tarafa bırakıp kendi sanatımızı üretmek lazım, İran Sineması bu konuda yapılabileceklere iyi bir örnek.\" diyor.",
+            "v2.8 text": "Sanatın evrensel bir değeri oldu, vurgulayan ressam Batı karşısında bir gerçek artık sağ ve sol bir tarafa bırak, kendi sanatını üretmeleri İran sinemada bu konuda iyi bir örnek deydi.",
+            "v2.11 text": "Sanatın evrensel bir değeri oldu, vurgulayan ressam Batı'ya karşı bir gerçek artık sağ ve sol bir tarafa bırak kendi sanatı üreten bu konuda İran sinemayı bu konuda yapılacak iyi bir örnek de."
+        },
+        "bio_1128": {
+            "v2.8 ratio": 0.868421052631579,
+            "v2.11 ratio": 0.9135802469135802,
+            "original text": "Bu da yönetimi ve yaşayışı bazen zorluyor.",
+            "v2.8 text": "Bu da yönetimin ve yaşan zorluyor.",
+            "v2.11 text": "Bu yönetimi ve yaşadığı bazen zorluyor."
+        },
+        "pop_557": {
+            "v2.8 ratio": 0.9142857142857143,
+            "v2.11 ratio": 0.972972972972973,
+            "original text": "Domatesli ve yumurtalı çavdar ekmeği:",
+            "v2.8 text": "Domates ve yumurta çavdar ekmeği.",
+            "v2.11 text": "Domatesli ve yumurtalı çavdar ekmeği."
+        },
+        "news_1972": {
+            "v2.8 ratio": 0.8137931034482758,
+            "v2.11 ratio": 0.7702702702702703,
+            "original text": "Ben yaptırdığım çalışmalarda her zaman için sizden daha fazlasını isteyeceğim.",
+            "v2.8 text": "Ben yapmış olabilirim her zaman için sizden daha fazla isteyeceğim.",
+            "v2.11 text": "Ben yapmamış çalışmalara her zaman için sizden daha fazla katılacağım."
+        },
+        "pop_1883": {
+            "v2.8 ratio": 0.7,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "Hazırlanışı:",
+            "v2.8 text": "Hazırla.",
+            "v2.11 text": "Hazırlanış"
+        },
+        "ins_717": {
+            "v2.8 ratio": 0.8467153284671532,
+            "v2.11 ratio": 0.8873239436619719,
+            "original text": "Orada, uzak ve meçhul bir adada yaşar gibi kendi maceranızı yaşıyorsunuz.",
+            "v2.8 text": "Ora uzak ve meçhul bir adada Yaşar gibi kendi maceralarını yaşa.",
+            "v2.11 text": "Orada uzak ve meçhul bir adada yaşar gibi kendi maceralarını yaşayın."
+        },
+        "news_615": {
+            "v2.8 ratio": 0.6486486486486487,
+            "v2.11 ratio": 0.7761194029850746,
+            "original text": "İngiliz polisi çevrecilerin peşinde",
+            "v2.8 text": "İngiliz polisin çevresinde peşteydiler.",
+            "v2.11 text": "İngiliz polisi çevrede peştedir."
+        },
+        "pop_1517": {
+            "v2.8 ratio": 0.782608695652174,
+            "v2.11 ratio": 0.7931034482758621,
+            "original text": "10. Bana uyan ve izleyenlerim, dışarıda kalanlar ve dışarda bulunmak isteyenler ve insanları benden uzak tutmak isteyenler gibi ölmezler.",
+            "v2.8 text": "10 bana uy ve izle dışarı kalan ve dışarı bulun iste ve insan bende uzak tut iste gibi Ölmez.",
+            "v2.11 text": "10 bana uy ve izleyin dışarı kal ve dışarı bulun iste ve insanları bende uzak tut iste gibi öl."
+        },
+        "pop_1561": {
+            "v2.8 ratio": 0.8442622950819673,
+            "v2.11 ratio": 0.8125,
+            "original text": "Kendinizden başka herkese, sırf sizin acemisi olduğunuz o tuhaf durak isimlerini biliyorlar diye üstün vasıflar vehmedersiniz.",
+            "v2.8 text": "Kendi başka herkese sırf sizin acemi olunca o tuhaf duraktaki isimleri bil diye üstün vasıfları sürekli vehmedersiniz.",
+            "v2.11 text": "Kendi başka herkese sırf sizin acemi olduğunuzu olmuş o tuhaf duraktan isimleri bile diyip üstün vasıflarınızı vehmediyormuşsunuz."
+        },
+        "pop_1522": {
+            "v2.8 ratio": 0.7228915662650602,
+            "v2.11 ratio": 0.8571428571428571,
+            "original text": "\"O değil de benim acilen 40 kilo vermem lazım...",
+            "v2.8 text": "O da ben aslında 40 kilo ver lazım.",
+            "v2.11 text": "O benim acilen 40 kilo vermem lazım."
+        },
+        "ins_1996": {
+            "v2.8 ratio": 0.8135593220338984,
+            "v2.11 ratio": 1.0,
+            "original text": "Daha sonra da giriş kapıları.",
+            "v2.8 text": "Daha sonra da girerler kapıyı.",
+            "v2.11 text": "Daha sonra da giriş kapıları."
+        },
+        "bio_1700": {
+            "v2.8 ratio": 0.7912087912087912,
+            "v2.11 ratio": 0.8397790055248618,
+            "original text": "Aylin, başını çevirip yana doğru baktı ve gözleri yine o kapkara delici bakışlarla buluştu.",
+            "v2.8 text": "Aylin başını çevirmediği doğru, bakıp gözleriyle yine o kapkara deliklere baktı ve buluştu.",
+            "v2.11 text": "Aylinin başını çevirerek yana doğru bak ve gözlerini yine o kapkara deliklere bakıp buluş."
+        },
+        "ins_794": {
+            "v2.8 ratio": 0.7323943661971831,
+            "v2.11 ratio": 0.7733333333333333,
+            "original text": "Gökkuşağına \"Ebem kuşağı\" da denir.",
+            "v2.8 text": "Gökkuşağının ebesi kuşakta da değil.",
+            "v2.11 text": "Gökkuşağının ebesi kuşağında da değişir."
+        },
+        "news_1557": {
+            "v2.8 ratio": 0.8548387096774194,
+            "v2.11 ratio": 0.7863247863247863,
+            "original text": "Ama bize göre, futbolcularımız da ekmeklerine dört elle sarılmıyorlar.",
+            "v2.8 text": "Ama bize göre futbollar da ekmeğe dört elle sarılıyor.",
+            "v2.11 text": "Ama bize göre futbol da ekmeğe dört el sarılır."
+        },
+        "news_1858": {
+            "v2.8 ratio": 0.8274111675126904,
+            "v2.11 ratio": 0.8452088452088452,
+            "original text": "Gazeteye göre, Demokratların başkan adaylarından olan ve gelecek dönemin Dışişleri Bakanı olarak da adı geçen Joe Biden'ın \"Irak'ın üçe bölünmesi\" konusunda hazırladığı rapor, yalnızca muhaliflerin görüşünü yansıtmıyor.",
+            "v2.8 text": "Gazeteye göre demokrat başkan adayları olup ve gelecek dönem Dışişleri bakanı da olan geç Joe Biden'in Irak üç bölünmesi konusunu hazırlayan yalnızca muhalif görüşün yansıyor.",
+            "v2.11 text": "Gazeteye göre demokrat başkan adayı ol ve gelecek dönemde Dışişleri bakanı ol da adı geçen Joe Biden'in Irak üçte birinin bölünmesi konusunda hazırla raporu yalnızca muhalif görüş yansıma."
+        },
+        "ess_1813": {
+            "v2.8 ratio": 0.8436018957345972,
+            "v2.11 ratio": 0.8380952380952381,
+            "original text": "Üçüncüsü kim yahu derken, dostum Behçet Çelik üşenmemiş, internetten bakıp bulmuş: Liberal Demokrat Parti (LDP).",
+            "v2.8 text": "Üçüncü kim yahu, dostum Behçet Çelik üşenmedi. İnternet'ten bak, buldum liberal demokrat parti LDP.",
+            "v2.11 text": "Üçüncü kim, yahu de, dostum Behçet çelik üşen, İnternetten bak, bul, liberal demokrat partiye LDP."
+        },
+        "ess_123": {
+            "v2.8 ratio": 0.7027027027027027,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "Kurtuluş anları daha sık yaşanır olur.",
+            "v2.8 text": "Kurtulurken daha sık anları yaşanır.",
+            "v2.11 text": "Kurtulanların daha sık yaşanır olurlar."
+        },
+        "ess_1760": {
+            "v2.8 ratio": 0.7193877551020408,
+            "v2.11 ratio": 0.7192118226600985,
+            "original text": "Sıkılıp bıktığımız veya yıldığımız anlarda, sonunda emek harcadıklarımızın meyvelerini alacağımızı düşünerek umutlarımızı ve beklentilerimizi yitirmeden çalışmayı bir ödev olarak görüp, sorumluluklarımızı bilerek ona göre davranmalıyız.",
+            "v2.8 text": "Sıkıldık veya yıllık sonunda emeği harcadığımız meyveyi alacak düşünüp umut ve beklentiyi yitirerek çalış bir ödev ol gör sorumlulara bil o göre davranalım.",
+            "v2.11 text": "Sıkılmış veya bıkmış yıllardan sonunda emeği harcamış meyveleri alacak düşünce, umut ve beklentilerinden yitirerek çalıştığı bir ödev ol gör sorumluluk bil o göre davran."
+        },
+        "news_1306": {
+            "v2.8 ratio": 0.6582278481012658,
+            "v2.11 ratio": 0.8251748251748252,
+            "original text": "Bu yüzden linklerinizde sabit diskinize ait tam dosya yolları kullanmaktan kaçının, dosyayı web sunucunuza yüklediğinizde bu linkler çalışmaz hale gelecektir.",
+            "v2.8 text": "Bu yüzden linklere sapit disklerin ait olduğu tam dosyalar yolundan kaçınılmalıdır. Web sunusunu yüklemek için bu linkleri kullanmadan çalış hâline kadar gel.",
+            "v2.11 text": "Bu yüze linklerde sabit disk ait tam dosyaların yolu kullan kaçın dosyayı web sunucusunda yüklendi bu link çalış hal gelecektir."
+        },
+        "bio_292": {
+            "v2.8 ratio": 0.9595959595959596,
+            "v2.11 ratio": 0.9743589743589743,
+            "original text": "Yemek sonunda sabah sıfıraltıda kalkış, sıfıryedi onbeş otelden hareket gibi bir sapıklık açıklandı.",
+            "v2.8 text": "Yemek sonunda sabah sıfıraltında kalksın sıfıryedi onbeş otelden hareket gibi bir sapık açıklandı.",
+            "v2.11 text": "Yemek sonunda sabah sıfıraltı kalk sıfıryedi onbeş otelden hareket gibi bir sapıklık açıklandı."
+        },
+        "ess_603": {
+            "v2.8 ratio": 0.9807692307692307,
+            "v2.11 ratio": 0.9019607843137255,
+            "original text": "Lise son sınıfta Active English Dersanesi'ne gittim.",
+            "v2.8 text": "Lise son sınıftan Active English Dersanesine gittim.",
+            "v2.11 text": "Lise sınıfında Active, English Dersanesine gittim."
+        },
+        "bio_1575": {
+            "v2.8 ratio": 0.8848920863309353,
+            "v2.11 ratio": 0.9163636363636364,
+            "original text": "Buna karşılık yöneticilerden Kolombiyalı Pasquali, Mısırlı Hamdi Kandil ve Fransız Herve Bourges yeni görüşleri savunanlar arasında yer alıyorlardı.",
+            "v2.8 text": "Bu karşılık yöneticilerden Kolombiya Pasquali Mısırlı Hamdi kandil ve Fran Herv Bourges yeni görüşleri savunan arayalayan yer alı.",
+            "v2.11 text": "Bu karşılık yöneticilerden Kolombiya Pasquali Mısırlı Hamdi kandil ve Fransız Herv Bourges yeni görüşleri savunan ara yer aldı."
+        },
+        "bio_1583": {
+            "v2.8 ratio": 0.875,
+            "v2.11 ratio": 0.8992248062015504,
+            "original text": "Mutfakta yer darlığı vardı, yeni gelen masalarla bu darlık kalktı.",
+            "v2.8 text": "Mutfakta yer darı vardı, yeni gelin masaları bu darı kaldırdı.",
+            "v2.11 text": "Mutfakta yer darlığı var, yeni gelinlere masa bu darlık kalktı."
+        },
+        "pop_1824": {
+            "v2.8 ratio": 0.8453038674033149,
+            "v2.11 ratio": 0.8505747126436781,
+            "original text": "1976 yılında yayınladığı \"Milâddan Önce Amerika\" adlı kitabında Avrupa'dan, Kuzey Afrika'dan, Mesih'den bin yıl önce Amerika'yı sömürgeleştiren ilk Amerikan sakinlerinden bahsetmiştir.",
+            "v2.8 text": "1976 yılında yayınladığı Milâd öncesinde Amerika adını kitabında Avrupa'dan kuzey Afrika'ya, Mesih bin yıl önce Amerika'nın sömürgecilik yaptığı ilk Amerikan seferinden bahsetti.",
+            "v2.11 text": "1976 yılında yayınlanan Milâdî önce Amerika adlı kitap Avrupa, kuzey Afrika ve Mesih bin yıl önce Amerika'ya sömürgeleştirilmiş ilk Amerikan sakinlerinden bahsetti."
+        },
+        "ess_1377": {
+            "v2.8 ratio": 0.7934782608695652,
+            "v2.11 ratio": 0.7692307692307693,
+            "original text": "Büyük bir okur kitlesine ulaşamadılar, onlarla kucaklaşamadılar seçkin yapıtlar ortaya koydukları halde.",
+            "v2.8 text": "Büyük bir okur, kitleye ulaşmadı. O kucaklaşılacak seçkin yapıta orta koy halde.",
+            "v2.11 text": "Büyük bir okur kitleye ulaştıktan sonra o kucaklaşılan seçkin yapıtlara orta koyduğu hâlde."
+        },
+        "ins_1583": {
+            "v2.8 ratio": 0.03832752613240418,
+            "v2.11 ratio": 0.3130434782608696,
+            "original text": "Yatçılık tarihinin başlangıç dönemlerinde Akdeniz ülkeleri ve Osmanlı İmparatorluğu'nda da, yelken yetenekleri iyi, küçük ama denizci tekneler yük taşıma ve balıkçılık amacıyla kullanılmış ve sürekli geliştirilmiş olmalarına rağmen; özel kullanım sosyo ekonomik nedenlerle olsa gerek, söz konusu olmamıştır.",
+            "v2.8 text": "Yat tarih başlangıcında dönemde Akdeniz ülkede ve Osmanlı imparatorlukta yelken yetenekler iyi küçük ama deniz tekneler yük taşı ve balıkçılık amaçla kullanıldı ve sürekli gelişti olmasına rağmen özel kullanım sosyo-ekonomik neden olmak isteyen gerek söz konusu oldu.",
+            "v2.11 text": "Yatçılığın tarihçesi başlangıç dönemlerinden Akdeniz ülkeleri ve Osmanlı İmparatorluğu'nda da yelken yetenekleri iyi küçük ama deniz tekneleriyle yük taşındığı ve balıkçılık amaç kullanılıp sürekli geliş olduğu özel kullanım, sosyo-ekonomik neden ol söz konusu olmadı."
+        },
+        "ins_664": {
+            "v2.8 ratio": 0.6723404255319149,
+            "v2.11 ratio": 0.8415841584158416,
+            "original text": "Türk halk efsanelerinden \"Lokman Hekim efsanesi\" ile \"Şahmeran efsanesi\" de Çukurova'da oluşmuş efsanelerdir.",
+            "v2.8 text": "Türk halkının efsanelerinden Lokman Hekim'in efsanesi ile Şahmeran'ın efsanesi de Çukurova'nın oluşu efsanelere konu olmuştur.",
+            "v2.11 text": "Türk halkının efsanevi Lokman hekim efsanesi ile Şahmeran efsanesi de Çukurova'da oluşmuştur."
+        },
+        "pop_581": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 1.0,
+            "original text": "Fırını önceden 125 dereceye ısıtın.",
+            "v2.8 text": "Fırını önceden 125 dereceye ısıtın.",
+            "v2.11 text": "Fırını önceden 125 dereceye ısıtın."
+        },
+        "ins_142": {
+            "v2.8 ratio": 0.7311827956989247,
+            "v2.11 ratio": 0.8431372549019608,
+            "original text": "Mektup bitince zarfa koyar, üstüne de adres yazarım.",
+            "v2.8 text": "Mektubu zarfa koyduğu üstte adresi yazar.",
+            "v2.11 text": "Mektup bitti, zarfa koyup üstüne de adres yazıyor."
+        },
+        "news_222": {
+            "v2.8 ratio": 0.8869565217391304,
+            "v2.11 ratio": 0.9830508474576272,
+            "original text": "Tabii ki sahamızda gol için daha atak ve arzulu oynayacağız.",
+            "v2.8 text": "Tabii ki saha golu için daha atak ve arzuyla oynayacak.",
+            "v2.11 text": "Tabii ki sahamız gol için daha atak ve arzulu oynayacağız."
+        },
+        "news_1937": {
+            "v2.8 ratio": 0.8373333333333334,
+            "v2.11 ratio": 0.8730964467005076,
+            "original text": "120 ton taşıma kapasitesiyle dünyanın en büyük kargo uçağı olan Ruslan, 1 Nisan'da casusluk amacıyla uçuş yaparken Çin savaş uçağı ile çarpışarak Haynan adasına zorunlu iniş yapan EP-3'ü ABD'ye götürecek.",
+            "v2.8 text": "120 ton taşı kapasitesi olan Dünya'nın en büyük kargo uçağı Rus 1 Nisan casusluğu amaç uç yap Çin savaş uçağı ile çarpış Haynan Ada'ya zorunlu iniş yap, EP 3 ABD'ye götür.",
+            "v2.11 text": "120 ton taşı kapasiteye sahip Dünya'nın en büyük kargo uçağı Ruslan, 1 Nisan casusluk amaçlarıyla uç yap Çin savaş uçağı ile çarpış Haynan Adası'na zorunlu iniş yap EP'yi 3 ABD'ye götürecek."
+        },
+        "ins_1692": {
+            "v2.8 ratio": 0.7614678899082569,
+            "v2.11 ratio": 0.7203791469194313,
+            "original text": "Doğru belirlenmiş bir kitlenin ihtiyaçları göz önünde bulundurulduğunda kampanyaların amaçlarını gerçekleştirmemesi mümkün değildir.",
+            "v2.8 text": "Doğru bir kitle ihtiyaç göz önünde bulunan kampanya amaç gerçekleştirdi, mümkün değil.",
+            "v2.11 text": "Doğru bir kitle ihtiyaç gözünde ön bulunduğu kampanya amaç gerçek mümkün değil."
+        },
+        "ins_888": {
+            "v2.8 ratio": 0.7058823529411765,
+            "v2.11 ratio": 0.9433962264150944,
+            "original text": "Ama sizin soy nedense gider",
+            "v2.8 text": "Ama sizin neden gitiniz.",
+            "v2.11 text": "Ama sizin soy neden gider."
+        },
+        "news_1497": {
+            "v2.8 ratio": 0.8461538461538461,
+            "v2.11 ratio": 0.8627450980392157,
+            "original text": "Bazen bir iki sene, bazen de 6 ayda beynin o bölgesini geliştirici birtakım terapilerle ve egzersizlerle bu problem büyük ölçüde çözülebiliyor.",
+            "v2.8 text": "Bazen birkaç sene bazen de 6 Ay beyinin o bölgeye gelişini birtakım terapiler ve egzersizlerle bu büyük ölçüde çözer.",
+            "v2.11 text": "Bazen bir sene bazen de 6 ayda beynin o bölgeyi geliştirici birtakım terapi ve egzersiz bu büyük ölçüde çözülür."
+        },
+        "bio_1672": {
+            "v2.8 ratio": 0.5526315789473685,
+            "v2.11 ratio": 0.7586206896551724,
+            "original text": "Lisede İngilizce öğretmenliği yapan Esin yengeme \"Ben İngilizceyi hatırlıyorum\" dediğimi; hatta bana İngilizce birkaç cümle söylediğini ve Türkçeye çevirdiğimi hatırlıyorum.",
+            "v2.8 text": "Lisedeki İngiliz öğretmen yapar esinle yenge bana İngilizce hatırla dedi beni İngilizce birkaç cümle söyle ve Türkçe çevir hatırla.",
+            "v2.11 text": "Lisede İngilizce öğretmeni yapar Esin'e ben İngilizce hatırlayıp da hatırlamayacağımı soran birkaç cümle söyledi ve Türkçe çevirmemi hatırlıyorum."
+        },
+        "bio_1495": {
+            "v2.8 ratio": 0.9019607843137255,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Şef, gülümser yüzüyle döndü.",
+            "v2.8 text": "Şef gülümser yüz döndü.",
+            "v2.11 text": "Şef gülümseyerek yüzünden döndü."
+        },
+        "news_327": {
+            "v2.8 ratio": 0.8251121076233184,
+            "v2.11 ratio": 0.8170212765957446,
+            "original text": "Milli Piyango İdaresinin başlangıçtan bu yana istediği bu modele, Özelleştirme İdaresinin de sıcak baktığı belirtiliyor.",
+            "v2.8 text": "Milli piyango idaresinin başlangıcından bu yanı istediğin bu modele özel idarede sıcak bakıp beliriyor.",
+            "v2.11 text": "Milli Piyango İdaresi'nin başlangıcından bu yana istisnasız bu modeli özelleştiren İdaredesicak baktığını belirler."
+        },
+        "news_1890": {
+            "v2.8 ratio": 0.7329842931937173,
+            "v2.11 ratio": 0.8732394366197183,
+            "original text": "Oyun geliştiriciler, artık büyük fikirlerini yüklü bir bütçeyi riske etmek gerekmeksizin gerçekliğe dönüştürebilecek.",
+            "v2.8 text": "Oyunun artık büyük fikirleri yük bir bütçeye risk et, gerek gerçekleşecek.",
+            "v2.11 text": "Oyun geliştiriciler artık büyük fikirler yüklü bir bütçe riske etmez, gerek gerçeklik dönüşecek."
+        },
+        "ess_750": {
+            "v2.8 ratio": 0.688,
+            "v2.11 ratio": 0.7123287671232876,
+            "original text": "Biz, ayna-ses'le yankı-ses'le ilgili olsak bile, anne değilsek, insan yavrusunun isteklerini yakıştırarak çıkarmaya çalışırız.",
+            "v2.8 text": "Biz aynayla Ses'in yankısına ilgili olalım bile! Anne değil insanın yavrusunun isteğiyle, \"yakış çık çalışalım!\" şeklinde...",
+            "v2.11 text": "Biz aynayı Sesle yankılamadan ilgili ol bile annenin yavrusunun isteğini çıkarma çalışıyoruz."
+        },
+        "bio_1106": {
+            "v2.8 ratio": 0.9830508474576272,
+            "v2.11 ratio": 0.9830508474576272,
+            "original text": "Münasip bir ev hiç bulunamadı.",
+            "v2.8 text": "Münasip bir ev hiç bulunmadı.",
+            "v2.11 text": "Münasip bir ev hiç bulunmadı."
+        },
+        "pop_1212": {
+            "v2.8 ratio": 0.851063829787234,
+            "v2.11 ratio": 0.75,
+            "original text": "\"Ellem güllem yapmayın!\"",
+            "v2.8 text": "Ellem gülleyi yapmayın.",
+            "v2.11 text": "Ellemeyin, güllemeyin, yapmayın."
+        },
+        "bio_398": {
+            "v2.8 ratio": 0.7651006711409396,
+            "v2.11 ratio": 0.8104575163398693,
+            "original text": "Bu anlaşmanın klasik anlamda bir hukuk vesikası olmadığına işaret etmek isterim.",
+            "v2.8 text": "Bu klasik anlaşmanın anlamında bir hukuk vesikası, ol işareti ederim.",
+            "v2.11 text": "Bu klasik anlaşmanın anlamında bir hukuk vesikası olmayan işaret et iste."
+        },
+        "news_1217": {
+            "v2.8 ratio": 0.9361702127659575,
+            "v2.11 ratio": 0.8913043478260869,
+            "original text": "Şaron'un şimdiden \"yol haritasına\" itirazları var.",
+            "v2.8 text": "Şaron şimdiden yol haritasına itirazlar var.",
+            "v2.11 text": "Şaron şimdiden yola haritasına itiraz var."
+        },
+        "ins_1600": {
+            "v2.8 ratio": 0.8135593220338984,
+            "v2.11 ratio": 0.8524590163934426,
+            "original text": "Güzel bir mayıs günü Atatürk, Sabiha'yı da alarak Türkkuşu Sivil Havacılık Okulunun açılışına gitti.",
+            "v2.8 text": "Güzel bir Mayıs günü Atatürk Sabiha'yla al Türkkuşu sivil havacı okul aç git.",
+            "v2.11 text": "Güzel bir mayıs günü Atatürk Sabiha da al Türkkuşu sivil havacılık okulunda aç git."
+        },
+        "ins_840": {
+            "v2.8 ratio": 0.8235294117647058,
+            "v2.11 ratio": 0.9032258064516129,
+            "original text": "Kendin için çalış, kendini kazan,",
+            "v2.8 text": "Kendisi için çalışan kendi kazandı.",
+            "v2.11 text": "Kendi için çalış kendi kazan."
+        },
+        "pop_1054": {
+            "v2.8 ratio": 0.8571428571428571,
+            "v2.11 ratio": 0.9069767441860465,
+            "original text": "Niyeyse? Onlar pek bir şey yapmazlar halbuki.",
+            "v2.8 text": "Niyeyse onun pek bir şey yapar halbuki.",
+            "v2.11 text": "Niyeyse onları pek bir şey yapar halbuki."
+        },
+        "news_322": {
+            "v2.8 ratio": 0.8831168831168831,
+            "v2.11 ratio": 0.935064935064935,
+            "original text": "Kendini ispatlamış kaliteli bir kaleci.",
+            "v2.8 text": "Kendi ispatlamadığı kalite bir kaleci.",
+            "v2.11 text": "Kendisini ispatla kaliteli bir kaleci."
+        },
+        "news_1550": {
+            "v2.8 ratio": 0.759493670886076,
+            "v2.11 ratio": 0.945054945054945,
+            "original text": "Bundan sonra çok daha iyi olacağımı düşünüyorum.",
+            "v2.8 text": "Bu sonra çok daha iyi oluyorum.",
+            "v2.11 text": "Bu sonra çok daha iyi olacağım düşünüyorum."
+        },
+        "ins_527": {
+            "v2.8 ratio": 0.86,
+            "v2.11 ratio": 0.8,
+            "original text": "Hayatta gerçek yol göstericinin bilim olduğuna inandı.",
+            "v2.8 text": "Hayatı gerçek yolu gösteri bilim olana inandı.",
+            "v2.11 text": "Hayat gerçek yol gösterici bilim olmuştu."
+        },
+        "ess_144": {
+            "v2.8 ratio": 0.9375,
+            "v2.11 ratio": 0.9375,
+            "original text": "Ama öyle değil...",
+            "v2.8 text": "Ama öyle değil.",
+            "v2.11 text": "Ama öyle değil."
+        },
+        "ess_1202": {
+            "v2.8 ratio": 0.9090909090909091,
+            "v2.11 ratio": 0.9454545454545454,
+            "original text": "Eğitim sistemimiz okuldan çok kahramanlıkla ilgilenir.",
+            "v2.8 text": "Eğitim sisteminden okuldaki çok kahramanlıkla ilgilenir.",
+            "v2.11 text": "Eğitimi sistemimden okuldan çok kahramanlıkla ilgilenir."
+        },
+        "news_1526": {
+            "v2.8 ratio": 0.5555555555555556,
+            "v2.11 ratio": 0.7368421052631579,
+            "original text": "O bakımdan özelleştirme oldukça zor gözüküyor\" dedi.",
+            "v2.8 text": "O bakımından özel ediyor gibi göründü.",
+            "v2.11 text": "O bakım özel olunca oldukça zor gözükse de."
+        },
+        "news_1369": {
+            "v2.8 ratio": 0.25,
+            "v2.11 ratio": 0.23728813559322035,
+            "original text": "250 MİLYAR DOLARLIK HACMİ VAR",
+            "v2.8 text": "250 milyar dolar hacim var.",
+            "v2.11 text": "250 milyar dolarlık hacmi var."
+        },
+        "news_277": {
+            "v2.8 ratio": 0.5497470489038786,
+            "v2.11 ratio": 0.36477987421383645,
+            "original text": "Son yıllarda hem Türkiye'de hem de yurt dışında kaleme alınmış tarihi romanların pek çoğunda görüldüğü gibi özetlenmesi gerektiğinde belki birkaç cümle ile anlatılabilecek bir ana eksene sahip olan roman, muhtemelen bu konumdan sıradışı sayılabilecek bir akışa kavuşabilmek adına, okurun algısını keskinleştirici güzergâhlara yöneliyor.",
+            "v2.8 text": "Son yıllarda hem Türkiye hem de yurt dışında kaleme alınan tarih Roma Pek çok görülür gibi özetle gerek belki birkaç cümle ile anlatılabilir Roman muhtemel bu konumdan sıradışı sayılabilir bir ak kavuşuyor adi okurun algısını keskin bir güzergâha yönelerek.",
+            "v2.11 text": "Son yıllarda hem Türkiye hem de yurt dışında kalem alınan tarihi Romanların pek çoğu görüldü ki özetle gerek belki birkaç cümle ile anlatılabilir. Bir ana eksen sahip olan romanın muhtemelen bu konumdan sıradışı sayılmaz bir ak kavuş adını taşıyan okurun algısını keskinleştirici güzergâha yöneliyor."
+        },
+        "ins_1197": {
+            "v2.8 ratio": 0.5714285714285714,
+            "v2.11 ratio": 0.5581395348837209,
+            "original text": "Gezegencik cik cik cik,",
+            "v2.8 text": "Gezegen çık çık çık",
+            "v2.11 text": "Gezegen çık çık çık."
+        },
+        "news_772": {
+            "v2.8 ratio": 0.896551724137931,
+            "v2.11 ratio": 0.87248322147651,
+            "original text": "Türk Silahlı Kuvvetleri'nin (TSK) olası sınır ötesi harekâtı nedeniyle alarma geçen ve sınır hattında yoğun güvenlik önlemi alan peşmergeler sınır hattından çekildi.",
+            "v2.8 text": "Türk silah kuvveti TSK'nın olası sınır ötesi harekât nedeniyle alarm geç ve sınır hattından yoğun güvenlik önlemi alındı Peşmerge sınır hattından çekildi.",
+            "v2.11 text": "Türk silahlı kuvvetler TSK olası sınır öte harekât nedeniyle alarm geç ve sınır hat yoğun güvenlik önlem al peşmerge sınır hat çekti."
+        },
+        "news_1612": {
+            "v2.8 ratio": 0.8807339449541285,
+            "v2.11 ratio": 0.8947368421052632,
+            "original text": "Çalışmalarda futbolcularım çok hırslı ve istekli gözüküyor.",
+            "v2.8 text": "Çalışan futbolcular çok hırs ve istekle gözüküyor.",
+            "v2.11 text": "Çalışan futbolculardan çok hırslı ve istekli gözüküyor."
+        },
+        "ins_1310": {
+            "v2.8 ratio": 0.8023952095808383,
+            "v2.11 ratio": 0.7721518987341772,
+            "original text": "Derslerini ihmal etmedi; matematiğe ve tarihe olan ilgisi Harp Okulunda da sürdü.",
+            "v2.8 text": "Derslerini ihmal etmiş matematik ve tarih dersleriyle ilgisi olan harp okulunda sürdü.",
+            "v2.11 text": "Dersleri ihmal ettiğinden matematiğe ve tarihe ilgiyle harpteki okulda sürdü."
+        },
+        "ess_1806": {
+            "v2.8 ratio": 0.8198757763975155,
+            "v2.11 ratio": 0.9,
+            "original text": "Biliyoruz, Darvin'den bu yana biliyoruz ki, bütün canlıların ataları tek bir canlıdır.",
+            "v2.8 text": "Biz Darwinciden bu yan bilirken bütün canlıların atalarından tek bir canlı.",
+            "v2.11 text": "Biz Darvin'den bu yana biliriz ki bütün canlıların atası tek bir canlıdır."
+        },
+        "news_202": {
+            "v2.8 ratio": 0.8360655737704918,
+            "v2.11 ratio": 0.8812260536398467,
+            "original text": "Meclis Başkanlığı boşalacağı için, yeni yasama yılının açılışı nedeniyle her yıl geleneksel olarak verilen resepsiyon bu yıl yapılmayacak.",
+            "v2.8 text": "Meclis başkanlığı boşalacak yeni yasama yılı açısından her yıl geleneksel olarak verilen bu yıl yapılacak.",
+            "v2.11 text": "Meclis başkanlığı boşalacak yeni yasama yılı açılmak için her yıl geleneksel olarak verilen resepsiyon bu yıl yapılmayacak."
+        },
+        "ess_458": {
+            "v2.8 ratio": 0.7640449438202247,
+            "v2.11 ratio": 0.7570621468926554,
+            "original text": "Orada, Uganda'da, Kampala'da \"susmak, kaçmak demek\" dediğimde, \"Hayır, susmak, ölmek demek\" diye indi balyoz.",
+            "v2.8 text": "Ora Uganda Kampala sus kaç de dedim hayır sus öl de diye indi balyoz.",
+            "v2.11 text": "Ora, Uganda Kampala'da sus kaç de de hayır sus öl de diye in balyoz."
+        },
+        "ess_1549": {
+            "v2.8 ratio": 0.8648648648648649,
+            "v2.11 ratio": 0.88,
+            "original text": "Hayvanları da kendinizi de rahat bırakın!",
+            "v2.8 text": "Hayvanlar kendi de rahat bırakın.",
+            "v2.11 text": "Hayvanlar kendinizi rahat bırakın."
+        },
+        "news_944": {
+            "v2.8 ratio": 0.9019607843137255,
+            "v2.11 ratio": 0.9019607843137255,
+            "original text": "Aynı dönem içinde net asgari ücret ise 3.2 arttırıldı.",
+            "v2.8 text": "Aynı dönemin içinde net asgari ücreti 3.2 arttı.",
+            "v2.11 text": "Aynı dönemin içinde net asgari ücreti 3.2 arttı."
+        },
+        "bio_512": {
+            "v2.8 ratio": 0.9066666666666666,
+            "v2.11 ratio": 0.9264069264069265,
+            "original text": "Kriz merkezine gelen bir ihbar üzerine, deponun sorumluluğu Kocaeli Üniversitesi Tıp Fakültesi personeline devredildi.",
+            "v2.8 text": "Kriz merkeze gelir. İhbar üzerine depo sorumlusu Kocaeli Üniversitesi tıp fakültesi personeline devredildi.",
+            "v2.11 text": "Kriz merkeze gelirken bir ihbar üzerine depo sorumluluğu Kocaeli üniversite tıp fakültesi personeline devredildi."
+        },
+        "pop_5": {
+            "v2.8 ratio": 0.8163265306122449,
+            "v2.11 ratio": 0.8928571428571429,
+            "original text": "Sürekli karıştırarak pişirin.",
+            "v2.8 text": "Sürekli karış pişir.",
+            "v2.11 text": "Sürekli karıştırın pişirin."
+        },
+        "ess_1350": {
+            "v2.8 ratio": 0.8679245283018868,
+            "v2.11 ratio": 0.900804289544236,
+            "original text": "Mağara'nın ilk öyküsü İkinci Hasan, Papirüs dergisinde yayınlanınca Papirüs'ü okuyan kızlı-erkekli bir öğrenci kesiminde -onların evrensel gerçeklerini yansıttığından- büyük bir yankı uyandırır.",
+            "v2.8 text": "Mağaranın ilk öyküsü iki Hasan papirüs dergisinde yayınlanır, papirüsü okuyan kız erkek bir öğrenci kesimindedir, o evrenselleşmiş gerçekleri yansıtan büyük bir yankı uyandırır.",
+            "v2.11 text": "Mağaranın ilk öyküsü iki Hasan papirüs dergisinde yayınlandı, papirüsü okuyan kızlı erkekli bir öğrenci kesimleri onun evrensel gerçeklerini yansıttıran büyük bir yankı uyandırır."
+        },
+        "ins_1761": {
+            "v2.8 ratio": 0.875,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "Sık sık gel, emi?",
+            "v2.8 text": "Sık sık gel em.",
+            "v2.11 text": "Sık sık gel, em!"
+        },
+        "news_1718": {
+            "v2.8 ratio": 0.9482758620689655,
+            "v2.11 ratio": 0.9230769230769231,
+            "original text": "Cumhurbaşkanı Sezer bu süre içinde 61 kanunu veto etti.",
+            "v2.8 text": "Cumhurbaşkanı Sezer bu süreyi içinde 61 gün kanunu veto etti.",
+            "v2.11 text": "Cumhurbaşkanı Sezer'in bu süre içinde 61 kânunu vetosunu etti."
+        },
+        "news_263": {
+            "v2.8 ratio": 0.9541284403669725,
+            "v2.11 ratio": 0.9090909090909091,
+            "original text": "TAI'nin katkı sağladığı prestij projeler arasında F-16 elektronik harp sisteminin ayrı bir önemi bulunuyor.",
+            "v2.8 text": "TAI'nin katkısını sağladığı prestijli projeler arasında F-16 elektronik harp sistemine ayrı bir önem bulunuyor.",
+            "v2.11 text": "TAI'nin katkısını sağladığı prestijli projeler arasında F-16 elektronik harp sistemi ayrı bir önem bulunmaktadır."
+        },
+        "ess_560": {
+            "v2.8 ratio": 0.6956521739130435,
+            "v2.11 ratio": 0.7333333333333333,
+            "original text": "Orada sevgilinizi öptüğünüz, oradan el ele geçtiğiniz?",
+            "v2.8 text": "Ora sevgiliyi öperek oradan ele geçti.",
+            "v2.11 text": "Ora sevgiliyi öpüp oradan ele geçti."
+        },
+        "ins_605": {
+            "v2.8 ratio": 0.8205128205128205,
+            "v2.11 ratio": 0.8571428571428571,
+            "original text": "* Haritayı inceleyiniz.",
+            "v2.8 text": "Haritayı incele.",
+            "v2.11 text": "Haritayı inceleyin!"
+        },
+        "ins_1379": {
+            "v2.8 ratio": 0.96,
+            "v2.11 ratio": 0.9459459459459459,
+            "original text": "- Tabi, beni fena hâlde kıskanıyorsun.",
+            "v2.8 text": "Tabii, beni fena hâlde kıskanıyorsun.",
+            "v2.11 text": "Tabii beni fena hâlde kıskanıyorsun."
+        },
+        "bio_1321": {
+            "v2.8 ratio": 0.8192771084337349,
+            "v2.11 ratio": 0.8095238095238095,
+            "original text": "Amcan verin kızı dese baban verecek miydi?",
+            "v2.8 text": "Amcanın verdiği kız da babana verecek mi?",
+            "v2.11 text": "Amcanı vermezsen kız da babanı verecek mi?"
+        },
+        "pop_1375": {
+            "v2.8 ratio": 0.8641975308641975,
+            "v2.11 ratio": 0.7948717948717948,
+            "original text": "Buna halk arasında \"uyutmaca\" da denir.",
+            "v2.8 text": "Bu halk arasındaki \"uyutmaca\" da değişmez.",
+            "v2.11 text": "Bu halk arasında uyutmaca da yapılıyor."
+        },
+        "pop_1717": {
+            "v2.8 ratio": 0.8743169398907104,
+            "v2.11 ratio": 0.7914438502673797,
+            "original text": "Tanrı'nın büyük lütfü sayesinde ses tellerim uyumlu titrediğinden öykülerimi kendim yorumlarım...",
+            "v2.8 text": "Tanrının büyük Lütfü sayesinde ses telleri uyumlu titrediği öyküsünü kendi yorumladım.",
+            "v2.11 text": "Tanrının büyük lütfu sayesinde seslerimi uyumlu bir şekilde titre öykünü kendi yorumlarım."
+        },
+        "news_1630": {
+            "v2.8 ratio": 0.9811320754716981,
+            "v2.11 ratio": 0.9811320754716981,
+            "original text": "Yeni bir Asya krizi kapıda",
+            "v2.8 text": "Yeni bir Asya krizi kapıda.",
+            "v2.11 text": "Yeni bir Asya krizi kapıda."
+        },
+        "news_1048": {
+            "v2.8 ratio": 0.9065420560747663,
+            "v2.11 ratio": 0.8930232558139535,
+            "original text": "YÖNETİCİ Abdürrahim Albayrak, Kocaelispor Teknik Direktörü Hikmet Karaman ile ofisinde özel bir görüşme yaptı.",
+            "v2.8 text": "Yönetici Abdürrahim Albayrak Kocaelispor Teknik Direktör Hikmet Karaman ile ofis özel bir görüşme yaptı.",
+            "v2.11 text": "Yönetici Abdürrahim Albayrak Kocaelispor teknik direktörü Hikmet Karaman ile ofis özel bir görüşme yaptı."
+        },
+        "ess_1674": {
+            "v2.8 ratio": 0.8983050847457628,
+            "v2.11 ratio": 0.8648648648648649,
+            "original text": "Ama akvaryumlardan hiçbirinin içinde bir adet dahi balık yok.",
+            "v2.8 text": "Ama akvaryumlardan hiçbirinde iç bir âdet dahi Balık yok.",
+            "v2.11 text": "Ama akvaryumun hiçbirinde bir adet dâhi balık yok."
+        },
+        "ins_378": {
+            "v2.8 ratio": 0.8571428571428571,
+            "v2.11 ratio": 0.851063829787234,
+            "original text": "* Rüzgâr ve akıntı durumuna göre sürüklenebilecek yerler kestirilmeye çalışılır.",
+            "v2.8 text": "Rüzgâr ve akıntı durumuna göre sürüklenecek yer kes çalışır.",
+            "v2.11 text": "Rüzgâr ve akıntı durumuna göre sürüklenecek yeri kes çalışır."
+        },
+        "bio_531": {
+            "v2.8 ratio": 0.7142857142857143,
+            "v2.11 ratio": 0.7167630057803468,
+            "original text": "Küçük çanlara çocuklar asılmışlar, onları kendilerine salıncak yapmış, sallanmaktadırlar.",
+            "v2.8 text": "Küçük çanlara çocuklar asıldı kendi salıncak yapar.",
+            "v2.11 text": "Küçük çan çocuklar tarafından asıldı, onlara kendi salıncak yapıldı ve sallanılıyor."
+        },
+        "bio_569": {
+            "v2.8 ratio": 0.9523809523809523,
+            "v2.11 ratio": 0.8524590163934426,
+            "original text": "Kumkapı'da oto tamirhanesi var.",
+            "v2.8 text": "Kumkapıdaki oto tamirhanesi var.",
+            "v2.11 text": "Kumkapı otosu tamirhanede var."
+        },
+        "ess_1127": {
+            "v2.8 ratio": 0.6666666666666666,
+            "v2.11 ratio": 0.872093023255814,
+            "original text": "Kalabalıklar ve \"çekici\" kadınlar, matador ölüme yakınlaştığı sürece yakınlaşırlar matadora.",
+            "v2.8 text": "Kalabalık ve çeki kadın matador ölümü yakın süreçte yakın matadora.",
+            "v2.11 text": "Kalabalık ve çekici kadın matador ölüme yakınlaşmış süreçte yakınlaşır matador.\n"
+        },
+        "ess_968": {
+            "v2.8 ratio": 0.6861313868613139,
+            "v2.11 ratio": 0.8395061728395061,
+            "original text": "Dua, bir çocuğun babasından bir şeyler tırtıklamak istemesi türünden bir olgu değildir.",
+            "v2.8 text": "Dua bir çocuğun babasından bir şeyi tırtıklamıyor.",
+            "v2.11 text": "Dua bir çocuğun babasından bir şeyi tırtıkladığını iste tür bir olgu değil."
+        },
+        "ess_1831": {
+            "v2.8 ratio": 0.6111111111111112,
+            "v2.11 ratio": 0.7398843930635838,
+            "original text": "Günümüzde insanlar, katlanılması güç yalnızlıkları yaşamak zorunda bırakılıyor.",
+            "v2.8 text": "Günlerimiz insanlar tarafından katlanarak güçlü yalnız yaşanıyor.",
+            "v2.11 text": "Günler insanlar tarafından katlanılan güçlere yalnızlıklarıyla yaşanılan zorlukları bırakıyor."
+        },
+        "bio_752": {
+            "v2.8 ratio": 0.946236559139785,
+            "v2.11 ratio": 1.0,
+            "original text": "Türkiye bir kez daha asker hegemonyasına girdi.",
+            "v2.8 text": "Türkiye bir kez daha askere hegemonyaya girdi.",
+            "v2.11 text": "Türkiye bir kez daha asker hegemonyasına girdi."
+        },
+        "pop_1370": {
+            "v2.8 ratio": 0.6804123711340206,
+            "v2.11 ratio": 0.8363636363636363,
+            "original text": "Ben dilimi dişlerimin arasına kıstırır kullanırım \"Ttttttt\"yi.",
+            "v2.8 text": "Ben dilimi dişimin arasına koyarım.",
+            "v2.11 text": "Ben dilimi dişimin arasına kıskullan ttttttt yi."
+        },
+        "news_1293": {
+            "v2.8 ratio": 0.8354430379746836,
+            "v2.11 ratio": 0.8354430379746836,
+            "original text": "Yazık ki toplum olarak bunun farkında değiliz.",
+            "v2.8 text": "Yazık ki toplum ol bu fark değil.",
+            "v2.11 text": "Yazık ki toplum ol bu fark değil."
+        },
+        "ins_343": {
+            "v2.8 ratio": 0.8461538461538461,
+            "v2.11 ratio": 0.9629629629629629,
+            "original text": "Büyülü atımla",
+            "v2.8 text": "Büyük atımla.",
+            "v2.11 text": "Büyülü atımla."
+        },
+        "ins_1702": {
+            "v2.8 ratio": 0.9047619047619048,
+            "v2.11 ratio": 1.0,
+            "original text": "Nöbetçi yere devrildi.",
+            "v2.8 text": "Nöbete yer devrildi.",
+            "v2.11 text": "Nöbetçi yere devrildi."
+        },
+        "ins_1221": {
+            "v2.8 ratio": 0.8823529411764706,
+            "v2.11 ratio": 0.7777777777777778,
+            "original text": "Bazıları ona kızdı.",
+            "v2.8 text": "Bazılarına kız.",
+            "v2.11 text": "Bazılarına okudu."
+        },
+        "pop_799": {
+            "v2.8 ratio": 0.75,
+            "v2.11 ratio": 0.6842105263157895,
+            "original text": "11. Benim tapınanımdır, vecdlerin en büyüğü.",
+            "v2.8 text": "11. benin tapına vecdinden en büyük.",
+            "v2.11 text": "11 ben tapınıyorum vecd en büyük"
+        },
+        "pop_675": {
+            "v2.8 ratio": 0.8464730290456431,
+            "v2.11 ratio": 0.8842975206611571,
+            "original text": "Buna bağlı olarak dikkati çeken bir başka durum daha var; Ulusal bilinç yeterince güçlü değil ya da güçlenmesine izin verilmemiş.",
+            "v2.8 text": "Bu bağlı bir dikkat çekiyor, başka durum daha var ulusal bilinc yeterince güç değil ya da güçsüz izin verilmedi.",
+            "v2.11 text": "Bu bağlı ol dikkat çekmiş bir başka durum daha var ulusal bilinç yeterince güçlü değil ya da güce izin verilmedi."
+        },
+        "ess_397": {
+            "v2.8 ratio": 0.8653846153846154,
+            "v2.11 ratio": 0.9009009009009009,
+            "original text": "Demek, geçmişin, geçmişimizin de kaybolmuş bir sınırı var.",
+            "v2.8 text": "Demek geçmiş geçmişte kaybolmuş bir sınır var.",
+            "v2.11 text": "Demek geçmişin geçmişleri de kaybolmuş bir sınır var."
+        },
+        "ins_1263": {
+            "v2.8 ratio": 0.8780487804878049,
+            "v2.11 ratio": 0.8888888888888888,
+            "original text": "Yerli yerine koyuyorum.",
+            "v2.8 text": "Yerliye koyuyorum.",
+            "v2.11 text": "Yerliye yer koyuyorum."
+        },
+        "ess_1565": {
+            "v2.8 ratio": 0.7741935483870968,
+            "v2.11 ratio": 0.7980295566502463,
+            "original text": "Putunu kendi yapar kendi tapar. \" Ben kendimle konuşuyorum ama kimseyle konuşmak istemediğim için yapıyorum bunu.",
+            "v2.8 text": "Put kendi yap kendi tap ben kendi konuş ama kimse konuş iste için yap bu.",
+            "v2.11 text": "Put kendi yapıyordu kendisi tap ben kendimle konuş ama kimse konuş istediğim için yap bu.\n"
+        },
+        "ins_1123": {
+            "v2.8 ratio": 0.8235294117647058,
+            "v2.11 ratio": 0.8928571428571429,
+            "original text": "Oturacak hâlim dahi kalmadı.",
+            "v2.8 text": "Otur hâlim dâhil kaldı.",
+            "v2.11 text": "Oturacağım hâlim dahi kaldı."
+        },
+        "ins_1921": {
+            "v2.8 ratio": 0.8585365853658536,
+            "v2.11 ratio": 0.8543689320388349,
+            "original text": "Ayrıca, bu böcekler insanları ısırarak rahat ve huzurlarını kaçırdıkları gibi, allerjik durumlar da yaratırlar.",
+            "v2.8 text": "Ayrıca bu böcekler insanları ısır rahat ve huzuru kaçırmış gibi allerjik durumda da yaratıyor.",
+            "v2.11 text": "Ayrıca bu böcekleri insanları ısırarak rahat ve huzuru kaçırmış, allerjik durumda da yaratıyor."
+        },
+        "ins_210": {
+            "v2.8 ratio": 0.8888888888888888,
+            "v2.11 ratio": 0.8888888888888888,
+            "original text": "\"Evet efendim\"",
+            "v2.8 text": "Evet efendim.",
+            "v2.11 text": "Evet efendim."
+        },
+        "pop_1786": {
+            "v2.8 ratio": 0.9230769230769231,
+            "v2.11 ratio": 0.9538461538461539,
+            "original text": "20 adet iç fındık (veya iç badem)",
+            "v2.8 text": "20 âdet iç fındık veya iç badem.",
+            "v2.11 text": "20 adet iç fındık veya iç badem."
+        },
+        "pop_1525": {
+            "v2.8 ratio": 0.8660714285714286,
+            "v2.11 ratio": 0.8995215311004785,
+            "original text": "Piri Reis, 82 yaşında iken Kanuni Sultan Süleyman döneminde, 1547 yılında Hint Kaptan-ı Deryalığı'na getirildi.",
+            "v2.8 text": "Pir Reis 82 yaşındayken Kanuni Sultan Süleyman döneminde 1547 yılında Hint kaptanı ihtişamıyla deryaya getirildi.",
+            "v2.11 text": "Piri Reis 82 yaşındaki Kanuni Sultan Süleyman döneminde 1547 yılında Hint kaptanı deryayı getirdi."
+        },
+        "bio_517": {
+            "v2.8 ratio": 0.8947368421052632,
+            "v2.11 ratio": 0.9459459459459459,
+            "original text": "Bir daha da çok sevdiği adayı göremedi.",
+            "v2.8 text": "Bir daha da çok sevilen aday görmedi.",
+            "v2.11 text": "Bir daha çok sevdiği adayı görmedi."
+        },
+        "bio_757": {
+            "v2.8 ratio": 0.88,
+            "v2.11 ratio": 0.9518716577540107,
+            "original text": "Aslında Filistin'de bazı şeyleri öğrendik ama umduğumuz beklediğimiz birçok şeyi de öğrenemedik.",
+            "v2.8 text": "Aslında Filistinde bazı şeyleri öğrendim ama umduğum birçok şeyi de öğrenmedim.",
+            "v2.11 text": "Aslında Filistinde bazı şeyleri öğrendik ama umut beklediğimiz birçok şeyi de öğrenemezdik."
+        },
+        "ess_577": {
+            "v2.8 ratio": 1.0,
+            "v2.11 ratio": 1.0,
+            "original text": "Ben şaşırdım.",
+            "v2.8 text": "Ben şaşırdım.",
+            "v2.11 text": "Ben şaşırdım."
+        },
+        "pop_898": {
+            "v2.8 ratio": 0.9902912621359223,
+            "v2.11 ratio": 0.8979591836734694,
+            "original text": "Siz onun tarafından tam olarak anlaşılamayacaksınız.",
+            "v2.8 text": "Siz onun tarafından tam olarak anlaşılmayacaksınız.",
+            "v2.11 text": "Sizin onun tarafından tam olarak anlaşılmanız."
+        },
+        "news_289": {
+            "v2.8 ratio": 0.974025974025974,
+            "v2.11 ratio": 0.9403973509933775,
+            "original text": "İsrail, işadamlarından oluşan bir heyetin Özbekistan ziyaretini de iptal etti.",
+            "v2.8 text": "İsrail işadamlarından oluşan bir heyet, Özbekistan ziyaretini de iptal etti.",
+            "v2.11 text": "İsrail işadamlarının oluş bir heyet, Özbekistan ziyaretini de iptal etti."
+        },
+        "pop_1702": {
+            "v2.8 ratio": 0.7407407407407407,
+            "v2.11 ratio": 0.8376068376068376,
+            "original text": "Fiziki Benzerlik: Her ikisinin yüz hatları ve esmerlikleri benzer.",
+            "v2.8 text": "Fiziki benzer her iki hat ve esmer benzer.",
+            "v2.11 text": "Fiziki benzerlik her iki yüzhat ve esmerlik benzer."
+        },
+        "bio_1951": {
+            "v2.8 ratio": 0.7945205479452054,
+            "v2.11 ratio": 0.8244274809160306,
+            "original text": "Şirketimiz farklı olsa da yolcu profilinde benzerlikler olduğunu anladık.",
+            "v2.8 text": "Şirketimin farkını olmak da yolcu profilinden benzer olanı olmuş anladım.",
+            "v2.11 text": "Şirketin fark ol da yolcu profil benzerlik olsun anlaştık."
+        },
+        "bio_637": {
+            "v2.8 ratio": 0.6966292134831461,
+            "v2.11 ratio": 0.82,
+            "original text": "Bizi korkuturlardı; \"şimdi kuyu anası çıkacak,\" diye.",
+            "v2.8 text": "Biz şimdi kuyuyu ana çıkacağız diye.",
+            "v2.11 text": "Biz korkuturuz şimdi kuyuları ana çıkacak diye."
+        },
+        "news_244": {
+            "v2.8 ratio": 0.8214285714285714,
+            "v2.11 ratio": 0.8103448275862069,
+            "original text": "Türkiye'nin güvenilir bir ülke olduğu imajı güçlendirilmeli.''",
+            "v2.8 text": "Türkiye güvenilir bir ülke olur imajını güçlendir!",
+            "v2.11 text": "Türkiye güvenilen bir ülke oldu imajını güçlenmelisin."
+        },
+        "pop_1534": {
+            "v2.8 ratio": 0.8316831683168316,
+            "v2.11 ratio": 0.82,
+            "original text": "Suyunu süzerek başka bir kaba aktarıp soğumasını bekleyin.",
+            "v2.8 text": "Su süz başka bir kaba aktar, soğu bekleyin.",
+            "v2.11 text": "Su süz başka bir kaba aktarıp, soğu bekle."
+        },
+        "ess_504": {
+            "v2.8 ratio": 0.8939393939393939,
+            "v2.11 ratio": 0.873015873015873,
+            "original text": "\"Sana, Günaydın'ı ve diğer gazeteleri, dergileri her şeyi veriyorum.",
+            "v2.8 text": "San Günaydın ve diğer gazete ve dergilerin her şeyini veriyorum.",
+            "v2.11 text": "Sana günaydın ve diğer gazete ve dergi her şeyi veriyorum."
+        },
+        "pop_971": {
+            "v2.8 ratio": 0.9206349206349206,
+            "v2.11 ratio": 0.9206349206349206,
+            "original text": "Alaycı bir kinle nefret edebilir ve şiddetli bir tutkuyla sevebilir.",
+            "v2.8 text": "Alaycı bir kin nefret eder ve şiddetli bir tutkuyla sever.",
+            "v2.11 text": "Alaycı bir kin nefret eder ve şiddetli bir tutkuyla sever."
+        },
+        "pop_136": {
+            "v2.8 ratio": 0.9387755102040817,
+            "v2.11 ratio": 0.9583333333333334,
+            "original text": "25 adet iskemle hareketi",
+            "v2.8 text": "25 âdet iskemle hareketi.",
+            "v2.11 text": "25 adet iskemle hareket."
+        },
+        "pop_147": {
+            "v2.8 ratio": 0.8160919540229885,
+            "v2.11 ratio": 0.806282722513089,
+            "original text": "- Ama anne ne olur burada gömülsen? Bak torunların gelir sana şarkılar söylerler, çiçekler getirirler.",
+            "v2.8 text": "Ama anne ne olur bura gömül bak torun gelir san şarkı söyle çiçek getir.",
+            "v2.11 text": "Ama anne ne olursa olsun buraya gömül. Bak torun gel san şarkıları söyle çiçekleri getir."
+        },
+        "pop_1055": {
+            "v2.8 ratio": 0.8627450980392157,
+            "v2.11 ratio": 0.8461538461538461,
+            "original text": "* İşçi sayısını belirlemek.",
+            "v2.8 text": "İşçiyi sayısını belirle.",
+            "v2.11 text": "İşçinin sayısını belirle."
+        },
+        "ins_1820": {
+            "v2.8 ratio": 0.8181818181818182,
+            "v2.11 ratio": 0.8333333333333334,
+            "original text": "Selçuklu Döneminin halk kahramanı olarak anılan Hoca'nın 76 yıllık ömrü 1284'de Selçuklu Hükümdarı 1.",
+            "v2.8 text": "Selçuklu dönemi halk kahramanı olarak anılan hocanın 76 yıllık ömrü boyunca 1284 Selçuklu hükümdarı olarak görev yaptı.",
+            "v2.11 text": "Selçuklu döneminde halkın kahraman ol, hocanın 76 yıllık ömründe 1284 Selçuklu hükümdarı 1."
+        },
+        "ess_1406": {
+            "v2.8 ratio": 0.8242424242424242,
+            "v2.11 ratio": 0.8888888888888888,
+            "original text": "Ve sonra bürokratı olduğu Menderes'e ihanet eden Demirel'e de, bürokratı Özal ihanet ediyor.",
+            "v2.8 text": "Ve sonra bürokrat olmenderes ihanet edemirel de bir özal ihanet ediyordu.",
+            "v2.11 text": "Ve sonra bürokrat oldu Menderes ihaneti etti Demirel de bürokrattan Özal ihaneti ediyor."
+        },
+        "pop_580": {
+            "v2.8 ratio": 0.7704918032786885,
+            "v2.11 ratio": 0.835820895522388,
+            "original text": "Güvensizlik ve sinirliliğini saklamaya çalıştığı için kabalaşabilir.",
+            "v2.8 text": "Güvensizlik ve sinirlerini sakladı çalışmak için kaba.",
+            "v2.11 text": "Güvensizlik ve sinirlilik sakladığı çalışmalar için kabalaşabilir."
+        },
+        "bio_1613": {
+            "v2.8 ratio": 0.8333333333333334,
+            "v2.11 ratio": 0.9629629629629629,
+            "original text": "Uyumak zaten mümkün değildi.",
+            "v2.8 text": "Uyumazsın zaten mümkündür değil.",
+            "v2.11 text": "Uyumak zaten mümkün değil."
+        },
+        "pop_679": {
+            "v2.8 ratio": 0.717948717948718,
+            "v2.11 ratio": 0.704,
+            "original text": "'Devam, İbrahim' dedim, işte oldu, bana göre futbolu giderek olgunlaşacak bu isim yerine oturmuştur.\" Bunu, Ahmet Dursun hakkında söyledikleri izliyor: \"...",
+            "v2.8 text": "Devam İbrahim dedi iş olsun benim için futbol git olgun ol bu isim yer otur bunu Ahmet Dursun Hakkı söyleyen izlesin.",
+            "v2.11 text": "Devam İbrahim de iş ol ben göre futbol git ol bu isim yer otur bu Ahmet Dursun Hak söyle izle."
+        }
+    },
+    "sentence_count": 185,
+    "class_count": 10,
+    "average v2.8 ratio": 0.803496209161243,
+    "average v2.11 ratio": 0.8318960901840766,
+    "class ratios": [
+        {
+            "lower": 0.0,
+            "upper": 0.1,
+            "sent_ids": [
+                "ess_1454",
+                "news_559",
+                "pop_1121",
+                "bio_1225",
+                "pop_1589"
+            ],
+            "v2.8 ratio": 0.8439242853536422,
+            "v2.11 ratio": 0.864475308956945,
+            "sentence count": 5
+        },
+        {
+            "lower": 0.1,
+            "upper": 0.2,
+            "sent_ids": [
+                "bio_1797",
+                "bio_46",
+                "news_48",
+                "ess_305",
+                "ins_2000",
+                "ess_1449",
+                "news_1030",
+                "ess_527",
+                "ins_1603",
+                "bio_265",
+                "ess_104",
+                "ess_149",
+                "news_145",
+                "news_1364",
+                "bio_998",
+                "pop_1584",
+                "bio_396",
+                "ins_222",
+                "pop_1856",
+                "pop_1564"
+            ],
+            "v2.8 ratio": 0.8347363695016666,
+            "v2.11 ratio": 0.7993766639348493,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.2,
+            "upper": 0.30000000000000004,
+            "sent_ids": [
+                "pop_1148",
+                "pop_240",
+                "news_1425",
+                "ins_64",
+                "news_1383",
+                "ins_1661",
+                "ins_1785",
+                "news_10",
+                "pop_1851",
+                "news_1675",
+                "bio_1838",
+                "ins_1612",
+                "ess_293",
+                "ins_1097",
+                "ess_411",
+                "ess_1862",
+                "news_810",
+                "ins_1023",
+                "ess_1479",
+                "ins_463"
+            ],
+            "v2.8 ratio": 0.760577396614081,
+            "v2.11 ratio": 0.8341047437242735,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.30000000000000004,
+            "upper": 0.4,
+            "sent_ids": [
+                "ins_631",
+                "pop_1283",
+                "pop_894",
+                "pop_1836",
+                "bio_1849",
+                "ess_1777",
+                "pop_1267",
+                "news_1270",
+                "ess_1244",
+                "pop_54",
+                "ins_413",
+                "pop_1692",
+                "news_617",
+                "news_1414",
+                "pop_1004",
+                "pop_1223",
+                "ess_291",
+                "news_1301",
+                "pop_1639",
+                "bio_1615"
+            ],
+            "v2.8 ratio": 0.7367826534910924,
+            "v2.11 ratio": 0.7592484216129654,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.4,
+            "upper": 0.5,
+            "sent_ids": [
+                "news_941",
+                "bio_1128",
+                "pop_557",
+                "news_1972",
+                "pop_1883",
+                "ins_717",
+                "news_615",
+                "pop_1517",
+                "pop_1561",
+                "pop_1522",
+                "ins_1996",
+                "bio_1700",
+                "ins_794",
+                "news_1557",
+                "news_1858",
+                "ess_1813",
+                "ess_123",
+                "ess_1760",
+                "news_1306",
+                "bio_292"
+            ],
+            "v2.8 ratio": 0.7943723845213462,
+            "v2.11 ratio": 0.852676876840332,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.5,
+            "upper": 0.6000000000000001,
+            "sent_ids": [
+                "ess_603",
+                "bio_1575",
+                "bio_1583",
+                "pop_1824",
+                "ess_1377",
+                "ins_1583",
+                "ins_664",
+                "pop_581",
+                "ins_142",
+                "news_222",
+                "news_1937",
+                "ins_1692",
+                "ins_888",
+                "news_1497",
+                "bio_1672",
+                "bio_1495",
+                "news_327",
+                "news_1890",
+                "ess_750",
+                "bio_1106"
+            ],
+            "v2.8 ratio": 0.7771413874173895,
+            "v2.11 ratio": 0.8347690858324395,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.6000000000000001,
+            "upper": 0.7000000000000001,
+            "sent_ids": [
+                "pop_1212",
+                "bio_398",
+                "news_1217",
+                "ins_1600",
+                "ins_840",
+                "pop_1054",
+                "news_322",
+                "news_1550",
+                "ins_527",
+                "ess_144",
+                "ess_1202",
+                "news_1526",
+                "news_1369",
+                "news_277",
+                "ins_1197",
+                "news_772",
+                "news_1612",
+                "ins_1310",
+                "ess_1806",
+                "news_202"
+            ],
+            "v2.8 ratio": 0.7779060586229184,
+            "v2.11 ratio": 0.7947572761340609,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.7000000000000001,
+            "upper": 0.8,
+            "sent_ids": [
+                "ess_458",
+                "ess_1549",
+                "news_944",
+                "bio_512",
+                "pop_5",
+                "ess_1350",
+                "ins_1761",
+                "news_1718",
+                "news_263",
+                "ess_560",
+                "ins_605",
+                "ins_1379",
+                "bio_1321",
+                "pop_1375",
+                "pop_1717",
+                "news_1630",
+                "news_1048",
+                "ess_1674",
+                "ins_378",
+                "bio_531"
+            ],
+            "v2.8 ratio": 0.8645278491175429,
+            "v2.11 ratio": 0.8619729327038324,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.8,
+            "upper": 0.9,
+            "sent_ids": [
+                "bio_569",
+                "ess_1127",
+                "ess_968",
+                "ess_1831",
+                "bio_752",
+                "pop_1370",
+                "news_1293",
+                "ins_343",
+                "ins_1702",
+                "ins_1221",
+                "pop_799",
+                "pop_675",
+                "ess_397",
+                "ins_1263",
+                "ess_1565",
+                "ins_1123",
+                "ins_1921",
+                "ins_210",
+                "pop_1786",
+                "pop_1525"
+            ],
+            "v2.8 ratio": 0.8242926994166858,
+            "v2.11 ratio": 0.8681150031389944,
+            "sentence count": 20
+        },
+        {
+            "lower": 0.9,
+            "upper": 1.0,
+            "sent_ids": [
+                "bio_517",
+                "bio_757",
+                "ess_577",
+                "pop_898",
+                "news_289",
+                "pop_1702",
+                "bio_1951",
+                "bio_637",
+                "news_244",
+                "pop_1534",
+                "ess_504",
+                "pop_971",
+                "pop_136",
+                "pop_147",
+                "pop_1055",
+                "ins_1820",
+                "ess_1406",
+                "pop_580",
+                "bio_1613",
+                "pop_679"
+            ],
+            "v2.8 ratio": 0.8510220647003619,
+            "v2.11 ratio": 0.873899003041726,
+            "sentence count": 20
+        }
+    ],
+    "class count": 10
+}

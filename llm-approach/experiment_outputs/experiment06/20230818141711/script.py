@@ -61,13 +61,7 @@ v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
 exp6_dir = os.path.join(output_dir, 'experiment06')
 if args.run_dir is not None:
-    print('Using run directory {run_dir}'.format(run_dir=args.run_dir))
-    run_dir = os.path.join(exp6_dir, args.run_dir)
-    with open(os.path.join(run_dir, 'md.json'), 'r', encoding='utf-8') as f:
-        md = json.load(f)
-    diff_path = md['diff_path']
-    sentence_count = md['sentence_count']
-    class_count = md['class_count']
+    run_dir = args.run_dir
     class_path = os.path.join(run_dir, 'class_l.json')
     with open(class_path, 'r', encoding='utf-8') as f:
         class_l = json.load(f)
@@ -81,9 +75,6 @@ else:
     diff_path = args.diff
     with open(diff_path, 'r', encoding='utf-8') as f:
         diff = json.load(f)
-    with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
-        md = {'diff_path': diff_path, 'sentence_count': args.sentence_count, 'class_count': args.class_count}
-        json.dump(md, f, ensure_ascii=False, indent=2)
     sentence_count = args.sentence_count
     class_count = args.class_count
     inc_per_class = 1 / class_count
@@ -100,7 +91,6 @@ else:
     class_path = os.path.join(run_dir, 'class_l.json')
     with open(class_path, 'w', encoding='utf-8') as f:
         json.dump(class_l, f, ensure_ascii=False, indent=2)
-        print('Class list saved to {path}'.format(path=class_path))
 
 with open(t8, 'r', encoding='utf-8') as f:
     t8_data = json.load(f)
@@ -146,8 +136,6 @@ else:
     v2_11_output = []
 v2_11_done_sent_ids = [el['sent_id'] for el in v2_11_output]
 for run in [v2_8, v2_11]:
-    print(run)
-    asked_count = 0
     if run == v2_8:
         output_l = v2_8_output
     elif run == v2_11:
@@ -216,15 +204,14 @@ for run in [v2_8, v2_11]:
             if not in_split:
                 word_order += 1
         prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
-        # completion = openai.ChatCompletion.create(
-        #     model='gpt-3.5-turbo',
-        #     messages=[
-        #         {'role': 'system', 'content': 'You are a helpful assistant.'},
-        #         {'role': 'user', 'content': prompt}
-        #     ]
-        # )
-        # output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
-        asked_count += 1
+        completion = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo',
+            messages=[
+                {'role': 'system', 'content': 'You are a helpful assistant.'},
+                {'role': 'user', 'content': prompt}
+            ]
+        )
+        output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
         if run == v2_8:
             with open(v2_8_out, 'w', encoding='utf-8') as f:
                 json.dump(output_l, f, ensure_ascii=False, indent=4)
@@ -237,8 +224,6 @@ for run in [v2_8, v2_11]:
     elif run == v2_11:
         with open(v2_11_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
-    print('Asked {count} questions.'.format(count=asked_count))
-    print(len(output_l))
 
 run_l_path = os.path.join(THIS_DIR, 'run_l.json')
 if os.path.exists(run_l_path):
