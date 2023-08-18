@@ -40,7 +40,7 @@ for f in pos_tr_files + pos_u_files + dep_tr_files + dep_u_files + feat_tr_files
             line = line.strip()
             if three_dash_count == 1:
                 if line.startswith('title:'):
-                    title = line.split(':')[1].strip()
+                    title = line.split(':')[1].strip().replace('\'', '')
                     if apos_pattern.match(title):
                         title = title[1:-1]
                 if line.startswith('shortdef:'):
@@ -64,11 +64,11 @@ for f in pos_tr_files + pos_u_files + dep_tr_files + dep_u_files + feat_tr_files
                 break
             if line.startswith('---'):
                 three_dash_count += 1
-        if '/pos/' in f and title not in pos_d:
+        if ('/pos/' in f or '_u-pos/' in f) and title not in pos_d:
             pos_d[title] = {'shortdef': shortdef, 'content': rem_content}
-        elif '/dep/' in f and title not in dep_d:
+        elif ('/dep/' in f or '_u-dep/' in f) and title not in dep_d:
             dep_d[title] = {'shortdef': shortdef, 'content': rem_content}
-        elif '/feat/' in f and title not in feat_d:
+        elif ('/feat/' in f or '_u-feat/' in f) and title not in feat_d:
             lines = rem_content.split('\n')
             feat_d[title] = {'shortdef': shortdef}
             general_content = ''
