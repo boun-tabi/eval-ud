@@ -5,7 +5,6 @@ now = datetime.now().strftime('%Y%m%d%H%M%S')
 
 template="""The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
 
-I am asking the surface text of a sentence in Turkish. It has 6 words.
 1st word's lemma is meşrutiyet, its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
 2nd word's lemma is ilan, its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.
 3rd word's lemma is önceki, and its part of speech is adjective.
@@ -70,7 +69,7 @@ class_l = []
 ratios = diff['ratios']
 perc_l = [i * inc_per_class for i in range(class_count+1)]
 for i in range(len(perc_l)-1):
-    sent_id_l = [k for k, v in ratios.items() if v >= perc_l[i] and v < perc_l[i+1]]
+    sent_id_l = [k for k, v in ratios.items() if v >= perc_l[i] and v < perc_l[i+1] and v != 1.0]
     random.shuffle(sent_id_l)
     d = {'lower': perc_l[i], 'upper': perc_l[i+1], 'sent_ids': sent_id_l[:sent_per_class]}
     class_l.append(d)

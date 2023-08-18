@@ -43,7 +43,8 @@ for result in v2_11_results:
     llm_match = llm_pattern.search(output_text)
     if llm_match:
         output_text = llm_match.group(1)
-    res_d[sent_id]['v2_11_text'] = output_text
+    if sent_id in res_d:
+        res_d[sent_id]['v2_11_text'] = output_text
 ratio_acc_v2_8, ratio_acc_v2_11, all_count = 0, 0, 0
 summary_d = {}
 sent_ids = []
@@ -76,6 +77,8 @@ for el in class_l:
         continue
     v2_8_r, v2_11_r = 0, 0
     for sent_id in sent_ids:
+        if sent_id not in out_d['results']:
+            continue
         v2_8_r += out_d['results'][sent_id]['v2.8 ratio']
         v2_11_r += out_d['results'][sent_id]['v2.11 ratio']
     v2_8_r /= len(sent_ids)
