@@ -2,7 +2,7 @@ import os, json, argparse, openai
 
 now = '20230818101642'
 
-template="""The following sentences detail linguistic parts of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
+template="""The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
 
 1st word's lemma is meşrutiyet, its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
 2nd word's lemma is ilan, its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.
@@ -11,11 +11,11 @@ template="""The following sentences detail linguistic parts of a Turkish sentenc
 5th word's lemma is faaliyet, its part of speech is noun, its case is dative, its number is plural number, and its person is third person.
 6th word's lemma is kat, its part of speech is verb, its aspect is perfect aspect, its evidentiality is firsthand, its number is singular number, its person is third person, its polarity is positive, its tense is past tense, and its voice is reflexive voice.
 
-Your task is to find the surface text of the sentence. For example, your answer for the previous parse should be
+Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be
 
 Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı.
 
-Now, analyze the following test example and try to find the surface text of the sentence. It has {word_count} words.
+Now, analyze the following test example and try to find the surface form of the sentence. It has {word_count} words.
 
 {test_input}"""
 
@@ -112,7 +112,7 @@ for run in [v2_11]:
             if '-' in id_t:
                 word_count -= 1
                 in_split = True
-                prompt_l.append('{no} word has 2 parts.'.format(no=number_d[word_order]))
+                prompt_l.append('{no} word is split into 2 parts.'.format(no=number_d[word_order]))
                 first_part_passed = False
                 continue
             if pos_t == 'PUNCT':
@@ -123,14 +123,14 @@ for run in [v2_11]:
                 feat_l = []
             if in_split:
                 if not first_part_passed:
-                    word_str_l = ['{no} word\'s first part\'s lemma is {lemma}'.format(no=number_d[word_order], lemma=lemma_t)]
+                    word_str_l = ['{no} word\'s first part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
                     first_part_passed = True
                 else:
-                    word_str_l = ['{no} word\'s second part\'s lemma is {lemma}'.format(no=number_d[word_order], lemma=lemma_t)]
+                    word_str_l = ['{no} word\'s second part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
                     in_split = False
                     first_part_passed = False
             else:
-                word_str_l = ['{no} word\'s lemma is {lemma}'.format(no=number_d[word_order], lemma=lemma_t)]
+                word_str_l = ['{no} word\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
             word_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
             for feat in feat_l:
                 psor_on = False
