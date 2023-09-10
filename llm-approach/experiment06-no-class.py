@@ -193,15 +193,15 @@ for run in [v2_8, v2_11]:
             prompt_l.append(', '.join(word_str_l) + '.')
             if not in_split:
                 word_order += 1
-        # prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
-        # completion = openai.ChatCompletion.create(
-        #     model='gpt-3.5-turbo',
-        #     messages=[
-        #         {'role': 'system', 'content': 'You are a helpful assistant.'},
-        #         {'role': 'user', 'content': prompt}
-        #     ]
-        # )
-        # output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
+        prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
+        completion = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo',
+            messages=[
+                {'role': 'system', 'content': 'You are a helpful assistant.'},
+                {'role': 'user', 'content': prompt}
+            ]
+        )
+        output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
         asked_count += 1
         if run == v2_8:
             with open(v2_8_out, 'w', encoding='utf-8') as f:
