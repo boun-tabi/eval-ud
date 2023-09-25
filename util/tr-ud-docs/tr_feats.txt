@@ -1,73 +1,73 @@
-Case : case
-	 Nom : nominative / direct
-	 Acc : accusative
-	 Dat : dative
-	 Gen : genitive
-	 Loc : locative
-	 Ins : instrumental
-	 Abl : ablative
-	 Equ : equative
-Voice : voice
-	 Pass : passive voice
-	 Rcp : reciprocal voice
-	 Cau : causative voice
-	 Rfl : reflexive voice
-VerbForm : form of verb or deverbative
-	 Conv : converb
-	 Part : participle
-	 Vnoun : verbal noun
-PronType : pronominal type
-	 Prs : personal
-	 Dem : demonstrative pronoun
-	 Ind : indefinite pronoun
-Number[psor] : possessor’s number
-	 Sing : singular possessor
-	 Plur : plural possessor
-Tense : tense
-	 Past : past tense
-	 Fut : future tense
-	 Pres : present tense
-	 Pqp : pluperfect
-NumType : numeral type
-	 Card : cardinal number or corresponding interrogative
-	 Ord : ordinal number or corresponding interrogative
-	 Dist : distributive numeral
-Person : person
-	 1 : first person
-	 2 : second person
-	 3 : third person
-Reflex : reflexive
-	 Yes : it is reflexive
-Polarity : whether the word can be or is negated
-	 Pos : positive, affirmative
-	 Neg : negative
-Aspect : aspect
-	 Imp : imperfect aspect
-	 Perf : perfect aspect
-	 Prog : progressive aspect
-	 Hab : habitual aspect (new proposal)
-Mood : mood
-	 Ind : indicative
-	 Gen : generalized modality
-	 Imp : imperative
-	 Opt : optative
-	 Nec : necessitative
-	 Pot : potential
-	 Cnd : conditional
-	 Des : desiderative
-Person[psor] : person of possessor
-	 1 : first person
-	 2 : second person
-	 3 : third person
-Evident : evidentiality
-	 Fh : first hand
-	 Nfh : non-first hand
-Number : number
-	 Sing : singular number
-	 Plur : plural number
-Echo : is this an echo word or a reduplicative?
-	 Rdp : reduplicative
-Abbr : abbreviation
-	 Yes : it is abbreviation
-Polite : politeness
-	 Infm : informal register
+- Case : case
+    - Nom : nominative / direct
+    - Acc : accusative
+    - Dat : dative
+    - Gen : genitive
+    - Loc : locative
+    - Ins : instrumental
+    - Abl : ablative
+    - Equ : equative
+- Voice : voice
+    - Pass : passive voice
+    - Rcp : reciprocal voice
+    - Cau : causative voice
+    - Rfl : reflexive voice
+- VerbForm : form of verb or deverbative
+    - Conv : converb
+    - Part : participle
+    - Vnoun : verbal noun
+- PronType : pronominal type
+    - Prs : personal
+    - Dem : demonstrative pronoun
+    - Ind : indefinite pronoun
+- Number[psor] : possessor’s number
+    - Sing : singular possessor
+    - Plur : plural possessor
+- Tense : tense
+    - Past : past tense
+    - Fut : future tense
+    - Pres : present tense
+    - Pqp : pluperfect
+- NumType : numeral type
+    - Card : cardinal number or corresponding interrogative
+    - Ord : ordinal number or corresponding interrogative
+    - Dist : distributive numeral
+- Person : person
+    - 1 : first person
+    - 2 : second person
+    - 3 : third person
+- Reflex : reflexive
+    - Yes : it is reflexive
+- Polarity : whether the word can be or is negated
+    - Pos : positive, affirmative
+    - Neg : negative
+- Aspect : aspect
+    - Imp : imperfect aspect
+    - Perf : perfect aspect
+    - Prog : progressive aspect
+    - Hab : habitual aspect (new proposal)
+- Mood : mood
+    - Ind : indicative
+    - Gen : generalized modality
+    - Imp : imperative
+    - Opt : optative
+    - Nec : necessitative
+    - Pot : potential
+    - Cnd : conditional
+    - Des : desiderative
+- Person[psor] : person of possessor
+    - 1 : first person
+    - 2 : second person
+    - 3 : third person
+- Evident : evidentiality
+    - Fh : first hand
+    - Nfh : non-first hand
+- Number : number
+    - Sing : singular number
+    - Plur : plural number
+- Echo : is this an echo word or a reduplicative?
+    - Rdp : reduplicative
+- Abbr : abbreviation
+    - Yes : it is abbreviation
+- Polite : politeness
+    - Infm : informal register
