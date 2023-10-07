@@ -220,17 +220,17 @@
     "content": "In Turkish, Person is a feature of personal pronouns, and verbs.\nPerson marking on verbs are obligatory in Turkish for all finite verb forms.\nThe Person marker on predicates indicate the subject when there is\nno overt subject.\n\nThe verbal markers for person and number are composite, and their form change\ndepending on the other suffixes attached to the verb.\n\nThe person/number marker of verbs may also be attached to the question particle -mI (-mi/mı/mu/mü), which is written separately.\n\nMETU-Sabancı treebank marks all nouns as having 3rd person agreement marker.\nWe do not mark nouns for Person."
   },
   "Reflex": {
-    "shortdef": "reflexive",
+    "shortdef": "reflexivity",
     "Yes": {
-      "shortdef": "it is reflexive",
+      "shortdef": "reflexive",
       "content": "Note that there is no No value. If the word is not reflexive, the\nReflex feature will just not be mentioned in the FEAT\ncolumn. (Which means that empty value has the No meaning.)\n\nExamples\n\n* kendi \"self\"\n* kendisi \"himself/herself/itself\"\n* kendimiz \"ourselves\""
     },
     "content": "It tells whether the word is reflexive, i.e. refers to the subject of its clause.\n\nThis marks the reflexive pronoun kendi and its inflected forms."
   },
   "Polarity": {
-    "shortdef": "whether the word can be or is negated",
+    "shortdef": "polarity",
     "Pos": {
-      "shortdef": "positive, affirmative",
+      "shortdef": "positive",
       "content": "Examples\n\n- Okuyacak \"he/she will read\"\n- Ali doktor \"Ali is a doctor\""
     },
     "Neg": {

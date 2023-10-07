@@ -10,16 +10,16 @@ logger.info('Started at {now}'.format(now=now))
 
 template="""The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
 
-1st word's lemma is meşrutiyet, its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
-2nd word's lemma is ilan, its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.
-3rd word's lemma is önceki, and its part of speech is adjective.
-4th word's lemma is siyasi, and its part of speech is adjective.
-5th word's lemma is faaliyet, its part of speech is noun, its case is dative, its number is plural number, and its person is third person.
-6th word's lemma is kat, its part of speech is verb, its aspect is perfect aspect, its evidentiality is firsthand, its number is singular number, its person is third person, its polarity is positive, its tense is past tense, and its voice is reflexive voice.
+1st word's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
+2nd word's lemma is "ilan", its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.
+3rd word's lemma is "önceki", and its part of speech is adjective.
+4th word's lemma is "siyasi", and its part of speech is adjective.
+5th word's lemma is "faaliyet", its part of speech is noun, its case is dative, its number is plural number, and its person is third person.
+6th word's lemma is "kat", its part of speech is verb, its aspect is perfect aspect, its evidentiality is firsthand, its number is singular number, its person is third person, its polarity is positive, its tense is past tense, and its voice is reflexive voice.
 
-Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be
+Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
 
-Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı.
+"Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı."
 
 Now, analyze the following test example and try to find the surface form of the sentence. It has {word_count} words.
 
@@ -123,6 +123,8 @@ if os.path.exists(v2_11_out):
 else:
     v2_11_output = []
 v2_11_done_sent_ids = [el['sent_id'] for el in v2_11_output]
+noun_order = ['Person', 'Number', 'Person[psor]', 'Number[psor]', 'Case']
+verb_order = ['Voice', 'Mood','Polarity', 'Tense', 'Aspect', 'Person', 'Number']
 for run in [v2_8, v2_11]:
     print(run)
     asked_count = 0
@@ -170,6 +172,21 @@ for run in [v2_8, v2_11]:
             else:
                 word_str_l = ['{no} word\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
             word_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
+            if pos_t in ['NOUN', 'VERB']:
+                sorted_feat_l = []
+                feat_copy = feat_l.copy()
+                if pos_t == 'NOUN':
+                    order_l = noun_order
+                elif pos_t == 'VERB':
+                    order_l = verb_order
+                for feat_name in order_l:
+                    for feat in feat_l:
+                        tag, val = feat.split('=')
+                        if tag == feat_name:
+                            sorted_feat_l.append(feat)
+                            feat_copy.remove(feat)
+                sorted_feat_l.extend(feat_copy)
+                feat_l = sorted_feat_l
             for feat in feat_l:
                 psor_on = False
                 feat_name, feat_value = feat.split('=')
