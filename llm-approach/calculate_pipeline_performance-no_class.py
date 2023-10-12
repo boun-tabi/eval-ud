@@ -5,8 +5,7 @@ import argparse
 from difflib import SequenceMatcher
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-r', '--run_dir', type=str,
-                    default=None, help='The run directory.')
+parser.add_argument('-r', '--run_dir', type=str, help='The run directory.', required=True)
 parser.add_argument('-t8', '--treebank-2-8', type=str, required=True)
 parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
 args = parser.parse_args()
@@ -29,18 +28,9 @@ surface_pattern = re.compile(
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(THIS_DIR, 'experiment_outputs')
-if args.run_dir is None:
-    run_l_path = os.path.join(THIS_DIR, 'run_l.json')
-    if not os.path.exists(run_l_path):
-        raise Exception('Please run the pipeline first.')
-    run_l = json.load(open(run_l_path, 'r', encoding='utf-8'))
-    latest_run = run_l[-1]
-    v2_8_out, v2_11_out = latest_run['v2.8'], latest_run['v2.11']
-    run_dir = latest_run['run_dir']
-else:
-    run_dir = args.run_dir
-    v2_8_out = os.path.join(run_dir, 'v2.8_output.json')
-    v2_11_out = os.path.join(run_dir, 'v2.11_output.json')
+run_dir = args.run_dir
+v2_8_out = os.path.join(run_dir, 'v2.8_output.json')
+v2_11_out = os.path.join(run_dir, 'v2.11_output.json')
 md_path = os.path.join(run_dir, 'md.json')
 if not os.path.exists(md_path):
     raise Exception('Please run the pipeline first.')

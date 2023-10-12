@@ -1,4 +1,4 @@
-import os, json, argparse, openai, random, logging
+import os, json, argparse, random, logging
 from datetime import datetime
 
 now = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -21,7 +21,7 @@ Your task is to find the surface form of the sentence. For example, your answer 
 
 "Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı."
 
-Now, analyze the following test example and try to find the surface form of the sentence. It has {word_count} words.
+Now, analyze the following test example and try to find the surface form of the sentence. It has {word_count} words. Please include all the words in your answer in order. Output only the surface form without any explanations or sentences in English.
 
 {test_input}"""
 
@@ -29,9 +29,6 @@ script_path = os.path.abspath(__file__)
 with open(script_path, 'r', encoding='utf-8') as f:
     script_content = f.read()
 THIS_DIR = os.path.dirname(script_path)
-with open(os.path.join(THIS_DIR, 'openai.json')) as f:
-    openai_d = json.load(f)
-openai.api_key = openai_d['key']
 
 util_dir = os.path.join(THIS_DIR, '../util')
 data_dir = os.path.join(util_dir, 'tr-ud-docs')
@@ -47,9 +44,24 @@ parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
 parser.add_argument('-r', '--run-dir', type=str)
 parser.add_argument('-s', '--sentence-count', type=int)
 parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('-m', '--model', type=str, default='openai')
 args = parser.parse_args()
 
 random.seed(args.seed)
+
+model = args.model
+if model == 'openai':
+    print('Using OpenAI API.')
+    import openai
+    with open(os.path.join(THIS_DIR, 'openai.json')) as f:
+        openai_d = json.load(f)
+    openai.api_key = openai_d['key']
+elif model == 'llama':
+    print('Using LLAMA API.')
+    import replicate
+    with open(os.path.join(THIS_DIR, 'replicate.json')) as f:
+        token = json.load(f)['token']
+    os.environ['REPLICATE_API_TOKEN'] = token
 
 t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
@@ -89,7 +101,7 @@ else:
     sentence_count = args.sentence_count
     sent_ids = random.sample(all_sent_ids, sentence_count)
     with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
-        md = {'sentence_count': args.sentence_count, 'sent_ids': sent_ids}
+        md = {'sentence_count': args.sentence_count, 'sent_ids': sent_ids, 'model': model, 'seed': args.seed, 'now': now, 'run_dir': run_dir, 'prompt': template}
         json.dump(md, f, ensure_ascii=False, indent=2)
 
 number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th', 8: '8th', 9: '9th', 10: '10th',
@@ -211,14 +223,20 @@ for run in [v2_8, v2_11]:
             if not in_split:
                 word_order += 1
         prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
-        completion = openai.ChatCompletion.create(
-            model='gpt-3.5-turbo',
-            messages=[
-                {'role': 'system', 'content': 'You are a helpful assistant.'},
-                {'role': 'user', 'content': prompt}
-            ]
-        )
-        output_l.append({'sent_id': sent_id, 'text': text, 'prompt': prompt, 'output': completion.choices[0].message})
+        d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
+        if model == 'openai':
+            completion = openai.ChatCompletion.create(
+                model='gpt-3.5-turbo',
+                messages=[
+                    {'role': 'system', 'content': 'You are a helpful assistant.'},
+                    {'role': 'user', 'content': prompt}
+                ]
+            )
+            d['output'] = completion.choices[0].message
+        elif model == 'llama':
+            output = replicate.run('meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3', input={'prompt': prompt})
+            d['output'] = ''.join(list(output))
+        output_l.append(d)
         asked_count += 1
         if run == v2_8:
             with open(v2_8_out, 'w', encoding='utf-8') as f:
@@ -241,6 +259,6 @@ if os.path.exists(run_l_path):
         run_l = json.load(f)
 else:
     run_l = []
-run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'run_dir': run_dir, 'sentence_count': sentence_count, 'sent_ids': sent_ids, 'seed': args.seed})
+run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'run_dir': run_dir, 'sentence_count': sentence_count, 'sent_ids': sent_ids, 'seed': args.seed, 'model': model})
 with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
     json.dump(run_l, f, ensure_ascii=False, indent=4)
