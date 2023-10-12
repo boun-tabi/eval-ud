@@ -56,12 +56,26 @@ if model == 'openai':
     with open(os.path.join(THIS_DIR, 'openai.json')) as f:
         openai_d = json.load(f)
     openai.api_key = openai_d['key']
-elif model == 'llama':
+elif model == 'llama-replicate':
     print('Using LLAMA API.')
     import replicate
     with open(os.path.join(THIS_DIR, 'replicate.json')) as f:
         token = json.load(f)['token']
     os.environ['REPLICATE_API_TOKEN'] = token
+elif model == 'llama-hf':
+    from transformers import AutoTokenizer
+    import transformers
+    import torch
+
+    model = "meta-llama/Llama-2-7b-chat-hf"
+
+    tokenizer = AutoTokenizer.from_pretrained(model)
+    pipeline = transformers.pipeline(
+        "text-generation",
+        model=model,
+        torch_dtype=torch.float16,
+        device_map="auto",
+    )
 
 t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
@@ -233,9 +247,21 @@ for run in [v2_8, v2_11]:
                 ]
             )
             d['output'] = completion.choices[0].message
-        elif model == 'llama':
+        elif model == 'llama-replicate':
             output = replicate.run('meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3', input={'prompt': prompt})
             d['output'] = ''.join(list(output))
+        elif model == 'llama-hf':
+            sequences = pipeline(
+                prompt,
+                do_sample=True,
+                top_k=10,
+                num_return_sequences=1,
+                eos_token_id=tokenizer.eos_token_id,
+                max_length=200,
+            )
+            for seq in sequences:
+                print(seq['generated_text'])
+                print()
         output_l.append(d)
         asked_count += 1
         if run == v2_8:
