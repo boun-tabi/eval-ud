@@ -262,6 +262,9 @@ for run in [v2_8, v2_11]:
             for seq in sequences:
                 print(seq['generated_text'])
                 print()
+        else:
+            print('Unknown model: {model}'.format(model=model))
+            d['output'] = ''
         output_l.append(d)
         asked_count += 1
         if run == v2_8:
