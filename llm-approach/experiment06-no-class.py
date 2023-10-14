@@ -8,20 +8,21 @@ logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'experiment
 
 logger.info('Started at {now}'.format(now=now))
 
-template="""The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each word. The sentence has 6 words.
+template="""The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. The sentence has 7 tokens.
 
-1st word's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
-2nd word's lemma is "ilan", its part of speech is noun, its case is ablative, its number is singular number, its possessor's number is singular number, its person is third person, and its possessor's person is third person.
-3rd word's lemma is "önceki", and its part of speech is adjective.
-4th word's lemma is "siyasi", and its part of speech is adjective.
-5th word's lemma is "faaliyet", its part of speech is noun, its case is dative, its number is plural number, and its person is third person.
-6th word's lemma is "kat", its part of speech is verb, its aspect is perfect aspect, its evidentiality is firsthand, its number is singular number, its person is third person, its polarity is positive, its tense is past tense, and its voice is reflexive voice.
+1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
+2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.
+3rd token's lemma is "önceki", and its part of speech is adjective.
+4th token's lemma is "siyasi", and its part of speech is adjective.
+5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.
+6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.
+7th token's lemma is ".", and its part of speech is punctuation.
 
 Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
 
 "Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı."
 
-Now, analyze the following test example and try to find the surface form of the sentence. It has {word_count} words. Please include all the words in your answer in order. Output only the surface form without any explanations or sentences in English.
+Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
 
 {test_input}"""
 
@@ -45,6 +46,7 @@ parser.add_argument('-r', '--run-dir', type=str)
 parser.add_argument('-s', '--sentence-count', type=int)
 parser.add_argument('--seed', type=int, default=42)
 parser.add_argument('-m', '--model', type=str, default='openai')
+parser.add_argument('-f', '--filter', type=str)
 args = parser.parse_args()
 
 random.seed(args.seed)
@@ -82,6 +84,12 @@ v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
 t11 = args.treebank_2_11
 v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
 
+to_filter = False
+if args.filter:
+    to_filter = True
+    with open(args.filter, 'r', encoding='utf-8') as f:
+        filtered_sent_ids = json.load(f)
+
 with open(t8, 'r', encoding='utf-8') as f:
     t8_data = json.load(f)
 with open(t11, 'r', encoding='utf-8') as f:
@@ -89,11 +97,20 @@ with open(t11, 'r', encoding='utf-8') as f:
 table1_d, table2_d = {}, {}
 for example in t8_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
-    table1_d[sent_id] = {'table': table, 'text': text}
-all_sent_ids = list(table1_d.keys())
+    if to_filter and sent_id in filtered_sent_ids:
+        table1_d[sent_id] = {'table': table, 'text': text}
+    elif not to_filter:
+        table1_d[sent_id] = {'table': table, 'text': text}
+if to_filter:
+    all_sent_ids = list(filtered_sent_ids)
+else:
+    all_sent_ids = list(table1_d.keys())
 for example in t11_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
-    table2_d[sent_id] = {'table': table, 'text': text}
+    if to_filter and sent_id in filtered_sent_ids:
+        table2_d[sent_id] = {'table': table, 'text': text}
+    elif not to_filter:
+        table2_d[sent_id] = {'table': table, 'text': text}
 
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
 exp6_dir = os.path.join(output_dir, 'experiment06-no-class')
@@ -168,7 +185,7 @@ for run in [v2_8, v2_11]:
         elif run == v2_11:
             text, table = table2_d[sent_id]['text'], table2_d[sent_id]['table']
         lines = table.split('\n')
-        word_count = int(lines[-1].split('\t')[0])
+        token_count = int(lines[-1].split('\t')[0])
         word_order = 1
         in_split, first_part_passed = False, False
         prompt_l = []
@@ -176,27 +193,23 @@ for run in [v2_8, v2_11]:
             fields = line.split('\t')
             id_t, lemma_t, pos_t, feats_t = fields[0], fields[2], fields[3], fields[5]
             if '-' in id_t:
-                word_count -= 1
                 in_split = True
-                prompt_l.append('{no} word is split into 2 parts.'.format(no=number_d[word_order]))
+                prompt_l.append('{no} token is split into 2 parts.'.format(no=number_d[word_order]))
                 first_part_passed = False
-                continue
-            if pos_t == 'PUNCT':
-                word_count -= 1
                 continue
             feat_l = feats_t.split('|')
             if len(feat_l) == 1 and feat_l[0] == '_':
                 feat_l = []
             if in_split:
                 if not first_part_passed:
-                    word_str_l = ['{no} word\'s first part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
+                    word_str_l = ['{no} token\'s first part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
                     first_part_passed = True
                 else:
-                    word_str_l = ['{no} word\'s second part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
+                    word_str_l = ['{no} token\'s second part\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
                     in_split = False
                     first_part_passed = False
             else:
-                word_str_l = ['{no} word\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
+                word_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
             word_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
             if pos_t in ['NOUN', 'VERB']:
                 sorted_feat_l = []
@@ -236,7 +249,9 @@ for run in [v2_8, v2_11]:
             prompt_l.append(', '.join(word_str_l) + '.')
             if not in_split:
                 word_order += 1
-        prompt = template.format(word_count=word_count, test_input='\n'.join(prompt_l))
+        prompt = template.format(token_count=token_count, test_input='\n'.join(prompt_l))
+        print(prompt)
+        input()
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model == 'openai':
             completion = openai.ChatCompletion.create(
