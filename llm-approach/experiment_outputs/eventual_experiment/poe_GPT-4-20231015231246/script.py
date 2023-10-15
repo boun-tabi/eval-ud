@@ -212,7 +212,6 @@ for run in [v2_8, v2_11]:
     elif run == v2_11:
         output_l = v2_11_output
     for i, sent_id in enumerate(sent_ids):
-        output = ''
         if run == v2_8 and sent_id in v2_8_done_sent_ids:
             continue
         elif run == v2_11 and sent_id in v2_11_done_sent_ids:
@@ -331,8 +330,6 @@ for run in [v2_8, v2_11]:
         else:
             print('Unknown model: {model}'.format(model=model))
             d['output'] = ''
-        if d['output'] == '':
-            continue
         output_l.append(d)
         asked_count += 1
         if run == v2_8:
