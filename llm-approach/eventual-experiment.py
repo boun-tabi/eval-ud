@@ -96,7 +96,7 @@ for example in t11_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
     table2_d[sent_id] = {'table': table, 'text': text}
 
-selected_sentences_path = os.path.join(THIS_DIR, 'selected_sentences.json')
+selected_sentences_path = os.path.join(THIS_DIR, 'selected_sents.json')
 with open(selected_sentences_path, 'r', encoding='utf-8') as f:
     selected_sentences = json.load(f)
 sentence_count = len(selected_sentences)
@@ -115,7 +115,7 @@ else:
     with open(os.path.join(run_dir, 'script.py'), 'w', encoding='utf-8') as f:
         f.write(script_content)
     with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
-        md = {'sentence_count': args.sentence_count, 'sent_ids': sent_ids, 'model': model, 'seed': args.seed, 'now': now, 'run_dir': run_dir, 'prompt': template}
+        md = {'sentence_count': sentence_count, 'sent_ids': sent_ids, 'model': model, 'seed': args.seed, 'now': now, 'run_dir': run_dir, 'prompt': template}
         json.dump(md, f, ensure_ascii=False, indent=2)
 
 number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th', 8: '8th', 9: '9th', 10: '10th',
