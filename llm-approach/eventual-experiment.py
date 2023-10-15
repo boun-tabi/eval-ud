@@ -41,15 +41,56 @@ with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
     pos_d = json.load(f)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-t8', '--treebank-2-8', type=str, required=True)
-parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
+parser.add_argument('-t8', '--treebank-2-8', type=str)
+parser.add_argument('-t11', '--treebank-2-11', type=str)
 parser.add_argument('-r', '--run-dir', type=str)
-parser.add_argument('-s', '--sents', type=str, required=True)
-parser.add_argument('--seed', type=int, default=42)
+parser.add_argument('-s', '--sents', type=str)
 parser.add_argument('-m', '--model', type=str, default='none')
 args = parser.parse_args()
 
-model = args.model
+if args.run_dir:
+    run_dir = args.run_dir
+    print('Using run directory {run_dir}'.format(run_dir=run_dir))
+    with open(os.path.join(run_dir, 'md.json'), 'r', encoding='utf-8') as f:
+        md = json.load(f)
+    model = md['model']
+    t8, t11 = md['v2.8'], md['v2.11']
+    sent_ids = md['sent_ids']
+    sentence_count = md['sentence_count']
+else:
+    output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
+    exp_dir = os.path.join(output_dir, 'eventual_experiment')
+    if args.model:
+        model = args.model
+    else:
+        print('Please specify a model.')
+        exit()
+    run_dir = os.path.join(exp_dir, '{model}-{now}'.format(model=model, now=now))
+    os.makedirs(run_dir, exist_ok=True)
+    with open(os.path.join(run_dir, 'script.py'), 'w', encoding='utf-8') as f:
+        f.write(script_content)
+    if args.treebank_2_8:
+        t8 = args.treebank_2_8
+    else:
+        print('Please specify a treebank 2.8.')
+        exit()
+    if args.treebank_2_11:
+        t11 = args.treebank_2_11
+    else:
+        print('Please specify a treebank 2.11.')
+        exit()
+    if args.sents:
+        sents_path = args.sents
+        with open(sents_path, 'r', encoding='utf-8') as f:
+            sent_ids = json.load(f)
+        sentence_count = len(sent_ids)
+    else:
+        print('Please specify a sentence list.')
+        exit()
+    with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
+        md = {'sentence_count': sentence_count, 'sent_ids': sent_ids, 'model': model, 'now': now, 'run_dir': run_dir, 'prompt': template, 'v2.8': t8, 'v2.11': t11}
+        json.dump(md, f, ensure_ascii=False, indent=2)
+
 if model == 'openai_gpt-3.5-turbo':
     print('Using OpenAI API.')
     import openai
@@ -101,9 +142,7 @@ elif model.startswith('perplexity'):
     elif model == 'perplexity_llama-2-70b-chat':
         payload['model'] = 'llama-2-70b-chat'
 
-t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
-t11 = args.treebank_2_11
 v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
 
 with open(t8, 'r', encoding='utf-8') as f:
@@ -117,28 +156,6 @@ for example in t8_data:
 for example in t11_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
     table2_d[sent_id] = {'table': table, 'text': text}
-
-selected_sentences_path = os.path.join(THIS_DIR, 'selected_sents.json')
-with open(selected_sentences_path, 'r', encoding='utf-8') as f:
-    selected_sentences = json.load(f)
-sentence_count = len(selected_sentences)
-sent_ids = selected_sentences
-
-output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
-exp_dir = os.path.join(output_dir, 'eventual_experiment')
-if args.run_dir is not None:
-    print('Using run directory {run_dir}'.format(run_dir=args.run_dir))
-    run_dir = os.path.join(exp_dir, args.run_dir)
-    with open(os.path.join(run_dir, 'md.json'), 'r', encoding='utf-8') as f:
-        md = json.load(f)
-else:
-    run_dir = os.path.join(exp_dir, '{model}-{now}'.format(model=model, now=now))
-    os.makedirs(run_dir, exist_ok=True)
-    with open(os.path.join(run_dir, 'script.py'), 'w', encoding='utf-8') as f:
-        f.write(script_content)
-    with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
-        md = {'sentence_count': sentence_count, 'sent_ids': sent_ids, 'model': model, 'seed': args.seed, 'now': now, 'run_dir': run_dir, 'prompt': template}
-        json.dump(md, f, ensure_ascii=False, indent=2)
 
 number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th', 8: '8th', 9: '9th', 10: '10th',
             11: '11th', 12: '12th', 13: '13th', 14: '14th', 15: '15th', 16: '16th', 17: '17th', 18: '18th', 19: '19th',
@@ -173,6 +190,7 @@ else:
 v2_11_done_sent_ids = [el['sent_id'] for el in v2_11_output]
 noun_order = ['Person', 'Number', 'Person[psor]', 'Number[psor]', 'Case']
 verb_order = ['Voice', 'Mood','Polarity', 'Tense', 'Aspect', 'Person', 'Number']
+run_done = True
 for run in [v2_8, v2_11]:
     print(run)
     asked_count = 0
@@ -306,4 +324,17 @@ for run in [v2_8, v2_11]:
         with open(v2_11_out, 'w', encoding='utf-8') as f:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
     print('Asked {count} questions.'.format(count=asked_count))
-    print(len(output_l))
+    output_l_len = len(output_l)
+    print('Output length: {len}'.format(len=output_l_len))
+    if output_l_len != sentence_count:
+        run_done = False
+        print('Not all sentences are done.')
+    else:
+        print('All sentences are done.')
+if run_done:
+    print('All done.')
+else:
+    print('Not all done.')
+    os.system('python3 {script_path} -r {run_dir}'.format(script_path=script_path, run_dir=run_dir))
+logger.info('Ended at {now}'.format(now=datetime.now().strftime('%Y%m%d%H%M%S')))
+
