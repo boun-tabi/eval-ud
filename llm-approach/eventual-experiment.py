@@ -4,7 +4,7 @@ from datetime import datetime
 now = datetime.now().strftime('%Y%m%d%H%M%S')
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'experiment06.log'), format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'eventual-experiment.log'), format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 logger.info('Started at {now}'.format(now=now))
 
@@ -39,16 +39,14 @@ with open(os.path.join(data_dir, 'feat.json'), 'r', encoding='utf-8') as f:
     tag_value_d = json.load(f)
 with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
     pos_d = json.load(f)
-sent_ids = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t8', '--treebank-2-8', type=str, required=True)
 parser.add_argument('-t11', '--treebank-2-11', type=str, required=True)
 parser.add_argument('-r', '--run-dir', type=str)
-parser.add_argument('-s', '--sentence-count', type=int)
+parser.add_argument('-s', '--sents', type=str, required=True)
 parser.add_argument('--seed', type=int, default=42)
 parser.add_argument('-m', '--model', type=str, default='openai')
-parser.add_argument('-f', '--filter', type=str)
 args = parser.parse_args()
 
 random.seed(args.seed)
@@ -86,12 +84,6 @@ v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
 t11 = args.treebank_2_11
 v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
 
-to_filter = False
-if args.filter:
-    to_filter = True
-    with open(args.filter, 'r', encoding='utf-8') as f:
-        filtered_sent_ids = json.load(f)
-
 with open(t8, 'r', encoding='utf-8') as f:
     t8_data = json.load(f)
 with open(t11, 'r', encoding='utf-8') as f:
@@ -99,40 +91,29 @@ with open(t11, 'r', encoding='utf-8') as f:
 table1_d, table2_d = {}, {}
 for example in t8_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
-    if to_filter and sent_id in filtered_sent_ids:
-        table1_d[sent_id] = {'table': table, 'text': text}
-    elif not to_filter:
-        table1_d[sent_id] = {'table': table, 'text': text}
-if to_filter:
-    all_sent_ids = list(filtered_sent_ids)
-else:
-    all_sent_ids = list(table1_d.keys())
+    table1_d[sent_id] = {'table': table, 'text': text}
 for example in t11_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
-    if to_filter and sent_id in filtered_sent_ids:
-        table2_d[sent_id] = {'table': table, 'text': text}
-    elif not to_filter:
-        table2_d[sent_id] = {'table': table, 'text': text}
+    table2_d[sent_id] = {'table': table, 'text': text}
+
+selected_sentences_path = os.path.join(THIS_DIR, 'selected_sentences.json')
+with open(selected_sentences_path, 'r', encoding='utf-8') as f:
+    selected_sentences = json.load(f)
+sentence_count = len(selected_sentences)
+sent_ids = selected_sentences
 
 output_dir = os.path.join(THIS_DIR, 'experiment_outputs')
-exp6_dir = os.path.join(output_dir, 'experiment06-no-class')
+exp_dir = os.path.join(output_dir, 'eventual_experiment')
 if args.run_dir is not None:
     print('Using run directory {run_dir}'.format(run_dir=args.run_dir))
-    run_dir = os.path.join(exp6_dir, args.run_dir)
+    run_dir = os.path.join(exp_dir, args.run_dir)
     with open(os.path.join(run_dir, 'md.json'), 'r', encoding='utf-8') as f:
         md = json.load(f)
-    sentence_count = md['sentence_count']
-    sent_ids = md['sent_ids']
 else:
-    run_dir = os.path.join(exp6_dir, now)
+    run_dir = os.path.join(exp_dir, now)
     os.makedirs(run_dir, exist_ok=True)
     with open(os.path.join(run_dir, 'script.py'), 'w', encoding='utf-8') as f:
         f.write(script_content)
-    if args.sentence_count is None:
-        print('Please specify the number of sentences to ask.')
-        exit()
-    sentence_count = args.sentence_count
-    sent_ids = random.sample(all_sent_ids, sentence_count)
     with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
         md = {'sentence_count': args.sentence_count, 'sent_ids': sent_ids, 'model': model, 'seed': args.seed, 'now': now, 'run_dir': run_dir, 'prompt': template}
         json.dump(md, f, ensure_ascii=False, indent=2)
