@@ -13,12 +13,16 @@ res_d = {}
 with open(v2_8_out, 'r', encoding='utf-8') as f:
     v2_8_results = json.load(f)
 llm_pattern = re.compile('The surface form of the sentence is:? "(.+?)"$')
+llm_pattern2 = re.compile('\(?Note:.*\)?$')
 for result in v2_8_results:
     sent_id = result['sent_id']
     original_text, output_text = result['text'], result['output']
     llm_match = llm_pattern.search(output_text)
     if llm_match:
-        output_text = llm_match.group(1)
+        output_text = llm_match.group(1).strip()
+    llm_match2 = llm_pattern2.search(output_text)
+    if llm_match2:
+        output_text = output_text[:llm_match2.start()].strip()
     res_d[sent_id] = {'original_text': original_text, 'v2_8_text': output_text.strip()}
 with open(v2_11_out, 'r', encoding='utf-8') as f:
     v2_11_results = json.load(f)
@@ -27,7 +31,10 @@ for result in v2_11_results:
     original_text, output_text = result['text'], result['output']
     llm_match = llm_pattern.search(output_text)
     if llm_match:
-        output_text = llm_match.group(1)
+        output_text = llm_match.group(1).strip()
+    llm_match2 = llm_pattern2.search(output_text)
+    if llm_match2:
+        output_text = output_text[:llm_match2.start()].strip()
     res_d[sent_id]['v2_11_text'] = output_text.strip()
 ratio_acc_v2_8, ratio_acc_v2_11, all_count = 0, 0, 0
 summary_d = {}
@@ -51,6 +58,10 @@ for sent_id in res_d:
     out_d['results'][sent_id] = {'v2.8 ratio': ratio_v2_8, 'v2.11 ratio': ratio_v2_11, 'original text': original_text, 'v2.8 text': v2_8_text, 'v2.11 text': v2_11_text}
 out_d['average v2.8 ratio'] = ratio_acc_v2_8 / all_count
 out_d['average v2.11 ratio'] = ratio_acc_v2_11 / all_count
+
+keys = list(out_d.keys())
+keys.sort()
+out_d = {k: out_d[k] for k in keys}
 
 with open(os.path.join(run_dir, 'summary.json'), 'w', encoding='utf-8') as f:
     json.dump(out_d, f, indent=4, ensure_ascii=False)

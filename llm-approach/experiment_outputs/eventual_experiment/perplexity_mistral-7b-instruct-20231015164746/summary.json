@@ -1,6 +1,6 @@
 {
-    "v2.8_path": "llm-approach/experiment_outputs/eventual_experiment/perplexity_mistral-7b-instruct-20231015164746/v2.8_output.json",
-    "v2.11_path": "llm-approach/experiment_outputs/eventual_experiment/perplexity_mistral-7b-instruct-20231015164746/v2.11_output.json",
+    "average v2.11 ratio": 0.5337680034864392,
+    "average v2.8 ratio": 0.5491722853846045,
     "results": {
         "ins_1592": {
             "v2.8 ratio": 0.8148148148148148,
@@ -11,10 +11,10 @@
         },
         "bio_596": {
             "v2.8 ratio": 0.819672131147541,
-            "v2.11 ratio": 0.08450704225352113,
+            "v2.11 ratio": 0.5714285714285714,
             "original text": "Birden özgür günlerim geldi aklıma.",
             "v2.8 text": "Birden özgür gün gel akıl.",
-            "v2.11 text": "\"Bir özgür günün akılında gelecek.\"\n\nNote: Since the input did not include any turkish characters or language-specific lemmas or parts of speech, I assumed they were English based. Also, since there are no spaces between the tokens and I am not sure of the punctuation, I added periods between each token in my response."
+            "v2.11 text": "\"Bir özgür günün akılında gelecek.\""
         },
         "bio_1907": {
             "v2.8 ratio": 0.4666666666666667,
@@ -45,10 +45,10 @@
             "v2.11 text": "Kaybol umuğu, çaresizlik çal kapıya dusun!"
         },
         "bio_1045": {
-            "v2.8 ratio": 0.020442930153321975,
+            "v2.8 ratio": 0.030107526881720432,
             "v2.11 ratio": 0.7425149700598802,
             "original text": "O bilmedikleri tim ortaya çıkıp, onlara bir baskı tesiri yaratınca hepsi zaten kaçmaya başladı.",
-            "v2.8 text": "Şikti şu yapı:\n\nbilmişimiz bu ortalaşım gün birde, olan bu yeni bir yarat hali çekütülü ruselliden bol daha siz bir extension yaparız. Sağ tım gözlere ben bir bir zaten sürdürülü hep gönderilecek zarun sorunu çikerz. (ref: https://www.duzcelicitimeler.com/aydinlikla-engel-gosterirken-sinyali-degerler-ile-bir-turkish-program-geliştirmesini-aydinliden-gosterirmeliyoruz)\n\nNote: The punctuation at the end of the sentence is \".\", not a space, which follows the rules of punctuation in Turkish.",
+            "v2.8 text": "Şikti şu yapı:\n\nbilmişimiz bu ortalaşım gün birde, olan bu yeni bir yarat hali çekütülü ruselliden bol daha siz bir extension yaparız. Sağ tım gözlere ben bir bir zaten sürdürülü hep gönderilecek zarun sorunu çikerz. (ref: https://www.duzcelicitimeler.com/aydinlikla-engel-gosterirken-sinyali-degerler-ile-bir-turkish-program-geliştirmesini-aydinliden-gosterirmeliyoruz)",
             "v2.11 text": "O biltim orta tim orte, O çık bir baskı tesir yarat hep zaten kaç başla."
         },
         "ins_686": {
@@ -192,18 +192,18 @@
             "v2.11 text": "\"He\")le hiç mi alt ?.\""
         },
         "ins_523": {
-            "v2.8 ratio": 0.1755485893416928,
+            "v2.8 ratio": 0.4217687074829932,
             "v2.11 ratio": 0.6,
             "original text": "Dünya'mızın diğer bölümü ise güneşi göremez ve Güneş ışıklarını alamaz.",
-            "v2.8 text": "The sentence is:\n\n\"Bölüm diğer Güneş'nin ışıklarını almak için görülebilir.\"\n\nNote: There are some irregularities in the surface forms due to the absence of cases in confirming that the possessor's number is plural, so it is assumed to be singular.",
+            "v2.8 text": "The sentence is:\n\n\"Bölüm diğer Güneş'nin ışıklarını almak için görülebilir.\"",
             "v2.11 text": "\"Dünya diğeri bölüm i için Güneş gör ve ışık al.\""
         },
         "ess_1372": {
             "v2.8 ratio": 0.26720647773279355,
-            "v2.11 ratio": 0.02147239263803681,
+            "v2.11 ratio": 0.021463414634146343,
             "original text": "Ve sloganlar: \"Azizler Ölmez.\" \"Türkiye laiktir, laik kalacak...\" Televizyonlardan naklen yayın...",
             "v2.8 text": "Okay, here's the surface form of the sentence:\n\nVe azızların önceki faaliyetlere katıldı\n\nNote that some spaces are left out for the sake of brevity.",
-            "v2.11 text": "\"Los ve sloganımas. Başında bu imiz ettiğim yüzgü bulunmadış ve Osmanlıkların Şark Türkiye, eülü Kal, ve Türkiye'liğinden \"alışımlarına yüz üç katıldığıma laik Jonathan ilanı, televizyonu ve yayın karşı karşı naklen ettiğimine dikkat ettiğim, taksımları her yerde yayılışımla yapılan sürüyü olarak yorduğu ve petiterlimden, içili kesimde hasbızı takındırıp, darınımızda adult değişim yine de avlı ve yrs üç yaşlı yüzgü, bir yazını veya televizyonet ettiği yurdu dahili dostların yakalımına buluşma ve katıldığımızın çeşitli oranları üç farklı şekle açıldığımıza dikkat ettiğim zat eşdeğerde, ilk sorunlarının yaklımı ve çalışımını kaldestirir, bu sayıde örnek ile spor yayını ve haber üretiminde yeni katıldığım ve dışınızlarına uyarla, duyguna her şekle ulaşılacağım, dika ve Türkiye içeri ve dışında bulanlık ve bir yayında ulaştığım taze şeklere özenla dikkat ederek tedirli ve en iyile ulaşılacağım ve mutlu suara yana###\")\n\nNote: The fourth and eighth smaller tokens in the original sentence cannot be found individually in the test example. These are likely additional punctuation marks that should be added either before or after the given punctuation marks at the beginning and end of the sentence."
+            "v2.11 text": "\"Los ve sloganımas. Başında bu imiz ettiğim yüzgü bulunmadış ve Osmanlıkların Şark Türkiye, eülü Kal, ve Türkiye'liğinden \"alışımlarına yüz üç katıldığıma laik Jonathan ilanı, televizyonu ve yayın karşı karşı naklen ettiğimine dikkat ettiğim, taksımları her yerde yayılışımla yapılan sürüyü olarak yorduğu ve petiterlimden, içili kesimde hasbızı takındırıp, darınımızda adult değişim yine de avlı ve yrs üç yaşlı yüzgü, bir yazını veya televizyonet ettiği yurdu dahili dostların yakalımına buluşma ve katıldığımızın çeşitli oranları üç farklı şekle açıldığımıza dikkat ettiğim zat eşdeğerde, ilk sorunlarının yaklımı ve çalışımını kaldestirir, bu sayıde örnek ile spor yayını ve haber üretiminde yeni katıldığım ve dışınızlarına uyarla, duyguna her şekle ulaşılacağım, dika ve Türkiye içeri ve dışında bulanlık ve bir yayında ulaştığım taze şeklere özenla dikkat ederek tedirli ve en iyile ulaşılacağım ve mutlu suara yana###\")"
         },
         "bio_1380": {
             "v2.8 ratio": 0.5217391304347826,
@@ -452,10 +452,10 @@
         },
         "bio_560": {
             "v2.8 ratio": 0.7932960893854749,
-            "v2.11 ratio": 0.1167608286252354,
+            "v2.11 ratio": 0.46846846846846846,
             "original text": "Haberi değiştirerek \"Kastelli mahkemeye başvuracaktı ama kaldı\" şeklinde düzelttik ve günü kurtardık.",
             "v2.8 text": "\"Haberdeğiştöğül Kastelli mahkeme başvur ama kaldı şekil düzel ve gün kurtar.\"",
-            "v2.11 text": "Haberdeğişimde Kastelli mahkeme başvurcularında geliştirilmelidir. Ama kurtar gün ve kuyulmalarına da daha iyi bir şekil.\n\nNote: The lemmas, parts of speech and morphological features given for each token were not provided with the test example. Therefore, I generated them as described in the previous response. Similarly, I assumed the order of the tokens in the sentence to be correct and provided the surface form accordingly."
+            "v2.11 text": "Haberdeğişimde Kastelli mahkeme başvurcularında geliştirilmelidir. Ama kurtar gün ve kuyulmalarına da daha iyi bir şekil."
         },
         "bio_265": {
             "v2.8 ratio": 0.6082949308755761,
@@ -465,10 +465,10 @@
             "v2.11 text": "\"Ahmet, Hamdi ve Tanpınar 699 yıldığınin 5*bir gün de söz? sözan açıldı\""
         },
         "ess_1906": {
-            "v2.8 ratio": 0.08970976253298153,
+            "v2.8 ratio": 0.5405405405405406,
             "v2.11 ratio": 0.585635359116022,
             "original text": "Zaman zaman misojen olmakla eleştirilen Jean-Luc Godard, sistemin temelini özetleyen gayet feminist bir mesaj vermektedir.",
-            "v2.8 text": "\"Zamanın bir arkadan çalıştığı sistemin temel özete, Jean[\" \"Luc\" Godard\"], feminist mesaj veriyor.\"\n\nNote: The output is split with a space to represent a pause whenever a particle is encountered instead of separated with commas as in the previous example.",
+            "v2.8 text": "\"Zamanın bir arkadan çalıştığı sistemin temel özete, Jean[\" \"Luc\" Godard\"], feminist mesaj veriyor.\"",
             "v2.11 text": "\"Zamanin Jean Luc Godard sistem temelözetle ver bir mesaj.\""
         },
         "news_1248": {
@@ -494,10 +494,10 @@
         },
         "ess_952": {
             "v2.8 ratio": 0.7883211678832117,
-            "v2.11 ratio": 0.2608695652173913,
+            "v2.11 ratio": 0.42735042735042733,
             "original text": "Arabaya binmek üzere televizyondan çıkınca asıl maçın başladığını anladım.",
             "v2.8 text": "\"Arabaya bin üzere televizyonra çik asıl maç başlana anlayaca.\"",
-            "v2.11 text": "The surface form of the sentence with the given lemmas, parts of speech, and morphological features is \"Arabanın üzere televizyon'da çık asıl maç'a başla anla.\" \n\nNote: The lemma \"anla\" represents the overt copula in Turkish and surfaces as \"anla\"."
+            "v2.11 text": "The surface form of the sentence with the given lemmas, parts of speech, and morphological features is \"Arabanın üzere televizyon'da çık asıl maç'a başla anla.\""
         },
         "ins_980": {
             "v2.8 ratio": 0.6666666666666666,
@@ -640,10 +640,10 @@
             "v2.11 text": "\"Başka hareketleri çalış doesnan var, bu içi bir rekabet yıldız\""
         },
         "ess_10": {
-            "v2.8 ratio": 0.2878228782287823,
+            "v2.8 ratio": 0.8173913043478261,
             "v2.11 ratio": 0.7868852459016393,
             "original text": "Biz size farklı yönlere bakan pencereler açmaya çalışıyoruz.",
-            "v2.8 text": "\"Biz siz farklı yönlarda bakan pencere açıp çalışıyız.\"\r\n\r\nNote: The Turkish language does not have punctuations like \"the\" or \"of\" in English. Text only contains verbs, pronouns, and other grammatical elements.",
+            "v2.8 text": "\"Biz siz farklı yönlarda bakan pencere açıp çalışıyız.\"",
             "v2.11 text": "\"Biz siz farklı yönu bakanın pencere'nin açılışı çalışıyoruz.\""
         },
         "ins_687": {
@@ -739,10 +739,10 @@
         },
         "ess_752": {
             "v2.8 ratio": 0.84,
-            "v2.11 ratio": 0.19444444444444445,
+            "v2.11 ratio": 0.7916666666666666,
             "original text": "Çok ağır sözler söyledim...",
             "v2.8 text": "çok ağır sözlere söyle.",
-            "v2.11 text": "\"Çok ağır söz söyle.\"\r\n\r\nNote: The lemmas here have been simplified to their root forms and there is no overt copula \"y\", therefore tokens 1 and 2 are not present in the sentence structure."
+            "v2.11 text": "\"Çok ağır söz söyle.\""
         },
         "news_235": {
             "v2.8 ratio": 0.5241379310344828,
@@ -787,25 +787,25 @@
             "v2.11 text": "\"Şeriat böyle isimli bit, bir senaryo.\""
         },
         "pop_1627": {
-            "v2.8 ratio": 0.23300970873786409,
+            "v2.8 ratio": 0.5853658536585366,
             "v2.11 ratio": 0.3516483516483517,
             "original text": "Neyse ki, ihtiyar onu \"nur\" içinde görmüştü...)",
-            "v2.8 text": "\"Neyse ki oda içinde gör gör?! ...\"\n\nNote: The surface form of the sentence would involve Turkish orthography and punctuation, including diacritics and spaces.",
+            "v2.8 text": "\"Neyse ki oda içinde gör gör?! ...\"",
             "v2.11 text": "\"Ki nurgun içerisine gör fiş placesine gir.\""
         },
         "bio_801": {
             "v2.8 ratio": 0.6422018348623854,
-            "v2.11 ratio": 0.11904761904761904,
+            "v2.11 ratio": 0.5280898876404494,
             "original text": "Bir kâğıt parçasının o kadar suya mukavemet etmesi ve düşüp de suların akmamasını görmek bana bir mucize gibi gelmişti.",
             "v2.8 text": "1. \"Bir kâğıt parçasına o kadar su mukavemet olmak ise ve düş de ve su binanin iletişime gibi gel.\"",
-            "v2.11 text": "Bir kâğıt parçasına olan kadar su sakağım ve gelir nişitir.\n\nNote: In the Turkish language, possessive pronouns are attached to the noun. \"Bir kâğıt\" and \"bir parça\" are not a noun and adjective separately in Turkish."
+            "v2.11 text": "Bir kâğıt parçasına olan kadar su sakağım ve gelir nişitir."
         },
         "ess_293": {
             "v2.8 ratio": 0.03785245268443414,
-            "v2.11 ratio": 0.08353808353808354,
+            "v2.11 ratio": 0.2457627118644068,
             "original text": "Öykümüz aynı zamanda, Ortaçağ Avrupası'nda zamanından önce öttüğü için başı kesilen, insanlığın gelmiş geçmiş en içli, en ak, en cömert sevgi mesajı kahramanlarının, Kathar şövalyelerinin destanı.",
             "v2.8 text": "\"Ortaçağ Avrupa başında 12 ayrı müstemil sultanlar bulunmaktır, 4ème akıl türü çalışımlarla 5 fare 5 dale ile kahramanlığa katmak için gelme veriler ile 20 sınıftalığımızın öykü ile ilgili gelme yazılarının erkek 1st okul sınıfında bulunan insanlarının öykü ayrı 12 binerik sultanlar dıçında çalışımdan en kes her zamanlığe sınıfın 10 sürdürdür tarih yısı: öykü yazılarının 4eme akıl türü çalışımlarla kıyaslanirken faizli iş kitapında, 4eme akıl türü çalışımlarla kolaylığın yapısıyla kazıs ve koşt tarihsel gelme yazıları okumanızdan oluşan gel[ içinde bulunan öykü ayrı 12 binerik sultanlar dıçında çalışımdan, 4eme akıl türü çalışımlarlara kıyaslanilerek faizli iş kitapında, 4eme akıl türü çalışımlarların alındığı dale her sunucu içinde bulunan öykü, sultanlarımız ve öykü sonunu bulan yürürlüğe yazıları ile iliştirmizi sağlar söğüt sürdürür satır 4eme akıl türü çalışımlarların kıyaslanirken faizli iş kitapında, kıyaslanilerek ikisi ile yer alıklığa gelmeliğimiz imdt parantezle yapan sevgi, faizli iş kitapında, öykü yazılarının 4eme akıl türü çalışımların kıyaslanirken faizli iş kitapında, 5 fare 5 dale ile kahramanlığe katmak için gelme veriler ile okumanızdan oluşan gelişim yapan sevgi, faizli iş kitapında, öykü yazılarının 4eme akıl türü çalışımların kıyaslanirken faizli iş kitapında, sultanlarımız ve öykü sonunu bulan yürürlüğe yazıları ile iliştirmizi sağlar söğüt sürdürür satır 4eme akıl türü çalışımlarların kıyaslanirken faizli iş kitapında, kıyaslanilerek ayır sultanlar dıçında tarihini girmek için öykü 5 fare 5 dale iliştirmizi sağlar söğüt sürdürür satır 4eme akıl türü çalışımlarların kıyaslanirken faizli iş kitapında, 4eme akıl türü çalışımlarla yer alıklığe yazıları ile iliştirmizi sağlar söğüt sürdürür satır 4eme akıl türü çalışımlarların kıyaslanirken faizli iş kitapında, kahramanlığe katmak için gelme veriler ile okumanızdan oluşan gelişim yapan sevgi, sanal öykü ayrı suyu kanıralıyor söütlü deniz komutlarıtan başa çalışımızda bulunacaklığın öykü ayrı sultanlar dıçında karamanlığe katmak için her sunucu içinde bulunan öykü, missiyettiğimizin bulunduğu bir üğe, il uppaz kızı intl ilPDF öykülerini elde etimizden 5 gecmeler tarih değerlendirmelerini yapmızı içinde bulunan öykü, karamanlığe katmak için gelme veriler Yıllardın öykülerinde bulunduğu impellerin önerisi eder OKMZDI öykülerinin ne yeni öztekle içere bilmisini clearlikleyiyoruz OKMZDI",
-            "v2.11 text": "\"Öykü, Avrupa zamanını kaç yaş yılanır?\"\n\nNote: The sentence may not be grammatically correct in Turkish as it contains some variations in morphology and syntax, but the surface form is as provided in the query."
+            "v2.11 text": "\"Öykü, Avrupa zamanını kaç yaş yılanır?\""
         },
         "news_614": {
             "v2.8 ratio": 0.37254901960784315,
@@ -816,10 +816,10 @@
         },
         "ess_441": {
             "v2.8 ratio": 0.4482758620689655,
-            "v2.11 ratio": 0.028985507246376812,
+            "v2.11 ratio": 0.12244897959183673,
             "original text": "Karma hayatın oluşturduğu ortak bilinç düzlemi, Dünya'nın boyutunu belirlerken, Dünya'nın genel aurasını da ortaya çıkartır.",
             "v2.8 text": "\"KarmaHayatın oluşdonuş-ıde Dünyadan da orta çık.\"",
-            "v2.11 text": "1st message KARMA hayatin SAYI SINGI OLUS ki,\n2nd message DÜN YA PARKAYA ÇIK yA DÜZLEM yüzük H ELER 0 4 ORTAK 4 PAKLIMPIN 5 BILINÇOZ 2\n3rd message -448161439-448258209 -.\n\nNote: The punctuation marks are different in your Korean sentence. I've assumed they were missing in the test example."
+            "v2.11 text": "1st message KARMA hayatin SAYI SINGI OLUS ki,\n2nd message DÜN YA PARKAYA ÇIK yA DÜZLEM yüzük H ELER 0 4 ORTAK 4 PAKLIMPIN 5 BILINÇOZ 2\n3rd message -448161439-448258209 -."
         },
         "pop_1579": {
             "v2.8 ratio": 0.5797101449275363,
@@ -830,10 +830,10 @@
         },
         "ins_613": {
             "v2.8 ratio": 0.8145454545454546,
-            "v2.11 ratio": 0.24634655532359082,
+            "v2.11 ratio": 0.3049095607235142,
             "original text": "Müthiş bir güreşçi olan Süleyman Bey hiç kuşkusuz farklı koşullar altında sonraki yıllarda dünya ve hatta olimpiyat şampiyonu olabilecek yeteneğe de sahipmiş.",
             "v2.8 text": "\"Müthiş bir güreş ol Süleyman bey hiç kuşku fark koşul alt sonra yıl Dünya ve olmpiyat şampiyon ol yetenek de sahip.\"",
-            "v2.11 text": "The sentence in the test example is:\n\n\"Müthiş bir güreşçi, Süleyman bey hiç kuşkusuz farklı köşülünde sonraki yılda ve Süleyman bey yetenek de hatta olimpiyat ve şampiyon arılarını sahip olacak olmuş bir şekilde bulmak varmıştı.\"\n\nNote: Token 22 is split into two; 22nd token includes the lemma \"sahip\" and the lemma \"y\"."
+            "v2.11 text": "The sentence in the test example is:\n\n\"Müthiş bir güreşçi, Süleyman bey hiç kuşkusuz farklı köşülünde sonraki yılda ve Süleyman bey yetenek de hatta olimpiyat ve şampiyon arılarını sahip olacak olmuş bir şekilde bulmak varmıştı.\""
         },
         "ess_1356": {
             "v2.8 ratio": 0.5486725663716814,
@@ -1467,16 +1467,16 @@
         },
         "ess_1049": {
             "v2.8 ratio": 0.5,
-            "v2.11 ratio": 0.04405286343612335,
+            "v2.11 ratio": 0.496,
             "original text": "Bu adamın benzerlerinden biri de Ümeyye İbn-i Salt adını taşıyordu ve Allah Resulünü inkarda en ileri gidenlerdendi.",
             "v2.8 text": "The surface form of the sentence is:\n\nBu adam'in benzer biri öğretcilerinden İbn Ümeyye üreme saptığını İlahude Allah ile inkâr ile iştile buldular.",
-            "v2.11 text": "\"Adam ile Ümeyye İbn-i Salt arguıldığının de İlmeyde. Bu bir tas tanıyın ve teknolojilenler ile ileri gitirdiğine inkâr ile iş yaptı.\" \n\nNote: This sentence was parsed into 20 tokens. The 7th token \"benzer\", the 14th token \" inches\", and the 17th token \"ileri\" do not have a lemma Index. Therefore, they were not included in the analysis."
+            "v2.11 text": "\"Adam ile Ümeyye İbn-i Salt arguıldığının de İlmeyde. Bu bir tas tanıyın ve teknolojilenler ile ileri gitirdiğine inkâr ile iş yaptı.\""
         },
         "ins_1993": {
-            "v2.8 ratio": 0.2,
+            "v2.8 ratio": 0.7368421052631579,
             "v2.11 ratio": 0.7368421052631579,
             "original text": "Bizler küçük izciyiz,",
-            "v2.8 text": "\"Biz küçük izci.\"\n\nNote: The previous sentence is a simple sentence with an overt copula \"i\" that surfaces as \"z\" before the \"d\" in \"izci\".",
+            "v2.8 text": "\"Biz küçük izci.\"",
             "v2.11 text": "\"Biz küçük izci.\""
         },
         "pop_1191": {
@@ -1495,10 +1495,10 @@
         },
         "ess_228": {
             "v2.8 ratio": 0.3025210084033613,
-            "v2.11 ratio": 0.18250950570342206,
+            "v2.11 ratio": 0.3974358974358974,
             "original text": "Onun yanında sade ve sadece yüreğim işliyor benim, ya sizin?",
             "v2.8 text": "\"Her sadece benim yürek ve sadece siz yürek işlemiyor.\"\r\n\r\nNote that I included the Turkish letters or characters for each lemma, but you can find it written in the surface form.",
-            "v2.11 text": "o yan ve sadece yürek işle sizHarun ve csSiz babam evening yan sade ve yar Sana�ilgen? Siz? Haha\n\nNote: The surface form of the sentence is quite complex due to its use of multiple clauses and particles."
+            "v2.11 text": "o yan ve sadece yürek işle sizHarun ve csSiz babam evening yan sade ve yar Sana�ilgen? Siz? Haha"
         },
         "bio_590": {
             "v2.8 ratio": 0.7804878048780488,
@@ -1838,10 +1838,10 @@
         },
         "bio_1657": {
             "v2.8 ratio": 0.7793427230046949,
-            "v2.11 ratio": 0.07272727272727272,
+            "v2.11 ratio": 0.5128205128205128,
             "original text": "Osman Paşa diyor ki \"Ben planı yaparım, hedefleri gösterir tabur komutanına veririm o inisiyatifiyle istediği yere yürür\"",
             "v2.8 text": "Osman paşa deki ben plan yapıyor. Hedef göster tabur komutan ver o inisiyatif iste yer yürü.",
-            "v2.11 text": "The sentence: \n\n\"Osman Pasha'de, ben plan yapmak için komutan ver, istemişimiz o inisiyatif yürüy / yer olursun.\" \n\nNote: In Turkish punctuation can be placed ambiguously at the end of clause boundaries. In this example, it is placed at the end of the last clause."
+            "v2.11 text": "The sentence: \n\n\"Osman Pasha'de, ben plan yapmak için komutan ver, istemişimiz o inisiyatif yürüy / yer olursun.\""
         },
         "pop_279": {
             "v2.8 ratio": 0.6015037593984962,
@@ -2096,10 +2096,10 @@
             "v2.11 text": "The surface form of the sentence is:\n\n\"Dünyaca ünlü bir olanlan olduğu süre dinledi, sonra solist tanı iste söyle.\""
         },
         "pop_229": {
-            "v2.8 ratio": 0.12639405204460966,
+            "v2.8 ratio": 0.525,
             "v2.11 ratio": 0.4819277108433735,
             "original text": "- Ben senin oğlun Hanifi'yim, dedim.",
-            "v2.8 text": "- Benin, senin oğul de bir daha saat yaktım.\n\nNote: There are several possible word orders for pronouns and adjectives in Turkish, the sentence I provided is just one possible way to construct the sentence with the given information.",
+            "v2.8 text": "- Benin, senin oğul de bir daha saat yaktım.",
             "v2.11 text": "\"Ben sen-i oğul- thanks- Per. honifi- Pn.üb.,.\""
         },
         "pop_1600": {
@@ -2125,10 +2125,10 @@
         },
         "news_1570": {
             "v2.8 ratio": 0.3176470588235294,
-            "v2.11 ratio": 0.2287390029325513,
+            "v2.11 ratio": 0.38661710037174724,
             "original text": "Bunlardan ulusal muhafız olan 12'si öldürüldü, 1 kişi kaçtı, şoför ise işkence yapıldıktan sonra serbest bırakıldı\" dedi.",
             "v2.8 text": "\"Bir kişi, 1 yıl 12 bul sonra faaliyetlere oldu.\"",
-            "v2.11 text": "12'19., 10'20#21., 6'7., 4'5 != 12'19., 10'20#21., 6'7., 4'5. Bu ulusal muhafız olan 12' de ilk kaç'' tipu'' kişi=' sonra sonra sonra sonra bıraktı.\n\nNote: In Turkish, transposition of the sentence structure is possible."
+            "v2.11 text": "12'19., 10'20#21., 6'7., 4'5 != 12'19., 10'20#21., 6'7., 4'5. Bu ulusal muhafız olan 12' de ilk kaç'' tipu'' kişi=' sonra sonra sonra sonra bıraktı."
         },
         "ins_1668": {
             "v2.8 ratio": 0.2777777777777778,
@@ -2264,10 +2264,10 @@
             "v2.11 text": "\"Ve galiba tüm yaşa bir hakiki değil.\""
         },
         "news_325": {
-            "v2.8 ratio": 0.10148514851485149,
+            "v2.8 ratio": 0.11533052039381153,
             "v2.11 ratio": 0.5681818181818182,
             "original text": "Zira, anketler, eski papazının \"\"Amerika yıkılsın\" dediği vaaz görüntülerinin ortaya çıkması ve Amerikalıların ekonomik kriz yüzünden ya dine ya silaha sarıldığını söylemesiyle başı derde giren Obama'ya destekte ciddi azalma yaşandığını gösteriyor.",
-            "v2.8 text": "The sentence is: Zira, anket, Amerika'nin anche eğski papaz'ın ortaya kıtıldığının görüntüsinde bulunan kızın ve kredi azalmasından çiddi yaşa gösterisine yanacağının орta basarına ulaşılacağını yaşlayacağının yanacağının ciddi azalması ve Obama'ya destek Arab gaye drağan mı yazeşim ya da barıza danaşım olarak bi çuğulu öyle kayıt ile yaptıYık da, ve Amerikan Trickle Treatment : ve Çıktığı kayıt işlemi Amerikalı simple fatıwha ulaşılan ; ve Obama, ve Obama'ın\n\n(Note: I have included all the tokens in order and separated them with commas in the response.)",
+            "v2.8 text": "The sentence is: Zira, anket, Amerika'nin anche eğski papaz'ın ortaya kıtıldığının görüntüsinde bulunan kızın ve kredi azalmasından çiddi yaşa gösterisine yanacağının орta basarına ulaşılacağını yaşlayacağının yanacağının ciddi azalması ve Obama'ya destek Arab gaye drağan mı yazeşim ya da barıza danaşım olarak bi çuğulu öyle kayıt ile yaptıYık da, ve Amerikan Trickle Treatment : ve Çıktığı kayıt işlemi Amerikalı simple fatıwha ulaşılan ; ve Obama, ve Obama'ın",
             "v2.11 text": "\"Zira Amerika yık de orta çık ve Amerikalı ekonomik kriz yüz zaydi Obama destek ciddi azal yaşa göster.\""
         },
         "pop_244": {
@@ -2397,10 +2397,10 @@
             "v2.11 text": "\"Soğan yemeklik'e yayın yapıncacak kişilere doğra.\""
         },
         "bio_756": {
-            "v2.8 ratio": 0.09239130434782608,
+            "v2.8 ratio": 0.3417085427135678,
             "v2.11 ratio": 0.6174496644295302,
             "original text": "Annemden bana sadece yol parası vermesini istedim fakat aldığım cevap olumsuzdu.",
-            "v2.8 text": "The surrogate form of the sentence is as follows:\n\n\"Anne ben ver3 istedilde al cevap olumesine de ver4. Ce iste fakat.\" \n\nNote: The order of the words in the sentence is as specified in the prompt. The interjections \"ce iste fakat\" at the end of the sentence convey \"However, it happens\".",
+            "v2.8 text": "The surrogate form of the sentence is as follows:\n\n\"Anne ben ver3 istedilde al cevap olumesine de ver4. Ce iste fakat.\"",
             "v2.11 text": "\"Anne beni sadece yolparaya yola istiyor, fakat bu farkatla olumsuz.\""
         },
         "ess_564": {
@@ -2629,10 +2629,10 @@
         },
         "pop_1761": {
             "v2.8 ratio": 0.4927536231884058,
-            "v2.11 ratio": 0.0220125786163522,
+            "v2.11 ratio": 0.019801980198019802,
             "original text": "Kaş: Gözün hemen üstünde bir çizgi halinde bulunan kaş, bazen de şekilsiz ve iri bir küme olarak sırt ve kulunçlarda yeşerir.",
             "v2.8 text": "\"Kaşından çizgine bir şekil, ve şekilde bulun bazen bir küme ile şekil sırtlardı.\"",
-            "v2.11 text": "The surface form of the sentence is not provided. It is understanding if the sentence lemma, POS, morphological features given for each token, it may be constructed as:\n\nBir bulunan bazen herin de ol sirt bir kâs üst bir çizgide bulun. İşiniz sırtı başına olmaasınızı sürdürünüz.\n\nNote: The response provided is a version of the surface form of the sentence based on the lemmas and morphological features given, but it is not guaranteed to be the correct surface form without additional context and information."
+            "v2.11 text": "The surface form of the sentence is not provided. It is understanding if the sentence lemma, POS, morphological features given for each token, it may be constructed as:\n\nBir bulunan bazen herin de ol sirt bir kâs üst bir çizgide bulun. İşiniz sırtı başına olmaasınızı sürdürünüz."
         },
         "news_1282": {
             "v2.8 ratio": 0.6727272727272727,
@@ -2677,10 +2677,10 @@
             "v2.11 text": "Fatma hanımın favori tostu üç çayır olan en büyük şekil hazırla olur, bu kendin kendisine katıldı. \n\nPlease note that the given sentences may not always be grammatically correct or coherent in context."
         },
         "pop_894": {
-            "v2.8 ratio": 0.10759493670886076,
+            "v2.8 ratio": 0.36893203883495146,
             "v2.11 ratio": 0.5423728813559322,
             "original text": "Tencereyi ocağa alıp, karışım kaynayıncaya kadar sürekli karıştırın.",
-            "v2.8 text": "Tencere alınır insects char zuested\n\nNote: There is a mismatch in the input data and the output. For example, token 8 is \"sürekli\" which is an adverb, but it is tagged as an adposition. This suggests that the input data is incomplete or has errors.",
+            "v2.8 text": "Tencere alınır insects char zuested",
             "v2.11 text": "\"Karışım alırız, kıranısı kadar sürekli kaynaşır.\""
         },
         "ess_1150": {
@@ -2691,10 +2691,10 @@
             "v2.11 text": "Sure, I can help you find the surface form of the sentence.\n\nBased on the given information, the surface form of the sentence would be: \"Ilgibari Kazıkı Aktörin Başına Kadar Hırç Değil şimdi.\""
         },
         "ess_1516": {
-            "v2.8 ratio": 0.20930232558139536,
+            "v2.8 ratio": 0.45652173913043476,
             "v2.11 ratio": 0.5961538461538461,
             "original text": "Diyelim onların \"edindikleri kültür\" de liberaldir, lâiktir.",
-            "v2.8 text": "\"De oli kültür, dere başı indi.\"\n\nNote: The position of the second coordinate conjunction moves the entire coordinate clause to the end, as the sentence is not properly formed with it in the middle.",
+            "v2.8 text": "\"De oli kültür, dere başı indi.\"",
             "v2.11 text": "\"De o de, edin kültürli. Liberal i, lâki i.\""
         },
         "bio_156": {
@@ -2741,10 +2741,10 @@
         },
         "ins_621": {
             "v2.8 ratio": 0.6938775510204082,
-            "v2.11 ratio": 0.07829181494661921,
+            "v2.11 ratio": 0.4888888888888889,
             "original text": "Babamın dilinden düşürmediği deyimlerden birisi de \"İyi olmak parayla değildir.",
             "v2.8 text": "\"Baba ile dilin dilinden düşür deyim biri de DE. Iyi ol para degil.\"",
-            "v2.11 text": "The sentence: \"Babadılı dildeyim de bir de birde değil.\"\n\nNote: The lemma listed for the 11th token, \"değil\", is not a valid lemma in Turkish. This might have been a mistake during the processing stage."
+            "v2.11 text": "The sentence: \"Babadılı dildeyim de bir de birde değil.\""
         },
         "news_70": {
             "v2.8 ratio": 0.33513513513513515,
@@ -2979,10 +2979,10 @@
         },
         "news_960": {
             "v2.8 ratio": 0.4838709677419355,
-            "v2.11 ratio": 0.20689655172413793,
+            "v2.11 ratio": 0.5384615384615384,
             "original text": "Başlangıç ücreti 19 bin sterlin.",
             "v2.8 text": "\"19 bin sterlin ücret almadı.\"",
-            "v2.11 text": "19 bin sterlin ücret\nNote: client did not specify the language for the test example. Therefore I assumed Turkish."
+            "v2.11 text": "19 bin sterlin ücret"
         },
         "ins_414": {
             "v2.8 ratio": 0.5945945945945946,
@@ -3126,10 +3126,10 @@
         },
         "news_851": {
             "v2.8 ratio": 0.6859903381642513,
-            "v2.11 ratio": 0.0347970173985087,
+            "v2.11 ratio": 0.03849855630413859,
             "original text": "Sorgu ekibine yakın bir kaynak, Muhammed'in Ladin'in önce \"hayatta olduğunu\" sonra \"öldüğünü\" söylediğini aktardı.",
             "v2.8 text": "\"Sorgu ekiplere yakınamdan bir kaynakın hayatında olduğuzum sonra öldüğüm bir söyle aktardı.\"",
-            "v2.11 text": "I have analyzed the given test example and found the surface form of the sentence as follows:\r\n\r\n\"Yakınbir Ladinnin sonra söyle kaynak tarayıcı yannıtıran hatta, Muhammad Ladin'in yakın önce Founder Ladinnin olan bir şöylefaktladığı kaynak tarayıcı yannıtıran hayatta, sonra bulanmış, söyle söyleleri yannıtır, Ladinnin söyle aktardıktarayıcı sunanlığı, olanlığının kaynakının buldurduğu, diğer zil takımına gitirdi, sonra yayılır, türk model parayında son tanımayarlı kaynak tanımayarı belirlemesi, uzman dayakıtmış söylebulensi, görsel görmeyen söylebulentsi, onlardan söyle oluşturan havazıncıModelleri aktarılan buldurduğumu bize, bulmuyoruzun ürünün hakında konularının bilinişinde bulunabilir, bulmadığızın ürününe alıştırılerek bularak yandırır, bir şöyle yaptırır, görülebilirliği versiyollarından buyuktan buyuk, basileti, kesim kahitlığı ile bulması, kişisel, bulandığınıza göre ve tüm bulmuş bulmamızın bulmasıdır\"\n\nNote: There are multiple possible ways to surface the lemmas and morphological features mentioned in the example. This is one possible interpretation of the sentence."
+            "v2.11 text": "I have analyzed the given test example and found the surface form of the sentence as follows:\r\n\r\n\"Yakınbir Ladinnin sonra söyle kaynak tarayıcı yannıtıran hatta, Muhammad Ladin'in yakın önce Founder Ladinnin olan bir şöylefaktladığı kaynak tarayıcı yannıtıran hayatta, sonra bulanmış, söyle söyleleri yannıtır, Ladinnin söyle aktardıktarayıcı sunanlığı, olanlığının kaynakının buldurduğu, diğer zil takımına gitirdi, sonra yayılır, türk model parayında son tanımayarlı kaynak tanımayarı belirlemesi, uzman dayakıtmış söylebulensi, görsel görmeyen söylebulentsi, onlardan söyle oluşturan havazıncıModelleri aktarılan buldurduğumu bize, bulmuyoruzun ürünün hakında konularının bilinişinde bulunabilir, bulmadığızın ürününe alıştırılerek bularak yandırır, bir şöyle yaptırır, görülebilirliği versiyollarından buyuktan buyuk, basileti, kesim kahitlığı ile bulması, kişisel, bulandığınıza göre ve tüm bulmuş bulmamızın bulmasıdır\""
         },
         "ins_634": {
             "v2.8 ratio": 0.0872865275142315,
@@ -3160,10 +3160,10 @@
             "v2.11 text": "The surface form of the sentence is: \n\n\"Ben yani nerdeyse bir Christian ve Scientist üye kadar düşkün addet tatanıran doktorlara dışıyacağım.\""
         },
         "news_1576": {
-            "v2.8 ratio": 0.08225108225108226,
+            "v2.8 ratio": 0.35051546391752575,
             "v2.11 ratio": 0.25671641791044775,
             "original text": "Amerikalıların Iraklı esirlere yaptığı işkenceyi ortaya koyan görüntüleri değerlendiren Irak Kürdistan Yurtseverler Birliği (KYB) lideri Celal Talabani, olayın abartılmaması gerektiğini savundu.",
-            "v2.8 text": "Amerikalı Irak esirın ortalık koysalı coaching and training leçelerine görüntüsü daha geliştirir.\n\nNote: Please note that without theory of tense, aspect, polarity, voice etc., it is difficult for me to provide you the exact transliteration and its meaning in Turkish.",
+            "v2.8 text": "Amerikalı Irak esirın ortalık koysalı coaching and training leçelerine görüntüsü daha geliştirir.",
             "v2.11 text": "The surface form of the sentence is:\n\n\"Amerikalı İraklı İşkence leaderships and Refl. Celâl Birtlığinde Iraq Refl. let destabilization kill.\""
         },
         "ins_515": {
@@ -3259,10 +3259,10 @@
         },
         "ess_59": {
             "v2.8 ratio": 0.7413793103448276,
-            "v2.11 ratio": 0.07881773399014778,
+            "v2.11 ratio": 0.34782608695652173,
             "original text": "Firavun'un önünden kaçan Musa Peygamber'in \"denizi yaran asa\" sına .",
             "v2.8 text": "\"Firavun ön kaç Musa peygamber Deniz yâran asa.\"",
-            "v2.11 text": "\"Firavun'da yar oluştu.\" \r\n\r\nNote: In the example sentence, \"9th token's lemma is \"asalak,\" its part of speech is noun, its person is third person, and its number is singular number. Tenth token's lemma is \"and\", its part of speech is conjunction.\" These tokens do not exist in the given lemmas, so I will omit them from the surface form."
+            "v2.11 text": "\"Firavun'da yar oluştu.\""
         },
         "bio_1965": {
             "v2.8 ratio": 0.8709677419354839,
@@ -3321,10 +3321,10 @@
             "v2.11 text": "The surface form of this sentence is: \"Anne Günü'n n gerek gör , o gün gel mi fark değ hava\""
         },
         "ess_539": {
-            "v2.8 ratio": 0.25925925925925924,
+            "v2.8 ratio": 0.4727272727272727,
             "v2.11 ratio": 0.6875,
             "original text": "Çocuğunuz, oturacak bir okul sırasına sahip olamayabilir...",
-            "v2.8 text": "\"Çocukların okul sırasına katılacağı yol ile otur.\"\n\nNote: The punctuation marks are not present in the given information, but I have added them for clarity.",
+            "v2.8 text": "\"Çocukların okul sırasına katılacağı yol ile otur.\"",
             "v2.11 text": "\"çocuk, otur bir okul sıra sahip ol.\""
         },
         "pop_645": {
@@ -3482,10 +3482,10 @@
             "v2.11 text": "ATATÜRK'ün sayısız miras karşılanarak; iki termal kapılıca kütüfe adasındı yaşadı."
         },
         "pop_1148": {
-            "v2.8 ratio": 0.04538087520259319,
+            "v2.8 ratio": 0.24561403508771928,
             "v2.11 ratio": 0.01593625498007968,
             "original text": "ABD'de ise bunun yapılışı çok daha farklı ve çok daha iyi et veriyor; zira buzağı önce anne sütüyle beslenip (7 ay), ardından çayıra çıkarılıyor (4-5 ay) ve en son çit (padok) içinde tahıl ile besleniyor (4 ay).",
-            "v2.8 text": "\"Her 7 Ay'ninde ABD'in içinde önceki çok daha farkında bulmamıza katıldı.\" \n\nNote: This sentence has multiple clauses, which makes it quite complex. Therefore, it may be difficult to accurately analyze the lemmas, parts of speech, and morphological features without additional context. Make sure to pay attention to the sentence structure and relationships between the clauses to ensure a correct analysis.",
+            "v2.8 text": "\"Her 7 Ay'ninde ABD'in içinde önceki çok daha farkında bulmamıza katıldı.\"",
             "v2.11 text": "The surface form of the sentence is not given in the input, only the lemmas, parts of speech, morphological features, and the structure of the Turkish sentence are provided. There are many possible sentences that can be formed using these lemmas, parts of speech, and morphological features."
         },
         "ess_329": {
@@ -3504,6 +3504,6 @@
         }
     },
     "sentence_count": 500,
-    "average v2.8 ratio": 0.5412167397884543,
-    "average v2.11 ratio": 0.5245617577464465
+    "v2.11_path": "llm-approach/experiment_outputs/eventual_experiment/perplexity_mistral-7b-instruct-20231015164746/v2.11_output.json",
+    "v2.8_path": "llm-approach/experiment_outputs/eventual_experiment/perplexity_mistral-7b-instruct-20231015164746/v2.8_output.json"
 }

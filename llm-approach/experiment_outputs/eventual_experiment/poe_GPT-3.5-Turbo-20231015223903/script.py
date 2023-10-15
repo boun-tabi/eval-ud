@@ -319,13 +319,8 @@ for run in [v2_8, v2_11]:
                 continue
             d['output'] = data['choices'][0]['message']['content']
         elif model.startswith('poe'):
-            try:
-                if model == 'poe_GPT-3.5-Turbo':
-                    output = asyncio.run(get_response(prompt, 'GPT-3.5-Turbo', token))
-                elif model == 'poe_GPT-4':
-                    output = asyncio.run(get_response(prompt, 'GPT-4', token))
-            except:
-                continue
+            if model == 'poe_GPT-3.5-Turbo':
+                output = asyncio.run(get_response(prompt, 'GPT-3.5-Turbo', token))
             d['output'] = output
         else:
             print('Unknown model: {model}'.format(model=model))
