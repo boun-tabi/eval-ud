@@ -84,22 +84,21 @@ elif model.startswith('perplexity'):
         "content-type": "application/json",
         "authorization": "Bearer {token}".format(token=perplexity_d['token'])
     }
-    payload = {
-        "messages": [
-            {
-                "role": "system",
-                "content": "Be precise and concise."
-            },
-            {
-                "role": "user",
-                "content": "How many stars are there in our galaxy?"
-            }
-        ]
-    }
+
     if model == 'perplexity_mistral-7b-instruct':
-        payload['model'] = 'mistral-7b-instruct'
-    elif model == 'perplexity_llama-2-70b-chat':
-        payload['model'] = 'llama-2-70b-chat'
+        payload = {
+            "model": "mistral-7b-instruct",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Be precise and concise."
+                },
+                {
+                    "role": "user",
+                    "content": "How many stars are there in our galaxy?"
+                }
+            ]
+        }
 
 t8 = args.treebank_2_8
 v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
@@ -264,7 +263,7 @@ for run in [v2_8, v2_11]:
                     {'role': 'user', 'content': prompt}
                 ]
             )
-            d['output'] = completion.choices[0].message['content']
+            d['output'] = completion.choices[0].message
         elif model == 'replicate_llama-2-70b-chat':
             output = replicate.run('meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3', input={'prompt': prompt})
             d['output'] = ''.join(list(output))
@@ -285,9 +284,6 @@ for run in [v2_8, v2_11]:
                 payload['messages'][1]['content'] = prompt
                 response = requests.post(url, json=payload, headers=headers)
                 data = response.json()
-                if 'choices' not in data:
-                    print('Error: {data}'.format(data=data))
-                    continue
                 d['output'] = data['choices'][0]['message']['content']
         else:
             print('Unknown model: {model}'.format(model=model))
@@ -308,3 +304,13 @@ for run in [v2_8, v2_11]:
             json.dump(output_l, f, ensure_ascii=False, indent=4)
     print('Asked {count} questions.'.format(count=asked_count))
     print(len(output_l))
+
+run_l_path = os.path.join(THIS_DIR, 'run_l.json')
+if os.path.exists(run_l_path):
+    with open(run_l_path, 'r', encoding='utf-8') as f:
+        run_l = json.load(f)
+else:
+    run_l = []
+run_l.append({'v2.8': v2_8_out, 'v2.11': v2_11_out, 'now': now, 'prompt': template, 'run_dir': run_dir, 'sentence_count': sentence_count, 'sent_ids': sent_ids, 'seed': args.seed, 'model': model})
+with open(os.path.join(THIS_DIR, 'run_l.json'), 'w', encoding='utf-8') as f:
+    json.dump(run_l, f, ensure_ascii=False, indent=4)
