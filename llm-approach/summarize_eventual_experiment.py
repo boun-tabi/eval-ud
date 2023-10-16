@@ -6,8 +6,12 @@ parser.add_argument('-r', '--run-dir', type=str, required=True, help='The run di
 args = parser.parse_args()
 
 run_dir = args.run_dir
-v2_8_out = os.path.join(run_dir, 'v2.8_output.json')
-v2_11_out = os.path.join(run_dir, 'v2.11_output.json')
+if 'v2.8_output_modified.json' in os.listdir(run_dir) and 'v2.11_output_modified.json' in os.listdir(run_dir):
+    v2_8_out = os.path.join(run_dir, 'v2.8_output_modified.json')
+    v2_11_out = os.path.join(run_dir, 'v2.11_output_modified.json')
+else:
+    v2_8_out = os.path.join(run_dir, 'v2.8_output.json')
+    v2_11_out = os.path.join(run_dir, 'v2.11_output.json')
 
 res_d = {}
 with open(v2_8_out, 'r', encoding='utf-8') as f:
