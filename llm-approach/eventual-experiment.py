@@ -329,7 +329,7 @@ for run in [v2_8, v2_11]:
                     output = asyncio.run(get_response(prompt, 'Claude-instant-100k', token))
                 elif model == 'poe_Claude-2-100k':
                     output = asyncio.run(get_response(prompt, 'Claude-2-100k', token))
-                elif model == 'Llama-2-70b':
+                elif model == 'poe_Llama-2-70b':
                     output = asyncio.run(get_response(prompt, 'Llama-2-70b', token))
             except:
                 continue
