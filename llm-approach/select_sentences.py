@@ -6,6 +6,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--sent-ids', type=str, required=True)
     parser.add_argument('-n', '--num_sentences', type=int, required=True)
+    parser.add_argument('--note', type=str, default='')
     parser.add_argument('-s', '--seed', type=int, default=42)
     args = parser.parse_args()
 
@@ -21,8 +22,15 @@ def main():
     selected_sent_ids = random.sample(sent_ids, num_sentences)
     random.shuffle(selected_sent_ids)
 
-    with open(os.path.join(THIS_DIR, 'selected_sents.json'), 'w') as f:
-        json.dump(selected_sent_ids, f, indent=4, ensure_ascii=False)
+    if args.note:
+        sel_path = os.path.join(THIS_DIR, 'selected_sents_{}.json'.format(args.note))
+        if os.path.exists(sel_path):
+            raise ValueError('File already exists: {}'.format(sel_path))
+        with open(sel_path, 'w') as f:
+            json.dump(selected_sent_ids, f, indent=4, ensure_ascii=False)
+    else:
+        with open(os.path.join(THIS_DIR, 'selected_sents.json'), 'w') as f:
+            json.dump(selected_sent_ids, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     main()

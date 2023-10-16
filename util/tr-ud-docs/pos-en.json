@@ -1,0 +1,70 @@
+{
+  "ADP": {
+    "shortdef": "adposition",
+    "content": "The English ADP covers the Penn Treebank RP, and a subset of uses of IN (when not a complementizer or subordinating conjunction) and TO (in old treebanks which used this for to even when used as a preposition)."
+  },
+  "AUX": {
+    "shortdef": "auxiliary verb",
+    "content": "The English AUX covers PTB MD and uses of the various verbal tags (VB, VBP, VBG, VBN, VBD, VBZ) when they are forms of be, have, do, and get when used as an auxiliary (we count passive get as an auxiliary)."
+  },
+  "PRON": {
+    "shortdef": "pronoun",
+    "content": "PRON is used for English pronouns, such as we, her, it, who, and that when used as a relative pronoun.\n\nThe English PRON corresponds to the PTB PRP, PRP$, WP, WP$, EX, and certain things that are tagged DT or WDT (question and Wh pronouns, such as who, this, and that), when they comprise a nominal by themselves rather than functioning as the determiner of a nominal head (usually a noun).\n\nPersonal pronouns\n\nLemmas that differ from the inflected form are shown in brackets. (The accusative is lemmatized to match the nominative, and the independent possessive is lemmatized to match the dependent possessive.)\n\nVariant forms are italicized, with additional features described below the table.\n\nPronType=Prs* | Nominative<br> Case=Nom | Accusative<br> Case=Acc | Dependent<br> Possessive<br> Case=Gen, Poss=Yes | Independent<br> Possessive<br> Poss=Yes | Reflexive<br> Case=Acc, Reflex=Yes \n-- | -- | -- | -- | -- | -- \nPerson=1, Number=Sing | I | me [I] | my | mine [my] | myself \nPerson=1, Number=Plur | we | us [we], ’s [we] | our | ours [our] | ourselves \nPerson=2 | you, u [you], ya | you, u [you], ya | your, ur [your], yo | yours [your] | \nPerson=2, Number=Sing | thou | thee [thou] | thy | thine [thy] | yourself, thyself\nPerson=2, Number=Plur | ye | y’all |  |   | yourselves \nPerson=3, Number=Sing, Gender=Masc | he | him [he] | his | his | himself \nPerson=3, Number=Sing, Gender=Fem | she | her [she] | her | hers [her] | herself \nPerson=3, Number=Sing, Gender=Neut | it | it | its | its | itself \nPerson=3, Number=Sing | one | one |  |  | oneself \nPerson=3, Number=Plur | they | them [they], ’em | their | theirs [their] | themselves \nXPOS (PTB) | PRP | PRP | PRP$ | PRP | PRP\n\n\\* Some reflexives (I myself am...) are PronType=Emp.\n\nIn the table, one is the use to refer to a generic individual (PRP in PTB); other uses are mentioned below. Genericity is not made explicit in the features.\n\nVariant forms associated with features (in addition to the features associated with the standard counterpart): \n  - Abbr=Yes: u, ur. As these are abbreviations, the lemma will reflect the standard spelling (you, your).\n  - Style=Arch: archaic forms ye, thou, thee, thy, thine, thyself (from Early Modern English) are retained in some idioms. These mark a combination of number and formality. The features only represent the number distinction. For you, your, etc., the modern, number-unspecified interpretation is assumed.\n  - Style=Coll: ya, ’em\n  - Style=Slng: yo\n  - Style=Vrnc: y’all\n\nThe contracted form of us in let’s is treated like other standard contractions (e.g. n’t), receiving the same lemma (we) and features as its noncontracted counterpart.\n\nRelative/interrogative (WH) pronouns\n\nThese are either PronType=Int (interrogative) or PronType=Rel (relative). PronType is the only feature except where shown below.\n\nWH | Plain | -ever | Possessive \n-- | -- | -- | -- \nwh.anim | who, whom (WP) | whoever, whomever (WP) | whose (WP$) \nwh.inanim | what, wtf (WP) | whatever (WP) | whose (WP$) \nwh.det | which (WDT) | whichever (WDT) |   \n\nRelative that is also considered a PRON in UD (XPOS WDT).\n\nThe table shows only PRON forms. Note that what, whatever, and which are tagged DET when functioning as det (WDT).\n\nThe variant wtf receives Style=Expr.\n\nTODO: whatever is sometimes DET+WDT even when not det\n\nTODO: tag whom(ever) for case; lemmatize whom as who and whomever as whoever\n\nTODO: add Case=Gen for whose\n\nTODO: exclamative what is PRON+WDT?\n\nIndefinite pronouns\n\nThese are NN in PTB but PRON in UD. A feature indicating the type of pronoun is provided as shown in the table below. These also receive the feature Number=Sing.\n\nINDEFINITE | one | body | thing\n-- | -- | -- | --\nPronType=Tot | everyone | everybody | everything\nPronType=Ind (any) | anyone | anybody | anything\nPronType=Ind (some) | someone | somebody | something\nPronType=Neg | no one | nobody | nothing\n\nNote that the Ind (indefinite) value of the PronType feature is narrower in UD than the general use of the term \"indefinite pronoun\": Ind specifically refers to the some- and any- varieties.\nThese two varieties are not currently distinguished with features.\n\nFor no one, written as two words, no is tagged as DET, and one is tagged as PRON with PronType=Neg. (It can also be spelled as one hyphenated word.)\n\nN.B. when, wherever, somewhere, etc. are tagged as ADV, not PRON.\n\nDemonstrative pronouns\n\nAlways DT in PTB, but UD uses PRON when these head a nominal.\n\nPronType=Dem | Number=Sing | Number=Plur\n-- | -- | --\nprox | this | these [this]\ndist | that | those [that]\n\nThe proximal/distal distinction is not encoded in features, but each corresponds to a unique lemma.\n\nNote that ADVs here and there also receive PronType=Dem.\n\nExpletive there\n\nExpletive there (EX) receives no features.\n\nBy contrast, it is considered a personal pronoun (PRP) even when functioning as expl.\n\nReciprocal pronouns\n\nReciprocal pronouns each other and one another receive the feature PronType=Rcp and are analyzed structurally with fixed.\n\nExamples with tags:\n\nThey saw each/DET other/ADJ\nfixed(each, other)\nobj(saw, each)\n\nThey saw one/PRON another/DET\nfixed(one, another)\nobj(saw, one)\n\nUses of one\n\nAccording to the PTB tagging guidelines, one should be\n\n- CD by default, even when not a prenominal modifier, e.g. one of the best reasons, BUT\n- a pronoun if referring to a generic individual (roughly 'a person'): see personal pronoun table above\n- NN(S) \"if it could be pluralized or modified by an adjective\", and in another one\n\nThese correspond to UPOS tags NUM, PRON, and NOUN, respectively.\nHowever, we depart from PTB in treating one as a pronoun in no one and one another, as described above."
+  },
+  "NOUN": {
+    "shortdef": "noun",
+    "content": "The English NOUN corresponds to all cases of PTB NN and NNS, except for %, which we retag as SYM."
+  },
+  "PROPN": {
+    "shortdef": "proper noun",
+    "content": "The English PROPN corresponds to everything tagged NNP or NNPS in the PTB tag set. (Note that at present we make no attempt to exclude words arguably of other parts of speech which appear in proper noun phrases that the PTB tag set would tag with NNP(S). So, United States is United/PROPN States/PROPN.)"
+  },
+  "INTJ": {
+    "shortdef": "interjection",
+    "content": "The English INTJ corresponds to the PTB UH."
+  },
+  "PART": {
+    "shortdef": "particle",
+    "content": "The following English words (only) are currently being treated as PART in English:\n\n* Possessive marker: ’s or ’ (and non-standard forms s, -s)\n* Predicate negation: not, n’t, nt\n* Infinitive marker: to (and non-standard forms ta, na, too, ot, 2, a)\n\n(This is a slightly motley list and we may still want to rethink this category for English....)\n\nThis covers PTB tags POS and some (old PTB style) or all uses of TO, and the subset of RB that is negation."
+  },
+  "CCONJ": {
+    "shortdef": "coordinating conjunction",
+    "content": "The English CCONJ corresponds to PTB CC."
+  },
+  "VERB": {
+    "shortdef": "verb",
+    "content": "The tag VERB covers PTB tags VB, VBP, VBZ, VBD, VBG, VBN, except for auxiliary verb uses of be, have, do, and get. \n\n(Auxiliary verbs and modals are AUX and the infinitive to is PART.)"
+  },
+  "SYM": {
+    "shortdef": "symbol",
+    "content": "The English SYM covers PTB tags NFP (except for lines of separators, which become PUNCT), #, $, SYM, and for the percent sign (%)."
+  },
+  "DET": {
+    "shortdef": "determiner",
+    "content": "UPDATE IN PROGRESS\n\nOLD TEXT:\n\nThe English DET covers most cases of Penn Treebank DT, PDT, WDT. However, when a Penn Treebank word with one of these tags stands alone as a noun phrase rather than modifying another word, then it becomes PRON.\n\nNEW TEXT:\n\nHere are the English DET lexemes with associated morphological features (drawing on PronType, Definite, Number, and NumType):\n\nLexemes          | Features\n---------------- | -------------\na, an        | Definite=Ind|PronType=Art\nthe            | Definite=Def|PronType=Art\nthis, that   | Number=Sing|PronType=Dem\nthese, those | Number=Plur|PronType=Dem\nyonder         | PronType=Dem\nall, each\\\\, every | PronType=Tot\nboth           | PronType=Tot\nhalf\\*         | NumType=Frac|PronType=Ind\nno, neither, nary\\*              | PronType=Neg\nany, some, another\\\\, either | PronType=Ind\nsuch\\, quite\\, many\\*          | PronType=Ind\nwhich, what, whatever            | PronType=Ind or PronType=Rel\n\n\\* Only DET as a predeterminer (PTB PDT)\n\n\\\\ Except reciprocal each other and one another: see PRON"
+  },
+  "ADV": {
+    "shortdef": "adverb",
+    "content": "The English ADV covers all uses of PTB tags RB, RBR, RBS, and WRB except the clausal negation not and reduced forms of it, which become PART."
+  },
+  "ADJ": {
+    "shortdef": "adjective",
+    "content": "The English ADJ is currently precisely the union of PTB JJ, JJR, and JJS."
+  },
+  "X": {
+    "shortdef": "other",
+    "content": "The English tag X is used for the PTB tags FW, LS, XX, ADD, AFX, and GW. Some things tagged AFX would be candidates for retagging with other tags, but that has not been attempted."
+  },
+  "SCONJ": {
+    "shortdef": "subordinating conjunction",
+    "content": "SCONJ is used for these two subclasses of subordinating conjunctions:\n\n* Complementizers: that, whether, if, etc.\n* Adverbial clause introducers: when, since, before, etc. (when introducing a clause not a nominal)\n\nThese are a subset of the things that the IN tag is used for in the PTB.\n\nWe treat the putative relativizer use of that (e.g., Jespersen 1924) as a relative pronoun in modern English, so that it gets the POS tag PRON."
+  },
+  "NUM": {
+    "shortdef": "numeral",
+    "content": "The English NUM corresponds exactly to the PTB CD."
+  },
+  "PUNCT": {
+    "shortdef": "punctuation",
+    "content": "The English PUNCT covers PTB tags:\n\n* \n* ''\n* -LRB-\n* -RRB-\n* ,\n* .\n* :\n* HYPH\n* Some uses of NFP (for lines of hyphens, asterisks or tildes)"
+  }
+}
