@@ -30,7 +30,7 @@ def main():
     print('Low score sentences: {}'.format(len(low_score_sents)))
 
     d = {'high_score_sents': high_score_sents, 'low_score_sents': low_score_sents, 'file': args.file, 'diff_amount': DIFF_AMOUNT}
-    with open(os.path.join(THIS_DIR, 'error_analysis.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(THIS_DIR, 'error_analysis-score.json'), 'w', encoding='utf-8') as f:
         json.dump(d, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
