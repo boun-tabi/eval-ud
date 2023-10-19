@@ -5,16 +5,23 @@ def main():
     THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--file', type=str, required=True, help='File to be analyzed')
+    parser.add_argument('-d', '--directory', type=str, required=True, help='Directory of the run')
     args = parser.parse_args()
+    dir = args.directory
 
-    with open(args.file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    summary_path = os.path.join(dir, 'summary.json')
+    with open(summary_path, 'r', encoding='utf-8') as f:
+        summary = json.load(f)
     
-    if 'results' not in data:
+    md_path = os.path.join(dir, 'md.json')
+    with open(md_path, 'r', encoding='utf-8') as f:
+        md = json.load(f)
+    model = md['model']
+    
+    if 'results' not in summary:
         print('No results found in file')
         return
-    results = data['results']
+    results = summary['results']
 
     low_score_sents, high_score_sents = [], []
     for sent_id, value in results.items():
@@ -29,8 +36,8 @@ def main():
     print('High score sentences: {}'.format(len(high_score_sents)))
     print('Low score sentences: {}'.format(len(low_score_sents)))
 
-    d = {'high_score_sents': high_score_sents, 'low_score_sents': low_score_sents, 'file': args.file, 'diff_amount': DIFF_AMOUNT}
-    with open(os.path.join(THIS_DIR, 'error_analysis-score.json'), 'w', encoding='utf-8') as f:
+    d = {'high_score_sents': high_score_sents, 'low_score_sents': low_score_sents, 'diff_amount': DIFF_AMOUNT, 'file': summary_path}
+    with open(os.path.join(THIS_DIR, 'error_analysis-{}-score.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(d, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':

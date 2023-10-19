@@ -1,0 +1,57 @@
+{
+    "high_score_sents": [
+        {
+            "sent_id": "ins_1",
+            "diff": 0.7147354976683399,
+            "original_text": "Nasıl kendi hedeflerimizi belirginleştirdiğimizde yapılacak işlerde hızla, kararlı ve doğru adımlarla çalışıyorsak, bir kurumun büyümesi, gelişmesi, rekabet etmesi gibi koşullarda koyulacak hedeflerin de, o kurumun geleceğine direkt etki yapacağını unutmamalıyız.",
+            "text_v2_8": "\"Nasıl kendi hedeflerimizi belirleyip yapılacak işlerde hızla, kararlı ve doğru adımlarla çalışırız, bir kurumun büyümesi, gelişmesi, rekabet etmesi gibi koşullarda koyduğumuz hedeflerde de, o kurumun geleceğine direkt etkileyebileceğimizi unutmayız.\"",
+            "text_v2_11": "\"Nasıl kendinin hedeflerimizi belirginleştirmişi yapacak işlerde hızla, kararlı ve doğru adımlarla çalışırsak, bir kurumun büyümesi, gelişmesi, rekabet etmesi gibi koşullarda koyacağımız hedeflerde de, o kurumun geleceğine direkt etki yapacağımızı unutmayalım.\""
+        },
+        {
+            "sent_id": "ins_1661",
+            "diff": 0.20544382801664351,
+            "original_text": "Bir sonraki gelişlerinde düzlüğü daha berbat bulmuşlar.",
+            "text_v2_8": "\"Bir sonradan geliş düzde daha berbat buldular.\"",
+            "text_v2_11": "\"Bir sonraki gelişlerinde düzlüğü daha berbat bulmuşlar.\""
+        },
+        {
+            "sent_id": "bio_923",
+            "diff": 0.23891625615763545,
+            "original_text": "\"İşte şurada.",
+            "text_v2_8": "\"\"\"İş şûrada.\"\"\"",
+            "text_v2_11": "\"\"İşte şurada.\""
+        },
+        {
+            "sent_id": "bio_729",
+            "diff": 0.24532136014398798,
+            "original_text": "Arayışın sebebi de, yolu da, sonucu da doğru insandan geçerse, ve kişi aynı dili konuşabildiği, kendisini tam olarak ifade edebildiği ve karşısındakinin bunu tam olarak anlayabildiği bir dostla, bir sevgiliyle -idealde Richard Bach'ın öz eşiyle-, paylaşırsa, bu yaşamı çok daha mutlu ve tamamlanmış olarak yaşayabileceğini düşünüyorum.",
+            "text_v2_8": "\"Aranın sebebi de, yolun da, sonucu da doğru insandan geçer, ve kişi aynı dili konuşmuş, kendi tam olarak ifade etmiş ve karşısındaki bu tam anlamış bir dostla, bir sevgiliyle - ideali Richard Bach'ın özdeşi - , paylaşırsa, bu yaşam çok daha mutlu ve tamamlanmış olacağını yaşayacağımı düşünüyorum.\"",
+            "text_v2_11": "\"Arayışın sebebi de, yolun da, sonucu da doğru insandan geçerse, ve kişi aynı dili konuşabilmişse, kendini tam olarak ifade edebilmiş ve karşısındakini tam olarak anlayabilmiş bir dost, bir sevgili-ideal Richard Bach'ın özdeşiyle-, paylaşırsa, bu yaşamı çok daha mutlu ve tamamlanmış olarak yaşayacağını düşünüyorum.\""
+        },
+        {
+            "sent_id": "news_438",
+            "diff": 0.3094152046783626,
+            "original_text": "ECO zirvesinde yaptığı konuşmada, \"Milli kimliklerini ve devletlerini bugüne kadar inançla koruyan KKTC halkı, haklı davalarında tüm dünya kamuoyunun ve özellikle ECO üyesi kardeşlerimizin desteğini fazlasıyla hak etmektedir\" dedi.",
+            "text_v2_8": "\"Eco zirvede yapılan konuşmada, \\\"milli kimlikleri ve devletleri bugüne kadar inançla koruyan KKTC halkı, hâkim davalarında tüm Dünya'nın kamuoyu ve özellikle Eco üyesi kardeşlerimizin desteğini daha fazla hâkim etti\\\" dedi.\"",
+            "text_v2_11": "\"Eco zirvede yapılan konuşmada, \"Milli kimliklerini ve devletlerini bugüne kadar inançla koruyan KKTC halkı, haklı davalarında tüm Dünya'nın ve özellikle Eco üyesi kardeşlerimizin desteğini fazlasıyla hak ediyor\" dedi.\""
+        }
+    ],
+    "low_score_sents": [
+        {
+            "sent_id": "news_7",
+            "diff": -0.21433038506209234,
+            "original_text": "Erdoğan, Bilkent Otel'de düzenlenen Sermaye Piyasası Kurulu'nun (SPK), yıl dönümü kutlamaları çerçevesinde düzenlenen toplantıda yaptığı konuşmada, SPK'nın başta özel sektör yatırımları olmak üzere alt yapı yatırımlarımızın, kalkınmanın uzun vadeli bir finansmanı olduğunu söyledi.",
+            "text_v2_8": "\"Erdoğan, Bilkent otelde düzenlenen sermaye piyasasının Kurulu (SPK), yıl dönümünü kutlamalar çerçevesinde düzenlenen toplantıda konuştu, SPK başında özel sektör yatırımları olmak üzere alt yapı yatırımlarımız, kalkınmanın uzun vadeli bir finansmanı olmuş söyledi.\"",
+            "text_v2_11": "\"Erdoğan, Bilkent otelde düzenlenen sermaye piyasasının Kurulu (SPK), yıl dönümünü kutlamalar çerçevesinde düzenlenen toplantıda yaptığı konuşmada, SPK'nın başında özel sektör yatırımlarının olması üzere alt yapı yatırımlarımız, kalkınmamızın uzun vadeli bir finansman olmuş olduğunu söyledi.\""
+        },
+        {
+            "sent_id": "news_112",
+            "diff": -0.2232142857142857,
+            "original_text": "Bunu biliyorum.",
+            "text_v2_8": "\"Bunu biliyorum.\"",
+            "text_v2_11": "\"Bu bilirim.\""
+        }
+    ],
+    "diff_amount": 0.2,
+    "file": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-20231015231246/summary.json"
+}
