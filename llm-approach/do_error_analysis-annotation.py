@@ -1,4 +1,7 @@
 import os, argparse, json
+from spacy.tokenizer import Tokenizer
+from spacy.lang.tr import Turkish
+from rapidfuzz import fuzz
 
 def main():
     THIS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -39,57 +42,124 @@ def main():
         return
     results = summary['results']
 
+    nlp = Turkish()
+    tokenizer = nlp.tokenizer
+
     analysis_d = {'sentences': {}}
     for sent_id, value in results.items():
         v2_8_table, v2_11_table = tb8[sent_id]['table'], tb11[sent_id]['table']
+        original_text, text_v2_8, text_v2_11 = value['original text'], value['v2.8 text'], value['v2.11 text']
+        if text_v2_8[0] == '"' and text_v2_8[-1] == '"' and original_text[0] != '"' and original_text[-1] != '"':
+            text_v2_8 = text_v2_8[1:-1]
+        if text_v2_11[0] == '"' and text_v2_11[-1] == '"' and original_text[0] != '"' and original_text[-1] != '"':
+            text_v2_11 = text_v2_11[1:-1]
+
+        v2_8_tokens = []
+        for token in tokenizer(text_v2_8):
+            v2_8_tokens.append(token.text)
+        v2_11_tokens = []
+        for token in tokenizer(text_v2_11):
+            v2_11_tokens.append(token.text)
+        original_tokens = []
+        for token in tokenizer(original_text):
+            original_tokens.append(token.text)
+        comparison_d = {}
+        idx_8, idx_11 = 0, 0
+        for i, token in enumerate(original_tokens):
+            while idx_8 < len(v2_8_tokens) - 1 and fuzz.ratio(token, v2_8_tokens[idx_8 + 1]) > fuzz.ratio(token, v2_11_tokens[idx_8]):
+                idx_8 += 1
+            while idx_11 < len(v2_11_tokens) - 1 and fuzz.ratio(token, v2_11_tokens[idx_11 + 1]) > fuzz.ratio(token, v2_11_tokens[idx_11]):
+                idx_11 += 1
+            if idx_8 < len(v2_8_tokens) and token != v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token == v2_11_tokens[idx_11]:
+                comparison_d[i] = {'v2.8': 0, 'v2.11': 1, 'idx_8': idx_8, 'idx_11': idx_11}
+                print(token)
+                print('v2.8: {} | v2.11: {}'.format(v2_8_tokens[idx_8], v2_11_tokens[idx_11]))
+                input()
+            elif idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token != v2_11_tokens[idx_11]:
+                comparison_d[i] = {'v2.8': 1, 'v2.11': 0, 'idx_8': idx_8, 'idx_11': idx_11}
+
         v2_8_annotation = {}
-        for line in v2_8_table.split('\n'):
+        token_idx = 0
+        in_split = -1
+        for i, line in enumerate(v2_8_table.split('\n')):
             fields = line.split('\t')
             id_t, form_t, feats_t, misc_t = fields[0], fields[1], fields[5], fields[9]
+            if '-' in id_t:
+                in_split = 0
+                continue
+            while 1:
+                if token_idx < len(v2_8_tokens) - 1 and fuzz.ratio(form_t, v2_8_tokens[token_idx + 1]) > fuzz.ratio(form_t, v2_8_tokens[token_idx]):
+                    token_idx += 1
+                elif token_idx - 1 > -1 and token_idx < len(v2_8_tokens) and fuzz.ratio(form_t, v2_8_tokens[token_idx - 1]) > fuzz.ratio(form_t, v2_8_tokens[token_idx]):
+                    token_idx -= 1
+                else:
+                    break
             v2_8_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_8_annotation[id_t]['space_after'] = False
+            if token_idx in comparison_d:
+                if 'v2.8 feats' not in comparison_d[token_idx]:
+                    comparison_d[token_idx]['v2.8 feats'] = ''
+                if comparison_d[token_idx]['v2.8 feats'] != '' and feats_t != '_':
+                    comparison_d[token_idx]['v2.8 feats'] += '|'
+                    comparison_d[token_idx]['v2.8 feats'] += feats_t
+                elif comparison_d[token_idx]['v2.8 feats'] == '' and feats_t != '_':
+                    comparison_d[token_idx]['v2.8 feats'] = feats_t
+            if in_split == 0:
+                in_split = 1
+            elif in_split == 1:
+                token_idx += 1
+                in_split = -1
+            elif in_split == -1:
+                token_idx += 1
 
         v2_11_annotation = {}
-        for line in v2_11_table.split('\n'):
+        token_idx = 0
+        in_split = -1
+        for i, line in enumerate(v2_11_table.split('\n')):
             fields = line.split('\t')
             id_t, form_t, feats_t, misc_t = fields[0], fields[1], fields[5], fields[9]
+            if '-' in id_t:
+                in_split = 0
+                continue
+            while 1:
+                if token_idx < len(v2_11_tokens) - 1 and fuzz.ratio(form_t, v2_11_tokens[token_idx + 1]) > fuzz.ratio(form_t, v2_11_tokens[token_idx]):
+                    token_idx += 1
+                elif token_idx - 1 > -1 and token_idx < len(v2_11_tokens) and fuzz.ratio(form_t, v2_11_tokens[token_idx - 1]) > fuzz.ratio(form_t, v2_11_tokens[token_idx]):
+                    token_idx -= 1
+                else:
+                    break
             v2_11_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_11_annotation[id_t]['space_after'] = False
+            if token_idx in comparison_d:
+                if 'v2.11 feats' not in comparison_d[token_idx]:
+                    comparison_d[token_idx]['v2.11 feats'] = ''
+                if comparison_d[token_idx]['v2.11 feats'] != '' and feats_t != '_':
+                    comparison_d[token_idx]['v2.11 feats'] += '|'
+                    comparison_d[token_idx]['v2.11 feats'] += feats_t
+                elif comparison_d[token_idx]['v2.11 feats'] == '' and feats_t != '_':
+                    comparison_d[token_idx]['v2.11 feats'] = feats_t
+            if in_split == 0:
+                in_split = 1
+                if token_idx in comparison_d:
+                    comparison_d[token_idx]['split'] = True
+            elif in_split == 1:
+                in_split = -1
+            elif in_split == -1:
+                token_idx += 1
+        
+        for key in comparison_d:
+            if 'split' not in comparison_d[key]:
+                comparison_d[key]['split'] = False
+            comparison_d[key]['token'] = original_tokens[key]
+            comparison_d[key]['v2.8 token'] = v2_8_tokens[comparison_d[key]['idx_8']]
+            comparison_d[key]['v2.11 token'] = v2_11_tokens[comparison_d[key]['idx_11']]
 
-        ratio_v2_8, ratio_v2_11 = value['v2.8 ratio'], value['v2.11 ratio']
-        original_text, text_v2_8, text_v2_11 = value['original text'], value['v2.8 text'], value['v2.11 text']
+        print(json.dumps(comparison_d, indent=4, ensure_ascii=False))
+        input()
 
-        id_cursor8, id_cursor11 = 1, 1
-        for token in original_text.split(' '):
-            if '{}-{}'.format(id_cursor8, id_cursor8 + 1) in v2_8_annotation.keys():
-                feats1_str = v2_8_annotation[id_cursor8]['feats']
-                feats1_d = {}
-                for feat in feats1_str.split('|'):
-                    feat_k, feat_v = feat.split('=')
-                    feats1_d[feat_k] = feat_v
-                feats2_str = v2_8_annotation[id_cursor8 + 1]['feats']
-                feats2_d = {}
-                for feat in feats2_str.split('|'):
-                    feat_k, feat_v = feat.split('=')
-                    feats2_d[feat_k] = feat_v
-                feats1_set = set(feats1_d.keys())
-                key_l = feats1_set.union(set(feats2_d.keys()))
-                if len(key_l) != len(feats1_set) + len(feats2_d.keys()):
-                    print('Error in annotation')
-                    input()
-                id_cursor8 += 1
-            if '{}-{}'.format(id_cursor11, id_cursor11 + 1) in v2_11_annotation.keys():
-                feats1 = v2_11_annotation[id_cursor11]['feats']
-                feats2 = v2_11_annotation[id_cursor11 + 1]['feats']
-                id_cursor11 += 1
-            id_cursor8 += 1
-            id_cursor11 += 1
-
-        diff = ratio_v2_11 - ratio_v2_8
-        d = {'diff': diff, 'original_text': original_text, 'text_v2_8': text_v2_8, 'text_v2_11': text_v2_11}
-        analysis_d['sentences'][sent_id] = d
+        analysis_d['sentences'][sent_id] = comparison_d
 
     with open(os.path.join(THIS_DIR, 'error_analysis-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(analysis_d, f, indent=4, ensure_ascii=False)
