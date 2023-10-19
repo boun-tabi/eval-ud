@@ -66,18 +66,26 @@ def main():
         comparison_d = {}
         idx_8, idx_11 = 0, 0
         for i, token in enumerate(original_tokens):
-            while idx_8 < len(v2_8_tokens) - 1 and fuzz.ratio(token, v2_8_tokens[idx_8 + 1]) > fuzz.ratio(token, v2_11_tokens[idx_8]):
-                idx_8 += 1
-            while idx_11 < len(v2_11_tokens) - 1 and fuzz.ratio(token, v2_11_tokens[idx_11 + 1]) > fuzz.ratio(token, v2_11_tokens[idx_11]):
-                idx_11 += 1
+            while True:
+                if idx_8 < len(v2_8_tokens) - 1 and fuzz.ratio(token, v2_8_tokens[idx_8 + 1]) > fuzz.ratio(token, v2_8_tokens[idx_8]):
+                    idx_8 += 1
+                elif idx_8 - 1 > -1 and idx_8 < len(v2_8_tokens) and fuzz.ratio(token, v2_8_tokens[idx_8 - 1]) > fuzz.ratio(token, v2_8_tokens[idx_8]):
+                    idx_8 -= 1
+                else:
+                    break
+            while True:
+                if idx_11 < len(v2_11_tokens) - 1 and fuzz.ratio(token, v2_11_tokens[idx_11 + 1]) > fuzz.ratio(token, v2_11_tokens[idx_11]):
+                    idx_11 += 1
+                elif idx_11 - 1 > -1 and idx_11 < len(v2_11_tokens) and fuzz.ratio(token, v2_11_tokens[idx_11 - 1]) > fuzz.ratio(token, v2_11_tokens[idx_11]):
+                    idx_11 -= 1
+                else:
+                    break
             if idx_8 < len(v2_8_tokens) and token != v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token == v2_11_tokens[idx_11]:
                 comparison_d[i] = {'v2.8': 0, 'v2.11': 1, 'idx_8': idx_8, 'idx_11': idx_11}
-                print(token)
-                print('v2.8: {} | v2.11: {}'.format(v2_8_tokens[idx_8], v2_11_tokens[idx_11]))
-                input()
             elif idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token != v2_11_tokens[idx_11]:
                 comparison_d[i] = {'v2.8': 1, 'v2.11': 0, 'idx_8': idx_8, 'idx_11': idx_11}
-
+            idx_8 += 1
+            idx_11 += 1
         v2_8_annotation = {}
         token_idx = 0
         in_split = -1
@@ -97,16 +105,22 @@ def main():
             v2_8_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_8_annotation[id_t]['space_after'] = False
-            if token_idx in comparison_d:
-                if 'v2.8 feats' not in comparison_d[token_idx]:
-                    comparison_d[token_idx]['v2.8 feats'] = ''
-                if comparison_d[token_idx]['v2.8 feats'] != '' and feats_t != '_':
-                    comparison_d[token_idx]['v2.8 feats'] += '|'
-                    comparison_d[token_idx]['v2.8 feats'] += feats_t
-                elif comparison_d[token_idx]['v2.8 feats'] == '' and feats_t != '_':
-                    comparison_d[token_idx]['v2.8 feats'] = feats_t
+            for key in comparison_d:
+                if comparison_d[key]['idx_8'] == token_idx:
+                    if 'v2.8 feats' not in comparison_d[key]:
+                        comparison_d[key]['v2.8 feats'] = ''
+                    if comparison_d[key]['v2.8 feats'] != '' and feats_t != '_':
+                        comparison_d[key]['v2.8 feats'] += '|'
+                        comparison_d[key]['v2.8 feats'] += feats_t
+                    elif comparison_d[key]['v2.8 feats'] == '' and feats_t != '_':
+                        comparison_d[key]['v2.8 feats'] = feats_t
+                    break
             if in_split == 0:
                 in_split = 1
+                for key in comparison_d:
+                    if comparison_d[key]['idx_8'] == token_idx:
+                        comparison_d[key]['split'] = True
+                        break
             elif in_split == 1:
                 token_idx += 1
                 in_split = -1
@@ -132,18 +146,22 @@ def main():
             v2_11_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_11_annotation[id_t]['space_after'] = False
-            if token_idx in comparison_d:
-                if 'v2.11 feats' not in comparison_d[token_idx]:
-                    comparison_d[token_idx]['v2.11 feats'] = ''
-                if comparison_d[token_idx]['v2.11 feats'] != '' and feats_t != '_':
-                    comparison_d[token_idx]['v2.11 feats'] += '|'
-                    comparison_d[token_idx]['v2.11 feats'] += feats_t
-                elif comparison_d[token_idx]['v2.11 feats'] == '' and feats_t != '_':
-                    comparison_d[token_idx]['v2.11 feats'] = feats_t
+            for key in comparison_d:
+                if comparison_d[key]['idx_11'] == token_idx:
+                    if 'v2.11 feats' not in comparison_d[key]:
+                        comparison_d[key]['v2.11 feats'] = ''
+                    if comparison_d[key]['v2.11 feats'] != '' and feats_t != '_':
+                        comparison_d[key]['v2.11 feats'] += '|'
+                        comparison_d[key]['v2.11 feats'] += feats_t
+                    elif comparison_d[key]['v2.11 feats'] == '' and feats_t != '_':
+                        comparison_d[key]['v2.11 feats'] = feats_t
+                    break
             if in_split == 0:
                 in_split = 1
-                if token_idx in comparison_d:
-                    comparison_d[token_idx]['split'] = True
+                for key in comparison_d:
+                    if comparison_d[key]['idx_11'] == token_idx:
+                        comparison_d[key]['split'] = True
+                        break
             elif in_split == 1:
                 in_split = -1
             elif in_split == -1:
@@ -156,10 +174,64 @@ def main():
             comparison_d[key]['v2.8 token'] = v2_8_tokens[comparison_d[key]['idx_8']]
             comparison_d[key]['v2.11 token'] = v2_11_tokens[comparison_d[key]['idx_11']]
 
-        print(json.dumps(comparison_d, indent=4, ensure_ascii=False))
-        input()
-
         analysis_d['sentences'][sent_id] = comparison_d
+    
+    analysis_d['feats'] = {'increase': {}, 'decrease': {}}
+    for sent_id in analysis_d['sentences'].keys():
+        ids = list(analysis_d['sentences'][sent_id].keys())
+        for id_t in ids:
+            el = analysis_d['sentences'][sent_id][id_t]
+            v2_8, v2_11 = el['v2.8'], el['v2.11']
+            if 'v2.8 feats' not in el or 'v2.11 feats' not in el:
+                continue
+            feats8, feats11 = el['v2.8 feats'], el['v2.11 feats']
+            feat_l_8, feat_l_11 = feats8.split('|'), feats11.split('|')
+            feat_d_8, feat_d_11 = {}, {}
+            for feat in feat_l_8:
+                if feat != '':
+                    tag, value = feat.split('=')
+                    feat_d_8[tag] = value
+            tag_s = set(feat_d_8.keys())
+            for feat in feat_l_11:
+                if feat != '':
+                    tag, value = feat.split('=')
+                    feat_d_11[tag] = value
+            tag_s.update(feat_d_11.keys())
+            if v2_8 == 0 and v2_11 == 1:
+                for tag in tag_s:
+                    if tag not in feat_d_8:
+                        tup = ('add', '{}={}'.format(tag, feat_d_11[tag]))
+                    elif tag not in feat_d_11:
+                        tup = ('remove', '{}={}'.format(tag, feat_d_8[tag]))
+                    elif feat_d_8[tag] != feat_d_11[tag]:
+                        tup = ('change', '{}={}'.format(tag, feat_d_8[tag]), '{}={}'.format(tag, feat_d_11[tag]))
+                    else:
+                        continue
+                    if tup not in analysis_d['feats']['increase']:
+                        analysis_d['feats']['increase'][tup] = 0
+                    analysis_d['feats']['increase'][tup] += 1
+            elif v2_8 == 1 and v2_11 == 0:
+                for tag in tag_s:
+                    if tag not in feat_d_8:
+                        tup = ('remove', '{}={}'.format(tag, feat_d_11[tag]))
+                    elif tag not in feat_d_11:
+                        tup = ('add', '{}={}'.format(tag, feat_d_8[tag]))
+                    elif feat_d_8[tag] != feat_d_11[tag]:
+                        tup = ('change', '{}={}'.format(tag, feat_d_11[tag]), '{}={}'.format(tag, feat_d_8[tag]))
+                    else:
+                        continue
+                    if tup not in analysis_d['feats']['decrease']:
+                        analysis_d['feats']['decrease'][tup] = 0
+                    analysis_d['feats']['decrease'][tup] += 1
+    
+    increase_d = analysis_d['feats']['increase'].copy()
+    analysis_d['feats']['increase'] = []
+    for key in increase_d:
+        analysis_d['feats']['increase'].append({'tuple': list(key), 'count': increase_d[key]})
+    decrease_d = analysis_d['feats']['decrease'].copy()
+    analysis_d['feats']['decrease'] = []
+    for key in decrease_d:
+        analysis_d['feats']['decrease'].append({'tuple': list(key), 'count': decrease_d[key]})
 
     with open(os.path.join(THIS_DIR, 'error_analysis-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(analysis_d, f, indent=4, ensure_ascii=False)
