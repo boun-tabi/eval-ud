@@ -37,10 +37,10 @@ def main():
             prev_feat, new_feat = tup[1], tup[2]
         d = {'operation': op, 'count': aggregate_d['increase'][tup]}
         if feat:
-            d['features'] = feat
+            d['feat'] = feat
         if prev_feat and new_feat:
-            d['previous_features'] = prev_feat
-            d['new_features'] = new_feat
+            d['prev_feat'] = prev_feat
+            d['new_feat'] = new_feat
         new_d['increase'].append(d)
     new_d['increase'] = sorted(new_d['increase'], key=lambda x: x['count'], reverse=True)
     for tup in aggregate_d['decrease']:
@@ -55,10 +55,10 @@ def main():
             prev_feat, new_feat = tup[1], tup[2]
         d = {'operation': op, 'count': aggregate_d['decrease'][tup]}
         if feat:
-            d['features'] = feat
+            d['feat'] = feat
         if prev_feat and new_feat:
-            d['previous_features'] = prev_feat
-            d['new_features'] = new_feat
+            d['prev_feat'] = prev_feat
+            d['new_feat'] = new_feat
         new_d['decrease'].append(d)
     new_d['decrease'] = sorted(new_d['decrease'], key=lambda x: x['count'], reverse=True)
     aggregate_d = new_d
