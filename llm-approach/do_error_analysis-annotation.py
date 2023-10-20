@@ -46,6 +46,7 @@ def main():
     tokenizer = nlp.tokenizer
 
     analysis_d = {'sentences': {}}
+    v2_8_match, v2_11_match, all = 0, 0, 0
     for sent_id, value in results.items():
         v2_8_table, v2_11_table = tb8[sent_id]['table'], tb11[sent_id]['table']
         original_text, text_v2_8, text_v2_11 = value['original text'], value['v2.8 text'], value['v2.11 text']
@@ -84,6 +85,11 @@ def main():
                 comparison_d[i] = {'v2.8': 0, 'v2.11': 1, 'idx_8': idx_8, 'idx_11': idx_11}
             elif idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token != v2_11_tokens[idx_11]:
                 comparison_d[i] = {'v2.8': 1, 'v2.11': 0, 'idx_8': idx_8, 'idx_11': idx_11}
+            if idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8]:
+                v2_8_match += 1
+            if idx_11 < len(v2_11_tokens) and token == v2_11_tokens[idx_11]:
+                v2_11_match += 1
+            all += 1
             idx_8 += 1
             idx_11 += 1
         v2_8_annotation = {}
@@ -225,16 +231,24 @@ def main():
                     analysis_d['feats']['decrease'][tup] += 1
     
     increase_d = analysis_d['feats']['increase'].copy()
+    keys = list(increase_d.keys())
+    keys.sort(key=lambda x: increase_d[x], reverse=True)
     analysis_d['feats']['increase'] = []
-    for key in increase_d:
+    for key in keys:
         analysis_d['feats']['increase'].append({'tuple': list(key), 'count': increase_d[key]})
     decrease_d = analysis_d['feats']['decrease'].copy()
+    keys = list(decrease_d.keys())
+    keys.sort(key=lambda x: decrease_d[x], reverse=True)
     analysis_d['feats']['decrease'] = []
-    for key in decrease_d:
+    for key in keys:
         analysis_d['feats']['decrease'].append({'tuple': list(key), 'count': decrease_d[key]})
 
     with open(os.path.join(THIS_DIR, 'error_analysis-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(analysis_d, f, indent=4, ensure_ascii=False)
+    
+    print('Model:', model)
+    print('v2.8 ratio: {}'.format(v2_8_match / all))
+    print('v2.11 ratio: {}'.format(v2_11_match / all))
 
 if __name__ == '__main__':
     main()

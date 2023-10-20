@@ -14340,27 +14340,6 @@
         "increase": [
             {
                 "tuple": [
-                    "add",
-                    "VerbForm=Conv"
-                ],
-                "count": 11
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Pass"
-                ],
-                "count": 8
-            },
-            {
-                "tuple": [
-                    "add",
-                    "VerbForm=Vnoun"
-                ],
-                "count": 32
-            },
-            {
-                "tuple": [
                     "remove",
                     "Person=3"
                 ],
@@ -14382,10 +14361,38 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Person[psor]=3"
+                    "add",
+                    "Number=Sing"
                 ],
-                "count": 20
+                "count": 43
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person=3"
+                ],
+                "count": 41
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Polarity=Pos"
+                ],
+                "count": 39
+            },
+            {
+                "tuple": [
+                    "add",
+                    "VerbForm=Vnoun"
+                ],
+                "count": 32
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Polarity=Pos"
+                ],
+                "count": 32
             },
             {
                 "tuple": [
@@ -14393,6 +14400,20 @@
                     "Number[psor]=Sing"
                 ],
                 "count": 23
+            },
+            {
+                "tuple": [
+                    "add",
+                    "VerbForm=Part"
+                ],
+                "count": 23
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person[psor]=3"
+                ],
+                "count": 20
             },
             {
                 "tuple": [
@@ -14404,24 +14425,10 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Person=3"
-                ],
-                "count": 41
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Number=Sing"
-                ],
-                "count": 43
-            },
-            {
-                "tuple": [
                     "remove",
-                    "Aspect=Imp"
+                    "Aspect=Perf"
                 ],
-                "count": 6
+                "count": 19
             },
             {
                 "tuple": [
@@ -14429,6 +14436,69 @@
                     "Tense=Pres"
                 ],
                 "count": 17
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Tense=Past"
+                ],
+                "count": 14
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "VerbForm=Part"
+                ],
+                "count": 13
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Nom"
+                ],
+                "count": 12
+            },
+            {
+                "tuple": [
+                    "add",
+                    "VerbForm=Conv"
+                ],
+                "count": 11
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Number[psor]=Sing"
+                ],
+                "count": 10
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Tense=Pres"
+                ],
+                "count": 9
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Evident=Fh"
+                ],
+                "count": 9
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Aspect=Perf"
+                ],
+                "count": 9
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Pass"
+                ],
+                "count": 8
             },
             {
                 "tuple": [
@@ -14440,17 +14510,38 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "VerbForm=Part"
+                    "add",
+                    "Person[psor]=3"
                 ],
-                "count": 13
+                "count": 8
             },
             {
                 "tuple": [
                     "remove",
-                    "Polarity=Pos"
+                    "Mood=Imp"
                 ],
-                "count": 39
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Mood=Imp"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person=2"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Aspect=Imp"
+                ],
+                "count": 6
             },
             {
                 "tuple": [
@@ -14463,7 +14554,57 @@
             {
                 "tuple": [
                     "remove",
+                    "Number=Plur"
+                ],
+                "count": 6
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Tense=Past"
+                ],
+                "count": 6
+            },
+            {
+                "tuple": [
+                    "remove",
                     "Aspect=Hab"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Number=Plur"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Number=Plur",
+                    "Number=Sing"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "add",
+                    "PronType=Prs"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person[psor]=1"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Acc"
                 ],
                 "count": 5
             },
@@ -14476,27 +14617,6 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Aspect=Perf"
-                ],
-                "count": 19
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Imp"
-                ],
-                "count": 7
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Polarity=Pos"
-                ],
-                "count": 32
-            },
-            {
-                "tuple": [
                     "add",
                     "Aspect=Hab"
                 ],
@@ -14504,53 +14624,60 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Tense=Pres"
+                    "remove",
+                    "Number[psor]=Plur"
                 ],
-                "count": 9
+                "count": 4
             },
             {
                 "tuple": [
                     "remove",
-                    "Case=Abl"
+                    "Case=Gen"
                 ],
-                "count": 2
+                "count": 4
             },
             {
                 "tuple": [
                     "add",
-                    "Mood=Imp"
+                    "Voice=Pass"
                 ],
-                "count": 7
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Tense=Fut"
+                ],
+                "count": 4
             },
             {
                 "tuple": [
                     "change",
-                    "Person=3",
-                    "Person=2"
+                    "Aspect=Imp",
+                    "Aspect=Prosp"
                 ],
-                "count": 1
+                "count": 4
             },
             {
                 "tuple": [
                     "remove",
-                    "Person[psor]=2"
+                    "Evident=Nfh"
                 ],
-                "count": 2
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Loc"
+                ],
+                "count": 4
             },
             {
                 "tuple": [
                     "add",
-                    "Number=Plur"
+                    "Case=Ins"
                 ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=2"
-                ],
-                "count": 7
+                "count": 4
             },
             {
                 "tuple": [
@@ -14569,32 +14696,146 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Evident=Fh"
+                    "add",
+                    "Polarity=Neg"
                 ],
-                "count": 9
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Number=Plur",
-                    "Number=Sing"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Tense=Past"
-                ],
-                "count": 14
+                "count": 3
             },
             {
                 "tuple": [
                     "add",
-                    "PronType=Prs"
+                    "Evident=Fh"
                 ],
-                "count": 5
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Loc"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Acc"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Abl"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person[psor]=2"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Cau"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Dat"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Mood=Pot"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Dat"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person=1"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Aspect=Prog"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Abl"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person[psor]=2"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Gen"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Aspect=Prog"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Loc",
+                    "Case=Nom"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person=2"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Gen",
+                    "Case=Nom"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Person=3",
+                    "Person=2"
+                ],
+                "count": 1
             },
             {
                 "tuple": [
@@ -14603,13 +14844,6 @@
                     "Case=Abl"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Cau"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -14629,122 +14863,10 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Number=Plur"
-                ],
-                "count": 6
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Gen"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Person[psor]=1"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Number[psor]=Plur"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Dat"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
                     "add",
                     "PronType=Loc"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Voice=Pass"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "add",
-                    "VerbForm=Part"
-                ],
-                "count": 23
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Nom"
-                ],
-                "count": 12
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Polarity=Neg"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Acc"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Evident=Fh"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Tense=Past"
-                ],
-                "count": 6
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Aspect=Perf"
-                ],
-                "count": 9
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Loc"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person[psor]=3"
-                ],
-                "count": 8
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Number[psor]=Sing"
-                ],
-                "count": 10
             },
             {
                 "tuple": [
@@ -14756,43 +14878,7 @@
             {
                 "tuple": [
                     "remove",
-                    "Mood=Pot"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Tense=Fut"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Dat"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
                     "NumType=Card"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Aspect=Imp",
-                    "Aspect=Prosp"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Nec"
                 ],
                 "count": 1
             },
@@ -14806,9 +14892,9 @@
             {
                 "tuple": [
                     "remove",
-                    "Person=1"
+                    "Mood=Nec"
                 ],
-                "count": 2
+                "count": 1
             },
             {
                 "tuple": [
@@ -14824,20 +14910,6 @@
                     "Reflex=Yes"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Acc"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Aspect=Prog"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -14893,20 +14965,6 @@
             {
                 "tuple": [
                     "add",
-                    "Case=Abl"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person[psor]=2"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
                     "Number[psor]=Plur"
                 ],
                 "count": 1
@@ -14921,32 +14979,11 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Gen"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
                     "change",
                     "Person=2",
                     "Person=3"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Evident=Nfh"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Aspect=Prog"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -14957,40 +14994,11 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Case=Loc"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Loc",
-                    "Case=Nom"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Person=2"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
                     "change",
                     "Case=Acc",
                     "Case=Gen"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Ins"
-                ],
-                "count": 4
             },
             {
                 "tuple": [
@@ -15007,14 +15015,6 @@
                     "Case=Abl"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Gen",
-                    "Case=Nom"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -15042,75 +15042,10 @@
         "decrease": [
             {
                 "tuple": [
-                    "change",
-                    "Case=Dat",
-                    "Case=Nom"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Mood=Ind"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Aspect=Perf"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Aspect=Imp",
-                    "Aspect=Prog"
-                ],
-                "count": 17
-            },
-            {
-                "tuple": [
-                    "add",
+                    "remove",
                     "Number=Sing"
                 ],
-                "count": 11
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Nom"
-                ],
-                "count": 11
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=3"
-                ],
-                "count": 11
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Polarity=Pos"
-                ],
-                "count": 31
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "VerbForm=Part"
-                ],
-                "count": 19
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Pot"
-                ],
-                "count": 3
+                "count": 47
             },
             {
                 "tuple": [
@@ -15122,23 +15057,31 @@
             {
                 "tuple": [
                     "remove",
-                    "Number=Sing"
+                    "Polarity=Pos"
                 ],
-                "count": 47
+                "count": 31
             },
             {
                 "tuple": [
                     "remove",
-                    "Case=Acc"
+                    "Case=Nom"
                 ],
-                "count": 5
+                "count": 23
             },
             {
                 "tuple": [
                     "remove",
+                    "VerbForm=Part"
+                ],
+                "count": 19
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Aspect=Imp",
                     "Aspect=Prog"
                 ],
-                "count": 6
+                "count": 17
             },
             {
                 "tuple": [
@@ -15151,23 +15094,44 @@
             {
                 "tuple": [
                     "remove",
-                    "VerbForm=Conv"
+                    "VerbForm=Vnoun"
                 ],
-                "count": 4
+                "count": 14
             },
             {
                 "tuple": [
                     "remove",
-                    "NumType=Card"
+                    "Number[psor]=Sing"
                 ],
-                "count": 1
+                "count": 13
             },
             {
                 "tuple": [
                     "remove",
-                    "Polarity=Neg"
+                    "Tense=Past"
                 ],
-                "count": 5
+                "count": 12
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person=3"
+                ],
+                "count": 11
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Number=Sing"
+                ],
+                "count": 11
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Nom"
+                ],
+                "count": 11
             },
             {
                 "tuple": [
@@ -15186,30 +15150,9 @@
             {
                 "tuple": [
                     "remove",
-                    "Tense=Past"
+                    "Tense=Pres"
                 ],
-                "count": 12
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Number[psor]=Plur"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Pass"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "PronType=Int"
-                ],
-                "count": 3
+                "count": 11
             },
             {
                 "tuple": [
@@ -15220,31 +15163,18 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Case=Ins"
+                    "change",
+                    "Aspect=Hab",
+                    "Aspect=Perf"
                 ],
-                "count": 2
+                "count": 7
             },
             {
                 "tuple": [
                     "remove",
-                    "Case=Dat"
+                    "Aspect=Prog"
                 ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "VerbForm=Vnoun"
-                ],
-                "count": 14
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Nom"
-                ],
-                "count": 23
+                "count": 6
             },
             {
                 "tuple": [
@@ -15256,6 +15186,27 @@
             {
                 "tuple": [
                     "remove",
+                    "Case=Acc"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Polarity=Neg"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Dat"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "remove",
                     "Case=Loc"
                 ],
                 "count": 5
@@ -15263,24 +15214,24 @@
             {
                 "tuple": [
                     "change",
-                    "Tense=Past",
-                    "Tense=Pres"
+                    "Case=Dat",
+                    "Case=Nom"
                 ],
-                "count": 2
+                "count": 4
             },
             {
                 "tuple": [
                     "remove",
-                    "Number[psor]=Sing"
+                    "VerbForm=Conv"
                 ],
-                "count": 13
+                "count": 4
             },
             {
                 "tuple": [
                     "remove",
-                    "Mood=Cnd"
+                    "Voice=Pass"
                 ],
-                "count": 1
+                "count": 4
             },
             {
                 "tuple": [
@@ -15292,11 +15243,67 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Case=Loc",
-                    "Case=Nom"
+                    "remove",
+                    "Aspect=Imp"
                 ],
-                "count": 1
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Tense=Past"
+                ],
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Mood=Ind"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Mood=Pot"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Int"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Mood=Imp"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Polarity=Pos"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Ins"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Tense=Past",
+                    "Tense=Pres"
+                ],
+                "count": 2
             },
             {
                 "tuple": [
@@ -15305,35 +15312,6 @@
                     "Number[psor]=Plur"
                 ],
                 "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Aspect=Imp"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Tense=Pres"
-                ],
-                "count": 11
-            },
-            {
-                "tuple": [
-                    "change",
-                    "VerbForm=Part",
-                    "VerbForm=Conv"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Mood=Imp"
-                ],
-                "count": 3
             },
             {
                 "tuple": [
@@ -15349,6 +15327,129 @@
                     "Tense=Fut"
                 ],
                 "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Mood=Gen"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person[psor]=2"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Person=3",
+                    "Person=1"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Evident=Nfh"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Abl"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Loc"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Mood=Imp"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Dem"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Number[psor]=Sing"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Abl"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Acc",
+                    "Case=Gen"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Aspect=Perf"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "NumType=Card"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Number[psor]=Plur"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Mood=Cnd"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Loc",
+                    "Case=Nom"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "VerbForm=Part",
+                    "VerbForm=Conv"
+                ],
+                "count": 1
             },
             {
                 "tuple": [
@@ -15382,76 +15483,11 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Mood=Gen"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Person[psor]=2"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Aspect=Hab",
-                    "Aspect=Perf"
-                ],
-                "count": 7
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Person=3",
-                    "Person=1"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
                     "change",
                     "Tense=Pres",
                     "Tense=Past"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Evident=Nfh"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Tense=Past"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Abl"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "PronType=Loc"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Imp"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -15470,21 +15506,14 @@
             {
                 "tuple": [
                     "add",
-                    "Polarity=Pos"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Aspect=Hab"
+                    "Tense=Pres"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Pres"
+                    "Aspect=Hab"
                 ],
                 "count": 1
             },
@@ -15512,13 +15541,6 @@
             {
                 "tuple": [
                     "remove",
-                    "PronType=Dem"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
                     "Mood=Opt"
                 ],
                 "count": 1
@@ -15536,20 +15558,6 @@
                     "Person[psor]=2"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Number[psor]=Sing"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Abl"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
@@ -15615,14 +15623,6 @@
                     "Mood=Cnd"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Acc",
-                    "Case=Gen"
-                ],
-                "count": 2
             },
             {
                 "tuple": [
