@@ -21,7 +21,6 @@
                 "idx_8": 0,
                 "idx_11": 0,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "Birden",
                 "v2.8 token": "Birden",
@@ -99,7 +98,7 @@
                 "idx_8": 13,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun",
                 "split": false,
                 "token": "zaten",
                 "v2.8 token": "zaten",
@@ -111,7 +110,6 @@
                 "idx_8": 16,
                 "idx_11": 14,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -163,7 +161,6 @@
                 "idx_8": 2,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "çuvala",
                 "v2.8 token": "çuvala",
@@ -178,7 +175,6 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "kesin",
                 "v2.8 token": "kesin",
@@ -206,7 +202,6 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "Number=Sing|Person=3|Polarity=Pos",
                 "split": false,
                 "token": "var",
@@ -313,8 +308,7 @@
                 "v2.11": 0,
                 "idx_8": 6,
                 "idx_11": 11,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Prog|Case=Acc|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part",
                 "split": false,
                 "token": "tüm",
                 "v2.8 token": "tüm",
@@ -326,8 +320,8 @@
                 "idx_8": 8,
                 "idx_11": 15,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Aspect=Prog|Case=Acc|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part",
-                "split": false,
+                "v2.11 feats": "Aspect=Imp|Polarity=Pos|VerbForm=Part|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
+                "split": true,
                 "token": "olağanüstü",
                 "v2.8 token": "olağanüstü",
                 "v2.11 token": "kaldı"
@@ -400,7 +394,7 @@
                 "idx_8": 5,
                 "idx_11": 5,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Dat|Number=Sing|Person=3",
                 "split": false,
                 "token": ":",
                 "v2.8 token": ":",
@@ -412,7 +406,7 @@
                 "idx_8": 8,
                 "idx_11": 7,
                 "v2.8 feats": "Case=Dat|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Dat|Number=Sing|Person=3|Case=Acc|Number=Plur|Person=3",
+                "v2.11 feats": "Case=Acc|Number=Plur|Person=3",
                 "split": false,
                 "token": "topluma",
                 "v2.8 token": "topluma",
@@ -518,7 +512,6 @@
                 "idx_8": 3,
                 "idx_11": 5,
                 "v2.8 feats": "Mood=Cnd|Number=Sing|Person=3|Polarity=Pos",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ise",
                 "v2.8 token": "ise",
@@ -530,7 +523,7 @@
                 "idx_8": 6,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -556,8 +549,8 @@
                 "idx_8": 7,
                 "idx_11": 10,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres|Case=Nom|Number=Sing|Person=3",
-                "split": true,
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
+                "split": false,
                 "token": "Türkiye",
                 "v2.8 token": "Türkiye",
                 "v2.11 token": "laik"
@@ -567,7 +560,7 @@
                 "v2.11": 0,
                 "idx_8": 8,
                 "idx_11": 10,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut",
                 "split": true,
                 "token": "laiktir",
                 "v2.8 token": "laiktir",
@@ -578,7 +571,7 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 10,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Abl|Number=Plur|Person=3",
                 "split": false,
                 "token": "laik",
                 "v2.8 token": "\"",
@@ -589,7 +582,6 @@
                 "v2.11": 1,
                 "idx_8": 15,
                 "idx_11": 13,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -601,7 +593,6 @@
                 "v2.11": 1,
                 "idx_8": 17,
                 "idx_11": 16,
-                "v2.8 feats": "Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "naklen",
@@ -722,7 +713,6 @@
                 "v2.11": 0,
                 "idx_8": 9,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "numara",
                 "v2.8 token": "numara",
@@ -733,7 +723,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 8,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -745,7 +734,7 @@
                 "v2.11": 0,
                 "idx_8": 10,
                 "idx_11": 9,
-                "v2.11 feats": "Case=Abl|Number=Sing|Person=3|Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.11 feats": "Case=Abl|Number=Sing|Person=3|Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Case=Gen|Number=Sing|Person=3|Case=Acc|Number=Sing|Person=3|PronType=Int",
                 "split": false,
                 "token": "diye",
                 "v2.8 token": "diye",
@@ -768,7 +757,7 @@
                 "idx_8": 14,
                 "idx_11": 10,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "split": false,
                 "token": "ama",
                 "v2.8 token": "ama",
@@ -791,7 +780,6 @@
                 "idx_8": 17,
                 "idx_11": 16,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|PronType=Int",
                 "split": false,
                 "token": "kim",
                 "v2.8 token": "kim",
@@ -843,8 +831,7 @@
                 "v2.11": 0,
                 "idx_8": 8,
                 "idx_11": 6,
-                "v2.8 feats": "Mood=Imp|Number=Sing|Person=2|Polarity=Pos",
-                "v2.11 feats": "Mood=Imp|Number=Sing|Person=2|Polarity=Pos",
+                "v2.11 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "çek",
                 "v2.8 token": "çek",
@@ -855,8 +842,6 @@
                 "v2.11": 0,
                 "idx_8": 9,
                 "idx_11": 8,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "beni",
                 "v2.8 token": "beni",
@@ -867,8 +852,6 @@
                 "v2.11": 0,
                 "idx_8": 11,
                 "idx_11": 10,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -906,7 +889,7 @@
                 "idx_8": 4,
                 "idx_11": 3,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -918,7 +901,7 @@
                 "idx_8": 7,
                 "idx_11": 10,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Ins|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "kaşla",
                 "v2.8 token": "kaşla",
@@ -930,7 +913,6 @@
                 "idx_8": 8,
                 "idx_11": 11,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "göz",
                 "v2.8 token": "göz",
@@ -1019,7 +1001,6 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "Number=Sing|Person=3|Polarity=Pos",
                 "split": false,
                 "token": "var",
@@ -1085,7 +1066,6 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 8,
-                "v2.8 feats": "",
                 "v2.11 feats": "Number=Sing|Person=3|Polarity=Pos",
                 "split": false,
                 "token": "var",
@@ -1112,7 +1092,7 @@
                 "idx_8": 2,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "şırıl",
                 "v2.8 token": "şırıl",
@@ -1124,7 +1104,7 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Perf|Evident=Nfh|Number=Sing|Person=3|Tense=Past",
                 "split": false,
                 "token": "şırıl",
                 "v2.8 token": "şırıl",
@@ -1165,7 +1145,6 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "yüksek",
                 "v2.8 token": "yüksek",
@@ -1190,7 +1169,6 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -1292,7 +1270,7 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -1304,7 +1282,7 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 3,
-                "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos",
                 "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "insanın",
@@ -1316,7 +1294,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos",
+                "v2.8 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
@@ -1342,7 +1320,6 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "Mood=Imp|Number=Plur|Person=2|Polarity=Pos",
                 "split": false,
                 "token": "ısıtın",
@@ -1354,7 +1331,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Voice=Cau",
                 "split": false,
                 "token": "karıştırın",
@@ -1423,7 +1399,6 @@
                 "idx_8": 7,
                 "idx_11": 8,
                 "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos",
-                "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos",
                 "split": false,
                 "token": "olması",
                 "v2.8 token": "olması",
@@ -1478,7 +1453,6 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -1904,7 +1878,7 @@
                 "idx_8": 34,
                 "idx_11": 37,
                 "v2.8 feats": "Case=Acc|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
+                "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "finansmanı",
                 "v2.8 token": "finansmanı",
@@ -1953,7 +1927,6 @@
                 "v2.11": 1,
                 "idx_8": 32,
                 "idx_11": 27,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ama",
@@ -2232,7 +2205,6 @@
                 "idx_8": 2,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "elbette",
                 "v2.8 token": "elbette",
@@ -2384,7 +2356,7 @@
                 "v2.11": 1,
                 "idx_8": 34,
                 "idx_11": 35,
-                "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
+                "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "veren",
@@ -2407,7 +2379,7 @@
                 "v2.11": 1,
                 "idx_8": 35,
                 "idx_11": 37,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Evident=Nfh|Number=Sing|Person=3|Tense=Past",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "şey",
@@ -2419,7 +2391,6 @@
                 "v2.11": 1,
                 "idx_8": 36,
                 "idx_11": 38,
-                "v2.8 feats": "",
                 "v2.11 feats": "Number=Sing|Person=3|Polarity=Pos",
                 "split": false,
                 "token": "var",
@@ -2494,7 +2465,6 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 9,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "düpedüz",
@@ -2802,7 +2772,6 @@
                 "v2.11": 0,
                 "idx_8": 10,
                 "idx_11": 13,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "ve",
@@ -2855,7 +2824,6 @@
                 "idx_8": 4,
                 "idx_11": 6,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "gölge",
                 "v2.8 token": "gölge",
@@ -2869,7 +2837,6 @@
                 "v2.11": 0,
                 "idx_8": 11,
                 "idx_11": 12,
-                "v2.8 feats": "",
                 "v2.11 feats": "Aspect=Perf|Polarity=Pos|Tense=Past|Voice=Pass|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "da",
@@ -2894,7 +2861,6 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "sözgelimi",
@@ -2923,7 +2889,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "isimli",
@@ -2960,7 +2925,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 8,
-                "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "içinde",
@@ -2975,7 +2939,6 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "o",
                 "v2.8 token": "o",
@@ -3024,7 +2987,7 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "zamanda",
@@ -3036,7 +2999,6 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 6,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "zamanından",
@@ -3048,7 +3010,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.8 feats": "",
+                "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "önce",
@@ -3060,7 +3022,6 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 13,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -3072,7 +3033,6 @@
                 "v2.11": 1,
                 "idx_8": 15,
                 "idx_11": 14,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "insanlığın",
@@ -3084,7 +3044,6 @@
                 "v2.11": 1,
                 "idx_8": 20,
                 "idx_11": 18,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "içli",
@@ -3096,7 +3055,7 @@
                 "v2.11": 1,
                 "idx_8": 23,
                 "idx_11": 21,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ak",
@@ -3108,7 +3067,6 @@
                 "v2.11": 1,
                 "idx_8": 24,
                 "idx_11": 22,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -3131,7 +3089,7 @@
                 "v2.11": 1,
                 "idx_8": 25,
                 "idx_11": 24,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "cömert",
@@ -3143,7 +3101,6 @@
                 "v2.11": 1,
                 "idx_8": 27,
                 "idx_11": 25,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "sevgi",
@@ -3155,7 +3112,6 @@
                 "v2.11": 1,
                 "idx_8": 29,
                 "idx_11": 26,
-                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "mesajı",
@@ -3376,7 +3332,6 @@
                 "v2.11": 1,
                 "idx_8": 18,
                 "idx_11": 14,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
@@ -3388,7 +3343,7 @@
                 "v2.11": 1,
                 "idx_8": 19,
                 "idx_11": 15,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Fut",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Imp|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Case=Nom|Evident=Nfh|Number=Sing|Person=3|Tense=Past",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "hatta",
@@ -3448,7 +3403,7 @@
                 "idx_8": 3,
                 "idx_11": 5,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres",
                 "split": false,
                 "token": "de",
                 "v2.8 token": "de",
@@ -3460,7 +3415,6 @@
                 "idx_8": 5,
                 "idx_11": 9,
                 "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
-                "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "gökyüzünde",
                 "v2.8 token": "gökyüzünde",
@@ -3539,7 +3493,6 @@
                 "idx_8": 8,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "göre",
                 "v2.8 token": "göre",
@@ -3716,7 +3669,7 @@
                 "v2.11": 1,
                 "idx_8": 26,
                 "idx_11": 27,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -3728,8 +3681,7 @@
                 "v2.11": 0,
                 "idx_8": 32,
                 "idx_11": 32,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "direkt",
                 "v2.8 token": "direkt",
@@ -3740,8 +3692,6 @@
                 "v2.11": 0,
                 "idx_8": 33,
                 "idx_11": 34,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "etki",
                 "v2.8 token": "etki",
@@ -3796,7 +3746,7 @@
                 "v2.11": 1,
                 "idx_8": 16,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Dat|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "jeostrateji",
@@ -3849,7 +3799,7 @@
                 "v2.11": 1,
                 "idx_8": 19,
                 "idx_11": 11,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -3861,7 +3811,6 @@
                 "v2.11": 1,
                 "idx_8": 22,
                 "idx_11": 13,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "gençlik",
@@ -3885,7 +3834,6 @@
                 "v2.11": 1,
                 "idx_8": 33,
                 "idx_11": 21,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -3900,7 +3848,6 @@
                 "idx_8": 4,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "o",
                 "v2.8 token": "o",
@@ -3926,7 +3873,7 @@
                 "idx_8": 4,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -3938,7 +3885,6 @@
                 "idx_8": 7,
                 "idx_11": 6,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -4067,7 +4013,6 @@
                 "idx_8": 11,
                 "idx_11": 9,
                 "v2.8 feats": "Case=Acc|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "korkağı",
                 "v2.8 token": "korkak",
@@ -4079,7 +4024,7 @@
                 "idx_8": 12,
                 "idx_11": 10,
                 "v2.8 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau",
-                "v2.11 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau",
+                "v2.11 feats": "Case=Loc|Number=Sing|Person=3|Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "split": false,
                 "token": "coşturur",
                 "v2.8 token": "coş",
@@ -4091,7 +4036,6 @@
                 "idx_8": 17,
                 "idx_11": 15,
                 "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "şişede",
                 "v2.8 token": "şişede",
@@ -4105,7 +4049,6 @@
                 "idx_8": 5,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -4118,7 +4061,6 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "Tabii",
@@ -4130,7 +4072,7 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 8,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "çünkü",
@@ -4142,7 +4084,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 9,
-                "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "adada",
@@ -4178,7 +4119,6 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 12,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ".",
@@ -4216,7 +4156,6 @@
                 "idx_8": 3,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ile",
                 "v2.8 token": "ile",
@@ -4326,7 +4265,7 @@
                 "idx_8": 6,
                 "idx_11": 8,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "defalarca",
                 "v2.8 token": "defalarca",
@@ -4338,7 +4277,7 @@
                 "idx_8": 9,
                 "idx_11": 13,
                 "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
-                "v2.11 feats": "Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.11 feats": "",
                 "split": false,
                 "token": "tutkusuna",
                 "v2.8 token": "tutkusuyla",
@@ -4360,8 +4299,7 @@
                 "v2.11": 1,
                 "idx_8": 20,
                 "idx_11": 24,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "Hiç",
                 "v2.8 token": "hiç",
@@ -4373,7 +4311,6 @@
                 "idx_8": 25,
                 "idx_11": 29,
                 "v2.8 feats": "Case=Gen|Number=Plur|Person=3",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "!",
                 "v2.8 token": "gelir",
@@ -4395,7 +4332,6 @@
                 "v2.11": 1,
                 "idx_8": 27,
                 "idx_11": 32,
-                "v2.8 feats": "",
                 "split": false,
                 "token": "!",
                 "v2.8 token": ",",
@@ -4593,7 +4529,6 @@
                 "idx_8": 12,
                 "idx_11": 12,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -4776,7 +4711,6 @@
                 "idx_8": 0,
                 "idx_11": 0,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "Birden",
                 "v2.8 token": "Birden",
@@ -4901,7 +4835,6 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "görür",
@@ -4928,7 +4861,6 @@
                 "idx_8": 7,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -5015,7 +4947,7 @@
                 "idx_8": 9,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "NumType=Card|Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "da",
                 "v2.8 token": "da",
@@ -5027,8 +4959,8 @@
                 "idx_8": 10,
                 "idx_11": 12,
                 "v2.8 feats": "NumType=Card",
-                "v2.11 feats": "NumType=Card",
-                "split": false,
+                "v2.11 feats": "NumType=Card|Aspect=Hab|Number=Plur|Person=3|Polarity=Pos|VerbForm=Part|Evident=Fh|Polarity=Pos|Tense=Past",
+                "split": true,
                 "token": "üç",
                 "v2.8 token": "üç",
                 "v2.11 token": "basıyordu"
@@ -5039,7 +4971,6 @@
                 "idx_8": 11,
                 "idx_11": 13,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -5054,7 +4985,6 @@
                 "idx_11": 8,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres",
                 "split": true,
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Polarity=Pos",
                 "token": "beyaz",
                 "v2.8 token": "beyaz",
                 "v2.11 token": "var"
@@ -5065,7 +4995,6 @@
                 "idx_8": 5,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres",
                 "split": false,
                 "token": "eşeğin",
                 "v2.8 token": "eşeğin",
@@ -5128,7 +5057,6 @@
                 "idx_8": 8,
                 "idx_11": 8,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Acc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -5141,7 +5069,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "saygısızca",
@@ -5181,7 +5108,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "Aspect=Prosp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part",
                 "split": false,
                 "token": "azalacağı",
@@ -5195,7 +5121,6 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
@@ -5207,7 +5132,7 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass",
+                "v2.8 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "az",
@@ -5288,7 +5213,6 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -5302,7 +5226,7 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "O",
@@ -5314,7 +5238,7 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 1,
-                "v2.8 feats": "Case=Gen|Number=Sing|Person=3|Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.8 feats": "Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "karganın",
@@ -5326,7 +5250,7 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 2,
-                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass",
+                "v2.8 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass",
                 "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "sesi",
@@ -5423,7 +5347,6 @@
                 "idx_8": 19,
                 "idx_11": 20,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -5437,7 +5360,6 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "önce",
                 "v2.8 token": "önce",
@@ -5460,7 +5382,7 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 5,
-                "v2.8 feats": "",
+                "v2.8 feats": "Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "tartışmalı",
@@ -5498,7 +5420,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "o",
@@ -5689,7 +5610,6 @@
                 "idx_8": 16,
                 "idx_11": 16,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "sapan",
                 "v2.8 token": "sapan",
@@ -5808,7 +5728,6 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": true,
                 "token": "Önceki",
@@ -5821,7 +5740,7 @@
                 "idx_8": 15,
                 "idx_11": 14,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Gen|Number=Sing|Person=3|Case=Gen|Number=Plur|Person=3",
                 "split": false,
                 "token": "ardından",
                 "v2.8 token": "ardından",
@@ -5874,7 +5793,6 @@
                 "idx_8": 2,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ince",
                 "v2.8 token": "ince",
@@ -5903,7 +5821,7 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 5,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "bile",
@@ -5915,7 +5833,6 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "haber",
@@ -5930,7 +5847,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -5942,7 +5858,7 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 3,
-                "v2.8 feats": "",
+                "v2.8 feats": "Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "sadece",
@@ -5954,7 +5870,6 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 4,
-                "v2.8 feats": "Case=Dat|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Dat|Number=Sing|Person=3",
                 "split": false,
                 "token": "buraya",
@@ -5980,8 +5895,6 @@
                 "v2.11": 0,
                 "idx_8": 14,
                 "idx_11": 14,
-                "v2.8 feats": "Mood=Imp|Polarity=Pos|VerbForm=Conv|Voice=Pass",
-                "v2.11 feats": "Aspect=Prog|Polarity=Pos|VerbForm=Conv|Voice=Pass",
                 "split": false,
                 "token": "vurularak",
                 "v2.8 token": "vurularak",
@@ -6058,7 +5971,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Abl|Number=Sing|Person=3",
                 "split": false,
                 "token": "üniversiteden",
@@ -6073,7 +5985,7 @@
                 "idx_8": 2,
                 "idx_11": 0,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Gen|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "en",
                 "v2.8 token": "en",
@@ -6085,7 +5997,7 @@
                 "idx_8": 9,
                 "idx_11": 8,
                 "v2.8 feats": "Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
-                "v2.11 feats": "Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
+                "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "köhneleşmiş",
                 "v2.8 token": "köhne",
@@ -6097,7 +6009,6 @@
                 "idx_8": 12,
                 "idx_11": 11,
                 "v2.8 feats": "Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
-                "v2.11 feats": "Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "gözüküyor",
                 "v2.8 token": "gözüken",
@@ -6109,7 +6020,6 @@
                 "idx_8": 13,
                 "idx_11": 13,
                 "v2.8 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "de",
@@ -6120,7 +6030,6 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 15,
-                "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "dedi",
                 "v2.8 token": "de",
@@ -6133,7 +6042,6 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Dat|Number=Sing|Person=3",
                 "split": false,
                 "token": "Otele",
@@ -6387,7 +6295,6 @@
                 "idx_8": 5,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -6412,7 +6319,6 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 8,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ihtimalinden",
@@ -6492,7 +6398,6 @@
                 "idx_11": 4,
                 "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": true,
-                "v2.11 feats": "",
                 "token": "başındaki",
                 "v2.8 token": "başındaki",
                 "v2.11 token": "başkisi"
@@ -6504,9 +6409,9 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 1,
-                "v2.8 feats": "Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
-                "v2.11 feats": "Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
-                "split": false,
+                "v2.8 feats": "Number=Sing|Person=3",
+                "v2.11 feats": "Mood=Opt|Number=Plur|Person=1|Polarity=Pos|Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres|Case=Nom|Number=Sing|Person=3",
+                "split": true,
                 "token": "edindikleri",
                 "v2.8 token": "liberal",
                 "v2.11 token": "edindikleri"
@@ -6516,8 +6421,6 @@
                 "v2.11": 1,
                 "idx_8": 11,
                 "idx_11": 7,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ".",
@@ -6680,7 +6583,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "defile",
@@ -6826,7 +6728,6 @@
                 "idx_8": 4,
                 "idx_11": 6,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "bu",
                 "v2.8 token": "bu",
@@ -6837,7 +6738,6 @@
                 "v2.11": 0,
                 "idx_8": 5,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Dat|Number=Sing|Person=3|Polarity=Pos|Case=Abl|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "yana",
@@ -6849,8 +6749,7 @@
                 "v2.11": 1,
                 "idx_8": 17,
                 "idx_11": 16,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.11 feats": "",
                 "split": false,
                 "token": "Satanizm",
                 "v2.8 token": "satanizm",
@@ -6878,7 +6777,7 @@
                 "idx_8": 20,
                 "idx_11": 22,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -6890,7 +6789,7 @@
                 "idx_8": 21,
                 "idx_11": 23,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "objektif",
                 "v2.8 token": "objektif",
@@ -6953,7 +6852,7 @@
                 "idx_8": 3,
                 "idx_11": 6,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Dat|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "ilk",
                 "v2.8 token": "ilk",
@@ -6965,7 +6864,7 @@
                 "idx_8": 4,
                 "idx_11": 8,
                 "v2.8 feats": "Case=Dat|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Dat|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "akla",
                 "v2.8 token": "akla",
@@ -6977,7 +6876,6 @@
                 "idx_8": 5,
                 "idx_11": 9,
                 "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
-                "v2.11 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "gelen",
                 "v2.8 token": "gelen",
@@ -6989,7 +6887,7 @@
                 "idx_8": 7,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -7000,7 +6898,6 @@
                 "v2.11": 0,
                 "idx_8": 9,
                 "idx_11": 14,
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "/",
                 "v2.8 token": "/",
@@ -7012,8 +6909,7 @@
                 "idx_8": 10,
                 "idx_11": 15,
                 "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres",
-                "split": true,
+                "split": false,
                 "token": "kurumun",
                 "v2.8 token": "kurumun",
                 "v2.11 token": "."
@@ -7077,7 +6973,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -7208,7 +7103,6 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "'",
@@ -7258,7 +7152,7 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 2,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ile",
@@ -7270,7 +7164,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 4,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Dat|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Dat|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "esas",
@@ -7282,7 +7176,6 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 6,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ";",
@@ -7315,7 +7208,7 @@
                 "v2.11": 0,
                 "idx_8": 10,
                 "idx_11": 8,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Loc|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "dozda",
                 "v2.8 token": "dozda",
@@ -7339,7 +7232,7 @@
                 "idx_8": 12,
                 "idx_11": 10,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "NumType=Card",
                 "split": false,
                 "token": "-",
                 "v2.8 token": "-",
@@ -7351,7 +7244,7 @@
                 "idx_8": 13,
                 "idx_11": 11,
                 "v2.8 feats": "NumType=Card",
-                "v2.11 feats": "NumType=Card",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "10",
                 "v2.8 token": "10",
@@ -7384,7 +7277,6 @@
                 "v2.11": 0,
                 "idx_8": 16,
                 "idx_11": 13,
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "lt",
                 "v2.8 token": "lt",
@@ -7395,7 +7287,6 @@
                 "v2.11": 0,
                 "idx_8": 17,
                 "idx_11": 14,
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -7445,7 +7336,6 @@
                 "idx_8": 14,
                 "idx_11": 15,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "daha",
                 "v2.8 token": "daha",
@@ -7471,7 +7361,7 @@
                 "idx_8": 2,
                 "idx_11": 2,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -7483,8 +7373,8 @@
                 "idx_8": 16,
                 "idx_11": 10,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "split": true,
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
-                "split": false,
                 "token": "yazar",
                 "v2.8 token": "yok",
                 "v2.11 token": "yazar"
@@ -7494,7 +7384,6 @@
                 "v2.11": 1,
                 "idx_8": 17,
                 "idx_11": 11,
-                "v2.8 feats": "Case=Acc|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "türü",
@@ -7506,7 +7395,6 @@
                 "v2.11": 1,
                 "idx_8": 18,
                 "idx_11": 12,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "kadar",
@@ -7571,7 +7459,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "önünden",
@@ -7677,7 +7564,6 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -7755,7 +7641,7 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
-                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "karşısında",
                 "v2.8 token": "karşı",
@@ -7781,7 +7667,6 @@
                 "v2.11": 1,
                 "idx_8": 20,
                 "idx_11": 20,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ".",
@@ -7811,7 +7696,6 @@
                 "idx_8": 6,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -7847,7 +7731,7 @@
                 "idx_8": 15,
                 "idx_11": 13,
                 "v2.8 feats": "Case=Nom|Polarity=Pos",
-                "v2.11 feats": "Mood=Des|Number=Sing|Person=3|Polarity=Pos|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Person=3|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass|Case=Nom|Polarity=Pos|VerbForm=Vnoun",
+                "v2.11 feats": "Mood=Des|Number=Sing|Person=3|Polarity=Pos|Mood=Des|Number=Sing|Person=3|Polarity=Pos|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Person=3|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass|Case=Nom|Polarity=Pos|VerbForm=Vnoun|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Conv|Aspect=Perf|Evident=Fh|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass",
                 "split": false,
                 "token": "duymak",
                 "v2.8 token": "duymak",
@@ -7859,7 +7743,6 @@
                 "idx_8": 16,
                 "idx_11": 14,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -7920,7 +7803,6 @@
                 "idx_8": 6,
                 "idx_11": 6,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -7948,7 +7830,6 @@
                 "idx_8": 4,
                 "idx_11": 8,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "cinayet",
                 "v2.8 token": "cinayetler",
@@ -7960,7 +7841,7 @@
                 "idx_8": 8,
                 "idx_11": 10,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -7972,7 +7853,6 @@
                 "idx_8": 9,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -8047,7 +7927,7 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 2,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "yakın",
@@ -8059,7 +7939,7 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 3,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3|Case=Gen|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "bir",
@@ -8071,7 +7951,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 5,
-                "v2.8 feats": "",
+                "v2.8 feats": "Aspect=Perf|Case=Acc|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -8083,7 +7963,6 @@
                 "v2.11": 1,
                 "idx_8": 11,
                 "idx_11": 9,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "önce",
@@ -8121,7 +8000,7 @@
                 "v2.11": 1,
                 "idx_8": 23,
                 "idx_11": 21,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "her",
@@ -8133,7 +8012,6 @@
                 "v2.11": 1,
                 "idx_8": 24,
                 "idx_11": 22,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "zaman",
@@ -8222,7 +8100,6 @@
                 "v2.11": 1,
                 "idx_8": 14,
                 "idx_11": 13,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ".",
@@ -8279,7 +8156,6 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "günahsız",
                 "v2.8 token": "günahsız",
@@ -8293,7 +8169,6 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -8319,7 +8194,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "bir",
@@ -8402,7 +8276,6 @@
                 "v2.11": 1,
                 "idx_8": 15,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass|Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "Barometre",
@@ -8415,7 +8288,6 @@
                 "idx_8": 21,
                 "idx_11": 12,
                 "v2.8 feats": "Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass|Case=Loc|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "değerli",
@@ -8462,7 +8334,7 @@
                 "v2.11": 1,
                 "idx_8": 28,
                 "idx_11": 16,
-                "v2.11 feats": "NumType=Card",
+                "v2.11 feats": "NumType=Card|Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "sekiz",
                 "v2.8 token": "beklenti",
@@ -8486,7 +8358,7 @@
                 "idx_8": 34,
                 "idx_11": 36,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Polarity=Pos",
-                "v2.11 feats": "Case=Loc|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass",
+                "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -8497,7 +8369,7 @@
                 "v2.11": 0,
                 "idx_8": 41,
                 "idx_11": 39,
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.11 feats": "Case=Nom|Number=Plur|Person=3",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -8509,7 +8381,7 @@
                 "idx_8": 42,
                 "idx_11": 40,
                 "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "Uzakdoğu",
                 "v2.8 token": "Uzakdoğu",
@@ -8521,7 +8393,6 @@
                 "idx_8": 45,
                 "idx_11": 41,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "yapısal",
                 "v2.8 token": "yapısal",
@@ -8648,7 +8519,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 8,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "gene",
@@ -8660,7 +8531,7 @@
                 "v2.11": 1,
                 "idx_8": 12,
                 "idx_11": 10,
-                "v2.8 feats": "Case=Abl|Number=Plur|Person=3|Polarity=Pos",
+                "v2.8 feats": "Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "Case=Abl|Number=Plur|Person=3",
                 "split": false,
                 "token": "konuşmalardan",
@@ -8689,7 +8560,6 @@
                 "idx_8": 15,
                 "idx_11": 14,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -8847,7 +8717,6 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -8873,7 +8742,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "onca",
@@ -8914,7 +8782,6 @@
                 "idx_8": 9,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -8969,7 +8836,7 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 3,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Ins|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -9017,7 +8884,6 @@
                 "v2.11": 1,
                 "idx_8": 25,
                 "idx_11": 28,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -9042,7 +8908,6 @@
                 "idx_8": 27,
                 "idx_11": 30,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -9190,7 +9055,7 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Dat|Number=Sing|Person=3|Case=Gen|Number=Sing|Person=3|Polarity=Pos|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3|Polarity=Pos|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "bu",
@@ -9287,7 +9152,7 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "-",
@@ -9299,7 +9164,7 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 8,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "i",
                 "v2.8 token": "ad(I",
@@ -9310,7 +9175,6 @@
                 "v2.11": 1,
                 "idx_8": 16,
                 "idx_11": 12,
-                "v2.8 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "ve",
@@ -9322,7 +9186,7 @@
                 "v2.11": 1,
                 "idx_8": 17,
                 "idx_11": 13,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Loc|Number=Sing|Person=3|Aspect=Perf|Case=Abl|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.8 feats": "Aspect=Perf|Case=Abl|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "Allah",
@@ -9376,7 +9240,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass",
                 "split": false,
                 "token": "getirilir",
@@ -9403,7 +9266,7 @@
                 "idx_8": 7,
                 "idx_11": 4,
                 "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part",
-                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "tarihinde",
                 "v2.8 token": "gizlenmeyen",
@@ -9425,7 +9288,7 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 6,
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Dat|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "kez",
                 "v2.8 token": "gizlenmeyen",
@@ -9436,7 +9299,6 @@
                 "v2.11": 0,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -9448,7 +9310,6 @@
                 "idx_8": 11,
                 "idx_11": 12,
                 "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
-                "v2.11 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "çıkan",
                 "v2.8 token": "çıkıp",
@@ -9459,8 +9320,6 @@
                 "v2.11": 0,
                 "idx_8": 21,
                 "idx_11": 23,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "bir",
                 "v2.8 token": "bir",
@@ -9471,8 +9330,6 @@
                 "v2.11": 1,
                 "idx_8": 24,
                 "idx_11": 29,
-                "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": "birlikte",
@@ -9533,7 +9390,6 @@
                 "v2.11": 1,
                 "idx_8": 22,
                 "idx_11": 22,
-                "v2.8 feats": "",
                 "v2.11 feats": "Number=Sing|Person=3|Polarity=Pos",
                 "split": false,
                 "token": "var",
@@ -9597,7 +9453,6 @@
                 "v2.11": 1,
                 "idx_8": 4,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -9613,7 +9468,6 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "toplu",
                 "v2.8 token": "toplu",
@@ -9637,7 +9491,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "acil",
@@ -9767,7 +9620,6 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ya",
@@ -9828,7 +9680,7 @@
                 "v2.11": 1,
                 "idx_8": 25,
                 "idx_11": 24,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -9840,7 +9692,6 @@
                 "v2.11": 1,
                 "idx_8": 27,
                 "idx_11": 25,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "sırt",
@@ -9864,7 +9715,6 @@
                 "v2.11": 1,
                 "idx_8": 35,
                 "idx_11": 32,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -10122,7 +9972,6 @@
                 "v2.11": 1,
                 "idx_8": 16,
                 "idx_11": 16,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "dalgası",
@@ -10161,7 +10010,6 @@
                 "idx_8": 3,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "de",
                 "v2.8 token": "de",
@@ -10210,7 +10058,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ":",
@@ -10289,7 +10136,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass",
                 "split": false,
                 "token": "uygulanmasıyla",
@@ -10352,7 +10198,6 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -10376,7 +10221,7 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 15,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "Papandreu",
@@ -10388,7 +10233,6 @@
                 "v2.11": 1,
                 "idx_8": 14,
                 "idx_11": 16,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -10400,7 +10244,6 @@
                 "v2.11": 1,
                 "idx_8": 15,
                 "idx_11": 17,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -10412,7 +10255,7 @@
                 "v2.11": 0,
                 "idx_8": 15,
                 "idx_11": 19,
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Imp|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "için",
                 "v2.8 token": "için",
@@ -10423,8 +10266,8 @@
                 "v2.11": 0,
                 "idx_8": 16,
                 "idx_11": 20,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres",
-                "v2.11 feats": "Aspect=Imp|Number=Plur|Person=1|Polarity=Pos|Tense=Pres",
+                "v2.8 feats": "Aspect=Prog|Number=Plur|Person=1|Polarity=Pos|Tense=Pres",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|PronType=Int",
                 "split": false,
                 "token": "çarpışıyoruz",
                 "v2.8 token": "çarpışıyoruz",
@@ -10436,7 +10279,6 @@
                 "idx_8": 17,
                 "idx_11": 21,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -10448,7 +10290,7 @@
                 "idx_8": 18,
                 "idx_11": 22,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Prosp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part",
                 "split": false,
                 "token": "ama",
                 "v2.8 token": "ama",
@@ -10460,7 +10302,6 @@
                 "idx_8": 19,
                 "idx_11": 24,
                 "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "Almanya'nın",
                 "v2.8 token": "Almanya'nın",
@@ -10472,7 +10313,6 @@
                 "idx_8": 20,
                 "idx_11": 25,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|PronType=Int",
                 "split": false,
                 "token": "ne",
                 "v2.8 token": "ne",
@@ -10484,7 +10324,6 @@
                 "idx_8": 21,
                 "idx_11": 26,
                 "v2.8 feats": "Aspect=Imp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part",
-                "v2.11 feats": "Aspect=Prosp|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part",
                 "split": false,
                 "token": "yapacağı",
                 "v2.8 token": "yapacağı",
@@ -10561,7 +10400,6 @@
                 "idx_8": 12,
                 "idx_11": 12,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -10573,7 +10411,7 @@
                 "idx_8": 13,
                 "idx_11": 13,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Acc|Number=Sing|Person=3|Aspect=Perf|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|Aspect=Perf|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -10607,7 +10445,7 @@
                 "idx_8": 22,
                 "idx_11": 18,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Polarity=Pos|VerbForm=Conv|Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.11 feats": "Polarity=Pos|VerbForm=Conv|Case=Nom|Number=Sing|Person=3|Aspect=Perf|Mood=Pot|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "ifade",
                 "v2.8 token": "ifade",
@@ -10619,7 +10457,7 @@
                 "idx_8": 24,
                 "idx_11": 19,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3|PronType=Dem",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -10630,7 +10468,6 @@
                 "v2.11": 1,
                 "idx_8": 27,
                 "idx_11": 22,
-                "v2.8 feats": "",
                 "v2.11 feats": "Polarity=Pos|VerbForm=Conv",
                 "split": false,
                 "token": "tam",
@@ -10643,7 +10480,7 @@
                 "idx_8": 30,
                 "idx_11": 24,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Ins|Number=Sing|Person=3",
                 "split": false,
                 "token": "bir",
                 "v2.8 token": "bir",
@@ -10655,7 +10492,7 @@
                 "idx_8": 32,
                 "idx_11": 27,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Ins|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -10678,7 +10515,7 @@
                 "idx_8": 38,
                 "idx_11": 38,
                 "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "Bach'ın",
                 "v2.8 token": "Bach'ın",
@@ -10690,7 +10527,6 @@
                 "idx_8": 42,
                 "idx_11": 41,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -10702,8 +10538,8 @@
                 "idx_8": 45,
                 "idx_11": 44,
                 "v2.8 feats": "",
-                "v2.11 feats": "Aspect=Hab|Polarity=Pos|Tense=Pres|VerbForm=Part|Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
-                "split": true,
+                "v2.11 feats": "Aspect=Prosp|Case=Acc|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part|Aspect=Imp|Number=Sing|Person=1|Polarity=Pos|Tense=Pres",
+                "split": false,
                 "token": "bu",
                 "v2.8 token": "bu",
                 "v2.11 token": "paylaşır"
@@ -10714,7 +10550,6 @@
                 "idx_8": 47,
                 "idx_11": 46,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "çok",
                 "v2.8 token": "çok",
@@ -10726,7 +10561,6 @@
                 "idx_8": 48,
                 "idx_11": 47,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "daha",
                 "v2.8 token": "daha",
@@ -10738,7 +10572,6 @@
                 "idx_8": 49,
                 "idx_11": 48,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "mutlu",
                 "v2.8 token": "mutlu",
@@ -10750,7 +10583,6 @@
                 "idx_8": 50,
                 "idx_11": 49,
                 "v2.8 feats": "",
-                "v2.11 feats": "Aspect=Imp|Number=Sing|Person=1|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -10762,7 +10594,6 @@
                 "idx_8": 51,
                 "idx_11": 51,
                 "v2.8 feats": "Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass",
-                "v2.11 feats": "Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass|Aspect=Prosp|Case=Acc|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part",
                 "split": false,
                 "token": "tamamlanmış",
                 "v2.8 token": "tamamlanmış",
@@ -10785,7 +10616,6 @@
                 "idx_8": 55,
                 "idx_11": 50,
                 "v2.8 feats": "",
-                "v2.11 feats": "Polarity=Pos|VerbForm=Conv",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -10798,7 +10628,7 @@
                 "v2.11": 0,
                 "idx_8": 6,
                 "idx_11": 6,
-                "v2.8 feats": "",
+                "v2.8 feats": "Aspect=Imp|Number=Sing|Person=3|Tense=Pres",
                 "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass|Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": ",",
@@ -10810,7 +10640,6 @@
                 "v2.11": 0,
                 "idx_8": 7,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Aspect=Imp|Number=Sing|Person=3|Tense=Pres|Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "o",
@@ -10822,7 +10651,7 @@
                 "v2.11": 0,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "gün",
                 "v2.8 token": "gün",
@@ -10833,7 +10662,7 @@
                 "v2.11": 0,
                 "idx_8": 10,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.8 feats": "Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "farkında",
                 "v2.8 token": "farkında",
@@ -10844,7 +10673,6 @@
                 "v2.11": 0,
                 "idx_8": 14,
                 "idx_11": 7,
-                "v2.8 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -10947,7 +10775,7 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "Aferin",
                 "v2.8 token": "Aferin",
@@ -10959,8 +10787,8 @@
                 "idx_8": 5,
                 "idx_11": 7,
                 "v2.8 feats": "",
-                "v2.11 feats": "Aspect=Hab|Polarity=Pos|VerbForm=Part|Evident=Fh|Number=Sing|Person=2|Polarity=Pos|Tense=Past",
-                "split": true,
+                "v2.11 feats": "Evident=Fh|Number=Sing|Person=2|Polarity=Pos|Tense=Past",
+                "split": false,
                 "token": "güzel",
                 "v2.8 token": "güzel",
                 "v2.11 token": "beceriydin"
@@ -11036,7 +10864,7 @@
                 "idx_8": 2,
                 "idx_11": 1,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Mood=Imp|Number=Sing|Person=2|Polarity=Pos",
                 "split": false,
                 "token": "Çabuk",
                 "v2.8 token": "Çabuk",
@@ -11074,7 +10902,6 @@
                 "idx_8": 25,
                 "idx_11": 25,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "sonunda",
                 "v2.8 token": "sonunda",
@@ -11097,7 +10924,6 @@
                 "v2.11": 1,
                 "idx_8": 40,
                 "idx_11": 36,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "o",
@@ -11157,7 +10983,7 @@
                 "v2.11": 1,
                 "idx_8": 49,
                 "idx_11": 42,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
@@ -11169,7 +10995,6 @@
                 "v2.11": 1,
                 "idx_8": 51,
                 "idx_11": 43,
-                "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "Hitler'in",
@@ -11181,7 +11006,7 @@
                 "v2.11": 1,
                 "idx_8": 53,
                 "idx_11": 44,
-                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "büyük",
@@ -11204,7 +11029,7 @@
                 "v2.11": 1,
                 "idx_8": 54,
                 "idx_11": 46,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -11254,7 +11079,6 @@
                 "v2.11": 0,
                 "idx_8": 16,
                 "idx_11": 17,
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -11278,7 +11102,7 @@
                 "idx_8": 20,
                 "idx_11": 23,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -11290,7 +11114,7 @@
                 "idx_8": 21,
                 "idx_11": 24,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Plur|Person=1",
                 "split": false,
                 "token": "küçük",
                 "v2.8 token": "küçük",
@@ -11302,7 +11126,6 @@
                 "idx_8": 22,
                 "idx_11": 25,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -11357,7 +11180,7 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Dat|Number=Sing|Person=3|Polarity=Pos|Voice=Cau",
+                "v2.8 feats": "Case=Dat|Number=Sing|Person=3|Polarity=Pos|Voice=Cau",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "insan",
@@ -11369,7 +11192,7 @@
                 "v2.11": 1,
                 "idx_8": 14,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part|Aspect=Imp|Number=Sing|Person=3|Tense=Pres",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part|Aspect=Imp|Number=Sing|Person=3|Tense=Pres",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "kokulu",
@@ -11403,7 +11226,7 @@
                 "v2.11": 1,
                 "idx_8": 20,
                 "idx_11": 18,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "güzel",
@@ -11427,7 +11250,7 @@
                 "v2.11": 1,
                 "idx_8": 24,
                 "idx_11": 21,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "deniz",
@@ -11439,7 +11262,7 @@
                 "v2.11": 1,
                 "idx_8": 25,
                 "idx_11": 22,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -11451,7 +11274,7 @@
                 "v2.11": 1,
                 "idx_8": 26,
                 "idx_11": 24,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -11463,7 +11286,7 @@
                 "v2.11": 1,
                 "idx_8": 28,
                 "idx_11": 25,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Aspect=Imp|Number=Sing|Person=3|Tense=Pres",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "yemek",
@@ -11530,7 +11353,7 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "Niçin",
@@ -11584,7 +11407,7 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "-",
@@ -11596,7 +11419,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 1,
-                "v2.8 feats": "Case=Nom|Number=Plur|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Plur|Person=3",
                 "split": false,
                 "token": "Çocuklar",
@@ -11608,7 +11430,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -11620,7 +11441,6 @@
                 "v2.11": 0,
                 "idx_8": 3,
                 "idx_11": 3,
-                "v2.11 feats": "",
                 "split": false,
                 "token": "gibi",
                 "v2.8 token": "gibi",
@@ -11681,7 +11501,6 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 12,
-                "v2.8 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ".",
@@ -11728,7 +11547,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Abl|Number=Sing|Person=3",
                 "split": false,
                 "token": "aktiviteden",
@@ -11816,7 +11634,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "doğanlar",
@@ -11829,7 +11646,6 @@
                 "idx_8": 3,
                 "idx_11": 3,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "gittikçe",
                 "v2.8 token": "gittikçe",
@@ -11842,7 +11658,7 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 6,
-                "v2.8 feats": "",
+                "v2.8 feats": "Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "fazla",
@@ -11854,7 +11670,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Dat|Number=Sing|Person=3|Polarity=Pos",
                 "v2.11 feats": "Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun",
                 "split": false,
                 "token": "ısınmaya",
@@ -11866,7 +11681,7 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 9,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "bu",
@@ -11878,7 +11693,7 @@
                 "v2.11": 1,
                 "idx_8": 14,
                 "idx_11": 10,
-                "v2.8 feats": "Case=Acc|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3",
                 "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "ülkeyi",
@@ -11890,7 +11705,7 @@
                 "v2.11": 1,
                 "idx_8": 17,
                 "idx_11": 11,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "daha",
@@ -11902,7 +11717,6 @@
                 "v2.11": 1,
                 "idx_8": 18,
                 "idx_11": 12,
-                "v2.8 feats": "Case=Nom|Mood=Pot|Polarity=Pos",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "iyi",
@@ -11914,7 +11728,7 @@
                 "v2.11": 1,
                 "idx_8": 19,
                 "idx_11": 14,
-                "v2.8 feats": "Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Case=Nom|Number=Plur|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "v2.11 feats": "Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "amacıyla",
@@ -11926,7 +11740,7 @@
                 "v2.11": 1,
                 "idx_8": 20,
                 "idx_11": 16,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
@@ -11938,7 +11752,7 @@
                 "v2.11": 1,
                 "idx_8": 23,
                 "idx_11": 18,
-                "v2.8 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "v2.8 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past",
                 "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": true,
                 "token": "arasındaki",
@@ -11950,7 +11764,6 @@
                 "v2.11": 1,
                 "idx_8": 24,
                 "idx_11": 19,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "geleneksel",
@@ -12000,7 +11813,7 @@
                 "v2.11": 1,
                 "idx_8": 28,
                 "idx_11": 28,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -12038,7 +11851,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "de",
@@ -12092,7 +11904,7 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 4,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "den",
@@ -12104,7 +11916,7 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 6,
-                "v2.8 feats": "Case=Nom|Number=Plur|Person=3|Case=Nom|Number=Plur|Person=3|Case=Nom|Number=Plur|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Plur|Person=3",
                 "v2.11 feats": "Case=Nom|Number=Plur|Person=3",
                 "split": false,
                 "token": "menekşeler",
@@ -12164,7 +11976,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 3,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "göre",
@@ -12176,7 +11987,7 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 4,
-                "v2.8 feats": "Case=Loc|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "Case=Loc|Number=Sing|Person=3",
                 "split": false,
                 "token": "cephede",
@@ -12188,7 +11999,7 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 5,
-                "v2.8 feats": "",
+                "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "en",
@@ -12200,7 +12011,7 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 6,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Abl|Number=Plur|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "çok",
@@ -12212,9 +12023,9 @@
                 "v2.11": 1,
                 "idx_8": 8,
                 "idx_11": 7,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
+                "split": true,
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
-                "split": false,
                 "token": "ihtiyaç",
                 "v2.8 token": "hangi",
                 "v2.11 token": "ihtiyaç"
@@ -12224,7 +12035,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 8,
-                "v2.8 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass|Case=Abl|Number=Plur|Person=3",
                 "v2.11 feats": "Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass",
                 "split": false,
                 "token": "duyulan",
@@ -12288,7 +12098,6 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 5,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "müziğin",
@@ -12354,7 +12163,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "...",
@@ -12397,7 +12205,6 @@
                 "v2.11": 1,
                 "idx_8": 0,
                 "idx_11": 0,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "Dünyaca",
@@ -12471,7 +12278,7 @@
                 "idx_8": 1,
                 "idx_11": 5,
                 "v2.8 feats": "Case=Gen|Number=Sing|Person=2",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=2|PronType=Prs",
+                "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "senin",
                 "v2.8 token": "senin",
@@ -12483,7 +12290,6 @@
                 "idx_8": 2,
                 "idx_11": 6,
                 "v2.8 feats": "Case=Gen|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": "oğlun",
                 "v2.8 token": "oğlun",
@@ -12508,7 +12314,6 @@
                 "v2.11": 1,
                 "idx_8": 3,
                 "idx_11": 4,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "...",
@@ -12520,7 +12325,6 @@
                 "v2.11": 1,
                 "idx_8": 5,
                 "idx_11": 6,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "be",
@@ -12625,7 +12429,7 @@
                 "v2.11": 1,
                 "idx_8": 18,
                 "idx_11": 14,
-                "v2.8 feats": "Case=Gen|Number=Sing|Person=3|Case=Dat|Number=Sing|Person=3|Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
+                "v2.8 feats": "Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part",
                 "v2.11 feats": "Case=Dat|Number=Sing|Person=3",
                 "split": false,
                 "token": "gümrüğe",
@@ -12744,7 +12548,7 @@
                 "v2.11": 1,
                 "idx_8": 7,
                 "idx_11": 13,
-                "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau|Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau|Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "kadar",
@@ -12756,7 +12560,7 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 14,
-                "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.8 feats": "Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|Voice=Cau",
                 "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "sopa",
@@ -12768,7 +12572,6 @@
                 "v2.11": 1,
                 "idx_8": 12,
                 "idx_11": 16,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ".",
@@ -12836,7 +12639,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": "Savaşı'ndan",
@@ -12940,7 +12742,6 @@
                 "idx_8": 7,
                 "idx_11": 13,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -13139,7 +12940,6 @@
                 "v2.11": 1,
                 "idx_8": 16,
                 "idx_11": 17,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -13163,7 +12963,6 @@
                 "v2.11": 1,
                 "idx_8": 29,
                 "idx_11": 30,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
@@ -13178,7 +12977,6 @@
                 "idx_8": 0,
                 "idx_11": 0,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "*",
                 "v2.8 token": "*",
@@ -13264,7 +13062,7 @@
                 "v2.11": 1,
                 "idx_8": 18,
                 "idx_11": 15,
-                "v2.8 feats": "",
+                "v2.8 feats": "Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Voice=Pass",
                 "v2.11 feats": "",
                 "split": false,
                 "token": ",",
@@ -13387,7 +13185,7 @@
                 "idx_8": 7,
                 "idx_11": 7,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "Y.",
                 "v2.8 token": "Y.",
@@ -13399,7 +13197,7 @@
                 "idx_8": 13,
                 "idx_11": 13,
                 "v2.8 feats": "Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
+                "v2.11 feats": "Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "ediyor",
                 "v2.8 token": "et",
@@ -13453,7 +13251,6 @@
                 "idx_8": 4,
                 "idx_11": 4,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ".",
                 "v2.8 token": ".",
@@ -13494,7 +13291,6 @@
                 "idx_8": 5,
                 "idx_11": 5,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "\"",
                 "v2.8 token": "\"",
@@ -13532,7 +13328,6 @@
                 "idx_8": 0,
                 "idx_11": 0,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "-",
                 "v2.8 token": "-",
@@ -13570,7 +13365,7 @@
                 "idx_8": 7,
                 "idx_11": 8,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "ilgili",
                 "v2.8 token": "ilgili",
@@ -13582,8 +13377,8 @@
                 "idx_8": 9,
                 "idx_11": 9,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
-                "split": false,
+                "v2.11 feats": "Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|Voice=Pass|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past",
+                "split": true,
                 "token": "da",
                 "v2.8 token": "da",
                 "v2.11 token": "maddelerin"
@@ -13594,7 +13389,6 @@
                 "idx_8": 10,
                 "idx_11": 10,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "zanlı",
                 "v2.8 token": "zanlı",
@@ -13606,7 +13400,6 @@
                 "idx_8": 11,
                 "idx_11": 11,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past",
                 "split": false,
                 "token": "ilan",
                 "v2.8 token": "ilan",
@@ -13666,7 +13459,6 @@
                 "idx_8": 5,
                 "idx_11": 7,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -13757,7 +13549,6 @@
                 "v2.11": 1,
                 "idx_8": 2,
                 "idx_11": 2,
-                "v2.8 feats": "",
                 "v2.11 feats": "Mood=Imp|Number=Plur|Person=2|Polarity=Pos",
                 "split": false,
                 "token": "süzün",
@@ -13771,7 +13562,6 @@
                 "v2.11": 1,
                 "idx_8": 10,
                 "idx_11": 10,
-                "v2.8 feats": "",
                 "v2.11 feats": "Case=Ins|Number=Sing|Person=3",
                 "split": false,
                 "token": "şaşkınlıkla",
@@ -13851,7 +13641,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "çoktan",
@@ -13943,7 +13732,6 @@
                 "v2.11": 1,
                 "idx_8": 1,
                 "idx_11": 1,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "onca",
@@ -13980,7 +13768,7 @@
                 "idx_8": 6,
                 "idx_11": 8,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -13992,7 +13780,7 @@
                 "idx_8": 7,
                 "idx_11": 10,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Loc|Number=Plur|Person=3",
+                "v2.11 feats": "Case=Loc|Number=Plur|Person=3",
                 "split": false,
                 "token": "sevda",
                 "v2.8 token": "sevda",
@@ -14109,7 +13897,6 @@
                 "v2.11": 1,
                 "idx_8": 9,
                 "idx_11": 8,
-                "v2.8 feats": "",
                 "v2.11 feats": "Mood=Imp|Number=Plur|Person=2|Polarity=Pos|Voice=Cau",
                 "split": false,
                 "token": "karıştırın",
@@ -14248,8 +14035,7 @@
                 "idx_8": 0,
                 "idx_11": 0,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "",
-                "split": true,
+                "split": false,
                 "token": "Herşey",
                 "v2.8 token": "Herşey",
                 "v2.11 token": "Her"
@@ -14284,7 +14070,7 @@
                 "idx_8": 13,
                 "idx_11": 17,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part",
                 "split": false,
                 "token": "bu",
                 "v2.8 token": "bu",
@@ -14296,7 +14082,7 @@
                 "idx_8": 15,
                 "idx_11": 19,
                 "v2.8 feats": "Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Cau|Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part",
+                "v2.11 feats": "Case=Acc|Number=Sing|Person=3",
                 "split": false,
                 "token": "geçen",
                 "v2.8 token": "geçen",
@@ -14308,7 +14094,6 @@
                 "idx_8": 16,
                 "idx_11": 21,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "yıl",
                 "v2.8 token": "yıl",
@@ -14358,7 +14143,6 @@
                 "v2.11": 0,
                 "idx_8": 6,
                 "idx_11": 6,
-                "v2.8 feats": "",
                 "v2.11 feats": "Polarity=Pos|VerbForm=Conv",
                 "split": false,
                 "token": "olarak",
@@ -14385,7 +14169,6 @@
                 "idx_8": 11,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "bazen",
                 "v2.8 token": "bazen",
@@ -14397,7 +14180,6 @@
                 "idx_8": 12,
                 "idx_11": 13,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
                 "split": false,
                 "token": "de",
                 "v2.8 token": "de",
@@ -14409,7 +14191,7 @@
                 "idx_8": 14,
                 "idx_11": 16,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "ve",
                 "v2.8 token": "ve",
@@ -14421,7 +14203,7 @@
                 "idx_8": 15,
                 "idx_11": 18,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "iri",
                 "v2.8 token": "iri",
@@ -14433,7 +14215,7 @@
                 "idx_8": 16,
                 "idx_11": 21,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3|Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
+                "v2.11 feats": "Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres",
                 "split": false,
                 "token": "bir",
                 "v2.8 token": "bir",
@@ -14481,7 +14263,7 @@
                 "idx_8": 10,
                 "idx_11": 11,
                 "v2.8 feats": "",
-                "v2.11 feats": "",
+                "v2.11 feats": "Case=Gen|Number=Sing|Person=3",
                 "split": false,
                 "token": ",",
                 "v2.8 token": ",",
@@ -14545,7 +14327,6 @@
                 "v2.11": 1,
                 "idx_8": 6,
                 "idx_11": 6,
-                "v2.8 feats": "",
                 "v2.11 feats": "",
                 "split": false,
                 "token": "da",
@@ -14582,7 +14363,7 @@
                 "idx_8": 11,
                 "idx_11": 13,
                 "v2.8 feats": "Case=Abl|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Abl|Number=Sing|Person=3|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
+                "v2.11 feats": "Case=Abl|Number=Sing|Person=3|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "sürümden",
                 "v2.8 token": "sürümden",
@@ -14604,7 +14385,6 @@
                 "v2.11": 1,
                 "idx_8": 13,
                 "idx_11": 16,
-                "v2.11 feats": "Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past",
                 "split": false,
                 "token": "dedi",
                 "v2.8 token": "öyleydi",
@@ -14642,7 +14422,7 @@
                 "idx_8": 34,
                 "idx_11": 35,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "çit",
                 "v2.8 token": "çit",
@@ -14665,7 +14445,7 @@
                 "idx_8": 37,
                 "idx_11": 38,
                 "v2.8 feats": "Case=Nom|Number=Sing|Person=3",
-                "v2.11 feats": "Case=Nom|Number=Sing|Person=3|Case=Nom|Number=Sing|Person=3",
+                "v2.11 feats": "Case=Nom|Number=Sing|Person=3",
                 "split": false,
                 "token": "padok",
                 "v2.8 token": "padok",
@@ -14677,7 +14457,6 @@
                 "idx_8": 38,
                 "idx_11": 39,
                 "v2.8 feats": "",
-                "v2.11 feats": "Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3",
                 "split": false,
                 "token": ")",
                 "v2.8 token": ")",
@@ -14745,91 +14524,70 @@
                     "remove",
                     "Person=3"
                 ],
-                "count": 89
+                "count": 112
             },
             {
                 "tuple": [
                     "remove",
                     "Number=Sing"
                 ],
-                "count": 85
+                "count": 105
             },
             {
                 "tuple": [
                     "remove",
                     "Case=Nom"
                 ],
-                "count": 66
+                "count": 75
             },
             {
                 "tuple": [
                     "remove",
                     "Polarity=Pos"
                 ],
-                "count": 34
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=3"
-                ],
-                "count": 30
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Number=Sing"
-                ],
-                "count": 29
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Polarity=Pos"
-                ],
-                "count": 29
+                "count": 42
             },
             {
                 "tuple": [
                     "remove",
                     "Number[psor]=Sing"
                 ],
-                "count": 26
+                "count": 39
             },
             {
                 "tuple": [
                     "remove",
                     "Person[psor]=3"
                 ],
-                "count": 25
-            },
-            {
-                "tuple": [
-                    "add",
-                    "VerbForm=Part"
-                ],
-                "count": 19
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Aspect=Perf"
-                ],
-                "count": 18
-            },
-            {
-                "tuple": [
-                    "add",
-                    "VerbForm=Vnoun"
-                ],
-                "count": 16
+                "count": 37
             },
             {
                 "tuple": [
                     "remove",
                     "Tense=Past"
                 ],
-                "count": 16
+                "count": 23
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Aspect=Perf"
+                ],
+                "count": 20
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Tense=Pres"
+                ],
+                "count": 18
+            },
+            {
+                "tuple": [
+                    "add",
+                    "VerbForm=Part"
+                ],
+                "count": 17
             },
             {
                 "tuple": [
@@ -14837,12 +14595,12 @@
                     "Case=Nom",
                     "Case=Acc"
                 ],
-                "count": 15
+                "count": 16
             },
             {
                 "tuple": [
                     "remove",
-                    "Tense=Pres"
+                    "VerbForm=Part"
                 ],
                 "count": 15
             },
@@ -14856,6 +14614,20 @@
             },
             {
                 "tuple": [
+                    "add",
+                    "VerbForm=Vnoun"
+                ],
+                "count": 13
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Polarity=Pos"
+                ],
+                "count": 13
+            },
+            {
+                "tuple": [
                     "remove",
                     "Evident=Fh"
                 ],
@@ -14863,36 +14635,50 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Number[psor]=Sing"
+                    "remove",
+                    "Case=Dat"
                 ],
-                "count": 13
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person[psor]=3"
-                ],
-                "count": 12
+                "count": 10
             },
             {
                 "tuple": [
                     "remove",
-                    "VerbForm=Part"
+                    "Number=Plur"
                 ],
-                "count": 10
+                "count": 9
             },
             {
                 "tuple": [
                     "add",
                     "Case=Nom"
                 ],
-                "count": 10
+                "count": 9
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Loc"
+                ],
+                "count": 8
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Past"
+                    "Number[psor]=Sing"
+                ],
+                "count": 8
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person[psor]=3"
+                ],
+                "count": 8
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Pass"
                 ],
                 "count": 7
             },
@@ -14907,28 +14693,35 @@
             {
                 "tuple": [
                     "add",
-                    "Mood=Imp"
+                    "Person=3"
                 ],
                 "count": 6
             },
             {
                 "tuple": [
                     "add",
-                    "Number=Plur"
+                    "Number=Sing"
                 ],
                 "count": 6
             },
             {
                 "tuple": [
                     "remove",
-                    "Number=Plur"
+                    "Case=Acc"
                 ],
                 "count": 6
             },
             {
                 "tuple": [
-                    "add",
-                    "Aspect=Perf"
+                    "remove",
+                    "Case=Gen"
+                ],
+                "count": 6
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Cau"
                 ],
                 "count": 6
             },
@@ -14943,49 +14736,21 @@
             {
                 "tuple": [
                     "remove",
-                    "Case=Dat"
+                    "Aspect=Hab"
                 ],
                 "count": 6
             },
             {
                 "tuple": [
                     "add",
-                    "VerbForm=Conv"
-                ],
-                "count": 6
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Pass"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Ind"
+                    "Tense=Past"
                 ],
                 "count": 5
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Pres"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Acc"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Loc"
+                    "Aspect=Perf"
                 ],
                 "count": 5
             },
@@ -14998,36 +14763,22 @@
             },
             {
                 "tuple": [
+                    "add",
+                    "VerbForm=Conv"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
                     "remove",
-                    "Aspect=Hab"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Abl"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=2"
+                    "Evident=Nfh"
                 ],
                 "count": 4
             },
             {
                 "tuple": [
                     "remove",
-                    "Voice=Cau"
-                ],
-                "count": 4
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Polarity=Neg"
+                    "Mood=Ind"
                 ],
                 "count": 4
             },
@@ -15042,7 +14793,14 @@
             {
                 "tuple": [
                     "add",
-                    "Aspect=Hab"
+                    "Tense=Pres"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person[psor]=2"
                 ],
                 "count": 3
             },
@@ -15055,22 +14813,30 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Mood=Pot"
+                    "change",
+                    "Case=Nom",
+                    "Case=Loc"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "remove",
-                    "Tense=Fut"
+                    "Aspect=Imp"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
-                    "add",
-                    "Voice=Pass"
+                    "remove",
+                    "Polarity=Neg"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Ins"
                 ],
                 "count": 3
             },
@@ -15090,13 +14856,6 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Person[psor]=2"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
                     "change",
                     "Person=3",
                     "Person=2"
@@ -15105,22 +14864,16 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Voice=Cau"
+                    "change",
+                    "Number=Sing",
+                    "Number=Plur"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Fut"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Aspect=Prosp"
+                    "Mood=Imp"
                 ],
                 "count": 2
             },
@@ -15133,23 +14886,15 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Case=Gen",
-                    "Case=Nom"
+                    "remove",
+                    "Mood=Pot"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
                     "remove",
-                    "Aspect=Imp"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Gen"
+                    "Number[psor]=Plur"
                 ],
                 "count": 2
             },
@@ -15170,7 +14915,7 @@
             {
                 "tuple": [
                     "add",
-                    "Case=Dat"
+                    "Case=Loc"
                 ],
                 "count": 2
             },
@@ -15183,23 +14928,31 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Gen"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Ins"
+                    "remove",
+                    "Tense=Fut"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
                     "change",
-                    "Number=Sing",
-                    "Number=Plur"
+                    "Person=1",
+                    "Person=3"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Aspect=Hab"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Acc",
+                    "Case=Gen"
                 ],
                 "count": 1
             },
@@ -15213,7 +14966,14 @@
             {
                 "tuple": [
                     "add",
-                    "Mood=Ind"
+                    "Aspect=Prosp"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Tense=Fut"
                 ],
                 "count": 1
             },
@@ -15221,6 +14981,13 @@
                 "tuple": [
                     "add",
                     "Evident=Nfh"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Mood=Ind"
                 ],
                 "count": 1
             },
@@ -15241,16 +15008,17 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Loc"
+                    "change",
+                    "Aspect=Hab",
+                    "Aspect=Perf"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "change",
-                    "Case=Dat",
-                    "Case=Acc"
+                    "Tense=Pres",
+                    "Tense=Past"
                 ],
                 "count": 1
             },
@@ -15271,8 +15039,9 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Number[psor]=Plur"
+                    "change",
+                    "Case=Gen",
+                    "Case=Nom"
                 ],
                 "count": 1
             },
@@ -15293,22 +15062,15 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Evident=Nfh"
+                    "add",
+                    "Number[psor]=Plur"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "add",
-                    "Mood=Opt"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=1"
+                    "Mood=Gen"
                 ],
                 "count": 1
             },
@@ -15343,6 +15105,21 @@
             {
                 "tuple": [
                     "add",
+                    "Case=Gen"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Acc",
+                    "Case=Abl"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "add",
                     "Aspect=Prog"
                 ],
                 "count": 1
@@ -15359,14 +15136,6 @@
                 "tuple": [
                     "change",
                     "Case=Abl",
-                    "Case=Loc"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Nom",
                     "Case=Loc"
                 ],
                 "count": 1
@@ -15389,6 +15158,13 @@
             },
             {
                 "tuple": [
+                    "remove",
+                    "Person[psor]=1"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
                     "change",
                     "Case=Nom",
                     "Case=Ins"
@@ -15409,13 +15185,6 @@
                     "Case=Dat"
                 ],
                 "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Ins"
-                ],
-                "count": 1
             }
         ],
         "decrease": [
@@ -15424,54 +15193,61 @@
                     "remove",
                     "Person=3"
                 ],
-                "count": 56
+                "count": 74
             },
             {
                 "tuple": [
                     "remove",
                     "Number=Sing"
                 ],
-                "count": 55
+                "count": 72
             },
             {
                 "tuple": [
                     "remove",
                     "Polarity=Pos"
                 ],
-                "count": 42
+                "count": 46
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Nom"
+                ],
+                "count": 30
             },
             {
                 "tuple": [
                     "remove",
                     "Number[psor]=Sing"
                 ],
-                "count": 25
+                "count": 30
             },
             {
                 "tuple": [
                     "remove",
                     "Person[psor]=3"
                 ],
-                "count": 23
+                "count": 28
             },
             {
                 "tuple": [
                     "remove",
-                    "Tense=Pres"
+                    "Tense=Past"
                 ],
-                "count": 21
+                "count": 23
             },
             {
                 "tuple": [
                     "remove",
                     "VerbForm=Part"
                 ],
-                "count": 20
+                "count": 22
             },
             {
                 "tuple": [
                     "remove",
-                    "Case=Nom"
+                    "Aspect=Perf"
                 ],
                 "count": 20
             },
@@ -15480,21 +15256,28 @@
                     "remove",
                     "VerbForm=Vnoun"
                 ],
-                "count": 17
+                "count": 16
             },
             {
                 "tuple": [
                     "remove",
-                    "Tense=Past"
+                    "Tense=Pres"
                 ],
                 "count": 16
             },
             {
                 "tuple": [
                     "remove",
-                    "Aspect=Perf"
+                    "Case=Acc"
                 ],
-                "count": 16
+                "count": 15
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Evident=Fh"
+                ],
+                "count": 15
             },
             {
                 "tuple": [
@@ -15502,14 +15285,7 @@
                     "Case=Acc",
                     "Case=Nom"
                 ],
-                "count": 15
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Number=Sing"
-                ],
-                "count": 14
+                "count": 13
             },
             {
                 "tuple": [
@@ -15517,91 +15293,63 @@
                     "Aspect=Imp",
                     "Aspect=Prog"
                 ],
-                "count": 13
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Acc"
-                ],
                 "count": 12
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Nom"
-                ],
-                "count": 12
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Person=3"
-                ],
-                "count": 12
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Evident=Fh"
-                ],
-                "count": 10
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Aspect=Hab"
-                ],
-                "count": 10
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "VerbForm=Conv"
-                ],
-                "count": 8
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Pass"
-                ],
-                "count": 8
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "PronType=Prs"
-                ],
-                "count": 7
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Gen"
-                ],
-                "count": 6
             },
             {
                 "tuple": [
                     "remove",
                     "Number=Plur"
                 ],
+                "count": 9
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Aspect=Hab"
+                ],
+                "count": 8
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Dat"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Loc"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "VerbForm=Conv"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Pass"
+                ],
+                "count": 7
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Prs"
+                ],
                 "count": 6
             },
             {
                 "tuple": [
                     "add",
-                    "Number[psor]=Sing"
+                    "Polarity=Pos"
                 ],
                 "count": 6
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Mood=Pot"
-                ],
-                "count": 5
             },
             {
                 "tuple": [
@@ -15613,50 +15361,50 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Polarity=Pos"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
                     "remove",
-                    "PronType=Int"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Loc"
-                ],
-                "count": 5
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Dat"
+                    "NumType=Card"
                 ],
                 "count": 5
             },
             {
                 "tuple": [
                     "add",
-                    "Person[psor]=3"
+                    "Tense=Pres"
                 ],
                 "count": 5
             },
             {
                 "tuple": [
                     "remove",
-                    "Case=Gen"
+                    "Mood=Pot"
+                ],
+                "count": 5
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Nom"
+                ],
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person=2"
                 ],
                 "count": 4
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Pres"
+                    "Number=Sing"
+                ],
+                "count": 4
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Int"
                 ],
                 "count": 4
             },
@@ -15670,28 +15418,29 @@
             {
                 "tuple": [
                     "remove",
-                    "Aspect=Prog"
+                    "Aspect=Imp"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Number=Sing",
+                    "Number=Plur"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "remove",
-                    "NumType=Card"
+                    "Mood=Imp"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "remove",
-                    "Person=2"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Tense=Past"
+                    "Evident=Nfh"
                 ],
                 "count": 3
             },
@@ -15704,26 +15453,59 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Aspect=Prosp",
-                    "Aspect=Imp"
-                ],
-                "count": 3
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Loc",
-                    "Case=Nom"
+                    "add",
+                    "Tense=Past"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "remove",
-                    "Aspect=Imp"
+                    "Mood=Gen"
                 ],
                 "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Polarity=Neg"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Number[psor]=Sing"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Person=1"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "VerbForm=Part"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Case=Gen"
+                ],
+                "count": 3
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Mood=Ind"
+                ],
+                "count": 2
             },
             {
                 "tuple": [
@@ -15734,23 +15516,22 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Number=Sing",
-                    "Number=Plur"
+                    "add",
+                    "Person=3"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person[psor]=3"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
                     "remove",
-                    "Mood=Imp"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Polarity=Neg"
+                    "Mood=Ind"
                 ],
                 "count": 2
             },
@@ -15764,15 +15545,9 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "VerbForm=Part"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Person=1"
+                    "change",
+                    "Aspect=Prosp",
+                    "Aspect=Imp"
                 ],
                 "count": 2
             },
@@ -15793,51 +15568,40 @@
             },
             {
                 "tuple": [
+                    "change",
+                    "Case=Loc",
+                    "Case=Nom"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Person=3",
+                    "Person=1"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Gen",
+                    "Case=Nom"
+                ],
+                "count": 2
+            },
+            {
+                "tuple": [
                     "remove",
-                    "Case=Abl"
+                    "Case=Ins"
                 ],
                 "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Voice=Pass"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Evident=Nfh"
-                ],
-                "count": 2
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Mood=Ind"
-                ],
-                "count": 1
             },
             {
                 "tuple": [
                     "change",
                     "Case=Acc",
                     "Case=Dat"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Mood=Cnd"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Case=Ins"
                 ],
                 "count": 1
             },
@@ -15852,7 +15616,7 @@
             {
                 "tuple": [
                     "add",
-                    "Mood=Gen"
+                    "Case=Acc"
                 ],
                 "count": 1
             },
@@ -15865,23 +15629,9 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Mood=Imp"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
-                    "Case=Loc"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
                     "change",
-                    "Case=Nom",
-                    "Case=Gen"
+                    "Case=Gen",
+                    "Case=Dat"
                 ],
                 "count": 1
             },
@@ -15902,17 +15652,8 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Person=3",
-                    "Person=1"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Case=Gen",
-                    "Case=Nom"
+                    "add",
+                    "NumType=Card"
                 ],
                 "count": 1
             },
@@ -15926,23 +15667,15 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Mood=Des"
+                    "add",
+                    "Voice=Pass"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
-                    "remove",
-                    "Mood=Cnd"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "change",
-                    "Tense=Fut",
-                    "Tense=Past"
+                    "add",
+                    "Aspect=Prog"
                 ],
                 "count": 1
             },
@@ -15950,6 +15683,36 @@
                 "tuple": [
                     "remove",
                     "Aspect=Prosp"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Tense=Fut"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "PronType=Dem"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Case=Acc",
+                    "Case=Gen"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Aspect=Hab",
+                    "Aspect=Imp"
                 ],
                 "count": 1
             },
@@ -15964,6 +15727,28 @@
                 "tuple": [
                     "remove",
                     "Number[psor]=Plur"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "change",
+                    "Person=1",
+                    "Person=2"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Case=Gen"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Aspect=Prog"
                 ],
                 "count": 1
             },
@@ -15985,7 +15770,7 @@
             {
                 "tuple": [
                     "remove",
-                    "Voice=Cau"
+                    "Case=Abl"
                 ],
                 "count": 1
             },

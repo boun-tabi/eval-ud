@@ -47,6 +47,9 @@ def main():
 
     analysis_d = {'sentences': {}}
     v2_8_match, v2_11_match, all = 0, 0, 0
+    v2_8_mismatches, v2_11_mismatches = {}, {}
+    v2_8_error_feat_count_d, v2_11_error_feat_count_d = {}, {}
+    v2_8_feat_count_d, v2_11_feat_count_d = {}, {}
     for sent_id, value in results.items():
         v2_8_table, v2_11_table = tb8[sent_id]['table'], tb11[sent_id]['table']
         original_text, text_v2_8, text_v2_11 = value['original text'], value['v2.8 text'], value['v2.11 text']
@@ -85,6 +88,14 @@ def main():
                 comparison_d[i] = {'v2.8': 0, 'v2.11': 1, 'idx_8': idx_8, 'idx_11': idx_11}
             elif idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8] and idx_11 < len(v2_11_tokens) and token != v2_11_tokens[idx_11]:
                 comparison_d[i] = {'v2.8': 1, 'v2.11': 0, 'idx_8': idx_8, 'idx_11': idx_11}
+            if idx_8 < len(v2_8_tokens) and token != v2_8_tokens[idx_8]:
+                if sent_id not in v2_8_mismatches:
+                    v2_8_mismatches[sent_id] = []
+                v2_8_mismatches[sent_id].append(idx_8)
+            if idx_11 < len(v2_11_tokens) and token != v2_11_tokens[idx_11]:
+                if sent_id not in v2_11_mismatches:
+                    v2_11_mismatches[sent_id] = []
+                v2_11_mismatches[sent_id].append(idx_11)
             if idx_8 < len(v2_8_tokens) and token == v2_8_tokens[idx_8]:
                 v2_8_match += 1
             if idx_11 < len(v2_11_tokens) and token == v2_11_tokens[idx_11]:
@@ -98,6 +109,12 @@ def main():
         for i, line in enumerate(v2_8_table.split('\n')):
             fields = line.split('\t')
             id_t, form_t, feats_t, misc_t = fields[0], fields[1], fields[5], fields[9]
+            if feats_t != '_':
+                feat_l = feats_t.split('|')
+                for feat in feat_l:
+                    if feat not in v2_8_feat_count_d:
+                        v2_8_feat_count_d[feat] = 0
+                    v2_8_feat_count_d[feat] += 1
             if '-' in id_t:
                 in_split = 0
                 continue
@@ -108,6 +125,14 @@ def main():
                     token_idx -= 1
                 else:
                     break
+            if sent_id in v2_8_mismatches and token_idx in v2_8_mismatches[sent_id]:
+                if feats_t == '_':
+                    continue
+                feat_l = feats_t.split('|')
+                for feat in feat_l:
+                    if feat not in v2_8_error_feat_count_d:
+                        v2_8_error_feat_count_d[feat] = {'mismatch_count': 0}
+                    v2_8_error_feat_count_d[feat]['mismatch_count'] += 1
             v2_8_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_8_annotation[id_t]['space_after'] = False
@@ -139,6 +164,12 @@ def main():
         for i, line in enumerate(v2_11_table.split('\n')):
             fields = line.split('\t')
             id_t, form_t, feats_t, misc_t = fields[0], fields[1], fields[5], fields[9]
+            if feats_t != '_':
+                feat_l = feats_t.split('|')
+                for feat in feat_l:
+                    if feat not in v2_11_feat_count_d:
+                        v2_11_feat_count_d[feat] = 0
+                    v2_11_feat_count_d[feat] += 1
             if '-' in id_t:
                 in_split = 0
                 continue
@@ -149,6 +180,14 @@ def main():
                     token_idx -= 1
                 else:
                     break
+            if sent_id in v2_11_mismatches and token_idx in v2_11_mismatches[sent_id]:
+                if feats_t == '_':
+                    continue
+                feat_l = feats_t.split('|')
+                for feat in feat_l:
+                    if feat not in v2_11_error_feat_count_d:
+                        v2_11_error_feat_count_d[feat] = {'mismatch_count': 0}
+                    v2_11_error_feat_count_d[feat]['mismatch_count'] += 1
             v2_11_annotation[id_t] = {'form': form_t, 'space_after': True, 'feats': feats_t}
             if 'SpaceAfter=No' in misc_t:
                 v2_11_annotation[id_t]['space_after'] = False
@@ -172,7 +211,7 @@ def main():
                 in_split = -1
             elif in_split == -1:
                 token_idx += 1
-        
+
         for key in comparison_d:
             if 'split' not in comparison_d[key]:
                 comparison_d[key]['split'] = False
@@ -181,7 +220,7 @@ def main():
             comparison_d[key]['v2.11 token'] = v2_11_tokens[comparison_d[key]['idx_11']]
 
         analysis_d['sentences'][sent_id] = comparison_d
-    
+
     analysis_d['feats'] = {'increase': {}, 'decrease': {}}
     for sent_id in analysis_d['sentences'].keys():
         ids = list(analysis_d['sentences'][sent_id].keys())
@@ -229,7 +268,7 @@ def main():
                     if tup not in analysis_d['feats']['decrease']:
                         analysis_d['feats']['decrease'][tup] = 0
                     analysis_d['feats']['decrease'][tup] += 1
-    
+
     increase_d = analysis_d['feats']['increase'].copy()
     keys = list(increase_d.keys())
     keys.sort(key=lambda x: increase_d[x], reverse=True)
@@ -246,6 +285,20 @@ def main():
     with open(os.path.join(THIS_DIR, 'error_analysis-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(analysis_d, f, indent=4, ensure_ascii=False)
     
+    for feat in v2_8_error_feat_count_d:
+        v2_8_error_feat_count_d[feat]['all_count'] = v2_8_feat_count_d[feat]
+        v2_8_error_feat_count_d[feat]['ratio'] = v2_8_error_feat_count_d[feat]['mismatch_count'] / v2_8_feat_count_d[feat]
+    for feat in v2_11_error_feat_count_d:
+        v2_11_error_feat_count_d[feat]['all_count'] = v2_11_feat_count_d[feat]
+        v2_11_error_feat_count_d[feat]['ratio'] = v2_11_error_feat_count_d[feat]['mismatch_count'] / v2_11_feat_count_d[feat]
+
+    v2_8_error_feat_count_d = {k: v for k, v in sorted(v2_8_error_feat_count_d.items(), key=lambda item: item[1]['ratio'], reverse=True)}
+    v2_11_error_feat_count_d = {k: v for k, v in sorted(v2_11_error_feat_count_d.items(), key=lambda item: item[1]['ratio'], reverse=True)}
+    with open(os.path.join(THIS_DIR, 'v2_8_error_feat_count_d-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
+        json.dump(v2_8_error_feat_count_d, f, indent=4, ensure_ascii=False)
+    with open(os.path.join(THIS_DIR, 'v2_11_error_feat_count_d-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
+        json.dump(v2_11_error_feat_count_d, f, indent=4, ensure_ascii=False)
+
     print('Model:', model)
     print('v2.8 ratio: {}'.format(v2_8_match / all))
     print('v2.11 ratio: {}'.format(v2_11_match / all))
