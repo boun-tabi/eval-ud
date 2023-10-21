@@ -14864,16 +14864,16 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Number=Sing",
-                    "Number=Plur"
+                    "add",
+                    "Mood=Imp"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
-                    "add",
-                    "Mood=Imp"
+                    "change",
+                    "Number=Sing",
+                    "Number=Plur"
                 ],
                 "count": 2
             },
@@ -15009,16 +15009,16 @@
             {
                 "tuple": [
                     "change",
-                    "Aspect=Hab",
-                    "Aspect=Perf"
+                    "Tense=Pres",
+                    "Tense=Past"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "change",
-                    "Tense=Pres",
-                    "Tense=Past"
+                    "Aspect=Hab",
+                    "Aspect=Perf"
                 ],
                 "count": 1
             },
@@ -15447,14 +15447,14 @@
             {
                 "tuple": [
                     "add",
-                    "Evident=Fh"
+                    "Tense=Past"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "add",
-                    "Tense=Past"
+                    "Evident=Fh"
                 ],
                 "count": 3
             },

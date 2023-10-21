@@ -1,13 +1,193 @@
 {
-    "VerbForm=Conv": {
-        "mismatch_count": 24,
-        "all_count": 28,
-        "ratio": 0.8571428571428571
+    "Person=3": {
+        "mismatch_count": 1462,
+        "all_count": 3264,
+        "ratio": 0.4479166666666667
+    },
+    "Number=Sing": {
+        "mismatch_count": 1311,
+        "all_count": 2998,
+        "ratio": 0.4372915276851234
+    },
+    "Case=Nom": {
+        "mismatch_count": 681,
+        "all_count": 1666,
+        "ratio": 0.4087635054021609
+    },
+    "Polarity=Pos": {
+        "mismatch_count": 561,
+        "all_count": 946,
+        "ratio": 0.5930232558139535
+    },
+    "Number[psor]=Sing": {
+        "mismatch_count": 446,
+        "all_count": 825,
+        "ratio": 0.5406060606060606
+    },
+    "Person[psor]=3": {
+        "mismatch_count": 431,
+        "all_count": 790,
+        "ratio": 0.5455696202531646
+    },
+    "Tense=Past": {
+        "mismatch_count": 234,
+        "all_count": 374,
+        "ratio": 0.6256684491978609
+    },
+    "Number=Plur": {
+        "mismatch_count": 234,
+        "all_count": 478,
+        "ratio": 0.4895397489539749
+    },
+    "Aspect=Perf": {
+        "mismatch_count": 218,
+        "all_count": 349,
+        "ratio": 0.6246418338108882
+    },
+    "Tense=Pres": {
+        "mismatch_count": 180,
+        "all_count": 359,
+        "ratio": 0.5013927576601671
+    },
+    "Case=Loc": {
+        "mismatch_count": 146,
+        "all_count": 291,
+        "ratio": 0.5017182130584192
+    },
+    "VerbForm=Part": {
+        "mismatch_count": 145,
+        "all_count": 240,
+        "ratio": 0.6041666666666666
+    },
+    "Case=Acc": {
+        "mismatch_count": 134,
+        "all_count": 258,
+        "ratio": 0.5193798449612403
+    },
+    "Evident=Fh": {
+        "mismatch_count": 127,
+        "all_count": 211,
+        "ratio": 0.6018957345971564
+    },
+    "Case=Gen": {
+        "mismatch_count": 122,
+        "all_count": 273,
+        "ratio": 0.4468864468864469
+    },
+    "Case=Dat": {
+        "mismatch_count": 101,
+        "all_count": 264,
+        "ratio": 0.38257575757575757
+    },
+    "Voice=Pass": {
+        "mismatch_count": 78,
+        "all_count": 129,
+        "ratio": 0.6046511627906976
+    },
+    "Aspect=Hab": {
+        "mismatch_count": 69,
+        "all_count": 116,
+        "ratio": 0.5948275862068966
+    },
+    "Person=1": {
+        "mismatch_count": 65,
+        "all_count": 159,
+        "ratio": 0.4088050314465409
+    },
+    "Polarity=Neg": {
+        "mismatch_count": 59,
+        "all_count": 81,
+        "ratio": 0.7283950617283951
+    },
+    "Person[psor]=1": {
+        "mismatch_count": 51,
+        "all_count": 92,
+        "ratio": 0.5543478260869565
+    },
+    "Number[psor]=Plur": {
+        "mismatch_count": 50,
+        "all_count": 79,
+        "ratio": 0.6329113924050633
+    },
+    "Aspect=Prog": {
+        "mismatch_count": 46,
+        "all_count": 112,
+        "ratio": 0.4107142857142857
+    },
+    "Case=Abl": {
+        "mismatch_count": 44,
+        "all_count": 111,
+        "ratio": 0.3963963963963964
+    },
+    "Mood=Imp": {
+        "mismatch_count": 40,
+        "all_count": 63,
+        "ratio": 0.6349206349206349
+    },
+    "Aspect=Imp": {
+        "mismatch_count": 37,
+        "all_count": 66,
+        "ratio": 0.5606060606060606
     },
     "Voice=Cau": {
         "mismatch_count": 37,
         "all_count": 44,
         "ratio": 0.8409090909090909
+    },
+    "Evident=Nfh": {
+        "mismatch_count": 32,
+        "all_count": 50,
+        "ratio": 0.64
+    },
+    "Tense=Fut": {
+        "mismatch_count": 30,
+        "all_count": 53,
+        "ratio": 0.5660377358490566
+    },
+    "Case=Ins": {
+        "mismatch_count": 29,
+        "all_count": 71,
+        "ratio": 0.4084507042253521
+    },
+    "VerbForm=Conv": {
+        "mismatch_count": 24,
+        "all_count": 28,
+        "ratio": 0.8571428571428571
+    },
+    "Mood=Cnd": {
+        "mismatch_count": 20,
+        "all_count": 27,
+        "ratio": 0.7407407407407407
+    },
+    "Person=2": {
+        "mismatch_count": 18,
+        "all_count": 53,
+        "ratio": 0.33962264150943394
+    },
+    "Mood=Pot": {
+        "mismatch_count": 18,
+        "all_count": 28,
+        "ratio": 0.6428571428571429
+    },
+    "Mood=Ind": {
+        "mismatch_count": 17,
+        "all_count": 36,
+        "ratio": 0.4722222222222222
+    },
+    "Person[psor]=2": {
+        "mismatch_count": 14,
+        "all_count": 22,
+        "ratio": 0.6363636363636364
+    },
+    "NumType=Card": {
+        "mismatch_count": 14,
+        "all_count": 100,
+        "ratio": 0.14
+    },
+    "Mood=Gen": {
+        "mismatch_count": 11,
+        "all_count": 16,
+        "ratio": 0.6875
     },
     "Mood=Nec": {
         "mismatch_count": 5,
@@ -19,6 +199,11 @@
         "all_count": 5,
         "ratio": 0.8
     },
+    "PronType=Prs": {
+        "mismatch_count": 4,
+        "all_count": 10,
+        "ratio": 0.4
+    },
     "VerbForm=Vnoun": {
         "mismatch_count": 3,
         "all_count": 4,
@@ -29,199 +214,14 @@
         "all_count": 4,
         "ratio": 0.75
     },
-    "Mood=Cnd": {
-        "mismatch_count": 20,
-        "all_count": 27,
-        "ratio": 0.7407407407407407
-    },
-    "Polarity=Neg": {
-        "mismatch_count": 59,
-        "all_count": 81,
-        "ratio": 0.7283950617283951
-    },
-    "Mood=Gen": {
-        "mismatch_count": 11,
-        "all_count": 16,
-        "ratio": 0.6875
-    },
-    "Mood=Pot": {
-        "mismatch_count": 18,
-        "all_count": 28,
-        "ratio": 0.6428571428571429
-    },
-    "Evident=Nfh": {
-        "mismatch_count": 32,
-        "all_count": 50,
-        "ratio": 0.64
-    },
-    "Person[psor]=2": {
-        "mismatch_count": 14,
-        "all_count": 22,
-        "ratio": 0.6363636363636364
-    },
-    "Mood=Imp": {
-        "mismatch_count": 40,
-        "all_count": 63,
-        "ratio": 0.6349206349206349
-    },
-    "Number[psor]=Plur": {
-        "mismatch_count": 50,
-        "all_count": 79,
-        "ratio": 0.6329113924050633
-    },
-    "Tense=Past": {
-        "mismatch_count": 234,
-        "all_count": 374,
-        "ratio": 0.6256684491978609
-    },
-    "Aspect=Perf": {
-        "mismatch_count": 218,
-        "all_count": 349,
-        "ratio": 0.6246418338108882
-    },
-    "Voice=Pass": {
-        "mismatch_count": 78,
-        "all_count": 129,
-        "ratio": 0.6046511627906976
-    },
-    "VerbForm=Part": {
-        "mismatch_count": 145,
-        "all_count": 240,
-        "ratio": 0.6041666666666666
-    },
-    "Evident=Fh": {
-        "mismatch_count": 127,
-        "all_count": 211,
-        "ratio": 0.6018957345971564
-    },
-    "Aspect=Hab": {
-        "mismatch_count": 69,
-        "all_count": 116,
-        "ratio": 0.5948275862068966
-    },
-    "Polarity=Pos": {
-        "mismatch_count": 561,
-        "all_count": 946,
-        "ratio": 0.5930232558139535
-    },
-    "Tense=Fut": {
-        "mismatch_count": 30,
-        "all_count": 53,
-        "ratio": 0.5660377358490566
-    },
-    "Aspect=Imp": {
-        "mismatch_count": 37,
-        "all_count": 66,
-        "ratio": 0.5606060606060606
-    },
-    "Person[psor]=1": {
-        "mismatch_count": 51,
-        "all_count": 92,
-        "ratio": 0.5543478260869565
-    },
-    "Person[psor]=3": {
-        "mismatch_count": 431,
-        "all_count": 790,
-        "ratio": 0.5455696202531646
-    },
-    "Number[psor]=Sing": {
-        "mismatch_count": 446,
-        "all_count": 825,
-        "ratio": 0.5406060606060606
-    },
-    "Case=Acc": {
-        "mismatch_count": 134,
-        "all_count": 258,
-        "ratio": 0.5193798449612403
-    },
-    "Case=Loc": {
-        "mismatch_count": 146,
-        "all_count": 291,
-        "ratio": 0.5017182130584192
-    },
-    "Tense=Pres": {
-        "mismatch_count": 180,
-        "all_count": 359,
-        "ratio": 0.5013927576601671
-    },
     "PronType=Dem": {
         "mismatch_count": 2,
         "all_count": 4,
         "ratio": 0.5
     },
-    "Number=Plur": {
-        "mismatch_count": 234,
-        "all_count": 478,
-        "ratio": 0.4895397489539749
-    },
-    "Mood=Ind": {
-        "mismatch_count": 17,
-        "all_count": 36,
-        "ratio": 0.4722222222222222
-    },
-    "Person=3": {
-        "mismatch_count": 1462,
-        "all_count": 3264,
-        "ratio": 0.4479166666666667
-    },
-    "Case=Gen": {
-        "mismatch_count": 122,
-        "all_count": 273,
-        "ratio": 0.4468864468864469
-    },
-    "Number=Sing": {
-        "mismatch_count": 1311,
-        "all_count": 2998,
-        "ratio": 0.4372915276851234
-    },
-    "Aspect=Prog": {
-        "mismatch_count": 46,
-        "all_count": 112,
-        "ratio": 0.4107142857142857
-    },
-    "Person=1": {
-        "mismatch_count": 65,
-        "all_count": 159,
-        "ratio": 0.4088050314465409
-    },
-    "Case=Nom": {
-        "mismatch_count": 681,
-        "all_count": 1666,
-        "ratio": 0.4087635054021609
-    },
-    "Case=Ins": {
-        "mismatch_count": 29,
-        "all_count": 71,
-        "ratio": 0.4084507042253521
-    },
-    "PronType=Prs": {
-        "mismatch_count": 4,
-        "all_count": 10,
-        "ratio": 0.4
-    },
-    "Case=Abl": {
-        "mismatch_count": 44,
-        "all_count": 111,
-        "ratio": 0.3963963963963964
-    },
-    "Case=Dat": {
-        "mismatch_count": 101,
-        "all_count": 264,
-        "ratio": 0.38257575757575757
-    },
-    "Person=2": {
-        "mismatch_count": 18,
-        "all_count": 53,
-        "ratio": 0.33962264150943394
-    },
     "NumType=Ord": {
         "mismatch_count": 2,
         "all_count": 7,
         "ratio": 0.2857142857142857
-    },
-    "NumType=Card": {
-        "mismatch_count": 14,
-        "all_count": 100,
-        "ratio": 0.14
     }
 }

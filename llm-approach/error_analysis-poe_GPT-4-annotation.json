@@ -12055,14 +12055,14 @@
             {
                 "tuple": [
                     "add",
-                    "Person=3"
+                    "Number=Sing"
                 ],
                 "count": 6
             },
             {
                 "tuple": [
                     "add",
-                    "Number=Sing"
+                    "Person=3"
                 ],
                 "count": 6
             },
@@ -12103,15 +12103,15 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "Mood=Imp"
+                    "add",
+                    "Aspect=Prog"
                 ],
                 "count": 4
             },
             {
                 "tuple": [
-                    "add",
-                    "Aspect=Prog"
+                    "remove",
+                    "Mood=Imp"
                 ],
                 "count": 4
             },
@@ -12212,16 +12212,16 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Person=3",
-                    "Person=2"
+                    "add",
+                    "Mood=Imp"
                 ],
                 "count": 2
             },
             {
                 "tuple": [
-                    "add",
-                    "Mood=Imp"
+                    "change",
+                    "Person=3",
+                    "Person=2"
                 ],
                 "count": 2
             },
@@ -12339,14 +12339,14 @@
             {
                 "tuple": [
                     "add",
-                    "Mood=Ind"
+                    "Evident=Nfh"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "add",
-                    "Evident=Nfh"
+                    "Mood=Ind"
                 ],
                 "count": 1
             },
@@ -12600,15 +12600,15 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Nom"
+                    "remove",
+                    "Aspect=Hab"
                 ],
                 "count": 9
             },
             {
                 "tuple": [
-                    "remove",
-                    "Aspect=Hab"
+                    "add",
+                    "Case=Nom"
                 ],
                 "count": 9
             },
@@ -12920,7 +12920,7 @@
             {
                 "tuple": [
                     "add",
-                    "Person=1"
+                    "Number=Plur"
                 ],
                 "count": 1
             },
@@ -12934,7 +12934,7 @@
             {
                 "tuple": [
                     "add",
-                    "Number=Plur"
+                    "Person=1"
                 ],
                 "count": 1
             },
@@ -12942,6 +12942,13 @@
                 "tuple": [
                     "remove",
                     "Case=Loc"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "remove",
+                    "Voice=Cau"
                 ],
                 "count": 1
             },
@@ -12950,13 +12957,6 @@
                     "change",
                     "VerbForm=Part",
                     "VerbForm=Conv"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "remove",
-                    "Voice=Cau"
                 ],
                 "count": 1
             },
@@ -12984,16 +12984,16 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Dat"
+                    "change",
+                    "Aspect=Perf",
+                    "Aspect=Imp"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
-                    "change",
-                    "Aspect=Perf",
-                    "Aspect=Imp"
+                    "add",
+                    "Case=Dat"
                 ],
                 "count": 1
             },
@@ -13014,14 +13014,14 @@
             {
                 "tuple": [
                     "add",
-                    "Mood=Cnd"
+                    "Aspect=Hab"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "add",
-                    "Aspect=Hab"
+                    "Mood=Cnd"
                 ],
                 "count": 1
             },

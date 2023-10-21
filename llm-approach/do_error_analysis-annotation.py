@@ -292,8 +292,8 @@ def main():
         v2_11_error_feat_count_d[feat]['all_count'] = v2_11_feat_count_d[feat]
         v2_11_error_feat_count_d[feat]['ratio'] = v2_11_error_feat_count_d[feat]['mismatch_count'] / v2_11_feat_count_d[feat]
 
-    v2_8_error_feat_count_d = {k: v for k, v in sorted(v2_8_error_feat_count_d.items(), key=lambda item: item[1]['ratio'], reverse=True)}
-    v2_11_error_feat_count_d = {k: v for k, v in sorted(v2_11_error_feat_count_d.items(), key=lambda item: item[1]['ratio'], reverse=True)}
+    v2_8_error_feat_count_d = {k: v for k, v in sorted(v2_8_error_feat_count_d.items(), key=lambda item: item[1]['mismatch_count'], reverse=True)}
+    v2_11_error_feat_count_d = {k: v for k, v in sorted(v2_11_error_feat_count_d.items(), key=lambda item: item[1]['mismatch_count'], reverse=True)}
     with open(os.path.join(THIS_DIR, 'v2_8_error_feat_count_d-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:
         json.dump(v2_8_error_feat_count_d, f, indent=4, ensure_ascii=False)
     with open(os.path.join(THIS_DIR, 'v2_11_error_feat_count_d-{}-annotation.json'.format(model)), 'w', encoding='utf-8') as f:

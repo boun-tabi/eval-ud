@@ -14212,14 +14212,14 @@
             {
                 "tuple": [
                     "add",
-                    "Number=Sing"
+                    "Person=3"
                 ],
                 "count": 15
             },
             {
                 "tuple": [
                     "add",
-                    "Person=3"
+                    "Number=Sing"
                 ],
                 "count": 15
             },
@@ -15144,13 +15144,6 @@
             {
                 "tuple": [
                     "add",
-                    "Person[psor]=3"
-                ],
-                "count": 1
-            },
-            {
-                "tuple": [
-                    "add",
                     "Number[psor]=Sing"
                 ],
                 "count": 1
@@ -15158,7 +15151,7 @@
             {
                 "tuple": [
                     "add",
-                    "Person[psor]=1"
+                    "Person[psor]=3"
                 ],
                 "count": 1
             },
@@ -15166,6 +15159,13 @@
                 "tuple": [
                     "add",
                     "Number[psor]=Plur"
+                ],
+                "count": 1
+            },
+            {
+                "tuple": [
+                    "add",
+                    "Person[psor]=1"
                 ],
                 "count": 1
             },
@@ -15360,14 +15360,14 @@
             {
                 "tuple": [
                     "add",
-                    "Number=Plur"
+                    "Case=Abl"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
                     "add",
-                    "Case=Abl"
+                    "Number=Plur"
                 ],
                 "count": 1
             },

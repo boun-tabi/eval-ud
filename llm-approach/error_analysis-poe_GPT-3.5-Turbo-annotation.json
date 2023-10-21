@@ -12726,16 +12726,16 @@
             },
             {
                 "tuple": [
-                    "add",
-                    "Case=Abl"
+                    "change",
+                    "Tense=Pres",
+                    "Tense=Past"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
-                    "change",
-                    "Tense=Pres",
-                    "Tense=Past"
+                    "add",
+                    "Case=Abl"
                 ],
                 "count": 1
             },
@@ -12987,14 +12987,14 @@
             {
                 "tuple": [
                     "add",
-                    "Number=Sing"
+                    "Person=3"
                 ],
                 "count": 3
             },
             {
                 "tuple": [
                     "add",
-                    "Person=3"
+                    "Number=Sing"
                 ],
                 "count": 3
             },
@@ -13137,16 +13137,16 @@
             },
             {
                 "tuple": [
-                    "change",
-                    "Case=Nom",
-                    "Case=Loc"
+                    "add",
+                    "Person[psor]=1"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
-                    "add",
-                    "Person[psor]=1"
+                    "change",
+                    "Case=Nom",
+                    "Case=Loc"
                 ],
                 "count": 1
             },
@@ -13189,16 +13189,16 @@
             },
             {
                 "tuple": [
-                    "remove",
-                    "PronType=Dem"
+                    "change",
+                    "Person=3",
+                    "Person=2"
                 ],
                 "count": 1
             },
             {
                 "tuple": [
-                    "change",
-                    "Person=3",
-                    "Person=2"
+                    "remove",
+                    "PronType=Dem"
                 ],
                 "count": 1
             },

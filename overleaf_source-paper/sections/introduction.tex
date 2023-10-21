@@ -1,0 +1,54 @@
+\section{Introduction}
+\label{sec:introduction}
+
+The use of pretrained language models and large language models have led to a paradigm shift in solving several types of natural language processing (NLP) tasks. 
+Pretrained language models like BERT~\cite{devlin-etal-2019-bert} and GPT~\cite{brown2020language} build a general model that encodes the characteristics of a language or multiple languages, and enable one to adapt this model to the task at hand. 
+Large language models like ChatGPT~\cite{openai2021gpt35} and LLaMA~\cite{touvron2023llama} go a step further. 
+They provide models that can be used in different types of tasks in zero- or few-shot settings.
+
+Universal Dependencies (UD)~\cite{de2021universal} project is a framework that provides treebanks in a dependency grammar format~\cite{bauer1979some, debusmann2000introduction, de2019dependency} in more than 100 languages~\citetlanguageresource{nivre-etal-2020-universal}. 
+It is commonly used for different purposes in the NLP community, including cross-lingual part-of-speech (POS) tagging~\cite{parvez-chang-2021-evaluating}, semantic parsing~\cite{reddy-etal-2017-universal}, and language identification~\cite{toftrup-etal-2021-reproduction}. 
+The UD project aims at unifying the annotations of the treebanks and arriving at consistent annotations by introducing a set of principles, universal tags and their language-specific subcategories related to morphosyntax. 
+However, due to the varying characteristics of languages in different language families and the different theoretical frameworks followed by linguists, various approaches have emerged in annotating treebanks. 
+Some linguistic phenomena in languages that the mechanisms in the framework cannot easily handle are attempted to be addressed in various ways by utilizing the MISC (miscellaneous) field in the \conllu\ format. 
+Even the treebanks of the same language may use different annotation strategies for the same linguistic phenomenon depending on the annotators' linguistic theory and assumptions. 
+The annotation differences are typically in token splits, lemmas, part-of-speech tags and morphological features of tokens, and types of dependency relations between tokens. 
+In addition to such conflicting annotations, the treebanks include noise at both morphological and syntactic levels.
+
+There are different strategies to assess the quality of annotations in corpora, such as measuring the annotation agreement in a controlled setting or using the corpora in downstream tasks. 
+The drawback of these approaches is that either they require a great deal of dedicated time and effort by area experts or  suitable downstream tasks must be identified, which may require resources that are not easily attained for all languages.
+
+In this work, we propose a novel method that makes use of large language models (LLM) in evaluating corpus annotation. 
+As an application of the proposed approach, we compare the token-level annotations (specifically lemmas, part-of-speech tags, and morphological features) between the two versions of the Turkish BOUN Treebank in the UD framework, the versions 2.8 and 2.11. 
+For each treebank, by feeding the annotations of the tokens in natural language to an LLM via a prompt, we expect the LLM to generate the tokens in order with their correct surface forms.
+We then compare the output sentences of both versions to determine which one is closer to the original sentence, which signals that the annotation of that sentence is of higher quality and expressivity than the other one. 
+We show that, compared to other strategies, the proposed approach is highly efficient and applicable to any language due to the existence of multilingual LLMs.
+
+The contributions in this work are as follows:
+\begin{itemize}
+    \item A novel approach to assess the quality of corpus annotation, employing large language models.
+    \item The application of the method to dependency treebanks to evaluate treebank annotations using a new strategy.
+    \item A detailed analysis of the correctness of the annotations in two versions of a treebank based on several parameters, such as token recovery accuracy and morphological feature importance.
+\end{itemize}
+
+The remainder of this paper is organized as follows: Section~\ref{sec:background} provides information about background information necessary to follow this work, Section~\ref{sec:related-work} introduces related work, Section~\ref{sec:method} introduces our proposed method, which is followed by experiments and results in Section~\ref{sec:results}. Finally, we conclude with Section~\ref{sec:conclusions}.
+
+% neden llm, bunu açıklayıp justify ediyoruz. morph rich dillerde assessmentın zorluğu, llmin bu konuda anlamlı olması vs.
+% Collaborative
+
+% \begin{enumerate}
+    % \item use simpler ML models (for some this should be used: input: features, output: choose the correct one out of ten examples)
+    % \item use BERT?
+    % \item use DeBERTa?
+    % \item T5
+%     \item ChatGPT
+% \end{enumerate}
+
+% ALT paperi
+
+% ??? UD parseriyla yapilan deneyler?
+
+% \begin{enumerate}
+%    \item cumlelerin kategorileri var mi?
+%    \item kelimelerin kategorileri var mi?
+% \end{enumerate}

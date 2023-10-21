@@ -1,0 +1,92 @@
+% We're currently using this project to write the UD Evaluation paper on the evaluation of the reannotation of UD_Turkish-BOUN, which resulted in v2.11. As of Oct 10, this is the up-to-date project.
+
+% LREC-COLING 2024 Example;
+% LREC Is now using templates similar to the ACL ones.
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[review]{lrec-coling2024} % this is the new style
+
+                 % Use more than one optional parameter in a new commands
+%\usepackage[dvipsnames]{xcolor}  % Coloured text etc. now in acmart.cls
+\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
+\usepackage{leipzig}
+\usepackage[linguistics]{forest}
+\usepackage{gb4e}
+\usepackage{epstopdf} 
+\RequirePackage{xspace}
+\makeglossaries
+\usepackage{xargs}   
+\usepackage{subcaption}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\feedback}[2][1=]{\todo[linecolor=yellow,backgroundcolor=yellow!25,bordercolor=yellow,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=green,backgroundcolor=green!25,bordercolor=green,#1]{#2}}
+\newcommandx{\thiswillnotshow}[2][1=]{\todo[disable,#1]{#2}}
+\newcommandx{\completedRevision}[2][1=]{\todo[disable,backgroundcolor=red,#1]{#2}}
+\newcommandx{\dataSource}[2][1=]{\todo[disable,backgroundcolor=red,#1]{#2}}
+
+%\usepackage{ascii}
+\usepackage{hyperref}
+ \definecolor{darkblue}{rgb}{0, 0, 0.5}
+  \hypersetup{colorlinks=true, citecolor=darkblue, linkcolor=darkblue, urlcolor=darkblue}
+
+\usepackage{tabularx}  % Load the tabularx package
+\usepackage{seqsplit}  % Helps to split long text sequence
+
+\usepackage{siunitx}   
+\sisetup{input-decimal-markers={.},output-decimal-marker={.},group-separator={.},detect-weight,group-minimum-digits=4,group-digits=integer}
+\renewcommand{\ttdefault}{cmtt}
+
+
+\title{Evaluating the quality of a corpus annotation scheme using pretrained language models}
+
+\name{Author1, Author2, Author3}
+
+\address{Affiliation1, Affiliation2, Affiliation3 \\
+         Address1, Address2, Address3 \\
+         author1@xxx.yy, author2@zzz.edu, author3@hhh.com\\
+         \{author1, author5, author9\}@abc.org\\}
+
+\abstract{
+Pretrained language models and large language models are increasingly used to assist in a great variety of natural language tasks.
+In this work, we explore their use in evaluating the quality of alternative corpus annotation schemes.
+For this purpose, we analyze two alternative annotations of the Turkish BOUN treebank, versions 2.8 and 2.11, in the Universal Dependencies framework using large language models. 
+Using a suitable prompt generated using treebank annotations,  large language models are used to recover the surface forms of sentences. 
+Based on the idea that the large language models capture the characteristics of the languages, we expect that the better annotation scheme would yield the sentences with higher success. 
+The experiments conducted on a subset of the treebank show that the new annotation scheme (2.11) results in a successful recovery percentage of about 2 points higher.
+ \\ \newline \Keywords{treebank annotation, large language models, universal dependencies, morphologically rich languages, Turkish } }
+
+\begin{document}
+\input{commands}
+
+\maketitleabstract
+
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/related-work}
+\input{sections/method}
+\input{sections/results}
+
+\section{Conclusions}
+\label{sec:conclusions}
+In this work, we examine the utility of large language models in evaluating the quality of corpora. The proposed approach was employed to examine the re-annotation  of a large Turkish treebank in the Universal Dependencies framework with a focus on linguistic improvements. For this purpose, we compared the annotations in the two different versions of the treebank.
+
+Several LLM models were examined with prompts generated from the annotations of the two treebank versions to reconstruct the original sentences' surface forms. We observed, as expected, that LLMs that aim to capture linguistic characteristics provide useful information about the annotated treebanks and the annotation scheme. All models suggest an improvement regarding the re-annotation, with GPT-4 demonstrating the best performance. These results provide insights regarding the treebanks and the annotation scheme.
+
+As future work, we plan to apply the proposed LLM-based evaluation scheme to other types of NLP resources. We believe that LLMs will be valuable in evaluating and gaining insight into language resources. This approach will contribute to creating higher-quality resources.
+
+\nocite{*}
+\section{Bibliographical References}\label{sec:reference}
+
+\bibliographystyle{lrec-coling2024-natbib}
+\bibliography{main}
+
+\section{Language Resource References}
+\label{lr:ref}
+\bibliographystylelanguageresource{lrec-coling2024-natbib}
+\bibliographylanguageresource{languageresource}
+
+
+\end{document}
+
+
