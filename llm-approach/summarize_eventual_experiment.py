@@ -16,8 +16,9 @@ else:
 res_d = {}
 with open(v2_8_out, 'r', encoding='utf-8') as f:
     v2_8_results = json.load(f)
-llm_pattern = re.compile('The surface form of the sentence is:? "(.+?)"$')
+llm_pattern = re.compile('The surface form of the sentence is:?\s+"(.+?)"$')
 llm_pattern2 = re.compile('\(?Note:.*\)?$')
+quote_pattern = re.compile('^"(.+?)"$')
 for result in v2_8_results:
     sent_id = result['sent_id']
     original_text, output_text = result['text'], result['output']
@@ -27,6 +28,9 @@ for result in v2_8_results:
     llm_match2 = llm_pattern2.search(output_text)
     if llm_match2:
         output_text = output_text[:llm_match2.start()].strip()
+    quote_match = quote_pattern.search(output_text)
+    if quote_match:
+        output_text = quote_match.group(1).strip()
     res_d[sent_id] = {'original_text': original_text, 'v2_8_text': output_text.strip()}
 with open(v2_11_out, 'r', encoding='utf-8') as f:
     v2_11_results = json.load(f)
@@ -39,6 +43,9 @@ for result in v2_11_results:
     llm_match2 = llm_pattern2.search(output_text)
     if llm_match2:
         output_text = output_text[:llm_match2.start()].strip()
+    quote_match = quote_pattern.search(output_text)
+    if quote_match:
+        output_text = quote_match.group(1).strip()
     res_d[sent_id]['v2_11_text'] = output_text.strip()
 ratio_acc_v2_8, ratio_acc_v2_11, all_count = 0, 0, 0
 summary_d = {}

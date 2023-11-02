@@ -14,8 +14,9 @@ else:
 res_d = {}
 with open(tb_out, 'r', encoding='utf-8') as f:
     tb_results = json.load(f)
-llm_pattern = re.compile('The surface form of the sentence is:? "(.+?)"$')
+llm_pattern = re.compile('The surface form of the sentence is:?\s+"(.+?)"$')
 llm_pattern2 = re.compile('\(?Note:.*\)?$')
+quote_pattern = re.compile('^"(.+?)"$')
 for result in tb_results:
     sent_id = result['sent_id']
     original_text, output_text = result['text'], result['output']
@@ -25,6 +26,9 @@ for result in tb_results:
     llm_match2 = llm_pattern2.search(output_text)
     if llm_match2:
         output_text = output_text[:llm_match2.start()].strip()
+    quote_match = quote_pattern.search(output_text)
+    if quote_match:
+        output_text = quote_match.group(1).strip()
     res_d[sent_id] = {'original_text': original_text, 'output_text': output_text.strip()}
 ratio_acc, all_count = 0, 0
 summary_d = {}
