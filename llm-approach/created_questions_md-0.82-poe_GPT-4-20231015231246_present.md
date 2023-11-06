@@ -4,12 +4,12 @@ The following sentences detail linguistic features of a Turkish sentence with le
 
 The sentence has 7 tokens.
 
-1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.  
-2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.  
-3rd token's lemma is "önceki", and its part of speech is adjective.  
-4th token's lemma is "siyasi", and its part of speech is adjective.  
-5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.  
-6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.  
+1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
+2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.
+3rd token's lemma is "önceki", and its part of speech is adjective.
+4th token's lemma is "siyasi", and its part of speech is adjective.
+5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.
+6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.
 7th token's lemma is ".", and its part of speech is punctuation.
 
 Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:

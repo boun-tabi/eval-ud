@@ -11,12 +11,12 @@ template="""The following sentences detail linguistic features of a Turkish sent
 
 The sentence has 7 tokens.
 
-1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.  
-2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.  
-3rd token's lemma is "önceki", and its part of speech is adjective.  
-4th token's lemma is "siyasi", and its part of speech is adjective.  
-5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.  
-6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.  
+1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
+2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.
+3rd token's lemma is "önceki", and its part of speech is adjective.
+4th token's lemma is "siyasi", and its part of speech is adjective.
+5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.
+6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.
 7th token's lemma is ".", and its part of speech is punctuation.
 
 Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
@@ -164,7 +164,7 @@ for result in v2_8_results:
         output_text = quote_match.group(1).strip()
     table = v2_8_tb[sent_id]['table']
     prompt = get_prompt(table)
-    res_d[sent_id] = {'original_text': original_text, 'v2_8_text': output_text.strip(), 'v2_8_prompt': prompt}
+    res_d[sent_id] = {'original_text': original_text, 'v2_8_text': output_text.strip(), 'v2_8_prompt': prompt, 'v2_8_table': table}
 with open(v2_11_out, 'r', encoding='utf-8') as f:
     v2_11_results = json.load(f)
 for result in v2_11_results:
@@ -180,26 +180,31 @@ for result in v2_11_results:
     if quote_match:
         output_text = quote_match.group(1).strip()
     res_d[sent_id]['v2_11_text'] = output_text.strip()
-    table = v2_11_tb[sent_id]['table']    
+    table = v2_11_tb[sent_id]['table']
     prompt = get_prompt(table)
     res_d[sent_id]['v2_11_prompt'] = prompt
+    res_d[sent_id]['v2_11_table'] = table
 
 questions = {'template': template}
 for i, sent_id in enumerate(res_d):
     original_text = res_d[sent_id]['original_text']
     v2_8_text = res_d[sent_id]['v2_8_text']
+    v2_8_table = res_d[sent_id]['v2_8_table']
     v2_11_text = res_d[sent_id]['v2_11_text']
+    v2_11_table = res_d[sent_id]['v2_11_table']
     ratio_v2_8 = SequenceMatcher(None, original_text, v2_8_text).ratio()
     ratio_v2_11 = SequenceMatcher(None, original_text, v2_11_text).ratio()
     d = {'original_text': original_text}
     ask = False
+    d['v2_8_text'] = v2_8_text
+    d['v2_8_table'] = v2_8_table
+    d['v2_11_text'] = v2_11_text
+    d['v2_11_table'] = v2_11_table
     if ratio_v2_8 < ratio_threshold:
-        d['v2_8_text'] = v2_8_text
         d['v2_8_prompt'] = res_d[sent_id]['v2_8_prompt']
         if '20\n' not in d['v2_8_prompt'] and '5\n' in d['v2_8_prompt']:
             ask = True
     if ratio_v2_11 < ratio_threshold:
-        d['v2_11_text'] = v2_11_text
         d['v2_11_prompt'] = res_d[sent_id]['v2_11_prompt']
         if '20\n' not in d['v2_11_prompt'] and '5\n' in d['v2_11_prompt']:
             ask = True

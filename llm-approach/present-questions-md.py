@@ -30,6 +30,35 @@ def main():
     with open(os.path.join(THIS_DIR, '{}_present.md'.format(filename)), 'w', encoding='utf-8') as f:
         f.write(out_str)
     
+    md_table_str = ''
+
+    for sent_id in questions:
+        sent = questions[sent_id]
+        md_table_str += '# ' + sent_id + '\n'
+        if 'v2_8_prompt' in sent or 'v2_11_prompt' in sent:
+            md_table_str += '\n## v2_8' + '\n\n'
+            md_table_str += '| ID | FORM | LEMMA | UPOS | XPOS | FEATS | HEAD | DEPREL | DEPS | MISC |' + '\n'
+            md_table_str += '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |' + '\n'
+            table = sent['v2_8_table']
+            for row in table.split('\n'):
+                fields = row.split('\t')
+                fields[5] = fields[5].replace('|', '\|')
+                md_table_str += '| ' + ' | '.join(fields) + ' |' + '\n'
+            md_table_str += '\n'
+            md_table_str += '\n## v2_11' + '\n\n'
+            md_table_str += '| ID | FORM | LEMMA | UPOS | XPOS | FEATS | HEAD | DEPREL | DEPS | MISC |' + '\n'
+            md_table_str += '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |' + '\n'
+            table = sent['v2_11_table']
+            for row in table.split('\n'):
+                fields = row.split('\t')
+                fields[5] = fields[5].replace('|', '\|')
+                md_table_str += '| ' + ' | '.join(fields) + ' |' + '\n'
+            md_table_str += '\n'
+        md_table_str += '\n' + '-' * 50 + '\n\n'
+    
+    with open(os.path.join(THIS_DIR, '{}_present_table.md'.format(filename)), 'w', encoding='utf-8') as f:
+        f.write(md_table_str)
+    
     print('Done!')
 
 if __name__ == '__main__':
