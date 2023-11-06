@@ -4,12 +4,12 @@ The following sentences detail linguistic features of a Turkish sentence with le
 
 The sentence has 7 tokens.
 
-1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
-2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.
-3rd token's lemma is "önceki", and its part of speech is adjective.
-4th token's lemma is "siyasi", and its part of speech is adjective.
-5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.
-6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.
+1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.  
+2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.  
+3rd token's lemma is "önceki", and its part of speech is adjective.  
+4th token's lemma is "siyasi", and its part of speech is adjective.  
+5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.  
+6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.  
 7th token's lemma is ".", and its part of speech is punctuation.
 
 Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
@@ -19,6 +19,61 @@ Your task is to find the surface form of the sentence. For example, your answer 
 Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
 
 {test_input}
+
+--------------------------------------------------
+
+# ins_922
+
+## v2_8
+
+- 1
+	- lemma: _"_
+	- part of speech: punctuation
+- 2
+	- lemma: _ATATÜRK_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _bu_
+	- part of speech: determiner
+- 4
+	- lemma: _kitap_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 5
+	- lemma: _bir_
+	- part of speech: determiner
+- 6
+	- lemma: _süs_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _ol_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- person: third person
+	- number: singular number
+- 8
+	- lemma: _diye_
+	- part of speech: adposition
+- 9
+	- lemma: _topla_
+	- part of speech: verb
+	- polarity: negative
+	- tense: past tense
+	- person: third person
+	- number: singular number
+	- evidentiality: non-first hand
+- 10
+	- lemma: _._
+	- part of speech: punctuation
 
 --------------------------------------------------
 
@@ -292,6 +347,228 @@ Now, analyze the following test example and try to find the surface form of the 
 
 --------------------------------------------------
 
+# ins_1378
+
+## v2_11
+
+- 1
+	- lemma: _kitap_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: plural number
+	- case: accusative
+- 2
+	- lemma: _oku_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- person: third person
+	- number: plural number
+	- case: nominative
+	- verb form: participle
+- 3
+	- lemma: _yarı_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 4
+	- lemma: _Dünya_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 5
+	- lemma: _gör_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+- 6
+	- lemma: _gibi_
+	- part of speech: adposition
+- 7-8
+	- 7
+		- lemma: _ol_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: habitual aspect
+		- verb form: participle
+	- 8
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 9
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_1049
+
+## v2_8
+
+- 1
+	- lemma: _çoğu_
+	- part of speech: determiner
+- 2
+	- lemma: _deniz_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 3
+	- lemma: _gir_
+	- part of speech: verb
+	- polarity: positive
+	- case: nominative
+- 4
+	- lemma: _yer_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: dative
+- 5
+	- lemma: _güneşle_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 6
+	- lemma: _seç_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- person: third person
+	- number: singular number
+	- evidentiality: non-first hand
+- 7-8
+	- 7
+		- lemma: _gibi_
+		- part of speech: adposition
+	- 8
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- case: nominative
+		- number: singular number
+		- person: third person
+- 9
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_316
+
+## v2_8
+
+- 1
+	- lemma: _anlat_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 2
+	- lemma: _,_
+	- part of speech: punctuation
+- 3
+	- lemma: _uyan_
+	- part of speech: verb
+	- voice: causative voice
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 4
+	- lemma: _sür_
+	- part of speech: verb
+	- voice: causative voice
+	- mood: potential
+	- polarity: positive
+	- case: nominative
+- 5
+	- lemma: _için_
+	- part of speech: adposition
+- 6
+	- lemma: _,_
+	- part of speech: punctuation
+- 7
+	- lemma: _ayak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 8
+	- lemma: _-_
+	- part of speech: punctuation
+- 9
+	- lemma: _diri_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+	- pronominal type: indefinite pronoun
+- 10
+	- lemma: _kal_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 11
+	- lemma: _becer_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 12
+	- lemma: _zorunlu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 13
+	- lemma: _,_
+	- part of speech: punctuation
+- 14
+	- lemma: _sorumlu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 15
+	- lemma: _duy_
+	- part of speech: verb
+	- polarity: positive
+	- case: ablative
+- 16
+	- lemma: _..._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
 # ins_1661
 
 ## v2_8
@@ -347,6 +624,30 @@ Now, analyze the following test example and try to find the surface form of the 
 
 # bio_1319
 
+## v2_8
+
+- 1
+	- lemma: _bir_
+	- part of speech: adverb
+- 2
+	- lemma: _türlü_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _avun_
+	- part of speech: verb
+	- polarity: negative
+	- tense: past tense
+	- aspect: progressive aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: non-first hand
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
 ## v2_11
 
 - 1
@@ -372,6 +673,193 @@ Now, analyze the following test example and try to find the surface form of the 
 		- polarity: positive
 		- tense: past tense
 - 5
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_1154
+
+## v2_11
+
+- 1
+	- lemma: _Balık_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _kendi_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 3
+	- lemma: _hayal_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _Dünya_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 5
+	- lemma: _yaşa_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+- 6
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_788
+
+## v2_8
+
+- 1
+	- lemma: _sabıka_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _dosya_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 3
+	- lemma: _kabarık_
+	- part of speech: adjective
+- 4
+	- lemma: _biri_
+	- part of speech: adverb
+- 5
+	- lemma: _ol_
+	- part of speech: adposition
+- 6
+	- lemma: _yap_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: future tense
+	- aspect: imperfect aspect
+	- person: first person
+	- number: singular number
+- 7
+	- lemma: _en_
+	- part of speech: adverb
+- 8
+	- lemma: _iyi_
+	- part of speech: adjective
+- 9
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 10
+	- lemma: _yat_
+	- part of speech: verb
+	- polarity: positive
+	- tense: future tense
+	- aspect: imperfect aspect
+	- person: third person
+	- number: singular number
+- 11
+	- lemma: _yer_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 12
+	- lemma: _ver_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 13
+	- lemma: _bir_
+	- part of speech: determiner
+- 14
+	- lemma: _iş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 15-16
+	- 15
+		- lemma: _gir_
+		- part of speech: verb
+		- polarity: positive
+		- case: nominative
+	- 16
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- case: nominative
+		- number: singular number
+		- person: third person
+- 17
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_482
+
+## v2_8
+
+- 1
+	- lemma: _ama_
+	- part of speech: coordinating conjunction
+- 2
+	- lemma: _şimdi_
+	- part of speech: adverb
+- 3
+	- lemma: _fedakâr_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _sıra_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 5
+	- lemma: _bent_
+	- part of speech: pronoun
+	- case: dative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _i_
+	- part of speech: auxiliary verb
+	- aspect: perfect aspect
+	- evidentiality: first hand
+	- number: singular number
+	- person: third person
+	- polarity: positive
+	- tense: past tense
+- 7
 	- lemma: _._
 	- part of speech: punctuation
 
@@ -710,6 +1198,148 @@ Now, analyze the following test example and try to find the surface form of the 
 
 --------------------------------------------------
 
+# bio_531
+
+## v2_11
+
+- 1
+	- lemma: _küçük_
+	- part of speech: adjective
+- 2
+	- lemma: _çan_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: dative
+- 3
+	- lemma: _çocuk_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 4
+	- lemma: _as_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: plural number
+	- evidentiality: non-first hand
+- 5
+	- lemma: _,_
+	- part of speech: punctuation
+- 6
+	- lemma: _o_
+	- part of speech: pronoun
+	- case: accusative
+	- number: plural number
+	- person: third person
+	- pronominal type: personal
+- 7
+	- lemma: _kendi_
+	- part of speech: pronoun
+	- case: dative
+	- number: plural number
+	- possessor's number: plural number
+	- person: third person
+	- possessor's person: third person
+	- reflexivity: reflexive
+- 8
+	- lemma: _salıncak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 9
+	- lemma: _yap_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+- 10
+	- lemma: _,_
+	- part of speech: punctuation
+- 11
+	- lemma: _salla_
+	- part of speech: verb
+	- voice: passive voice
+	- mood: generalized modality
+	- polarity: positive
+	- tense: present tense
+	- aspect: progressive aspect
+	- person: third person
+	- number: singular number
+- 12
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_36
+
+## v2_8
+
+- 1
+	- lemma: _sonra_
+	- part of speech: adverb
+- 2
+	- lemma: _da_
+	- part of speech: coordinating conjunction
+- 3
+	- lemma: _yaş_
+	- part of speech: verb
+	- person: third person
+	- number: singular number
+	- case: dative
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _de_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: progressive aspect
+	- person: second person
+	- number: singular number
+- 6
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _sonra_
+	- part of speech: adverb
+- 2
+	- lemma: _da_
+	- part of speech: particle
+- 3
+	- lemma: _yaşa_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- person: second person
+	- number: singular number
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _de_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: imperfect aspect
+	- person: second person
+	- number: singular number
+- 6
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
 # ess_1244
 
 ## v2_8
@@ -747,6 +1377,81 @@ Now, analyze the following test example and try to find the surface form of the 
 	- case: dative
 - 9
 	- lemma: _..._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_199
+
+## v2_11
+
+- 1
+	- lemma: _iç_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: first person
+	- possessor's number: plural number
+	- case: dative
+- 2
+	- lemma: _doy_
+	- part of speech: verb
+	- mood: optative
+	- polarity: positive
+	- person: third person
+	- number: singular number
+- 3
+	- lemma: _doy_
+	- part of speech: verb
+	- mood: optative
+	- polarity: positive
+	- person: third person
+	- number: singular number
+- 4-5
+	- 4
+		- lemma: _çek_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: habitual aspect
+		- person: first person
+		- number: plural number
+		- verb form: participle
+	- 5
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: habitual aspect
+		- evidentiality: first hand
+		- number: plural number
+		- person: first person
+		- polarity: positive
+		- tense: present tense
+- 6
+	- lemma: _bu_
+	- part of speech: determiner
+- 7
+	- lemma: _var_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- polarity: positive
+- 8
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: genitive
+	- verb form: verbal noun
+- 9
+	- lemma: _koku_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 10
+	- lemma: _._
 	- part of speech: punctuation
 
 --------------------------------------------------
@@ -1293,6 +1998,45 @@ Now, analyze the following test example and try to find the surface form of the 
 
 --------------------------------------------------
 
+# bio_1762
+
+## v2_11
+
+- 1
+	- lemma: _Mahmut_
+	- part of speech: proper noun
+	- case: genitive
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _düzen_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 3-4
+	- 3
+		- lemma: _boz_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: habitual aspect
+		- verb form: participle
+	- 4
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 5
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
 # pop_1600
 
 ## v2_8
@@ -1327,6 +2071,32 @@ Now, analyze the following test example and try to find the surface form of the 
 --------------------------------------------------
 
 # ins_793
+
+## v2_8
+
+- 1
+	- lemma: _bu_
+	- part of speech: pronoun
+	- case: accusative
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _söyle_
+	- part of speech: verb
+	- polarity: positive
+	- case: nominative
+- 3
+	- lemma: _iste_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: first person
+	- number: singular number
+	- evidentiality: first hand
+- 4
+	- lemma: _._
+	- part of speech: punctuation
 
 ## v2_11
 
@@ -1430,6 +2200,376 @@ Now, analyze the following test example and try to find the surface form of the 
 	- person: third person
 	- number: singular number
 - 9
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _oluş_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 2
+	- lemma: _metin_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 3
+	- lemma: _izle_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+	- polarity: positive
+- 4
+	- lemma: _taraf_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: ablative
+- 5
+	- lemma: _anlam_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: verbal noun
+- 6
+	- lemma: _i_
+	- part of speech: particle
+- 7
+	- lemma: _zaman_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: instrumental
+- 8
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: imperfect aspect
+	- person: third person
+	- number: singular number
+- 9
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_145
+
+## v2_11
+
+- 1
+	- lemma: _bak_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- person: second person
+	- number: singular number
+- 2
+	- lemma: _dirençli_
+	- part of speech: adjective
+- 3
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 4
+	- lemma: _da_
+	- part of speech: particle
+- 5-6
+	- 5
+		- lemma: _göster_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: habitual aspect
+		- verb form: participle
+	- 6
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: second person
+		- polarity: positive
+		- tense: past tense
+- 7
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1103
+
+## v2_8
+
+- 1
+	- lemma: _el_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 2
+	- lemma: _bel_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: dative
+- 3
+	- lemma: _götür_
+	- part of speech: noun
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _karşı_
+	- part of speech: adjective
+	- case: locative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 6
+	- lemma: _fark_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _et_
+	- part of speech: verb
+	- polarity: positive
+	- tense: future tense
+	- aspect: imperfect aspect
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 8
+	- lemma: _bil_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: ablative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 9
+	- lemma: _çok_
+	- part of speech: adverb
+- 10
+	- lemma: _dikkat_
+	- part of speech: adverb
+- 11
+	- lemma: _davran_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 12
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _el_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 2
+	- lemma: _bel_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: dative
+- 3
+	- lemma: _götür_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: locative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _karşı_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 6
+	- lemma: _fark_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _et_
+	- part of speech: verb
+	- polarity: positive
+	- tense: future tense
+	- aspect: imperfect aspect
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 8
+	- lemma: _bil_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: ablative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 9
+	- lemma: _çok_
+	- part of speech: adverb
+- 10
+	- lemma: _dikkatli_
+	- part of speech: adverb
+- 11-12
+	- 11
+		- lemma: _davran_
+		- part of speech: verb
+		- polarity: positive
+		- tense: present tense
+		- aspect: habitual aspect
+		- person: third person
+		- number: singular number
+		- evidentiality: first hand
+		- verb form: participle
+	- 12
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- tense: past tense
+- 13
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1705
+
+## v2_11
+
+- 1
+	- lemma: _ATATÜRK_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 2-3
+	- 2
+		- lemma: _koma_
+		- part of speech: verb
+		- person: third person
+		- number: singular number
+		- case: locative
+	- 3
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: indicative
+		- tense: present tense
+		- verb form: converb
+- 4
+	- lemma: _başucu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 5
+	- lemma: _doktor_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: genitive
+- 6
+	- lemma: _tedavi_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _kavga_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8-9
+	- 8
+		- lemma: _sürü_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: imperfect aspect
+		- verb form: participle
+	- 9
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 10
 	- lemma: _._
 	- part of speech: punctuation
 

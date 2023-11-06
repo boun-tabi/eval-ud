@@ -58,31 +58,18 @@ with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
 
 def get_prompt(table):
     lines = table.split('\n')
-    prompt_l = []
-    split_count = 0
-    just_left = False
+    annotation_d = {}
     for line in lines:
         fields = line.split('\t')
         id_t, lemma_t, pos_t, feats_t = fields[0], fields[2], fields[3], fields[5]
-        if split_count > 0:
-            prompt_l.append('\t- ' + id_t)
-            split_count -= 1
-            if split_count == 0:
-                just_left = True
-        else:
-            prompt_l.append('- ' + id_t)
+        annotation_d[id_t] = {}
         if '-' in id_t:
-            split_count = 2
             continue
         feat_l = feats_t.split('|')
         if len(feat_l) == 1 and feat_l[0] == '_':
             feat_l = []
-        if split_count or just_left:
-            prompt_l.append('\t\t- lemma: _{lemma}_'.format(lemma=lemma_t))
-            prompt_l.append('\t\t- part of speech: {pos}'.format(pos=pos_d[pos_t]['shortdef']))
-        else:
-            prompt_l.append('\t- lemma: _{lemma}_'.format(lemma=lemma_t))
-            prompt_l.append('\t- part of speech: {pos}'.format(pos=pos_d[pos_t]['shortdef']))
+        annotation_d[id_t]['lemma'] = lemma_t
+        annotation_d[id_t]['pos'] = pos_d[pos_t]['shortdef']
         if pos_t in ['NOUN', 'VERB']:
             sorted_feat_l = []
             feat_copy = feat_l.copy()
@@ -92,7 +79,7 @@ def get_prompt(table):
                 order_l = verb_order
             for feat_name in order_l:
                 for feat in feat_l:
-                    tag, val = feat.split('=')
+                    tag, _ = feat.split('=')
                     if tag == feat_name:
                         sorted_feat_l.append(feat)
                         feat_copy.remove(feat)
@@ -111,18 +98,10 @@ def get_prompt(table):
             else:
                 feat_phrase = feat_name
             if psor_on:
-                if split_count or just_left:
-                    prompt_l.append('\t\t- possessor\'s {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
-                else:
-                    prompt_l.append('\t- possessor\'s {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
+                annotation_d[id_t]['possessor\'s ' + feat_phrase] = feat_value
             else:
-                if split_count or just_left:
-                    prompt_l.append('\t\t- {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
-                else:
-                    prompt_l.append('\t- {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
-        just_left = False
-    prompt = '\n'.join(prompt_l)
-    return prompt
+                annotation_d[id_t][feat_phrase] = feat_value
+    return annotation_d
 
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 run_dir = args.run_dir
@@ -193,18 +172,26 @@ for i, sent_id in enumerate(res_d):
     ratio_v2_11 = SequenceMatcher(None, original_text, v2_11_text).ratio()
     d = {'original_text': original_text}
     ask = False
+    d['v2_8_text'] = v2_8_text
+    d['v2_11_text'] = v2_11_text
     if ratio_v2_8 < ratio_threshold:
-        d['v2_8_text'] = v2_8_text
         d['v2_8_prompt'] = res_d[sent_id]['v2_8_prompt']
-        if '\n- 20\n' not in d['v2_8_prompt'] and '\n- 5\n' in d['v2_8_prompt']:
+        if '20' not in d['v2_8_prompt'] and '5' in d['v2_8_prompt']:
             ask = True
     if ratio_v2_11 < ratio_threshold:
-        d['v2_11_text'] = v2_11_text
         d['v2_11_prompt'] = res_d[sent_id]['v2_11_prompt']
-        if '\n- 20\n' not in d['v2_11_prompt'] and '\n- 5\n' in d['v2_11_prompt']:
+        if '20' not in d['v2_11_prompt'] and '5' in d['v2_11_prompt']:
             ask = True
     if ask:
         questions[sent_id] = d
 
-with open(os.path.join(THIS_DIR, 'created_questions-{}-{}.json'.format(ratio_threshold, model)), 'w', encoding='utf-8') as f:
+print('Number of sentences: {}'.format(len(questions) - 1))
+count_questions = 0
+for q in questions:
+    if 'v2_8_prompt' in questions[q]:
+        count_questions += 1
+    if 'v2_11_prompt' in questions[q]:
+        count_questions += 1
+print('Number of questions: {}'.format(count_questions))
+with open(os.path.join(THIS_DIR, 'created_questions_csv-{}-{}.json'.format(ratio_threshold, model)), 'w', encoding='utf-8') as f:
     json.dump(questions, f, indent=4, ensure_ascii=False)

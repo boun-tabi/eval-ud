@@ -1,0 +1,1710 @@
+{
+    "template": "The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. Lemma \"y\" represents the overt copula in Turkish and surfaces as \"i\".\n\nThe sentence has 7 tokens.\n\n1st token's lemma is \"meşrutiyet\", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.\n2nd token's lemma is \"ilan\", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.\n3rd token's lemma is \"önceki\", and its part of speech is adjective.\n4th token's lemma is \"siyasi\", and its part of speech is adjective.\n5th token's lemma is \"faaliyet\", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.\n6th token's lemma is \"kat\", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.\n7th token's lemma is \".\", and its part of speech is punctuation.\n\nYour task is to find the surface form of the sentence. For example, your answer for the previous parse should be:\n\n\"Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı.\"\n\nNow, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.\n\n{test_input}",
+    "news_775": {
+        "original_text": "\"Alıp Götürsen Beni Oraya\"",
+        "v2_8_text": "\"Al, götürsün beni oraya.\"",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "al",
+                "pos": "verb",
+                "polarity": "positive"
+            },
+            "3": {
+                "lemma": "götür",
+                "pos": "verb",
+                "mood": "desiderative",
+                "polarity": "positive",
+                "person": "second person",
+                "number": "singular number"
+            },
+            "4": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "first person"
+            },
+            "5": {
+                "lemma": "ora",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "6": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "\"\"Al, götürürsen beni oraya.\"\"",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "al",
+                "pos": "verb",
+                "polarity": "positive",
+                "verb form": "converb"
+            },
+            "3-4": {},
+            "3": {
+                "lemma": "götür",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "verb form": "participle"
+            },
+            "4": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "mood": "conditional",
+                "number": "singular number",
+                "person": "second person",
+                "polarity": "positive"
+            },
+            "5": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "first person",
+                "pronominal type": "personal"
+            },
+            "6": {
+                "lemma": "ora",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "third person",
+                "pronominal type": "locative pronoun"
+            },
+            "7": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "pop_93": {
+        "original_text": "Bu yüzden fiyasko demek haksızlık olur.",
+        "v2_8_text": "Bu yüzden fiyasko dediği hâk olur.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "bu",
+                "pos": "determiner"
+            },
+            "2": {
+                "lemma": "yüz",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative"
+            },
+            "3": {
+                "lemma": "fiyasko",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "de",
+                "pos": "verb",
+                "mood": "indicative",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "perfect aspect",
+                "case": "nominative",
+                "verb form": "verbal noun"
+            },
+            "5": {
+                "lemma": "hâk",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "6": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "7": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "pop_1447": {
+        "original_text": "(Olmuyor ama, böyle de olmuyor aabi).",
+        "v2_11_text": "(Olmaması ama, böyle de olmamalı abi).",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "(",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "imperfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "3": {
+                "lemma": "ama",
+                "pos": "coordinating conjunction"
+            },
+            "4": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "böyle",
+                "pos": "adverb"
+            },
+            "6": {
+                "lemma": "de",
+                "pos": "particle"
+            },
+            "7": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "imperfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "8": {
+                "lemma": "abi",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "9": {
+                "lemma": ")",
+                "pos": "punctuation"
+            },
+            "10": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "bio_1730": {
+        "original_text": "Birden beni görmelerinden, hatırlamalarından korkuyorum.",
+        "v2_8_text": "Birden beni görünce, hatırlayınca korkuyorum.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "birden",
+                "pos": "adverb"
+            },
+            "2": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "first person"
+            },
+            "3": {
+                "lemma": "gör",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "plural number",
+                "case": "ablative",
+                "polarity": "positive"
+            },
+            "4": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "hatırla",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "plural number",
+                "case": "ablative",
+                "polarity": "positive"
+            },
+            "6": {
+                "lemma": "kork",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "progressive aspect",
+                "person": "first person",
+                "number": "singular number"
+            },
+            "7": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "Bir beni görün, hatırlayın, korkuyorum.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "bir",
+                "pos": "adverb"
+            },
+            "2": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "first person",
+                "pronominal type": "personal"
+            },
+            "3": {
+                "lemma": "gör",
+                "pos": "verb",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative",
+                "possessor's number": "plural number",
+                "possessor's person": "third person"
+            },
+            "4": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "hatırla",
+                "pos": "verb",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative",
+                "possessor's number": "plural number",
+                "possessor's person": "third person"
+            },
+            "6": {
+                "lemma": "kork",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "imperfect aspect",
+                "person": "first person",
+                "number": "singular number"
+            },
+            "7": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ins_1661": {
+        "original_text": "Bir sonraki gelişlerinde düzlüğü daha berbat bulmuşlar.",
+        "v2_8_text": "Bir sonradan geliş düzde daha berbat buldular.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "bir",
+                "pos": "determiner"
+            },
+            "2": {
+                "lemma": "sonra",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "3": {
+                "lemma": "gel",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "plural number",
+                "case": "locative",
+                "polarity": "positive"
+            },
+            "4": {
+                "lemma": "düz",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "nominative"
+            },
+            "5": {
+                "lemma": "daha",
+                "pos": "adverb"
+            },
+            "6": {
+                "lemma": "berbat",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "7": {
+                "lemma": "bul",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "person": "third person",
+                "number": "plural number",
+                "evidentiality": "non-first hand"
+            },
+            "8": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "bio_1319": {
+        "original_text": "Bir türlü avunamıyormuş.",
+        "v2_11_text": "Bir türlü avunabilmiş.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "bir",
+                "pos": "determiner"
+            },
+            "2": {
+                "lemma": "türlü",
+                "pos": "adverb"
+            },
+            "3-4": {},
+            "3": {
+                "lemma": "avun",
+                "pos": "verb",
+                "mood": "potential",
+                "polarity": "positive",
+                "aspect": "imperfect aspect",
+                "verb form": "participle"
+            },
+            "4": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "evidentiality": "non-first hand",
+                "number": "singular number",
+                "person": "third person",
+                "polarity": "positive",
+                "tense": "past tense"
+            },
+            "5": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ess_168": {
+        "original_text": "\" MADDE MADDE \"Bana sağcılar cinayet işliyor dedirtemezsiniz. \" İnsanı alıp uçurumdan iten tek şey.",
+        "v2_8_text": "\"Madde maddeye bana sağları, cinayeti işlerde.\"\n\"İnsanı al, uçurumdan it, tek şey.\"",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "madde",
+                "pos": "adverb"
+            },
+            "3": {
+                "lemma": "madde",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "first person"
+            },
+            "6": {
+                "lemma": "sağ",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative"
+            },
+            "7": {
+                "lemma": "cinayet",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "8": {
+                "lemma": "işle",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "progressive aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "9": {
+                "lemma": "de",
+                "pos": "noun"
+            },
+            "10": {
+                "lemma": ".",
+                "pos": "punctuation"
+            },
+            "11": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "12": {
+                "lemma": "insan",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "accusative"
+            },
+            "13": {
+                "lemma": "al",
+                "pos": "verb",
+                "polarity": "positive"
+            },
+            "14": {
+                "lemma": "uçurum",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative"
+            },
+            "15": {
+                "lemma": "it",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "verb form": "participle"
+            },
+            "16": {
+                "lemma": "tek",
+                "pos": "adjective"
+            },
+            "17": {
+                "lemma": "şey",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "18": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "\"Madde madde\"\" bana sağcıların cinayeti işlemeyin dedi. \"\"İnsanı alıp uçurumdan iten tek şey.\"",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "madde",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "3": {
+                "lemma": "madde",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "first person",
+                "pronominal type": "personal"
+            },
+            "6": {
+                "lemma": "sağcı",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative"
+            },
+            "7": {
+                "lemma": "cinayet",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "8": {
+                "lemma": "işle",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "imperfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "9": {
+                "lemma": "de",
+                "pos": "verb",
+                "voice": "causative voice",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "second person",
+                "number": "plural number"
+            },
+            "10": {
+                "lemma": ".",
+                "pos": "punctuation"
+            },
+            "11": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "12": {
+                "lemma": "insan",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "accusative"
+            },
+            "13": {
+                "lemma": "al",
+                "pos": "verb",
+                "polarity": "positive",
+                "verb form": "converb"
+            },
+            "14": {
+                "lemma": "uçurum",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative"
+            },
+            "15": {
+                "lemma": "it",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "verb form": "participle"
+            },
+            "16": {
+                "lemma": "tek",
+                "pos": "adjective"
+            },
+            "17": {
+                "lemma": "şey",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "18": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "bio_1401": {
+        "original_text": "Ama on üç on dört yaşma geldiğimde, gene evdeki konuşmalardan, biliyordum bunların olduğunu.",
+        "v2_8_text": "Ama on üç, on dört yaşına gelmişken, genelde evden konuşmalarından, bildiğim bu olmuştu.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "ama",
+                "pos": "coordinating conjunction"
+            },
+            "2": {
+                "lemma": "on",
+                "pos": "numeral",
+                "numeral type": "cardinal number"
+            },
+            "3": {
+                "lemma": "üç",
+                "pos": "numeral",
+                "numeral type": "cardinal number"
+            },
+            "4": {
+                "lemma": "on",
+                "pos": "numeral",
+                "numeral type": "cardinal number"
+            },
+            "5": {
+                "lemma": "dört",
+                "pos": "numeral",
+                "numeral type": "cardinal number"
+            },
+            "6": {
+                "lemma": "yaş",
+                "pos": "verb",
+                "mood": "indicative",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "perfect aspect",
+                "case": "nominative",
+                "verb form": "verbal noun"
+            },
+            "7": {
+                "lemma": "gel",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number",
+                "case": "locative",
+                "possessor's number": "singular number",
+                "possessor's person": "first person",
+                "verb form": "participle"
+            },
+            "8": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "9": {
+                "lemma": "gen",
+                "pos": "adverb"
+            },
+            "10": {
+                "lemma": "ev",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "locative"
+            },
+            "11": {
+                "lemma": "konuş",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "ablative",
+                "polarity": "positive"
+            },
+            "12": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "13": {
+                "lemma": "bil",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "progressive aspect",
+                "person": "first person",
+                "number": "singular number",
+                "evidentiality": "first hand"
+            },
+            "14": {
+                "lemma": "bu",
+                "pos": "pronoun",
+                "case": "genitive",
+                "number": "plural number",
+                "person": "third person"
+            },
+            "15": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number",
+                "case": "accusative",
+                "possessor's number": "singular number",
+                "possessor's person": "third person",
+                "verb form": "participle"
+            },
+            "16": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "bio_902": {
+        "original_text": "Bunu diyenler \"Anadolu çocukları\".",
+        "v2_8_text": "Bunu da\" \"Anadolu çocuğu\".",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "bu",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "2": {
+                "lemma": "de",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative",
+                "verb form": "participle"
+            },
+            "3": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "4": {
+                "lemma": "Anadolu",
+                "pos": "proper noun",
+                "case": "nominative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "5": {
+                "lemma": "çocuk",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "nominative"
+            },
+            "6": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "7": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ess_1244": {
+        "original_text": "Ya da onu \"paketliyorlar\" bir bakıma...",
+        "v2_8_text": "Ya da o\", paketle \"bir bakıma...",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "ya",
+                "pos": "coordinating conjunction"
+            },
+            "2": {
+                "lemma": "da",
+                "pos": "coordinating conjunction"
+            },
+            "3": {
+                "lemma": "o",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "4": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "paketle",
+                "pos": "noun"
+            },
+            "6": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "7": {
+                "lemma": "bir",
+                "pos": "numeral",
+                "numeral type": "cardinal number"
+            },
+            "8": {
+                "lemma": "bakım",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "dative"
+            },
+            "9": {
+                "lemma": "...",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ins_199": {
+        "original_text": "İçimize doya doya çekerdik bu var oluşun kokusunu.",
+        "v2_11_text": "İçimize doysun, çekiyoruz bu varolun kokusunu.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "iç",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "first person",
+                "possessor's number": "plural number",
+                "case": "dative"
+            },
+            "2": {
+                "lemma": "doy",
+                "pos": "verb",
+                "mood": "optative",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "3": {
+                "lemma": "doy",
+                "pos": "verb",
+                "mood": "optative",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "4-5": {},
+            "4": {
+                "lemma": "çek",
+                "pos": "verb",
+                "polarity": "positive",
+                "aspect": "habitual aspect",
+                "person": "first person",
+                "number": "plural number",
+                "verb form": "participle"
+            },
+            "5": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "aspect": "habitual aspect",
+                "evidentiality": "first hand",
+                "number": "plural number",
+                "person": "first person",
+                "polarity": "positive",
+                "tense": "present tense"
+            },
+            "6": {
+                "lemma": "bu",
+                "pos": "determiner"
+            },
+            "7": {
+                "lemma": "var",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "polarity": "positive"
+            },
+            "8": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number",
+                "case": "genitive",
+                "verb form": "verbal noun"
+            },
+            "9": {
+                "lemma": "koku",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "accusative"
+            },
+            "10": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ins_1051": {
+        "original_text": "tubitak: Alan adını gösterir.",
+        "v2_8_text": "TUBİTAK: Alanının adını gösterir.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "TUBİTAK",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "2": {
+                "lemma": ":",
+                "pos": "punctuation"
+            },
+            "3": {
+                "lemma": "alan",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "ad(I)",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "accusative"
+            },
+            "5": {
+                "lemma": "göster",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "6": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "TUBİTAK: Alanının adını gösterir.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "TUBİTAK",
+                "pos": "proper noun",
+                "case": "nominative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "2": {
+                "lemma": ":",
+                "pos": "punctuation"
+            },
+            "3": {
+                "lemma": "alan",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "ad",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "accusative"
+            },
+            "5": {
+                "lemma": "göster",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "6": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "pop_315": {
+        "original_text": "\"Anneler Günü\"nü gereksiz gördüğünden, o gün geldi mi farkında değilmiş havalarına girerdi.",
+        "v2_8_text": "Anneler Günü'nün gerekçesi, o gün gelmiş miydi farkında değildi, havalara giriyordu.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "anne",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative"
+            },
+            "3": {
+                "lemma": "Günü\"n",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "gerek",
+                "pos": "adjective",
+                "case": "nominative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "5": {
+                "lemma": "gör",
+                "pos": "noun"
+            },
+            "6": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "7": {
+                "lemma": "o",
+                "pos": "determiner"
+            },
+            "8": {
+                "lemma": "gün",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "9": {
+                "lemma": "gel",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "first hand"
+            },
+            "10": {
+                "lemma": "mi",
+                "pos": "auxiliary verb",
+                "aspect": "imperfect aspect",
+                "number": "singular number",
+                "person": "third person",
+                "tense": "present tense"
+            },
+            "11": {
+                "lemma": "fark",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "locative"
+            },
+            "12": {
+                "lemma": "değ",
+                "pos": "verb",
+                "voice": "passive voice",
+                "polarity": "positive",
+                "tense": "past tense",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "non-first hand"
+            },
+            "13": {
+                "lemma": "hava",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "dative"
+            },
+            "14": {
+                "lemma": "gir",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "first hand"
+            },
+            "15": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "Anneler Günü'nün gereğini gördükten sonra, o gün gelmiş miydi farkında değildi havaya girer.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "anne",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative"
+            },
+            "3": {
+                "lemma": "Günü\"n",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "gerek",
+                "pos": "adjective"
+            },
+            "5": {
+                "lemma": "gör",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative",
+                "possessor's number": "singular number",
+                "possessor's person": "third person",
+                "verb form": "participle"
+            },
+            "6": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "7": {
+                "lemma": "o",
+                "pos": "determiner"
+            },
+            "8": {
+                "lemma": "gün",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "9": {
+                "lemma": "gel",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "first hand"
+            },
+            "10": {
+                "lemma": "mi",
+                "pos": "auxiliary verb",
+                "aspect": "imperfect aspect",
+                "number": "singular number",
+                "person": "third person",
+                "tense": "present tense"
+            },
+            "11": {
+                "lemma": "fark",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "locative"
+            },
+            "12": {
+                "lemma": "değ",
+                "pos": "verb",
+                "voice": "passive voice",
+                "polarity": "positive",
+                "tense": "past tense",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "non-first hand"
+            },
+            "13": {
+                "lemma": "hava",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "dative"
+            },
+            "14": {
+                "lemma": "gir",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number",
+                "evidentiality": "first hand"
+            },
+            "15": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "bio_1210": {
+        "original_text": "Bana dönüp, Aferin lan güzel iş becerdin...",
+        "v2_11_text": "Bana dönerek, Aferin LAN, güzel işi becermişsin...",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "first person",
+                "pronominal type": "personal"
+            },
+            "2": {
+                "lemma": "dön",
+                "pos": "verb",
+                "polarity": "positive",
+                "verb form": "converb"
+            },
+            "3": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "4": {
+                "lemma": "Afer",
+                "pos": "interjection"
+            },
+            "5": {
+                "lemma": "LAN",
+                "pos": "interjection"
+            },
+            "6": {
+                "lemma": "güzel",
+                "pos": "adjective"
+            },
+            "7": {
+                "lemma": "iş",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "accusative"
+            },
+            "8-9": {},
+            "8": {
+                "lemma": "becer",
+                "pos": "verb",
+                "polarity": "positive",
+                "aspect": "habitual aspect",
+                "verb form": "participle"
+            },
+            "9": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "evidentiality": "first hand",
+                "number": "singular number",
+                "person": "second person",
+                "polarity": "positive",
+                "tense": "past tense"
+            },
+            "10": {
+                "lemma": "...",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ess_1248": {
+        "original_text": "BIRAKMAZ DEDİKLERİM ÇOKTAN TERKETTİ, GİTMEZ SANDIKLARIM MEÇHUL.",
+        "v2_8_text": "Bırakmaz deden çok terketti, gitmez sandıklarım meçhul.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "bırak",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "2": {
+                "lemma": "de",
+                "pos": "noun"
+            },
+            "3": {
+                "lemma": "çok",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative"
+            },
+            "4": {
+                "lemma": "TERKETTİ",
+                "pos": "verb",
+                "voice": "causative voice",
+                "mood": "indicative",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "5": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "6": {
+                "lemma": "git",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "7": {
+                "lemma": "sandık",
+                "pos": "verb",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative",
+                "possessor's number": "singular number",
+                "possessor's person": "first person"
+            },
+            "8": {
+                "lemma": "MEÇHUL",
+                "pos": "proper noun",
+                "case": "nominative",
+                "number": "singular number",
+                "person": "third person"
+            },
+            "9": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        },
+        "v2_11_text": "Bırakmayan dediklerimden çok terketti, gitmeyen sandıklarıma meçhul.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "bırak",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number",
+                "verb form": "participle"
+            },
+            "2": {
+                "lemma": "de",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative",
+                "possessor's number": "singular number",
+                "possessor's person": "first person",
+                "verb form": "participle"
+            },
+            "3": {
+                "lemma": "çok",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "ablative"
+            },
+            "4": {
+                "lemma": "TERKETTİ",
+                "pos": "verb",
+                "voice": "causative voice",
+                "mood": "indicative",
+                "polarity": "positive",
+                "tense": "past tense",
+                "aspect": "perfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "5": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "6": {
+                "lemma": "git",
+                "pos": "verb",
+                "polarity": "negative",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "person": "third person",
+                "number": "singular number",
+                "verb form": "participle"
+            },
+            "7": {
+                "lemma": "sandık",
+                "pos": "verb",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative",
+                "possessor's number": "singular number",
+                "possessor's person": "first person"
+            },
+            "8": {
+                "lemma": "MEÇHUL",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "9": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ess_1197": {
+        "original_text": "\"İnandır beni\" diyor, \"o yaşarsa sana inanacağım.",
+        "v2_11_text": "İnan bana\", dedi, \"O yaşayacaksa, sana inanacağım.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "2": {
+                "lemma": "inan",
+                "pos": "verb",
+                "mood": "imperative",
+                "polarity": "positive",
+                "person": "second person",
+                "number": "singular number"
+            },
+            "3": {
+                "lemma": "ben",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "first person",
+                "pronominal type": "personal"
+            },
+            "4": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "5": {
+                "lemma": "de",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "imperfect aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "6": {
+                "lemma": ",",
+                "pos": "punctuation"
+            },
+            "7": {
+                "lemma": "\"",
+                "pos": "punctuation"
+            },
+            "8": {
+                "lemma": "o",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "9-10": {},
+            "9": {
+                "lemma": "yaşa",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "habitual aspect",
+                "verb form": "participle"
+            },
+            "10": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "mood": "conditional",
+                "number": "singular number",
+                "person": "third person",
+                "polarity": "positive"
+            },
+            "11": {
+                "lemma": "san",
+                "pos": "pronoun",
+                "case": "dative",
+                "number": "singular number",
+                "person": "third person",
+                "pronominal type": "personal"
+            },
+            "12": {
+                "lemma": "inan",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "future tense",
+                "aspect": "prospective aspect",
+                "person": "first person",
+                "number": "singular number"
+            },
+            "13": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "pop_1600": {
+        "original_text": "\"İsyan... Yorgunum be!..\"",
+        "v2_8_text": "İş... yorgunum, b!..",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "\"İs",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative"
+            },
+            "2": {
+                "lemma": "...",
+                "pos": "punctuation"
+            },
+            "3": {
+                "lemma": "yorgun",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "first person",
+                "possessor's number": "singular number",
+                "case": "nominative"
+            },
+            "4": {
+                "lemma": "b",
+                "pos": "interjection"
+            },
+            "5": {
+                "lemma": "!",
+                "pos": "punctuation"
+            },
+            "6": {
+                "lemma": "..\"",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "ins_793": {
+        "original_text": "Bunu söylemek istemiştim.",
+        "v2_11_text": "Bu söylemişteyim.",
+        "v2_11_prompt": {
+            "1": {
+                "lemma": "bu",
+                "pos": "pronoun",
+                "case": "accusative",
+                "number": "singular number",
+                "person": "third person",
+                "pronominal type": "demonstrative pronoun"
+            },
+            "2": {
+                "lemma": "söyle",
+                "pos": "verb",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative",
+                "verb form": "verbal noun"
+            },
+            "3-4": {},
+            "3": {
+                "lemma": "iste",
+                "pos": "verb",
+                "polarity": "positive",
+                "aspect": "perfect aspect",
+                "verb form": "participle"
+            },
+            "4": {
+                "lemma": "y",
+                "pos": "auxiliary verb",
+                "evidentiality": "first hand",
+                "number": "singular number",
+                "person": "first person",
+                "polarity": "positive",
+                "tense": "past tense"
+            },
+            "5": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    },
+    "news_564": {
+        "original_text": "Oluşturulan metnin izleyiciler tarafından anlamlandırılması ise zamanla oluyor.",
+        "v2_8_text": "Oluşan metnin izlenmesi tarafından anlaşılırsa, zamanla oluyor.",
+        "v2_8_prompt": {
+            "1": {
+                "lemma": "oluş",
+                "pos": "verb",
+                "voice": "passive voice",
+                "polarity": "positive",
+                "tense": "present tense",
+                "verb form": "participle"
+            },
+            "2": {
+                "lemma": "metin",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "genitive"
+            },
+            "3": {
+                "lemma": "izle",
+                "pos": "noun",
+                "person": "third person",
+                "number": "plural number",
+                "case": "nominative",
+                "polarity": "positive"
+            },
+            "4": {
+                "lemma": "taraf",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "possessor's person": "third person",
+                "possessor's number": "singular number",
+                "case": "ablative"
+            },
+            "5": {
+                "lemma": "anlam",
+                "pos": "verb",
+                "voice": "passive voice",
+                "polarity": "positive",
+                "person": "third person",
+                "number": "singular number",
+                "case": "nominative",
+                "possessor's number": "singular number",
+                "possessor's person": "third person"
+            },
+            "6": {
+                "lemma": "i",
+                "pos": "auxiliary verb",
+                "mood": "conditional",
+                "number": "singular number",
+                "person": "third person",
+                "polarity": "positive"
+            },
+            "7": {
+                "lemma": "zaman",
+                "pos": "noun",
+                "person": "third person",
+                "number": "singular number",
+                "case": "instrumental"
+            },
+            "8": {
+                "lemma": "ol",
+                "pos": "verb",
+                "polarity": "positive",
+                "tense": "present tense",
+                "aspect": "progressive aspect",
+                "person": "third person",
+                "number": "singular number"
+            },
+            "9": {
+                "lemma": ".",
+                "pos": "punctuation"
+            }
+        }
+    }
+}
