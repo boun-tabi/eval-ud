@@ -1,0 +1,3714 @@
+# Template
+
+The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. Lemma "y" represents the overt copula in Turkish and surfaces as "i".
+
+The sentence has 7 tokens.
+
+1st token's lemma is "meşrutiyet", its part of speech is proper noun, its case is genitive, its number is singular number, and its person is third person.
+2nd token's lemma is "ilan", its part of speech is noun, its person is third person, its number is singular number, its possessor's person is third person, its possessor's number is singular number, and its case is ablative.
+3rd token's lemma is "önceki", and its part of speech is adjective.
+4th token's lemma is "siyasi", and its part of speech is adjective.
+5th token's lemma is "faaliyet", its part of speech is noun, its person is third person, its number is plural number, and its case is dative.
+6th token's lemma is "kat", its part of speech is verb, its voice is reflexive voice, its polarity is positive, its tense is past tense, its aspect is perfect aspect, its person is third person, its number is singular number, and its evidentiality is first hand.
+7th token's lemma is ".", and its part of speech is punctuation.
+
+Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
+
+"Meşrutiyetin ilanından önceki siyasi faaliyetlere katıldı."
+
+Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
+
+{test_input}
+
+--------------------------------------------------
+
+# pop_1901
+
+## v2_8
+
+- 1
+	- lemma: _bakkal_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _ziya_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _..._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _bakkal_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _ziya_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _..._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1087
+
+## v2_8
+
+- 1
+	- lemma: _ayrıca_
+	- part of speech: adverb
+- 2
+	- lemma: _ara_
+	- part of speech: adjective
+	- case: locative
+	- number: plural number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 3
+	- lemma: _Türk_
+	- part of speech: adjective
+	- case: genitive
+	- number: plural number
+	- person: third person
+- 4
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _briç_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 8
+	- lemma: _takım_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 9
+	- lemma: _var_
+	- part of speech: verb
+	- tense: past tense
+	- person: third person
+	- number: singular number
+	- evidentiality: non-first hand
+- 10
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 11
+	- lemma: _briç_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 12
+	- lemma: _oyna_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+	- verb form: converb
+- 13
+	- lemma: _yalnızca_
+	- part of speech: adverb
+- 14
+	- lemma: _Türkçe_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 15
+	- lemma: _konuş_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 16
+	- lemma: _özen_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 17
+	- lemma: _göster_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: plural number
+	- evidentiality: non-first hand
+- 18
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _ayrıca_
+	- part of speech: adverb
+- 2
+	- lemma: _ara_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 3
+	- lemma: _Türk_
+	- part of speech: proper noun
+	- case: genitive
+	- number: plural number
+	- person: third person
+- 4
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _briç_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 8
+	- lemma: _takım_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 9-10
+	- 9
+		- lemma: _var_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+	- 10
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: non-first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 11
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 12
+	- lemma: _briç_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 13
+	- lemma: _oyna_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+	- verb form: converb
+- 14
+	- lemma: _yalnızca_
+	- part of speech: adverb
+- 15
+	- lemma: _Türkçe_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 16
+	- lemma: _konuş_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 17
+	- lemma: _özen_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 18-19
+	- 18
+		- lemma: _göster_
+		- part of speech: verb
+		- polarity: positive
+		- tense: present tense
+		- aspect: habitual aspect
+		- person: third person
+		- number: plural number
+	- 19
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: non-first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 20
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_1863
+
+## v2_8
+
+- 1
+	- lemma: _böyle_
+	- part of speech: adverb
+- 2
+	- lemma: _su_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 3
+	- lemma: _Demir_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 4
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _manganez_
+	- part of speech: adjective
+	- case: ablative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _kurtar_
+	- part of speech: verb
+	- polarity: positive
+	- case: nominative
+- 7
+	- lemma: _için_
+	- part of speech: adposition
+- 8
+	- lemma: _en_
+	- part of speech: adverb
+- 9
+	- lemma: _basit_
+	- part of speech: adjective
+- 10
+	- lemma: _usul_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _,_
+	- part of speech: punctuation
+- 12
+	- lemma: _su_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 13-14
+	- 13
+		- lemma: _hava_
+		- part of speech: verb
+		- voice: causative voice
+		- polarity: positive
+		- person: third person
+		- number: singular number
+		- case: nominative
+	- 14
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- case: nominative
+		- number: singular number
+		- person: third person
+- 15
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _böyle_
+	- part of speech: adverb
+- 2
+	- lemma: _su_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 3
+	- lemma: _demir_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _manganez_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: ablative
+- 6
+	- lemma: _kurtar_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- verb form: verbal noun
+- 7
+	- lemma: _için_
+	- part of speech: adposition
+- 8
+	- lemma: _en_
+	- part of speech: adverb
+- 9
+	- lemma: _basit_
+	- part of speech: adjective
+- 10
+	- lemma: _usul_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _,_
+	- part of speech: punctuation
+- 12
+	- lemma: _su_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 13-14
+	- 13
+		- lemma: _havalan_
+		- part of speech: verb
+		- voice: causative voice
+		- polarity: positive
+		- person: third person
+		- number: singular number
+		- case: nominative
+		- verb form: verbal noun
+	- 14
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: generalized modality
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 15
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1401
+
+## v2_8
+
+- 1
+	- lemma: _ama_
+	- part of speech: coordinating conjunction
+- 2
+	- lemma: _on_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 3
+	- lemma: _üç_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 4
+	- lemma: _on_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 5
+	- lemma: _dört_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 6
+	- lemma: _yaş_
+	- part of speech: verb
+	- mood: indicative
+	- polarity: positive
+	- tense: present tense
+	- aspect: perfect aspect
+	- case: nominative
+	- verb form: verbal noun
+- 7
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: locative
+	- possessor's number: singular number
+	- possessor's person: first person
+	- verb form: participle
+- 8
+	- lemma: _,_
+	- part of speech: punctuation
+- 9
+	- lemma: _gen_
+	- part of speech: adverb
+- 10
+	- lemma: _ev_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 11
+	- lemma: _konuş_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: ablative
+	- polarity: positive
+- 12
+	- lemma: _,_
+	- part of speech: punctuation
+- 13
+	- lemma: _bil_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: progressive aspect
+	- person: first person
+	- number: singular number
+	- evidentiality: first hand
+- 14
+	- lemma: _bu_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: third person
+- 15
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 16
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _ama_
+	- part of speech: coordinating conjunction
+- 2
+	- lemma: _on_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 3
+	- lemma: _üç_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 4
+	- lemma: _on_
+	- part of speech: numeral
+	- numeral type: cardinal number
+- 5
+	- lemma: _dört_
+	- part of speech: numeral
+	- number: singular number
+	- possessor's number: singular number
+	- numeral type: cardinal number
+	- person: third person
+	- possessor's person: first person
+- 6
+	- lemma: _yaş_
+	- part of speech: verb
+	- case: nominative
+- 7
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: locative
+	- possessor's number: singular number
+	- possessor's person: first person
+	- verb form: participle
+- 8
+	- lemma: _,_
+	- part of speech: punctuation
+- 9
+	- lemma: _gene_
+	- part of speech: adverb
+- 10-11
+	- 10
+		- lemma: _ev_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- case: locative
+	- 11
+		- lemma: _ki_
+		- part of speech: particle
+- 12
+	- lemma: _konuşma_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: ablative
+- 13
+	- lemma: _,_
+	- part of speech: punctuation
+- 14-15
+	- 14
+		- lemma: _bil_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: imperfect aspect
+		- verb form: participle
+	- 15
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: first person
+		- polarity: positive
+		- tense: past tense
+- 16
+	- lemma: _bu_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: third person
+	- pronominal type: demonstrative pronoun
+- 17
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 18
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_316
+
+## v2_8
+
+- 1
+	- lemma: _anlat_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 2
+	- lemma: _,_
+	- part of speech: punctuation
+- 3
+	- lemma: _uyan_
+	- part of speech: verb
+	- voice: causative voice
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 4
+	- lemma: _sür_
+	- part of speech: verb
+	- voice: causative voice
+	- mood: potential
+	- polarity: positive
+	- case: nominative
+- 5
+	- lemma: _için_
+	- part of speech: adposition
+- 6
+	- lemma: _,_
+	- part of speech: punctuation
+- 7
+	- lemma: _ayak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 8
+	- lemma: _-_
+	- part of speech: punctuation
+- 9
+	- lemma: _diri_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+	- pronominal type: indefinite pronoun
+- 10
+	- lemma: _kal_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 11
+	- lemma: _becer_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 12
+	- lemma: _zorunlu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 13
+	- lemma: _,_
+	- part of speech: punctuation
+- 14
+	- lemma: _sorumlu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 15
+	- lemma: _duy_
+	- part of speech: verb
+	- polarity: positive
+	- case: ablative
+- 16
+	- lemma: _..._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _anlat_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- verb form: verbal noun
+- 2
+	- lemma: _,_
+	- part of speech: punctuation
+- 3
+	- lemma: _uyan_
+	- part of speech: verb
+	- voice: causative voice
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- verb form: verbal noun
+- 4
+	- lemma: _sür_
+	- part of speech: verb
+	- voice: causative voice
+	- mood: potential
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- verb form: verbal noun
+- 5
+	- lemma: _için_
+	- part of speech: adposition
+- 6
+	- lemma: _,_
+	- part of speech: punctuation
+- 7
+	- lemma: _ayak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 8
+	- lemma: _-_
+	- part of speech: punctuation
+- 9
+	- lemma: _diri_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+	- pronominal type: indefinite pronoun
+- 10
+	- lemma: _kal_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: accusative
+	- verb form: verbal noun
+- 11
+	- lemma: _becer_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 12
+	- lemma: _zorunlulık_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 13
+	- lemma: _,_
+	- part of speech: punctuation
+- 14
+	- lemma: _sorumluluk_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 15
+	- lemma: _duy_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: ablative
+	- verb form: verbal noun
+- 16
+	- lemma: _..._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_795
+
+## v2_8
+
+- 1
+	- lemma: _aşağı_
+	- part of speech: adverb
+- 2
+	- lemma: _yukarı_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _böyle_
+	- part of speech: adjective
+- 4
+	- lemma: _bir_
+	- part of speech: determiner
+- 5
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 6
+	- lemma: _;_
+	- part of speech: punctuation
+- 7
+	- lemma: _detay_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8
+	- lemma: _atla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- person: third person
+	- number: singular number
+	- evidentiality: non-first hand
+- 9
+	- lemma: _ol_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: first person
+	- number: singular number
+- 10
+	- lemma: _zira_
+	- part of speech: adverb
+- 11
+	- lemma: _çok_
+	- part of speech: adverb
+- 12
+	- lemma: _uzun_
+	- part of speech: adjective
+- 13
+	- lemma: _yıl_
+	- part of speech: adverb
+- 14
+	- lemma: _bu_
+	- part of speech: determiner
+- 15
+	- lemma: _faaliyet_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 16
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- aspect: progressive aspect
+	- person: first person
+	- number: singular number
+- 17
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _aşağı_
+	- part of speech: adverb
+- 2
+	- lemma: _yukarı_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _böyle_
+	- part of speech: adjective
+- 4
+	- lemma: _bir_
+	- part of speech: determiner
+- 5
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 6
+	- lemma: _;_
+	- part of speech: punctuation
+- 7
+	- lemma: _detay_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 8
+	- lemma: _atla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- verb form: participle
+- 9
+	- lemma: _ol_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: first person
+	- number: singular number
+- 10
+	- lemma: _zira_
+	- part of speech: adverb
+- 11
+	- lemma: _çok_
+	- part of speech: adverb
+- 12
+	- lemma: _uzun_
+	- part of speech: adjective
+- 13
+	- lemma: _yıl_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 14
+	- lemma: _bu_
+	- part of speech: determiner
+- 15
+	- lemma: _faaliyet_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 16
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- aspect: imperfect aspect
+	- person: first person
+	- number: singular number
+- 17
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_976
+
+## v2_8
+
+- 1
+	- lemma: _o_
+	- part of speech: pronoun
+	- case: genitive
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _kadar_
+	- part of speech: adposition
+- 3
+	- lemma: _renk_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 4
+	- lemma: _değil_
+	- part of speech: verb
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- possessor's number: singular number
+	- possessor's person: first person
+- 5
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _o_
+	- part of speech: pronoun
+	- case: genitive
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _kadar_
+	- part of speech: adposition
+- 3
+	- lemma: _renkli_
+	- part of speech: adjective
+- 4
+	- lemma: _değil_
+	- part of speech: auxiliary verb
+	- number: singular number
+	- person: first person
+	- polarity: negative
+	- tense: present tense
+- 5
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_613
+
+## v2_8
+
+- 1
+	- lemma: _Müthiş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _bir_
+	- part of speech: determiner
+- 3
+	- lemma: _güreş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 5
+	- lemma: _Süleyman_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _bey_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _hiç_
+	- part of speech: adverb
+- 8
+	- lemma: _kuşku_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 9
+	- lemma: _fark_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 10
+	- lemma: _koşul_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 11
+	- lemma: _alt_
+	- part of speech: adjective
+	- case: locative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 12
+	- lemma: _sonra_
+	- part of speech: adposition
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 13
+	- lemma: _yıl_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: locative
+- 14
+	- lemma: _Dünya_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 15
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 16
+	- lemma: _hat_
+	- part of speech: coordinating conjunction
+- 17
+	- lemma: _olimpiyat_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 18
+	- lemma: _şampiyon_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 19
+	- lemma: _ol_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: future tense
+	- aspect: imperfect aspect
+	- person: third person
+	- number: singular number
+- 20
+	- lemma: _yetenek_
+	- part of speech: adjective
+	- case: dative
+	- number: singular number
+	- person: third person
+- 21
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 22
+	- lemma: _sahip_
+	- part of speech: verb
+	- tense: past tense
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- evidentiality: non-first hand
+- 23
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _Müthiş_
+	- part of speech: adjective
+- 2
+	- lemma: _bir_
+	- part of speech: determiner
+- 3
+	- lemma: _güreşçi_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 4
+	- lemma: _ol_
+	- part of speech: auxiliary verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 5
+	- lemma: _Süleyman_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _bey_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _hiç_
+	- part of speech: adverb
+- 8
+	- lemma: _kuşkusuz_
+	- part of speech: adverb
+- 9
+	- lemma: _farklı_
+	- part of speech: adjective
+- 10
+	- lemma: _koşul_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 11
+	- lemma: _alt_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 12
+	- lemma: _sonraki_
+	- part of speech: adjective
+- 13
+	- lemma: _yıl_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: locative
+- 14
+	- lemma: _dünya_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 15
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 16
+	- lemma: _hatta_
+	- part of speech: adverb
+- 17
+	- lemma: _olimpiyat_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 18
+	- lemma: _şampiyon_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 19
+	- lemma: _ol_
+	- part of speech: verb
+	- mood: potential
+	- polarity: positive
+	- tense: future tense
+	- aspect: prospective aspect
+	- verb form: participle
+- 20
+	- lemma: _yetenek_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 21
+	- lemma: _de_
+	- part of speech: particle
+- 22-23
+	- 22
+		- lemma: _sahip_
+		- part of speech: adjective
+	- 23
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- evidentiality: non-first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 24
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_85
+
+## v2_8
+
+- 1
+	- lemma: _insan_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 2
+	- lemma: _fark_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 3
+	- lemma: _bile_
+	- part of speech: adverb
+- 4
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: ablative
+- 5
+	- lemma: _,_
+	- part of speech: punctuation
+- 6
+	- lemma: _yaşam_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: plural number
+	- case: accusative
+- 7
+	- lemma: _sanal_
+	- part of speech: adjective
+- 8
+	- lemma: _ortam_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 9
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 10
+	- lemma: _sanal_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _insan_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: instrumental
+- 12
+	- lemma: _yaşa_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 13
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 14
+	- lemma: _paylaş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+	- polarity: positive
+- 15
+	- lemma: _başla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: plural number
+- 16
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _insan_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 2
+	- lemma: _fark_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 3
+	- lemma: _bile_
+	- part of speech: adverb
+- 4
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: negative
+	- person: third person
+	- number: singular number
+	- verb form: converb
+- 5
+	- lemma: _,_
+	- part of speech: punctuation
+- 6
+	- lemma: _yaşam_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: plural number
+	- case: accusative
+- 7
+	- lemma: _sanal_
+	- part of speech: adjective
+- 8
+	- lemma: _ortam_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 9
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 10
+	- lemma: _sanal_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _insan_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: instrumental
+- 12
+	- lemma: _yaşa_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 13
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 14
+	- lemma: _paylaş_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 15
+	- lemma: _başla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: plural number
+- 16
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_1514
+
+## v2_8
+
+- 1
+	- lemma: _kimse_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 2
+	- lemma: _saçı_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3-4
+	- 3
+		- lemma: _dök_
+		- part of speech: verb
+		- voice: passive voice
+		- polarity: negative
+		- tense: present tense
+		- aspect: habitual aspect
+		- person: third person
+		- number: singular number
+	- 4
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: conditional
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 5
+	- lemma: _,_
+	- part of speech: punctuation
+- 6
+	- lemma: _o_
+	- part of speech: determiner
+- 7
+	- lemma: _ürün_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 8
+	- lemma: _kullan_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 9
+	- lemma: _ne_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 10
+	- lemma: _hacet_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _!_
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _kimse_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 2
+	- lemma: _saçı_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3-4
+	- 3
+		- lemma: _dök_
+		- part of speech: verb
+		- voice: passive voice
+		- polarity: negative
+		- tense: present tense
+		- aspect: habitual aspect
+		- person: third person
+		- number: singular number
+	- 4
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: conditional
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 5
+	- lemma: _,_
+	- part of speech: punctuation
+- 6
+	- lemma: _o_
+	- part of speech: determiner
+- 7
+	- lemma: _ürün_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 8
+	- lemma: _kullan_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 9
+	- lemma: _ne_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- person: third person
+	- pronominal type: interrogative pronoun, determiner, numeral or adverb
+- 10
+	- lemma: _hacet_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _!_
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# news_1434
+
+## v2_8
+
+- 1
+	- lemma: _o_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: third person
+- 2
+	- lemma: _değiş_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+	- polarity: negative
+- 3
+	- lemma: _,_
+	- part of speech: punctuation
+- 4
+	- lemma: _iş_
+	- part of speech: adverb
+- 5
+	- lemma: _bir_
+	- part of speech: determiner
+- 6
+	- lemma: _arpa_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _boy_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8
+	- lemma: _dâhi_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 9
+	- lemma: _ilerle_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- verb form: participle
+- 10
+	- lemma: _Türkiye_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: first person
+	- possessor's number: plural number
+	- case: genitive
+- 11
+	- lemma: _kara_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 12
+	- lemma: _baht_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 13
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _o_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: third person
+- 2
+	- lemma: _değiş_
+	- part of speech: verb
+	- polarity: negative
+	- person: third person
+	- number: plural number
+	- case: nominative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: verbal noun
+- 3
+	- lemma: _,_
+	- part of speech: punctuation
+- 4
+	- lemma: _işte_
+	- part of speech: adverb
+- 5
+	- lemma: _bir_
+	- part of speech: determiner
+- 6
+	- lemma: _arpa_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _boy_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8
+	- lemma: _dâhi_
+	- part of speech: adverb
+- 9
+	- lemma: _ilerle_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- verb form: participle
+- 10
+	- lemma: _Türkiye_
+	- part of speech: proper noun
+	- case: genitive
+	- number: singular number
+	- possessor's number: plural number
+	- person: third person
+	- possessor's person: first person
+- 11
+	- lemma: _kara_
+	- part of speech: adjective
+- 12-13
+	- 12
+		- lemma: _baht_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- possessor's person: third person
+		- possessor's number: singular number
+		- case: nominative
+	- 13
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: generalized modality
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 14
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# news_1344
+
+## v2_8
+
+- 1
+	- lemma: _bu_
+	- part of speech: determiner
+- 2
+	- lemma: _karar_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: instrumental
+- 3
+	- lemma: _polis_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 4
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _savcılık_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: dative
+- 6
+	- lemma: _bu_
+	- part of speech: determiner
+- 7
+	- lemma: _yön_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 8
+	- lemma: _yap_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 9
+	- lemma: _şikâyet_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: genitive
+- 10
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 11
+	- lemma: _azal_
+	- part of speech: adjective
+- 12
+	- lemma: _belir_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 13
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _bu_
+	- part of speech: determiner
+- 2
+	- lemma: _karar_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: instrumental
+- 3
+	- lemma: _polis_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 4
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 5
+	- lemma: _savcılık_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: dative
+- 6
+	- lemma: _bu_
+	- part of speech: determiner
+- 7
+	- lemma: _yön_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: locative
+- 8
+	- lemma: _yap_
+	- part of speech: verb
+	- voice: passive voice
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 9
+	- lemma: _şikâyet_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: genitive
+- 10
+	- lemma: _de_
+	- part of speech: particle
+- 11
+	- lemma: _azal_
+	- part of speech: verb
+	- polarity: positive
+	- tense: future tense
+	- aspect: prospective aspect
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 12
+	- lemma: _belir_
+	- part of speech: verb
+	- voice: passive causative voice
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 13
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_1085
+
+## v2_8
+
+- 1
+	- lemma: _asla_
+	- part of speech: adverb
+- 2
+	- lemma: _yol_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 3
+	- lemma: _şaşır_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: plural number
+- 4
+	- lemma: _!_
+	- part of speech: punctuation
+- 5
+	- lemma: _her_
+	- part of speech: determiner
+- 6
+	- lemma: _akşam_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _tarla_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: ablative
+- 8
+	- lemma: _kalk_
+	- part of speech: verb
+	- polarity: positive
+- 9
+	- lemma: _sürü_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 10
+	- lemma: _hâl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 11
+	- lemma: _göl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 12
+	- lemma: _doğru_
+	- part of speech: adposition
+- 13
+	- lemma: _Uçar_
+	- part of speech: verb
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 14
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _asla_
+	- part of speech: adverb
+- 2
+	- lemma: _yol_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: accusative
+- 3
+	- lemma: _şaşır_
+	- part of speech: verb
+	- polarity: negative
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: plural number
+- 4
+	- lemma: _!_
+	- part of speech: punctuation
+- 5
+	- lemma: _her_
+	- part of speech: determiner
+- 6
+	- lemma: _akşam_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 7
+	- lemma: _tarla_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: ablative
+- 8
+	- lemma: _kalk_
+	- part of speech: verb
+	- polarity: positive
+- 9
+	- lemma: _sürü_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 10
+	- lemma: _hâl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 11
+	- lemma: _göl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 12
+	- lemma: _doğru_
+	- part of speech: adposition
+- 13
+	- lemma: _uç_
+	- part of speech: verb
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 14
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_1037
+
+## v2_8
+
+- 1
+	- lemma: _hem_
+	- part of speech: coordinating conjunction
+- 2
+	- lemma: _bir_
+	- part of speech: determiner
+- 3
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 4
+	- lemma: _sat_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 5
+	- lemma: _hem_
+	- part of speech: coordinating conjunction
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 8
+	- lemma: _al_
+	- part of speech: verb
+	- polarity: positive
+- 9
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 10
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _hem_
+	- part of speech: coordinating conjunction
+- 2
+	- lemma: _bir_
+	- part of speech: determiner
+- 3
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 4
+	- lemma: _sat_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 5
+	- lemma: _hem_
+	- part of speech: coordinating conjunction
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _şey_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: accusative
+- 8
+	- lemma: _al_
+	- part of speech: verb
+	- polarity: positive
+	- verb form: converb
+- 9
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 10
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1990
+
+## v2_8
+
+- 1
+	- lemma: _biz_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: first person
+- 2
+	- lemma: _Şefik_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _dert_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 4
+	- lemma: _dağıtım_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 5
+	- lemma: _merkez_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 6
+	- lemma: _sanki_
+	- part of speech: adverb
+- 7
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _biz_
+	- part of speech: pronoun
+	- case: genitive
+	- number: plural number
+	- person: first person
+- 2
+	- lemma: _Şefik_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _dert_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _dağıtım_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 5
+	- lemma: _merkez_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 6
+	- lemma: _sanki_
+	- part of speech: adverb
+- 7
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_1612
+
+## v2_8
+
+- 1
+	- lemma: _soğan_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 2
+	- lemma: _yemek_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _doğra_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- person: second person
+	- number: plural number
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _soğan_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 2
+	- lemma: _yemeklik_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _doğra_
+	- part of speech: verb
+	- mood: imperative
+	- polarity: positive
+	- person: second person
+	- number: plural number
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ins_1076
+
+## v2_8
+
+- 1
+	- lemma: _etkin_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 2
+	- lemma: _söz_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _konu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 4
+	- lemma: _ol_
+	- part of speech: noun
+- 5
+	- lemma: _ilk_
+	- part of speech: adverb
+- 6
+	- lemma: _akıl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 7
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 8
+	- lemma: _kriter_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 9
+	- lemma: _,_
+	- part of speech: punctuation
+- 10
+	- lemma: _marka_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 11
+	- lemma: _/kurum_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 12
+	- lemma: _iletişim_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 13
+	- lemma: _strateji_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: instrumental
+- 14-15
+	- 14
+		- lemma: _tutarlı_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- case: nominative
+	- 15
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- case: nominative
+		- number: singular number
+		- person: third person
+- 16
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _etkinlik_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: nominative
+- 2
+	- lemma: _söz_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _konu_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 4
+	- lemma: _ol_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- case: locative
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: participle
+- 5
+	- lemma: _ilk_
+	- part of speech: adjective
+- 6
+	- lemma: _akıl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 7
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 8
+	- lemma: _kriter_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 9
+	- lemma: _,_
+	- part of speech: punctuation
+- 10
+	- lemma: _marka_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 11
+	- lemma: _/kurum_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 12
+	- lemma: _iletişim_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 13
+	- lemma: _strateji_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: instrumental
+- 14-15
+	- 14
+		- lemma: _tutarlılık_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- case: nominative
+	- 15
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: generalized modality
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 16
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1762
+
+## v2_8
+
+- 1
+	- lemma: _Mahmut_
+	- part of speech: proper noun
+	- case: genitive
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _düzen_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 3
+	- lemma: _boz_
+	- part of speech: verb
+	- voice: passive voice
+	- mood: potential
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _Mahmut_
+	- part of speech: proper noun
+	- case: genitive
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _düzen_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 3-4
+	- 3
+		- lemma: _boz_
+		- part of speech: verb
+		- polarity: positive
+		- aspect: habitual aspect
+		- verb form: participle
+	- 4
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- polarity: positive
+		- tense: past tense
+- 5
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# news_1406
+
+## v2_8
+
+- 1
+	- lemma: _döner_
+	- part of speech: verb
+	- mood: imperative
+	- person: third person
+	- number: singular number
+	- case: nominative
+	- verb form: converb
+- 2
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 3
+	- lemma: _sor_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: progressive aspect
+	- person: second person
+	- number: plural number
+- 4
+	- lemma: _..._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1-2
+	- 1
+		- lemma: _dön_
+		- part of speech: verb
+		- polarity: positive
+		- tense: present tense
+		- aspect: habitual aspect
+		- verb form: participle
+	- 2
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- polarity: positive
+		- verb form: converb
+- 3
+	- lemma: _de_
+	- part of speech: particle
+- 4
+	- lemma: _sor_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: imperfect aspect
+	- person: second person
+	- number: plural number
+- 5
+	- lemma: _..._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_1380
+
+## v2_8
+
+- 1
+	- lemma: _her_
+	- part of speech: determiner
+- 2
+	- lemma: _taraf_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _Güneş_
+	- part of speech: numeral
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 4
+	- lemma: _alt_
+	- part of speech: numeral
+	- case: locative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 5
+	- lemma: _pırıl_
+	- part of speech: other
+	- is this an echo word or a reduplicative?: reduplicative
+- 6
+	- lemma: _pırıl_
+	- part of speech: verb
+	- voice: passive voice
+	- mood: indicative
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+- 7
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _her_
+	- part of speech: determiner
+- 2
+	- lemma: _taraf_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 3
+	- lemma: _güneş_
+	- part of speech: numeral
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 4
+	- lemma: _alt_
+	- part of speech: numeral
+	- case: locative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 5
+	- lemma: _pırıl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 6-7
+	- 6
+		- lemma: _pırıl_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- case: nominative
+	- 7
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- evidentiality: first hand
+		- number: singular number
+		- person: third person
+		- tense: past tense
+- 8
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_1761
+
+## v2_8
+
+- 1
+	- lemma: _kaş_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _:_
+	- part of speech: punctuation
+- 3
+	- lemma: _göz_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 4
+	- lemma: _hemen_
+	- part of speech: adverb
+- 5
+	- lemma: _üst_
+	- part of speech: adjective
+	- case: locative
+	- number: singular number
+	- possessor's number: singular number
+	- person: third person
+	- possessor's person: third person
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _çizgi_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 8
+	- lemma: _hâl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 9
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 10
+	- lemma: _kaş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _,_
+	- part of speech: punctuation
+- 12
+	- lemma: _bazen_
+	- part of speech: adverb
+- 13
+	- lemma: _de_
+	- part of speech: coordinating conjunction
+- 14
+	- lemma: _şekil_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 15
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 16
+	- lemma: _iri_
+	- part of speech: adjective
+- 17
+	- lemma: _bir_
+	- part of speech: determiner
+- 18
+	- lemma: _küme_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 19
+	- lemma: _ol_
+	- part of speech: adposition
+- 20
+	- lemma: _sırt_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 21
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 22
+	- lemma: _kulunç_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: locative
+- 23
+	- lemma: _yeşer_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+- 24
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _kaş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _:_
+	- part of speech: punctuation
+- 3
+	- lemma: _göz_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 4
+	- lemma: _hemen_
+	- part of speech: adverb
+- 5
+	- lemma: _üst_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 6
+	- lemma: _bir_
+	- part of speech: determiner
+- 7
+	- lemma: _çizgi_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 8
+	- lemma: _hâl_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: locative
+- 9
+	- lemma: _bulun_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- verb form: participle
+- 10
+	- lemma: _kaş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _,_
+	- part of speech: punctuation
+- 12
+	- lemma: _bazen_
+	- part of speech: adverb
+- 13
+	- lemma: _de_
+	- part of speech: particle
+- 14
+	- lemma: _şekil_
+	- part of speech: adjective
+- 15
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 16
+	- lemma: _iri_
+	- part of speech: adjective
+- 17
+	- lemma: _bir_
+	- part of speech: determiner
+- 18
+	- lemma: _küme_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 19
+	- lemma: _ol_
+	- part of speech: auxiliary verb
+	- polarity: positive
+	- verb form: converb
+- 20
+	- lemma: _sırt_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 21
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 22
+	- lemma: _kulunç_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: locative
+- 23
+	- lemma: _yeşer_
+	- part of speech: verb
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: third person
+	- number: singular number
+- 24
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_329
+
+## v2_8
+
+- 1
+	- lemma: _birkaç_
+	- part of speech: determiner
+- 2-3
+	- 2
+		- lemma: _yıl_
+		- part of speech: adverb
+	- 3
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: generalized modality
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _Kürt_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _,_
+	- part of speech: punctuation
+- 7
+	- lemma: _Kıbrıs_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 8
+	- lemma: _,_
+	- part of speech: punctuation
+- 9
+	- lemma: _Ermeni_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 10
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 11
+	- lemma: _diğer_
+	- part of speech: adjective
+- 12
+	- lemma: _azınlık_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 13
+	- lemma: _sorun_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: genitive
+- 14
+	- lemma: _,_
+	- part of speech: punctuation
+- 15
+	- lemma: _AB_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 16
+	- lemma: _gir_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+	- polarity: positive
+- 17
+	- lemma: _,_
+	- part of speech: punctuation
+- 18
+	- lemma: _İslam_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 19
+	- lemma: _köken_
+	- part of speech: adjective
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 20
+	- lemma: _bir_
+	- part of speech: determiner
+- 21
+	- lemma: _parti_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 22
+	- lemma: _iktidar_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 23
+	- lemma: _gel_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: genitive
+	- polarity: positive
+- 24
+	- lemma: _etki_
+	- part of speech: adverb
+- 25
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 26
+	- lemma: _bu_
+	- part of speech: pronoun
+	- case: dative
+	- number: plural number
+	- person: third person
+- 27
+	- lemma: _tepki_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 28
+	- lemma: _ol_
+	- part of speech: adposition
+- 29
+	- lemma: _,_
+	- part of speech: punctuation
+- 30
+	- lemma: _milliyetçilik_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 31
+	- lemma: _yüksel_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+- 32
+	- lemma: _başla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 33
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _birkaç_
+	- part of speech: determiner
+- 2-3
+	- 2
+		- lemma: _yıl_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- case: nominative
+	- 3
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- mood: generalized modality
+		- number: singular number
+		- person: third person
+		- tense: present tense
+- 4
+	- lemma: _,_
+	- part of speech: punctuation
+- 5
+	- lemma: _Kürt_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _,_
+	- part of speech: punctuation
+- 7
+	- lemma: _Kıbrıs_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 8
+	- lemma: _,_
+	- part of speech: punctuation
+- 9
+	- lemma: _Ermeni_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 10
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 11
+	- lemma: _diğer_
+	- part of speech: adjective
+- 12
+	- lemma: _azınlık_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 13
+	- lemma: _sorun_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: genitive
+- 14
+	- lemma: _,_
+	- part of speech: punctuation
+- 15
+	- lemma: _AB_
+	- part of speech: proper noun
+	- case: dative
+	- number: singular number
+	- person: third person
+- 16
+	- lemma: _gir_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+	- polarity: positive
+- 17
+	- lemma: _,_
+	- part of speech: punctuation
+- 18
+	- lemma: _İslamcı_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 19
+	- lemma: _kökenli_
+	- part of speech: adjective
+- 20
+	- lemma: _bir_
+	- part of speech: determiner
+- 21
+	- lemma: _parti_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: genitive
+- 22
+	- lemma: _iktidar_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: dative
+- 23
+	- lemma: _gel_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: genitive
+	- possessor's number: singular number
+	- possessor's person: third person
+	- verb form: verbal noun
+- 24
+	- lemma: _etki_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: instrumental
+- 25
+	- lemma: _ve_
+	- part of speech: coordinating conjunction
+- 26
+	- lemma: _bu_
+	- part of speech: pronoun
+	- case: dative
+	- number: plural number
+	- person: third person
+- 27
+	- lemma: _tepki_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 28
+	- lemma: _ol_
+	- part of speech: auxiliary verb
+	- mood: imperative
+	- polarity: positive
+	- verb form: converb
+- 29
+	- lemma: _,_
+	- part of speech: punctuation
+- 30
+	- lemma: _milliyetçilik_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 31
+	- lemma: _yüksel_
+	- part of speech: verb
+	- polarity: positive
+	- person: third person
+	- number: singular number
+	- case: dative
+	- verb form: verbal noun
+- 32
+	- lemma: _başla_
+	- part of speech: verb
+	- polarity: positive
+	- tense: past tense
+	- aspect: perfect aspect
+	- person: third person
+	- number: singular number
+	- evidentiality: first hand
+- 33
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# bio_390
+
+## v2_8
+
+- 1
+	- lemma: _yarın_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _iş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: first person
+	- possessor's number: singular number
+	- case: nominative
+- 3
+	- lemma: _çok_
+	- part of speech: adverb
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _yarın_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 2
+	- lemma: _iş_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: first person
+	- possessor's number: singular number
+	- case: nominative
+- 3
+	- lemma: _çok_
+	- part of speech: adverb
+- 4
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# pop_62
+
+## v2_8
+
+- 1
+	- lemma: _"İstanbul_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 2
+	- lemma: _aslında_
+	- part of speech: adverb
+- 3
+	- lemma: _deprem_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 4
+	- lemma: _kuşak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: genitive
+- 5
+	- lemma: _tam_
+	- part of speech: adverb
+- 6-7
+	- 6
+		- lemma: _göbek_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- possessor's person: third person
+		- possessor's number: singular number
+		- case: locative
+	- 7
+		- lemma: _i_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- evidentiality: non-first hand
+		- mood: indicative
+		- number: singular number
+		- person: third person
+		- tense: past tense
+- 8
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _"_
+	- part of speech: punctuation
+- 2
+	- lemma: _İstanbul_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 3
+	- lemma: _aslında_
+	- part of speech: adverb
+- 4
+	- lemma: _deprem_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 5
+	- lemma: _kuşak_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: genitive
+- 6
+	- lemma: _tam_
+	- part of speech: adverb
+- 7-8
+	- 7
+		- lemma: _göbek_
+		- part of speech: noun
+		- person: third person
+		- number: singular number
+		- possessor's person: third person
+		- possessor's number: singular number
+		- case: locative
+	- 8
+		- lemma: _y_
+		- part of speech: auxiliary verb
+		- aspect: perfect aspect
+		- evidentiality: non-first hand
+		- mood: indicative
+		- number: singular number
+		- person: third person
+		- tense: past tense
+- 9
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+
+# ess_624
+
+## v2_8
+
+- 1
+	- lemma: _ben_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- person: first person
+- 2
+	- lemma: _yani_
+	- part of speech: coordinating conjunction
+- 3
+	- lemma: _nerdeyse_
+	- part of speech: adverb
+- 4
+	- lemma: _bir_
+	- part of speech: determiner
+- 5
+	- lemma: _Christian_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 6
+	- lemma: _Scientist_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 7
+	- lemma: _üye_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8
+	- lemma: _kadar_
+	- part of speech: adposition
+- 9
+	- lemma: _"_
+	- part of speech: punctuation
+- 10
+	- lemma: _düşkün_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: nominative
+- 11
+	- lemma: _"_
+	- part of speech: punctuation
+- 12
+	- lemma: _addet_
+	- part of speech: verb
+	- voice: passive voice
+	- mood: potential
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: first person
+	- number: singular number
+- 13
+	- lemma: _doktor_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: dative
+- 14
+	- lemma: _._
+	- part of speech: punctuation
+
+## v2_11
+
+- 1
+	- lemma: _ben_
+	- part of speech: pronoun
+	- case: nominative
+	- number: singular number
+	- person: first person
+	- pronominal type: personal
+- 2
+	- lemma: _yani_
+	- part of speech: coordinating conjunction
+- 3
+	- lemma: _nerdeyse_
+	- part of speech: adverb
+- 4
+	- lemma: _bir_
+	- part of speech: determiner
+- 5
+	- lemma: _Christian_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 6
+	- lemma: _Scientist_
+	- part of speech: proper noun
+	- case: nominative
+	- number: singular number
+	- person: third person
+- 7
+	- lemma: _üye_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- possessor's person: third person
+	- possessor's number: singular number
+	- case: nominative
+- 8
+	- lemma: _kadar_
+	- part of speech: adposition
+- 9
+	- lemma: _"_
+	- part of speech: punctuation
+- 10
+	- lemma: _düşkün_
+	- part of speech: noun
+	- person: third person
+	- number: singular number
+	- case: accusative
+- 11
+	- lemma: _"_
+	- part of speech: punctuation
+- 12
+	- lemma: _addet_
+	- part of speech: verb
+	- voice: passive voice
+	- mood: potential
+	- polarity: positive
+	- tense: present tense
+	- aspect: habitual aspect
+	- person: first person
+	- number: singular number
+- 13
+	- lemma: _doktor_
+	- part of speech: noun
+	- person: third person
+	- number: plural number
+	- case: dative
+- 14
+	- lemma: _._
+	- part of speech: punctuation
+
+--------------------------------------------------
+

@@ -11,8 +11,8 @@ def main():
     tb_d = {}
     with open(args.treebank, 'r') as f:
         tb_data = json.load(f)
-    for elem in tb_data:
-        tb_d[elem['sent_id']] = elem['text']
+    for key, elem in tb_data.items():
+        tb_d[key] = elem['text']
     
     with open(args.sentence_ids, 'r') as f:
         sentence_ids = json.load(f)
@@ -20,12 +20,14 @@ def main():
     nlp = Turkish()
     tokenizer = nlp.tokenizer
 
-    token_count = 0
+    all_token_count = 0
     for sent_id in sentence_ids:
         text = tb_d[sent_id]
-        token_count += len(tokenizer(text))
+        current_token_count = len(tokenizer(text))
+        print(sent_id, current_token_count)
+        all_token_count += current_token_count
 
-    print(token_count)
+    print(all_token_count)
 
 if __name__ == '__main__':
     main()
