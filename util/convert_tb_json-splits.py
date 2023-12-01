@@ -7,10 +7,12 @@ args = parser.parse_args()
 THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 HOME_DIR = os.path.expanduser('~')
 data_path = args.treebank
+tb_name = os.path.basename(data_path)
+version = 'v2.13'
 data_files = [os.path.join(data_path, f) for f in os.listdir(data_path) if f.endswith('.conllu')]
 data_files = sorted(data_files)
 
-data_d = {}
+data_d = {'treebank_name': tb_name, 'version': version, 'sentences': {}}
 md_pattern = re.compile('^# (.+?) = (.+?)$')
 annotation_pattern = re.compile('(.+\t){9}.+')
 for f in data_files:
@@ -45,7 +47,8 @@ for f in data_files:
                 d_t['split'] = split
                 break
         if d_t:
-            data_d[sent_id] = d_t
+            data_d['sentences'][sent_id] = d_t
 
-with open(os.path.join(data_path, 'treebank-splits.json'), 'w', encoding='utf-8') as f:
+with open(os.path.join(data_path, 'treebank-splits-{}-{}.json').format(tb_name, version),
+          'w', encoding='utf-8') as f:
     json.dump(data_d, f, ensure_ascii=False, indent=4)
