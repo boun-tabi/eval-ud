@@ -59,16 +59,15 @@ def main():
         v2_11_llm_ratio_l.append(v2_11_llm_ratio)
         v2_8_diff_l.append(v2_8_manual_ratio - v2_8_llm_ratio)
         v2_11_diff_l.append(v2_11_manual_ratio - v2_11_llm_ratio)
-    print('v2.8', sum(v2_8_diff_l) / len(v2_8_diff_l))
-    with open(os.path.join(THIS_DIR, 'v2.8-diff-{}.json'.format(args.note)), 'w', encoding='utf-8') as f:
-        json.dump(v2_8_diff_l, f, ensure_ascii=False, indent=4)
-    print('v2.11', sum(v2_11_diff_l) / len(v2_11_diff_l))
-    with open(os.path.join(THIS_DIR, 'v2.11-diff.json-{}.json'.format(args.note)), 'w', encoding='utf-8') as f:
-        json.dump(v2_11_diff_l, f, ensure_ascii=False, indent=4)
-    print('v2.8 manual', sum(v2_8_manual_ratio_l) / len(v2_8_manual_ratio_l))
-    print('v2.8 LLM', sum(v2_8_llm_ratio_l) / len(v2_8_llm_ratio_l))
-    print('v2.11 manual', sum(v2_11_manual_ratio_l) / len(v2_11_manual_ratio_l))
-    print('v2.11 LLM', sum(v2_11_llm_ratio_l) / len(v2_11_llm_ratio_l))
+    out_d = {}
+    out_d['v2.8'] = sum(v2_8_diff_l) / len(v2_8_diff_l)
+    out_d['v2.11'] = sum(v2_11_diff_l) / len(v2_11_diff_l)
+    out_d['v2.8 manual'] = sum(v2_8_manual_ratio_l) / len(v2_8_manual_ratio_l)
+    out_d['v2.8 LLM'] = sum(v2_8_llm_ratio_l) / len(v2_8_llm_ratio_l)
+    out_d['v2.11 manual'] = sum(v2_11_manual_ratio_l) / len(v2_11_manual_ratio_l)
+    out_d['v2.11 LLM'] = sum(v2_11_llm_ratio_l) / len(v2_11_llm_ratio_l)
+    with open(os.path.join(THIS_DIR, 'manual_LLM_comparison-{}.json'.format(args.note)), 'w', encoding='utf-8') as f:
+        json.dump(out_d, f, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     main()
