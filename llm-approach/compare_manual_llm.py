@@ -9,6 +9,7 @@ def main():
     parser.add_argument('-pl', '--prev-llm', type=str, required=True)
     parser.add_argument('-cl', '--curr-llm', type=str, required=True)
     parser.add_argument('-m', '--manual', type=str, required=True)
+    parser.add_argument('-n', '--note', type=str, required=True)
     args = parser.parse_args()
 
     with open(args.prev_llm, 'r', encoding='utf-8') as f:
@@ -59,10 +60,10 @@ def main():
         v2_8_diff_l.append(v2_8_manual_ratio - v2_8_llm_ratio)
         v2_11_diff_l.append(v2_11_manual_ratio - v2_11_llm_ratio)
     print('v2.8', sum(v2_8_diff_l) / len(v2_8_diff_l))
-    with open(os.path.join(THIS_DIR, 'v2.8-diff.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(THIS_DIR, 'v2.8-diff-{}.json'.format(args.note)), 'w', encoding='utf-8') as f:
         json.dump(v2_8_diff_l, f, ensure_ascii=False, indent=4)
     print('v2.11', sum(v2_11_diff_l) / len(v2_11_diff_l))
-    with open(os.path.join(THIS_DIR, 'v2.11-diff.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(THIS_DIR, 'v2.11-diff.json-{}.json'.format(args.note)), 'w', encoding='utf-8') as f:
         json.dump(v2_11_diff_l, f, ensure_ascii=False, indent=4)
     print('v2.8 manual', sum(v2_8_manual_ratio_l) / len(v2_8_manual_ratio_l))
     print('v2.8 LLM', sum(v2_8_llm_ratio_l) / len(v2_8_llm_ratio_l))
