@@ -2,7 +2,7 @@
   "Case": {
     "shortdef": "case",
     "Nom": {
-      "shortdef": "nominative",
+      "shortdef": "nominative / direct",
       "content": "The base form of the noun, typically used as citation form (lemma).\n\nExamples\n\n* Kız uyuyor. \"The girl sleeps.\""
     },
     "Acc": {
@@ -88,7 +88,7 @@
     "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Cau\">Cau</a></td>\n  <td><a href=\"#CauCau\">CauCau</a></td>\n  <td><a href=\"#CauCauPass\">CauCau</a></td>\n  <td><a href=\"#CauPass\">CauPass</a></td>\n  <td><a href=\"#CauPassRcp\">CauPassRcp</a></td>\n  <td><a href=\"#CauRcp\">CauRcp</a></td>\n  <td><a href=\"#Pass\">Pass</a></td>\n  <td><a href=\"#PassPass\">PassPass</a></td>\n  <td><a href=\"#PassRfl\">PassRfl</a></td>\n  <td><a href=\"#PassRcp\">PassRcp</a></td>\n  <td><a href=\"#Rcp\">Rcp</a></td>\n  <td><a href=\"#Rfl\">Rfl</a></td>\n</tr>\n</table>\n\nVoice is a feature of verbs that helps map the traditional syntactic functions,\nsuch as subject and object, to semantic roles, such as agent and patient.\n\n(This feature, as defined currently, cannot correctly handle voice features on Turkish verbs.)\nThe above combinations (of camel-case voice values) are a temporary solution to indicate \"multiple\nvoice\" features, but they are certainly not the best way to indicate\nthese features.\nSee #197 and\n#125\nfor the discussion."
   },
   "VerbForm": {
-    "shortdef": "verb form",
+    "shortdef": "form of verb or deverbative",
     "Conv": {
       "shortdef": "converb",
       "content": "The converb, also called transgressive or adverbial participle,\nis a non-finite verb form that shares properties of verbs and adverbs.\n\nExamples\n\n- yürürken gördüm \"I saw it while I was walking\"\n- okuyarak daha iyi öğreniyor \"She/he learns better by reading\"\n- raporu yazılı olarak istiyorlar \"They want the report in written form\"\n- okuyunca anlayacaksın \"You will understand when you read it\""
@@ -144,7 +144,7 @@
     "content": "This feature typically applies to pronouns, determiners, pronominal numerals (quantifiers) and pronominal adverbs."
   },
   "Definite": {
-    "shortdef": "state",
+    "shortdef": "definiteness or state",
     "Ind": {
       "shortdef": "indefinite",
       "content": "Examples\n\n* bir \"a/an\"\n* bazı \"some\"\n* birkaç \"a few/several\""
@@ -190,11 +190,11 @@
   "NumType": {
     "shortdef": "numeral type",
     "Card": {
-      "shortdef": "cardinal number",
+      "shortdef": "cardinal number or corresponding interrogative",
       "content": "Examples\n\n* 1, 2, 3\n* bir, iki, üç  \"one, two, three\"\n* kaç kitap okudun \"how many books did your read\""
     },
     "Ord": {
-      "shortdef": "ordinal number",
+      "shortdef": "ordinal number or corresponding interrogative",
       "content": "In some languages, this is a subtype of adjective or adverb.\nIn Turkish, we mark the ordinal numerals as NUM.\n\nOrdinal numerals are formed by the suffix -IncI.\nA period following a numeral may also indicate ordinal use of the number.\n\nExamples\n\n* 1., 2., 3.\n* birinci, ikinci, üçüncü  \"first, second, third\"\n* kaçıncı kitabı okudun \"which (of a series) book did your read\" (answer should be something like ikinci \"(the) second\")"
     },
     "Dist": {
@@ -220,17 +220,17 @@
     "content": "In Turkish, Person is a feature of personal pronouns, and verbs.\nPerson marking on verbs are obligatory in Turkish for all finite verb forms.\nThe Person marker on predicates indicate the subject when there is\nno overt subject.\n\nThe verbal markers for person and number are composite, and their form change\ndepending on the other suffixes attached to the verb.\n\nThe person/number marker of verbs may also be attached to the question particle -mI (-mi/mı/mu/mü), which is written separately.\n\nMETU-Sabancı treebank marks all nouns as having 3rd person agreement marker.\nWe do not mark nouns for Person."
   },
   "Reflex": {
-    "shortdef": "reflexivity",
+    "shortdef": "reflexive",
     "Yes": {
-      "shortdef": "reflexive",
+      "shortdef": "it is reflexive",
       "content": "Note that there is no No value. If the word is not reflexive, the\nReflex feature will just not be mentioned in the FEAT\ncolumn. (Which means that empty value has the No meaning.)\n\nExamples\n\n* kendi \"self\"\n* kendisi \"himself/herself/itself\"\n* kendimiz \"ourselves\""
     },
     "content": "It tells whether the word is reflexive, i.e. refers to the subject of its clause.\n\nThis marks the reflexive pronoun kendi and its inflected forms."
   },
   "Polarity": {
-    "shortdef": "polarity",
+    "shortdef": "whether the word can be or is negated",
     "Pos": {
-      "shortdef": "positive",
+      "shortdef": "positive, affirmative",
       "content": "Examples\n\n- Okuyacak \"he/she will read\"\n- Ali doktor \"Ali is a doctor\""
     },
     "Neg": {
@@ -254,15 +254,15 @@
       "content": "Action is in progress with respect to current or a reference time.\n\nTurkish has two progressive markers, -(I)yor and -mAktA.\nLatter is used in more formal cases than former.\nOtherwise there is no clear distinction between the two.\nIn some contexts, both suffixes may also indicate habitual aspect (Aspect=Hab described below).\n\nExamples\n\n eve gidiyor* 'she is going home (now)'\n eve gitmekte* 'she is going home (now)'\n eve gidiyordu* 'she was going home (when I saw her)'\n eve gimekteydi* 'she was going home (when I saw her)'"
     },
     "Hab": {
-      "shortdef": "habitual aspect",
+      "shortdef": "habitual aspect (new proposal)",
       "content": "Verbal morphology in Turkish may indicate an action that happens repeatedly at present or past.\nThis aspect is mainly marked with suffix -A/Ir.\nIn some cases, the progressive suffix -(I)yor may indicate the habitual aspect,\nHer sabah 5 km koşuyorum \"I ran 5 km every morning\".\nSee Göksel and Kerslake (2005, pp289--290) for details.\n\nExamples\n\n çok kitap okur* 'she reads lots of books'\n sigara içerdi* 'she used to smoke'"
     },
     "Rapid": {
-      "shortdef": "rapid sudden action",
+      "shortdef": "rapid sudden action (new proposal)",
       "content": "A particular verb form formed by suffix -Iver refers to actions that are sudden or performed rapidly.\nKornfilt (1995, p.361) calls this rapid or sudden aspect.\n\nExamples\n\n eve gidiver* 'quickly go home!'\n eve gidiverdi* 'she immediately/suddenly went home!'"
     },
     "Dur": {
-      "shortdef": "durative aspect",
+      "shortdef": "durative aspect (new proposal)",
       "content": "A situation or action that has persisted over a period of time and still continues. This is called durative action (e.g., Kornfilt 1995, p.362).\nThe suffixes -Akal, -Agel and -Adur indicate this aspect (the first one might better be defined as 'durative stative' and others 'durative progressive').\n\nExamples\n\n bakakaldı* 'she looked (for a while, she was frozen while looking)'\n yapagelmiştir* 'she have gone on doing (something)'\n okuyadur* 'go on reading'"
     },
     "Prosp": {
@@ -286,7 +286,7 @@
       "content": "In Turkish imperatives are expressed by lack of any tense/aspect/modality marker. The form of imperative may indicate second or third person plural/singular. Note that, forms other than second person singular may indicate a wish rather than a command, so may be marked as Opt (see below).\n\nExamples\n\n eve git* 'go home!'\n eve gidin* '(you-PLU) go home!'\n eve gitsin* '(I am ordering him/her to) go home!'"
     },
     "Prs": {
-      "shortdef": "persuasive",
+      "shortdef": "persuasive (new, not in UD)",
       "content": "Turkish has a particular form of imperative, where the request is not an order, but an attempt to persuade.\n\nExamples\n\n eve gitsene* '(please) go home'\n eve gitsenize* '(you-PLU, please) go home'"
     },
     "Opt": {
@@ -354,11 +354,11 @@
   "Degree": {
     "shortdef": "degree of comparison",
     "Cmp": {
-      "shortdef": "comparative",
+      "shortdef": "comparative, second degree",
       "content": "The quality of one object is compared to the same quality of another object.\n\nExamples\n\n* daha güzel  \"prettier\"\n* daha çabuk  \"quicker/faster\""
     },
     "Sup": {
-      "shortdef": "superlative",
+      "shortdef": "superlative, third degree",
       "content": "The quality of one object is compared to the same quality of all other objects within a set.\n\nExamples\n\n* en güzel  \"prettiest\"\n* en çabuk  \"quickest/fastest\""
     },
     "content": "Degree of comparison is typically an inflectional feature of some adjectives and adverbs.\n\nIn Turkish, degree of an adjective or adverb is modified through adverbs en \"(the) most\" and daha \"more\".\nWe only annotate these two adverbs with the Degree feature."
@@ -432,13 +432,13 @@
     "content": "Number[psed]\n\nNumber[psed]\nis the possessee's (possessed, owned noun phrase's) number. In\nHungarian, possession can be marked on the possessor or on the\npossessed. It is possible, though rare, that a noun has three\ndistinct number features: its own grammatical number, number of its\npossessor and number of its possession. Examples from the\nMultext-East Hungarian lexicon:\n\n* <I>könnyedén</I> (SSS)\n  * <I>könny</I> = a tear (singular)\n  * <I>könnyed</I> = your tear (singular owner)\n  * <I>könnyedé</I> = (possession) of your tear (singular possession)\n  * <I>könnyedén</I> = (on the possession) of your tear (superessive case)\n* <I>ellenfeleié</I> (PSS)\n  * <I>ellenfél</I> = an opponent (singular)\n  * <I>ellenfele</I> = his/her/its opponent (singular owner)\n  * <I>ellenfelei</I> = his/her/its opponents (core plural, singular owner)\n  * <I>ellenfeleié</I> = (possession) of his/her/its opponents (singular possession)\n* <I>életeké</I> (SPS)\n  * <I>él</I> = point (singular)\n  * <I>élek</I> = points (plural)\n  * <I>élén</I> = his/her/its point (singular owner)\n  * <I>élünk</I> = our point (plural owner)\n  * <I>életeké</I> = (possession) of our point (singular possession)\n* <I>tárgyalópartnereinkét</I> (PPS)\n  * <I>tárgyalópartner</I> = negotiator (singular)\n  * <I>tárgyalópartnerei</I> = his/her/its negotiators (plural, singular owner)\n  * <I>tárgyalópartnereinkét</I> = (possession) of our negotiators (plural, plural owner, singular possession, accusative case)\n\nWords marked for plural possessions are very rare, though. Note\nthat in the following example from Multext-East, Columbus is marked\nfor plural possession, but not for his own owner.\n\n* <I>Kolumbuszéinál</I>\n  * <I>Kolumbusz</I> = Columbus (singular)\n  * <I>Kolumbuszéi</I> = (possessions) of Columbus (plural possession)\n  * <I>Kolumbuszéinál</I> = (at the possessions) of Columbus (adessive case)"
   },
   "PunctSide": {
-    "shortdef": "side of paired punctuation",
+    "shortdef": "which side of paired punctuation is this?",
     "Ini": {
-      "shortdef": "initial",
+      "shortdef": "initial (left bracket in English texts)",
       "content": "Examples\n\n* [is] „gríðarlegan fjölda“ “a huge number”"
     },
     "Fin": {
-      "shortdef": "final",
+      "shortdef": "final (right bracket in English texts)",
       "content": "Examples\n\n* [is] „gríðarlegan fjölda“ “a huge number”"
     },
     "content": "Distinguishes between initial and final form of pairwise punctuation\n(brackets, quotation marks, question and exclamation in Spanish). Note\nthat \"initial\" and \"final\" are better terms than \"left\" and\n\"right\". The latter would be confusing in languages writing from right\nto left, like Arabic."
@@ -450,7 +450,7 @@
       "content": "Examples: [eu] ezan, ezak Polite[erg]=Inf"
     },
     "Form": {
-      "shortdef": "polite absolutive argument",
+      "shortdef": "polite, formal absolutive argument",
       "content": "Examples: [eu] ezazu Polite[erg]=Pol (politeness-neutral form is ezazue)"
     },
     "content": "Polite[abs]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject;\nfor the second person this also affects the politeness register.\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Polite[abs] is the politeness of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called abspoliteness.\n* Polite[erg] is the politeness of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergpoliteness.\n* Polite[dat] is the politeness of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datpoliteness.\n\nOne may want to use just Polite instead of Polite[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Polite[abs] to demonstrate that it is the same layer of agreement for both the features."
@@ -527,7 +527,7 @@
     "shortdef": "hyphenated compound or part of it",
     "Yes": {
       "shortdef": "it is part of hyphenated compound",
-      "content": "Examples: \"anglo-\" in \"anglo-saxon\"; [cs] \"česko-slovenský\"\n(Czecho-Slovak; the second part is a normal adjective, including\nadjectival morphological paradigm, but the first part is special.)"
+      "content": "Note that this depends on the tokenization conventions used in the language.\nFor example, in Czech (see below), česko-slovenský is tokenized as three\ntokens: česko, the hyphen, and slovenský. While slovenský is a normal\nadjective in Czech, česko is derived from an adjectival stem but it is in\na form that can never occur as a separate word. On the other hand, it can be\ncombined with many other adjectives denoting affiliation with a country or\nregion: česko-moravský, česko-německý, česko-americký etc. If tokenization\nleft it as one token, it the whole word česko-slovenský would be simply an\nadjective and no Hyph=Yes would be used in the annotation.\n\nExamples\n\n* [cs] česko-slovenský \"Czecho-Slovak\"\n* [en] Anglo-Saxon"
     },
     "content": "Boolean feature. Is this part of a hyphenated compound? Depending on\ntokenization, the compound may be one token or be split to several\ntokens; then the tokens need tags.\n\nThese are words corresponding to prefixes such inter- (inter disciplinary), post- (post traumatic), un- (un avoidable), di- (di transitive) and so on in English, but which are\nrelized as distinct tokens (without the hyphen) in different languages."
   },
@@ -654,7 +654,7 @@
   "Poss": {
     "shortdef": "possessive",
     "Yes": {
-      "shortdef": "possessive",
+      "shortdef": "it is possessive",
       "content": "Note that there is no No value. If the word is not possessive, the\nPoss feature will just not be mentioned in the FEAT column. (Which\nmeans that empty value has the No meaning.)\n\nExamples\n\n* [en] my, your, his, mine, yours, whose\n* [cs] possessive determiners: můj, tvůj, jeho, její, náš, váš, svůj, čí, jejichž\n* [cs] possessive adjectives: otcův \"father's\", matčin \"mother's\""
     },
     "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Yes\">Yes</a></td>\n</tr>\n</table>\n\nBoolean feature of pronouns, determiners or adjectives.  It tells\nwhether the word is possessive.\n\nWhile many tagsets would have \"possessive\" as one of the various\npronoun types, this feature is intentionally separate from\nPronType, as it is orthogonal to pronominal types. Several of the\npronominal types can be optionally possessive, and adjectives can too."
@@ -674,7 +674,7 @@
   "Foreign": {
     "shortdef": "is this a foreign word?",
     "Yes": {
-      "shortdef": "foreign",
+      "shortdef": "it is foreign",
       "content": "Example: [en] He said I could \"dra åt helvete!\""
     },
     "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Yes\">Yes</a></td>\n</tr>\n</table>\n\nBoolean feature. Is this a foreign word? Not a loan word and not a\nforeign name but a genuinely foreign word appearing inside native\ntext, e.g. inside direct speech, titles of books etc. This feature\nwould apply either to the u-pos/X part of speech (unanalyzable token), or\nto other parts of speech if we know and are willing to annotate the\nclass to which the word belongs in its original language.\n\nNote: This feature is new in UD version 2. It was used as a language-specific addition in several treebanks in version 1 but it was not considered boolean and three values were foreseen. Since the additional values were used extremely rarely, they are not part of the universal definition of this feature in UD v2."
@@ -942,7 +942,7 @@
   "Abbr": {
     "shortdef": "abbreviation",
     "Yes": {
-      "shortdef": "abbreviation",
+      "shortdef": "it is abbreviation",
       "content": "Examples\n\n* [en] etc., J., UK"
     },
     "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Yes\">Yes</a></td>\n</tr>\n</table>\n\nBoolean feature. Is this an abbreviation? Note that the abbreviated\nword(s) typically belongs to a part of speech other than u-pos/X.\n\nNote: This feature is new in UD version 2. It was used as a language-specific addition in several treebanks in version 1."
@@ -982,7 +982,7 @@
   "PunctType": {
     "shortdef": "punctuation type",
     "Peri": {
-      "shortdef": "period",
+      "shortdef": "period at the end of sentence or clause",
       "content": "Examples\n\n* [es] ¿Por qué? -, se pregunta. “Why? – she wonders.”"
     },
     "Elip": {
@@ -998,7 +998,7 @@
       "content": "Examples\n\n* [es] ¡Fijese en la lectura racista de la Sirenita!. “Notice the racist reading of the Little Mermaid!”"
     },
     "Quot": {
-      "shortdef": "quotation mark",
+      "shortdef": "quotation marks (various sorts in various languages)",
       "content": "Examples\n\n* [es] El experto reconoció que estaba \"preocupado\" “The expert acknowledged that he was \"concerned\"”"
     },
     "Brck": {
