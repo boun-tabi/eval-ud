@@ -1,6 +1,4 @@
-import os, json, argparse, logging
-from templates import template2
-
+import os, json, argparse, logging, re
 from datetime import datetime
 
 now = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -10,27 +8,49 @@ logging.basicConfig(filename=os.path.join(os.path.dirname(__file__), 'eventual-e
 
 logger.info('Started at {now}'.format(now=now))
 
-template = template2
-
 script_path = os.path.abspath(__file__)
 with open(script_path, 'r', encoding='utf-8') as f:
     script_content = f.read()
 THIS_DIR = os.path.dirname(script_path)
 
-util_dir = os.path.join(THIS_DIR, '../util')
-data_dir = os.path.join(util_dir, 'tr-ud-docs')
-with open(os.path.join(data_dir, 'feat.json'), 'r', encoding='utf-8') as f:
-    tag_value_d = json.load(f)
-with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
-    pos_d = json.load(f)
-
 parser = argparse.ArgumentParser()
-parser.add_argument('-t8', '--treebank-2-8', type=str)
-parser.add_argument('-t11', '--treebank-2-11', type=str)
+parser.add_argument('-tb', '--treebank', type=str)
 parser.add_argument('-r', '--run-dir', type=str)
 parser.add_argument('-s', '--sents', type=str)
 parser.add_argument('-m', '--model', type=str, default='none')
 args = parser.parse_args()
+
+treebank = args.treebank
+
+language_pattern = 'UD_(.*?)-(.*?)/'
+language_search = re.search(language_pattern, treebank)
+if language_search:
+    language = language_search.group(1)
+else:
+    print('Language not found.')
+    exit()
+
+
+template="""The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech and morphological features given for each token.
+
+The sentence has ... tokens.
+
+...
+
+Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
+
+...
+
+Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
+
+{test_input}"""
+
+util_dir = os.path.join(THIS_DIR, '../util')
+data_dir = os.path.join(util_dir, 'tr-ud-docs') # ???
+with open(os.path.join(data_dir, 'feat.json'), 'r', encoding='utf-8') as f:
+    tag_value_d = json.load(f)
+with open(os.path.join(data_dir, 'pos.json'), 'r', encoding='utf-8') as f:
+    pos_d = json.load(f)
 
 if args.run_dir:
     run_dir = args.run_dir
@@ -38,7 +58,7 @@ if args.run_dir:
     with open(os.path.join(run_dir, 'md.json'), 'r', encoding='utf-8') as f:
         md = json.load(f)
     model = md['model']
-    t8, t11 = md['v2.8'], md['v2.11']
+    tb = md['tb']
     sent_ids = md['sent_ids']
     sentence_count = md['sentence_count']
 else:
@@ -53,15 +73,10 @@ else:
     os.makedirs(run_dir, exist_ok=True)
     with open(os.path.join(run_dir, 'script.py'), 'w', encoding='utf-8') as f:
         f.write(script_content)
-    if args.treebank_2_8:
-        t8 = args.treebank_2_8
+    if args.treebank:
+        tb = args.treebank
     else:
-        print('Please specify a treebank 2.8.')
-        exit()
-    if args.treebank_2_11:
-        t11 = args.treebank_2_11
-    else:
-        print('Please specify a treebank 2.11.')
+        print('Please specify a treebank.')
         exit()
     if args.sents:
         sents_path = args.sents
@@ -72,7 +87,7 @@ else:
         print('Please specify a sentence list.')
         exit()
     with open(os.path.join(run_dir, 'md.json'), 'w', encoding='utf-8') as f:
-        md = {'sentence_count': sentence_count, 'sent_ids': sent_ids, 'model': model, 'now': now, 'run_dir': run_dir, 'prompt': template, 'v2.8': t8, 'v2.11': t11}
+        md = {'sentence_count': sentence_count, 'sent_ids': sent_ids, 'model': model, 'now': now, 'run_dir': run_dir, 'prompt': template, 'treebank': tb}
         json.dump(md, f, ensure_ascii=False, indent=2)
 
 if model == 'openai_gpt-3.5-turbo':
@@ -139,20 +154,14 @@ elif model.startswith('poe'):
             output += partial.text
         return output
 
-v2_8 = '_'.join(os.path.dirname(t8).split('/')[-2:])
-v2_11 = '_'.join(os.path.dirname(t11).split('/')[-2:])
+tb_last2_join = '_'.join(os.path.dirname(tb).split('/')[-2:])
 
-with open(t8, 'r', encoding='utf-8') as f:
-    t8_data = json.load(f)
-with open(t11, 'r', encoding='utf-8') as f:
-    t11_data = json.load(f)
-table1_d, table2_d = {}, {}
-for example in t8_data:
+with open(tb, 'r', encoding='utf-8') as f:
+    tb_data = json.load(f)
+table1_d = {}
+for example in tb_data:
     sent_id, text, table = example['sent_id'], example['text'], example['table']
     table1_d[sent_id] = {'table': table, 'text': text}
-for example in t11_data:
-    sent_id, text, table = example['sent_id'], example['text'], example['table']
-    table2_d[sent_id] = {'table': table, 'text': text}
 
 number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th', 8: '8th', 9: '9th', 10: '10th',
             11: '11th', 12: '12th', 13: '13th', 14: '14th', 15: '15th', 16: '16th', 17: '17th', 18: '18th', 19: '19th',
@@ -172,39 +181,24 @@ number_d = {1: '1st', 2: '2nd', 3: '3rd', 4: '4th', 5: '5th', 6: '6th', 7: '7th'
             133: '133rd', 134: '134th', 135: '135th', 136: '136th', 137: '137th', 138: '138th', 139: '139th', 140: '140th',
             141: '141st', 142: '142nd', 143: '143rd', 144: '144th', 145: '145th', 146: '146th', 147: '147th', 148: '148th',
             149: '149th', 150: '150th', 151: '151st', 152: '152nd', 153: '153rd', 154: '154th', 155: '155th', 156: '156th'}
-v2_8_out, v2_11_out = os.path.join(run_dir, 'v2.8_output.json'), os.path.join(run_dir, 'v2.11_output.json')
-if os.path.exists(v2_8_out):
-    with open(v2_8_out, 'r', encoding='utf-8') as f:
-        v2_8_output = json.load(f)
+tb_out = os.path.join(run_dir, 'tb_output.json')
+if os.path.exists(tb_out):
+    with open(tb_out, 'r', encoding='utf-8') as f:
+        tb_output = json.load(f)
 else:
-    v2_8_output = []
-v2_8_done_sent_ids = [el['sent_id'] for el in v2_8_output]
-if os.path.exists(v2_11_out):
-    with open(v2_11_out, 'r', encoding='utf-8') as f:
-        v2_11_output = json.load(f)
-else:
-    v2_11_output = []
-v2_11_done_sent_ids = [el['sent_id'] for el in v2_11_output]
-noun_order = ['Person', 'Number', 'Person[psor]', 'Number[psor]', 'Case']
-verb_order = ['Voice', 'Mood','Polarity', 'Tense', 'Aspect', 'Person', 'Number']
+    tb_output = []
+tb_done_sent_ids = [el['sent_id'] for el in tb_output]
 run_done = True
-for run in [v2_8, v2_11]:
+for run in [tb]:
     print(run)
     asked_count = 0
-    if run == v2_8:
-        output_l = v2_8_output
-    elif run == v2_11:
-        output_l = v2_11_output
+    output_l = tb_output
     for i, sent_id in enumerate(sent_ids):
         output = ''
-        if run == v2_8 and sent_id in v2_8_done_sent_ids:
+        if run == tb and sent_id in tb_done_sent_ids:
             continue
-        elif run == v2_11 and sent_id in v2_11_done_sent_ids:
-            continue
-        if run == v2_8:
+        if run == tb:
             text, table = table1_d[sent_id]['text'], table1_d[sent_id]['table']
-        elif run == v2_11:
-            text, table = table2_d[sent_id]['text'], table2_d[sent_id]['table']
         lines = table.split('\n')
         token_count = int(lines[-1].split('\t')[0])
         word_order = 1
@@ -232,21 +226,6 @@ for run in [v2_8, v2_11]:
             else:
                 word_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[word_order], lemma=lemma_t)]
             word_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
-            if pos_t in ['NOUN', 'VERB']:
-                sorted_feat_l = []
-                feat_copy = feat_l.copy()
-                if pos_t == 'NOUN':
-                    order_l = noun_order
-                elif pos_t == 'VERB':
-                    order_l = verb_order
-                for feat_name in order_l:
-                    for feat in feat_l:
-                        tag, val = feat.split('=')
-                        if tag == feat_name:
-                            sorted_feat_l.append(feat)
-                            feat_copy.remove(feat)
-                sorted_feat_l.extend(feat_copy)
-                feat_l = sorted_feat_l
             for feat in feat_l:
                 psor_on = False
                 feat_name, feat_value = feat.split('=')
@@ -270,7 +249,7 @@ for run in [v2_8, v2_11]:
             prompt_l.append(', '.join(word_str_l) + '.')
             if not in_split:
                 word_order += 1
-        prompt = template.format(token_count=token_count, test_input='\n'.join(prompt_l))
+        prompt = template.format(language=language, token_count=token_count, test_input='\n'.join(prompt_l))
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model == 'openai_gpt-3.5-turbo':
             completion = openai.ChatCompletion.create(
