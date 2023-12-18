@@ -1,3 +1,83 @@
+def get_md_prompt(table, pos_d, feat_d, dep_d):
+    lines = table.split('\n')
+    prompt_l = []
+    split_count = 0
+    just_left = False
+    for line in lines:
+        fields = line.split('\t')
+        id_t, lemma_t, pos_t, feats_t, head_t, dep_t = fields[0], fields[2], fields[3], fields[5], fields[6], fields[7]
+        if split_count > 0:
+            prompt_l.append('\t- ' + id_t)
+            split_count -= 1
+            if split_count == 0:
+                just_left = True
+        else:
+            prompt_l.append('- ' + id_t)
+        if '-' in id_t:
+            split_count = 2
+            continue
+        feat_l = feats_t.split('|')
+        if len(feat_l) == 1 and feat_l[0] == '_':
+            feat_l = []
+        if split_count or just_left:
+            prompt_l.append('\t\t- lemma: _{lemma}_'.format(lemma=lemma_t))
+            prompt_l.append('\t\t- part of speech: {pos}'.format(pos=pos_d[pos_t]['shortdef']))
+        else:
+            prompt_l.append('\t- lemma: _{lemma}_'.format(lemma=lemma_t))
+            prompt_l.append('\t- part of speech: {pos}'.format(pos=pos_d[pos_t]['shortdef']))
+        if pos_t in ['NOUN', 'VERB']:
+            sorted_feat_l = []
+            feat_copy = feat_l.copy()
+            if pos_t == 'NOUN':
+                order_l = tr_noun_order
+            elif pos_t == 'VERB':
+                order_l = tr_verb_order
+            for feat_name in order_l:
+                for feat in feat_l:
+                    tag, val = feat.split('=')
+                    if tag == feat_name:
+                        sorted_feat_l.append(feat)
+                        feat_copy.remove(feat)
+            sorted_feat_l.extend(feat_copy)
+            feat_l = sorted_feat_l
+        for feat in feat_l:
+            psor_on = False
+            feat_name, feat_value = feat.split('=')
+            if feat_name.endswith('[psor]'):
+                feat_name = feat_name.replace('[psor]', '')
+                psor_on = True
+            if feat_name in feat_d:
+                feat_phrase = feat_d[feat_name]['shortdef']
+                if feat_value in feat_d[feat_name]:
+                    feat_value = feat_d[feat_name][feat_value]['shortdef']
+            else:
+                feat_phrase = feat_name
+            if psor_on:
+                if split_count or just_left:
+                    prompt_l.append('\t\t- possessor\'s {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
+                else:
+                    prompt_l.append('\t- possessor\'s {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
+            else:
+                if split_count or just_left:
+                    prompt_l.append('\t\t- {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
+                else:
+                    prompt_l.append('\t- {fn}: {fv}'.format(fn=feat_phrase, fv=feat_value))
+        if dep_t != '_':
+            dep_name = dep_d[dep_t]['shortdef']
+            if head_t == '0':
+                if split_count or just_left:
+                    prompt_l.append('\t\t- root token')
+                else:
+                    prompt_l.append('\t- root token')
+            else:
+                if split_count or just_left:
+                    prompt_l.append('\t\t- dependency relation "{dep}" to the {head} token'.format(dep=dep_name, head=number_d[int(head_t)]))
+                else:
+                    prompt_l.append('\t- dependency relation "{dep}" to the {head} token'.format(dep=dep_name, head=number_d[int(head_t)]))
+        just_left = False
+    prompt = '\n'.join(prompt_l)
+    return prompt
+
 def get_prompt(table, pos_d, feat_d, dep_d):
     lines = table.split('\n')
     ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
