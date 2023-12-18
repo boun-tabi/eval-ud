@@ -1,4 +1,15 @@
-def get_md_prompt(table, pos_d, feat_d, dep_d):
+def get_md_table_prompt(sent_id, table):
+    lines = table.split('\n')
+    output_str = f'| {sent_id} | LEMMA | POS | FEATS | HEAD | DEP |' + '\n'
+    output_str += '| --- | --- | --- | --- | --- | --- |' + '\n'
+    for line in lines:
+        fields = line.split('\t')
+        id_t, lemma_t, pos_t, feats_t, head_t, dep_t = fields[0], fields[2], fields[3], fields[5], fields[6], fields[7]
+        feats_t = feats_t.replace('|', '\|')
+        output_str += f'| {id_t} | {lemma_t} | {pos_t} | {feats_t} | {head_t} | {dep_t} |' + '\n'
+    return output_str
+
+def get_prev_md_prompt(table, pos_d, feat_d, dep_d):
     lines = table.split('\n')
     prompt_l = []
     split_count = 0
