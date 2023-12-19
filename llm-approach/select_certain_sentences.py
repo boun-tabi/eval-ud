@@ -7,6 +7,8 @@ def main():
     parser.add_argument('-i', '--sent-ids', type=str, required=True)
     parser.add_argument('-tb', '--treebank', type=str, required=True)
     parser.add_argument('-n', '--num_sentences', type=int, required=True)
+    parser.add_argument('-m', '--must-ids', type=str)
+    parser.add_argument('-f', '--filtered-ids', type=str)
     parser.add_argument('--note', type=str, default='')
     parser.add_argument('-s', '--seed', type=int, default=42)
     args = parser.parse_args()
@@ -20,6 +22,17 @@ def main():
 
     with open(sent_ids_path, 'r') as f:
         sent_ids = json.load(f)
+    
+    if args.must_ids:
+        must_ids_path = args.must_ids
+        with open(must_ids_path, 'r') as f:
+            must_ids = json.load(f)
+        
+    if args.filtered_ids:
+        filtered_ids_path = args.filtered_ids
+        with open(filtered_ids_path, 'r') as f:
+            filtered_ids = json.load(f)
+        sent_ids = [sent_id for sent_id in sent_ids if sent_id not in filtered_ids]
     
     with open(treebank_path, 'r', encoding='utf-8') as f:
         treebank = json.load(f)
@@ -50,14 +63,14 @@ def main():
     
     print('Number of possible sentences: {}'.format(len(possible_sent_ids)))
 
+    num_sentences -= len(must_ids)
     selected_sent_ids = random.sample(sent_ids, num_sentences)
+    selected_sent_ids.extend(must_ids)
     random.shuffle(selected_sent_ids)
 
     if args.note:
         sel_path = os.path.join(THIS_DIR, 'selected_certain_sents_{}.json'.format(args.note))
-        if os.path.exists(sel_path):
-            raise ValueError('File already exists: {}'.format(sel_path))
-        with open(sel_path, 'w') as f:
+        with open(sel_path, 'w', encoding='utf-8') as f:
             json.dump(selected_sent_ids, f, indent=4, ensure_ascii=False)
     else:
         with open(os.path.join(THIS_DIR, 'selected_sents.json'), 'w') as f:
