@@ -1,3 +1,21 @@
+def get_md_line_prompt(token_id, line, include_deprel=False, head_token=None):
+    if include_deprel and head_token:
+        output_str = f'| {token_id} | LEMMA | POS | FEATS | HEAD | DEPREL |' + '\n'
+        output_str += '| --- | --- | --- | --- | --- | --- |' + '\n'
+    else:
+        output_str = f'| {token_id} | LEMMA | POS | FEATS |' + '\n'
+        output_str += '| --- | --- | --- | --- |' + '\n'
+    fields = line.split('\t')
+    lemma_t, pos_t, feats_t = fields[2], fields[3], fields[5]
+    if include_deprel and head_token:
+        dep_t = fields[7]
+    feats_t = feats_t.replace('|', '\|')
+    if include_deprel and head_token:
+        output_str += f'|  | {lemma_t} | {pos_t} | {feats_t} | {head_token} | {dep_t} |' + '\n'
+    else:
+        output_str += f'|  | {lemma_t} | {pos_t} | {feats_t} |' + '\n'
+    return output_str
+
 def get_md_table_prompt(sent_id, table):
     lines = table.split('\n')
     output_str = f'| {sent_id} | LEMMA | POS | FEATS | HEAD | DEP |' + '\n'
