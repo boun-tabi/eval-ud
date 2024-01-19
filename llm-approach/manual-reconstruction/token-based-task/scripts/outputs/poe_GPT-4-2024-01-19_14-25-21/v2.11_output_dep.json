@@ -1,0 +1,227 @@
+[
+    {
+        "sent_id": "ess_1248",
+        "text": "BIRAKMAZ DEDİKLERİM ÇOKTAN TERKETTİ, GİTMEZ SANDIKLARIM MEÇHUL.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"bırak\", its part of speech is verb, its aspect is habitual aspect (new proposal), its number is singular number, its person is third person, its polarity is negative, its tense is present tense, its form of verb or deverbative is participle, and it's the root token.",
+        "token_id": "1",
+        "q_id": "1",
+        "form": "BIRAKMAZ",
+        "output": "bırakmayan"
+    },
+    {
+        "sent_id": "bio_433",
+        "text": "Berlin'de, her gün biraz daha fazla ısınmaya başladığım bu ülkeyi daha iyi tanıyabilmek amacıyla Türkler ve Almanlar arasındaki geleneksel bağları konu alan belgeleri araştırdım.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"tanı\", its part of speech is verb, its case is nominative / direct, its mood is potential, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"amaç\" with the dependency relation of possessive nominal modifier.",
+        "token_id": "14",
+        "q_id": "2",
+        "form": "tanıyabilmek",
+        "output": "tanıyabileceği"
+    },
+    {
+        "sent_id": "pop_950",
+        "text": "Günümüzde Ramazan ayında \"Mukabele\" olarak bilinen iki kişinin karşılıklı Kur'an okumaları, bu olaydan kaynaklanmış bulunmaktadır.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"\"\", its part of speech is punctuation, and it depends on the token of the form \"mukabele\" with the dependency relation of punctuation.",
+        "token_id": "6",
+        "q_id": "3",
+        "form": "\"",
+        "output": "\"\""
+    },
+    {
+        "sent_id": "news_291",
+        "text": "\"Kıbrıs çözülürse Türkiye'ye tarih verilmesine kimse itiraz edemeyecek\" görüşünü dile getiren Papandreu, \"Türkiye için çarpışıyoruz, ama Almanya'nın ne yapacağı önemli\" dedi.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"Almanya\", its part of speech is proper noun, its case is genitive, its number is singular number, its person is third person, and it depends on the token of the form \"yap\" with the dependency relation of nominal subject.",
+        "token_id": "23",
+        "q_id": "4",
+        "form": "Almanya'nın",
+        "output": "Almanya'nın"
+    },
+    {
+        "sent_id": "news_81",
+        "text": "Ancak bunu Türkiye'nin üyeliğini engelleyecek bir unsur olarak görmüyorum.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"ol\", its part of speech is auxiliary verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"unsur\" with the dependency relation of auxiliary.",
+        "token_id": "8",
+        "q_id": "5",
+        "form": "olarak",
+        "output": "olup"
+    },
+    {
+        "sent_id": "news_291",
+        "text": "\"Kıbrıs çözülürse Türkiye'ye tarih verilmesine kimse itiraz edemeyecek\" görüşünü dile getiren Papandreu, \"Türkiye için çarpışıyoruz, ama Almanya'nın ne yapacağı önemli\" dedi.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"Türkiye\", its part of speech is proper noun, its case is dative, its number is singular number, its person is third person, and it depends on the token of the form \"ver\" with the dependency relation of oblique argument or adjunct.",
+        "token_id": "5",
+        "q_id": "6",
+        "form": "Türkiye'ye",
+        "output": "Türkiye'ye"
+    },
+    {
+        "sent_id": "pop_85",
+        "text": "İnsanlar farkında bile olmadan, yaşamlarını sanal ortamda ve sanal insanlarla yaşamaya ve paylaşmaya başlarlar.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"yaşa\", its part of speech is verb, its case is dative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"başla\" with the dependency relation of direct object.",
+        "token_id": "12",
+        "q_id": "7",
+        "form": "yaşamaya",
+        "output": "yaşamaya"
+    },
+    {
+        "sent_id": "ins_1037",
+        "text": "Hem bir şeyler satmaya hem bir şeyler alıp gelmeye.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"gel\", its part of speech is verb, its case is dative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"sat\" with the dependency relation of conjunct.",
+        "token_id": "9",
+        "q_id": "8",
+        "form": "gelmeye",
+        "output": "geliş"
+    },
+    {
+        "sent_id": "ess_316",
+        "text": "Anlatmayı, uyandırmayı sürdürebilmek için, ayakta-diri kalmayı becerme zorunluluğunu, sorumluluğunu duymaktan...",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"uyan\", its part of speech is verb, its case is accusative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, its voice is causative voice, and it depends on the token of the form \"anlat\" with the dependency relation of conjunct.",
+        "token_id": "3",
+        "q_id": "9",
+        "form": "uyandırmayı",
+        "output": "uyandırma"
+    },
+    {
+        "sent_id": "ess_1924",
+        "text": "'Yalnız, neden yaşamak ıstırap verici bir şey?",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"neden\", its part of speech is adverb, and it depends on the token of the form \"şey\" with the dependency relation of adverbial modifier.",
+        "token_id": "4",
+        "q_id": "10",
+        "form": "neden",
+        "output": "nedenleri"
+    },
+    {
+        "sent_id": "pop_1447",
+        "text": "(Olmuyor ama, böyle de olmuyor aabi).",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"ol\", its part of speech is verb, its aspect is imperfect aspect, its number is singular number, its person is third person, its polarity is negative, its tense is present tense, and it depends on the token of the form \"ol\" with the dependency relation of conjunct.",
+        "token_id": "7",
+        "q_id": "11",
+        "form": "olmuyor",
+        "output": "değil"
+    },
+    {
+        "sent_id": "ins_1250",
+        "text": "- Çocuklar, gördüğünüz gibi dinleneceğimiz, oynayacağımız, yemeklerimizi yiyip, yarışmalar yapacağımız yere geldik.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"ye\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"yap\" with the dependency relation of adverbial clause modifier.",
+        "token_id": "11",
+        "q_id": "12",
+        "form": "yiyip",
+        "output": "yiyip"
+    },
+    {
+        "sent_id": "ess_1514",
+        "text": "Kimsenin saçı dökülmezse, o ürünü kullanmaya ne hacet!",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"kullan\", its part of speech is verb, its case is dative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"hacet\" with the dependency relation of nominal modifier.",
+        "token_id": "8",
+        "q_id": "13",
+        "form": "kullanmaya",
+        "output": "kullanılacak"
+    },
+    {
+        "sent_id": "pop_1447",
+        "text": "(Olmuyor ama, böyle de olmuyor aabi).",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"ol\", its part of speech is verb, its aspect is imperfect aspect, its number is singular number, its person is third person, its polarity is negative, its tense is present tense, and it's the root token.",
+        "token_id": "2",
+        "q_id": "14",
+        "form": "Olmuyor",
+        "output": "değil"
+    },
+    {
+        "sent_id": "news_1406",
+        "text": "Dönerken de soruyorsunuz...",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"de\", its part of speech is particle, and it depends on the token of the form \"dön\" with the dependency relation of emphasizing word, intensifier.",
+        "token_id": "3",
+        "q_id": "15",
+        "form": "de",
+        "output": "de"
+    },
+    {
+        "sent_id": "ess_329",
+        "text": "Birkaç yıldır, Kürt, Kıbrıs, Ermeni ve diğer azınlık sorunlarının, AB'ye girişin, İslamcı kökenli bir partinin iktidara gelişinin etkisiyle ve bunlara tepki olarak, milliyetçilik yükselmeye başladı.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"gel\", its part of speech is verb, its case is genitive, its number is singular number, its possessor's number is singular number, its person is third person, its possessor's person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"iktidar\" with the dependency relation of compound.",
+        "token_id": "23",
+        "q_id": "16",
+        "form": "gelişinin",
+        "output": "gelinin"
+    },
+    {
+        "sent_id": "news_291",
+        "text": "\"Kıbrıs çözülürse Türkiye'ye tarih verilmesine kimse itiraz edemeyecek\" görüşünü dile getiren Papandreu, \"Türkiye için çarpışıyoruz, ama Almanya'nın ne yapacağı önemli\" dedi.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"Kıbrıs\", its part of speech is proper noun, its case is nominative / direct, its number is singular number, its person is third person, and it depends on the token of the form \"çöz\" with the dependency relation of nominal subject.",
+        "token_id": "2",
+        "q_id": "17",
+        "form": "Kıbrıs",
+        "output": "Kıbrıs"
+    },
+    {
+        "sent_id": "ess_316",
+        "text": "Anlatmayı, uyandırmayı sürdürebilmek için, ayakta-diri kalmayı becerme zorunluluğunu, sorumluluğunu duymaktan...",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"kal\", its part of speech is verb, its case is accusative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"becer\" with the dependency relation of clausal complement.",
+        "token_id": "10",
+        "q_id": "18",
+        "form": "kalmayı",
+        "output": "kalmayı"
+    },
+    {
+        "sent_id": "ins_791",
+        "text": "- Şimdi de bol şekerli şerbet.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"şekerli\", its part of speech is adjective, and it depends on the token of the form \"Şerbet\" with the dependency relation of adjectival modifier.",
+        "token_id": "5",
+        "q_id": "19",
+        "form": "şekerli",
+        "output": "şekerli"
+    },
+    {
+        "sent_id": "ess_329",
+        "text": "Birkaç yıldır, Kürt, Kıbrıs, Ermeni ve diğer azınlık sorunlarının, AB'ye girişin, İslamcı kökenli bir partinin iktidara gelişinin etkisiyle ve bunlara tepki olarak, milliyetçilik yükselmeye başladı.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"yüksel\", its part of speech is verb, its case is dative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it depends on the token of the form \"başla\" with the dependency relation of clausal complement.",
+        "token_id": "31",
+        "q_id": "20",
+        "form": "yükselmeye",
+        "output": "yükselişe"
+    },
+    {
+        "sent_id": "ins_1037",
+        "text": "Hem bir şeyler satmaya hem bir şeyler alıp gelmeye.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"sat\", its part of speech is verb, its case is dative, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, and it's the root token.",
+        "token_id": "4",
+        "q_id": "21",
+        "form": "satmaya",
+        "output": "satış"
+    },
+    {
+        "sent_id": "bio_1401",
+        "text": "Ama on üç on dört yaşma geldiğimde, gene evdeki konuşmalardan, biliyordum bunların olduğunu.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"ki\", its part of speech is particle, and it depends on the token of the form \"ev\" with the dependency relation of derivational suffix.",
+        "token_id": "11",
+        "q_id": "22",
+        "form": "ki",
+        "output": "evdeki"
+    },
+    {
+        "sent_id": "news_1406",
+        "text": "Dönerken de soruyorsunuz...",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"dön\", its part of speech is verb, its aspect is habitual aspect (new proposal), its polarity is positive, affirmative, its tense is present tense, its form of verb or deverbative is participle, and it depends on the token of the form \"sor\" with the dependency relation of adverbial clause modifier.",
+        "token_id": "1",
+        "q_id": "23",
+        "form": "Döner",
+        "output": "dönen"
+    },
+    {
+        "sent_id": "ess_316",
+        "text": "Anlatmayı, uyandırmayı sürdürebilmek için, ayakta-diri kalmayı becerme zorunluluğunu, sorumluluğunu duymaktan...",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"sür\", its part of speech is verb, its case is nominative / direct, its mood is potential, its number is singular number, its person is third person, its polarity is positive, affirmative, its form of verb or deverbative is verbal noun, its voice is causative voice, and it depends on the token of the form \"duy\" with the dependency relation of adverbial clause modifier.",
+        "token_id": "4",
+        "q_id": "24",
+        "form": "sürdürebilmek",
+        "output": "sürdürülebilirlik"
+    },
+    {
+        "sent_id": "ess_1229",
+        "text": "O halde, \"kaybeden sanatçı\" açısından geçmişi yeniden günışığına sürmek, hiç de önemsiz değil.",
+        "prompt": "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\nThe token's lemma is \"git\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is converb, and it depends on the token of the form \"kal\" with the dependency relation of adverbial clause modifier.\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"gidip\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\nThe token's lemma is \"kaybet\", its part of speech is verb, its polarity is positive, affirmative, its form of verb or deverbative is participle, and it depends on the token of the form \"sanat\" with the dependency relation of clausal modifier of noun.",
+        "token_id": "5",
+        "q_id": "25",
+        "form": "kaybeden",
+        "output": "kaybeden"
+    }
+]
