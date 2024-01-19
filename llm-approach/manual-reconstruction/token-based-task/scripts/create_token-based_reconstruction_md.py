@@ -1,7 +1,5 @@
-import os, json, argparse, random, csv
+import os, json, argparse, csv
 from templates import get_md_line_prompt
-
-random.seed(0)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--tokens', type=str, required=True, help='The tokens.')
@@ -35,64 +33,62 @@ prompts_8, lines_8 = {}, []
 prompts_8_dep = {}
 prompts_11, lines_11 = {}, []
 prompts_11_dep = {}
-sent_id_l = list(tokens.keys())
 
-selections = {}
-for sent_id in sent_id_l:
-    token_l = tokens[sent_id]
-    selections[sent_id] = {'v2.8': token_l, 'v2.11': token_l}
-with open(os.path.join(THIS_DIR, 'token_selections_in_both_treebank_versions.json'), 'w', encoding='utf-8') as f:
-    json.dump(selections, f, indent=4, ensure_ascii=False)
-exit()
+normal_l = tokens['normal']
+dep_l = tokens['dep']
 
-random.shuffle(sent_id_l)
-for sent_id in sent_id_l:
-    table_8 = v2_8_tb[sent_id]['table']
-    for line in table_8.split('\n'):
-        fields = line.split('\t')
-        id_t = fields[0]
-        if id_t not in tokens[sent_id]:
-            continue
-        head_t = fields[6]
-        if head_t == '0':
-            head_token = 'ROOT'
-        for line2 in table_8.split('\n'):
-            fields2 = line2.split('\t')
-            id_t2 = fields2[0]
-            if id_t2 != head_t:
+for v in ['normal', 'dep']:
+    if v == 'normal':
+        l = normal_l
+    else:
+        l = dep_l
+    for el in l:
+        sent_id = el['sent_id']
+        id8, id11 = el['id8'], el['id11']
+        table_8 = v2_8_tb[sent_id]['table']
+        for line in table_8.split('\n'):
+            fields = line.split('\t')
+            id_t = fields[0]
+            if id_t != id8:
                 continue
-            head_token = fields2[1]
-            break
-        lines_8.append({'sent_id': sent_id, 'line': line, 'head_token': head_token, 'token_id': id_t, 'token_form': fields[1]})
-    table_11 = v2_11_tb[sent_id]['table']
-    for line in table_11.split('\n'):
-        fields = line.split('\t')
-        id_t = fields[0]
-        if id_t not in tokens[sent_id]:
-            continue
-        head_t = fields[6]
-        for line2 in table_11.split('\n'):
-            fields2 = line2.split('\t')
-            id_t2 = fields2[0]
-            if id_t2 != head_t:
+            head_t = fields[6]
+            if head_t == '0':
+                head_token = 'ROOT'
+            for line2 in table_8.split('\n'):
+                fields2 = line2.split('\t')
+                id_t2 = fields2[0]
+                if id_t2 != head_t:
+                    continue
+                head_token = fields2[1]
+                break
+            lines_8.append({'sent_id': sent_id, 'line': line, 'head_token': head_token, 'token_id': id_t, 'token_form': fields[1], 'v': v})
+        table_11 = v2_11_tb[sent_id]['table']
+        for line in table_11.split('\n'):
+            fields = line.split('\t')
+            id_t = fields[0]
+            if id_t != id11:
                 continue
-            head_token = fields2[1]
-            break
-        lines_11.append({'sent_id': sent_id, 'line': line, 'head_token': head_token, 'token_id': id_t, 'token_form': fields[1]})
+            head_t = fields[6]
+            for line2 in table_11.split('\n'):
+                fields2 = line2.split('\t')
+                id_t2 = fields2[0]
+                if id_t2 != head_t:
+                    continue
+                head_token = fields2[1]
+                break
+            lines_11.append({'sent_id': sent_id, 'line': line, 'head_token': head_token, 'token_id': id_t, 'token_form': fields[1], 'v': v})
 
-random.shuffle(lines_8)
-random.shuffle(lines_11)
 for i, line_t in enumerate(lines_8):
-    sent_id, line, head_token, token_id = line_t['sent_id'], line_t['line'], line_t['head_token'], line_t['token_id']
-    if i % 2 == 0:
+    sent_id, line, head_token, token_id, v = line_t['sent_id'], line_t['line'], line_t['head_token'], line_t['token_id'], line_t['v']
+    if v == 'normal':
         d = {'sent_id': sent_id, 'md_line': get_md_line_prompt(len(prompts_8)+1, line), 'token_id': token_id, 'token_form': line_t['token_form']}
         prompts_8[len(prompts_8)+1] = d
     else:
         d = {'sent_id': sent_id, 'md_line': get_md_line_prompt(len(prompts_8_dep)+1, line, True, head_token), 'token_id': token_id, 'token_form': line_t['token_form']}
         prompts_8_dep[len(prompts_8_dep)+1] = d
 for i, line_t in enumerate(lines_11):
-    sent_id, line, head_token, token_id = line_t['sent_id'], line_t['line'], line_t['head_token'], line_t['token_id']
-    if i % 2 == 0:
+    sent_id, line, head_token, token_id, v = line_t['sent_id'], line_t['line'], line_t['head_token'], line_t['token_id'], line_t['v']
+    if v == 'normal':
         d = {'sent_id': sent_id, 'md_line': get_md_line_prompt(len(prompts_11)+1, line), 'token_id': token_id, 'token_form': line_t['token_form']}
         prompts_11[len(prompts_11)+1] = d
     else:
@@ -109,21 +105,18 @@ prompt_11_dep_order = list(prompts_11_dep.keys())
 used_pos = set()
 used_feats = set()
 used_dep = set()
-for sent_id in tokens.keys():
-    table = v2_8_tb[sent_id]['table']
-    token_l = tokens[sent_id]
-    for row in table.split('\n'):
-        fields = row.split('\t')
-        id_t = fields[0]
-        if id_t not in token_l:
-            continue
-        pos = fields[3]
-        used_pos.add(pos)
-        feat_l = fields[5].split('|')
-        for feat in feat_l:
-            used_feats.add(feat)
-        dep = fields[7]
-        used_dep.add(dep)
+sent_ids = {el['sent_id'] for el in lines_8}
+for line in lines_8 + lines_11:
+    line_t = line['line']
+    fields = line_t.split('\t')
+    id_t = fields[0]
+    pos = fields[3]
+    used_pos.add(pos)
+    feat_l = fields[5].split('|')
+    for feat in feat_l:
+        used_feats.add(feat)
+    dep = fields[7]
+    used_dep.add(dep)
 
 # pos glossary
 output_str += '## POS Glossary' + '\n\n'

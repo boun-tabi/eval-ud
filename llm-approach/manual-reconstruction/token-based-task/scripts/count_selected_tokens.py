@@ -8,11 +8,13 @@ def main():
     with open(args.tokens, 'r') as f:
         tokens = json.load(f)
     
-    count = 0
+    count8, count11 = 0, 0
     for key in tokens:
-        count += len(tokens[key]['v2.8'])
+        count8 += len(tokens[key]['v2.8'])
+        count11 += len(tokens[key]['v2.11'])
     
-    print('Total token count: {}'.format(count))
+    print('Total token count 8: {}'.format(count8))
+    print('Total token count 11: {}'.format(count11))
 
 if __name__ == '__main__':
     main()
