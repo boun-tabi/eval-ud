@@ -1,14 +1,15 @@
 import argparse, os, re, json
+from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-t', '--treebank', type=str, required=True)
 args = parser.parse_args()
 
-THIS_DIR = os.path.dirname(os.path.abspath(__file__))
-HOME_DIR = os.path.expanduser('~')
-data_path = args.treebank
-tb_name = os.path.basename(data_path)
-version = 'v2.13'
+THIS_DIR = Path(__file__).parent
+HOME_DIR = Path.home()
+data_path = Path(args.treebank)
+tb_name = data_path.parent.name + '-' + data_path.name
+version = 'v2.11'
 data_files = [os.path.join(data_path, f) for f in os.listdir(data_path) if f.endswith('.conllu')]
 data_files = sorted(data_files)
 
