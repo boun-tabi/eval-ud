@@ -1,4 +1,4 @@
-import json, argparse, csv
+import json, argparse
 from pathlib import Path
 from spacy.lang.tr import Turkish
 from rapidfuzz import fuzz
