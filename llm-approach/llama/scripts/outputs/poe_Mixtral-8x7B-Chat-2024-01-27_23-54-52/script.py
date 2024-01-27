@@ -135,8 +135,7 @@ def main():
             output_l = v2_8_output
         elif run == v2_11:
             output_l = v2_11_output
-        for i, sent_id in enumerate(sents):
-            print(i, sent_id)
+        for sent_id in sents:
             output = ''
             if run == v2_8 and sent_id in v2_8_done_sents:
                 continue
