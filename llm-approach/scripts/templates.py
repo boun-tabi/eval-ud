@@ -1,3 +1,18 @@
+# created on 2023-12-12
+template_sentence_without_dep = """The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. Lemma "y" represents the overt copula in Turkish and surfaces as "i". 
+
+The sentence has {example_token} tokens.
+
+{example_input}
+
+Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
+
+{example_surface}
+
+Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
+
+{test_input}"""
+
 def get_md_line_prompt(token_id, line, include_deprel=False, head_token=None):
     if include_deprel and head_token:
         output_str = f'| {token_id} | LEMMA | POS | FEATS | HEAD | DEPREL |' + '\n'

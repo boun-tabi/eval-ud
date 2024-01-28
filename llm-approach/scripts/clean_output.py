@@ -21,6 +21,9 @@ def main():
     for el in output:
         sent_id, original_text, output_text = el['sent_id'], el['text'], el['output']
         if '\n\n' not in output_text:
+            score = fuzz.ratio(original_text, output_text)
+            if score < 50:
+                output_text = None
             new_output_d[sent_id] = {'original_text': original_text, 'output_text': output_text}
         else:
             output_split = output_text.split('\n\n')
@@ -30,7 +33,10 @@ def main():
                 if score > max_score:
                     max_score = score
                     max_split = split_t
-            new_output_d[sent_id] = {'original_text': original_text, 'output_text': max_split}
+            output_text = max_split
+            if max_score < 50:
+                output_text = None
+            new_output_d[sent_id] = {'original_text': original_text, 'output_text': output_text}
     
     with open(output_dir / (output_filename_without_extension + '-cleaned.json'), 'w', encoding='utf-8') as f:
         json.dump(new_output_d, f, ensure_ascii=False, indent=2)
