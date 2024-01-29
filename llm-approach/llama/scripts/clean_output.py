@@ -18,7 +18,7 @@ def main():
         output = json.load(f)
     
     note_pattern = re.compile(r'\(Note: .+\)$')
-    par_pattern = re.compile(r'\(.+\)$')
+    par_pattern = re.compile(r'(\(.+\))$')
     
     new_output_d = {}
     for el in output:
@@ -36,7 +36,13 @@ def main():
                 output_text = max_split
                 break
         output_text = note_pattern.sub('', output_text).strip()
-        output_text = par_pattern.sub('', output_text).strip()
+        par_search = par_pattern.search(output_text)
+        if par_search:
+            text_t = par_search.group(1)
+            if fuzz.ratio(original_text, text_t) < 50:
+                output_text = par_pattern.sub('', output_text).strip()
+        # if sent_id != 'pop_1447':
+            # output_text = par_pattern.sub('', output_text).strip()
         new_output_d[sent_id] = {'original_text': original_text, 'output_text': output_text}
     
     with open(output_dir / (output_filename_without_extension + '-cleaned.json'), 'w', encoding='utf-8') as f:
