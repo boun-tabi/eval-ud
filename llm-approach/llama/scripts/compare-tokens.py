@@ -120,17 +120,25 @@ def main():
         'comparison_d': 
             comparison_d, 
         'summary': {
-            'v2.8 llm ratio': 0, 
-            'v2.11 llm ratio': 0
+            'v2.8 llm ratios': {'per token': 0, 'per sentence': 0}, 
+            'v2.11 llm ratios': {'per token': 0, 'per sentence': 0}
         }
     }
+    v2_8_all_token_count, v2_8_correct_token_count = 0, 0
+    v2_11_all_token_count, v2_11_correct_token_count = 0, 0
     for sent_id, value in comparison_d.items():
         v2_8_llm_ratio = value['v2.8 llm']['correct'] / value['v2.8 llm']['all']
+        v2_8_correct_token_count += value['v2.8 llm']['correct']
+        v2_8_all_token_count += value['v2.8 llm']['all']
         v2_11_llm_ratio = value['v2.11 llm']['correct'] / value['v2.11 llm']['all']
-        analysis_d['summary']['v2.8 llm ratio'] += v2_8_llm_ratio
-        analysis_d['summary']['v2.11 llm ratio'] += v2_11_llm_ratio
-    analysis_d['summary']['v2.8 llm ratio'] /= len(comparison_d)
-    analysis_d['summary']['v2.11 llm ratio'] /= len(comparison_d)
+        v2_11_correct_token_count += value['v2.11 llm']['correct']
+        v2_11_all_token_count += value['v2.11 llm']['all']
+        analysis_d['summary']['v2.8 llm ratios']['per sentence'] += v2_8_llm_ratio
+        analysis_d['summary']['v2.11 llm ratios']['per sentence'] += v2_11_llm_ratio
+    analysis_d['summary']['v2.8 llm ratios']['per token'] = v2_8_correct_token_count / v2_8_all_token_count
+    analysis_d['summary']['v2.11 llm ratios']['per token'] = v2_11_correct_token_count / v2_11_all_token_count
+    analysis_d['summary']['v2.8 llm ratios']['per sentence'] /= len(comparison_d)
+    analysis_d['summary']['v2.11 llm ratios']['per sentence'] /= len(comparison_d)
 
     path = dir / 'comparison-tokens.json'
     with open(path, 'w', encoding='utf-8') as f:
