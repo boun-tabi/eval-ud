@@ -55,31 +55,15 @@ def main():
             accuracies[version2]['llm'].append(1)
         else:
             accuracies[version2]['llm'].append(0)
-        v1_person1_construction = constructions[person1][version1][sent_id][v1_token_id]
-        outputs[q_id][version1][person1] = v1_person1_construction
-        if v1_person1_construction.lower() == original_form.lower():
-            accuracies[version1]['manual'][person1].append(1)
-        else:
-            accuracies[version1]['manual'][person1].append(0)
-        v1_person2_construction = constructions[person2][version1][sent_id][v1_token_id]
-        outputs[q_id][version1][person2] = v1_person2_construction
-        if v1_person2_construction.lower() == original_form.lower():
-            accuracies[version1]['manual'][person2].append(1)
-        else:
-            accuracies[version1]['manual'][person2].append(0)
-        v2_person1_construction = constructions[person1][version2][sent_id][v2_token_id]
-        outputs[q_id][version2][person1] = v2_person1_construction
-        if v2_person1_construction.lower() == original_form.lower():
-            accuracies[version2]['manual'][person1].append(1)
-        else:
-            accuracies[version2]['manual'][person1].append(0)
-        v2_person2_construction = constructions[person2][version2][sent_id][v2_token_id]
-        outputs[q_id][version2][person2] = v2_person2_construction
-        if v2_person2_construction.lower() == original_form.lower():
-            accuracies[version2]['manual'][person2].append(1)
-        else:
-            accuracies[version2]['manual'][person2].append(0)
-    
+        for person in [person1, person2]:
+            for version in [version1, version2]:
+                person_construction = constructions[person][version][sent_id][v1_token_id]
+                outputs[q_id][version][person] = person_construction
+                if person_construction.lower() == original_form.lower():
+                    accuracies[version]['manual'][person].append(1)
+                else:
+                    accuracies[version]['manual'][person].append(0)
+
     with open(llm_dir / 'outputs.json', 'w', encoding='utf-8') as f:
         json.dump(outputs, f, ensure_ascii=False, indent=2)
 
