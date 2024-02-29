@@ -1,0 +1,440 @@
+{
+    "llm": {
+        "best": [
+            {
+                "sent_id": "pop_1612",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Soğanı yemeklik doğrayın.",
+                "v2.11": "Soğanı yemeklik doğrayın."
+            },
+            {
+                "sent_id": "news_1273",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Canımın istediği şarkıları söylüyorum.",
+                "v2.8": "Canımın istediği şarkıları söylüyorum."
+            },
+            {
+                "sent_id": "news_1273",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Canımın istediği şarkıları söylüyorum.",
+                "v2.11": "Canımın istediği şarkıları söylüyorum."
+            },
+            {
+                "sent_id": "news_1115",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Mahkemede büyük bir olasılıkla yürütmeyi durdurma kararı alacak.",
+                "v2.11": "Mahkemede büyük bir olasılıkla yürütmeyi durdurma kararı alacak."
+            },
+            {
+                "sent_id": "ins_791",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "- Şimdi de bol şekerli şerbet.",
+                "v2.8": "- Şimdi de bol şekerli şerbet."
+            },
+            {
+                "sent_id": "ins_791",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "- Şimdi de bol şekerli şerbet.",
+                "v2.11": "- Şimdi de bol şekerli şerbet."
+            },
+            {
+                "sent_id": "bio_390",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Yarın işim çok.",
+                "v2.8": "Yarın işim çok."
+            },
+            {
+                "sent_id": "bio_390",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Yarın işim çok.",
+                "v2.11": "Yarın işim çok."
+            },
+            {
+                "sent_id": "bio_1990",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Bizim Şefik dert dağıtım merkezi sanki.",
+                "v2.11": "Bizim Şefik dert dağıtım merkezi sanki."
+            },
+            {
+                "sent_id": "ess_624",
+                "version": "v2.11",
+                "accuracy": 0.9285714285714286,
+                "original_text": "Ben yani nerdeyse bir Christian Scientist üyesi kadar \"düşkün\" addedilebilirim doktorlara.",
+                "v2.11": "Ben yani neredeyse bir Christian Scientist üyesi kadar \"düşkün\" addedilebilirim doktorlara."
+            }
+        ],
+        "worst": [
+            {
+                "sent_id": "news_1295",
+                "version": "v2.8",
+                "accuracy": 0.4444444444444444,
+                "original_text": "Dünyanın hiçbir yerinde kayıt dışı 0 değildir.\"",
+                "v2.8": "Dünyanın hiçbir yerinde kayıt dışı değil."
+            },
+            {
+                "sent_id": "news_1295",
+                "version": "v2.11",
+                "accuracy": 0.4444444444444444,
+                "original_text": "Dünyanın hiçbir yerinde kayıt dışı 0 değildir.\"",
+                "v2.11": "Dünyanın hiçbir yerinde kayıt dışı değil."
+            },
+            {
+                "sent_id": "ess_539",
+                "version": "v2.11",
+                "accuracy": 0.4444444444444444,
+                "original_text": "Çocuğunuz, oturacak bir okul sırasına sahip olamayabilir...",
+                "v2.11": "Çocuk, oturacağı okulun sırasına sahip olamıyor..."
+            },
+            {
+                "sent_id": "bio_1401",
+                "version": "v2.8",
+                "accuracy": 0.4375,
+                "original_text": "Ama on üç on dört yaşma geldiğimde, gene evdeki konuşmalardan, biliyordum bunların olduğunu.",
+                "v2.8": "Ama on üç on dört yaşına gelmişken, genel evlerden konuşan bu olayı biliyordum."
+            },
+            {
+                "sent_id": "ess_75",
+                "version": "v2.11",
+                "accuracy": 0.35294117647058826,
+                "original_text": "O halde, insanın her bekleyişini ve her mühlet verişini sabır olarak değerlendirmenin mümkün olmadığı anlaşılıyor.",
+                "v2.11": "O halde, insanın her bekleme ve her mühlet verme sabrı değerlendirilmesi mümkün olmamıştır."
+            },
+            {
+                "sent_id": "ins_414",
+                "version": "v2.8",
+                "accuracy": 0.3333333333333333,
+                "original_text": "Gülerken düşündürür.",
+                "v2.8": "Güldürsün düşünsün."
+            },
+            {
+                "sent_id": "ins_414",
+                "version": "v2.11",
+                "accuracy": 0.3333333333333333,
+                "original_text": "Gülerken düşündürür.",
+                "v2.11": "Gülüyor düşündürüyor."
+            },
+            {
+                "sent_id": "news_1727",
+                "version": "v2.11",
+                "accuracy": 0.2857142857142857,
+                "original_text": "Kurucu Başkan İsmail Alptekin, 14 Mayıs \"ilk adım\" toplantısında \"Emaneti bir başka abiye teslim ediyorum.\" diyerek genel başkanlığı Recai Kutan'a devretti.",
+                "v2.11": "Kur başkanı İsmail Alptekin, 14 Mayıs'ta \"ilk adım\" toplantısında, emanet bir başka abiye teslim etmekte de genel başkanlık Recai Kutan'a devretti."
+            },
+            {
+                "sent_id": "news_697",
+                "version": "v2.8",
+                "accuracy": 0.25,
+                "original_text": "Muhalefet partisi lideri bu savcının yaptığını 'sivil darbe' olarak niteledi.",
+                "v2.8": "Muhalefet partisinin lideri bu savcının yaptığı 'sivil darbe'yi nitelendirdi."
+            },
+            {
+                "sent_id": "news_1406",
+                "version": "v2.11",
+                "accuracy": 0.25,
+                "original_text": "Dönerken de soruyorsunuz...",
+                "v2.11": "Dönüyor de sorun."
+            }
+        ]
+    },
+    "Akif": {
+        "best": [
+            {
+                "sent_id": "pop_847",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özelliklerini koruyordu.",
+                "v2.8": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özellikleri korudu."
+            },
+            {
+                "sent_id": "pop_847",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özelliklerini koruyordu.",
+                "v2.11": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özellikleri korudu."
+            },
+            {
+                "sent_id": "pop_62",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "\"İstanbul aslında deprem kuşağının tam göbeğindeymiş.",
+                "v2.11": "\"İstanbul aslında deprem kuşağının tam göbeğindeydi.\""
+            },
+            {
+                "sent_id": "pop_1585",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "* Açıklanamayan vajinal kanama durumunda.",
+                "v2.11": "*Açıklanmayan vajinal kanama durumunda."
+            },
+            {
+                "sent_id": "news_697",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Muhalefet partisi lideri bu savcının yaptığını 'sivil darbe' olarak niteledi.",
+                "v2.8": "Muhalefet partisinin lideri bu savcının yaptığı 'sivil darbe'yi nitelendirdi."
+            },
+            {
+                "sent_id": "news_1115",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Mahkemede büyük bir olasılıkla yürütmeyi durdurma kararı alacak.",
+                "v2.8": "Mahkemede büyük bir olasılıkla yürütülen duruşmaya karar alacak."
+            },
+            {
+                "sent_id": "news_1043",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Kapatma kararı alınmaması sonrası AKP'lilerin sevinçleri TBMM Genel Kurul salonuna da yansıdı.",
+                "v2.11": "Kapatma kararı alınmadan sonra AKP'nin sevinçleri TBMM genel kurul salonunda da yansıdı."
+            },
+            {
+                "sent_id": "ins_920",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Ben de bu erdemin yüksek bir derecesine sahibim.",
+                "v2.8": "Bende bu erdemin yüksek bir derecesine sahipim."
+            },
+            {
+                "sent_id": "ins_920",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Ben de bu erdemin yüksek bir derecesine sahibim.",
+                "v2.11": "Bende bu erdemin yüksek bir derecesine sahip."
+            },
+            {
+                "sent_id": "ins_274",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "- Aynı olay Amerika'da da olmuş.",
+                "v2.11": "-Aynı olay Amerika'da da oldu."
+            }
+        ],
+        "worst": [
+            {
+                "sent_id": "ins_414",
+                "version": "v2.11",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Gülerken düşündürür.",
+                "v2.11": "Gülüyor düşündürüyor."
+            },
+            {
+                "sent_id": "bio_889",
+                "version": "v2.8",
+                "accuracy": 0.625,
+                "original_text": "Sirenlerini açtılar ve anons etmeye devam ettiler.",
+                "v2.8": "Sirenleri açtılar ve anonsu devam ettirdiler."
+            },
+            {
+                "sent_id": "pop_1612",
+                "version": "v2.8",
+                "accuracy": 0.5,
+                "original_text": "Soğanı yemeklik doğrayın.",
+                "v2.8": "Soğanı yemek için doğrayın."
+            },
+            {
+                "sent_id": "news_1406",
+                "version": "v2.8",
+                "accuracy": 0.5,
+                "original_text": "Dönerken de soruyorsunuz...",
+                "v2.8": "Dönerken de sorun..."
+            },
+            {
+                "sent_id": "news_1406",
+                "version": "v2.11",
+                "accuracy": 0.5,
+                "original_text": "Dönerken de soruyorsunuz...",
+                "v2.11": "Dönüyor de sorun."
+            },
+            {
+                "sent_id": "ins_887",
+                "version": "v2.8",
+                "accuracy": 0.5,
+                "original_text": "Unutma lütfen bunları!",
+                "v2.8": "Unutulmasın bu lütfen!"
+            },
+            {
+                "sent_id": "bio_1386",
+                "version": "v2.8",
+                "accuracy": 0.5,
+                "original_text": "Mücadelem süresince coşkum bu korkuma eşlik etti.",
+                "v2.8": "Mücadelem süresince coşkum bu korkuya eşleşti."
+            },
+            {
+                "sent_id": "ess_624",
+                "version": "v2.8",
+                "accuracy": 0.42857142857142855,
+                "original_text": "Ben yani nerdeyse bir Christian Scientist üyesi kadar \"düşkün\" addedilebilirim doktorlara.",
+                "v2.8": "Ben yani neredeyse bir Christian Scientist üyesi kadar \"düşkün\" adedet doktorlara."
+            },
+            {
+                "sent_id": "news_1273",
+                "version": "v2.8",
+                "accuracy": 0.4,
+                "original_text": "Canımın istediği şarkıları söylüyorum.",
+                "v2.8": "Canımın istediği şarkıları söylüyorum."
+            },
+            {
+                "sent_id": "ins_414",
+                "version": "v2.8",
+                "accuracy": 0.3333333333333333,
+                "original_text": "Gülerken düşündürür.",
+                "v2.8": "Güldürsün düşünsün."
+            }
+        ]
+    },
+    "Tarık": {
+        "best": [
+            {
+                "sent_id": "pop_929",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "Grönland ve Antartika'nın erimesi sonucu sular altında kalan İstanbul'dan kurtulanların barındığı Bolu dağlarındaki balıkçılar lüfer akınından çok mutlu oldular.",
+                "v2.8": "Grönland ve Antartika'nın eriyen sonuçları İstanbul'dan kurtulan suların altında kalan İstanbul'un Bolu dağlarında barınan Balıkların lüferlerden akınından çok mutlu oldular."
+            },
+            {
+                "sent_id": "pop_847",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özelliklerini koruyordu.",
+                "v2.11": "Puşkin'in satırlarına yansıyan Erzurum, 150 yıl sonra da aynı karakteristik özellikleri korudu."
+            },
+            {
+                "sent_id": "pop_802",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Ne yapacakları önceden pek kestirilemez.",
+                "v2.11": "Ne yapacaklarından önce pek kesilmez."
+            },
+            {
+                "sent_id": "pop_795",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Aşağı yukarı böyle bir şey; detayları atlamış olabilirim zira çok uzun yıllardır bu faaliyette bulunmuyorum.",
+                "v2.11": "Aşağı yukarı böyle bir şey; detayları atladım olabilirim zira çok uzun yıllar bu faaliyette bulunmadım."
+            },
+            {
+                "sent_id": "pop_62",
+                "version": "v2.8",
+                "accuracy": 1.0,
+                "original_text": "\"İstanbul aslında deprem kuşağının tam göbeğindeymiş.",
+                "v2.8": "İstanbul aslında deprem kuşağının tam göbeğindeydi."
+            },
+            {
+                "sent_id": "pop_62",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "\"İstanbul aslında deprem kuşağının tam göbeğindeymiş.",
+                "v2.11": "\"İstanbul aslında deprem kuşağının tam göbeğindeydi.\""
+            },
+            {
+                "sent_id": "pop_1612",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Soğanı yemeklik doğrayın.",
+                "v2.11": "Soğanı yemeklik doğrayın."
+            },
+            {
+                "sent_id": "pop_1585",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "* Açıklanamayan vajinal kanama durumunda.",
+                "v2.11": "*Açıklanmayan vajinal kanama durumunda."
+            },
+            {
+                "sent_id": "pop_1193",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Bir de, sadece buraya özel dedikleri bir içki ikram ettiler.",
+                "v2.11": "Bir de, sadece buraya özeldeğil bir içki ikram ettiler."
+            },
+            {
+                "sent_id": "news_81",
+                "version": "v2.11",
+                "accuracy": 1.0,
+                "original_text": "Ancak bunu Türkiye'nin üyeliğini engelleyecek bir unsur olarak görmüyorum.",
+                "v2.11": "Ancak bu Türkiye'nin üyeliğini engelleyecek bir unsur olmuyor."
+            }
+        ],
+        "worst": [
+            {
+                "sent_id": "news_1690",
+                "version": "v2.11",
+                "accuracy": 0.6923076923076923,
+                "original_text": "Bulak, Avrupa Şampiyonu gibi teknik ve fizik özellikleri birleştirmek istediklerini söyledi.",
+                "v2.11": "Bulak, Avrupa şampiyonu gibi teknik ve fizik özellikleri birleştiren istemiş söyledi."
+            },
+            {
+                "sent_id": "pop_1579",
+                "version": "v2.11",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Sonra, kendinizi anlatın birbirinize.",
+                "v2.11": "Sonra, kendi hikayelerinizi birbirinize anlatın."
+            },
+            {
+                "sent_id": "news_1295",
+                "version": "v2.8",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Dünyanın hiçbir yerinde kayıt dışı 0 değildir.\"",
+                "v2.8": "Dünyanın hiçbir yerinde kayıt dışı değil."
+            },
+            {
+                "sent_id": "news_1295",
+                "version": "v2.11",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Dünyanın hiçbir yerinde kayıt dışı 0 değildir.\"",
+                "v2.11": "Dünyanın hiçbir yerinde kayıt dışı değil."
+            },
+            {
+                "sent_id": "ins_414",
+                "version": "v2.8",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Gülerken düşündürür.",
+                "v2.8": "Güldürsün düşünsün."
+            },
+            {
+                "sent_id": "ins_414",
+                "version": "v2.11",
+                "accuracy": 0.6666666666666666,
+                "original_text": "Gülerken düşündürür.",
+                "v2.11": "Gülüyor düşündürüyor."
+            },
+            {
+                "sent_id": "news_1406",
+                "version": "v2.8",
+                "accuracy": 0.5,
+                "original_text": "Dönerken de soruyorsunuz...",
+                "v2.8": "Dönerken de sorun..."
+            },
+            {
+                "sent_id": "news_1406",
+                "version": "v2.11",
+                "accuracy": 0.5,
+                "original_text": "Dönerken de soruyorsunuz...",
+                "v2.11": "Dönüyor de sorun."
+            },
+            {
+                "sent_id": "pop_1579",
+                "version": "v2.8",
+                "accuracy": 0.3333333333333333,
+                "original_text": "Sonra, kendinizi anlatın birbirinize.",
+                "v2.8": "Sonra, kendi anlatın birbirinize."
+            },
+            {
+                "sent_id": "pop_1193",
+                "version": "v2.8",
+                "accuracy": 0.25,
+                "original_text": "Bir de, sadece buraya özel dedikleri bir içki ikram ettiler.",
+                "v2.8": "Bir de, sadece buraya özelde bir içki ikram ettiler."
+            }
+        ]
+    }
+}
