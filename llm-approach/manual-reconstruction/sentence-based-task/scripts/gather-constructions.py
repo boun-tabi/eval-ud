@@ -41,10 +41,25 @@ def main():
         person, version = md[task_number]['person'], md[task_number]['version']
         sheet_name = task_id_match.group(2)
         if sheet_name in task_names:
+            if order == '1':
+                with open(sheet, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    to_add = False
+                    new_versions = set()
+                    for row in reader:
+                        version_t = row['Version']
+                        if version_t not in versions:
+                            to_add = True
+                        new_versions.add(version_t)
+                    if to_add:
+                        constructions = {person: {version: {} for version in new_versions} for person in people}
+                        versions = new_versions
             with open(sheet, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for row in reader:
                     sent_id, text = row['Sentence ID'], row['Text']
+                    if order == '1':
+                        version = row['Version']
                     constructions[person][version][sent_id] = text
     with open(sheet_dir / f'{args.type}-{args.order}.json', 'w', encoding='utf-8') as f:
         json.dump(constructions, f, ensure_ascii=False, indent=2)
