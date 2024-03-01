@@ -57,7 +57,10 @@ def main():
             accuracies[version2]['llm'].append(0)
         for person in [person1, person2]:
             for version in [version1, version2]:
-                person_construction = constructions[person][version][sent_id][v1_token_id]
+                if version == version1:
+                    person_construction = constructions[person][version][sent_id][v1_token_id]
+                else:
+                    person_construction = constructions[person][version][sent_id][v2_token_id]
                 outputs[q_id][version][person] = person_construction
                 if person_construction.lower() == original_form.lower():
                     accuracies[version]['manual'][person].append(1)
