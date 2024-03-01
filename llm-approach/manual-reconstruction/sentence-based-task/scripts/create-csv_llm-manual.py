@@ -1,5 +1,7 @@
-import argparse, csv, json, re
+import argparse, csv, json
 from pathlib import Path
+from spacy.lang.tr import Turkish
+from get_best_worst import get_accuracy
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -37,6 +39,9 @@ def main():
     person1 = args.person1
     person2 = args.person2
 
+    nlp = Turkish()
+    tokenizer = nlp.tokenizer
+
     out_d = {sent_id: {'original': '', person1: {version1: '', version2: ''}, person2: {version1: '', version2: ''}, 'llm': {version1: '', version2: ''}} for sent_id in constructions[person1][version1].keys()}
     for sent_id in out_d.keys():
         out_d[sent_id]['original'] = v1_data[sent_id]['original_text']
@@ -54,9 +59,23 @@ def main():
 
     with open(filepath, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['sent_id', 'original', '{}_{}'.format(person1, version1), '{}_{}'.format(person1, version2), '{}_{}'.format(person2, version1), '{}_{}'.format(person2, version2), 'llm_{}'.format(version1), 'llm_{}'.format(version2)])
+        writer.writerow(['sent_id', 'original', '{}_{}'.format(person1, version1), '{}_{}'.format(person1, version2), '{}_{}'.format(person2, version1), '{}_{}'.format(person2, version2), 'llm_{}'.format(version1), 'llm_{}'.format(version2), 'accuracy_{}_{}'.format(person1, version1), 'accuracy_{}_{}'.format(person1, version2), 'accuracy_{}_{}'.format(person2, version1), 'accuracy_{}_{}'.format(person2, version2), 'accuracy_llm_{}'.format(version1), 'accuracy_llm_{}'.format(version2)])
         for sent_id in out_d.keys():
-            writer.writerow([sent_id, out_d[sent_id]['original'], out_d[sent_id][person1][version1], out_d[sent_id][person1][version2], out_d[sent_id][person2][version1], out_d[sent_id][person2][version2], out_d[sent_id]['llm'][version1], out_d[sent_id]['llm'][version2]])
+            p1_v1_correct, p1_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version1], tokenizer)
+            p1_v1_accuracy = '{:.2f}'.format(p1_v1_correct / p1_v1_all * 100)
+            p1_v2_correct, p1_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version2], tokenizer)
+            p1_v2_accuracy = '{:.2f}'.format(p1_v2_correct / p1_v2_all * 100)
+            p2_v1_correct, p2_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version1], tokenizer)
+            p2_v1_accuracy = '{:.2f}'.format(p2_v1_correct / p2_v1_all * 100)
+            p2_v2_correct, p2_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version2], tokenizer)
+            p2_v2_accuracy = '{:.2f}'.format(p2_v2_correct / p2_v2_all * 100)
+            llm_v1_correct, llm_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version1], tokenizer)
+            llm_v1_accuracy = '{:.2f}'.format(llm_v1_correct / llm_v1_all * 100)
+            llm_v2_correct, llm_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version2], tokenizer)
+            llm_v2_accuracy = '{:.2f}'.format(llm_v2_correct / llm_v2_all * 100)
+
+            writer.writerow([sent_id, out_d[sent_id]['original'], out_d[sent_id][person1][version1], out_d[sent_id][person1][version2], out_d[sent_id][person2][version1], out_d[sent_id][person2][version2], out_d[sent_id]['llm'][version1], out_d[sent_id]['llm'][version2],
+                                p1_v1_accuracy, p1_v2_accuracy, p2_v1_accuracy, p2_v2_accuracy, llm_v1_accuracy, llm_v2_accuracy])
 
 if __name__ == '__main__':
     main()
