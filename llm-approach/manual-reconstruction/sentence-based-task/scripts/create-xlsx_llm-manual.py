@@ -108,27 +108,27 @@ def main():
             worksheet.write(2+i, 7, feats_t)
             worksheet.write(2+i, 8, head_t)
             worksheet.write(2+i, 9, deprel_t)
-        cont_idx = 4+i
+        cont_idx = 3+i
 
         worksheet.merge_range(cont_idx+1, 3, cont_idx+1, 9, 'Annotations - {}'.format(version2), bold)
-        worksheet.write(cont_idx+1, 3, 'ID', bold)
-        worksheet.write(cont_idx+1, 4, 'Form', bold)
-        worksheet.write(cont_idx+1, 5, 'Lemma', bold)
-        worksheet.write(cont_idx+1, 6, 'UPOS', bold)
-        worksheet.write(cont_idx+1, 7, 'Feats', bold)
-        worksheet.write(cont_idx+1, 8, 'Head', bold)
-        worksheet.write(cont_idx+1, 9, 'Deprel', bold)
+        worksheet.write(cont_idx+2, 3, 'ID', bold)
+        worksheet.write(cont_idx+2, 4, 'Form', bold)
+        worksheet.write(cont_idx+2, 5, 'Lemma', bold)
+        worksheet.write(cont_idx+2, 6, 'UPOS', bold)
+        worksheet.write(cont_idx+2, 7, 'Feats', bold)
+        worksheet.write(cont_idx+2, 8, 'Head', bold)
+        worksheet.write(cont_idx+2, 9, 'Deprel', bold)
 
         for i, row in enumerate(v2_table.split('\n')):
             fields = row.split('\t')
             id_t, form_t, lemma_t, upos_t, feats_t, head_t, deprel_t = fields[0], fields[1], fields[2], fields[3], fields[5], fields[6], fields[7]
-            worksheet.write(cont_idx+2+i, 3, id_t)
-            worksheet.write(cont_idx+2+i, 4, form_t)
-            worksheet.write(cont_idx+2+i, 5, lemma_t)
-            worksheet.write(cont_idx+2+i, 6, upos_t)
-            worksheet.write(cont_idx+2+i, 7, feats_t)
-            worksheet.write(cont_idx+2+i, 8, head_t)
-            worksheet.write(cont_idx+2+i, 9, deprel_t)
+            worksheet.write(cont_idx+3+i, 3, id_t)
+            worksheet.write(cont_idx+3+i, 4, form_t)
+            worksheet.write(cont_idx+3+i, 5, lemma_t)
+            worksheet.write(cont_idx+3+i, 6, upos_t)
+            worksheet.write(cont_idx+3+i, 7, feats_t)
+            worksheet.write(cont_idx+3+i, 8, head_t)
+            worksheet.write(cont_idx+3+i, 9, deprel_t)
         
         worksheet.autofit()
 
