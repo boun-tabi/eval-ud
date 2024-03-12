@@ -7,6 +7,12 @@
         python3 llm-approach/finnish-run/scripts/run-llm-experiment.py -tb llm-approach/finnish-run/data/treebank.json -s llm-approach/finnish-run/data/selected_sents.json -m poe_GPT-4 -d util/ud-docs/data/ -k llm-approach/keys/poe.json -lp llm-approach/data/langs.json -l fi
     ```
 
+    - The experiment continues even if some prompts fail. After all the sentences are processed, the script runs itself again till all the sentences are processed successfully. In case one stops the script manually, the script can be run again to continue the experiment:
+
+        ```bash
+            python3 llm-approach/finnish-run/scripts/run-llm-experiment.py -r llm-approach/finnish-run/scripts/outputs/SPECIFIC_RUN_DIR
+        ```
+
 3. Clean the output by the command below:
 
     ```bash

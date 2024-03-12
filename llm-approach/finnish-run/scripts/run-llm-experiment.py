@@ -1,8 +1,7 @@
 from datetime import datetime
 import os, json, argparse, logging
 from pathlib import Path
-from templates import get_sentence_prompt
-from templates import template_sentence_with_dep
+from templates import get_sentence_prompt, template_sentence_with_dep
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -134,7 +133,7 @@ def main():
         if sent_id in tb_done_sents:
             continue
         text, table = table_d[sent_id]['text'], table_d[sent_id]['table']
-        prompt = get_sentence_prompt(template_sentence_with_dep, language, table, pos_d, feat_d, dep_d)
+        prompt = get_sentence_prompt(template_sentence_with_dep, langs[language], table, pos_d, feat_d, dep_d)
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model.startswith('poe'):
             try:

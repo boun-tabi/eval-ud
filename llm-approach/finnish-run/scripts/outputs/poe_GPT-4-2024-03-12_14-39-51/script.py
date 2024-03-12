@@ -1,8 +1,7 @@
 from datetime import datetime
 import os, json, argparse, logging
 from pathlib import Path
-from templates import get_sentence_prompt
-from templates import template_sentence_with_dep
+from templates import get_sentence_prompt, template_sentence_with_dep
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -128,12 +127,13 @@ def main():
     run_done = True
     asked_count = 0
     output_l = tb_output
-    for sent_id in sents:
+    for i, sent_id in enumerate(sents):
+        print('Processing {i} of {count}.'.format(i=i, count=sentence_count))
         output = ''
         if sent_id in tb_done_sents:
             continue
         text, table = table_d[sent_id]['text'], table_d[sent_id]['table']
-        prompt = get_sentence_prompt(template_sentence_with_dep, language, table, pos_d, feat_d, dep_d)
+        prompt = get_sentence_prompt(template_sentence_with_dep, langs[language], table, pos_d, feat_d, dep_d)
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model.startswith('poe'):
             try:

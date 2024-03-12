@@ -72,11 +72,19 @@ Now, analyze the following test example and try to find the surface form of the 
 
 {test_input}"""
 
-example_sentence_token = None
+example_sentence_token = 9
 
-example_sentence_input = ''''''
+example_sentence_input = '''1st token's lemma is "yleis#väri", its part of speech is noun, its case is nominative, its number is singular number, and it depends on the 3rd token with the dependency relation of nominal copular subject.
+2nd token's lemma is "olla", its part of speech is auxiliary verb, its mood is indicative, its number is singular number, its person is third person, its tense is present tense, its form of verb or deverbative is finite verb, its voice is active voice, and it depends on the 3rd token with the dependency relation of copula.
+3rd token's lemma is "ruskea", its part of speech is adjective, its case is nominative, its degree of comparison is positive, first degree, its number is singular number, and it's the root token.
+4th token's lemma is ",", its part of speech is punctuation, and it depends on the 5th token with the dependency relation of punctuation.
+5th token's lemma is "siipi", its part of speech is noun, its case is inessive, its number is plural number, and it depends on the 3rd token with the dependency relation of coordinated element.
+6th token's lemma is "olla", its part of speech is auxiliary verb, its mood is indicative, its number is singular number, its person is third person, its tense is present tense, its form of verb or deverbative is finite verb, its voice is active voice, and it depends on the 5th token with the dependency relation of copula.
+7th token's lemma is "valkea", its part of speech is adjective, its case is nominative, its degree of comparison is positive, first degree, its number is plural number, and it depends on the 8th token with the dependency relation of adjectival modifier.
+8th token's lemma is "juova", its part of speech is noun, its case is nominative, its number is plural number, and it depends on the 5th token with the dependency relation of nominal copular subject.
+9th token's lemma is ".", its part of speech is punctuation, and it depends on the 3rd token with the dependency relation of punctuation.'''
 
-example_sentence_surface = ""
+example_sentence_surface = "Yleisväri on ruskea, siivissä on valkeat juovat."
 
 number_d = {}
 for num in range(1, 157):
