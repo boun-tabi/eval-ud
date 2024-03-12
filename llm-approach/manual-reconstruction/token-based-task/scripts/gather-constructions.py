@@ -47,13 +47,15 @@ def main():
             with open(sheet, 'r', encoding='utf-8') as f:
                 reader = csv.DictReader(f)
                 for i, row in enumerate(reader):
-                    surface_form = row['Surface Form']
+                    keys = row.keys()
+                    form_keys = [k for k in keys if 'Surface Form' in k]
+                    form_values = [row[k].strip() for k in form_keys if row[k].strip()]
                     if version == 'v2.8':
                         real_token_id = sent_l[i]['id8']
                     elif version == 'v2.11':
                         real_token_id = sent_l[i]['id11']
                     sent_id = sent_l[i]['sent_id']
-                    constructions[person][version][sent_id][real_token_id] = surface_form
+                    constructions[person][version][sent_id][real_token_id] = form_values
     with open(sheet_dir / f'{args.type}.json', 'w', encoding='utf-8') as f:
         json.dump(constructions, f, ensure_ascii=False, indent=2)
 

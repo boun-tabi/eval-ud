@@ -58,11 +58,11 @@ def main():
         for person in [person1, person2]:
             for version in [version1, version2]:
                 if version == version1:
-                    person_construction = constructions[person][version][sent_id][v1_token_id]
+                    person_constructions = constructions[person][version][sent_id][v1_token_id]
                 else:
-                    person_construction = constructions[person][version][sent_id][v2_token_id]
-                outputs[q_id][version][person] = person_construction
-                if person_construction.lower() == original_form.lower():
+                    person_constructions = constructions[person][version][sent_id][v2_token_id]
+                outputs[q_id][version][person] = [i.lower() for i in person_constructions]
+                if original_form.lower() in person_constructions:
                     accuracies[version]['manual'][person].append(1)
                 else:
                     accuracies[version]['manual'][person].append(0)
