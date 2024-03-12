@@ -1,0 +1,70 @@
+{
+  "ADP": {
+    "shortdef": "adposition",
+    "content": "Adposition is a cover term for prepositions and postpositions.\n\nExamples\n\n* [fi] alla \"under\", päällä \"over\"\n* [fi] ennen \"before\", jälkeen \"after\"\n* [fi] kanssa \"with\", ilman \"without\"\n \nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=687> (in Finnish)"
+  },
+  "AUX": {
+    "shortdef": "auxiliary verb",
+    "content": "An auxiliary verb is a verb that accompanies the lexical verb of a\nverb phrase and expresses grammatical distinctions not carried by the\nlexical verb, such as person, number, tense, mood, aspect, and voice.\n\nFinnish modal verbs are counted as auxiliaries. Finnish auxiliary and\nmodal verbs are\n\n* täytyä \"must\"\n* pitää \"have to\"\n* tarvita \"need\"\n* joutua \"have to\"\n* voida \"be able to, can\"\n* saattaa \"may\"\n* taitaa \"be+probably, may\"\n* mahtaa \"be+probably, may\"\n* olla \"be\"\n* aikoa \"be going to\"\n\nExamples\n\n* [fi] täytyy tehdä \"must do\"\n* [fi] olemme tehneet \"we have done\"\n* [fi] olisi pitänyt tehdä \"would have had to do\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=450> (in Finnish)\n* <http://scripta.kotus.fi/visk/sisallys.php?p=1562> (in Finnish)"
+  },
+  "PRON": {
+    "shortdef": "pronoun",
+    "content": "Pronouns are words that substitute for <a href=\"NOUN.html\">nouns</a>\nor noun phrases, whose meaning is recoverable from the linguistic or\nextralinguistic context.\n\nSee also PronType.\n\nExamples\n\n* [fi] minä, sinä, hän, me, te, he \"I, you, he/she, we, you, they\" (personal pronouns)\n* [fi] itse \"self\" (reflexive pronoun)\n* [fi] tämä, tuo, se, nämä, nuo, ne \"this, that, it/that, these, those, they/those\" (demonstrative pronouns)\n* [fi] kuka, mikä, kumpi \"who, what, which\" (interrogative pronouns)\n* [fi] joka, mikä \"who, that\" (relative pronouns)\n* [fi] TODO (indefinite pronouns)\n* [fi] TODO (totality pronouns)\n* [fi] TODO (negative pronouns)\n* [fi] muu \"other\", sama \"same\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=713> (in Finnish)"
+  },
+  "NOUN": {
+    "shortdef": "noun",
+    "content": "Nouns inflect for case and number and denote things\nsuch as people, places, things, animals and ideas.\n\nProper nouns are not annotated as NOUN but rather PROPN.\n\nExamples\n\n* [fi] tyttö \"girl\"\n* [fi] kissa \"cat\"\n* [fi] puu \"tree\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=551> (in Finnish)"
+  },
+  "PROPN": {
+    "shortdef": "proper noun",
+    "content": "A proper noun is a noun (or nominal content word) that is the name (or\npart of the name) of a specific individual, place, or object.\n\nAcronyms of proper nouns, such as EU and YK, should be tagged PROPN.\n\nExamples\n\n* [fi] Aapo, Anna (male/female first name)\n* Turku (city name)\n* EU, YK \"EU, UN\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=596> (in Finnish)"
+  },
+  "INTJ": {
+    "shortdef": "interjection",
+    "content": "An interjection is a word that is used most often as an exclamation or\npart of an exclamation.\n\nExamples\n\n* [fi] no, \"well\", ai \"oh\", hyi \"yuck\"\n* [fi] psst\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=856> (in Finnish)"
+  },
+  "PART": {
+    "shortdef": "particle",
+    "content": "The UD Finnish annotation does not use the u-pos/PART part of speech.\nSee ADV, ADP, CCONJ, SCONJ, INTJ for tags applying to\nwords that have been termed \"particles\" in some descriptions of Finnish.\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=792> (in Finnish)\n* <http://scripta.kotus.fi/visk/sisallys.php?p=793> (in Finnish)\n\nDiffs\n\nFinnTreeBank\n\nThe FI_FTB-corpus follows the general UD documentation in recognizing\nthe particle as a part-of-speech category. The specification between PART,\nADV and ADP has been carried out as in\nISK § 792 (in Finnish)."
+  },
+  "CCONJ": {
+    "shortdef": "coordinating conjunction",
+    "content": "A coordinating conjunction is a word that links words or larger\nconstituents without syntactically subordinating one to the other and\nexpresses a semantic relationship between them.\n\nFor subordinating conjunctions, see SCONJ.\n\nIn correlative (paired) coordinating conjuctions such as sekä - että\n\"both - and\" and joko - tai \"either - or\", both words are annotated\nCCONJ (see also cc:preconj).\n\nExamples\n\n* [fi] ja \"and\", tai \"or\", mutta \"but\"\n* [fi] sekä koirat että kissat \"both dogs and cats\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=817> (in Finnish)\n* <http://scripta.kotus.fi/visk/sisallys.php?p=815> (in Finnish)"
+  },
+  "VERB": {
+    "shortdef": "verb",
+    "content": "Verbs typically inflect for tense, mood and\nperson and signal events and actions. Verbs can constitute a\nminimal predicate in a clause, and govern the number and types of\nother constituents which may occur in the clause.\n\nAuxiliary and modal verbs are not annotated as VERB but rather\nAUX.\n\nExamples\n\n* [fi] juosta, syödä \"run, eat\"\n* [fi] ei \"no\" (negation verb)\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=444> (in Finnish)"
+  },
+  "SYM": {
+    "shortdef": "symbol",
+    "content": "A symbol is a word-like entity that differs from ordinary words by\nform, function, or both.\n\nExamples\n\n* $, %, §, ©\n* +, −, ×, ÷, =, <, >\n* :), ♥‿♥, 😝\n* john.doe@universal.org, http://universaldependencies.org/, 1-800-COMPANY"
+  },
+  "DET": {
+    "shortdef": "determiner",
+    "content": "Determiners are words that modify nouns or noun phrases and\nexpress the reference of the noun phrase in context.\n\nFinnish has no true articles\n(see e.g. WALS) and many\nformalizations of Finnish morphology don't involve a determiner (or\nrelated) tag. However, words such as yksi \"one\" and se \"that\"\nare used similarly to articles, especially in spoken language.\n\nExamples\n\n* [fi] yksi mies lähti \"a/one man left\"\n* [fi] se mies lähti \"the/that man left\"\n\nReferences\n\n* <http://scripta.kotus.fi/cgi-bin/visktermit/visktermit.cgi?h_id=aCHEBBEDH> (in Finnish)\n\nDiffs\n\nTurku Dependency Treebank\n\nNo DET tag (or related) is annotated in TDT, and DET is\nnot used in the current version of the UD Finnish corpus."
+  },
+  "ADV": {
+    "shortdef": "adverb",
+    "content": "Adverbs are words that typically modify adjectives,\nverbs or other adverbs for such categories as time, place,\ndirection or manner.\n\nExamples\n\n* [fi] hyvin suuri \"very large\"\n* [fi] erittäin vaikea \"extremely difficult\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=646> (in Finnish)"
+  },
+  "ADJ": {
+    "shortdef": "adjective",
+    "content": "Adjectives are words that typically modify nouns and specify their\nproperties or attributes.\n\nUD Finnish annotation follows VISK in assigning pro-adjectives the\nADJ tag (e.g. tämä/PRON \"this\" → tällainen/ADJ \"like this\"; see\ne.g. VISK § 610; in\nFinnish).\n\nExamples\n\n* [fi] suuri \"big\", vanha \"old\", vihreä \"green\"\n* [fi] tällainen \"like this\", tuollainen \"like that\", semmoinen \"like it\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=603> (in Finnish)\n* <http://scripta.kotus.fi/visk/sisallys.php?p=610> (in Finnish)"
+  },
+  "X": {
+    "shortdef": "other",
+    "content": "The tag X is used for words that for some reason cannot be assigned\na real part-of-speech category.\n\nForeign words appearing inside native text are tagged X (see also\nForeign).\n\nExamples\n\n* [fi] Uskoo ken tahtsssszzt brrrzzzt.\n* [fi] Opimme fyysikoiden \"Let's assume a spherical cow\" -lähestymistavan."
+  },
+  "SCONJ": {
+    "shortdef": "subordinating conjunction",
+    "content": "A subordinating conjunction is a conjunction that links constructions\nby making one of them a constituent of the other.\n\nBoth the Finnish complementizer että and the comparative conjunction\nkuin are tagged SCONJ.\n\nExamples\n\n* [fi] koska \"because\"\n* [fi] vaikka \"although\"\n* [fi] parempi kuin \"better than\"\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=816> (in Finnish)\n* <http://scripta.kotus.fi/visk/sisallys.php?p=818> (in Finnish)"
+  },
+  "NUM": {
+    "shortdef": "numeral",
+    "content": "A numeral is a word, functioning most typically as a determiner,\nadjective or pronoun, that expresses a number and a relation to the\nnumber, such as quantity, sequence, frequency or fraction.\n\nExamples\n\n* [fi] 0, 1, 2, 3, 4, 5, 2014, 1000000, 3.14159265359\n* [fi] yksi, kaksi, kolme \"one, two, three\"\n* [fi] I, II, III, IV, V, MMXIV\n\nReferences\n\n* <http://scripta.kotus.fi/visk/sisallys.php?p=771> (in Finnish)"
+  },
+  "PUNCT": {
+    "shortdef": "punctuation",
+    "content": "Punctuation marks are non-alphabetical characters and character groups\nused to delimit linguistic units in printed text.\n\nExamples\n\n* Period: .\n* Comma: ,\n* Parentheses: ()"
+  }
+}
