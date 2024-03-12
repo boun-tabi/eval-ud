@@ -1,5 +1,5 @@
 
-def get_sentence_prompt(template, table, pos_d, feat_d, dep_d=None):
+def get_sentence_prompt(template, language, table, pos_d, feat_d, dep_d=None):
     lines = table.split('\n')
     ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
     dash_ids = [line.split('\t')[0] for line in lines if '-' in line.split('\t')[0]]
@@ -55,7 +55,7 @@ def get_sentence_prompt(template, table, pos_d, feat_d, dep_d=None):
         if not in_split:
             token_order += 1
     question = '\n'.join(prompt_l)
-    return template.format(example_surface=example_sentence_surface, example_token=example_sentence_token, example_input=example_sentence_input, token_count=token_count, test_input=question)
+    return template.format(example_surface=example_sentence_surface, example_token=example_sentence_token, example_input=example_sentence_input, token_count=token_count, test_input=question, language=language)
 
 # created on 2024-1-19
 template_sentence_with_dep = """The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech, morphological features and dependencies given for each token.
