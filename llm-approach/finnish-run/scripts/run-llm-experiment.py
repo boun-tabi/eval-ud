@@ -42,12 +42,15 @@ def main():
         with open(run_dir / 'md.json', 'r', encoding='utf-8') as f:
             md = json.load(f)
         model = md['model']
-        tb = md['treebank']
+        tb = Path(md['tb'])
         sents = md['sents']
         sentence_count = md['sentence_count']
-        docs_dir = md['docs_dir']
-        api_path = md['api_path']
+        docs_dir = Path(md['docs_dir'])
+        api_path = Path(md['api_path'])
         language = md['language']
+        langs_path = Path(md['langs_path'])
+        with open(langs_path, 'r', encoding='utf-8') as f:
+            langs = json.load(f)
     else:
         output_dir = THIS_DIR / 'outputs'
         docs_dir = Path(args.docs)
@@ -89,7 +92,6 @@ def main():
                 md['note'] = args.note
             json.dump(md, f, ensure_ascii=False, indent=2)
 
-    docs_dir = Path(args.docs)
     with open(docs_dir / 'pos-{language}.json'.format(language=language), 'r', encoding='utf-8') as f:
         pos_d = json.load(f)
     with open(docs_dir / 'feat-{language}.json'.format(language=language), 'r', encoding='utf-8') as f:
