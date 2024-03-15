@@ -1,0 +1,110 @@
+[
+    {
+        "run_dir": "llm-approach/experiment_outputs/extra_experiment/poe_GPT-4-20231017004030",
+        "treebank": "UD_English-EWT",
+        "output_file": "tb_output",
+        "model": "GPT-4",
+        "dependency_included": false,
+        "character-based": 0.9645556340032009,
+        "token-based": 0.9292270531400966
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_Claude-2-100k-20231016083251",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Claude-2-100k",
+        "dependency_included": false,
+        "character-based": 0.8900794737654019,
+        "token-based": 0.6942532415559468
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_Claude-2-100k-20231016083251",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Claude-2-100k",
+        "dependency_included": false,
+        "character-based": 0.9050557347565451,
+        "token-based": 0.7192252281094925
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_Claude-instant-100k-20231016001050",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Claude-instant-100k",
+        "dependency_included": false,
+        "character-based": 0.8614449143561292,
+        "token-based": 0.5906835280934849
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_Claude-instant-100k-20231016001050",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Claude-instant-100k",
+        "dependency_included": false,
+        "character-based": 0.8751530542935785,
+        "token-based": 0.619177205058428
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-3.5-Turbo-20231015223903",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "GPT-3.5-Turbo",
+        "dependency_included": false,
+        "character-based": 0.8483067857575084,
+        "token-based": 0.5364174803905875
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-3.5-Turbo-20231015223903",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "GPT-3.5-Turbo",
+        "dependency_included": false,
+        "character-based": 0.8557681611671359,
+        "token-based": 0.5605890827597246
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-20231015231246",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "GPT-4",
+        "dependency_included": false,
+        "character-based": 0.9168186884991367,
+        "token-based": 0.7378029079159936
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-20231015231246",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "GPT-4",
+        "dependency_included": false,
+        "character-based": 0.9301639562399646,
+        "token-based": 0.7689822294022617
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-2023-12-19_16-59-29",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "GPT-4",
+        "dependency_included": true,
+        "character-based": 0.8957734192581421,
+        "token-based": 0.6900508113424029
+    },
+    {
+        "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-2023-12-19_16-59-29",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "GPT-4",
+        "dependency_included": true,
+        "character-based": 0.9066622220836523,
+        "token-based": 0.730185216085433
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-03-12_14-39-51",
+        "treebank": "UD_Finnish-TDT",
+        "output_file": "tb_output",
+        "model": "GPT-4",
+        "dependency_included": true,
+        "character-based": 0.9449262550595113,
+        "token-based": 0.8284606687126473
+    }
+]

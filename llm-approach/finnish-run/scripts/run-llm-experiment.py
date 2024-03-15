@@ -14,6 +14,7 @@ def get_args():
     parser.add_argument('-k', '--api-key', type=str)
     parser.add_argument('-lp', '--langs-path', type=str)
     parser.add_argument('-l', '--language', type=str)
+    parser.add_argument('-v', '--version', type=str)
     return parser.parse_args()
 
 def get_logger():
@@ -51,6 +52,7 @@ def main():
         langs_path = Path(md['langs_path'])
         with open(langs_path, 'r', encoding='utf-8') as f:
             langs = json.load(f)
+        version = md['version']
     else:
         output_dir = THIS_DIR / 'outputs'
         docs_dir = Path(args.docs)
@@ -67,6 +69,9 @@ def main():
             if language not in langs:
                 logger.info('Please specify a language.')
                 exit()
+        if not args.version:
+            logger.info('Please specify a version.')
+            exit()
         run_dir = output_dir / '{model}-{now}'.format(model=model, now=now)
         os.makedirs(run_dir, exist_ok=True)
         with open(run_dir / 'script.py', 'w', encoding='utf-8') as f:

@@ -70,7 +70,12 @@ Your task is to find the surface form of the sentence. For example, your answer 
 
 Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
 
-{test_input}"""
+{test_input}
+
+Answer in JSON, in the following format:
+```json
+{"original_form": <SENTENCE>}
+```"""
 
 example_sentence_token = 9
 

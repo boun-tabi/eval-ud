@@ -6,13 +6,14 @@ from rapidfuzz import fuzz
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--directory', type=str, required=True, help='Directory of the run')
+    parser.add_argument('-s', '--summary', type=str, required=True, help='Summary file')
     return parser.parse_args()
 
 def main():
     args = get_args()
 
     dir = Path(args.directory)
-    summary_path = dir / 'summary.json'
+    summary_path = Path(args.summary)
     with open(summary_path, 'r', encoding='utf-8') as f:
         summary = json.load(f)
 
@@ -88,7 +89,7 @@ def main():
     analysis_d['summary']['llm ratios']['per token'] = correct_token_count / all_token_count
     analysis_d['summary']['llm ratios']['per sentence'] /= len(comparison_d)
 
-    path = dir / 'comparison-tokens.json'
+    path = dir / (summary_path.stem + '-comparison.json')
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(analysis_d, f, ensure_ascii=False, indent=4)
 

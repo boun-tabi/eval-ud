@@ -11,7 +11,6 @@ def main():
     args = get_args()
     output_file = args.output_file
     output_path = Path(output_file)
-    output_filename_without_extension = output_path.stem
     output_dir = output_path.parent
 
     with open(output_file, 'r', encoding='utf-8') as f:
@@ -41,9 +40,11 @@ def main():
             text_t = par_search.group(1)
             if fuzz.ratio(original_text, text_t) < 50:
                 output_text = par_pattern.sub('', output_text).strip()
+        if original_text[0] != '"' and original_text[-1] != '"' and output_text[0] == '"' and output_text[-1] == '"':
+            output_text = output_text[1:-1]
         new_output_d[sent_id] = {'original_text': original_text, 'output_text': output_text}
 
-    with open(output_dir / (output_filename_without_extension + '-cleaned.json'), 'w', encoding='utf-8') as f:
+    with open(output_dir / (output_path.stem + '-cleaned.json'), 'w', encoding='utf-8') as f:
         json.dump(new_output_d, f, ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':
