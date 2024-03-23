@@ -1,0 +1,663 @@
+[
+  {
+    "sent_id": "ess_1279",
+    "v1": {
+      "id": "8",
+      "form": "gölgeler",
+      "lemma": "Gölge",
+      "feats": [
+        "Case=Nom",
+        "Number=Plur",
+        "Person=3"
+      ],
+      "head": "düşürür",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "8",
+      "form": "gölgeler",
+      "lemma": "gölge",
+      "feats": [
+        "Case=Acc",
+        "Number=Plur",
+        "Person=3"
+      ],
+      "head": "düşürür",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "bio_297",
+    "v1": {
+      "id": "2",
+      "form": "anahtarla",
+      "lemma": "anahtarla",
+      "feats": [
+        "_"
+      ],
+      "head": "açar",
+      "deprel": "nmod"
+    },
+    "v2": {
+      "id": "3",
+      "form": "anahtarla",
+      "lemma": "anahtarla",
+      "feats": [
+        "Case=Ins",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "açar",
+      "deprel": "nmod"
+    }
+  },
+  {
+    "sent_id": "ess_1071",
+    "v1": {
+      "id": "4",
+      "form": "yer",
+      "lemma": "yer",
+      "feats": [
+        "Case=Nom",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "parktı",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "4",
+      "form": "yer",
+      "lemma": "yer",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "park",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "pop_629",
+    "v1": {
+      "id": "1",
+      "form": "Örneğin",
+      "lemma": "örnek",
+      "feats": [
+        "_"
+      ],
+      "head": "yerler",
+      "deprel": "advmod"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Örneğin",
+      "lemma": "örnek",
+      "feats": [
+        "Case=Gen",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "yerler",
+      "deprel": "discourse"
+    }
+  },
+  {
+    "sent_id": "pop_1903",
+    "v1": {
+      "id": "12",
+      "form": "olarak",
+      "lemma": "ol",
+      "feats": [
+        "_"
+      ],
+      "head": "gözenek",
+      "deprel": "case"
+    },
+    "v2": {
+      "id": "12",
+      "form": "olarak",
+      "lemma": "ol",
+      "feats": [
+        "Polarity=Pos",
+        "VerbForm=Conv"
+      ],
+      "head": "gözenek",
+      "deprel": "aux"
+    }
+  },
+  {
+    "sent_id": "ins_955",
+    "v1": {
+      "id": "5",
+      "form": "oyuncak",
+      "lemma": "oyuncak",
+      "feats": [
+        "_"
+      ],
+      "head": "almaya",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "5",
+      "form": "oyuncak",
+      "lemma": "oyuncak",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "almaya",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "ins_26",
+    "v1": {
+      "id": "5",
+      "form": "seni",
+      "lemma": "sen",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=2"
+      ],
+      "head": "gönderip",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "5",
+      "form": "seni",
+      "lemma": "sen",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=2",
+        "PronType=Prs"
+      ],
+      "head": "gönderip",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "ins_1116",
+    "v1": {
+      "id": "3",
+      "form": "Atatürk'ten",
+      "lemma": "ATATÜRK",
+      "feats": [
+        "_"
+      ],
+      "head": "öne",
+      "deprel": "advmod"
+    },
+    "v2": {
+      "id": "3",
+      "form": "Atatürk'ten",
+      "lemma": "ATATÜRK",
+      "feats": [
+        "Case=Abl",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "öne",
+      "deprel": "obl:tmod"
+    }
+  },
+  {
+    "sent_id": "pop_891",
+    "v1": {
+      "id": "5",
+      "form": "sizin",
+      "lemma": "siz",
+      "feats": [
+        "Case=Gen",
+        "Number=Plur",
+        "Person=2"
+      ],
+      "head": "bildiğiniz",
+      "deprel": "nsubj"
+    },
+    "v2": {
+      "id": "5",
+      "form": "sizin",
+      "lemma": "siz",
+      "feats": [
+        "Case=Gen",
+        "Number=Plur",
+        "Person=2",
+        "PronType=Prs"
+      ],
+      "head": "bildiğiniz",
+      "deprel": "nsubj"
+    }
+  },
+  {
+    "sent_id": "ess_1054",
+    "v1": {
+      "id": "4",
+      "form": "yürüyerek",
+      "lemma": "yürü",
+      "feats": [
+        "Mood=Imp",
+        "Polarity=Pos",
+        "VerbForm=Conv"
+      ],
+      "head": "indim",
+      "deprel": "nmod"
+    },
+    "v2": {
+      "id": "4",
+      "form": "yürüyerek",
+      "lemma": "yürü",
+      "feats": [
+        "Aspect=Prog",
+        "Polarity=Pos",
+        "VerbForm=Conv"
+      ],
+      "head": "indim",
+      "deprel": "advcl"
+    }
+  },
+  {
+    "sent_id": "ess_632",
+    "v1": {
+      "id": "2",
+      "form": "Kussan",
+      "lemma": "kus",
+      "feats": [
+        "_"
+      ],
+      "head": "gelebilir",
+      "deprel": "nsubj"
+    },
+    "v2": {
+      "id": "2",
+      "form": "Kussan",
+      "lemma": "kus",
+      "feats": [
+        "Mood=Des",
+        "Number=Sing",
+        "Person=2",
+        "Polarity=Pos"
+      ],
+      "head": "gelebilir",
+      "deprel": "nsubj"
+    }
+  },
+  {
+    "sent_id": "ins_1196",
+    "v1": {
+      "id": "4",
+      "form": "değişimlere",
+      "lemma": "değişim",
+      "feats": [
+        "_"
+      ],
+      "head": "uzaklaşıyor",
+      "deprel": "advmod"
+    },
+    "v2": {
+      "id": "5",
+      "form": "değişimlere",
+      "lemma": "değişim",
+      "feats": [
+        "Case=Dat",
+        "Number=Plur",
+        "Person=3"
+      ],
+      "head": "uzaklaşıyor",
+      "deprel": "obl"
+    }
+  },
+  {
+    "sent_id": "ins_151",
+    "v1": {
+      "id": "1",
+      "form": "Kusan",
+      "lemma": "kus",
+      "feats": [
+        "_"
+      ],
+      "head": "kişinin",
+      "deprel": "acl"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Kusan",
+      "lemma": "kus",
+      "feats": [
+        "Polarity=Pos",
+        "Tense=Pres",
+        "VerbForm=Part"
+      ],
+      "head": "kişinin",
+      "deprel": "acl"
+    }
+  },
+  {
+    "sent_id": "pop_826",
+    "v1": {
+      "id": "1",
+      "form": "Sos",
+      "lemma": "sos",
+      "feats": [
+        "Case=Nom",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "kalınlaştırmada",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Sos",
+      "lemma": "sos",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "kalınlaştırmada",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "ess_602",
+    "v1": {
+      "id": "3",
+      "form": "var",
+      "lemma": "var",
+      "feats": [
+        "Aspect=Perf",
+        "Mood=Imp",
+        "Number=Sing",
+        "Person=2",
+        "Polarity=Pos",
+        "Tense=Pres"
+      ],
+      "head": "root",
+      "deprel": "root"
+    },
+    "v2": {
+      "id": "3",
+      "form": "var",
+      "lemma": "var",
+      "feats": [
+        "Number=Sing",
+        "Person=3",
+        "Polarity=Pos"
+      ],
+      "head": "root",
+      "deprel": "root"
+    }
+  },
+  {
+    "sent_id": "ess_1044",
+    "v1": {
+      "id": "1",
+      "form": "Geçmişte",
+      "lemma": "geçmiş",
+      "feats": [
+        "_"
+      ],
+      "head": "olan",
+      "deprel": "advmod"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Geçmişte",
+      "lemma": "geçmiş",
+      "feats": [
+        "Case=Loc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "olmuş",
+      "deprel": "obl:tmod"
+    }
+  },
+  {
+    "sent_id": "news_1888",
+    "v1": {
+      "id": "1",
+      "form": "Bunlar",
+      "lemma": "bu",
+      "feats": [
+        "Case=Nom",
+        "Number=Plur",
+        "Person=3"
+      ],
+      "head": "arasında",
+      "deprel": "nmod:poss"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Bunlar",
+      "lemma": "bu",
+      "feats": [
+        "Case=Nom",
+        "Number=Plur",
+        "Person=3",
+        "PronType=Dem"
+      ],
+      "head": "arasında",
+      "deprel": "nmod:poss"
+    }
+  },
+  {
+    "sent_id": "ins_1206",
+    "v1": {
+      "id": "5",
+      "form": "kola",
+      "lemma": "kola",
+      "feats": [
+        "Case=Nom",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "kol",
+      "deprel": "compound:redup"
+    },
+    "v2": {
+      "id": "5",
+      "form": "kola",
+      "lemma": "kola",
+      "feats": [
+        "Case=Dat",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "kol",
+      "deprel": "compound:redup"
+    }
+  },
+  {
+    "sent_id": "ins_792",
+    "v1": {
+      "id": "1",
+      "form": "\"Burada",
+      "lemma": "\"Bura",
+      "feats": [
+        "Case=Loc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "yaşamış",
+      "deprel": "obl"
+    },
+    "v2": {
+      "id": "2",
+      "form": "Burada",
+      "lemma": "Burada",
+      "feats": [
+        "Case=Loc",
+        "Number=Sing",
+        "Person=3",
+        "PronType=Loc"
+      ],
+      "head": "yaşamış",
+      "deprel": "obl"
+    }
+  },
+  {
+    "sent_id": "ins_1690",
+    "v1": {
+      "id": "2",
+      "form": "bunlar",
+      "lemma": "bu",
+      "feats": [
+        "Case=Nom",
+        "Number=Plur",
+        "Person=3"
+      ],
+      "head": "kullanışlı",
+      "deprel": "nsubj"
+    },
+    "v2": {
+      "id": "2",
+      "form": "bunlar",
+      "lemma": "bu",
+      "feats": [
+        "Case=Nom",
+        "Number=Plur",
+        "Person=3",
+        "PronType=Dem"
+      ],
+      "head": "kullanışlı",
+      "deprel": "nsubj"
+    }
+  },
+  {
+    "sent_id": "news_1323",
+    "v1": {
+      "id": "5",
+      "form": "olarak",
+      "lemma": "ol",
+      "feats": [
+        "_"
+      ],
+      "head": "sefiri",
+      "deprel": "case"
+    },
+    "v2": {
+      "id": "5",
+      "form": "olarak",
+      "lemma": "ol",
+      "feats": [
+        "Polarity=Pos",
+        "VerbForm=Conv"
+      ],
+      "head": "sefiri",
+      "deprel": "aux"
+    }
+  },
+  {
+    "sent_id": "ess_451",
+    "v1": {
+      "id": "9",
+      "form": "karşıdan",
+      "lemma": "karşı",
+      "feats": [
+        "_"
+      ],
+      "head": "karşıya",
+      "deprel": "advmod"
+    },
+    "v2": {
+      "id": "9",
+      "form": "karşıdan",
+      "lemma": "karşı",
+      "feats": [
+        "Case=Abl",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "karşıya",
+      "deprel": "obl"
+    }
+  },
+  {
+    "sent_id": "ess_260",
+    "v1": {
+      "id": "1",
+      "form": "Hakiki",
+      "lemma": "Hakiki",
+      "feats": [
+        "Case=Nom",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "bilmem",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Hakiki",
+      "lemma": "Hakiki",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "bilmem",
+      "deprel": "obj"
+    }
+  },
+  {
+    "sent_id": "ins_1707",
+    "v1": {
+      "id": "1",
+      "form": "Buna",
+      "lemma": "bu",
+      "feats": [
+        "Case=Dat",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "pompalayabilir",
+      "deprel": "obl"
+    },
+    "v2": {
+      "id": "1",
+      "form": "Buna",
+      "lemma": "bu",
+      "feats": [
+        "Case=Dat",
+        "Number=Sing",
+        "Person=3",
+        "PronType=Dem"
+      ],
+      "head": "pompalayabilir",
+      "deprel": "obl"
+    }
+  },
+  {
+    "sent_id": "ess_1803",
+    "v1": {
+      "id": "8",
+      "form": "POZ",
+      "lemma": "poz",
+      "feats": [
+        "Case=Nom",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "VERİR",
+      "deprel": "obj"
+    },
+    "v2": {
+      "id": "8",
+      "form": "POZ",
+      "lemma": "poz",
+      "feats": [
+        "Case=Acc",
+        "Number=Sing",
+        "Person=3"
+      ],
+      "head": "VERİR",
+      "deprel": "obj"
+    }
+  }
+]
