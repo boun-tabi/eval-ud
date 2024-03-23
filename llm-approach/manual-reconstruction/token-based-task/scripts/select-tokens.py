@@ -46,7 +46,10 @@ def main():
                 ids = id_t.split('-')
                 for i in range(int(ids[0]), int(ids[1]) + 1):
                     v2_splits.add(str(i))
-        for line in table2.split('\n'):
+        lines2 = table2.split('\n')
+        if difficulty == 'random':
+            random.shuffle(lines2)
+        for line in lines2:
             fields = line.split('\t')
             id_t, form, lemma, feats = *fields[:3], fields[5].split('|')
             v2_form_d[id_t] = form
@@ -62,6 +65,9 @@ def main():
                     found_token = True
             elif difficulty == 'medium':
                 if 'Evident' in keys or 'Voice' in keys or 'Tense' in keys and id_t not in v2_splits and not lemma.startswith('"'):
+                    found_token = True
+            elif difficulty == 'random':
+                if id_t not in v2_splits and not lemma.startswith('"'):
                     found_token = True
             if found_token:
                 d['v2'] = {'id': id_t, 'form': form, 'lemma': lemma, 'feats': feats}
