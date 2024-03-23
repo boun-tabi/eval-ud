@@ -59,12 +59,15 @@ def main():
                 if 'Case=Nom' in feats and 'Number=Sing' in feats:
                     continue
                 if ('Case=Nom' not in feats or 'Number=Sing' not in feats) and 2 <= len(keys) <= 4 and id_t not in v2_splits and not lemma.startswith('"'):
-                    d['v2'] = {'id': id_t, 'form': form, 'lemma': lemma, 'feats': feats}
-                    if has_dep:
-                        d['v2']['head'] = fields[6]
-                        d['v2']['deprel'] = fields[7]
                     found_token = True
-                    continue
+            elif difficulty == 'medium':
+                if 'Evident' in keys or 'Voice' in keys or 'Tense' in keys and id_t not in v2_splits and not lemma.startswith('"'):
+                    found_token = True
+            if found_token:
+                d['v2'] = {'id': id_t, 'form': form, 'lemma': lemma, 'feats': feats}
+                if has_dep:
+                    d['v2']['head'] = fields[6]
+                    d['v2']['deprel'] = fields[7]
         if d['v2'] == {}:
             continue
         same_feats = False
