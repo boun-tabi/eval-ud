@@ -106,5 +106,95 @@
         "dependency_included": true,
         "character-based": 0.9449262550595113,
         "token-based": 0.7542877249754586
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Claude-3-Opus-200k-2024-03-05_23-13-44",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Claude-3-Opus-200k",
+        "dependency_included": false,
+        "character-based": 0.9428277600180666,
+        "token-based": 0.7972076040165303
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Claude-3-Opus-200k-2024-03-05_23-13-44",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Claude-3-Opus-200k",
+        "dependency_included": false,
+        "character-based": 0.9524201806838261,
+        "token-based": 0.8297424738448526
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mistral-Large-2024-02-27_10-13-02",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Misral-Large",
+        "dependency_included": false,
+        "character-based": 0.8662277730501471,
+        "token-based": 0.5556047043955693
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mistral-Large-2024-02-27_10-13-02",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Misral-Large",
+        "dependency_included": false,
+        "character-based": 0.8747074519553639,
+        "token-based": 0.5813321715560924
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mixtral-8x7B-Chat-2024-01-27_23-54-52",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Mixtral-8x7B-Chat",
+        "dependency_included": false,
+        "character-based": 0.7869204094835078,
+        "token-based": 0.35082970314708717
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mixtral-8x7B-Chat-2024-01-27_23-54-52",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Mixtral-8x7B-Chat",
+        "dependency_included": false,
+        "character-based": 0.7880524394799362,
+        "token-based": 0.34607826997241053
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Llama-2-70b-2024-01-24_22-25-12",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Llama-2-70b",
+        "dependency_included": false,
+        "character-based": 0.7916586145371055,
+        "token-based": 0.37205301439084654
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Llama-2-70b-2024-01-24_22-25-12",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Llama-2-70b",
+        "dependency_included": false,
+        "character-based": 0.7888533583129523,
+        "token-based": 0.3691961426523618
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mistral-Medium-2024-01-29_14-39-24",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.8_output",
+        "model": "Misral-Medium",
+        "dependency_included": false,
+        "character-based": 0.8489081349036527,
+        "token-based": 0.4958684238473395
+    },
+    {
+        "run_dir": "llm-approach/llama/scripts/outputs/poe_Mistral-Medium-2024-01-29_14-39-24",
+        "treebank": "UD_Turkish-BOUN",
+        "output_file": "v2.11_output",
+        "model": "Misral-Medium",
+        "dependency_included": false,
+        "character-based": 0.857319367726081,
+        "token-based": 0.5161372325753989
     }
 ]
