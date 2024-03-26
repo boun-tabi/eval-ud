@@ -1,4 +1,12 @@
-import argparse, csv, json, re
+'''
+Running:
+```bash
+    python3 token-based-task/scripts/create-md_llm-manual.py -c sheets/token.json -l token-based-task/scripts/outputs/poe_GPT-4-2024-02-25_22-41-49 -p1 Akif -p2 Tarık -v1 v2.8 -v2 v2.11 -t token
+    python3 token-based-task/scripts/create-md_llm-manual.py -c sheets/token\ with\ dep.json -l token-based-task/scripts/outputs/poe_GPT-4-2024-02-25_22-36-32 -p1 Akif -p2 Tarık -v1 v2.8 -v2 v2.11 -t 'token with dep'
+```
+'''
+
+import argparse, json
 from pathlib import Path
 
 def get_args():
@@ -87,7 +95,15 @@ def main():
 
     with open(llm_dir / 'accuracies.json', 'w', encoding='utf-8') as f:
         json.dump(accuracies, f, ensure_ascii=False, indent=2)
-
+    
+    md_str = '| Annotator | {} | {} |\n'.format(version1, version2)
+    md_str += '| --- | --- | --- |\n'
+    md_str += '| LLM | {:.1f}% | {:.1f}% |\n'.format(v1_llm_accuracy * 100, v2_llm_accuracy * 100)
+    md_str += '| {} | {:.1f}% | {:.1f}% |\n'.format(person1, v1_manual_person1_accuracy * 100, v2_manual_person1_accuracy * 100)
+    md_str += '| {} | {:.1f}% | {:.1f}% |\n'.format(person2, v1_manual_person2_accuracy * 100, v2_manual_person2_accuracy * 100)
+    md_path = llm_dir / 'accuracies.md'
+    with open(md_path, 'w', encoding='utf-8') as f:
+        f.write(md_str)
 
 if __name__ == '__main__':
     main()

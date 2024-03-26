@@ -83,7 +83,7 @@ run_dirs = {
 
 def main():
     args = get_args()
-    script_dir = Path('llm-approach/finnish-run/scripts')
+    script_dir = Path(__file__).parent
     summary_path = script_dir / 'summary-table.json'
     if args.calculate:
         # steps:
