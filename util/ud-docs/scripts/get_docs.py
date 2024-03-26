@@ -4,16 +4,15 @@ from pathlib import Path
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--docs', type=str, required=True)
-    parser.add_argument('-l', '--lang', type=str, required=True)
+    parser.add_argument('-l', '--lang', type=str, default='en')
     parser.add_argument('-o', '--output', type=str, required=True)
     return parser.parse_args()
 
 def main():
     args = get_args()
-    lang = args.lang
-
-    home_dir = Path.home()
     docs_dir = Path(args.docs)
+
+    lang = args.lang
     lang_dir = docs_dir / '_{}'.format(lang)
     pos_lang_dir = lang_dir / 'pos'
     pos_lang_files = [f for f in pos_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']

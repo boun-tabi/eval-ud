@@ -47,17 +47,17 @@ def main():
         },
     }
 
+    script_dir = Path('llm-approach/finnish-run/scripts')
     # steps:
     # 1: clean_output.py
-    clean_script_path = 'llm-approach/finnish-run/scripts/clean_output.py'
+    clean_script_path = script_dir / 'clean_output.py'
     # 2: summarize_experiment-sequence_matching.py
-    sequence_matching_script_path = 'llm-approach/finnish-run/scripts/summarize_experiment-sequence_matching.py'
+    sequence_matching_script_path = script_dir / 'summarize_experiment-sequence_matching.py'
     # 3: compare-tokens.py
-    compare_tokens_script_path = 'llm-approach/finnish-run/scripts/compare-tokens.py'
+    compare_tokens_script_path = script_dir / 'compare-tokens.py'
     table = []
     for run_dir, run_info in run_dirs.items():
         run_dir = Path(run_dir)
-        versions = run_info['versions']
         treebank = run_info['treebank']
         model = run_info['model']
         dependency_included = run_info['dependency_included']
@@ -72,7 +72,7 @@ def main():
             with summary_path.open('r', encoding='utf-8') as f:
                 summary = json.load(f)
             # 3: compare-tokens.py
-            os.system(f'python {compare_tokens_script_path} -d {run_dir} -s {summary_path}')
+            os.system(f'python {compare_tokens_script_path} -s {summary_path}')
             comparison_path = run_dir / (summary_path.stem + '-comparison.json')
             with comparison_path.open('r', encoding='utf-8') as f:
                 comparison = json.load(f)
@@ -83,10 +83,10 @@ def main():
                 'model': model,
                 'dependency_included': dependency_included,
                 'character-based': summary['average ratio'],
-                'token-based': comparison['summary']['llm ratios']['per token']
+                'token-based': comparison['summary']['llm accuracy']['f1']
             })
 
-    summary_path = Path('summary-table.json')
+    summary_path = script_dir / 'summary-table.json'
     with summary_path.open('w', encoding='utf-8') as f:
         json.dump(table, f, indent=4, ensure_ascii=False)
 
