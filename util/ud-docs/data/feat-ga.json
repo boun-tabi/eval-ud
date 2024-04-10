@@ -1,0 +1,1298 @@
+{
+  "Gender": {
+    "shortdef": "gender",
+    "Masc": {
+      "shortdef": "masculine gender",
+      "content": "In general, words ending in a broad consonant are masculine. Exceptions include words ending in slender -óir, -eoir, and -ín, which are masculine.\n\nExamples\n\n* madra \"dog\"\n* múinteoir \"teacher\""
+    },
+    "Fem": {
+      "shortdef": "feminine gender",
+      "content": "In general, words ending in a slender consonant are feminine. Exceptions include words ending in a broad -óg, or -eog, which are feminine.\n\nExamples\n\n* Éire \"Ireland\"\n* néaróga \"nerves\""
+    },
+    "content": "Irish has two gender forms: masculine and feminine."
+  },
+  "Form": {
+    "shortdef": "Form",
+    "Direct": {
+      "shortdef": "direct",
+      "content": "Direct relatives represent the relative marker a in the following contexts:\n\nExamples\n(Relativisers where mark:prt applies)\n* Nuair a chonaic mé \"when I saw\"\n* Fad a bhí sé ann \"while he was there\"\n\nRelative pronouns that represent a missing subject or object in the relative clause\n\n* cé mhéad fuinnimh a bheidh le fáil \"how much energy would be available\"   (nsubj)\n* rudaí a sheoltar ar ais \"things that were sent back\"  (obj)\n\nCases of a that are regarded as Pronouns instead of particles (according to FGB https://www.teanglann.ie/ga/fgb/a)\n* An bhfuair tú a bhfuil uait? Did you get what you wanted?  (nsubj in this case)"
+    },
+    "Indirect": {
+      "shortdef": "indirect",
+      "content": "Indirect relatives represent the relative marker a in the following contexts:\n\nExamples\nRelative pronouns that represent a missing oblique (PP head)\n* an teach inar thug sé an chuid ba mhó dá óige \"the house in which he spent most his youth\"  (obl)\n\nResumptive pronouns, whereby the element which is represented is actually still present in the relativised clause\n* an scríbhneoir a molann na mic léinn é \"the writer who the students praise\"  (mark:prt)\n\nPossessive relativisers - where the a represents the missing possessor in the relativised clause\n* An fear a raibh a mhac san ospidéal \"the man whose son was in hospital\"  (mark:prt)\n\nOne of the characteristics of Irish is its tendency for initial mutation (eclipsis and lenition) to occur in certain circumstances. This is triggered by the preceding word and affects the spelling of nouns, adjectives and verbs. Nouns in Irish are divided into classes according to the way they are inflected to form the genitive singular. There are five such noun-classes or declensions. (The Christian Brothers, 1994)"
+    },
+    "Ecl": {
+      "shortdef": "eclipsis",
+      "content": "This feature occurs when the initial consonant or vowel of a word is eclipsed by a prefixing consonant. This is either a voiced consonant for voiceless consonants, (e.g. /tʲ/ → /dʲ/, /k/ → /g/) or a nasalised consonant for voiced consonants (e.g. /dʲ/ → /nʲ/, /g/ → /ŋ/). Vowels are eclipsed by adding n- or t-.\n\nNot every consonant can experience eclipsis. The consonants that can be eclipsed in Irish are: p, b, t, d, c, g and f.\n\nEclipsis will happen in a number of environments:\n\n* after the plural possessive nouns ár, bhur and a (\"our\", \"your (pl.)\", \"their\")\n* on singular count nouns following the numbers 7-10\n* after the preposition i \"in\"\n* on plural nouns in the genitive case after the definite article\n* on singular nouns in the dative case after the definite article\n* following certain clitics such as interrogative particles (an, nach), complementisers (go, nach) and relativisers (a, nach)\n\nExamples\n\n* a gcuid iarrachtaí “their efforts”\n* seacht mbliana “seven years”\n* i nGaeilge “in Irish”\n* costas na n-oibreacha “cost of the works”\n* ar an bhfocal “on the word”\n* nach bhfaca sé “he didn’t see”"
+    },
+    "Emp": {
+      "shortdef": "emphatic",
+      "content": "The emphatic form is a special form a word takes to mark emphasis in Irish.\n\nExamples\n\n* dom “to me”\n* domsa “to me (emph)”\n* a deirim “I said”\n* a deirimse “I (emph) said”"
+    },
+    "Len": {
+      "shortdef": "lenition",
+      "content": "Lenition is by far the most common means of initial mutation in the treebank. When lenited, h is added immediately after the initial consonant.\n\nThese are some of the environments that trigger lenition:\n\n* following the definite article (see Definite for specifics)\n* following the vocative particle a (see PartType, Case)\n* after certain adjectives (singular possessive pronouns, uile, aon, dhá, etc.)\n* after certain simple prepositions (a,  de, do, faoi, etc.)\n* following the past tense of the copula is\n* following preverbal particles in the past tense (níor, ar, etc.)\n* verb forms in the past tense\n\nExamples\n\n* an fharraige “the sea”\n* A Dhochtúir Van Helsing “Doctor Van Helsing”\n* mo chuid oibre “my work”\n* faoi cheist “under question”\n* Ba mhaith liom “I would like”\n* Níor chuir sin “that doesn’t put”\n* tháinig “came”"
+    },
+    "HPref": {
+      "shortdef": "h-prefix",
+      "content": "When two vowels come together in Irish, a h-prefix is inserted before the second vowel in order to simplify pronunciation.\n\nExamples\n\n* go hálainn “lovely”\n* na heisimirce “emigration”\n* de h-Íde “from Íde”\n* ní hamháin “not only”"
+    },
+    "VF": {
+      "shortdef": "Vowel form",
+      "content": "Vowel form is an indicator of spelling changes that occur in copular verbs when followed by a word that begins with a vowel or a lenited consonant.\n\nExamples\n\n* is copula, “is”\n* ab ea iad “they are”\n* gurbh é “it was”\n* B’fhearr leis lit. “it was better for him”"
+    },
+    "content": "Form has been introduced as a language specific feature for Irish. It covers both the morphology of direct/indirect relative markers, and initial mutation."
+  },
+  "Reflex": {
+    "shortdef": "reflexive",
+    "Yes": {
+      "shortdef": "it is reflexive",
+      "content": "The reflexive form is a feature of pronouns or determiners. It tells whether the word is reflexive, i.e. it refers to the subject of its clause.\n\nIn Irish, the reflexive pronoun is féin\n\nExamples\n\n* bhí fhios agam cheana féin \"I (myself) already knew\"\n* bhí a chiall féin do gach duine ina thaibhreamh féin \"Everybody's own meaning was in his own dream\""
+    },
+    "content": ""
+  },
+  "PronType": {
+    "shortdef": "pronominal type",
+    "Art": {
+      "shortdef": "articles",
+      "content": "Pronominal articles in Irish include the definite articles an or na. These articles can combine with prepositions to create new forms, e.g., an + de = den (“from the”), an + faoi = faoin (“under the”), na + i = sna (“in the”).\n\nExamples\n\n* an tuairim “the opinion”\n* na seirbhíse “the services”\n* san áit “in the place”\n* faoin suíochán “under the seat”"
+    },
+    "Dem": {
+      "shortdef": "demonstrative",
+      "content": "Irish demonstrative pronouns indicate nearness to the speaker, whether this is a difference of time or space. There are three main degrees of closeness: near to the speaker (seo, “this/these”), of some distance to the speaker (sin, “that/those”), and of greater distance to the speaker (siúd, úd, “that/those over there”).\n\nExamples\n\n* Caithfidh mé sin a fhoghlaim “I have to learn that”\n* an ceo seo “this fog”\n* Ina measc siúd “in the midst of that”"
+    },
+    "Emp": {
+      "shortdef": "emphatic",
+      "content": "Personal pronouns (including prepositional pronouns) can take an emphatic suffix (se/sa) depending on whether the root has a broad or slender final vowel. The suffix -an is also used in some cases (leosan \"with them\", eisean \"him\", seisean \"he\" )\n\nExamples\n\n* Mise amháin a thabharfas aire dó “I alone would take care of him” (no-one else)\n* Ní fios domsa “I don't know/ (lit. The information is not at-me)”\n* ar seisean “said he”  (not her, them, etc)"
+    },
+    "Ind": {
+      "shortdef": "indefinite",
+      "content": "Indefinite pronouns are used to refer to unspecified quantities or persons.\n\nExamples\n\n* beidh cibé méid ann “there will be however many there”\n* ní raibh aon duine acu ag goil “nobody (lit. not one person of them) was crying”\n* ar gach uile Chaitliceach “at every single Catholic”"
+    },
+    "Int": {
+      "shortdef": "interrogative",
+      "content": "The interrogative pronouns can be used to specify or question a specific noun. The pronouns used for inanimate things include cén, cad, céard, cathain, conas and cá, while  cé can be used for persons, places or things. These interrogative pronouns can be combined with other nouns to form common question phrases, such as cén fáth (“what reason”), and cé mhéad (“how many”)\n\nExamples\n\n* cén tréimhse a bhí i gceist “which period was in question”\n* cad é sin? “what is that?”\n* cé atá ag comóradh “who is assembling”"
+    },
+    "Prs": {
+      "shortdef": "person",
+      "content": "Examples\n\n* mé, tú, sé, sí, sinn, siad “I, you, he, she, we, they”"
+    },
+    "Rel": {
+      "shortdef": "relative",
+      "content": "The relative pronoun in Irish is a (or ná), and is used to introduce a relative clause or adverbial clause. It can combine with other words, such as the possible combinations with the present form of the verb bí “to be”, as in atá or atáimse, with the copula is, as in ab,  or with the preposition le “with”, as in lena.\n\nExamples\n\n* le grúpa a bhí ag iarraidh “with a group that was trying”\n* a dúirt sí “she said”\n* File ab ea Dónall Ó Muláin “(lit. it was a poet that Dónall Ó Muláin was)”\n* seanáiteanna atá luaite sa leabhar “old places that are mentioned in the book”"
+    },
+    "content": ""
+  },
+  "NumType": {
+    "shortdef": "numeral type",
+    "Card": {
+      "shortdef": "cardinal numbers",
+      "content": "Cardinal numbers can be divided into those without nouns (used in counting, giving the time, etc.), and those with nouns. Those used without nouns use a particle a that is absent in those used with nouns. This particle triggers h-prefix in numbers beginning with a vowel (aon, ocht).\n\nExamples\n\nCounting, etc.:\n* a haon \"one\"\n* a seacht \"seven\"\n* a sé a chlog \"six o' clock\"\n\nNumbers qualifying nouns:\n* dhá bhliain \"two years\"\n* naoi gcapall déag \"nineteen horses\"\n* seasca punt \"sixty pounds\""
+    },
+    "Ord": {
+      "shortdef": "ordinal numbers",
+      "content": "Ordinal numbers can be used to show order of items. In Irish, the form uses the definite article an. (see Definite). The English abbreviation \"th\" appended to a numeral (as in eighth), is given in Irish as -ú.\n\nExamples\n\n* an chéad lá \"the first day\"\n* an dara dóigh \"the second prospect\"\n* an 17ú Marta \"the 17th of March\""
+    },
+    "content": "Irish numeral forms inflect to demonstrate different grammatical roles."
+  },
+  "Number": {
+    "shortdef": "number",
+    "Sing": {
+      "shortdef": "singular",
+      "content": "Examples\n\n* duine \"person\""
+    },
+    "Plur": {
+      "shortdef": "plural",
+      "content": "Examples\n\n* daoine \"people\"\n\nNoun forms in singular and plural for bád (\"boat\"), fuinneog (\"window\"), and am (\"time\"):\n<table>\n<tr><td>Declension</td><td>Case</td><td>Singular</td><td>Plural</td></tr>\n<tr><td>First</td><td>Nominative</td><td>bád</td><td>báid</td></tr>\n<tr><td>First</td><td>Genitive</td><td>báid</td><td>bád</td></tr>\n<tr><td>Second</td><td>Nominative</td><td>fuinneog</td><td>fuinneoga</td></tr>\n<tr><td>Second</td><td>Genitive</td><td>fuinneoige</td><td>fuinneog</td></tr>\n<tr><td>Third</td><td>Nominative</td><td>am</td><td>amanna</td></tr>\n<tr><td>Third</td><td>Genitive</td><td>ama</td><td>ammana</td></tr>\n</table>\n\nVerb Forms for deir (\"say\"), ól (\"drink\"), and imigh(\"leave\"):\n<table>\n<tr><td>Person</td><td>Singular</td><td>Plural</td></tr>\n<tr><td>1st (present ind.)</td><td>Deirim</td><td>Deirimid</td></tr>\n<tr><td></td><td>Ólaim</td><td>Ólaimid</td></tr>\n<tr><td></td><td>Imím</td><td>Imímid</td></tr>\n<tr><td>2nd (imperative)</td><td>Abair</td><td>Abraigí</td></tr>\n<tr><td></td><td>Ól</td><td>Ólaigí</td></tr>\n<tr><td></td><td>Imigh</td><td>Imígí</td></tr>\n<tr><td>3rd (conditional)</td><td>Deirfadh sé</td><td>Deirfaidís</td></tr>\n<tr><td></td><td>Ólfadh sé</td><td>Ólfaidís</td></tr>\n<tr><td></td><td>D'imfeadh sé</td><td>D'imfidís</td></tr>\n</table>\n\nAdjectival agreement:\n<table>\n<tr><td>Noun Phrase</td><td>Singular</td><td>Plural</td><td>English</td></tr>\n<tr><td><em>An duine</em></td><td>áitiúl</td><td></td><td>\"the local person\"</td></tr><tr>\n<td><em>Na daoine</em></td><td></td><td>áitiúla</td><td>\"the local people\"</td></tr>\n<tr><td><em>focal</em></td><td>béasach</td><td></td><td>\"a polite word\"</td></tr>\n<tr><td><em>focail</em></td><td></td><td>béasacha</td><td>\"polite words\"</td></tr>\n</table>"
+    },
+    "content": "Number is an inflectional feature of nouns and other parts of speech (determiners, adjectives, prepositions, verbs, etc.) that mark agreement with nouns. Nouns may have different singular and plural forms in each case (see Form for more on the noun declensions).\n\nVerb endings frequently synthesise to show number and person. The first person singular and plural are always synthetic, while the other paradigms (except 3rd person singular) can be synthetic depending on Mood and Tense.\n\nWords can be either singular or plural."
+  },
+  "Mood": {
+    "shortdef": "mood",
+    "Cnd": {
+      "shortdef": "conditional mood",
+      "content": "The conditional mood is used to express actions that are hypothetical. In Irish, the conditional is expressed in two different verb endings; these endings begin with the suffix -f- or -ó-. In all but the 3rd person singular and the 2nd person plural, the verb endings are synthetic and do not require a subject pronoun. Conditional clauses are often introduced using go or dá.\n\nExamples\n\n* Ólfadh sé \"He would drink\"\n* Dá bhfeicfeá \"If you saw\"\n* ...go bhfeicfeadh sé \"...that he would see\""
+    },
+    "Imp": {
+      "shortdef": "imperative mood",
+      "content": "The imperative mood is used to give a command, express advice, or make a request.\n\nExamples\n\n* Ná habair liom \"Don't tell me\"\n* Bígí ar ais anseo \"Be back here\"\n* Clúdaigh an bia \"Cover the food\""
+    },
+    "Ind": {
+      "shortdef": "indicative mood",
+      "content": "The indicative mood can be considered the default form of a verb. A verb in the indicative indicates something that has happened, is happening or will happen.\n\nExamples\n\n* Deirim \"I say\"\n* Thug sé \"He gave\"\n* Caithfidh mé \"I will have to\""
+    },
+    "Int": {
+      "shortdef": "interrogative mood",
+      "content": "The interrogative mood is marked on copular question forms (nár, nach, ar, arbh, narbh etc)\n\nExamples\n\n* An fíor é \"Is it true?\"\n* Nach in aghaidh easa atá sé ag snámh? \"Isn't he swimming against the tide/ fighting a losing battle?\"\n* Arbh é Seán a bhí ann? \"Was it Sean who was there?\""
+    },
+    "Sub": {
+      "shortdef": "subjunctive mood",
+      "content": "In Irish, the subjunctive mood is used to express a wish or an uncertainty. It is normally formed with the particle go (positive) or nár (negative) followed by the verb in the subjunctive form. Sula 'before' is sometimes also used. The subjunctive is not widely used in Irish.\n\nExamples\n\n* Go n-imí an diabhal do bhóthar \"May the devil be gone from your way\"\n* Go raibh maith agat \"Thank you (lit. That you would have good)\""
+    },
+    "content": "Mood is a feature that expresses modality and subclassifies finite verb forms. It allows for a speaker to express their attitude towards what they are saying."
+  },
+  "Poss": {
+    "shortdef": "possessive",
+    "Yes": {
+      "shortdef": "possessive",
+      "content": "The following table describes the determiners and the morphological changes they cause.\n\n<table>\n<tr><td></td><td>Determiner</td><td>Before consonant</td><td>Before vowel</td><td>Ex: <em>cóta</em> \"coat\"</td><td>Ex: <em>athair</em> \"father\"</td></tr>\n<tr><td>1st sing</td><td><em>mo</em></td><td>lenition</td><td>no change</td><td><em>mo chóta</em></td><td><em>m' athair</em></td></tr>\n<tr><td>2nd sing</td><td><em>do</em></td><td>lenition</td><td>no change</td><td><em>do chóta</em></td><td><em>d' athair</em></td></tr>\n<tr><td>3rd sing masc</td><td><em>a</em></td><td>lenition</td><td>no change</td><td><em>a chóta</em></td><td><em>a athair</em></td></tr>\n<tr><td>3rd sing fem</td><td><em>a</em></td><td>no change</td><td>h-prefix</td><td><em>a cóta</em></td><td><em>a hathair</em></td></tr>\n<tr><td>1st pl</td><td><em>ár</em></td><td>eclipsis</td><td>eclipsis</td><td><em>ár gcóta</em></td><td><em>ár n-athair</em></td></tr>\n<tr><td>2nd pl</td><td><em>bhur</em></td><td>eclipsis</td><td>eclipsis</td><td><em>bhur gcóta</em></td><td><em>bhur n-athair</em></td></tr>\n<tr><td>3rd pl</td><td><em>a</em></td><td>eclipsis</td><td>eclipsis</td><td><em>a gcóta</em></td><td><em>a n-athair</em></td></tr>\n</table>\n\nCertain prepositions (e.g. faoi \"under\", i \"in\", le \"with\") in Irish can absorb the possessive determiners to become possessive prepositions. For instance, le + ár becomes lenár. The noun attached to the prepostion will inflect accordingly.\n\nExamples:\n\n* ina chorpán \"in his body\"\n* ina cónaí \"she lives in (lit. in her dwelling)\"\n* ina gcónaí \"they live in (lit. in their dwelling)\""
+    },
+    "content": "Possessive is a feature of prepositions and determiners in Irish. Possessive prepositions can inflect to show person and number. Possessive determiners cause morphological changes in the noun they are dependent on."
+  },
+  "Definite": {
+    "shortdef": "definiteness or state",
+    "Def": {
+      "shortdef": "definite",
+      "content": "Determiners an and na are both definite, as mentioned above.\n\nIn the case of a genitive construction (eg hata fhir an bhaile \"the hat of the man of the town\"), the noun can also indicate definiteness, though treatment depends on gender and number.\n\nNominative case\n\nIn the nominative case (see Case) nouns undergo some changes following the definite article an; most feminine nouns are lenited after the definite article, while feminine nouns beginning with 's' are eclipsed, becoming 'ts'. Meanwhile, masculine nouns beginning with a vowel get the prefix 't-'.\n\nExamples\n\n* an bua \"the win\"\n* an fharraige \"the sea\"\n* an tseachtain \"the week\"\n* an t-aonad \"the unit\"\n\nFollowing the plural definite article na, both masculine and feminine nouns beginning with a vowel receive the prefix 'h'.\n\nExamples\n\n* na buntáistí \"the advantages\"\n* na hábhair \"the subjects\"\n\nGenitive\n\nIn the genitive case (see Case) the singular definite article an is only used with masculine nouns. In this case, masculine nouns behave like feminine nouns in the nominative case, most masculine nouns beginning with a consonant are lenited, and those beginning with a 's' change to 'ts'. However, nouns beginning with a vowel remain the same.\n\nExamples\n\n* imeachtaí an Éirí Amach \"activities of the uprising\"\n* chumas an pháiste \"ability of the child\"\n* biaiste an tsamhraidh \"season of summer\"\n\nThe plural definite article na is used with feminine singular nouns. In this case, feminine singular nouns beginning with a vowel are prefixed by 'h', while those beginning with a consonant don't change. For plural nouns, na triggers eclipsis where nouns begin with a consonant. Plural nouns beginning with a vowel are eclipsed by the prefix 'n-'.\n\nExamples\n\n* thitim na hoíche \"fall of the night\"\n* óga na tíre \"young of the country\"\n* eagras na bhfostóirí \"organisation of the employers\"\n* measc na n-ábhar \"middle of the subjects\""
+    },
+    "Ind": {
+      "shortdef": "indefinite",
+      "content": "There are no indefinite articles in Irish, however some nouns may inflect to show indefinite features.\n\nExamples\n\n* a gcuid uibheacha \"her eggs\"\n* as láimh \"out of hand\""
+    },
+    "content": "In Irish, definiteness is indicated through the use of a definite article singular an or plural na (also used with feminine singular in genitive case, see below), much like the definite article \"the\" in English. There is no indefinite particle, with nouns considered indefinite unless otherwise indicated."
+  },
+  "Degree": {
+    "shortdef": "degree of comparison",
+    "Pos": {
+      "shortdef": "positive, first degree",
+      "content": "States the quality of an object without comparing that quality to those of any other object.\n\nExamples\n\n* ag airneál go minic \"visiting (at night) often\""
+    },
+    "Cmp": {
+      "shortdef": "comparative, second degree",
+      "content": "In Irish, the comparative and the superlative form is the same. In both cases, the adjective is given a suffix, usually resembling the feminine genitive ending. Both the comparative and the superlative require a degree particle. For the comparative degree, this is níos which corresponds to the English \"more\". The particle is (loosely translated as \"the most\") is used to indicate the superlative degree.\n\nExamples\n\n* níos fada \"longer\"\n* níos mó \"bigger\""
+    },
+    "Sup": {
+      "shortdef": "superlative, third degree",
+      "content": "In Irish, the comparative and the superlative form is the same. In both cases, the adjective is given a suffix, usually resembling the feminine genitive ending. Both the comparative and the superlative require a degree particle. For the comparative degree, this is níos which corresponds to the English \"more\". The particle is (loosely translated as \"the most\") is used to indicate the superlative degree.\n\nExamples\n\n* is fearr \"the best\"\n* is mó \"the biggest\""
+    },
+    "content": "Degree is a feature of adjectives that describe the quality of a noun."
+  },
+  "VerbForm": {
+    "shortdef": "form of verb or deverbative",
+    "Inf": {
+      "shortdef": "infinitive",
+      "content": "The infinitive verb form is the same as the verbal noun. The infinitive is always preceded by the infinitive particle a. This particle causes lenition in the verb, where possible (see Form).\n\nExamples\n\nIntroduced by particle\n* a dhéanamh \"to do\"\n* a chur \"to put\"\n* a rá \"to talk\"\n\nIntroduced by preposition\n* le déanamh \"to do\"\n* chun féachaint \"to see\"\n* á rá \"being said/saying\""
+    },
+    "Cop": {
+      "shortdef": "copula",
+      "content": "The copula verb form usually functions as a copula verb, though it can also be used as a mark, to introduce a complement clause, or as the root of the sentence. The order of elements in a copula construction is in general: copula, predicate (new or focussed information), and subject.\n\nExamples\n\n* Is mise Briain \"I am Brian\"\n* Is é an watt (W) an t-aonad cumhachta \"The watt (W) is the unit of power\"\n\nIn the Irish treebank, the copula verb usually appears in its present tense form is, but has many other forms. It can combine wih other subordinate conjuctions or negative particles to form contractions, such as gur, ba, ní, etc. Also, the form of the verb bí changes with respect to tense, mood and context (see Form).\n\n* Dá mba mise thú \"If I were you\"\n* Más rud é \"if it is a thing\"\n* Ar mhaith leat \"would you like?\"\n* Dúirt sé gur múinteoir é \"He said that he was a teacher\""
+    },
+    "Part": {
+      "shortdef": "participle",
+      "content": "The participle verb form indicates a verbal adjective. It can be used to modify the head noun, or to introduce an adjectival predicate complement. (see xcomp:pred) The participle is usually inflected by adding the suffix -te (-the) or -ta (-tha) to the lemma.\n\nExamples\n\nAdjectival modifier\n* Gaeilge briste \"broken Irish\"\n* na ndaoine fásta \"the adults\" lit. \"the grown people\"\n* Dé Domhnaigh seo caite \"this past Sunday\"\n\n* Tá gearán déanta ag Unison \"Unison have made a complaint\"\n* An mothaíonn tú sábháilte? \"Do you feel safe?\"\n* Tá a lán scríofa ar an ábhar seo \"There's a lot written on this topic\""
+    },
+    "Vnoun": {
+      "shortdef": "verbal noun",
+      "content": "Verbal nouns are similar to an infinitive verb in English, however they function as a noun rather than a verb. They may be used to introduce a clausal complement, (see xcomp), as a conjunct, or as a root of the sentence. The noun is preceded by the preposition ag which loosely translates to \"in the process of\" in this context. The object of the verbal noun is in the genitive case (see Case).\n\nExamples\n\n* Beidh Máire Andrews ag insint scéalta difriúla \"Mary Andrews will be telling different stories\"\n* Bhí Bhreandán ag caitheamh a chuid airgid \"Brendan was spending his money\"\n* Bhí Éamonn ag obair go lánaimsireach \"Eamon was working full-time\""
+    },
+    "content": "In Irish, verb form is a feature of words which have the appearance of a verb, although they function as other parts of speech.\nThis feature appears most commonly as an infinitive construction, which functions as a noun. This feature also appears as a copula, a particle or a verbal noun."
+  },
+  "Dialect": {
+    "shortdef": "Dialect",
+    "Connaught": {
+      "shortdef": "Connaught dialect",
+      "content": "The Connaught dialect is the variety of Irish spoken mostly in the province of Connaught in the west of Ireland.\n\nExamples\n\n* Caidé (standard: Cad é) \"What is it\""
+    },
+    "Munster": {
+      "shortdef": "Munster dialect",
+      "content": "The Munster dialect is the variety of Irish spoken mostly in the province of Munster in the south of Ireland. Most of the instances of dialect variation in the treebank are of Munster variety.\n\nExamples\n\n* Dhein sé (standard: rinne) \"He did\"\n* so (standard: seo) \"this\"\n* san (standard: sin) \"that\""
+    },
+    "Ulster": {
+      "shortdef": "Ulster dialect",
+      "content": "The Ulster dialect is the variety of Irish spoken mostly in the province of Ulster in the north of Ireland.\n\nExamples\n\n* domhsa (standard: dom) \"for me\"\n* fá (standard: faoi) \"under\"\n* cha (standard: ní) negation"
+    },
+    "content": "In Irish, there are three main dialects, with certain grammatical and lexical variations between the dialects. Words or grammatical features in the treebank which were judged to belong to a particular dialect were marked with the Dialect feature."
+  },
+  "Case": {
+    "shortdef": "case",
+    "Nom": {
+      "shortdef": "common case",
+      "content": "The common case in Irish can apply to both the nominative case and acusative case (as they are the same form).\nThis word form is used for subjects and objects of a clause, and predicates of a copula.\n\nExamples\n\nSubjects:\n* Tosóidh an cheolchoirm ar 8pm \"The concert will start at 8pm\"\n* Bhris an bord ina dhá leath \"The board broke into two halves\"\n\nObjects:\n* Cuireann Paul an píosa seo chugainn \"Paul offers this piece to us\"\n* D'ith sí an dinnéar \"She ate the dinner\"\n\nPredicates:\n* Is láithreán uafásach é seo \"This is an awful site\"\n* Is múinteoir é \"He is a teacher\""
+    },
+    "Voc": {
+      "shortdef": "vocative case",
+      "content": "The vocative case is used to mark a noun as being the addresse. It is preceded by the particle a (see PartType). The vocative case triggers lenition.\n\nExamples\n\n* 'Slán leat, a Dhoráid! \"Goodbye, Dorád!\"\n* A dhaoine uaisle \"ladies and gentlemen\""
+    },
+    "Gen": {
+      "shortdef": "genitive case",
+      "content": "The genitive case indicates possesion or ownership. Its use is similar to the use of 's in English. Other use cases include describing the composition of an object, compound nouns, objects of a compound preposition, and objects of a verbal noun (see VerbForm).\n\nExamples\n\n* dearadh an stáitse \"outlook of the state\"\n* mac an fhir \"the man's son (lit. son of the man)\"\n* an Aontas Eorpaigh \"the European Union\""
+    },
+    "Dat": {
+      "shortdef": "dative case",
+      "content": "The dative case is used with most simple prepositions in Irish. In standard Irish, the dative form is identical to the common case.\n\nExamples\n\n* in Eireann \"in Ireland\"\n* sa leabhair \"in the book\""
+    },
+    "content": "Case is an inflectional feature of nouns and other parts of speech (adjectives, verbs, articles) that mark agreement with nouns.\n\nIn Irish four cases are used: common (which covers nominative and accusative case), vocative, genitive and dative. These cases are labelled respectively as Nom (common), Voc, Gen, and Dat."
+  },
+  "Aspect": {
+    "shortdef": "aspect",
+    "Hab": {
+      "shortdef": "habitual aspect",
+      "content": "The action takes place habitually (daily, weekly, annually etc)  or is a usual occurence \n\nExamples\n\n- Bíonn an seoladh poist céanna ag na vótóirí uilig \"Each voter (usually) has the same postal address\"\n- Glas a bhíonn na caora ar dtús \"The sheep are green at first\"\n- Bíonn contúirt bhreise ag baint leis an iomarca meáchain \"There are (can be) additional risks linked to overweight\""
+    },
+    "Imp": {
+      "shortdef": "imperfect aspect",
+      "content": "The action took / takes / will take some time span and there is no\ninformation whether and when it was / will be completed.\n\nExamples\n\n- Chuiridís oilithrigh amach go dtí Compostela \"They used to send pilgrims out to Compostela\"\n- De ghnáth bhíodh an teach i Sráid Sheáin Mhic Dhiarmada go deas te \"Usually, the house in Sean MacDermott St. used to be nice and warm\"\n- Bhíodh colún rialta ag Máire dar theideal 'An Fáinne' ar an Irish Independent \"Mary used to have a regular column in the Irish Independent called `The Ring'\""
+    },
+    "content": "Aspect is a feature that specifies duration of the action in time,\nwhether the action has been completed etc."
+  },
+  "Person": {
+    "shortdef": "person",
+    "0": {
+      "shortdef": "autonomous",
+      "content": "There is no passive form in Irish. However, the Irish impersonal verbform is similar to the passive construction, in that the agent of the verb can be omitted. In this construction, the subject remains anonymous (as a dummy subject indicated through suffixation) and the object remains in the accusative case, as opposed to the nominative case used in the passive voice in English. \n\nThe impersonal verb is inflected with varous suffixes depending on the final vowel of the root (broad/slender) and on the tense: -t(e)ar in the present tense, -(e)adh in the past tense, -f(e)ar, in the future tense, and -f(a)í in the conditional.\n\nExamples\n\n<table>\n<tr><td>Verb</td><td>Present</td><td>Past</td><td>Future</td><td>Conditional</td></tr>\n<tr><td><em>Cuir</em> \"To put\"</td>\n<td><em>cuirtear</em></td>\n<td><em>cuireadh</em></td>\n<td><em>chuirfear</em></td>\n<td><em>chuirfí</em></td></tr>\n<tr><td><em>Cas</em> \"To turn\"</td>\n<td><em>castar</em></td>\n<td><em>casadh</em></td>\n<td><em>casfar</em></td>\n<td><em>chasfaí</em></td></tr>\n<tr><td><em>Déan</em> \"To make/do\"</td>\n<td><em>déantar</em></td>\n<td><em>rinneadh</em></td>\n<td><em>déanfar</em></td>\n<td><em>dhéanfaí</em></td></tr>\n</table>"
+    },
+    "1": {
+      "shortdef": "first person",
+      "content": "The first person refers to the speaker; singular first person includes just one speaker, while plural first person includes many speakers, or groups the speaker with others. In Irish synthetic verbs, the first person is reflected in the suffix morphology. \n\nExamples\n\n* Dúnaim \"I close\"\n* Tuigim \"I understand\"\n* Dúnaimid \"We close\"\n* Tuigimid \"We understand\"\n* agam \"At me\"\n* Romhainn \"Ahead of us\"\n* ár n-aontas leis an Eoraip \"our agreement with Europe\""
+    },
+    "2": {
+      "shortdef": "second person",
+      "content": "The second person refers to the listener. The singular first person denotes just one listener, while the plural form denotes several listeners. Imperative verbs have an understood 2nd person subject even when there is no suffixation present.\n\nExamples\n\n* Dúnann tú/sibh \"You(sing/pl) close\n* Tuigeann tú/sibh \"You(sing/pl) understand\n* Féach! \"(You) look!\"\n* Bígí ann \"(You pl) be there!\" \n* agaibh \"at you (pl)\"\n* do sheoladh \"your (sg) address\"\n* bhur dtacaíocht \"your (pl) support\""
+    },
+    "3": {
+      "shortdef": "third person",
+      "content": "The third person refers to one or more persons who are not present, i.e. neither speakers nor listeners. \nWhile, some verbs forms (e.g. conditional, past imperfect) mark the 3rd person plural synthetically, it is more common to use the 3rd person pronoun with the analytical verbforms.\n\nExamples\n\n* Dúnann sé/sí/siad \"He/she/they close(s)\n* Tuigeann sé/sí/siad \"He/she/they understand(s)\n* é \"him\"\n* iad\"they\"\n* ina \"in his/hers/its/their\"\n* go ndéanfaidís \"that they would make\"\n* an t-ainm a thugaidís ar a n-athair \"the name they used to give to their father\""
+    },
+    "content": "Person is a feature of prepositions, personal and possessive pronouns and verbs. In synthetic verbforms, this feature marks the subject number."
+  },
+  "NounType": {
+    "shortdef": "NounType",
+    "Strong": {
+      "shortdef": "strong plurals",
+      "content": "The form of a strong plural remains unchanged regardless of grammatical case, i.e. it does not inflect.\n\nExamples\n\n* bláthanna “flowers” (nominative, accusative, genitive)\n* oibreacha “works” (nominative, accusative, genitive)\n* cótaí “coats” (nominative, accusative, genitive)"
+    },
+    "Weak": {
+      "shortdef": "weak plurals",
+      "content": "Unlike the strong plural, a weak plural noun is different in the nominative, accusative and genitive cases.\n\nExamples\n\n* focail “words” (nominative, accusative)\n* focal “words” (genitive)\n* Aontais “Unions” (nominative, accusative)\n* Aontas “Unions” (genitive)\n\nAdjectives in Irish can have endings that are slender or not slender (broad). Depending on how the preceding noun ends, the form of the adjective can change."
+    },
+    "NotSlender": {
+      "shortdef": "broad consonants",
+      "content": "A final consonant is termed broad if the preceding vowel is broad (a, á, o, ó, u, ú). The feature 'NotSlender' applies to adjectives qualifying a plural noun that ends in a broad consonant or a vowel.\n\nExamples\n\n* dathanna príomhúla\n* nótaí praiticiúla"
+    },
+    "Slender": {
+      "shortdef": "slender consonants",
+      "content": "A final consonant is termed slender if the preceding vowel is slender (e, é, i, í). The feature 'Slender' applies to adjectives qualifying a plural noun that ends in a slender consonant.\n\nExamples\n\n* na heagrais dheonacha\n* thuaithe cháilitheacha"
+    },
+    "content": "In Irish, noun forms fall into certain groups or declentions (see Form). These nouns follow patterns of inflection depending on gender, number and case. The noun type feature affects the form of modifying adjectives, and so is a feature of both parts of speech."
+  },
+  "Foreign": {
+    "shortdef": "foreign",
+    "Yes": {
+      "shortdef": "Is a foreign word",
+      "content": "Foreign words can appear in titles, quotes, code-switching, foreign proper noun strings etc\n\nExamples\n\n- ag obair ar an Linguistic Atlas and Survey of Irish Dialects \"working on the Linguistic Atlas and Survey of Irish Dialects\"\n- De réir phobalbhreith an Galway Advertiser \"according to the Galway Advertiser opinion polls\"\n- Bhíodh an 'turnkey' amach romhainn sa bpáirc \"The turnkey was out ahead of us in the field\""
+    },
+    "content": "Foreign is a boolean value feature used to indicate that the token belongs to a language other than that of the treebank."
+  },
+  "Abbr": {
+    "shortdef": "abbreviation",
+    "Yes": {
+      "shortdef": "Is an abbreviated form",
+      "content": "Abbreviations in Irish take the form of initials, acronyms (incl named entities) or shortened word forms:\n\nExamples\n\n- <Seán Kyne T.D., an tAire Stáit do Ghnóthaí Gaeltachta, \"Seán Kyne Teachta Dála, the Minister for Gaeltacht Affairs\"\n- i gcomhar le TG4 \"for TG4\" (national broadcaster)\n- Bunaíodh an comhlacht Scéala Éireann Teo. \"The company Scéala Éireann Ltd. was founded\""
+    },
+    "content": "Abbr is a boolean value feature used to indicate that the surface form is an abbreviation."
+  },
+  "PartType": {
+    "shortdef": "PartType",
+    "Ad": {
+      "shortdef": "adverbial",
+      "content": "This particle is used with an adverb to create an adverbial phrase. It’s most frequent form is go.\n\nExamples\n\n* go minic “often”\n* go fóill “yet”\n* go dona “badly”"
+    },
+    "Comp": {
+      "shortdef": "comparative",
+      "content": "The comparative particle is used for introducing a comparative adjective (see Degree).\n\nExamples\n\n* níos mó “bigger”\n* níos déine “more intense”\n\nNOTE: Although 'níos' is tagged as a substantive noun in the standard rule-based POS tagger and in IDT, we mark it as a particle in order to ensure consistency with the superlative form in the same manner."
+    },
+    "Cmpl": {
+      "shortdef": "complementizer",
+      "content": "These complementizers are used to introduce a clausal complement. See ccomp.\n\nExamples\n\n* go raibh fhios acu “that they know”\n* nach bhfeiceann siad “that they don’t see”\n* Is beag nár thit an píosa"
+    },
+    "Cop": {
+      "shortdef": "copular",
+      "content": "The copular particle introduces a copular construction. There is only one instance of this particle in the treebank currently.\n\nExamples\n\n* cén fhealsúnacht a ba bhun leis an tuairim “which philosophy that the opinion was based on”"
+    },
+    "Deg": {
+      "shortdef": "degree",
+      "content": "The degree particle is used to give a superlative description.\n\nExamples\n\n* dá laghad “the least” (at all)\n* ba ea a dhéine a bhí sé á breathnú “with how much more handsome he was becoming”"
+    },
+    "Inf": {
+      "shortdef": "infinitive",
+      "content": "The particle a is used with a verb stem to form the infinitive in Irish. The verb form is lenited.\n\nExamples\n\n* a cheannach “to buy”\n* a thabhairt “to give”\n* a dhénamh “to do”"
+    },
+    "Num": {
+      "shortdef": "numeral",
+      "content": "The particle used for counting in Irish is a. Most forms stay the same, but those numbers beginning with a vowel such as aon (“one”), or ocht (“eight”) are prefixed by h-.\n\nExamples\n\n* a haon “one”\n* a dó “two”\n* a seacht “seven”\n* a hocht “eight”"
+    },
+    "Pat": {
+      "shortdef": "patronym",
+      "content": "This particle is used in last names to mean “son of” or “daughter of”. The masculine forms are Ó and Mac, while the feminine forms include Ní, Nic, Uí and Mhic. Often the anglicised version will use “O” or “Mac” regardless of gender.\n\nExamples\n\n* Mac Craith\n* Teaghlach Uí Ghallchóir\n* Liz O' Donnell\n* Aire de Valera"
+    },
+    "Sup": {
+      "shortdef": "superlative",
+      "content": "The superlative particle is used for introducing a superlative adjective (see Degree).\n\nExamples\n\n* na torthaí is fearr “the best results”\n* an t-eolas is déanaí “the latest information”"
+    },
+    "Vb": {
+      "shortdef": "verbal",
+      "content": "Verbal particles include the positive particles a, gur and the negative particle ní. These particles can be used for introducing relative or adverbial clauses, clefts, or for negating the verb.\n\nExamples\n\n* is ann a bhí cónaí ar Cholm “it was there that Colm lived”\n* gur thit na caighdeáin “that the standards had fallen”\n* ní bheidh sé “he will not”"
+    },
+    "Voc": {
+      "shortdef": "vocative",
+      "content": "The vocative particle is a, and is used to directly address someone. In this circumstance, it triggers lenition in the following noun. See Case\n\nExamples\n\n* Slán leat, a Mhichíl ghrinn. “Goodbye, funny Michael.”"
+    },
+    "content": "Irish makes use of a broad range of particles. Many of these particles have the same form but perform different functions."
+  },
+  "Tense": {
+    "shortdef": "tense",
+    "Past": {
+      "shortdef": "past tense",
+      "content": "The past tense denotes actions that happened before the current moment. In Irish, past tense is indicated in the verb through the addition of lenition and/or a d'- prefix.\n\nExamples\n\n* Thit tú \"You fell\"\n* D'fhan sé \"He stayed\"\n* Thosaigh sí \"She will start\"\n* Bhí síad \"They were\""
+    },
+    "Pres": {
+      "shortdef": "present tense",
+      "content": "The present tense denotes actions that are happening right now or that habitually happen. The present tense paradigm is usually created from adding endings to the lemma of the short verb (e.g. fan + 1st sing ending -> fanaim). Long verbs are shortened first (e.g. tosaigh -> tos- + endings).\n\nExamples\n\n* Titeann tú \"You fall\"\n* Fanann sé \"He stays\"\n* Tosaíonn sí \"She starts\"\n* Bíonn siad \"They are\""
+    },
+    "Fut": {
+      "shortdef": "future tense",
+      "content": "The future tense denotes actions that will happen after the current moment. In Irish, the future is indicated by the addition of a -f-, or -ó- suffix, with endings depending on person (see Person).\n\nExamples\n\n* Titfidh tú \"You will fall\"\n* Fanfaidh sé \"He will stay\"\n* Tosóidh sí \"She will start\"\n* Beidh siad \"They will be\""
+    },
+    "content": "Tense is a feature that specifies the time when the action took / takes / will take place, in relation to the current moment or to another action in the utterance. Verbs in Irish can be regular and irregular (e.g. bí \"to be\"). Regular verbs fall into two conjugation patterns; one for short verbs (e.g. tit, fan) and one for long verbs (e.g. tosaigh). Verb endings vary depending on if the stem is broad or slender (see NounType)."
+  },
+  "PrepForm": {
+    "shortdef": "PrepForm",
+    "Cmpd": {
+      "shortdef": "compound preposition",
+      "content": "In Irish, a simple preposition can be combined with a noun to give a compound preposition. Nouns following compound prepositions are inflected in the genitive case (see Case).\n\nExamples\n\nA list of all compound prepositions is as follows:\n\n<table>\n<tr><td><em>ar aghaidh an  dorais</em></td><td>\"opposite the door\"</td>\n<td><em>ar chúl an tí</em></td><td>\"behind the house\"</td>\n<td><em>ar feadh míosa</em></td><td>\"for a month\"</td>\n<td><em>ar fud na háite</em></td><td>\"throughout the place</td>\n</tr><tr><td><em>ar lorg oibre</em></td><td>\"searching for work\"</td>\n<td><em>ar nós na gaoithe</em></td><td>\"like the wind\"</td>\n<td><em>ar son Dé</em></td><td>\"for God's sake\"</td>\n<td><em>d'ainneoin na taoide</em></td><td>\"in spite of the tide\"</td>\n</tr><tr><td><em>de bharr troda</em></td><td>\"as a result of fighting\"</td>\n<td><em>de chois an tí</em></td><td>\"near the house\"</td>\n<td><em>de chóir an tí</em></td><td>\"near the house\"</td>\n<td><em>de dheasca an óil</em></td><td>\"as a result of drink\"</td>\n</tr><tr><td><em>de dhíobháil airgid</em></td><td>\"for want of money\"</td>\n<td><em>de réir cirt</em></td><td>\"by right\"</td>\n<td><em>de réir an scéil</em></td><td>\"according to the story\"</td>\n<td><em>de thairbhe an eolais</em></td><td>\"on account of the knowledge\"</td>\n</tr><tr><td><em>faoi bhráid an rí</em></td><td>\"before the king\"</td>\n<td><em>faoi bhun tríocha</em></td><td>\"under thirty\"</td>\n<td><em>faoi cheann bliana</em></td><td>\"within a year\"</td>\n<td><em>faoi choinne uisce</em></td><td>\"to fetch water\"</td>\n</tr><tr><td><em>faoi choinne bhean an tí</em></td><td>\"for (the benefit/purpose of) the woman of the house\"</td>\n<td><em>faoi dhéin</em></td><td>\"for the purpose of\"</td>\n<td><em>go ceann míosa</em></td><td>\"for a month (duration)\"</td>\n<td><em>i bhfeighil an tí</em></td><td>\"in charge of the house\"</td>\n</tr><tr><td><em>i bhfianaise Dé</em></td><td>\"before God (as a witness)\"</td>\n<td><em>i bhfochair Sheáin</em></td><td>\"in John's company\"</td>\n<td><em>i dteannta a chéile</em></td><td>\"together\"</td>\n<td><em>i dtrátha a sé</em></td><td>\"about six o'clock\"</td>\n</tr><tr><td><em>i dtuilleamaí Mháire</em></td><td>\"depending on Mary\"</td>\n<td><em>i gcaitheamh an lae</em></td><td>\"during the day\"</td>\n<td><em>i gceann míosa</em></td><td>\"in a month's time\"</td>\n<td><em>i gcionn oibre</em></td><td>\"(set) to work\"</td>\n</tr><tr><td><em>i gcóir an tae</em></td><td>\"for tea\"</td>\n<td><em>i gcosamar Thomáis</em></td><td>\"in Tom's company\"</td>\n<td><em>i gcuideachta na bpáistí</em></td><td>\"in the company of the children\"</td>\n<td><em>i lár na páirce</em></td><td>\"in the middle of the field\"</td>\n</tr><tr><td><em>i láthair an tsagairt</em></td><td>\"before the priest (in the presence of)\"</td>\n<td><em>i mbun an tí</em></td><td>\"in charge of the house\"</td>\n<td><em>i measc na bpáistí</em></td><td>\"among the children\"</td>\n<td><em>i ndiaidh na cainte sin</em></td><td>\"after that talk\"</td>\n</tr><tr><td><em>i rith an gheimhridh</em></td><td>\"during the winter\"</td>\n<td><em>in aghaidh na gaoithe</em></td><td>\"against the wind\"</td>\n<td><em>in aice an tí</em></td><td>\"near the house\"</td>\n<td><em>in airicis Mháire</em></td><td>\"to meet Mary\"</td>\n</tr><tr><td><em>in éadan an Rialtais</em></td><td>\"against the government\"</td>\n<td><em>in ionad scuaibe</em></td><td>\"instead of a brush\"</td>\n<td><em>le cois an airgid</em></td><td>\"along with the money (as well as)\"</td>\n<td><em>le haghaidh an dinnéir</em></td><td>\"for dinner (purpose)\"</td>\n</tr><tr><td><em>le hais an dorais</em></td><td>\"beside the door\"</td>\n<td><em>le linn an chogaidh</em></td><td>\"during the war\"</td>\n<td><em>os cionn an dorais</em></td><td>\"above the door\"</td>\n<td><em>os coinne an tí</em></td><td>\"opposite the house\"</td>\n</tr><tr><td><em>os comhair na cúirte</em></td><td>\"before the court\"</td>\n<td><em>tar éis an dinnéir</em></td><td>\"after dinner\"</td>\n<td><em>thar ceann an dochtúra</em></td><td>\"on behalf of the doctor\"</td></tr>\n</table>\n\nExamples taken from Christian Brothers 1994."
+    },
+    "content": ""
+  },
+  "Polarity": {
+    "shortdef": "whether the word can be or is negated",
+    "Neg": {
+      "shortdef": "negative",
+      "content": "The negative particle ní* can be used in almost every tense, except the past. It causes lenition to relevant consonants (see Form), otherwise there is no change. In the past tense the particle is written as níor, and does not trigger any further lenition, though the word may already be lenited due to past tense morphology (see Tense).\n\n*In the Ulster dialect, this particle also appears as cha (see Dialect)\n\nExamples\n\n* Ní thuigim \"I don't understand\"\n* Níor ól sé \"He didn't drink\"\n\nThe interrogative negative particle nach is used to pose a negative question, or to introduce a clausal complement (see PartType).\n\nExamples\n\n* Nach bhfuil tú? \"Aren't you?\"\n* Dhaoine nach ndearna scannán riamh \"People who haven't ever made a film\"\n\nThe verb \"to be\" (in Irish bí) is given the negative form níl in the present tense, as a contraction of ní bhfuil. It can inflect to show (for instance) person.\n\nExamples\n\n* Níl sé sin mí-réasúnta \"That is not unreasonable\"\n* Ach nílirse sásta \"But you aren't happy\""
+    },
+    "content": "There is no word for \"yes\" or \"no\" in Irish. Instead, a negative particle is used in combination with the verb to give a negative polarity."
+  },
+  "Clusivity[subj]": {
+    "shortdef": "clusivity agreement with subject",
+    "In": {
+      "shortdef": "inclusive subject",
+      "content": "Includes the listener, i.e. we = I + you (+ optionally they).\n\nExamples\n\n* [gun] Mba'echa pa ñande jaiko? “How do we (I+you) live?” (lit. how Q 1.PL.INCL A1.PL.INCL-live)"
+    },
+    "Ex": {
+      "shortdef": "exclusive subject",
+      "content": "Excludes the listener, i.e. we = I + they.\n\nExamples\n\n* [gun] Upei roiko upeicha. “Then we (I+they) lived like this.” (lit. afterwards A1.PL.EXCL-live like.this)"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Ex\">Ex</a></td>\n  <td><a href=\"#In\">In</a></td>\n</tr>\n</table>\n\nClusivity is a feature of first-person plural personal pronouns.\nAs such, it can also be reflected by inflection of verbs, e.g. in Mbyá Guaraní.\n\nSome languages are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Clusivity of the argument,\nwe have two layers of Clusivity on the verb: Clusivity[subj], and (for transitive verbs) Clusivity[obj].\nWhile it would be possible to make the subject layer the default and use just Clusivity for it,\nthe explicit labeling of both layers is probably more helpful in such languages, as it can reduce confusion."
+  },
+  "Number[erg]": {
+    "shortdef": "number agreement with ergative argument",
+    "Sing": {
+      "shortdef": "singular ergative argument",
+      "content": "Examples: [eu] dakarkiogu Number[abs]=Sing|Number[dat]=Sing"
+    },
+    "Plur": {
+      "shortdef": "plural ergative argument",
+      "content": "Examples: [eu] dakarkiogu Number[erg]=Plur"
+    },
+    "content": "Number[erg]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Number[abs] is the number of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absnumber.\n* Number[erg] is the number of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergnumber.\n* Number[dat] is the number of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datnumber.\n\nOne may want to use just Number instead of Number[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, and more important, some Basque finite verbs have additional morphemes of nominal inflection.\nThus their form reflects the person-number agreement with the absolutive argument (nor), and nominal inflection (case, number etc.) at the same time.\nExamples: dena (Number=Sing|Number[abs]=Sing),\ndituena (Number=Sing|Number[abs]=Plur|Number[erg]=Sing),\ndugunak (Number=Plur|Number[abs]=Sing|Number[erg]=Plur),\ndirenak (Number=Plur|Number[abs]=Plur).\nSo we reserve the Number feature for nominal inflection, and the Number[abs] feature for agreement.\n\nNote that we also define Person[abs] and Polite[abs], although there is no direct conflict for these features.\nBut it is better to have these features aligned with Person[erg], Polite[erg], Person[dat] and Polite[dat]."
+  },
+  "Person[abs]": {
+    "shortdef": "person agreement with the absolutive argument",
+    "1": {
+      "shortdef": "first person absolutive argument",
+      "content": "Examples: [eu] dakarkiogu Person[erg]=1"
+    },
+    "2": {
+      "shortdef": "second person absolutive argument",
+      "content": "Examples: [eu] dakarkiozu Person[erg]=2"
+    },
+    "3": {
+      "shortdef": "third person absolutive argument",
+      "content": "Examples: [eu] dakarkiogu Person[abs]=3|Person[dat]=3"
+    },
+    "content": "Person[abs]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Person[abs] is the person of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absperson.\n* Person[erg] is the person of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergperson.\n* Person[dat] is the person of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datperson.\n\nOne may want to use just Person instead of Person[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Person[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Gender[obj]": {
+    "shortdef": "gender agreement with object",
+    "Masc": {
+      "shortdef": "masculine object",
+      "content": "Examples: [eu] ukan ezak “have it” Gender[erg]=Masc|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2|Polite[erg]=Inf\n(imperative addressing a man)"
+    },
+    "Fem": {
+      "shortdef": "feminine object",
+      "content": "Examples: [eu] ukan ezan “have it” Gender[erg]=Fem|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2|Polite[erg]=Inf\n(imperative addressing a woman)"
+    },
+    "content": "Gender[obj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Gender of the argument,\nwe have two layers of Gender on the verb: Gender[subj], and (for transitive verbs) Gender[obj].\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\nIn the informal register, there are also separate forms for masculine and feminine arguments,\nalthough gender is otherwise not distinguished in Basque.\n\n* Gender[erg] is the gender of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called erggender.\n* Gender[dat] is the gender of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datgender."
+  },
+  "Echo": {
+    "shortdef": "is this an echo word or a reduplicative?",
+    "Rdp": {
+      "shortdef": "reduplicative",
+      "content": "The word is a copy of a previous word. In Hindi, this would add the meaning of distribution (\"one rupee each\"), separation (\"sit separately\"), variety, diversity or just emphasis.\n\nExamples: [hi] \"कभी - कभी\" = \"kabhī - kabhī\" = \"sometimes\", \"कभी\" =\n\"kabhī\" = \"sometimes\"; \"एक एक\" = \"eka eka\" = \"one each\", \"एक\" = \"eka\"\n= \"one\""
+    },
+    "Ech": {
+      "shortdef": "echo",
+      "content": "The word rhymes with a previous word but it is not identical to it and\ntypically it does not have any meaning of its own. In Hindi it\ngeneralizes the meaning of the previous word and eventually translates\nas \"or something\", \"etc.\" etc.\n\nExamples: [hi] \"चाय वाय\" = \"čāya vāya\" = \"tea or something\" (as in \"Have some tea or something.\")\n\nFor more details see Rupert Snell and Simon Weightman: Teach Yourself\nHindi, Section 16.4 and 16.5, pages 210 – 211."
+    },
+    "content": "Is this a reduplicative or echo word? Such words occur in Hindi and\nother Indian languages. In Hyderabad Dependency Treebank they get\ntheir own part-of-speech tags RDP and ECH, respectively. We do not\nwant to treat them as separate parts of speech because they could be\nassigned a POS independent of their RDP or ECH status (same as the\nword that they echo). Perhaps we should merge this also with the\n\"hyph\" feature to something called \"compound\"?"
+  },
+  "Evident": {
+    "shortdef": "evidentiality",
+    "Fh": {
+      "shortdef": "firsthand",
+      "content": "Examples\n\n* [tr] geldi “he/she/it came” (and I was there and saw them coming)"
+    },
+    "Nfh": {
+      "shortdef": "non-firsthand",
+      "content": "Examples\n\n* [tr] gelmiş “he/she/it has come” (I did not witness them coming but I know it because someone told me / because I see that they are there now)\n\nReferences\n\n* Aikhenvald, Alexandra Y. 2004. Evidentiality. Oxford: Oxford University Press."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Fh\">Fh</a></td>\n  <td><a href=\"#Nfh\">Nfh</a></td>\n</tr>\n</table>\n\nEvidentiality is the morphological marking of a speaker's source of information\n(Aikhenvald, 2004). It is sometimes viewed as a category of mood and modality.\n\nMany different values are attested in the world's languages. At present we only\ncover the firsthand vs. non-firsthand distinction, needed in Turkish.\nIt distinguishes there the normal past tense (firsthand, also definite past tense,\nseen past tense) from the so-called miş-past (non-firsthand, renarrative,\nindefinite, heard past tense).\n\nAikhenvald also distinguishes reported evidentiality, occurring in Estonian\nand Latvian, among others. We currently use the quotative Mood for this.\n\nNote: Evident is a new universal feature in UD version 2. It was used as\na language-specific feature (under the name Evidentiality) in UD v1 for Turkish."
+  },
+  "PunctType": {
+    "shortdef": "punctuation type",
+    "Peri": {
+      "shortdef": "period at the end of sentence or clause",
+      "content": "Examples\n\n* [es] ¿Por qué? -, se pregunta. “Why? – she wonders.”"
+    },
+    "Elip": {
+      "shortdef": "ellipsis",
+      "content": "Examples\n\n* [pl] Nie wiem, dlaczego ją wybrałem… “I don't know why I chose her ...”"
+    },
+    "Qest": {
+      "shortdef": "question mark",
+      "content": "Examples\n\n* [es] ¿Por qué? -, se pregunta. “Why? – she wonders.”"
+    },
+    "Excl": {
+      "shortdef": "exclamation mark",
+      "content": "Examples\n\n* [es] ¡Fijese en la lectura racista de la Sirenita!. “Notice the racist reading of the Little Mermaid!”"
+    },
+    "Quot": {
+      "shortdef": "quotation marks (various sorts in various languages)",
+      "content": "Examples\n\n* [es] El experto reconoció que estaba \"preocupado\" “The expert acknowledged that he was \"concerned\"”"
+    },
+    "Brck": {
+      "shortdef": "bracket",
+      "content": "Examples\n\n* [es] Ejército del Sur del Líbano (ELS) “South Lebanon Army (SLA)”"
+    },
+    "Comm": {
+      "shortdef": "comma",
+      "content": "Examples\n\n* [es] ¿Por qué? -, se pregunta. “Why? – she wonders.”"
+    },
+    "Colo": {
+      "shortdef": "colon",
+      "content": "Examples\n\n* [es] La mejor defensa: La postura española. “The best defense: The Spanish position.”"
+    },
+    "Semi": {
+      "shortdef": "semicolon",
+      "content": "Examples\n\n* [es] Las distancias son largas; las esperas, desesperantes. “The distances are long; the waiting desperate.”"
+    },
+    "Dash": {
+      "shortdef": "dash, hyphen",
+      "content": "Examples\n\n* [es] ¿Por qué? -, se pregunta. “Why? – she wonders.”"
+    },
+    "Slsh": {
+      "shortdef": "slash or backslash",
+      "content": "Examples\n\n* [pl] Zaczynała w RSC w połowie lat 60., grając pacjentkę szpitala dla obłąkanych w „Marat/Sade”. “She started out at the RSC in the mid-Sixties playing an asylum-inmate in Marat/Sade.”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Brck\">Brck</a></td>\n  <td><a href=\"#Colo\">Colo</a></td>\n  <td><a href=\"#Comm\">Comm</a></td>\n  <td><a href=\"#Dash\">Dash</a></td>\n  <td><a href=\"#Elip\">Elip</a></td>\n  <td><a href=\"#Excl\">Excl</a></td>\n  <td><a href=\"#Peri\">Peri</a></td>\n  <td><a href=\"#Qest\">Qest</a></td>\n  <td><a href=\"#Quot\">Quot</a></td>\n  <td><a href=\"#Semi\">Semi</a></td>\n  <td><a href=\"#Slsh\">Slsh</a></td>\n</tr>\n</table>\n\nMany tagsets have just one tag for punctuation. Others classify punctuation in\nmore detail."
+  },
+  "Person[dat]": {
+    "shortdef": "person agreement with the dative argument",
+    "1": {
+      "shortdef": "first person dative argument",
+      "content": "Examples: [eu] dakarkiogu Person[erg]=1"
+    },
+    "2": {
+      "shortdef": "second person dative argument",
+      "content": "Examples: [eu] dakarkiozu Person[erg]=2"
+    },
+    "3": {
+      "shortdef": "third person dative argument",
+      "content": "Examples: [eu] dakarkiogu Person[abs]=3|Person[dat]=3"
+    },
+    "content": "Person[dat]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Person[abs] is the person of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absperson.\n* Person[erg] is the person of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergperson.\n* Person[dat] is the person of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datperson.\n\nOne may want to use just Person instead of Person[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Person[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Hyph": {
+    "shortdef": "hyphenated compound or part of it",
+    "Yes": {
+      "shortdef": "it is part of hyphenated compound",
+      "content": "Note that this depends on the tokenization conventions used in the language.\nFor example, in Czech (see below), česko-slovenský is tokenized as three\ntokens: česko, the hyphen, and slovenský. While slovenský is a normal\nadjective in Czech, česko is derived from an adjectival stem but it is in\na form that can never occur as a separate word. On the other hand, it can be\ncombined with many other adjectives denoting affiliation with a country or\nregion: česko-moravský, česko-německý, česko-americký etc. If tokenization\nleft it as one token, it the whole word česko-slovenský would be simply an\nadjective and no Hyph=Yes would be used in the annotation.\n\nExamples\n\n* [cs] česko-slovenský \"Czecho-Slovak\"\n* [en] Anglo-Saxon"
+    },
+    "content": "Boolean feature. Is this part of a hyphenated compound? Depending on\ntokenization, the compound may be one token or be split to several\ntokens; then the tokens need tags.\n\nThese are words corresponding to prefixes such inter- (inter disciplinary), post- (post traumatic), un- (un avoidable), di- (di transitive) and so on in English, but which are\nrelized as distinct tokens (without the hyphen) in different languages."
+  },
+  "Person[subj]": {
+    "shortdef": "person agreement with subject",
+    "1": {
+      "shortdef": "first person subject",
+      "content": "Examples: [eu] dakarkiogu Person[erg]=1"
+    },
+    "2": {
+      "shortdef": "second person subject",
+      "content": "Examples: [eu] dakarkiozu Person[erg]=2"
+    },
+    "3": {
+      "shortdef": "third person subject",
+      "content": "Examples: [eu] dakarkiogu Person[abs]=3|Person[dat]=3"
+    },
+    "content": "Person[subj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Person of the argument,\nwe have two layers of Person on the verb: Person[subj], and (for transitive verbs) Person[obj].\nWhile it would be possible to make the subject layer the default and use just Person for it,\nthe explicit labeling of both layers is probably more helpful in such languages, as it can reduce confusion.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Person[abs] is the person of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absperson.\n* Person[erg] is the person of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergperson.\n* Person[dat] is the person of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datperson.\n\nOne may want to use just Person instead of Person[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Person[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Number[psed]": {
+    "shortdef": "possessed object’s number",
+    "Sing": {
+      "shortdef": "singular possession",
+      "content": "Examples\n\n* [hu] ellenfeleié “(possession) of his/her/its opponents” (singular possession)"
+    },
+    "Plur": {
+      "shortdef": "plural possession",
+      "content": "Examples\n\n* [hu] Kolumbuszéi “(possessions) of Columbus” (plural possession)"
+    },
+    "content": "Number[psed]\n\nNumber[psed]\nis the possessee's (possessed, owned noun phrase's) number. In\nHungarian, possession can be marked on the possessor or on the\npossessed. It is possible, though rare, that a noun has three\ndistinct number features: its own grammatical number, number of its\npossessor and number of its possession. Examples from the\nMultext-East Hungarian lexicon:\n\n* <I>könnyedén</I> (SSS)\n  * <I>könny</I> = a tear (singular)\n  * <I>könnyed</I> = your tear (singular owner)\n  * <I>könnyedé</I> = (possession) of your tear (singular possession)\n  * <I>könnyedén</I> = (on the possession) of your tear (superessive case)\n* <I>ellenfeleié</I> (PSS)\n  * <I>ellenfél</I> = an opponent (singular)\n  * <I>ellenfele</I> = his/her/its opponent (singular owner)\n  * <I>ellenfelei</I> = his/her/its opponents (core plural, singular owner)\n  * <I>ellenfeleié</I> = (possession) of his/her/its opponents (singular possession)\n* <I>életeké</I> (SPS)\n  * <I>él</I> = point (singular)\n  * <I>élek</I> = points (plural)\n  * <I>élén</I> = his/her/its point (singular owner)\n  * <I>élünk</I> = our point (plural owner)\n  * <I>életeké</I> = (possession) of our point (singular possession)\n* <I>tárgyalópartnereinkét</I> (PPS)\n  * <I>tárgyalópartner</I> = negotiator (singular)\n  * <I>tárgyalópartnerei</I> = his/her/its negotiators (plural, singular owner)\n  * <I>tárgyalópartnereinkét</I> = (possession) of our negotiators (plural, plural owner, singular possession, accusative case)\n\nWords marked for plural possessions are very rare, though. Note\nthat in the following example from Multext-East, Columbus is marked\nfor plural possession, but not for his own owner.\n\n* <I>Kolumbuszéinál</I>\n  * <I>Kolumbusz</I> = Columbus (singular)\n  * <I>Kolumbuszéi</I> = (possessions) of Columbus (plural possession)\n  * <I>Kolumbuszéinál</I> = (at the possessions) of Columbus (adessive case)"
+  },
+  "Person[erg]": {
+    "shortdef": "person agreement with the ergative argument",
+    "1": {
+      "shortdef": "first person ergative argument",
+      "content": "Examples\n\n* [eu] dakarkiogu Person[erg]=1\n [eu] dizkizuet (lemma edun) Number[erg]=Sing|Person[erg]=1 | Number[abs]=Plur|Person[abs]=3 | Number[dat]=Plur|Person[dat]=2\n [eu] dizkizugu (lemma edun) Number[erg]=Plur|Person[erg]=1 | Number[abs]=Plur|Person[abs]=3 | Number[dat]=Sing|Person[dat]=2"
+    },
+    "2": {
+      "shortdef": "second person ergative argument",
+      "content": "Examples\n\n* [eu] dakarkiozu Person[erg]=2\n [eu] dizkidazu (lemma edun) Number[erg]=Sing|Person[erg]=2 | Number[abs]=Plur|Person[abs]=3 | Number[dat]=Sing|Person[dat]=1"
+    },
+    "3": {
+      "shortdef": "third person ergative argument",
+      "content": "Examples\n\n [eu] zizkigun, dizkigu (lemma edun) Number[erg]=Sing|Person[erg]=3 | Number[abs]=Plur|Person[abs]=3 | Number[dat]=Plur|Person[dat]=1\n [eu] zizkieten, dizkiete (lemma edun) Number[erg]=Plur|Person[erg]=3 | Number[abs]=Plur|Person[abs]=3 | Number[dat]=Plur|Person[dat]=3"
+    },
+    "content": "Person[erg]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Person[abs] is the person of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absperson.\n* Person[erg] is the person of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergperson.\n* Person[dat] is the person of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datperson.\n\nOne may want to use just Person instead of Person[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Person[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "PrepCase": {
+    "shortdef": "case form sensitive to prepositions",
+    "Npr": {
+      "shortdef": "non-prepositional case",
+      "content": "This word form must not be used after a preposition.\n\nExamples: [cs] jemu \"him\" (dative)"
+    },
+    "Pre": {
+      "shortdef": "prepositional case",
+      "content": "This word form must be used after a preposition.\n\nExamples: [cs] k němu \"to him\" (dative)"
+    },
+    "content": "Personal pronouns in some languages\nhave different forms depending on whether they are objects of\nprepositions or not. For instance, Czech <I>on</I>\n(he) without prepositions has the forms <I>jemu</I>/DAT, <I>jeho</I>/ACC,\n<I>jím</I>/INS, while with a preposition it is <I>němu</I>/DAT,\n<I>něho</I>/ACC, <I>ním</I>/INS. Similarly, Portuguese pronouns in\nprepositional oblique case take forms different from oblique pronouns\nserving as direct objects of verbs: <I>eu</I>/NOM (I), <I>me</I>/ACC\n(give me that), <I>mim</I>/PREP-ACC (come to me).\n\nDefault empty value means that the word form is neutral w.r.t.\nprepositions."
+  },
+  "Clusivity[psor]": {
+    "shortdef": "possessor’s clusivity",
+    "In": {
+      "shortdef": "inclusive possessor",
+      "content": "Includes the listener, i.e. we = I + you (+ optionally they).\n\nExamples\n\n* [gun] ñandejaryi “our (my+your) grandmother” (lit. B1.PL.INCL-grandmother)"
+    },
+    "Ex": {
+      "shortdef": "exclusive possessor",
+      "content": "Excludes the listener, i.e. we = I + they.\n\nExamples\n\n* [gun] orejaryi “our (my+their) grandmother” (lit. B1.PL.EXCL-grandmother)"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Ex\">Ex</a></td>\n  <td><a href=\"#In\">In</a></td>\n</tr>\n</table>\n\nClusivity is a feature of first-person plural personal pronouns.\nClusivitypsor] is possessor's clusivity, marked e.g. on [nouns in Mbyá Guaraní.\nThese noun forms would be translated to English as possessive pronoun + noun.\n\nThis layered feature is conveniently used for possessive inflections\nof nouns, although nouns normally do not have a Clusivity feature,\nmeaning that no other layers are needed. Nevertheless, the possessive\nmorphology typically also includes Number, which could be confused\nwith the number of the noun, and we thus have Person[psor] together with Number[psor].\n\nThis layered feature is normally not used with possessive pronouns.\nThey traditionally have just simple Clusivity.\n(And in some languages, possessive pronouns are actually identical to\npersonal pronouns in the genitive case.)"
+  },
+  "Typo": {
+    "shortdef": "is this a misspelled word?",
+    "Yes": {
+      "shortdef": "it is typo",
+      "content": "Examples\n\n* [en] Barak Obama"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Yes\">Yes</a></td>\n</tr>\n</table>\n\nIndicates an erroneous or typographically unexpected word form. \n\nMost unexpected spellings are typographical errors (inadvertent on the part of the author). Also unexpected: creatively using special characters or spaces for visual effect; or unusual character encoding.\nFor transcribed speech, no distinction is made between the original speaker and the transcriber, so a mispronunciation like shilly for silly is also treated like a typo.\nThis feature can also encompass clear errors in word choice, such as learner errors and dysfluencies (e.g. lesser where fewer is appropriate, or eats instead of eat).\n\nNote that \"typographically unexpected\" is interpreted in the context of the genre. Abbreviations or popular informal spellings are not necessarily unexpected. See Abbr.\n\nSuperfluous word-internal spaces are addressed using the goeswith relation to connect parts of the word.\nTypo=Yes should be used with the goeswith head (and this is enforced by validation for treebanks that use features).\n\nThe correct spelling can be indicated in the MISC column with the CorrectForm feature,\nas discussed in the page on typos.\n\nCapitalization, etc.:\nCases where an unexpected form of a letter is used within a word—e.g., unexpected capitalization choices—should be handled on a language- and treebank-specific basis. In a social media treebank, for example, it may not be practical to flag all nonstandard capitalization choices as Typo=Yes given the wide variability of capitalization in unedited writing.\n\nStylistic choices:\nTypo=Yes is intended for specifically orthographic unexpectedness, not unexpected word variants in general. If the author is taken to be signaling an intentionally modified pronunciation of a word, inventing a new word, or making a pun, that is not Typo if the unexpectedness is reflected phonologically. \nThe optional Style feature may be useful in such cases.\nDeliberate, well-established conventions of altering the written forms of words, e.g. censoring profanity with nonalphabetic symbols, should also be considered expressive stylistic choices rather than typographical unexpectedness.\n\nExtra words:\nFor extra or missing words, see the policy on errors.\nA valid word that is superfluous in the sentence and attached as reparandum does not receive Typo=Yes."
+  },
+  "Number[subj]": {
+    "shortdef": "number agreement with subject",
+    "Sing": {
+      "shortdef": "singular subject",
+      "content": "Examples: [eu] dakarkiogu Number[abs]=Sing|Number[dat]=Sing"
+    },
+    "Plur": {
+      "shortdef": "plural subject",
+      "content": "Examples: [eu] dakarkiogu Number[erg]=Plur"
+    },
+    "content": "Number[subj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Number of the argument,\nwe have two layers of Number on the verb: Number[subj], and (for transitive verbs) Number[obj].\nWhile it would be possible to make the subject layer the default and use just Number for it,\nthe explicit labeling of both layers is probably more helpful in such languages, as it can reduce confusion.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Number[abs] is the number of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absnumber.\n* Number[erg] is the number of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergnumber.\n* Number[dat] is the number of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datnumber.\n\nOne may want to use just Number instead of Number[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, and more important, some Basque finite verbs have additional morphemes of nominal inflection.\nThus their form reflects the person-number agreement with the absolutive argument (nor), and nominal inflection (case, number etc.) at the same time.\nExamples: dena (Number=Sing|Number[abs]=Sing),\ndituena (Number=Sing|Number[abs]=Plur|Number[erg]=Sing),\ndugunak (Number=Plur|Number[abs]=Sing|Number[erg]=Plur),\ndirenak (Number=Plur|Number[abs]=Plur).\nSo we reserve the Number feature for nominal inflection, and the Number[abs] feature for agreement.\n\nNote that we also define Person[abs] and Polite[abs], although there is no direct conflict for these features.\nBut it is better to have these features aligned with Person[erg], Polite[erg], Person[dat] and Polite[dat]."
+  },
+  "AdvType": {
+    "shortdef": "adverb type",
+    "Man": {
+      "shortdef": "adverb of manner",
+      "content": "Examples\n\n* [en] how, so"
+    },
+    "Loc": {
+      "shortdef": "adverb of location",
+      "content": "Examples\n\n* [en] where, here, there\n* [cs] kde “where”, odkud “from where”, kudy “through where”, kam “where to”"
+    },
+    "Tim": {
+      "shortdef": "adverb of time",
+      "content": "Examples\n\n* [en] when, now, then\n* [cs] kdy “when”, odkdy “since when”, dokdy “till when”"
+    },
+    "Deg": {
+      "shortdef": "adverb of quantity or degree",
+      "content": "Note that there is a fuzzy borderline between adverbs of degree and\nindefinite numerals (as they are called in some grammars).\n\nExamples\n\n* [cs] více, méně “more, less”"
+    },
+    "Cau": {
+      "shortdef": "adverb of cause",
+      "content": "Examples\n\n* [en] why"
+    },
+    "Mod": {
+      "shortdef": "adverb of modal nature",
+      "content": "The Czech examples below are similar to modal verbs: they take\ninfinitives as arguments and add the meaning of possibility, necessity\nor recommendedness. I suspect that the Bulgarian example\n(transliteration of French \"à propos\") is used differently but its\nnative tagset also calles it \"modal\".\n\nExamples\n\n* [bg] апропо\n* [cs] možno “possible”, nutno “necessary”, radno “adviseable”, třeba “necessary”"
+    },
+    "content": "Semantic subclasses of adverbs. They are annotated in some tagsets\n(e.g. Bulgarian, Czech, Hindi, Japanese) and would probably apply to\nmany other languages if their tagsets cared to cover them. Note that\nthe \"prontype\" feature also applies to some adverbs and is orthogonal\nto \"AdvType\"."
+  },
+  "Polite": {
+    "shortdef": "politeness",
+    "Infm": {
+      "shortdef": "informal register",
+      "content": "Usage varies but if the language distinguishes levels of politeness, then\nthe informal register is usually meant for communication with family\nmembers and close friends.\n\nExamples\n\n* [cs] ty jdeš / vy jdete (you go.Sing/Plur)\n* [de] du gehst / ihr geht (you go.Sing/Plur)\n* [es] tú vas / vosotros vais (you go.Sing/Plur)\n* [ja] 行かない ikanai (will not go)"
+    },
+    "Form": {
+      "shortdef": "formal register",
+      "content": "Usage varies but if the language distinguishes levels of politeness, then\nthe polite register is usually meant for communication with strangers\nand people of higher social status than the one of the speaker.\n\nExamples\n\n* [cs] vy jdete (you go.Sing/Plur)\n* [de] Sie gehen (you go.Sing/Plur)\n* [es] usted va / ustedes van (you go.Sing/Plur)\n* [ja] 行きません ikimasen (will not go)"
+    },
+    "Elev": {
+      "shortdef": "referent elevating",
+      "content": "This register belongs to the speaker-referent axis and can be seen as a subtype\nof the formal register there. As an example, Japanese sonkeigo (尊敬語) is a set\nof honorific forms that elevate the status of the referent.\n\nExamples\n\n* [ja] なさる nasaru, なさいます nasaimasu (to do; when talking about a customer or a superior)"
+    },
+    "Humb": {
+      "shortdef": "speaker humbling",
+      "content": "This register belongs to the speaker-referent axis and can be seen as a subtype\nof the formal register there. As an example, Japanese kenjōgo (謙譲語) is a set\nof honorific forms that lower the speaker's status, thereby raising the referent's\nstatus by comparison.\n\nExamples\n\n* [ja] いたす itasu, いたします itashimasu (to do; when referring to one's own actions or the actions of a group member)\n\nReferences\n\n* Brown, Penelope and Stephen C. Levinson. 1987. Politeness: Some Universals in Language Usage. Studies in Interactional Sociolinguistics, Cambridge, UK: Cambridge University Press.\n* Comrie, Bernard. 1976. Linguistic politeness axes: Speaker-addressee, speaker-referent, speaker-bystander. Pragmatics Microfiche 1.7(A3). Department of Linguistics, University of\nCambridge.\n* Wenger, James R. 1982. Some Universals of Honorific Language with Special Reference to Japanese. Ph.D. thesis, University of Arizona, Tucson, AZ."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Elev\">Elev</a></td>\n  <td><a href=\"#Form\">Form</a></td>\n  <td><a href=\"#Humb\">Humb</a></td>\n  <td><a href=\"#Infm\">Infm</a></td>\n</tr>\n</table>\n\nVarious languages have various means to express politeness or respect; some\nof the means are morphological. Three to four dimensions of politeness are\ndistinguished in linguistic literature. The Polite feature currently covers\n(and mixes) two of them; a more elaborate system of feature values may be\ndevised in future versions of UD if needed. The two axes covered are:\n\n* speaker-referent axis (meant to include the addressee when he happens to be the referent)\n* speaker-addressee axis (word forms depend on who is the addressee, although the addressee is not referred to)\n\nChanging pronouns and/or person and/or number of the verb forms when respectable\npersons are addressed in Indo-European languages belongs to the speaker-referent\naxis because the honorific pronouns are used to refer to the addressee.\n\nIn Czech, formal second person has the same form for singular and plural, and\nis identical to informal second person plural. This involves both the pronoun\nand the finite verb but not a participle, which has no special formal form\n(that is, formal singular is identical to informal singular, not to informal plural).\n\nIn German, Spanish or Hindi, both number and person are changed (informal third\nperson is used as formal second person) and in addition, special pronouns are used\nthat only occur in the formal register ([de] Sie; [es] usted, ustedes;\n[hi] आप āpa).\n\nIn Japanese, verbs and other words have polite and informal forms but the polite\nforms are not referring to the addressee (they are not in second person). They\nare just used because of who the addressee is, even if the topic does not\ninvolve the addressee at all. This kind of polite language is called teineigo (丁寧語)\nand belongs to the speaker-addressee axis. Nevertheless, we currently use the\nsame values for both axes, i.e. Polite=Form can be used for teineigo too.\nThis approach may be refined in future."
+  },
+  "Clusivity[obj]": {
+    "shortdef": "clusivity agreement with object",
+    "In": {
+      "shortdef": "inclusive object",
+      "content": "Includes the listener, i.e. we = I + you (+ optionally they).\n\nExamples\n\n* [gun] Ñande, ñanderayvu ra'e, añete'i po ra'e, chejaryi. “She truly loves us (me+you), my grandmother.” (lit. 1.PL.INCL, B1.PL.INCL-R-love MIR, truth=DIM EPIS MIR, B1.SG-grandmother)"
+    },
+    "Ex": {
+      "shortdef": "exclusive object",
+      "content": "Excludes the listener, i.e. we = I + they.\n\nExamples\n\n* [gun] Ore upecha orejaryi orereroayvu. “Our grandmothers advised us (me+them) like this.” (lit. 1.PL.EXCL like.this B1.PL.EXCL-grandmother B1.PL.EXCL-R-COM-speak)"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Ex\">Ex</a></td>\n  <td><a href=\"#In\">In</a></td>\n</tr>\n</table>\n\nClusivity is a feature of first-person plural personal pronouns.\nAs such, it can also be reflected by inflection of verbs, e.g. in Mbyá Guaraní.\n\nSome languages are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Clusivity of the argument,\nwe have two layers of Clusivity on the verb: Clusivity[subj], and (for transitive verbs) Clusivity[obj].\nWhile it would be possible to make the subject layer the default and use just Clusivity for it,\nthe explicit labeling of both layers is probably more helpful in such languages, as it can reduce confusion."
+  },
+  "PunctSide": {
+    "shortdef": "which side of paired punctuation is this?",
+    "Ini": {
+      "shortdef": "initial (left bracket in English texts)",
+      "content": "Examples\n\n* [is] „gríðarlegan fjölda“ “a huge number”"
+    },
+    "Fin": {
+      "shortdef": "final (right bracket in English texts)",
+      "content": "Examples\n\n* [is] „gríðarlegan fjölda“ “a huge number”"
+    },
+    "content": "Distinguishes between initial and final form of pairwise punctuation\n(brackets, quotation marks, question and exclamation in Spanish). Note\nthat \"initial\" and \"final\" are better terms than \"left\" and\n\"right\". The latter would be confusing in languages writing from right\nto left, like Arabic."
+  },
+  "Number[obj]": {
+    "shortdef": "number agreement with object",
+    "Sing": {
+      "shortdef": "singular object",
+      "content": "Examples: [eu] dakarkiogu Number[abs]=Sing|Number[dat]=Sing"
+    },
+    "Dual": {
+      "shortdef": "dual object",
+      "content": "Examples: [wbp] Nyanyi karnapalangu wawirrijarra. lit. see-NONPAST PRES-1SG(SUBJ)-3DU(OBJ) kangaroo-DU(ABS) “I see two kangaroos.”"
+    },
+    "Plur": {
+      "shortdef": "plural object",
+      "content": "Examples: [eu] dakarkiogu Number[erg]=Plur"
+    },
+    "content": "Number[obj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Number of the argument,\nwe have two layers of Number on the verb: Number[subj], and (for transitive verbs) Number[obj].\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Number[abs] is the number of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absnumber.\n* Number[erg] is the number of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergnumber.\n* Number[dat] is the number of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datnumber.\n\nOne may want to use just Number instead of Number[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, and more important, some Basque finite verbs have additional morphemes of nominal inflection.\nThus their form reflects the person-number agreement with the absolutive argument (nor), and nominal inflection (case, number etc.) at the same time.\nExamples: dena (Number=Sing|Number[abs]=Sing),\ndituena (Number=Sing|Number[abs]=Plur|Number[erg]=Sing),\ndugunak (Number=Plur|Number[abs]=Sing|Number[erg]=Plur),\ndirenak (Number=Plur|Number[abs]=Plur).\nSo we reserve the Number feature for nominal inflection, and the Number[abs] feature for agreement.\n\nNote that we also define Person[abs] and Polite[abs], although there is no direct conflict for these features.\nBut it is better to have these features aligned with Person[erg], Polite[erg], Person[dat] and Polite[dat]."
+  },
+  "Animacy": {
+    "shortdef": "animacy",
+    "Anim": {
+      "shortdef": "animate",
+      "content": "Human beings, animals, fictional characters, names of professions\netc. are normally animate. Even nouns that are normally inanimate can be\ninflected as animate if they are personified. And some words in some\nlanguages can grammatically behave like animates although there is no\nobvious semantic reason for that.\n\nExamples\n\n* [cs] malí kluci “small boys”\n* [cs] malí psi “small dogs”"
+    },
+    "Inan": {
+      "shortdef": "inanimate",
+      "content": "Nouns that are not animate are inanimate.\n\nExamples\n\n* [cs] malé domy “small houses”\n* [pl] małe domy “small houses”"
+    },
+    "Hum": {
+      "shortdef": "human",
+      "content": "A subset of animates where the prototypical member is a human being but not\nan animal. Again, there may be exceptions that do not fit the class semantically\nbut belong to it grammatically.\n\nExamples\n\n* [pl] mali chłopcy “small boys”"
+    },
+    "Nhum": {
+      "shortdef": "non-human",
+      "content": "In languages that only distinguish human from non-human, this value includes\ninanimates. In languages that distinguish human animates, non-human animates\nand inanimates, this value is used only for non-human animates, while Inan\nis used for inanimates.\n\nExamples\n\n* [pl] małe psy “small dogs”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Anim\">Anim</a></td>\n  <td><a href=\"#Hum\">Hum</a></td>\n  <td><a href=\"#Inan\">Inan</a></td>\n  <td><a href=\"#Nhum\">Nhum</a></td>\n</tr>\n</table>\n\nSimilarly to Gender (and to the African noun classes), animacy is\nusually a lexical feature of nouns and inflectional feature\nof other parts of speech (pronouns,\nadjectives, determiners, numerals,\nverbs) that mark agreement with\nnouns. Some languages distinguish only gender, some only animacy,\nand in some languages both gender and animacy play a role in the grammar.\n(Some non-UD tagsets then combine the two features into an extended system\nof genders; however, in UD the two features are annotated separately.)\n\nSimilarly to gender, the values of animacy refer to semantic properties of the\nnoun, but this is only an approximation, referring to the prototypical members\nof the categroy. There are nouns that are treated as grammatically animate,\nalthough semantically the are inanimate.\n\nThe following table is an example of a three-way animacy distinction\n(human – animate nonhuman – inanimate) in the declension of the masculine\ndeterminer który \"which\" in Polish (boldface forms in the upper and lower\nrows differ from the middle row):\n\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n| gender            | sg-nom | sg-gen  | sg-dat  | sg-acc      | sg-ins | sg-loc | pl-nom     | pl-gen  | pl-dat | pl-acc      | pl-ins  | pl-loc  |\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n| animate human     | który  | którego | któremu | którego     | którym | którym | którzy | których | którym | których | którymi | których |\n| animate non-human | który  | którego | któremu | którego | którym | którym | które  | których | którym | które   | którymi | których |\n| inanimate         | który  | którego | któremu | który   | którym | którym | które      | których | którym | które       | którymi | których |\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n{: cellpadding=\"2\" cellspacing=\"0\" }\n\nIn the corresponding paradigm of Czech, only two values are distinguished:\nmasculine animate and masculine inanimate:\n\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n| gender            | sg-nom | sg-gen  | sg-dat  | sg-acc      | sg-ins | sg-loc | pl-nom     | pl-gen  | pl-dat | pl-acc      | pl-ins  | pl-loc  |\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n| animate           | který  | kterého | kterému | kterého | kterým | kterém | kteří  | kterých | kterým | které       | kterými | kterých |\n| inanimate         | který  | kterého | kterému | který   | kterým | kterém | které  | kterých | kterým | které       | kterými | kterých |\n|------------------------------------------------------------------------------------------------------------------------------------------------|\n{: cellpadding=\"2\" cellspacing=\"0\" }\n\nMore generally: Some languages distinguish animate vs. inanimate (e.g. Czech\nmasculines), some languages distinguish human vs. non-human (e.g. Yuwan, a\nRyukyuan language), and others distinguish three values, human vs. non-human\nanimate vs. inanimate (e.g. Polish masculines)."
+  },
+  "Person[psor]": {
+    "shortdef": "possessor’s person",
+    "1": {
+      "shortdef": "first person possessor",
+      "content": "Examples:\n[hu]\n<I>kutya</I>\n= dog;\n<span style='color: red'><I>kutyám</I></span>\n=\nmy dog;\n<span style='color: red'><I>kutyá</I></span><span style='color: red'><I>nk</I></span>\n=\nour dog."
+    },
+    "2": {
+      "shortdef": "second person possessor",
+      "content": "Examples:\n[hu]\n<I>kutya</I>\n= dog;\n<span style='color: red'><I>kutyá</I></span><span style='color: red'><I>d</I></span>\n=\nyour.Sing dog;\n<span style='color: red'><I>kutyá</I></span><span style='color: red'><I>tok</I></span>\n=\nyour.Plur dog."
+    },
+    "3": {
+      "shortdef": "third person possessor",
+      "content": "Examples:\n[hu]\n<I>kutya</I>\n= dog;\n<span style='color: red'><I>kutyá</I></span><span style='color: red'><I>ja</I></span>\n=\nhis/her/its dog;\n<span style='color: red'><I>kutyá</I></span><span style='color: red'><I>juk</I></span>\n=\ntheir dog."
+    },
+    "content": "Person[psor]\nis possessor's person, marked e.g. on Hungarian nouns. These noun\nforms would be translated to English as possessive pronoun + noun.\n\nThis layered feature is conveniently used for possessive inflections\nof nouns, although nouns normally do not have a Person feature,\nmeaning that no other layers are needed. Nevertheless, the possessive\nmorphology typically also includes Number, which must be multi-layered\non nouns, and we thus have Person[psor] together with Number[psor].\n\nThis layered feature is normally not used with possessive pronouns.\nThey traditionally have just simple Person.\n(And in some languages, possessive pronouns are actually identical to\npersonal pronouns in the genitive case.)"
+  },
+  "Number[abs]": {
+    "shortdef": "number agreement with absolutive argument",
+    "Sing": {
+      "shortdef": "singular absolutive argument",
+      "content": "Examples: [eu] dakarkiogu Number[abs]=Sing|Number[dat]=Sing"
+    },
+    "Plur": {
+      "shortdef": "plural absolutive argument",
+      "content": "Examples: [eu] dakarkiogu Number[erg]=Plur"
+    },
+    "content": "Number[abs]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Number[abs] is the number of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absnumber.\n* Number[erg] is the number of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergnumber.\n* Number[dat] is the number of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datnumber.\n\nOne may want to use just Number instead of Number[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, and more important, some Basque finite verbs have additional morphemes of nominal inflection.\nThus their form reflects the person-number agreement with the absolutive argument (nor), and nominal inflection (case, number etc.) at the same time.\nExamples: dena (Number=Sing|Number[abs]=Sing),\ndituena (Number=Sing|Number[abs]=Plur|Number[erg]=Sing),\ndugunak (Number=Plur|Number[abs]=Sing|Number[erg]=Plur),\ndirenak (Number=Plur|Number[abs]=Plur).\nSo we reserve the Number feature for nominal inflection, and the Number[abs] feature for agreement.\n\nNote that we also define Person[abs] and Polite[abs], although there is no direct conflict for these features.\nBut it is better to have these features aligned with Person[erg], Polite[erg], Person[dat] and Polite[dat]."
+  },
+  "DeixisRef": {
+    "shortdef": "person to which deixis is relative",
+    "1": {
+      "shortdef": "deixis relative to the first person participant (speaker)",
+      "content": "Examples\n\n* [wo] xaj bii “this dog” (close to me, wherever you may be) Deixis=Prox|DeixisRef=1\n* [wo] xaj bale “that dog” (far away from me, wherever you may be) Deixis=Remt|DeixisRef=1"
+    },
+    "2": {
+      "shortdef": "deixis relative to the second person participant (hearer)",
+      "content": "Examples\n\n* [wo] xaj boobu “that dog / the dog in question” (close to you, far from me) Deixis=Prox|DeixisRef=2\n* [wo] xaj boobale “that dog” (far away from both of us, but closer to you than to me) Deixis=Med|DeixisRef=2"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#1\">1</a></td>\n  <td><a href=\"#2\">2</a></td>\n</tr>\n</table>\n\nDeixisRef is a feature of demonstrative pronouns, determiners,\nand adverbs, accompanying Deixis when necessary. Deixis encodes position of\nan entity relative to either the speaker or the hearer. If it is necessary to distinguish\nthe person whose location is the reference point (speaker or hearer), DeixisRef is used.\nDeixisRef is not needed if all deictic expressions in the language are relative to the same\nperson (probably the speaker), or if they do not distinguish the reference point."
+  },
+  "Clusivity": {
+    "shortdef": "clusivity",
+    "In": {
+      "shortdef": "inclusive",
+      "content": "Includes the listener, i.e. we = I + you (+ optionally they).\n\nExamples\n\n* [id] kita “we”\n* [crk] kiwīcihānaw “we (I+you) help him”"
+    },
+    "Ex": {
+      "shortdef": "exclusive",
+      "content": "Excludes the listener, i.e. we = I + they.\n\nExamples\n\n* [id] kami “we”\n* [crk] niwīcihānān “we (I+they) help him”\n\nReferences\n\n* Arok Elessar Wolvengrey. 2011. Semantic and pragmatic functions in Plains Cree syntax (PhD thesis). LOT, Utrecht, Netherlands. ISBN 978-94-6093-051-5."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Ex\">Ex</a></td>\n  <td><a href=\"#In\">In</a></td>\n</tr>\n</table>\n\nClusivity is a feature of first-person plural personal pronouns.\nAs such, it can also be reflected by inflection of verbs, e.g. in Plains Cree (Wolvengrey 2011 p. 66)."
+  },
+  "ConjType": {
+    "shortdef": "conjunction type",
+    "Comp": {
+      "shortdef": "comparing conjunction",
+      "content": "Examples: [de] wie (as), als (than)"
+    },
+    "Oper": {
+      "shortdef": "mathematical operator",
+      "content": "Note that operators can be expressed either using symbols or using\nwords.\n\nExamples: [cs] krát (times), plus, minus"
+    },
+    "Pred": {
+      "shortdef": "subordinating conjunction introducing a secondary predicate",
+      "content": "Examples: [pl] jako (as)"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Comp\">Comp</a></td>\n  <td><a href=\"#Oper\">Oper</a></td>\n  <td><a href=\"#Pred\">Pred</a></td>\n</tr>\n</table>\n\nWe already distinguished the two main types, coordinating and\nsubordinating conjunctions, at the level of POS tags. However, there\nare other subtypes that are not yet accounted for."
+  },
+  "VerbType": {
+    "shortdef": "verb type",
+    "Aux": {
+      "shortdef": "auxiliary verb",
+      "content": "Verb used to create periphrastic verb forms (tenses, passives etc.) In\nmany languages there will be ambiguity between auxiliary and other\nusages, thus the same verb should get different feature values depending\non context.\n\nExamples\n\n* [af] Dit het tot 'n verenigde staat gelei. “This has led to a united state.”"
+    },
+    "Cop": {
+      "shortdef": "copula verb",
+      "content": "Verb used to make nominal predicates from adjectives, nouns or\nparticiples. Some languages omit the copula or use other means to\ncreate nominal predicates. In languages that have copula, it is often\nthe equivalent of the verb “to be”.\n\nExamples\n\n* [en] It is purple."
+    },
+    "Mod": {
+      "shortdef": "modal verb",
+      "content": "A group of verbs traditionally distinguished in grammars of some\nlanguages. They take infinitive of another verb as argument (with or\nwithout infinitive-marking conjunction, in languages that have it) and\nadd various modes of possibility, necessity etc. to the meaning of the\ninfinitive. There are other verbs that take infinitives as arguments\nbut they are not considered modal (e.g. phasal verbs such as “to\nbegin to do something”). The set of modal verbs for a language is\nclosed and can be enumerated. Depending on language-internal considerations,\nmodal verbs may be considered a subset of auxiliaries (AUX) or\nnon-auxiliary verbs (VERB).\n\nNote that some languages (e.g. Turkish) use special forms of the main\nverb instead of combining it with a modal verb.\n\nExamples\n\n* [de] dürfen “may”, können “can”, mögen “want/like”,\n  müssen “must”, sollen “shall”, wollen “want”, wissen “know (how to)”\n* [cs] muset “must”, mít “shall, have (to)”, moci “can”, smět\n  “may, be allowed (to)”, umět “know (how to)”, chtít “want”"
+    },
+    "Light": {
+      "shortdef": "light (support) verb",
+      "content": "Light or support verb is used in verbo-nominal constructions where the main part of the meaning\nis contributed by a noun complement but it is not just a nominal predicate with a copula.\nAn English example would be to take a nap, where take is the light verb.\nIt is often the case that the light verb can also function as a normal verb\nin the language (cf. to take two dollars).\nIf the light verb constructions are used frequently in a language (e.g. Hindi or Japanese) or\nif there is a dedicated light verb that cannot be used as normal verb,\nit makes sense to mark light verbs with a dedicated feature value.\n\nExamples\n\n* [ja] する / suru “do”"
+    },
+    "Quasi": {
+      "shortdef": "quasi-verb",
+      "content": "A word that functions partially as a verb and is tagged VERB, yet it is defective in\nsome other aspect that are typical of verbs in the given language. For example, quasi-verbs\nin Polish function as predicates and take infinitives of regular verbs as complements,\nyet their morphology is not verbal: they are more like frozen forms of adjectives.\n\nExamples\n\n* [pl] można “possible”, trzeba “necessary”, warto “worth”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Aux\">Aux</a></td>\n  <td><a href=\"#Cop\">Cop</a></td>\n  <td><a href=\"#Mod\">Mod</a></td>\n  <td><a href=\"#Light\">Light</a></td>\n  <td><a href=\"#Quasi\">Quasi</a></td>\n</tr>\n</table>\n\nWe already split auxiliary and non-auxiliary verbs at the level of UPOS tags.\nThe VerbType feature may be used to capture finer distinctions that some\ntagsets make."
+  },
+  "Style": {
+    "shortdef": "style or sublanguage to which this word form belongs",
+    "Arch": {
+      "shortdef": "archaic, obsolete",
+      "content": "This value should be used if it is desirable in a language to mark archaic lexemes or archaic morphological forms.\nLanguage-specific guidelines must define what exactly it means to be archaic. Note that there are theoretical\nproblems, especially if we want to annotate diachronic corpora with various stages of the language. There is only\none set of guidelines per language, which should accommodate all stages and genres. It would be unfortunate if\nmost words in older texts had to be labeled as Style=Arch. Hence, the only useful application of the feature is\nprobably for words that were already archaic at the time of production of the text.\n\nExamples\n\n* [en] Thou shalt not kill.\n  (The modern equivalent would be You shall not kill.)"
+    },
+    "Rare": {
+      "shortdef": "rare",
+      "content": "Examples\n\n* [cs] Co ale dohnalo mladého ambiciosního člověka k sebevraždě? “But what drove the young, ambitious man to commit suicide?”\n  (The more frequent equivalent would be ambiciózního.)"
+    },
+    "Form": {
+      "shortdef": "formal, literary",
+      "content": "Examples\n\n* [da] Det vil hindre mange misforståelser mellem vore to partier. “It will prevent many misunderstandings between our two parties.”"
+    },
+    "Coll": {
+      "shortdef": "colloquial",
+      "content": "Examples\n\n* [cs] Pojedete do zahraničí s cestovkou? “Are you going abroad with a travel agency?”\n  (The more formal equivalent would be cestovní kanceláří.)"
+    },
+    "Vrnc": {
+      "shortdef": "vernacular",
+      "content": "Examples\n\n* [cs] A tak jsem po čase dělal kmotra nové knize: \"Slovácko sa nesúdí\". “And so, over time, I made the godfather of a new book: \"Slovácko sa nesúdí\" (\"Slovácko does not judge\").”\n  (This is an East-Moravian dialect of Czech; its standard equivalent would be se nesoudí.)"
+    },
+    "Slng": {
+      "shortdef": "slang",
+      "content": "Examples\n\n* [cs] Superdobrý kšeft ovlivňuje jednoznačně počasí. “The super-good business is clearly affected by the weather.”\n  (A more neutral equivalent would be obchod, výnos, výdělek.)"
+    },
+    "Expr": {
+      "shortdef": "expressive, emotional",
+      "content": "This indicates a distinctive morphological or spelling choice for added expressiveness (with respect to pronunciation or meaning).\n\nIn the case of an expressive spelling variant, this feature should be paired with a CorrectForm in the MISC column, as explained in the page on typos.\nCompare the Typo feature, which covers errors and typographical unexpectedness.\n\nExamples\n\n* [cs] Vezeme také několik set čokoládiček. “We also take several hundred chocolates.”\n  (The diminutive signals affection rather than size. The neutral equivalent would be čokolád.)\n en] Kinds of expressive spelling variation include: expressive lengthening (niiiiice), dialectal or colloquial pronunciation (Hahvahd), censored characters (sht), symbolic characters (CA$H), etc. As CA$H defies typographical convention it should also be labeled [Typo=Yes."
+    },
+    "Vulg": {
+      "shortdef": "vulgar",
+      "content": "Examples\n\n* [cs] Doporučuji vrátit parchanta do košíčku, postrčit po vodě a na hloubce ho převrhnout. “I recommend returning the bastard to the basket, pushing it over the water and overturning it at depth.”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Arch\">Arch</a></td>\n  <td><a href=\"#Coll\">Coll</a></td>\n  <td><a href=\"#Expr\">Expr</a></td>\n  <td><a href=\"#Form\">Form</a></td>\n  <td><a href=\"#Rare\">Rare</a></td>\n  <td><a href=\"#Slng\">Slng</a></td>\n  <td><a href=\"#Vrnc\">Vrnc</a></td>\n  <td><a href=\"#Vulg\">Vulg</a></td>\n</tr>\n</table>\n\nThis may be a lexical feature (some words-lemmas are archaic, some are colloquial) or a morphological feature\n(inflectional patterns may systematically change between dialects or styles).\nEnglish pronouns offer a useful case study: thou is archaic;\nwhom is often somewhat formal; ya is colloquial, used in a casual/familiar way (See ya!);\ny'all is vernacular (especially associated with certain regions);\nand wtf is arguably an expressive variant of the pronoun what in contexts where a nominal is required\n(Wtf are you doing?!).\n\nBesides real morphology, the choices that make a particular word form\nbelong to a different style may also be orthographic.\n\nThis feature could be used in many languages but only a few choose to actually annotate it.\nSeen in Bulgarian, Czech, Danish, English, Finnish and Hungarian."
+  },
+  "Polite[erg]": {
+    "shortdef": "politeness agreement with ergative argument",
+    "Infm": {
+      "shortdef": "informal ergative argument",
+      "content": "Examples: [eu] ezan, ezak Polite[erg]=Inf"
+    },
+    "Form": {
+      "shortdef": "polite, formal ergative argument",
+      "content": "Examples: [eu] ezazu Polite[erg]=Pol (politeness-neutral form is ezazue)"
+    },
+    "content": "Polite[erg]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject;\nfor the second person this also affects the politeness register.\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Polite[abs] is the politeness of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called abspoliteness.\n* Polite[erg] is the politeness of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergpoliteness.\n* Polite[dat] is the politeness of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datpoliteness.\n\nOne may want to use just Polite instead of Polite[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Polite[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Gender[subj]": {
+    "shortdef": "gender agreement with subject",
+    "Masc": {
+      "shortdef": "masculine subject",
+      "content": "Examples: [eu] ukan ezak “have it” Gender[erg]=Masc|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2|Polite[erg]=Inf\n(imperative addressing a man)"
+    },
+    "Fem": {
+      "shortdef": "feminine subject",
+      "content": "Examples: [eu] ukan ezan “have it” Gender[erg]=Fem|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2|Polite[erg]=Inf\n(imperative addressing a woman)"
+    },
+    "content": "Gender[subj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Gender of the argument,\nwe have two layers of Gender on the verb: Gender[subj], and (for transitive verbs) Gender[obj].\nWhile it would be possible to make the subject layer the default and use just Gender for it,\nthe explicit labeling of both layers is probably more helpful in such languages, as it can reduce confusion.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\nIn the informal register, there are also separate forms for masculine and feminine arguments,\nalthough gender is otherwise not distinguished in Basque.\n\n* Gender[erg] is the gender of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called erggender.\n* Gender[dat] is the gender of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datgender."
+  },
+  "Polite[abs]": {
+    "shortdef": "politeness agreement with absolutive argument",
+    "Infm": {
+      "shortdef": "informal absolutive argument",
+      "content": "Examples: [eu] ezan, ezak Polite[erg]=Inf"
+    },
+    "Form": {
+      "shortdef": "polite, formal absolutive argument",
+      "content": "Examples: [eu] ezazu Polite[erg]=Pol (politeness-neutral form is ezazue)"
+    },
+    "content": "Polite[abs]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject;\nfor the second person this also affects the politeness register.\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Polite[abs] is the politeness of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called abspoliteness.\n* Polite[erg] is the politeness of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergpoliteness.\n* Polite[dat] is the politeness of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datpoliteness.\n\nOne may want to use just Polite instead of Polite[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Polite[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Voice": {
+    "shortdef": "voice",
+    "Act": {
+      "shortdef": "active or actor-focus voice",
+      "content": "The subject of the verb is the doer of the action (agent), the object\nis affected by the action (patient). This label is also used for the\nactor-focus voice of Austronesian languages. \n\nExamples\n\n* [cs] Napadli jsme nepřítele. “We attacked the enemy”\n  (the active participle napadli can be used to form either past\n  tense or conditional mood; here it forms the past tense.)\n* [grc] λύει τὸν ἵππον μου (luei ton hippon mou) “he frees my horse”\n* [hu] mos “wash”\n* [tr] Barış Filiz’i öptü. “Barış kissed Filiz.”\n* [tl] Naglilinis siya ng bahay. “He/she cleans a/the house.”\n* [yii] Waguɖaŋgu guda:ga wawa:l. “The man saw the dog.”\n  (lit. man-ERG dog.ABS see.ACT-PAST)"
+    },
+    "Mid": {
+      "shortdef": "middle voice",
+      "content": "Between active and passive, needed e.g. in Ancient Greek or Sanskrit.\nThe subject is both doer and undergoer in a sense:\nhe is acting upon himself.\n\nExamples\n\n* [grc] λύομαι τὸν ἵππον (luomai ton hippon) “I free (my own) horse”\n\n(source)"
+    },
+    "Rcp": {
+      "shortdef": "reciprocal voice",
+      "content": "In a plural subject, all members are doers and undergoers,\nacting upon each other.\n\nExamples\n\n* [tr] Filiz ve Barış öpüştüler. “Filiz and Barış kissed.”"
+    },
+    "Pass": {
+      "shortdef": "passive or patient-focus voice",
+      "content": "The subject of the verb is affected by the action (patient). The doer\n(agent) is either unexpressed or it appears as an oblique dependent\nor an object of the verb. This label is also used for the patient-focus\nvoice of Austronesian languages. \n\nExamples\n\n* [cs] Jsme napadeni nepřítelem. “We are attacked by\n  the enemy” (the passive participle napadeni is used to form\n  passive in all tenses; here it forms the present passive.)\n* [tl] Nililinis niya ang bahay. “He/she cleans the house.”"
+    },
+    "Antip": {
+      "shortdef": "antipassive voice",
+      "content": "In ergative-absolutive languages, the absolutive P argument is demoted\nto an oblique dependent and the ergative A argument takes the absolutive\nform, thus transforming a transitive clause into intransitive.\n\nExamples\n\n* [yii] Wagu:ɖa gudaganda wawa:ɖiɲu. “The man saw the dog.”\n  (lit. man.ABS dog-DAT see-ANTIP-PAST)"
+    },
+    "Lfoc": {
+      "shortdef": "location-focus voice",
+      "content": "The subject of the verb indicates location or direction, while the\ndoer and the undergoer/theme are coded as objects.\n\nExamples\n\n* [tl] Aalisan ng babae ng bigas ang sako para sa bata. “A/the woman will take some rice out of the sack for a/the child.”"
+    },
+    "Bfoc": {
+      "shortdef": "beneficiary-focus voice",
+      "content": "The subject of the verb indicates the beneficiary, while the\ndoer and the undergoer/theme are coded as objects.\n\nExamples\n\n* [tl] Ipagaalis ng babae ng bigas sa sako ang bata. “A/the woman will take some rice out of a/the sack for the child.”"
+    },
+    "Dir": {
+      "shortdef": "direct voice",
+      "content": "Used in direct-inverse voice systems, e.g. in Algonquian languages of North America.\nDirect means that the argument that is higher in salience hierarchy is the subject.\nExample hierarchy: human 1st person – 2nd – 3rd – non-human animate – inanimate.\n\nExamples\n\n* [crk] Niwīcihānānak. “We help them.” (ni-wīcih-ā-nān-ak lit. 1PL[subj]-help-DIR-3[obj]-PL[obj])"
+    },
+    "Inv": {
+      "shortdef": "inverse voice",
+      "content": "Used in direct-inverse voice systems, e.g. in Algonquian languages of North America.\nInverse voice marking means that the argument lower in the hierarchy functions as subject.\n\nExamples\n\n* [crk] Niwīcihikonānak. “They help us.” (ni-wīcih-iko-nān-ak lit. 1PL[subj]-help-INV-3[obj]-PL[obj])"
+    },
+    "Cau": {
+      "shortdef": "causative voice",
+      "content": "Causative forms of verbs are classified as a voice category because,\nwhen compared to the basic active form, they change the number of\nparticipants and their mapping on semantic roles.\n(See, e.g., the documentation\nof the METU Sabanci treebank (page 26).)\nNote that this is a feature of verbs. There are languages that have\nalso the causative case of nouns.\n\nExamples\n\n* [hu] mosat “make somebody wash”\n* [tr] karıştırıyor “is confusing” (= is causing somebody to be confused)"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Act\">Act</a></td>\n  <td><a href=\"#Antip\">Antip</a></td>\n  <td><a href=\"#Bfoc\">Bfoc</a></td>\n  <td><a href=\"#Cau\">Cau</a></td>\n  <td><a href=\"#Dir\">Dir</a></td>\n  <td><a href=\"#Inv\">Inv</a></td>\n  <td><a href=\"#Lfoc\">Lfoc</a></td>\n  <td><a href=\"#Mid\">Mid</a></td>\n  <td><a href=\"#Pass\">Pass</a></td>\n  <td><a href=\"#Rcp\">Rcp</a></td>\n</tr>\n</table>\n\nVoice is typically a feature of verbs.\nIt may also occur with other parts of speech\n(nouns, adjectives, adverbs),\ndepending on whether borderline word forms such as gerunds and participles\nare classified as verbs or as the other category.\n\nFor Indo-European speakers, voice means mainly the active-passive\ndistinction. In other languages, other shades of verb meaning are\ncategorized as voice."
+  },
+  "Number[dat]": {
+    "shortdef": "number agreement with dative argument",
+    "Sing": {
+      "shortdef": "singular dative argument",
+      "content": "Examples: [eu] dakarkiogu Number[abs]=Sing|Number[dat]=Sing"
+    },
+    "Plur": {
+      "shortdef": "plural dative argument",
+      "content": "Examples: [eu] dakarkiogu Number[erg]=Plur"
+    },
+    "content": "Number[dat]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Number[abs] is the number of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absnumber.\n* Number[erg] is the number of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergnumber.\n* Number[dat] is the number of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datnumber.\n\nOne may want to use just Number instead of Number[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, and more important, some Basque finite verbs have additional morphemes of nominal inflection.\nThus their form reflects the person-number agreement with the absolutive argument (nor), and nominal inflection (case, number etc.) at the same time.\nExamples: dena (Number=Sing|Number[abs]=Sing),\ndituena (Number=Sing|Number[abs]=Plur|Number[erg]=Sing),\ndugunak (Number=Plur|Number[abs]=Sing|Number[erg]=Plur),\ndirenak (Number=Plur|Number[abs]=Plur).\nSo we reserve the Number feature for nominal inflection, and the Number[abs] feature for agreement.\n\nNote that we also define Person[abs] and Polite[abs], although there is no direct conflict for these features.\nBut it is better to have these features aligned with Person[erg], Polite[erg], Person[dat] and Polite[dat]."
+  },
+  "NameType": {
+    "shortdef": "type of named entity",
+    "Geo": {
+      "shortdef": "geographical name",
+      "content": "Names of cities, countries, rivers, mountains etc.\n\nExamples\n\n* [cs] Praha&nbsp; “Prague”, Kostelec nad Černými lesy&nbsp;, Německo&nbsp; “Germany”"
+    },
+    "Prs": {
+      "shortdef": "name of person",
+      "content": "This value is used if it is not known whether it is a given or a family name, but it is known that it is a personal name.\n\nExamples\n\n* [sms] Ja seeʹst vueʹppes leäi Laurikainen \"And they had a guide Laurikainen\""
+    },
+    "Giv": {
+      "shortdef": "given name of person",
+      "content": "Given name (not family name). This is usually the first name in European and American names. In Chinese names, the last two syllables (of three) are usually the given name.\n\nExamples\n\n* [en] George Bush"
+    },
+    "Pat": {
+      "shortdef": "patronymic in a name of a person",
+      "content": "Patronymic (not given name and not family name). This is the middle name in East Slavic personal names.\n\nExamples\n\n* [uk] директора Бульби Олександра Миколайовича / dyrektora Buľby Oleksandra Mykolajovyča"
+    },
+    "Sur": {
+      "shortdef": "surname / family name of person",
+      "content": "Family name (surname). This is usually the last name in European and American names. In Chinese names, the first syllable (of three) is usually the surname.\n\nExamples\n\n* [en] George Bush"
+    },
+    "Nat": {
+      "shortdef": "nationality",
+      "content": "Name denoting a member of a particular nation, or inhabitant of a particular territory.\n\nExamples\n\n* [cs] Čech&nbsp; “Czech”, Němec&nbsp; “German”, Pražan&nbsp; “Praguer”\n* [cs] Po válce byli Němci z Československa vyhnáni. \"After the war, the Germans were expelled from Czechoslovakia.\""
+    },
+    "Com": {
+      "shortdef": "company, organization",
+      "content": "Examples\n\n* [en] Microsoft, UNESCO"
+    },
+    "Pro": {
+      "shortdef": "product",
+      "content": "Examples\n\n* [en] Opel Vectra"
+    },
+    "Oth": {
+      "shortdef": "other",
+      "content": "Names of stadiums, guerilla bases, events etc.\n\nExamples\n\n* [en] the COLING 2020 conference"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Com\">Com</a></td>\n  <td><a href=\"#Geo\">Geo</a></td>\n  <td><a href=\"#Giv\">Giv</a></td>\n  <td><a href=\"#Nat\">Nat</a></td>\n  <td><a href=\"#Oth\">Oth</a></td>\n  <td><a href=\"#Pat\">Pat</a></td>\n  <td><a href=\"#Pro\">Pro</a></td>\n  <td><a href=\"#Prs\">Prs</a></td>\n  <td><a href=\"#Sur\">Sur</a></td>\n</tr>\n</table>\n\nClassification of named entities (token-based, no nesting of entities etc.)\nThe feature applies mainly to the PROPN tag;\nin multi-word foreign names, adjectives may also have this feature\n(they preserve the ADJ tag but at the same time they would not exist in the\nhost language otherwise than in the named entity)."
+  },
+  "Subcat": {
+    "shortdef": "subcategorization",
+    "Intr": {
+      "shortdef": "intransitive verb",
+      "content": "A verb that does not take arguments other than the subject.\n\nExamples\n\n* [en] to go"
+    },
+    "Indir": {
+      "shortdef": "indirect verb",
+      "content": "A verb that does not require a direct object but it requires an oblique argument.\n\nExamples\n\n* [en] to rely on something"
+    },
+    "Tran": {
+      "shortdef": "transitive verb",
+      "content": "A verb that takes a direct (accusative) object as argument (in addition to the subject).\nThese verbs can be passivized, then the direct object becomes the subject.\n\nExamples\n\n* [en] to do something, to be done by somebody"
+    },
+    "Ditr": {
+      "shortdef": "ditransitive verb",
+      "content": "A verb that takes two core objects as arguments (in addition to the subject).\nThese verbs can be passivized.\n\nExamples\n\n* [en] to give somebody something, to be given something by somebody"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Ditr\">Ditr</a></td>\n  <td><a href=\"#Indir\">Indir</a></td>\n  <td><a href=\"#Intr\">Intr</a></td>\n  <td><a href=\"#Tran\">Tran</a></td>\n</tr>\n</table>\n\nLexical feature of verbs.\nSome tagsets distinguish intransitive and transitive verbs.\nIn many languages however, subcategorization of verbs is much more complex than this."
+  },
+  "AdpType": {
+    "shortdef": "adposition type",
+    "Prep": {
+      "shortdef": "preposition",
+      "content": "Examples\n\n* [en] in, on, to, from"
+    },
+    "Post": {
+      "shortdef": "postposition",
+      "content": "Examples\n\n* [de] entlang in der Strasse entlang “along the street”"
+    },
+    "Circ": {
+      "shortdef": "circumposition",
+      "content": "Examples\n\n* [de] von … an in von dieser Stelle an “from this place on”"
+    },
+    "Voc": {
+      "shortdef": "vocalized preposition",
+      "content": "In Slavic languages, some prepositions are non-syllabic and their form\nhas to be changed in some contexts to facilitate pronunciation.\n\nExamples\n\n* [cs] ke, ku, se, ve, ze\n* [cs] k, k, s, v, z are the non-vocalized equivalents\n\nSame phenomenon exists in Slovak, Russian and probably elsewhere."
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Circ\">Circ</a></td>\n  <td><a href=\"#Post\">Post</a></td>\n  <td><a href=\"#Prep\">Prep</a></td>\n  <td><a href=\"#Voc\">Voc</a></td>\n</tr>\n</table>"
+  },
+  "NounClass": {
+    "shortdef": "noun class",
+    "Bantu1": {
+      "shortdef": "singular, persons",
+      "content": "The corresponding plural class is Bantu2.\n\nExamples\n\n* [sw] mtoto “child”"
+    },
+    "Bantu2": {
+      "shortdef": "plural, persons",
+      "content": "The corresponding singular class is Bantu1.\n\nExamples\n\n* [sw] watoto “children”"
+    },
+    "Bantu3": {
+      "shortdef": "singular, plants, thin objects",
+      "content": "The corresponding plural class is Bantu4.\n\nExamples\n\n* [sw] mti “tree”"
+    },
+    "Bantu4": {
+      "shortdef": "plural, plants, thin objects",
+      "content": "The corresponding singular class is Bantu3.\n\nExamples\n\n* [sw] miti “trees”"
+    },
+    "Bantu5": {
+      "shortdef": "singular, fruits, round objects, paired things",
+      "content": "The corresponding plural class is Bantu6.\n\nExamples\n\n* [sw] jiwe “stone”"
+    },
+    "Bantu6": {
+      "shortdef": "plural, fruits, round objects, paired things",
+      "content": "The corresponding singular class is Bantu5, also Bantu9, Bantu11, seldomly Bantu1.\n\nExamples\n\n* [sw] mawe “stones”"
+    },
+    "Bantu7": {
+      "shortdef": "singular, things, diminutives",
+      "content": "The corresponding plural class is Bantu8.\n\nExamples\n\n* [sw] kitabu “book”"
+    },
+    "Bantu8": {
+      "shortdef": "plural, things, diminutives",
+      "content": "The corresponding singular class is Bantu7.\n\nExamples\n\n* [sw] vitabu “books”"
+    },
+    "Bantu9": {
+      "shortdef": "singular, animals, things",
+      "content": "The corresponding plural class is Bantu10 or Bantu6.\n\nExamples\n\n* [sw] ndege “bird”"
+    },
+    "Bantu10": {
+      "shortdef": "plural, animals, things",
+      "content": "The corresponding singular class is Bantu9.\n\nExamples\n\n* [sw] ndege “birds” (plural of the noun is identical to singular; however, verbs agree with the zi- prefix in plural and with i- in singular)"
+    },
+    "Bantu11": {
+      "shortdef": "long thin objects, natural phenomena, abstracts",
+      "content": "Examples\n\n* [sw] utoto “childhood”"
+    },
+    "Bantu12": {
+      "shortdef": "singular, small things, diminutives",
+      "content": "The corresponding plural class is Bantu13 or Bantu14.\n\nExamples\n\n* [lg] embwa “dog” → akabwa “puppy”"
+    },
+    "Bantu13": {
+      "shortdef": "plural or mass, small amount of mass",
+      "content": "Examples\n\n* [lg] mazzi “water” → otuzzi “drop of water”"
+    },
+    "Bantu14": {
+      "shortdef": "plural, diminutives",
+      "content": "In Ganda, this is the plural counterpart of Bantu12.\n\nExamples\n\n* [lg] obubwa “puppies”"
+    },
+    "Bantu15": {
+      "shortdef": "verbal nouns, infinitives",
+      "content": "Examples\n\n* [sw] -soma “read” → kusoma “reading; to read”"
+    },
+    "Bantu16": {
+      "shortdef": "definite location, close to something",
+      "content": "Examples\n\n* [sw] pahali “place”"
+    },
+    "Bantu17": {
+      "shortdef": "indefinite location, direction, movement",
+      "content": "Examples\n\n* [sw] kule “there”"
+    },
+    "Bantu18": {
+      "shortdef": "definite location, inside something",
+      "content": "Examples\n\n* [sw] mule “in there”"
+    },
+    "Bantu19": {
+      "shortdef": "little bit of, pejorative plural",
+      "content": "Bantu class 19 may signify “a little bit of” or a plural with a pejorative nuance, as in Hunde.\n\nExamples\n\n* [hke] hyùndù “a bit of porridge”\n* [hke] hìkátsì “frail females”\n* [hke] hyábánà “thin children”"
+    },
+    "Bantu20": {
+      "shortdef": "singular, augmentatives",
+      "content": "In Ganda, the corresponding plural class is Bantu6 or Bantu22.\n\nExamples\n\n* [lg] musajja “man” → ogusajja “giant”"
+    },
+    "Bantu21": {
+      "shortdef": "singular, augmentatives, derogatives",
+      "content": "Examples\n\n* [ve] ḓinga “large lump of earth”\n* [ve] ḓanḓa “big clumsy hand”"
+    },
+    "Bantu22": {
+      "shortdef": "plural, augmentatives",
+      "content": "The corresponding singular class is Bantu20.\n\nExamples\n\n* [lg] agasajja “giants”"
+    },
+    "Bantu23": {
+      "shortdef": "location with place names",
+      "content": "Examples\n\n* [lg] elugala “at Lugala”\n\nNoun Classes in Wolof\n\nWolof is a non-Bantu Niger-Congo language. It has noun classes but their semantics\ncannot be easily mapped on the Bantu classes. The class is morphologically unmarked\non nouns (although it is an inherent property of the lexeme) but determiners have\nto show agreement with the class.\n\nThe Wolof noun class system lacks semantic coherence. One reason for this is that\nin Wolof noun classification is sometimes based on other factors than semantics,\nincluding phonology and morphology. And still these are just some tendencies, but in\nmost cases there is no clear semantics, phonology or morphology that can explain the\nclassification in Wolof.\n\nExamples\n\nThe following table shows the forms of proximate demonstratives in the first ten noun classes;\nclasses 2 and 8 are plural, the rest are singular.\n\n<table class=\"wikitable\">\n<tr><td><tt>Wol1</tt></td><td><tt>Wol2</tt></td><td><tt>Wol3</tt></td><td><tt>Wol4</tt></td><td><tt>Wol5</tt></td><td><tt>Wol6</tt></td><td><tt>Wol7</tt></td><td><tt>Wol8</tt></td><td><tt>Wol9</tt></td><td><tt>Wol10</tt></td><td>English</td></tr>\n<tr><td><i>ki</i></td><td></td><td><i>gi</i></td><td><i>ji</i></td><td><i>bi</i></td><td><i>mi</i></td><td><i>li</i></td><td></td><td><i>si</i></td><td><i>wi</i></td><td>“this”</td></tr>\n<tr><td></td><td><i>ñi</i></td><td></td><td></td><td></td><td></td><td></td><td><i>yi</i></td><td></td><td></td><td>“these”</td></tr>\n</table>\n\nWolof classes 11 and 12, although behaving like noun classes, have meanings that are adverbial rather than nominal:\nclass 11 is for location, class 12 for manner.\n\n<table class=\"wikitable\">\n<tr><td><tt>Wol11</tt></td><td><tt>Wol12</tt></td></tr>\n<tr><td><i>fi</i> “here”</td><td><i>ni</i> “so”</td></tr>\n</table>"
+    },
+    "Wol1": {
+      "shortdef": "Wolof noun class 1/k (singular human)",
+      "content": "Examples\n\n* [wo] nitug Afrig ki"
+    },
+    "Wol2": {
+      "shortdef": "Wolof noun class 2/ñ (plural human)",
+      "content": "Examples\n\n* [wo] jigéen ñi"
+    },
+    "Wol3": {
+      "shortdef": "Wolof noun class 3/g (singular)",
+      "content": "Examples\n\n* [wo] dexug Gaambi gi"
+    },
+    "Wol4": {
+      "shortdef": "Wolof noun class 4/j (singular)",
+      "content": "Examples\n\n* [wo] jenn jamono ji"
+    },
+    "Wol5": {
+      "shortdef": "Wolof noun class 5/b (singular)",
+      "content": "For example, “dog” is in the b class.\n\nExamples\n\n* [wo] xaj bi “this dog” (dog class-DEF.PROX)\n* [wo] xaj ba “that dog” (dog class-DEF.REMT)\n* [wo] buur bi"
+    },
+    "Wol6": {
+      "shortdef": "Wolof noun class 6/m (singular)",
+      "content": "For example, “sheep” is in the m class.\n\nExamples\n\n* [wo] xar mi “this sheep” (sheep class-DEF.PROX)\n* [wo] at mi"
+    },
+    "Wol7": {
+      "shortdef": "Wolof noun class 7/l (singular)",
+      "content": "Examples\n\n* [wo] ndongo li"
+    },
+    "Wol8": {
+      "shortdef": "Wolof noun class 8/y (plural non-human)",
+      "content": "Examples\n\n* [wo] nguur yii"
+    },
+    "Wol9": {
+      "shortdef": "Wolof noun class 9/s (singular)",
+      "content": "Examples\n\n* [wo] sàmm si"
+    },
+    "Wol10": {
+      "shortdef": "Wolof noun class 10/w (singular)",
+      "content": "Examples\n\n* [wo] sama nag wa"
+    },
+    "Wol11": {
+      "shortdef": "Wolof noun class 11/f (location)",
+      "content": "Examples\n\n* [wo] fi “here”\n* [wo] fa “there”"
+    },
+    "Wol12": {
+      "shortdef": "Wolof noun class 12/n (manner)",
+      "content": "Examples\n\n* [wo] ni “so”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td rowspan=\"5\" style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Bantu1\">Bantu1</a></td>\n  <td><a href=\"#Bantu2\">Bantu2</a></td>\n  <td><a href=\"#Bantu3\">Bantu3</a></td>\n  <td><a href=\"#Bantu4\">Bantu4</a></td>\n  <td><a href=\"#Bantu5\">Bantu5</a></td>\n  <td><a href=\"#Bantu6\">Bantu6</a></td>\n  <td><a href=\"#Bantu7\">Bantu7</a></td>\n  <td><a href=\"#Bantu8\">Bantu8</a></td>\n  <td><a href=\"#Bantu9\">Bantu9</a></td>\n  <td><a href=\"#Bantu10\">Bantu10</a></td>\n</tr>\n<tr>\n  <td><a href=\"#Bantu11\">Bantu11</a></td>\n  <td><a href=\"#Bantu12\">Bantu12</a></td>\n  <td><a href=\"#Bantu13\">Bantu13</a></td>\n  <td><a href=\"#Bantu14\">Bantu14</a></td>\n  <td><a href=\"#Bantu15\">Bantu15</a></td>\n  <td><a href=\"#Bantu16\">Bantu16</a></td>\n  <td><a href=\"#Bantu17\">Bantu17</a></td>\n  <td><a href=\"#Bantu18\">Bantu18</a></td>\n  <td><a href=\"#Bantu19\">Bantu19</a></td>\n  <td><a href=\"#Bantu20\">Bantu20</a></td>\n</tr>\n<tr>\n  <td><a href=\"#Bantu21\">Bantu21</a></td>\n  <td><a href=\"#Bantu22\">Bantu22</a></td>\n  <td><a href=\"#Bantu23\">Bantu23</a></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n</tr>\n<tr>\n  <td><a href=\"#Wol1\">Wol1</a></td>\n  <td><a href=\"#Wol2\">Wol2</a></td>\n  <td><a href=\"#Wol3\">Wol3</a></td>\n  <td><a href=\"#Wol4\">Wol4</a></td>\n  <td><a href=\"#Wol5\">Wol5</a></td>\n  <td><a href=\"#Wol6\">Wol6</a></td>\n  <td><a href=\"#Wol7\">Wol7</a></td>\n  <td><a href=\"#Wol8\">Wol8</a></td>\n  <td><a href=\"#Wol9\">Wol9</a></td>\n  <td><a href=\"#Wol10\">Wol10</a></td>\n</tr>\n<tr>\n  <td><a href=\"#Wol11\">Wol11</a></td>\n  <td><a href=\"#Wol12\">Wol12</a></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n  <td></td>\n</tr>\n</table>\n\nNounClass is similar to Gender and Animacy because it is to a large part\na lexical category of nouns and other parts of speech inflect for it\nto show agreement (pronouns, adjectives,\ndeterminers, numerals, verbs).\n\nThe distinction between gender and noun class is not sharp and is partially\nconditioned by the traditional terminology of a given language family. In general,\nthe feature is called gender if the number of possible values is relatively low\n(typically 2-4) and the partition correlates with sex of people and animals.\nIn language families where the number of categories is high (10-20), the feature\nis usually called noun class. No language family uses both the features.\n\nIn Bantu languages, the noun class also encodes Number; therefore it is\na lexical-inflectional feature of nouns. The words should be annotated with\nthe Number feature in addition to NounClass, despite the fact that people\nwho know Bantu could infer the number from the noun class. The lemma of the\nnoun should be its singular form.\n\nThe set of values of this feature is specific for a language family or group.\nWithin the group, it is possible to identify classes that have similar meaning\nacross languages (although some classes may have merged or disappeared in\nsome languages in the group). The value of the NounClass feature consists\nof a short identifier of the language group (e.g., Bantu), and the number\nof the class (there is a standardized class numbering system accepted by\nscholars of the various Bantu languages; similar numbering systems should be\ncreated for the other families that have noun classes).\n\nList of noun classes in Swahili\n\n(from https://en.wikipedia.org/wiki/Nounclass)\n\n<table class=\"wikitable\">\n<tbody><tr>\n<th>Class number</th>\n<th>Prefix</th>\n<th>Typical meaning</th>\n</tr>\n<tr>\n<td>1</td>\n<td><i>m-, mw-, mu-</i></td>\n<td>singular: persons</td>\n</tr>\n<tr>\n<td>2</td>\n<td><i>wa-, w-</i></td>\n<td>plural: persons (a plural counterpart of class 1)</td>\n</tr>\n<tr>\n<td>3</td>\n<td><i>m-, mw-, mu-</i></td>\n<td>singular: plants</td>\n</tr>\n<tr>\n<td>4</td>\n<td><i>mi-, my-</i></td>\n<td>plural: plants (a plural counterpart of class 3)</td>\n</tr>\n<tr>\n<td>5</td>\n<td><i>ji-, j-,</i> Ø-</td>\n<td>singular: fruits</td>\n</tr>\n<tr>\n<td>6</td>\n<td><i>ma-, m-</i></td>\n<td>plural: fruits (a plural counterpart of class 5, 9, 11, seldom 1)</td>\n</tr>\n<tr>\n<td>7</td>\n<td><i>ki-, ch-</i></td>\n<td>singular: things</td>\n</tr>\n<tr>\n<td>8</td>\n<td><i>vi-, vy-</i></td>\n<td>plural: things (a plural counterpart of class 7)</td>\n</tr>\n<tr>\n<td>9</td>\n<td><i>n-, ny-, m-,</i> Ø-</td>\n<td>singular: animals, things</td>\n</tr>\n<tr>\n<td>10</td>\n<td><i>n-, ny-, m-,</i> Ø-</td>\n<td>plural: animals, things (a plural counterpart of class 9 and 11)</td>\n</tr>\n<tr>\n<td>11</td>\n<td><i>u-, w-, uw-</i></td>\n<td>singular: no clear semantics</td>\n</tr>\n<tr>\n<td>15</td>\n<td><i>ku-, kw-</i></td>\n<td>verbal nouns</td>\n</tr>\n<tr>\n<td>16</td>\n<td><i>pa-</i></td>\n<td>locative meanings: close to something</td>\n</tr>\n<tr>\n<td>17</td>\n<td><i>ku-</i></td>\n<td>indefinite locative or directive meaning</td>\n</tr>\n<tr>\n<td>18</td>\n<td><i>mu-, m-</i></td>\n<td>locative meanings: inside something</td>\n</tr>\n</tbody></table>"
+  },
+  "Person[obj]": {
+    "shortdef": "person agreement with object",
+    "1": {
+      "shortdef": "first person object",
+      "content": "Examples: [eu] dakarkiogu Person[erg]=1"
+    },
+    "2": {
+      "shortdef": "second person object",
+      "content": "Examples: [eu] dakarkiozu Person[erg]=2"
+    },
+    "3": {
+      "shortdef": "third person object",
+      "content": "Examples: [eu] dakarkiogu Person[abs]=3|Person[dat]=3"
+    },
+    "content": "Person[obj]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments, not just the subject. If the cross-reference involves the Person of the argument,\nwe have two layers of Person on the verb: Person[subj], and (for transitive verbs) Person[obj].\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Person[abs] is the person of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called absperson.\n* Person[erg] is the person of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergperson.\n* Person[dat] is the person of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datperson.\n\nOne may want to use just Person instead of Person[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Person[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "NumForm": {
+    "shortdef": "numeral form",
+    "Word": {
+      "shortdef": "number expressed as word",
+      "content": "Examples: one, two, three"
+    },
+    "Digit": {
+      "shortdef": "number expressed using digits",
+      "content": "Examples: 1, 2, 3"
+    },
+    "Combi": {
+      "shortdef": "digits combined with a suffix",
+      "content": "Examples: [lt] 15-oji (15th)"
+    },
+    "Roman": {
+      "shortdef": "roman numeral",
+      "content": "Examples: I, II, III"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Combi\">Combi</a></td>\n  <td><a href=\"#Digit\">Digit</a></td>\n  <td><a href=\"#Roman\">Roman</a></td>\n  <td><a href=\"#Word\">Word</a></td>\n</tr>\n</table>\n\nFeature of cardinal and ordinal numbers. Is the number expressed by\ndigits or as a word? This feature appears in a number of tagsets.\nNote that it is currently a bit Euro-centric because it distinguishes\n(Euro)Arabic digits and Roman numerals, but what\nabout digits in various other scripts? In texts in many Indian scripts\nand in the Arabic script both native digits and Euro-Arabic digits can\nappear (e.g. 2014 vs. २०१४ in Devanagari)."
+  },
+  "Gender[psor]": {
+    "shortdef": "possessor’s gender",
+    "Masc": {
+      "shortdef": "masculine possessor",
+      "content": "Examples\n\n* [cs]\n<span style='color: red'><I>otcův\nsyn</I></span>\n(father's\nson; PossGender=Masc|Gender=Masc);\n<span style='color: red'><I>otcova\ndcera</I></span>\n(father's\ndaughter; PossGender=Masc|Gender=Fem);\n<span style='color: red'><I>otcovo\ndítě</I></span>\n(father's\nchild; PossGender=Masc|Gender=Neut)."
+    },
+    "Fem": {
+      "shortdef": "feminine possessor",
+      "content": "Examples\n\n* [cs]\n<span style='color: red'><I>m</I></span><span style='color: red'><I>atčin\nsyn</I></span>\n(mother's\nson; PossGender=Fem|Gender=Masc);\n<span style='color: red'><I>matčina\ndcera</I></span>\n(mother's\ndaughter; PossGender=Fem|Gender=Fem);\n<span style='color: red'><I>matčino\ndítě</I></span>\n(mother's\nchild; PossGender=Fem|Gender=Neut)."
+    },
+    "Neut": {
+      "shortdef": "neuter possessor",
+      "content": "Examples\n\n* [cs] Dítě plakalo, protože někdo odnesl jeho hračku. “The child wept because somebody took away its (=the child's) toy.”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Fem\">Fem</a></td>\n  <td><a href=\"#Masc\">Masc</a></td>\n  <td><a href=\"#Neut\">Neut</a></td>\n</tr>\n</table>\n\nPossessive\nadjectives and pronouns may have two different genders: that of the\npossessed object (gender agreement with modified noun) and that of\nthe possessor (lexical feature, inherent gender). The Gender[psor]\nfeature captures the possessor's gender.\n\nIn\nthe Czech examples below, the masculine Gender[psor] implies using one\nof the suffixes <I>-</I><I>ův, -ova, -ovo,</I>\nand the feminine Gender[psor] implies using one of <I>-</I><I>in,\n-ina, -ino</I>."
+  },
+  "Polite[dat]": {
+    "shortdef": "politeness agreement with dative argument",
+    "Infm": {
+      "shortdef": "informal dative argument",
+      "content": "Examples: [eu] ezan, ezak Polite[erg]=Inf"
+    },
+    "Form": {
+      "shortdef": "polite, formal dative argument",
+      "content": "Examples: [eu] ezazu Polite[erg]=Pol (politeness-neutral form is ezazue)"
+    },
+    "content": "Polite[dat]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject;\nfor the second person this also affects the politeness register.\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\n* Polite[abs] is the politeness of the absolutive argument of the verb. The corresponding feature in Interset 2.041 is called abspoliteness.\n* Polite[erg] is the politeness of the ergative argument of the verb. The corresponding feature in Interset 2.041 is called ergpoliteness.\n* Polite[dat] is the politeness of the dative argument of the verb. The corresponding feature in Interset 2.041 is called datpoliteness.\n\nOne may want to use just Polite instead of Polite[abs].\nHowever, there are two issues with that (at least in Basque).\nFirst, the absolutive argument is not always the subject. For transitive verbs, it is the object, so the parallelism with nominative-accusative languages would be weak anyway.\nSecond, we cannot avoid Number[abs] (both Number and Number[abs] can occur at one word)\nand thus we keep Polite[abs] to demonstrate that it is the same layer of agreement for both the features."
+  },
+  "Gender[dat]": {
+    "shortdef": "gender agreement with the dative argument",
+    "Masc": {
+      "shortdef": "masculine dative argument",
+      "content": "Examples\n\n* [eu] ukan ezak “have it” Gender[erg]=Masc|Number[erg]=Sing|Person[erg]=2|Polite[erg]=Inf | Number[abs]=Sing|Person[abs]=3 (imperative addressing a man)"
+    },
+    "Fem": {
+      "shortdef": "feminine dative argument",
+      "content": "Examples\n\n* [eu] ukan ezan “have it” Gender[erg]=Fem|Number[erg]=Sing|Person[erg]=2|Polite[erg]=Inf | Number[abs]=Sing|Person[abs]=3 (imperative addressing a woman)"
+    },
+    "content": "Gender[dat]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\nIn the informal register, there are also separate forms for masculine and feminine arguments,\nalthough gender is otherwise not distinguished in Basque.\n\n* Gender[erg] is the gender of the ergative argument of the verb.\n* Gender[dat] is the gender of the dative argument of the verb."
+  },
+  "Deixis": {
+    "shortdef": "relative location encoded in demonstratives",
+    "Prox": {
+      "shortdef": "proximate",
+      "content": "The entity is close to the reference point (e.g., to the speaker).\n\nExamples\n\n* [en] this dog\n* [en] here\n* [es] aquí “here”\n* [eu] hau “he/she (nearby)”\n* [wo] xaj bii “this dog” (close to me, wherever you may be) Deixis=Prox|DeixisRef=1\n* [wo] xaj boobu “that dog / the dog in question” (close to you, far from me) Deixis=Prox|DeixisRef=2\n* [kha] u-ne “he (near)”"
+    },
+    "Med": {
+      "shortdef": "medial",
+      "content": "The entity is neither close nor far away from the reference point (e.g., from the speaker).\n\nExamples\n\n* [es] ahí “there”\n* [eu] hori “he/she (not close)”\n* [wo] xaj boobale “that dog” (far away from both of us, but closer to you than to me) Deixis=Med|DeixisRef=2\n* [kha] u-to “he (not near, not far)”"
+    },
+    "Remt": {
+      "shortdef": "remote, distal",
+      "content": "The entity is far away from the reference point (e.g., from the speaker).\n\nExamples\n\n* [en] that dog\n* [en] there\n* [es] allí “there”\n* [eu] hura “he/she (over there, yonder)”\n* [wo] xaj bale “that dog” (far away from me, wherever you may be) Deixis=Remt|DeixisRef=1\n* [kha] u-tay “he (far away, visible)”"
+    },
+    "Nvis": {
+      "shortdef": "not visible",
+      "content": "The entity is remote and not visible. In Khasi, where this distinction is made, the Remt value\ncan be used to annotate “remote but visible”.\n\nExamples\n\n* [kha] u-to “he (far away, not visible)”"
+    },
+    "Abv": {
+      "shortdef": "above the reference point",
+      "content": "Occurs e.g. in Aghul [agx], Lak [lbe], and Khasi [kha]. The entity is both remote from the speaker and above them.\n\nExamples\n\n* [agx] te “that” (remote, elevation-neutral)\n* [agx] le “that (above)”\n* [lbe] k'a “that (above speaker)”\n* [kha] u-tey “he (above)”"
+    },
+    "Even": {
+      "shortdef": "at the same level as the reference point",
+      "content": "Occurs e.g. in Lak [lbe]. The entity is both remote and at the same level as the speaker.\n\nExamples\n\n* [lbe] ga “that” (Elevation neutral in current usage. In older usage, this pronoun pointed below the reference point.)\n* [lbe] ta “that (same level)” (In older usage, ta was the pronoun unmarked for elevation, but in current usage it denotes the same level as the reference point.)"
+    },
+    "Bel": {
+      "shortdef": "below the reference point",
+      "content": "Occurs e.g. in Aghul [agx] and Khasi [kha]. The entity is both remote from the speaker and below them.\n\nExamples\n\n* [agx] te “that” (remote, elevation-neutral)\n* [agx] ge “that (below)”\n* [kha] u-thie “he (below)”"
+    },
+    "content": "<table class=\"typeindex\" border=\"1\">\n<tr>\n  <td style=\"background-color:cornflowerblue;color:white\"><strong>Values:</strong> </td>\n  <td><a href=\"#Abv\">Abv</a></td>\n  <td><a href=\"#Bel\">Bel</a></td>\n  <td><a href=\"#Even\">Even</a></td>\n  <td><a href=\"#Med\">Med</a></td>\n  <td><a href=\"#Nvis\">Nvis</a></td>\n  <td><a href=\"#Prox\">Prox</a></td>\n  <td><a href=\"#Remt\">Remt</a></td>\n</tr>\n</table>\n\nDeixis is typically a feature of demonstrative pronouns, determiners, and adverbs.\nIts value classifies the location of the referred entity with respect to the location\nof the speaker or of the hearer. The common distinction is distance (proximate vs.\nremote entities); in some languages, elevation is distinguished as well (e.g., the\nentity is located higher or lower than the speaker).\n\nIf it is necessary to distinguish the person whose location is the reference point (speaker or hearer),\nthe feature DeixisRef can be used in addition to Deixis. See also the Wolof examples below.\nDeixisRef is not needed if all deictic expressions in the language are relative to the same person\n(probably the speaker)."
+  },
+  "Number[psor]": {
+    "shortdef": "possessor’s number",
+    "Sing": {
+      "shortdef": "singular possessor",
+      "content": "Examples\n\n* [en] my, his, her, its\n* [cs] můj pes “my dog” Number[psor]=Sing|Number=Sing\n* [cs] mí psi “my dogs” Number[psor]=Sing|Number=Plur\n* [hsb] twojim, jeho, jeje"
+    },
+    "Dual": {
+      "shortdef": "dual possessor",
+      "content": "Examples\n\n* [hsb] jeju"
+    },
+    "Plur": {
+      "shortdef": "plural possessor",
+      "content": "Examples\n\n* [en] _our, their\n* [cs] náš pes “our dog” Number[psor]=Plur|Number=Sing\n* [cs] naši psi “our dogs” Number[psor]=Plur|Number=Plur\n* [hsb] naš, waš, jich"
+    },
+    "content": "Possessives may have two different numbers: that of the possessed object (number agreement with\nmodified noun) and that of the possessor. The Number[psor] feature captures the possessor's number."
+  },
+  "Gender[erg]": {
+    "shortdef": "gender agreement with the ergative argument",
+    "Masc": {
+      "shortdef": "masculine ergative argument",
+      "content": "Examples\n\n* [eu] ukan ezak “have it” Gender[erg]=Masc|Number[erg]=Sing|Person[erg]=2|Polite[erg]=Inf | Number[abs]=Sing|Person[abs]=3 (imperative addressing a man)"
+    },
+    "Fem": {
+      "shortdef": "feminine dative argument",
+      "content": "Examples\n\n* [eu] ukan ezan “have it” Gender[erg]=Fem|Number[erg]=Sing|Person[erg]=2|Polite[erg]=Inf | Number[abs]=Sing|Person[abs]=3 (imperative addressing a woman)"
+    },
+    "content": "Gender[erg]\n\nFinite verbs in many Indo-European languages agree in person and number with their subject.\nSome languages in other families are head-marking, which means that the verbal morphology can cross-reference\nmultiple core arguments.\n\nIn Basque (a <a href=\"http://en.wikipedia.org/wiki/Polypersonal_agreement\">polypersonal language</a>),\ncertain verbs overtly mark agreement with up to three arguments:\none in the absolutive case,\none in ergative and\none in dative.\nThus in dakarkiogu “we bring it to him/her”,\nakar is the stem (ekarri = “bring”),\nd stands for “it” (absolutive argument is the direct object of transitive verbs),\nki stands for the dative case,\no stands for “he” and\ngu stands for “we” (ergative argument is the subject of transitive verbs).\n\nIn the informal register, there are also separate forms for masculine and feminine arguments,\nalthough gender is otherwise not distinguished in Basque.\n\n* Gender[erg] is the gender of the ergative argument of the verb.\n* Gender[dat] is the gender of the dative argument of the verb."
+  }
+}
