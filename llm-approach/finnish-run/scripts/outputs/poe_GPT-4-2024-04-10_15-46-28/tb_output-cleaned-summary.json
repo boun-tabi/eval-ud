@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8759834219553121,
+    "average ratio": 0.8761299031337081,
     "results": {
         "dev-s112": {
             "ratio": 0.882,
@@ -2221,11 +2221,6 @@
             "original text": "\"Etxe barruan hiltzen diren landareetatik %90 gehiegi ureztatzeagatik izaten da\".",
             "output text": "\"Etxe barruan hiltzen izan ziren landareak %90 gehiegi ureztatuak izan zirela izan da.\""
         },
-        "train-s3704": {
-            "ratio": 0.888,
-            "original text": "Berak errespetu osoa adierazi dit niri eta nire familiari, eta, bien arteko lehia bizirik dagoen arren, lesioen ondorioz denok nahiko genukeen lasterketa egin ez duen honetan, berari eskaini nahi diot.",
-            "output text": "Berak errespetu osoa adierazi dit niri eta nire familiari, eta bi arte lehia bizirik egon arren, lesioen ondorio dena lasterketa egin ez duen hau, berari eskaini nahi ukan du."
-        },
         "dev-s872": {
             "ratio": 0.918,
             "original text": "Bere klubean, harroin, 2. lerro eta 3. lerroan ere aritzen zela esan zigun Devichek.",
@@ -2500,6 +2495,11 @@
             "ratio": 0.982,
             "original text": "\"Normala\" iruditzen zaio hori guztia hondarribitarrari:",
             "output text": "\"Normala\" iruditzen zaio hori guztiari hondarribitarrari:"
+        },
+        "train-s789": {
+            "ratio": 0.962,
+            "original text": "Nizan hitzarmenik egitea lortuko balitz, agiria ez litzateke barruan sartuko.",
+            "output text": "Nizan hitzarmen bat egitea lortuko balitz, agiria ez litzateke barruan sartuko."
         }
     },
     "sentence_count": 500,
