@@ -20,5 +20,27 @@
         "character-based": 0.8714650632203742,
         "token-based": 0.5203299354373495,
         "sentence_count": 500
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-10_18-10-28",
+        "treebank": "UD_English-EWT",
+        "output_file": "tb_output",
+        "version": "2.12",
+        "model": "poe_GPT-4",
+        "dependency_included": true,
+        "character-based": 0.956879639675129,
+        "token-based": 0.8211849392057624,
+        "sentence_count": 500
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-10_18-11-38",
+        "treebank": "UD_English-EWT",
+        "output_file": "tb_output",
+        "version": "2.13",
+        "model": "poe_GPT-4",
+        "dependency_included": true,
+        "character-based": 0.9582744429473764,
+        "token-based": 0.8262612305244414,
+        "sentence_count": 500
     }
 ]

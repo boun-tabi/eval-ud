@@ -3,7 +3,9 @@ import os, json
 
 run_dirs = [
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-04-10_15-46-28',
-    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-10_17-48-28'
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-10_17-48-28',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-10_18-10-28',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-10_18-11-38'
 ]
 
 pass_l = []
