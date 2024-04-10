@@ -10,7 +10,9 @@ run_dirs = [
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.11-2024-04-10_18-47-10',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.7-2024-04-10_19-04-12',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.8-2024-04-10_19-05-36',
-    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Highland_Puebla_Nahuatl-ITML-2.13-2024-04-10_21-02-09'
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Highland_Puebla_Nahuatl-ITML-2.13-2024-04-10_21-02-09',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.9-2024-04-10_21-06-07',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.10-2024-04-10_21-14-11'
 ]
 
 pass_l = [
@@ -21,7 +23,8 @@ pass_l = [
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-10_18-44-56',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.11-2024-04-10_18-47-10',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.7-2024-04-10_19-04-12',
-    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.8-2024-04-10_19-05-36'
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.8-2024-04-10_19-05-36',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Highland_Puebla_Nahuatl-ITML-2.13-2024-04-10_21-02-09',
 ]
 
 def main():

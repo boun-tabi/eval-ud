@@ -61,7 +61,7 @@ def main():
     with output_file.open('r', encoding='utf-8') as f:
         output = json.load(f)
     sent_ids_processed = set([el['sent_id'] for el in output])
-    # print(selected_sent_ids.difference(sent_ids_processed))
+    print(selected_sent_ids.difference(sent_ids_processed))
     sent_count_needed = sent_count - len(sent_ids_processed)
     new_sent_ids = set()
     while len(new_sent_ids) < sent_count_needed:

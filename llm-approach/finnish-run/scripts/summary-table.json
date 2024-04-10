@@ -97,5 +97,27 @@
         "character-based": 0.818954410791056,
         "token-based": 0.5146316224077656,
         "sentence_count": 500
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.9-2024-04-10_21-06-07",
+        "treebank": "UD_Hindi-HDTB",
+        "output_file": "tb_output",
+        "version": "2.9",
+        "model": "GPT-4",
+        "dependency_included": true,
+        "character-based": 0.9409966301912274,
+        "token-based": 0.7166356158171658,
+        "sentence_count": 500
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.10-2024-04-10_21-14-11",
+        "treebank": "UD_Hindi-HDTB",
+        "output_file": "tb_output",
+        "version": "2.10",
+        "model": "GPT-4",
+        "dependency_included": true,
+        "character-based": 0.9420108447716384,
+        "token-based": 0.7255180365205625,
+        "sentence_count": 500
     }
 ]
