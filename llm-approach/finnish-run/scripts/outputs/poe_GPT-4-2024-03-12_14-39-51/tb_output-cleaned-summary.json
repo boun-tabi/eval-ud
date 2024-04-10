@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.9449262550595113,
+    "average ratio": 0.9446732388688404,
     "results": {
         "u017.6": {
             "ratio": 0.995,
@@ -2445,8 +2445,63 @@
             "ratio": 1.0,
             "original text": "Olin tehtaan avajaisia edeltävänä päivänä tarkistamassa laajennuksen teknisiä osia.",
             "output text": "Olin tehtaan avajaisia edeltävänä päivänä tarkistamassa laajennuksen teknisiä osia."
+        },
+        "u035.6": {
+            "ratio": 1.0,
+            "original text": "Rosasin mukaan on kuitenkin vaikea välttää sellaisia tilanteita, joissa valtiovalta ei liittyisi näihin suhteisiin.",
+            "output text": "Rosasin mukaan on kuitenkin vaikea välttää sellaisia tilanteita, joissa valtiovalta ei liittyisi näihin suhteisiin."
+        },
+        "f901.53": {
+            "ratio": 0.986,
+            "original text": "Säntäsin ylös portaita ja potkaisin vahingossa jonkun mummon merkkikassia.",
+            "output text": "Sännäsin ylös portaita ja potkaisin vahingossa jonkun mummon merkkikassia."
+        },
+        "s202.6": {
+            "ratio": 0.694,
+            "original text": "Vartin venähdettyä yllättäen kolminkertaiseksi riennän myöhässä yliopistolle omatunto kolkuttaen siitä, etten ehtinyt edes lukea sanomalehteä – joudun julkeasti astumaan ulkomaailmaan tietämättä tämänpäiväisestä maailmantilasta mitään!",
+            "output text": "Vartin venähtäessä yllättäen kolminkertaiseksi rientää myöhässä yliopistolle, omatunto kolkuttaen, että en ehdi edes lukea sanomalehteä – joudun julkeasti astumaan ulkomaailmaan tietämättä tämän päiväistä maailmantilaa mikään!"
+        },
+        "b202.56": {
+            "ratio": 0.853,
+            "original text": "Harmi, ettei sitä saatu videolle!",
+            "output text": "Harmi, että sitä ei saada videolle!"
+        },
+        "e1080.2": {
+            "ratio": 0.963,
+            "original text": "Toimivaltansa ja mahdollisuuksiensa puitteissa komissio seuraa tilannetta tarkasti.",
+            "output text": "Toimivallan ja mahdollisuuksien puitteissa komissio seuraa tilannetta tarkasti."
+        },
+        "j019.22": {
+            "ratio": 0.924,
+            "original text": "Tätä asetusta ei saa tulkita niin, että sillä olisi vaikutuksia perusoikeuksien, mukaan lukien lakko-oikeus, käyttämiseen sellaisina kuin ne jäsenvaltioissa tunnustetaan.",
+            "output text": "Tätä asetusta ei saada tulkita niin, että se olisi vaikutuksessa perusoikeuksiin, mukaan lukien lakko-oikeuden käyttäminen, sellaisena kuin se jäsenvaltioissa tunnustetaan."
+        },
+        "f301.9": {
+            "ratio": 0.974,
+            "original text": "Aikaa ei saa hukata tyhjäkäyntiin, on toimittava järkevästi.",
+            "output text": "Aikaa ei saa hukata tyhjäkäyntiin, toimittava järkevästi."
+        },
+        "u039.4": {
+            "ratio": 1.0,
+            "original text": "Wolters (University of Konstanz, Helsinki Collegium for Advanced Studies) puhui Publicumissa otsikolla \"The Führer and his thinkers: philosophy in the Third Reich\".",
+            "output text": "Wolters (University of Konstanz, Helsinki Collegium for Advanced Studies) puhui Publicumissa otsikolla \"The Führer and his thinkers: philosophy in the Third Reich\"."
+        },
+        "b110.14": {
+            "ratio": 0.951,
+            "original text": "Kävin täyttämässä lintulaudat auringonkukansiemenillä ja join toisen kuvin teetä katsellen ikkunasta tirppoja.",
+            "output text": "Kävin täyttämässä lintulautoja auringonkukansiemenillä ja join toisen kupin teetä katsellessani ikkunasta tirppoja."
+        },
+        "fC03.33": {
+            "ratio": 0.922,
+            "original text": "Rehtori, joka oli avarakatseinen uudistaja, kehotti heitä kokeilemaan sitä ideaa ja niin kaikki tiedemiehet kantoivat kaiken tiedon sylissään yhteiseen kokoukseen katsoakseen, miten iso kasa ja korkea huippu siitä tulisikaan.",
+            "output text": "Rehtori, joka oli avarakatseinen uudistaja, kehotti heitä kokeilemaan sitä ideaa ja niin kaikki tiedemiehet kantoivat kaiken tiedon syliinsä yhteiseen kokoukseen, katsomaan, miten iso kasa ja korkea huippu siitä tuleekaan."
+        },
+        "h1019.20": {
+            "ratio": 1.0,
+            "original text": "Hän opiskelee tietojenkäsittelyä Tampereen yliopistossa kolmatta vuotta.",
+            "output text": "Hän opiskelee tietojenkäsittelyä Tampereen yliopistossa kolmatta vuotta."
         }
     },
-    "sentence_count": 489,
+    "sentence_count": 500,
     "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-03-12_14-39-51/tb_output-cleaned.json"
 }

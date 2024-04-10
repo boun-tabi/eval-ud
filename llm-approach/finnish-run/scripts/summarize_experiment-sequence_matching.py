@@ -27,13 +27,9 @@ def main():
             continue
         original_text = res_d[sent_id]['original_text']
         output_text = res_d[sent_id]['output_text']
-        # print('Original text: {}'.format(original_text))
-        # print('Output text: {}'.format(output_text))
         ratio = SequenceMatcher(None, original_text, output_text).ratio()
-        # print('Similarity ratio: {}'.format(ratio))
         ratio_acc += ratio
         all_count += 1
-        # print()
         out_d['results'][sent_id] = {'ratio': float('{:.3f}'.format(ratio)), 'original text': original_text, 'output text': output_text}
     out_d['average ratio'] = ratio_acc / all_count
 

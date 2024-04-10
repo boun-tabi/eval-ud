@@ -1,5 +1,5 @@
 {
-  "sentence_count": 500,
+  "sent_count": 500,
   "sent_ids": [
     "bio_780",
     "pop_747",
@@ -504,9 +504,16 @@
   ],
   "model": "poe_GPT-4",
   "now": "2023-12-19_16-59-29",
-  "run_dir": "/Users/furkan/repos/eval-ud/llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-2023-12-19_16-59-29",
+  "run_dir": "llm-approach/experiment_outputs/eventual_experiment/poe_GPT-4-2023-12-19_16-59-29",
   "prompt": "The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech, morphological features and dependencies given for each token. Lemma \"y\" represents the overt copula in Turkish and surfaces as \"i\". \n\nThe sentence has {example_token} tokens.\n\n{example_input}\n\nYour task is to find the surface form of the sentence. For example, your answer for the previous parse should be:\n\n{example_surface}\n\nNow, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.\n\n{test_input}",
-  "v2.8": "tr_boun/v2.8/treebank.json",
-  "v2.11": "tr_boun/v2.11/treebank.json",
+  "treebank": "UD_Turkish-BOUN",
+  "docs_dir": "util/ud-docs",
+  "script_path": "llm-approach/finnish-run/scripts/run-llm-experiment.py",
+  "api_path": "llm-approach/keys/poe.json",
+  "language": "tr",
+  "langs_path": "llm-approach/data/langs.json",
+  "data_dir": "llm-approach/finnish-run/data",
+  "version": "2.8",
+  "dependency_included": true,
   "note": "run_w_deps"
 }

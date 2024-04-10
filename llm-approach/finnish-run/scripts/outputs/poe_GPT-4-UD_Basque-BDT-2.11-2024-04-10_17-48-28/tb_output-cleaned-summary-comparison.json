@@ -1,0 +1,59 @@
+{
+    "comparison_d": {
+        "dev-s1033": {
+            "llm": {
+                "precision": 0.25,
+                "recall": 0.5454545454545454
+            }
+        },
+        "dev-s82": {
+            "llm": {
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        },
+        "train-s4920": {
+            "llm": {
+                "precision": 0.11764705882352941,
+                "recall": 0.125
+            }
+        },
+        "train-s1787": {
+            "llm": {
+                "precision": 0.875,
+                "recall": 0.875
+            }
+        },
+        "train-s2032": {
+            "llm": {
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        },
+        "train-s4949": {
+            "llm": {
+                "precision": 0.75,
+                "recall": 0.875
+            }
+        },
+        "train-s839": {
+            "llm": {
+                "precision": 0.625,
+                "recall": 1.0
+            }
+        },
+        "dev-s22": {
+            "llm": {
+                "precision": 0.14285714285714285,
+                "recall": 0.6
+            }
+        }
+    },
+    "summary": {
+        "llm accuracy": {
+            "f1": 0.6016785298035298,
+            "precision": 0.532563025210084,
+            "recall": 0.7525568181818181
+        }
+    }
+}

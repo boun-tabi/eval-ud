@@ -1,6 +1,6 @@
 {
   "sentence_count": 500,
-  "sents": [
+  "sent_ids": [
     "ins_1592",
     "bio_596",
     "bio_1907",
@@ -504,11 +504,15 @@
   ],
   "model": "poe_Mistral-Medium",
   "now": "2024-01-29_14-39-24",
-  "run_dir": "/Users/furkan/repos/eval-ud/llm-approach/llama/scripts/outputs/poe_Mistral-Medium-2024-01-29_14-39-24",
-  "v2.8": "tr_boun/v2.8/treebank.json",
-  "v2.11": "tr_boun/v2.11/treebank.json",
-  "util_dir": "util/",
-  "script_path": "/Users/furkan/repos/eval-ud/llm-approach/llama/scripts/run-llm-experiment.py",
+  "run_dir": "llm-approach/llama/scripts/outputs/poe_Mistral-Medium-2024-01-29_14-39-24",
+  "treebank": "UD_Turkish-BOUN",
+  "docs_dir": "util/ud-docs",
+  "language": "tr",
+  "langs_path": "llm-approach/data/langs.json",
+  "script_path": "llm-approach/llama/scripts/run-llm-experiment.py",
+  "data_dir": "llm-approach/finnish-run/data",
   "api_path": "llm-approach/keys/poe.json",
-  "prompt": "The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. Lemma \"y\" represents the overt copula in Turkish and surfaces as \"i\". \n\nThe sentence has {example_token} tokens.\n\n{example_input}\n\nYour task is to find the surface form of the sentence. For example, your answer for the previous parse should be:\n\n{example_surface}\n\nNow, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.\n\n{test_input}"
+  "prompt": "The following sentences detail linguistic features of a Turkish sentence with lemmas, parts of speech and morphological features given for each token. Lemma \"y\" represents the overt copula in Turkish and surfaces as \"i\". \n\nThe sentence has {example_token} tokens.\n\n{example_input}\n\nYour task is to find the surface form of the sentence. For example, your answer for the previous parse should be:\n\n{example_surface}\n\nNow, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.\n\n{test_input}",
+  "version": "2.8",
+  "dependency_included": false
 }

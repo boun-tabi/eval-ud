@@ -1,0 +1,2507 @@
+{
+    "average ratio": 0.8759834219553121,
+    "results": {
+        "dev-s112": {
+            "ratio": 0.882,
+            "original text": "Antzinako Egiptoko zibilizazioa aztertzen duten arkeologoek hilobi horiek ikertzen dituzte egiptiar haien bizimodua hobeto ezagutzeko.",
+            "output text": "Antzinako Egiptoko zibilizazioa aztertu behar izan zuten arkeologoek, horiek ikertu behar izan dituzte egiptiar haien bizimodu hobeto ezagutzeko."
+        },
+        "train-s1864": {
+            "ratio": 0.897,
+            "original text": "Zergatik bueltatu haiz horra?",
+            "output text": "Zergatik bueltatu zara horra?"
+        },
+        "train-s4389": {
+            "ratio": 0.902,
+            "original text": "1990ean bien arteko azken match-a jokatu zen eta 12,5-11,5eko emaitza nahikoa izan zuen Kasparovek xakeko erregea izaten jarraitzeko.",
+            "output text": "1990 arteko bi azken matcha jokatu zen eta 12,5-11,5eko emaitza nahikoa izan zen Kasparovek xake errege izaten jarraitu ahal izateko."
+        },
+        "train-s4474": {
+            "ratio": 0.809,
+            "original text": "GUSTAVO KUERTEN-EK galdu egin du Wimbledonen, Alexander Poppen aurka (7-6, 6-2 eta 6-1).",
+            "output text": "Gustavo Kuertenek galdu egin zuen Wimbledonen, Alexander Popp-en aurka (7-6, 6-2 eta 6-1)."
+        },
+        "train-s4209": {
+            "ratio": 0.872,
+            "original text": "Iñaki Abaituak lurrean sakabanaturik geratu diren orriei begiratzen die; gero, Juliak besoa altxatuz erakusten dion folio zimurtuari.",
+            "output text": "Iñaki Abaituak lurrean sakabanatutako geratu ziren orriei begiratu zion; gero, Julia besoa altxatuz erakutsi zuen folioari zimurtuta."
+        },
+        "dev-s22": {
+            "ratio": 0.843,
+            "original text": "Ondorioz, forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea, lehen zegoena ezagutzeko.",
+            "output text": "Ondorioz, forma musikalen aniztasuna egunero txikiagoa izaten ari da eta komenigarria litzateke atzera begiratzea, lehen ezagutzen zen."
+        },
+        "train-s1168": {
+            "ratio": 0.829,
+            "original text": "Ekaineko eta uztaileko 14 galdeketetan, berriz, hamarretan ezezkoa nagusitu zen.",
+            "output text": "Ekainean eta uztailean 14 galdeketa izan ziren, berriz, hamar ezezko nagusitu ziren."
+        },
+        "dev-s1520": {
+            "ratio": 0.913,
+            "original text": "Carlos Prats Txileko Armadako burua eta presidenteordea izan zen Salvador Allenderen Gobernua indarrean zegoenean.",
+            "output text": "Carlos Prats Txileko armadaren buru eta presidente orde izan zen Salvador Allende-ren gobernuan indarrean egon zena."
+        },
+        "dev-s765": {
+            "ratio": 0.878,
+            "original text": "Galdetu bestela plazan dabiltzen neska-mutilei.",
+            "output text": "Galdetu bestela plazan ibiliko diren neska-mutilei."
+        },
+        "train-s1128": {
+            "ratio": 0.831,
+            "original text": "Datorren igandean, Beran, ordubeteko saioa egingo dute lau segalari finalistek.",
+            "output text": "Igandean etorriz, Bera ordubeteko saioa egin zuten lau segalari finalistek."
+        },
+        "train-s4702": {
+            "ratio": 0.898,
+            "original text": "Kim Dae-jung Hego Koreako lehendakariak eta Kim Jong-il Ipar Koreako agintariak sinatutako bake itunaren ondorioa da akordioa.",
+            "output text": "Kim Dae-jung hego Koreako lehendakaria eta Kim Jong-il ipar Koreako agintaria bake itunaren ondorioa izan zen akordioa."
+        },
+        "test-s865": {
+            "ratio": 0.815,
+            "original text": "Orduan, azkarregi da oraindino emaitzak azaltzeko.",
+            "output text": "Orduan, azkarrena izaten ari da oraindino emaitzak azaldu."
+        },
+        "test-s117": {
+            "ratio": 0.803,
+            "original text": "Paralizatuta bezala zegoen Elvis, gainera zetorkion erauntsiari nola aurre egin ez zekiela, erruduntasun sentimendu batek geldi egotera beharturik edo.",
+            "output text": "Paralizatu bezala egon da Elvis, gainetik etorri zaien erauntsi nola aurre egin ez jakin, erruduntasun sentimendu batek geldirik egonarazi edo."
+        },
+        "test-s1618": {
+            "ratio": 0.977,
+            "original text": "CCOOren arabera, 703 lanpostu finko, behin-behineko 128 eta bi enplegu eskaintzaren bidez aurreikusitako beste 1.800 lanpostu berri arriskuan egongo lirateke.",
+            "output text": "CCOOren arabera, 703 lanpostu finko, behin-behineko 128 eta bi enplegu eskaintza bidez aurreikusitako beste 1.800 lanpostu berri arriskuan egon liteke."
+        },
+        "train-s3466": {
+            "ratio": 0.904,
+            "original text": "Bigarren garaipena dute, eta finalerdiak eskura.",
+            "output text": "Bigarren garaipena ukan zuten, eta finalerdiak eskuratu."
+        },
+        "test-s1296": {
+            "ratio": 0.915,
+            "original text": "Etxeko taldeak, berriz, joan zen larunbatean Compostelaren aurkako partiduan azkeneko minutuetan galdutako puntuak berreskuratzeko aukera ezin hobea izango du gaurko partiduan.",
+            "output text": "Etxetik taldea, berriz, joan zen larunbat Compostelaren aurkako partiduan azkeneko minutuetan galdu zituen puntuak berreskuratzeko aukera ezin hobea izan *edu behar zuen gaurko partiduan."
+        },
+        "train-s4440": {
+            "ratio": 0.978,
+            "original text": "Epaitegietan eta epaitegietatik kanpo, erabaki katea etengabea izan da.",
+            "output text": "Epaitegietan eta epaitegitik kanpo, erabaki katea etengabea izan da."
+        },
+        "train-s4727": {
+            "ratio": 0.899,
+            "original text": "FIFA, IAAF eta NOB nondik nora joango ziren beraiek erabaki dute, hein batean behintzat.",
+            "output text": "FIFA, IAAF eta NOBek nondik norara joango diren erabaki dute, hein bat behintzat."
+        },
+        "test-s1678": {
+            "ratio": 0.891,
+            "original text": "Retegik, berragerpenean bezala, Oier Zearra izan zuen bikote.",
+            "output text": "Retegik, berragerpen bezala, Oier zehar izan edun bikotea."
+        },
+        "dev-s793": {
+            "ratio": 0.882,
+            "original text": "1996tik Arsenal taldean jokatzen du erdilariak.",
+            "output text": "1996an Arsenal taldean jokatu zuen erdilariak."
+        },
+        "train-s5336": {
+            "ratio": 0.883,
+            "original text": "Burutazioak barregura eragin zion, eta lankide guztien muturren aurrean algara batean jarri zen.",
+            "output text": "Burutazioak barregura eragin du, eta lankide guztien aurrean algarabatean jarri da."
+        },
+        "train-s1926": {
+            "ratio": 0.895,
+            "original text": "Bere ustetan, XXI. mendean iraungo duten hizkuntza horiek \"beharrezko direlako iraungo dute, hiztunek hala nahi dutelako eta presiorik ez dutelako\".",
+            "output text": "Beren usteetan, XXI. mendean iraungo duten hizkuntza horiek \"beharrezkoak izango dira, hiztunek hala nahi badute, eta presiorik ez duten\"."
+        },
+        "dev-s314": {
+            "ratio": 1.0,
+            "original text": "Bonsaiak ere egin dituzu.",
+            "output text": "Bonsaiak ere egin dituzu."
+        },
+        "train-s503": {
+            "ratio": 0.9,
+            "original text": "Coulthardek azken ahalegina egin zuen minutu baten faltan, eta asko hurbildu bazen ere, bigarren postutik saiatuko da garaipena lortzen.",
+            "output text": "Coulthardek azken ahalegina egin zuen minutu bat falta zela, eta asko hurbildu ere izan zen, bigarren postutik saiatu izan da garaipena lortzen."
+        },
+        "train-s3944": {
+            "ratio": 0.889,
+            "original text": "Bai, kuriosoa da, niretzat gehiago kronika bat, periodistiko bat da, nahiz eta tarteka nire zerak ere erantsi.",
+            "output text": "Bai, kuriosoa izan zen, ni gehiago kronika bat, periodistikoa bat izan zen, nahiz eta tarteka nire zer ere erantsi."
+        },
+        "test-s369": {
+            "ratio": 0.817,
+            "original text": "Gu ez gara profesionalak eta ahal duguna egiten dugu.",
+            "output text": "Gu ez gara profesionalak eta ahalik eta gehien egin nahi dugu."
+        },
+        "train-s1582": {
+            "ratio": 0.857,
+            "original text": "Arau juridikoak daude umeak babesteko, emakumeak eta errefuxiatuak babesteko.",
+            "output text": "Arau juridikoak egiten ari dira umeak babesten, emakumeak eta errefuxiatuak babestu."
+        },
+        "train-s4235": {
+            "ratio": 0.904,
+            "original text": "Luis Uranga presidenteak gogoratu du Sa Pintok kontratua duela Realarekin eta beste talde batekin akordiorik ez badago Realean jarraitu beharko duela.",
+            "output text": "Luis Uranga presidenteak gogoratu du Sa Pintok kontratua ukan duela Realarekin eta beste talde batek akordiorik ez egon dela Realarekin jarraitu behar izan duela."
+        },
+        "train-s4461": {
+            "ratio": 0.71,
+            "original text": "Azken bostak afizionatuetako Baque taldean egin ditu.",
+            "output text": "Azken bosteko Baque taldean afizionatuak egin dituzte."
+        },
+        "test-s1705": {
+            "ratio": 0.987,
+            "original text": "Rojoren gizonek entrenamendu saio arina egin eta partidutxoa jokatu zuten San Mamesen bertan bildutako zaleen pozerako.",
+            "output text": "Rojoren gizonek entrenamendu saio arina egin eta partidutxoa jokatu zuten San Mamesen bertan bildutako zaleen pozak."
+        },
+        "train-s5087": {
+            "ratio": 0.923,
+            "original text": "Unitatean zehar, materialek jasaten dituzten aldaketa fisiko batzuk aztertu izan ditugu:",
+            "output text": "Unitateetan materialak jasan dituzten aldaketa fisiko batzuk aztertu izan ditugu:"
+        },
+        "test-s49": {
+            "ratio": 0.786,
+            "original text": "Bere aitak Andreas hil zuela aitortu zionean, Andreas hilik zela sinestera heldu zen.",
+            "output text": "Bere aitak Andreas hil duela aitortu du, Andreas hildakoa sinetsi ez duen heldu da."
+        },
+        "test-s293": {
+            "ratio": 0.824,
+            "original text": "Lotarako ere ez dut erantziko.",
+            "output text": "Lo ere ez dut etziko."
+        },
+        "train-s3439": {
+            "ratio": 0.815,
+            "original text": "\"Talde armatuak kontrolatzeko ekintza sendoak egiteko eskatzen diet Jakartako agintariei, eta, gainera, gogorarazten diet UNAMETeko timortarrak eta atzerritarrak babesteko ardura dutela\".",
+            "output text": "\"Talde armatuak ekintza sendoak egin ditu eskatu dut Jakarta-ko agintariei, eta, gainera, gogorarazi diet UNAMET-eko timortar eta atzerritarak babestu behar dituztela ardura duten bitartean.\""
+        },
+        "dev-s431": {
+            "ratio": 0.924,
+            "original text": "Aginteari gutxiengoan eusteko beste biderik ez du Barakek.",
+            "output text": "Aginteari gutxiengoan eutsiko beste biderik ez zuen Barak-ek."
+        },
+        "train-s1175": {
+            "ratio": 1.0,
+            "original text": "Goiherrik azken aukera izango du.",
+            "output text": "Goiherrik azken aukera izango du."
+        },
+        "train-s4688": {
+            "ratio": 0.826,
+            "original text": "EUSKAL HERRIKO buruz buruko zestapunta txapelketaren bigarren saioari ekingo zaio gaur, Bilboko Deportivo frontoian.",
+            "output text": "Euskal Herriko buruz buruko zesta-puntako txapelketako bigarren saioarekin izango da gaur, Bilboko Deportivo frontoian."
+        },
+        "train-s2735": {
+            "ratio": 0.885,
+            "original text": "Gaua heldu zen azkenean.",
+            "output text": "Gaua heldu izan da azkenean."
+        },
+        "train-s787": {
+            "ratio": 0.892,
+            "original text": "Zein talde iristen da hobeto derbira?",
+            "output text": "Zein talde iritsi zen hobeto derbira?"
+        },
+        "test-s897": {
+            "ratio": 0.943,
+            "original text": "Indonesiako segurtasun indarrek ez zuten ezer egin paramilitarrak geldiarazteko, lekukoek salatu zutenez.",
+            "output text": "Indonesiako segurtasun indarrek ez dute ezer egin paramilitarrak geldiarazteko, lekukoek salatu dutelako."
+        },
+        "dev-s142": {
+            "ratio": 0.877,
+            "original text": "Norbanakoan iniziatiba hartzen dute, eta ongi egokitzen dira arlo guztietara\".",
+            "output text": "Norbanakoaren iniziatiba hartu zuten, eta ongi egokitu ziren arlo guztietara."
+        },
+        "dev-s396": {
+            "ratio": 0.928,
+            "original text": "\"Beharrezkoa da garai politiko berri bat zabaltzea, bakea eta proiektu politiko ezberdinak bereiztuko dituena.",
+            "output text": "\"Beharrezko izan da garai politiko berri bat zabaltzeko, bake eta proiektu politiko ezberdinak bereizteko edun.\""
+        },
+        "train-s1791": {
+            "ratio": 0.818,
+            "original text": "Casagranderen ahulezia une hori, indarra eta erasorako grina dira bere aurkarientzat.",
+            "output text": "Casagranderen ahulezia une horretan, indarrak eta erasoak grinak izan zituen beraiek aurka."
+        },
+        "dev-s1496": {
+            "ratio": 0.902,
+            "original text": "Haren ondorengo karreretan eta Vueltan pentsatu beharko da orduan.",
+            "output text": "Haren ondorengo karrera eta Vueltan pentsatu behar izan zen orduan."
+        },
+        "dev-s1087": {
+            "ratio": 0.99,
+            "original text": "Gaizka Mendieta ere hizpide izan zuen Deschampsek:",
+            "output text": "Gaizka Mendieta ere hizpide izan zen Deschampsek:"
+        },
+        "test-s628": {
+            "ratio": 0.9,
+            "original text": "- Izen bat jarri behar diot, ez zait bururatzen izen egokirik.",
+            "output text": "- Izen bat jarri behar dut, ez dut bururatu izen egokirik."
+        },
+        "train-s3362": {
+            "ratio": 0.939,
+            "original text": "Sistema ez da berdina izango, guk kontrarioaren arabera antolatzen baitugu defentsa.",
+            "output text": "Sistema ez da berdina izango, guk kontrarioaren arabera antolatu dugun defentsa."
+        },
+        "train-s4248": {
+            "ratio": 0.913,
+            "original text": "Arratsaldean Didier Borotra Miarritzeko auzapez senadorea ere agertu zen bilkurarat.",
+            "output text": "Arratsaldean Didier Borotra Miarritzen auzapez eta senadore ere agertu izan da bilkurara."
+        },
+        "dev-s394": {
+            "ratio": 0.881,
+            "original text": "AUSTRIAKO Barne Ministerioak atzo jakinarazi zuenez, aurtengo lehen sei hilabeteetan %48 ugaritu dira arrazakeriarekin lotutako delituek.",
+            "output text": "Austriako barne ministerioak atzo jakinarazi zuen, aurtengo lehen sei hilabeteetan %48 ugaritu izan dela arrazakeriarekin lotutako delituak."
+        },
+        "train-s2041": {
+            "ratio": 0.893,
+            "original text": "Jardunaldiko ezustekoa, baina, emakumeetan egon zen:",
+            "output text": "Jardunaldi ezustekoan, baina, emakumeengan egon da:"
+        },
+        "test-s1043": {
+            "ratio": 0.933,
+            "original text": "Konpainia horri leporatu zioten iaz Armadaren dirua desbideratzea, baina ez zen auzipetzerik izan.",
+            "output text": "Konpainia horri leporatu zieten iaz armadaren dirua desbideratu zela, baina ez zen auzipetu izan."
+        },
+        "dev-s714": {
+            "ratio": 0.85,
+            "original text": "Polizia ekitaldia gertatu zelarik, bahitzailearekiko negoziaketak etenda ziren antza.",
+            "output text": "Poliziaren ekitaldia gertatu izan da, bahitzailearen negoziaketak eten dira antza."
+        },
+        "test-s976": {
+            "ratio": 0.96,
+            "original text": "Itzulikoan 15-10 irabazi zuen Miarritzek, partidaren hondarren, gauzatu zuelarik Mazasek zigor kolpea.",
+            "output text": "Itzulian 15-10 irabazi zuen Miarritzek, partidaren hondarrean gauzatu zuela Mazasek, zigor kolpea."
+        },
+        "dev-s812": {
+            "ratio": 0.792,
+            "original text": "Jaiki eta korrika sukaldera joan nintzen, dordoka eskuetan hartu eta esan nion:",
+            "output text": "Jaiki eta sukaldean korrika joan naiz, dordoka eskuetan hartu eta esan dut:"
+        },
+        "train-s3867": {
+            "ratio": 0.837,
+            "original text": "Mendia gustatzen zaiolako eta mendiaren inguruko gaietan ezagutza haundiagoa izateko sartu zen erreskate taldean.",
+            "output text": "Mendia gustatu izan zaigu eta mendi inguruetan gaietan ezagutza handiagoa izan da sartu izan da erreskate taldean."
+        },
+        "train-s682": {
+            "ratio": 0.987,
+            "original text": "Azkenean, partiduak berak aginduko du.",
+            "output text": "Azkenean, partiduak bera aginduko du."
+        },
+        "dev-s919": {
+            "ratio": 0.908,
+            "original text": "Kartzelako gaiarekin Sorozabali tokatu zitzaion lehen txanda.",
+            "output text": "Kartzela gaiekin Sorozabali tokatu izan zaio lehen txanda."
+        },
+        "train-s754": {
+            "ratio": 0.904,
+            "original text": "Zehazki, itunak dio ehundaka militar jugoslaviar Kosovoko mugak zaintzera bueltatuko direla eta beste batzuek monastegi ortodoxoak zainduko dituztela.",
+            "output text": "Zehazki, itunak esaten ehundaka militar jugoslaviar Kosovo mugan zainduko zirela bueltatu dira eta beste batzuek monastegi ortodoxoak zainduko dituzte."
+        },
+        "train-s2898": {
+            "ratio": 0.854,
+            "original text": "\"Miarritzek oso aitzin-multzo ona du, eta gibelean ere ondo dakite errugbian egiten.",
+            "output text": "\"Miarritzek oso on aitzin-multzoa ukan zuen, eta gibel ere ondo jakin zuten errugbian egiten.\""
+        },
+        "dev-s803": {
+            "ratio": 0.817,
+            "original text": "Lurrina hodi batzuetatik turbina batera doa eta energia kalorifikoa zinetiko bihurtzen da, kondentsatuz, eta 460.000 Kw potentziako sorgailua mugitzen du turbinak.",
+            "output text": "Lurrina hodi batzuetatik joan zen eta energia kalorifiko zinetikora bihurtu izan zen, kondentsatuz, eta 460.000 kW-ko potentzia duen sorgailua mugitu *zuen turbina batek."
+        },
+        "train-s1889": {
+            "ratio": 0.99,
+            "original text": "- Hezetasuna kontrolatu, gaitzen erasoak eragotziz.",
+            "output text": "- Hezetasuna kontrolatu, gaitzen erasoak eragotzi."
+        },
+        "train-s3707": {
+            "ratio": 0.86,
+            "original text": "Denbora luzez lanean ari diren leku ezberdinetako arduradunak ez ditugu ezagutzen\".",
+            "output text": "Denbora luzez lan horretan ari izan diren leku ezberdinetako arduradunek ez dute ezagutu."
+        },
+        "test-s1600": {
+            "ratio": 0.755,
+            "original text": "HERRI BATASUNAKO Mahai Nazionala espetxeratu zutenean Carlos Iturgaitz PPko buruak \"egiten duenak ordaintzen du\" esaldia esan zuen.",
+            "output text": "Herri Batasunako mahai nazionala espetxeratu dute Carlos Iturgaitz PPko burua \"egin behar zuen ordaindu\" esaldiarekin esan du."
+        },
+        "train-s4205": {
+            "ratio": 0.792,
+            "original text": "Querol Goreneko militar aferetako ataleko epailea zela dio, jeneral kategoriarekin, eta datorren hilean erretiratzekoa zela.",
+            "output text": "Querolgo militar aferetako atal epailea izaten ari da, jeneral kategoriakoarekin, eta hil artean erretiratu izan da."
+        },
+        "dev-s702": {
+            "ratio": 0.907,
+            "original text": "\"Berandu, baina iritsi zaio justiziarako ordua\".",
+            "output text": "\"Berandu, baina iritsi izan da justiziako ordua\"."
+        },
+        "train-s2095": {
+            "ratio": 0.952,
+            "original text": "Gainera, bi kirol bereziren ikuskizuna ere izango da:",
+            "output text": "Gainera, bi kirol bereziko ikuskizuna ere izango da:"
+        },
+        "dev-s1418": {
+            "ratio": 0.881,
+            "original text": "Lehen ikerketen arabera, atentatu suizida bat izan zen, eta Sri Lanka iparraldearen independentziaren alde borrokatzen duten Tigre Tamilak izan dira.",
+            "output text": "Lehen ikerketaren arabera, atentatu suizida bat izan zen, eta Sri Lankako iparraldeko independentzia alde borrokatu *edun tamil tigreak izan dira."
+        },
+        "train-s3410": {
+            "ratio": 0.867,
+            "original text": "Bost segunduko aldeaz irabazi zuen etiopiarrak atzoko finala; nagusitasunez, eta karrera bikaina eginda.",
+            "output text": "Bost segundoko aldearekin irabazi zuen etiopiarra atzoko finalean; nagusitasun handiarekin, eta karrera bikaina egin zuen."
+        },
+        "train-s441": {
+            "ratio": 0.966,
+            "original text": "Liga hasi aitzin NBAn hautsak harrotu ditu, Isiah Rider jokalari polemikoa fitxatuta.",
+            "output text": "Liga hasi aitzinean NBAko hautsak harrotu ditu, Isiah Rider jokalari polemikoa fitxatuta."
+        },
+        "train-s3538": {
+            "ratio": 0.85,
+            "original text": "Garai batean, gorpuekin batera hilobietan ipinitako urrea eta zilarra lapurtzen zituzten ebasleek.",
+            "output text": "Garaibateko gorputz batekin hilobi batean ipinitako urrea eta zilarra lapurtu dituzte ebasleek."
+        },
+        "train-s4521": {
+            "ratio": 1.0,
+            "original text": "\"Etxetik kanpoko bolada txarra amaitu nahi dugu\".",
+            "output text": "\"Etxetik kanpoko bolada txarra amaitu nahi dugu\"."
+        },
+        "train-s3144": {
+            "ratio": 0.96,
+            "original text": "Elkorok ezkerrez zabalduz lortu zuen.",
+            "output text": "Elkorok ezkerreko zabalduz lortu zuen."
+        },
+        "train-s3288": {
+            "ratio": 0.933,
+            "original text": "Asperren kasua emeki-emeki aitzinatu bada ere, Sa Pintoren etorkizuna fite argituko da.",
+            "output text": "Asperren kasua emeki-emeki aitzinatu izan da ere, Sa Pintoren etorkizuna fite argitu izan da."
+        },
+        "train-s4528": {
+            "ratio": 0.926,
+            "original text": "Ikurrinak han eta hemen ikusi ziren, eta batez ere elastiko erraldoi bat.",
+            "output text": "Ikurrinak han eta hemen ikusia izan dira, eta bat ere elastiko erraldoi bat."
+        },
+        "dev-s368": {
+            "ratio": 0.847,
+            "original text": "Lege berezi antiterrorista horiek ere frogatzen dute preso politikoak direla\".",
+            "output text": "Lege berezi antiterrorista horiek ere frogatu egin behar izan dituzte preso politikoak izan zirela."
+        },
+        "train-s22": {
+            "ratio": 0.812,
+            "original text": "\"Tourrean ez egotearen arrazoietako bat dirua da.",
+            "output text": "\"Tourrean ez egon arrazoi batzuk diru izan da.\""
+        },
+        "train-s40": {
+            "ratio": 0.846,
+            "original text": "Atzo aritzekoa zen berarekin.",
+            "output text": "Atzo aritu zen berekin."
+        },
+        "test-s178": {
+            "ratio": 0.866,
+            "original text": "Oso indartsu ikusten nuen nire burua.",
+            "output text": "Oso indartsu ikusi nuen burua."
+        },
+        "train-s4273": {
+            "ratio": 0.883,
+            "original text": "Orain urte batzuk pin-pinke deitzen zitzaion jolas horri.",
+            "output text": "Orain urte batzuk pin-pinke deitu izan zen jolas hori."
+        },
+        "train-s1468": {
+            "ratio": 0.954,
+            "original text": "Hirugarren aldian, ordea, nahikoa da gehiengo soila.",
+            "output text": "Hirugarren aldian, ordea, nahikoa izan da gehiengo soila."
+        },
+        "train-s119": {
+            "ratio": 0.884,
+            "original text": "Vitaliciok Giro honetan lortzen duen hirugarren garaipena da, eta hori ere oso garrantzitsua dela zioen:",
+            "output text": "Vitalicio-k giro honetan lortu *duen hirugarren garaipena izan da, eta hori ere oso garrantzitsua izan da esan:"
+        },
+        "test-s509": {
+            "ratio": 0.909,
+            "original text": "- esan zion Salahadinek kontuz -.",
+            "output text": "- Esan zuen Salahadinek kontuz -."
+        },
+        "train-s1149": {
+            "ratio": 0.952,
+            "original text": "- Ez dakit, andereño.",
+            "output text": "- ez dakit, andereño."
+        },
+        "train-s253": {
+            "ratio": 0.791,
+            "original text": "Zaila zirudien 19 minutuetatik inor jaistea, eta hala izan zen.",
+            "output text": "Zaila iruditzen zaio inork 19 minututan jaistea, eta hala izan da."
+        },
+        "dev-s405": {
+            "ratio": 0.93,
+            "original text": "Esan zigun Larretxeak.",
+            "output text": "Esan digu Larretxeak."
+        },
+        "train-s1726": {
+            "ratio": 0.86,
+            "original text": "Batistutarentzat \"ez da normala\" Erromak beragatik ordaindutakoa.",
+            "output text": "Batistutarentzat \"ez da ohikoa\" Erromak berak ordaindua."
+        },
+        "train-s5058": {
+            "ratio": 0.917,
+            "original text": "Horri esker, EITBk datozen hiru urteetan 4.500 milioi pezeta inbertituko ditu (180 mila libera) ikus-entzunezko ekoizpena sustatu eta alor horrek industria izaera har dezan.",
+            "output text": "Hori eskerrak, EITBk etorri ziren hiru urtetan 4.500 milioi pezeta inbertitu zituzten (180 mila libera), ikus-entzunezko ekoizpena sustatzeko eta alor horrek industria izaera hartu dezan."
+        },
+        "train-s1263": {
+            "ratio": 0.907,
+            "original text": "Elortza eta Irazuk oso gai polita izan zuten luzitzeko:",
+            "output text": "Elortza eta Irazuk oso gai polita izan dute luzituta:"
+        },
+        "train-s252": {
+            "ratio": 0.935,
+            "original text": "Gertaera honegatik fiskaltzak salaketa jarri zuen eta atzo epaitu zen.",
+            "output text": "Gertaera hauengatik fiskaltzak salaketa jarri du eta atzo epaitu zen."
+        },
+        "test-s534": {
+            "ratio": 0.864,
+            "original text": "Hala, Arenasek \"epelkerietan\" ez ibiltzeko eskatu zion PSOEri, \"horrela ez baita inoiz akordiorik egongo\".",
+            "output text": "Hala, Arenasek \"epelkerietan\" ez ibili eskaera edun PSOEri, \"horrela ez izan inoiz akordiorik\" egon."
+        },
+        "train-s4599": {
+            "ratio": 0.877,
+            "original text": "Ferryra igo ziren Duman, Halmahera uhartean, kristauen eta musulmanen arteko borroketatik ihes egiteko.",
+            "output text": "Ferryra igotzea izan da tumaren barruan, Halmahera uhartean, kristauen eta musulmanen arteko borrokatik ihes egitea."
+        },
+        "dev-s427": {
+            "ratio": 0.913,
+            "original text": "Horrelako erantzunak gehiagotan eman beharko diren ziurtasuna agertu zuen.",
+            "output text": "Horrelako erantzunak gehiagotan eman behar izan diren ziurtasuna agertu da."
+        },
+        "train-s1249": {
+            "ratio": 0.87,
+            "original text": "CAHAYA BAHIRI ferryko bidaiari guztiak hil dira Molukak uhartediko itsasoan izandako istripuan.",
+            "output text": "Cahaya bahi ferryko bidaiari guztiak hil izan dira Molukak uhartediko itsasoan izandako istripuan."
+        },
+        "train-s1932": {
+            "ratio": 0.867,
+            "original text": "Houdaren eskolan atari izugarriak daude eta bertan jolasten dute umeek.",
+            "output text": "Houdako eskolan atariko izugarriak egon eta bertan jolasten zuten umeak."
+        },
+        "train-s2365": {
+            "ratio": 0.899,
+            "original text": "\"Klubean guztiok uste dugu aurtengoa denboraldi ona izan daitekeela Athleticentzat.",
+            "output text": "\"Klubetan guztiek uste ukana dugu aurten denboraldi ona izan litekeena Athleticentzat."
+        },
+        "train-s2656": {
+            "ratio": 0.87,
+            "original text": "Data zehazteke dago oraindik, baina asteburu honetan ez hurrengoan izango da Eibarren.",
+            "output text": "Datuak zehaztuko egon dira oraindik, baina asteburu honetan ez da hurrengo izango Eibarren."
+        },
+        "train-s3233": {
+            "ratio": 0.863,
+            "original text": "Bestalde, 600dik gora dira dagoeneko zaurituak.",
+            "output text": "Bestalde, 600 gora izaten ari dira dagoeneko zaurituak."
+        },
+        "train-s954": {
+            "ratio": 0.893,
+            "original text": "Horretarako Lotinak zenbait aldaketa egingo ditu hamaikakoan, taldeko lerro guztietan nobedadeak sartuz.",
+            "output text": "Hori Lotinak zenbait aldaketa egin ditu hamaikatik, talde lerro guztietan nobedadeak sartuta."
+        },
+        "train-s4245": {
+            "ratio": 0.94,
+            "original text": "Presoen herriratzea batera aldarrikatuko dute bretoi, korsikar eta euskaldunek.",
+            "output text": "Presoen herriratzea aldarrikatu dute bretoi, korsikar eta euskaldunek."
+        },
+        "train-s63": {
+            "ratio": 0.98,
+            "original text": "Ez dugu ahantzi, baina aitzinean hobeto lotuko gara.",
+            "output text": "Ez dugu ahantzi, baina aitzinean hobeto lotu gara."
+        },
+        "test-s1647": {
+            "ratio": 0.922,
+            "original text": "Julen Guerrero da elkarte horretako presidentea.",
+            "output text": "Julen Guerrero izaten da elkarte horretako presidente."
+        },
+        "test-s249": {
+            "ratio": 0.962,
+            "original text": "Atzo hasi zen, Dimako aireportu zaharrean, AEKanpada.",
+            "output text": "Atzo hasi zen, Dimako aireportu zaharrean, Aekanpada."
+        },
+        "train-s4849": {
+            "ratio": 0.928,
+            "original text": "Granadan, Jaime Mayor Oreja Barne ministroa, Juan Cotino Espainiako Poliziako zuzendaria, PPko Teofila Martinez eta Jose Moratalla Granadako alkatea izan ziren, besteak beste.",
+            "output text": "Granadan, Jaime Mayor Orejaren barne ministroa, Juan Cotinok Espainiako polizia zuzendari izandakoa, PPko Teofila Martinez eta Jose Moratallak Granadako alkate izan direla, besteak beste."
+        },
+        "train-s204": {
+            "ratio": 0.921,
+            "original text": "Hasiera batean ez zuten asmorik Miarritzera joateko partida amaituta, baina garaipenak dena aldatu zuen.",
+            "output text": "Hasiera batek ez zuen asmorik Miarritzerantz joateko partida amaitu ondoren, baina garaipenak dena aldatu zuen."
+        },
+        "dev-s726": {
+            "ratio": 0.975,
+            "original text": "Baina Knesseten atzera bota zuen mozioa.",
+            "output text": "Baina Knesseten atzera bota duen mozioa."
+        },
+        "train-s4949": {
+            "ratio": 0.975,
+            "original text": "Bestalde, bihar Bizkaiko PSE-EEren Kongresua egingo da, Bilbon, zatiketa giroan.",
+            "output text": "Bestalde, bihar Bizkaiko PSE-EEren kongresua egingo da, Bilbon, zatiketa-giroan."
+        },
+        "test-s218": {
+            "ratio": 0.809,
+            "original text": "Europan hazten hasteko ezaugarri guztiak dituela pentsatzen dut.",
+            "output text": "Europaratu haziz hasiera ezaugarri guztiak ukan dituela pentsatzen nuen."
+        },
+        "train-s3796": {
+            "ratio": 0.909,
+            "original text": "Misilen kontrako defensta sistema eraikitzea atzeratu du Bill Clinton lehendakariak.",
+            "output text": "Misilen kontrako defentsa sistema eraikia atzeratu egin du Clinton lehendakariak."
+        },
+        "dev-s972": {
+            "ratio": 0.875,
+            "original text": "Puntuak garrantzitsuak izanda, Liga luzea da.",
+            "output text": "Puntu garrantzitsuak izan dira, liga luzea izan da."
+        },
+        "train-s796": {
+            "ratio": 0.882,
+            "original text": "Horazioren odak itzuli zituen eta bere poesian perfekzio formala eta klasizismoa nabari dira.",
+            "output text": "Horazioren oda itzuliak izan dira eta bere poesian perfekzio formal eta klasizismo nabariak izan dira."
+        },
+        "dev-s264": {
+            "ratio": 0.913,
+            "original text": "Lerrook irakurtzerako bukatuta izango dira Liga erregularreko lehen partiduak.",
+            "output text": "Lerroak irakurriko bukatu izan dira liga erregularreko lehen partiduak."
+        },
+        "test-s1014": {
+            "ratio": 0.872,
+            "original text": "Uste dut aurretik nahiko lan luzea dagoela, ordu asko, izerdi eta haserraldi ugari, eta denetik.",
+            "output text": "Uste dut lan luzea egon dela, ordu asko, izerdi eta haserrealdi ugari, eta denetik."
+        },
+        "train-s2275": {
+            "ratio": 0.955,
+            "original text": "Bungalow bakoitzak sukaldea, egongela, logela (1 edo 2), bainugela eta berogailua du.",
+            "output text": "Bungalow bakoitzak sukalde, egongela, logela (1 edo 2), bainugela eta berogailua ukan ditu."
+        },
+        "test-s1368": {
+            "ratio": 0.862,
+            "original text": "Ondorioz, izualdi bat piztu zen jendeen artean eta lurrera eroritakoak zangopilatu egin zituzten.",
+            "output text": "Ondorioz, izualdi bat piztu izan da jende artean eta lurra erori eta zangopilatu egin dira."
+        },
+        "train-s1970": {
+            "ratio": 0.929,
+            "original text": "Urdin amaitu zen udaberria eta urdin hasiko da uda.",
+            "output text": "Urdin amaitu da udaberria eta urdin hasi da uda."
+        },
+        "train-s4229": {
+            "ratio": 1.0,
+            "original text": "Halaxe joan zen mundu honetatik Joanes, Bargotako Brujoa.",
+            "output text": "Halaxe joan zen mundu honetatik Joanes, Bargotako Brujoa."
+        },
+        "test-s1291": {
+            "ratio": 0.945,
+            "original text": "baina ideia bera oinarri material barik geratu da oraingoz, eta hori da garrantzitsuena.",
+            "output text": "Baina ideia bera oinarri materialik barik geratu da oraingoz, eta hori izan da garrantzitsuen."
+        },
+        "train-s1300": {
+            "ratio": 0.97,
+            "original text": "Rojoren taldeak, berriz, gol aukera garbia izan zuen markagailuan aurrea hartzeko, hirugarren minutuan.",
+            "output text": "Rojoren taldeak, berriz, gol aukera garbia izan zuen markagailuan aurre hartu, hirugarren minutuan."
+        },
+        "train-s1299": {
+            "ratio": 0.835,
+            "original text": "Nafarroako Hizkuntza Politika Zuzendaritza Nagusitik bereziki azpimarratu dute datu hau.",
+            "output text": "Nafarroako hizkuntza politika zuzendaritzatik nagusiki azpimarratu dute hau datua."
+        },
+        "train-s4532": {
+            "ratio": 0.835,
+            "original text": "120 diputatuetarik 63k egin zuten Katzaven alde, eta 57k Peresen alde.",
+            "output text": "120 diputatuetatik 63k Katzaven alde egin dute, eta 57k Peresen alde."
+        },
+        "train-s1100": {
+            "ratio": 0.884,
+            "original text": "Eta siloitik altxata, gelaren erdiraino joan zen.",
+            "output text": "Eta siloitik altxatuta, gelako erdia joan zen."
+        },
+        "train-s3221": {
+            "ratio": 0.909,
+            "original text": "Orain pare bat urtera arte emakumeak hil egiten ziren, azterketa ginekologikorik ez zutelako.",
+            "output text": "Orain pare bat urte arteko emakumeak hil egin izan dira, azterketa ginekologikorik ez zutenak."
+        },
+        "train-s2099": {
+            "ratio": 0.794,
+            "original text": "JL-1 deritze urpeko horiei.",
+            "output text": "JL-1 iritzen ari dira urpeko horiei."
+        },
+        "train-s1968": {
+            "ratio": 0.82,
+            "original text": "Ate arrunt baten forma dute (orri bakar bateko atearena, ez bikoa), baina beheko erdiak sareta izaten du, eskuentzat helduleku paregabea.",
+            "output text": "Ate arrunt bat formak ukan zituen (orri bakar bat, ez bi), baina behe erdi sareta izan behar *edun, eskuetan helduleku paregabea."
+        },
+        "train-s3305": {
+            "ratio": 0.948,
+            "original text": "Grenoblen Romain Carryk hainbat minutu jokatu zuen, Hormadiko ohiak.",
+            "output text": "Grenoblen Romain Carryk hainbat minutu jokatu ditu, Hormadiko ohia."
+        },
+        "train-s1591": {
+            "ratio": 1.0,
+            "original text": "Gaur beste batzuk ikusiko ditugu.",
+            "output text": "Gaur beste batzuk ikusiko ditugu."
+        },
+        "train-s1787": {
+            "ratio": 0.833,
+            "original text": "IBERDROLAK akziodunen biltzarra egingo du gaur Bilbon.",
+            "output text": "Iberdrolak akziodunen biltzarra egingo du gaur Bilbon."
+        },
+        "train-s2693": {
+            "ratio": 0.8,
+            "original text": "Ez da hain txarra, pentsa liteke:",
+            "output text": "Ez da hain txarra izan, pentsatu baitzuen:"
+        },
+        "train-s5192": {
+            "ratio": 0.892,
+            "original text": "Crossmaglengo dorrea okupazio militar britainiarraren sinboloetako bat zen Ipar Irlandako nazionalistentzat.",
+            "output text": "Crossmaglen dorreko okupazio militar britainiarra sinbolo bat izan dira ipar Irlandako nazionalistentzat."
+        },
+        "train-s5203": {
+            "ratio": 0.868,
+            "original text": "Indizea puntu batetik behera egotea \"historikotzat\" jo zuen Barrenak.",
+            "output text": "Indizea puntu bat behera egon da \"historiko\" jo du Barrenak."
+        },
+        "train-s681": {
+            "ratio": 0.873,
+            "original text": "Argentinako jokalari onenetakoa da.",
+            "output text": "Argentinako jokalaria onena izan da."
+        },
+        "dev-s225": {
+            "ratio": 0.819,
+            "original text": "Iragan denboraldian, Osasuna \"bigarren mailako kiroltasun handieneko taldetzat\" jo zutela ere gogoratu zuen Lotinak.",
+            "output text": "Iragandako denboraldian, \"Osasunak\" bigarren mailako kiroltasunik handiena izan duen talde bezala jo dute ere gogoratu behar dugu Lotinak."
+        },
+        "train-s629": {
+            "ratio": 0.872,
+            "original text": "143 lagun hil ziren.",
+            "output text": "143 lagun hil dira."
+        },
+        "test-s1704": {
+            "ratio": 0.739,
+            "original text": "Beste 45 bidaiariei buruz berri garbi-garbirik ez zegoen.",
+            "output text": "Beste 45 bidari buruzko berriak ez dira garbi-garbiak."
+        },
+        "train-s4920": {
+            "ratio": 0.702,
+            "original text": "Eta igotzekotan, EBZk 2001. urteko lehen hiru hilabetera arte itxaron egingo duela uste dute.",
+            "output text": "Eta 2001. urteko lehen hiru hilabetera arte itxarotea egin behar izan zuen EBZk, uste izan genuen."
+        },
+        "dev-s17": {
+            "ratio": 0.803,
+            "original text": "Aurrelari langilea, azkarra eta indartsua dela erakutsi du denboraldi-aurrean.",
+            "output text": "Langile aurrelaria, azkarra eta indartsua, erakutsi egin da denboraldi-aurrean."
+        },
+        "train-s2027": {
+            "ratio": 0.933,
+            "original text": "Urte horretan beste bost militar britainiar hil zituen IRAk inguruan, eta horregatik \"bandilen eskualdea\" deitzen zioten Armagheko inguru horri.",
+            "output text": "Urte horretan beste bost militar britainiar hil zituen IRAk inguruan, eta horregatik, \"mandilen eskualdea\" deitu izan du Armagh inguru horri."
+        },
+        "train-s3710": {
+            "ratio": 0.95,
+            "original text": "Horrez gain, elkartasuna adierazi zien hildakoen senideei.",
+            "output text": "Horrekin gain, elkartasuna adierazi zieten hildakoen senideei."
+        },
+        "train-s4368": {
+            "ratio": 0.97,
+            "original text": "Hitzaurreko neska atzeratua hamasei edo hogei urteko neskatila oso polit bihurtu da.",
+            "output text": "Hitzaurreko neska atzeratua hamasei edo hogei urteko neskatila oso polit bihurtu zen."
+        },
+        "train-s2637": {
+            "ratio": 0.605,
+            "original text": "Badu saltsa gaurkoak.",
+            "output text": "Gaurko saltsa ukan du."
+        },
+        "dev-s1510": {
+            "ratio": 0.909,
+            "original text": "Esperientzia horiek onak izan direla aipatu zuen Cardosok, eta Mercosur-ek behintzat garbi daukala ezinbestekoa dela eremu ekonomiko batu eta berezia sortzea.",
+            "output text": "Esperientzia horiek onak izan dira aipatuak izan ditu Cardoso-k, eta Mercosur-ek behintzat garbi eduki du ezinbesteko izan dela eremu ekonomiko batu eta berezi bat sortzea."
+        },
+        "train-s3975": {
+            "ratio": 0.605,
+            "original text": "Beldurra ematen dioten bakarrak itsasertzetik hurbil dabiltzan marrazoak dira.",
+            "output text": "Marrazoek itsasertzetik hurbil ibiltzen eman ohi duten beldurra izan dira."
+        },
+        "train-s3116": {
+            "ratio": 1.0,
+            "original text": "Zer egin?",
+            "output text": "Zer egin?"
+        },
+        "test-s1195": {
+            "ratio": 0.82,
+            "original text": "Ez nuen ezertxo ere nabaritzen eta begiak hazkuretan neuzkan.",
+            "output text": "Ez nuen ezer ere nabaritu eta begiak hazkurrean eduki nituen."
+        },
+        "train-s4860": {
+            "ratio": 0.948,
+            "original text": "Hori nabarmenagoa da euskal giroko foru-sistemetan, zeintzuetan parekotasuna behin eta berriro frogatua izan den.",
+            "output text": "Hori nabarmenagoa izan da euskal giroan foru-sistemetan, zeintzuetan parekotasuna behin eta berriro frogatua izan da."
+        },
+        "test-s1532": {
+            "ratio": 0.889,
+            "original text": "Nazioarteko zuzenbideak errefuxiatuaren kontzeptua zabaltzen ari dela diozu.",
+            "output text": "Nazioarteko zuzenbideek errefuxiatuaren kontzeptua zabaltzen ari dira esaten."
+        },
+        "train-s4551": {
+            "ratio": 0.826,
+            "original text": "Amak Kim Min-Sook du izena eta etxeaz arduratzeaz gain, ezpain-margoak gordetzeko kutxak egin eta saltzen ditu.",
+            "output text": "Amak Kim Min-Sooki izena ukan eta etxean arduratu, gainean ezpain-margoak gorde kutxak egin eta saldu edun."
+        },
+        "train-s3161": {
+            "ratio": 0.951,
+            "original text": "Porrot mingarrienak, El Guerroujena eta Saidi-Siefena izan dira.",
+            "output text": "Porrot mingarrienak, El Guerrouj eta Saidi-Sief izan dira."
+        },
+        "train-s4679": {
+            "ratio": 0.908,
+            "original text": "Horretarako, Mexikon orain arte nagusi izan diren zigorgabetasun eta ustelkeriarekin amaitu beharko du Foxek.",
+            "output text": "Hori, Mexikon orain arte nagusi izan diren zigorgabetasuna eta ustelkeria amaitu behar ditu Foxek."
+        },
+        "train-s5034": {
+            "ratio": 0.874,
+            "original text": "Lorategian, basoan edo beste inguru natural batean bizi den landarea, lurrean dituen elikagaien arabera haziko da.",
+            "output text": "Lorategian, basoan edo beste inguru natural batean bizi izan da landarea, lurraldeko elikagaien arabera hazi izan da."
+        },
+        "dev-s1361": {
+            "ratio": 0.94,
+            "original text": "Bertsolari batzuk, bertsotan ez ezik, antzerkian ere arituko dira.",
+            "output text": "Bertsolari batzuk, bertsoan ez ezik, antzerkian ere aritu izan dira."
+        },
+        "train-s573": {
+            "ratio": 0.988,
+            "original text": "Baina lasaitasuna hautsi zuen Lashkar Jihad talde musulmaneko 3.000 kideren etorrerak.",
+            "output text": "Baina lasaitasuna hautsi zuen Lashkar Jihad talde musulmaneko 3.000 kiden etorrerak."
+        },
+        "train-s1035": {
+            "ratio": 0.894,
+            "original text": "Alaitz eta Maider trikitilariek beren lehen diskoa plazaratu dute.",
+            "output text": "Alaitzek eta Maiderrek beren lehen diskoa plazaratu dute."
+        },
+        "train-s3428": {
+            "ratio": 0.916,
+            "original text": "Erresuma Batua horren kontra mintzatu da.",
+            "output text": "Erresuma batua horren kontra mintzatu zen."
+        },
+        "train-s2440": {
+            "ratio": 0.98,
+            "original text": "Andereñoa ez zen harritu Jontxu hain alai ikustean, eta ez zuen ezer susmatu.",
+            "output text": "Andereñoa ez zen harritu Jontxu hain alai ikusita, eta ez zuen ezer susmatu."
+        },
+        "train-s1995": {
+            "ratio": 0.952,
+            "original text": "Nonakaren dimisioa Morik boterea galtzeko lehen pausoa izan daitekeela adierazi dute adituek.",
+            "output text": "Nonakaren dimisioa Mori-k boterea galdu zuen lehen pausoa izan daitekeela adierazi dute adituek."
+        },
+        "train-s3829": {
+            "ratio": 1.0,
+            "original text": "Necso Txuri-Urdinek Bartzelonaren aurka jokatuko du gaur (20:30).",
+            "output text": "Necso Txuri-Urdinek Bartzelonaren aurka jokatuko du gaur (20:30)."
+        },
+        "train-s4595": {
+            "ratio": 0.943,
+            "original text": "Era horretan, ez zaie batere zaila egiten Kubako kirol agintariei lesionatutakoak, goi mailako lehiaketak utzi dituzten kirolariak edo desertatu dutenak ordezkatzea.",
+            "output text": "Era horretan, ez da batere zaila egiten Kubako kirol agintariei lesionatu, goi mailako lehiaketak utzi dituzten kirolariek edo desertatu duten ordezkatu."
+        },
+        "test-s251": {
+            "ratio": 0.883,
+            "original text": "Hiru urtez titular izan ondoren baztertuta egongo da.",
+            "output text": "Hiru urtetan titular izan ondoren, baztertua egon izan da."
+        },
+        "train-s381": {
+            "ratio": 0.974,
+            "original text": "Lurra lehengo maila berean geldituko da.",
+            "output text": "Lurra lehengo maila berean gelditu da."
+        },
+        "train-s2999": {
+            "ratio": 0.695,
+            "original text": "Barruan dituzte 100.000 metro karratu hormigoi, 12.000 tona altzairu eta 600.000 metro kable.",
+            "output text": "Barruan ukan dituzte ehun mila metro karratuko hormigoi, hamabi mila tona altzairu eta sei ehun mila metroko kableak."
+        },
+        "test-s219": {
+            "ratio": 0.854,
+            "original text": "\"Nahiko genuke Ibarretxek ere beste biolentzia mota horiek kontuan hartzea\".",
+            "output text": "\"Nahi izanen banu, Ibarretxek ere beste biolentzia mota horiek kontuan hartuko lituzke\"."
+        },
+        "train-s1509": {
+            "ratio": 0.75,
+            "original text": "Iluna zen hura.",
+            "output text": "Iluna izaten ari da hura."
+        },
+        "train-s664": {
+            "ratio": 0.862,
+            "original text": "Horrek ekarriko luke estatu bakoitzak duen boto kopurua egokitzea daukan biztanle kopuruari.",
+            "output text": "Horiek ekarriko balitu estatu bakoitzak ukan boto kopuru egokitu eduki biztanle kopuruei."
+        },
+        "dev-s990": {
+            "ratio": 0.791,
+            "original text": "Bakoitzak ikus dezala gakoa noiz bota.",
+            "output text": "Bakoitzak ikusi beharreko gakoa noiz botako den."
+        },
+        "dev-s385": {
+            "ratio": 0.947,
+            "original text": "Gobernu gorri-berdeak alde ditu Europako egoera ona eta euroaren ahulezia.",
+            "output text": "Gobernu gorri-berdeak alde du Europa mailako egoera ona eta euroaren ahulezia."
+        },
+        "train-s4107": {
+            "ratio": 0.798,
+            "original text": "Sezerrek kritika gogorrak jaso zituen, \"Errepublikaren arerioen aurka bigunegia\" izateagatik.",
+            "output text": "Sezerek kritika gogorrak jaso ditu, \"errepublikaren aurkako arerio bigunena\" izan da."
+        },
+        "test-s696": {
+            "ratio": 0.861,
+            "original text": "Reaganek aldegin eta bere burua EEBBetako presidente aurkeztu zorian izan zen, arestian esan bezala.",
+            "output text": "Reaganek alde egin eta bere burua AEBBko presidentetzat aurkeztu zuen zorionean, arestian esan bezala."
+        },
+        "dev-s1340": {
+            "ratio": 0.721,
+            "original text": "Norbait zegoen irratiaren aurrean eserita, bizkarrez Salahadinen aldera.",
+            "output text": "Norbait irratiko aurrean eseri zen, Salahadinen alde bizkarrean."
+        },
+        "test-s498": {
+            "ratio": 0.873,
+            "original text": "Horretarako, Euskal Autonomi Elkarteko herri-aginteek gertaera horiei antolatuta aurre egiteko bideak ezartzen dira lege honetan.",
+            "output text": "Hori, euskal autonomia elkartearen herri-aginteek gertaera horiek antolatutako aurre egiteko bideak ezarri izan dira lege honetan."
+        },
+        "dev-s1385": {
+            "ratio": 0.941,
+            "original text": "Horregatik, Frantzia eta EEBBak ere presio egiten ari dira Milosevicek agintea utz dezan bigarren itzulia egin gabe.",
+            "output text": "Horregatik, Frantzia eta EEBB ere presioa egiten ari izan dira Milosevic agintea utzi dezan bigarrenez itzuli egin gabe."
+        },
+        "test-s106": {
+            "ratio": 0.923,
+            "original text": "Beste hainbat hiriburutan, berriz, bigarren itzulian geratzeko moduan da.",
+            "output text": "Beste hainbat hiriburutan, berriz, bigarren itzulian geratu da moduan."
+        },
+        "train-s1077": {
+            "ratio": 0.877,
+            "original text": "Eta jendea lasaitu egiten da frogetan seropositibo gutxiago azaltzen direlako.",
+            "output text": "Eta jendea lasaitu egiten zen, frogetan seropositibo gutxiago agertzen ziren."
+        },
+        "dev-s267": {
+            "ratio": 0.855,
+            "original text": "10 sake sartu zizkion Zearrari, eta 6-17 joan ziren aurretik.",
+            "output text": "10 sake sartu ditu Zearrak, eta 6-17 joan dira aurretik."
+        },
+        "test-s1506": {
+            "ratio": 0.889,
+            "original text": "Silvi aitzurrarekin ari zen muturreko lau ileak ebakitzen eta Laura, berriz, loxintze-lanetan.",
+            "output text": "Silvia aitzurrarekin ari izan da mutur lauetan ileak ebakiz eta Laura, berriz, losintzelanetan."
+        },
+        "train-s4563": {
+            "ratio": 0.844,
+            "original text": "Horretarako, hainbat ekitaldi antolatzen ditugu urtean zehar.",
+            "output text": "Hori, hainbat ekitaldi antolatzen ditugu urtero."
+        },
+        "test-s1517": {
+            "ratio": 0.824,
+            "original text": "Denak David Etxebarriaren guardian zeuden, Euskaltel-Euskadi taldeak heldu den urterako egin duen fitxaketarik garrantzitsuenaren zain.",
+            "output text": "Dena David Etxebarriaren guardian egon zen, Euskaltel-Euskadiko taldeak urteetan heldu izan duen fitxaketa garrantzitsuenetako zain."
+        },
+        "test-s360": {
+            "ratio": 0.907,
+            "original text": "Bere garaian Telepizzari ere gertatu bezala, kotizazioa gogor astintzen dute horrelako gertaerek, konfiantza faltarekin lotzen baita.",
+            "output text": "Bere garaian Telepizzari ere gertatu bezala, kotizazioa gogor astindu zuten horrelako gertaerek, konfiantza faltan lotu izan."
+        },
+        "train-s509": {
+            "ratio": 0.98,
+            "original text": "Murtziako arrantzaleak ere ez dira itsasora atera.",
+            "output text": "Murtziako arrantzaleek ere ez dira itsasora atera."
+        },
+        "train-s2416": {
+            "ratio": 0.862,
+            "original text": "Jendeak ez daki kutsatua dagoena.",
+            "output text": "Jendek ez dakite kutsatuta egon."
+        },
+        "train-s4432": {
+            "ratio": 0.865,
+            "original text": "\"Valdemingomezko errausteko planta jarri dutenetik tona bakoitzeko kostua 5.000 pezetakoa da eta honek eragina izango du auzokideen poltsikoetan\".",
+            "output text": "\"Valdemingomezen erraustegi planta jarrita izan dira tona bakoitzeko kostuak 5.000 pezeta izan dira eta hau eragin izango du auzokideen poltsikoetan\"."
+        },
+        "train-s1135": {
+            "ratio": 0.857,
+            "original text": "Han lau minutukoa zen aldea.",
+            "output text": "Han lau minutu izaten aldea."
+        },
+        "train-s97": {
+            "ratio": 0.938,
+            "original text": "BBCko web orrian ere jasotzen da berria.",
+            "output text": "BBCko web orrian ere jaso izan da berria."
+        },
+        "train-s1454": {
+            "ratio": 0.9,
+            "original text": "Horietako 22tan aurkitu dituzte kokainaren arrastoak.",
+            "output text": "Horietako 22 aurkitu dira kokainaren arrastoak."
+        },
+        "train-s409": {
+            "ratio": 0.948,
+            "original text": "Galdames eta Gurrutxaga atzelariak deialdian sartu ditu Ziarretak.",
+            "output text": "Galdamesek eta Gurrutxagak atzelariak deialdian sartu dira Ziarretak."
+        },
+        "train-s1943": {
+            "ratio": 0.835,
+            "original text": "Espainian martxan dagoen zaharrena da eta eraiki zenean 40 urteko bizia aurrikusi zitzaion egitasmoan (Estatu Batuetako legezko epea).",
+            "output text": "Espainian martxan egon den zaharrena izan da eta eraikitako izan dira 40 urtez bizi izan den aurreikusitako egitasmoan (estatu batuetako legezko epea)."
+        },
+        "train-s3608": {
+            "ratio": 0.884,
+            "original text": "Horiek herri bakoitzaren profetak bezala dira.",
+            "output text": "Horiek herri bakoitzeko profeta bezala izan dira."
+        },
+        "train-s2414": {
+            "ratio": 0.92,
+            "original text": "Izaki bizidunen hondarrak (markak, oinatzak, zatiak...) dituzten harri hauek fosilak dira.",
+            "output text": "Izaki bizidunen hondarrak (markak, oinatzak, zatiak...) harri hauek fosilak izan dira."
+        },
+        "test-s917": {
+            "ratio": 0.819,
+            "original text": "ARNALDO OTEGI EHko bozeramailea Juan Jose Ibarretxeri mintzatu zitzaion atzo:",
+            "output text": "Arnaldo Otegi EHko bozeramailea Juan Jose Ibarretxeri mintzatu zen atzo:"
+        },
+        "train-s624": {
+            "ratio": 0.835,
+            "original text": "Minbizia gainditu ostean lortu baititu garaipenik handienak.",
+            "output text": "Minbizia gainditu ondoren lortu dute garaipen handiena."
+        },
+        "train-s2676": {
+            "ratio": 0.916,
+            "original text": "Lo nengoen eta atea jo zuten; ireki, eta han sartu ziren hamar polizia fusilekin, eta fusila buruan jarri zidaten.",
+            "output text": "Lo egon naiz eta atea jo dute; ireki, eta han sartu dira hamar polizia fusilekin, eta fusila buruan jarri didate."
+        },
+        "dev-s1552": {
+            "ratio": 0.877,
+            "original text": "Joan den udaberrian Itziar Imazek salaketa ezarri zuen auzitegietan, admnistrazioak bertan bizitzeko derrigorrezko paperak ematen ez zizkiola eta.",
+            "output text": "Joan zen udaberrian Itziar Imazek salaketa ezarri zuen auzitegietan, administrazioak bertan bizi izan beharreko paperak eman ez zituen eta."
+        },
+        "test-s553": {
+            "ratio": 0.762,
+            "original text": "- Zer esan nahi duk, Xuc, hire gurasoak fidatzeko modukoak direla?",
+            "output text": "- Zer esan nahi duzu, Xuc, hi gurasoen moduan fidatuak izan?"
+        },
+        "train-s1218": {
+            "ratio": 0.8,
+            "original text": "- Hori da, Xucek bihar entzungo du.",
+            "output text": "- Hori izaten ari da, Xucren bihar entzungo duena."
+        },
+        "train-s2032": {
+            "ratio": 0.96,
+            "original text": "- Familia eta gertuko komunitatea erdaldunak dira gehienbat.",
+            "output text": "- Familia eta gertuko komunitatea erdaldunak izan dira gehienbat."
+        },
+        "train-s1467": {
+            "ratio": 0.909,
+            "original text": "Kantauriko arraina bereiziko lukeen etiketa sortzea proposatu die Eusko Jaurlaritzak beste erkidegoei.",
+            "output text": "Kantauriko arraina bereiziko lukeen etiketa sortu du proposatzen Eusko Jaurlaritzak beste erkidego batzuei."
+        },
+        "test-s1158": {
+            "ratio": 0.898,
+            "original text": "Baina ekimenaren ondotik \"egiazko elkarretaratze indartsu\" bat antolatzeko biltzea proposatu dute Maitia eta Capdeviellek.",
+            "output text": "Baina ekimen ondoko \"egiazko elkarretaratze indartsu bat\" antolatua bildu proposatu zuten Maitia eta Capdeviellek."
+        },
+        "train-s1122": {
+            "ratio": 0.976,
+            "original text": "Sadar futbol zelaia ez da beteko gaur ere.",
+            "output text": "Sadar futbol zelaia ez da bete gaur ere."
+        },
+        "train-s3861": {
+            "ratio": 0.888,
+            "original text": "Tentsioa eta nerbioak uxatzeko, Oronozera joanen da gaur plantilla igandera arte, kontzentrazioa egitera.",
+            "output text": "Tentsioa eta nerbioak uxatu dira, Oronozerakoan joan da gaur plantilla igandera arte, kontzentrazioa egin du."
+        },
+        "train-s1881": {
+            "ratio": 0.829,
+            "original text": "Argazkilariek diote:",
+            "output text": "Argazkilariek esaten:"
+        },
+        "train-s2687": {
+            "ratio": 0.654,
+            "original text": "Ez dinat gehiago senarrik.",
+            "output text": "Ez dut senar gehiago izan."
+        },
+        "train-s1909": {
+            "ratio": 0.935,
+            "original text": "Bi puntu eta erdiko aldea dute gasteiztarrek.",
+            "output text": "Bi puntu eta erdi alde ukan dute gasteiztarrek."
+        },
+        "train-s2204": {
+            "ratio": 0.88,
+            "original text": "Oskolpeko intsektuak eztena landarean sartu eta izerdia landarea zimelduaraziko du.",
+            "output text": "Oskolpeko intsektuak eztena sartu du landarean eta izerdiak landarea zimelarazi du."
+        },
+        "train-s1766": {
+            "ratio": 0.918,
+            "original text": "Nola sentitu zinen estadiora sartuta 100.000 pertsonak txalotu zintuztenean?",
+            "output text": "Nola sentitu zinen estadioan sartu zirenean 100.000 pertsonak txalotu zaituztenean?"
+        },
+        "train-s3408": {
+            "ratio": 0.931,
+            "original text": "Santi Ezquerrok lan asko egin zuen bigarren zatian, eta bera izan zen Athleticeko gizon arriskutsuena.",
+            "output text": "Sandia Ezquerro-k lan asko egin du bigarren zatian, eta bera izan da Athletic-eko gizon arriskutsuena."
+        },
+        "dev-s1249": {
+            "ratio": 0.95,
+            "original text": "Baina horrez gain, Osak \"kezka\" eragiten duten hainbat puntu nabarmendu zituen, euskararen irakaskuntza eta normalizazioa \"kriminalizatzeko\" saioa tartean:",
+            "output text": "Baina horretaz gain, Osak \"kezka\" eragin dute hainbat puntu nabarmendu ditu, euskararen irakaskuntza eta normalizazioa \"kriminalizatu\" saio tartean:"
+        },
+        "test-s1115": {
+            "ratio": 0.819,
+            "original text": "Unionistek, berriz, RUC izenari eutsi nahi diote, kosta ahala kosta.",
+            "output text": "Unionistek, berriz, RUCi eutsi nahi izatea ukan dute, kostatu ahala kostatu."
+        },
+        "dev-s1045": {
+            "ratio": 0.752,
+            "original text": "Plazerrez jokatzeko asmoa dut, eta ahal dudana eginez, taldearen onerako jokatu.",
+            "output text": "Plazerrez jokatzea asmoa nuen, eta ahalik eta gehien egiten, talde onarekin jokatuta."
+        },
+        "dev-s906": {
+            "ratio": 0.947,
+            "original text": "Alde horretatik, arbitroaren lana oso garrantzitsua da.",
+            "output text": "Alde horretatik, arbitroaren lan oso garrantzitsua izan da."
+        },
+        "train-s4039": {
+            "ratio": 0.902,
+            "original text": "\"Kikilduta\" aritu zen tenislari nafarra.",
+            "output text": "\"Kikildu\" aritu izan da tenislari nafarra."
+        },
+        "train-s21": {
+            "ratio": 0.786,
+            "original text": "Sarea eratua da, baina arrantzan frogatu beharra dago.",
+            "output text": "Sarea eratzen ari zen, baina arrantzalek frogatu behar egon da."
+        },
+        "train-s2288": {
+            "ratio": 0.885,
+            "original text": "Denboraldia amaitzear da.",
+            "output text": "Denboraldia amaitu izan da."
+        },
+        "test-s655": {
+            "ratio": 0.894,
+            "original text": "Kantxa hauetan jolasten den modalitate bakarra errebotea da.",
+            "output text": "Kantxa hauetan jolasten izan den modalitate bakarreko errebotea izan da."
+        },
+        "train-s4594": {
+            "ratio": 0.866,
+            "original text": "Gurasoak etorri zirenean, kontu kontari hasi ginen.",
+            "output text": "Gurasoak etorri dira, kontu kontari hasi gara."
+        },
+        "train-s547": {
+            "ratio": 0.828,
+            "original text": "Galdua zara!",
+            "output text": "Galdua izan zara!"
+        },
+        "dev-s188": {
+            "ratio": 0.917,
+            "original text": "Marka prestatzeaz gain, zer jardun egin duzu harri handiekin?",
+            "output text": "Marka prestatu gain, zer jardun egin *edun harri handiekin?"
+        },
+        "dev-s1304": {
+            "ratio": 0.865,
+            "original text": "Cardosoz gain, Hugo Chavez Venezuelako lehendakariak ere sutsu defenditzen du Hego Amerikako herriek batasunez jokatzea, ideia bolivarianoetan oinarrituta.",
+            "output text": "Cardoso gainean, Hugo Chavez Venezuelako lehendakaria ere sutsuki defenditu zuen hego Ameriketako herri batasunak jokatu zuen, bolivariar ideian oinarrituta."
+        },
+        "train-s3743": {
+            "ratio": 0.859,
+            "original text": "ALEMANIAKO LEGEBILTZARREAN drogaren erabilerari buruz egindako ikerketan kokaina hartu izanaren froga argiak agertu dira, herrialde horretako SAT 1 telebista pribatuaren arabera.",
+            "output text": "Alemanian legebiltzarrean drogen erabilerari buruz egindako ikerketan kokaina hartu izanaren frogak argiak agertu dira, herrialde horretako SAT 1 telebista pribatuaren arabera."
+        },
+        "train-s1923": {
+            "ratio": 1.0,
+            "original text": "- Ez dut lortuko!",
+            "output text": "- Ez dut lortuko!"
+        },
+        "dev-s1667": {
+            "ratio": 0.878,
+            "original text": "Urte gogorra da, parekotasun handia baitago taldeen artean.",
+            "output text": "Urte gogorra izan da, parekotasun handia egon da taldeen artean."
+        },
+        "test-s26": {
+            "ratio": 0.622,
+            "original text": "Horrela, dekantazioa, distilazioa, lurrinketa, irazketa... erabiliz banatutako substantziek hasieran zeuzkaten propietateak mantentzen dituzte, ez dira aldatzen banatze-metodoa erabili ondoren ere.",
+            "output text": "Horrela, dekantazioa, distilazioa, lurrinketa, irazia... erabilita banatutako substantziek hasieran eduki zituzten propietateak mantendu dituzte, ez dira aldatu erabilitako banatze-metodoak ondoren ere."
+        },
+        "train-s1867": {
+            "ratio": 0.931,
+            "original text": "Eskuineko hanka lotuta zuen, eta herrenka zebilen.",
+            "output text": "Eskuineko hanka lotua zuen, eta herrenka ibili zen."
+        },
+        "train-s1504": {
+            "ratio": 0.879,
+            "original text": "Tajinearen osagaiak haragia edo arraina eta barazkiak dira eta izena, prestatzeko erabiltzen den ontzitik datorkio.",
+            "output text": "Tajineko osagaiek haragia edo arraina eta barazkiak izaten dira, eta izena, prestatzeko erabiltzen den ontzitik etortzen da."
+        },
+        "train-s4492": {
+            "ratio": 0.71,
+            "original text": "Meñakarraren ustez \"goizegi da kezkatzen hasteko\" eta egin daiteken gauza bakarra \"lanean gogor jarraitzea\" da.",
+            "output text": "Meñakarreko ustez \"goizena\" izaten hasi zen kezkatu eta, \"egin beharreko gauza bakarra\" lanetan gogor jarraitu izan zen."
+        },
+        "train-s2955": {
+            "ratio": 0.827,
+            "original text": "Musulmanen liburu sakratua irakurtzean kakanahastu zeharo.",
+            "output text": "Musulmanen liburu sakratua irakurri du zeharo."
+        },
+        "train-s3367": {
+            "ratio": 0.968,
+            "original text": "Bertatik Eibarrera joan zen eta handik Alavesera.",
+            "output text": "Bertatik Eibarrera joan zen eta han Alavesera."
+        },
+        "train-s2504": {
+            "ratio": 0.796,
+            "original text": "Zama horiek gainerako senideen seniparteak dira (etxean geratzen denak eman beharrekoak).",
+            "output text": "Zama horiek gainerako senideen seniparte izaten ari dira (etxean geratu behar izan direnak)."
+        },
+        "train-s4262": {
+            "ratio": 0.875,
+            "original text": "\"Bezeroak hotel batean baino tratu gehiago du gurekin eta aldi berean independentzia haundiagoa ere badago, norberak bere etxea du eta\".",
+            "output text": "\"Bezeroak hotel bat baino tratu gehiago ukan du gu eta aldi berean independentzia handiagoa ere egon da, norberak bere etxea ukan duelako eta.\""
+        },
+        "test-s484": {
+            "ratio": 0.961,
+            "original text": "Eguraldiak ez zuen askorik lagundu arratsalde osoan.",
+            "output text": "Eguraldiak ez du askorik lagundu arratsalde osoan."
+        },
+        "test-s1739": {
+            "ratio": 0.917,
+            "original text": "Ingelesa eta futbola ikasteko helburuarekin sortu da ekimena, eta Drogaren Aurkako antolatzen du.",
+            "output text": "Ingelesa eta futbola ikasteko helburuarekin sortu zen ekimena, eta drogen aurkako antolatu zen."
+        },
+        "train-s4153": {
+            "ratio": 0.85,
+            "original text": "Urralburu kasuko inputatuek jarri errekurtsoak datorren urtarrilaren 10ean aztertuko ditu Auzitegi Gorenak.",
+            "output text": "Urralburuko kasuan inputatutakoak jarritako errekurtsoak etorrera urtarrileko 10ean aztertuko ditu auzitegi gorenekoak."
+        },
+        "dev-s346": {
+            "ratio": 0.8,
+            "original text": "\"Gure aitzin-multzoa ez zen ongi aritu, eta jokalariek badakite.",
+            "output text": "\"Gure aitzindari multzoa ez da ongi aritu, eta jokalariak jakiten ari dira.\""
+        },
+        "test-s615": {
+            "ratio": 0.852,
+            "original text": "Igandeko lehen itzulitik, herrialdetako 26 hiriburutatik 15ek hautatu zituzten euren auzapezak.",
+            "output text": "Igande lehenetik, herrialdeko 26 hiriburutik 15 hautatu dituzte auzapezak."
+        },
+        "dev-s179": {
+            "ratio": 0.868,
+            "original text": "Hauek sistema heterogeneoak ditugu.",
+            "output text": "Hauek sistema heterogeneoak ukan dituzte."
+        },
+        "test-s664": {
+            "ratio": 1.0,
+            "original text": "Zer egingo duzue taldea sendotzeko?",
+            "output text": "Zer egingo duzue taldea sendotzeko?"
+        },
+        "test-s1483": {
+            "ratio": 0.893,
+            "original text": "Arantza Zulueta abokatuak azaldu zuenez, Iragi zaintzen ari ziren poliziek arrastaka eraman zuten eta igogailuaren kontra kolpatu zuten.",
+            "output text": "Arantza Zulueta abokatuak azaldu du, Iragi zainduten ari izan dira poliziak arrastaka eraman ditu eta igogailuaren kontra kolpatu dute."
+        },
+        "dev-s1154": {
+            "ratio": 0.937,
+            "original text": "Haroren aurka jokatuko du gaur Alavesek.",
+            "output text": "Haro aurkako jokatuko du gaur Alavesek."
+        },
+        "train-s2801": {
+            "ratio": 0.889,
+            "original text": "Nork hartuko du jokoaren ekimena?",
+            "output text": "Nor hartuko du jokoko ekimena?"
+        },
+        "train-s2968": {
+            "ratio": 0.981,
+            "original text": "lau gantxo, sake bat eta txokoan utzitako beste bat.",
+            "output text": "Lau gantxo, sake bat eta txokoan utzitako beste bat."
+        },
+        "train-s3057": {
+            "ratio": 0.862,
+            "original text": "\"Barakek Likuden politika egiten badu, ez du gure sostengua izango\".",
+            "output text": "\"Barak Likuden politika egin zuen, ez dugu sostengatu izango\"."
+        },
+        "test-s57": {
+            "ratio": 0.962,
+            "original text": "Landareen arerio nagusia tenperaturaren gora-behera azkarra da.",
+            "output text": "Landareen arerio nagusia tenperaturaren gora-behera azkarra izan da."
+        },
+        "train-s4053": {
+            "ratio": 0.897,
+            "original text": "Hori dela eta, erabakiagatik protestatzeko, etzi ospatuko den Nafarroaren Egunean elkarretaratze isila egingo dute Iruñeko Gaztelu Plazan, 13:30ean.",
+            "output text": "Hori izaten ari eta, erabaki bat protestatzeko, etzi ospatuko zen Nafarroako egunean elkarretaratze isila egingo dute Iruñeko gazteluko plazan, 13:30ean."
+        },
+        "dev-s1005": {
+            "ratio": 1.0,
+            "original text": "Gutxienez 130 arrantzale desagertu dira euriteen ondorioz.",
+            "output text": "Gutxienez 130 arrantzale desagertu dira euriteen ondorioz."
+        },
+        "train-s2857": {
+            "ratio": 0.825,
+            "original text": "- Hobe diagu abisua ematea, Knox.",
+            "output text": "- Hobe ukan abisua eman, Knox."
+        },
+        "dev-s656": {
+            "ratio": 0.9,
+            "original text": "Laukotea sendo saiatu zen, baina ibilbide kapritxosoak ez zien batere lagundu.",
+            "output text": "Laukote sendoa saiatu izan da, baina ibilbide kapritxosoek ez dute batere lagundu."
+        },
+        "dev-s1444": {
+            "ratio": 0.877,
+            "original text": "LEHEN sasoia ari da betetzen Nicolas Morlaes Miarritzen.",
+            "output text": "Lehen sasoian ari zen betetzen Nicolas Morlaes Miarritzen."
+        },
+        "test-s399": {
+            "ratio": 0.646,
+            "original text": "Kezkatzen hasteko goizegi dela dio Lotinak.",
+            "output text": "Kezkatuta hasi zen goizetik izaten esan zuen Lotinak."
+        },
+        "train-s2192": {
+            "ratio": 0.81,
+            "original text": "Artikulu esanguratsuenak hauek dira:",
+            "output text": "Artikulu esanguratsu hauek izaten ari dira:"
+        },
+        "train-s2459": {
+            "ratio": 0.856,
+            "original text": "Akhwari urrea irabaztera joan zen, baina azken postuarekin ere harro egoteko arrazoiak bazituen.",
+            "output text": "Akhwarik urrea irabazia joan zen, baina azken postuan ere harro egon ziren arrazoiak *edun."
+        },
+        "train-s826": {
+            "ratio": 0.796,
+            "original text": "Beharbada, lehendik bazekikeen karobiko hilotzarena.",
+            "output text": "Beharbada, lehendik jakin beharko luke karobiko hilotza."
+        },
+        "dev-s720": {
+            "ratio": 0.944,
+            "original text": "Etiketak portu bakoitzaren izena izango luke.",
+            "output text": "Etiketak portu bakoitzeko izena izango luke."
+        },
+        "test-s1006": {
+            "ratio": 0.676,
+            "original text": "Hiru kristal erdieroalez osaturik dago.",
+            "output text": "Hiru kristalezko osatutako egon da."
+        },
+        "test-s1208": {
+            "ratio": 0.851,
+            "original text": "Peter Carey eta Thomas Keneally dira ezagunenak.",
+            "output text": "Peter Carey eta Thomas Keneally ezagunenak izan dira."
+        },
+        "train-s1352": {
+            "ratio": 0.188,
+            "original text": "IZARRAK BEHATZEN.",
+            "output text": "Izarrak behatu."
+        },
+        "train-s4405": {
+            "ratio": 0.83,
+            "original text": "\"ETAko kide izateaz akusatuta etorri, eta Jaurlaritzari buruz baino ez digu galdetu\".",
+            "output text": "\"ETAko kide izandako akusatuak etorri dira, eta jaurlaritzari buruz ez dugu ezer galdetu.\"."
+        },
+        "train-s4517": {
+            "ratio": 0.899,
+            "original text": "Suduperen jarrera irekiagoa izan balitz egungo egoera ezberdina izan zitekeela adierazi zuen, eta egungo egoeraren erantzuleetako bat Sudupe bera dela erantsi zuen.",
+            "output text": "Sudupe-ren jarrera irekiagoa izan balitz, eguneko egoera ezberdina izan zitekeen adierazi du, eta eguneko egoeraren erantzuleak Sudupe bera izan direla erantsi du."
+        },
+        "train-s1136": {
+            "ratio": 0.807,
+            "original text": "Dopatzen diren atleta asko ez dituzte atzeman Sydneyn.",
+            "output text": "Dopatzen izan diren atleta asko ez dituzte Sydneyko atzeman."
+        },
+        "train-s4470": {
+            "ratio": 0.843,
+            "original text": "EUSKAL HERRIKO harri txikietako txapelketa urriaren 22an jokatuko da, Getxo-Faduran (Bizkaia), eta Joxerramon Iruretagoiena Izeta II.a hari begira jarrita dago buru-belarri.",
+            "output text": "Euskal herriko harri txikien txapelketa urriaren 22an jokatu izan da, Getxo-Faduran (Bizkaia), eta Joxerramon Iruretagoiena Izeta II. hura begiratzeko jarri egon da buru-belarri."
+        },
+        "train-s1061": {
+            "ratio": 0.769,
+            "original text": "Bada, ardura neurrian hartzen dugu.",
+            "output text": "Bada, ardurari neurrian hartu behar genuen."
+        },
+        "train-s4550": {
+            "ratio": 0.846,
+            "original text": "Gaur hartuko du Gasteizko taldeak horri buruzko erabakia, eta, oraindik ezer onartu ez duten arren, hainbat aukera aztertzen ari dira.",
+            "output text": "Gaur Gasteizko taldeak hartuko duen erabaki horren buruz, eta oraindik ezer onartu ez duten arren, hainbat aukera aztertzen ari dira."
+        },
+        "test-s603": {
+            "ratio": 0.935,
+            "original text": "Sydneyra etorri aurretik, Savonek edonor ikaratzeko moduko errekorra zuen:",
+            "output text": "Sydneyra etorri aurretik, Savonek edonor ikaratzeko modu errekorrak ukan zituen:"
+        },
+        "test-s871": {
+            "ratio": 0.806,
+            "original text": "Baina interes handiak daude hori hala izan ez dadin, ezta?",
+            "output text": "Baina interes handiak egon dira horiek halaxe izan ez balira ere, ezta?"
+        },
+        "dev-s1160": {
+            "ratio": 0.834,
+            "original text": "ZINEMALDIAREN amaiera ekitaldia euskal presoen etxeratzea eskatzeko aprobetxatu zuten, larunbatean, Presoekin Elkartasuna taldeko kideek.",
+            "output text": "Zinemaldiaren amaierako ekitaldia euskal presoen etxeratzea eskatu dute aprobetxatu, larunbatean, presoekin elkartasun taldeko kideek."
+        },
+        "train-s4127": {
+            "ratio": 0.889,
+            "original text": "Greba luzatzen bada, Volkswagen bezalako multinazionalek arazoak izanen dituzte materialak eskuratzeko.",
+            "output text": "Greba luzea izan da, Volkswagen bezalako multinazionalen arazoak izango dituzte materialak eskuratu ahal izateko."
+        },
+        "train-s201": {
+            "ratio": 0.972,
+            "original text": "Kadeteen finalean, Garziandiak eta Arrastoak neurtuko dituzte indarrak.",
+            "output text": "Kadeteen finalerdian, Garziandia eta Arrastoak neurtuko dituzte indarrak."
+        },
+        "train-s4458": {
+            "ratio": 0.913,
+            "original text": "Sydneyn lortutako emaitzei begiratuz gero, faborito beraiek ziren, eta ez, ohi bezala, EEBB.",
+            "output text": "Sydneyko lortutako emaitzei begiratuz gero, faboritoak beraiek izan dira, eta ez, ohi bezala, EEBBkoak."
+        },
+        "dev-s414": {
+            "ratio": 0.914,
+            "original text": "Eta bertoko euskalari ikasi ezak agerian utzitako hutsunea atzerrikoek bete zuten oraingo epe honetan ere hein handi batean.",
+            "output text": "Eta bertoko euskalaria ez ikasia agerian utzi du hutsunea atzerrikoek bete dute oraingo epe honetan ere hein handi bat."
+        },
+        "dev-s381": {
+            "ratio": 0.881,
+            "original text": "KATALUNIAKO La Caixa aurrezki kutxak Banco Portugues de Inversionesen %15 kontrolatzen du jada; partaidetza bera du banku horretan bazkide nagusi duen Brasilgo Itau bankuak.",
+            "output text": "Kataluniako La Caixa aurrezki kutxak Banco Portugues de Inversionesen %15 kontrolatu du jada; partaidetza hori ukan du banku horrek bazkide nagusi izan duen Brasilgo Itau bankuak."
+        },
+        "train-s1283": {
+            "ratio": 0.823,
+            "original text": "\"Ahalegin guztiak egin ditugu Kontxan sartzeko eta azkenean helburua bete dugu.",
+            "output text": "\"Gu guztiok ahalegina egin dugu Kontxan sartu eta azkenean helburua bete dugu.\""
+        },
+        "test-s475": {
+            "ratio": 0.935,
+            "original text": "Erabaki horrek, ordea, boto batzuk ken diezaizkioke hurrengo lehendakaritzarako hauteskundeetan.",
+            "output text": "Erabaki horrek, ordea, boto batzuk kendu lezake hurrengo lehendakaritzako hauteskundeetan."
+        },
+        "train-s286": {
+            "ratio": 0.88,
+            "original text": "Lehen eta bigarren plantiletan fitxarik ez zen libre, eta zaila zirudien hogei urtez azpikoen mundialean txapeldun izandako gizon honen egoerak.",
+            "output text": "Lehen eta bigarren plantiletan fitxarik ez zen librea, eta zail egin zitzaion hogei urtez azpiko mundial txapelduna izan den gizon honi egoera hau."
+        },
+        "train-s843": {
+            "ratio": 0.964,
+            "original text": "1998an eta aurten Munsterrek (Irlanda) kanporatu du finalerdietan.",
+            "output text": "1998an eta aurten Munsterrek (Irlanda) kanporatu egin du finalerdietan."
+        },
+        "train-s3960": {
+            "ratio": 0.862,
+            "original text": "Kokotean zeuzkan orain lau txima luze eta zepilo bitxia gandorrean, fijadorez orrazten zuena.",
+            "output text": "Kokotean eduki ditu orain lau txima luzeak eta zepilo bitxia gandorrean, fijadorez orraztuta eduki du."
+        },
+        "dev-s1319": {
+            "ratio": 0.851,
+            "original text": "Israelgo lehendakari Moshe Katzavek, berriz, atzo egin zuen karguaren zina.",
+            "output text": "Israelgo lehendakari Moshe Katzav, berriz, atzo karguaren zina egin zuen."
+        },
+        "test-s810": {
+            "ratio": 0.957,
+            "original text": "Retegiri larri irabazi zion, Nagorerekin galdu.",
+            "output text": "Retegiri larri irabazi zuen, Nagorerekin galdu."
+        },
+        "train-s2138": {
+            "ratio": 0.995,
+            "original text": "Landaretxoak lur-nahaste egokian landatu, toki epelean eduki eta puja berria sortu arte arin ureztatu.",
+            "output text": "Landaretxoak lur-nahaste egokian landatu, toki epelean eduki eta pujaberria sortu arte arin ureztatu."
+        },
+        "train-s856": {
+            "ratio": 0.863,
+            "original text": "Kontzientzi falta hori ez da gizartearena bakarrik.",
+            "output text": "Kontzientzia faltaren hori ez zen gizarte bakarrik."
+        },
+        "train-s4065": {
+            "ratio": 0.859,
+            "original text": "Horrela, bada, patriarkatuak gizonen arteko dependentzia eta elkartasunezko lokarriak eratzen ditu, emakumeak menderatzeko bidea ematen dienak.",
+            "output text": "Horrela, bada, patriarkatuaren gizarte-dependetzia eta elkartasun lokarriak eratu dituzte, emakumeak menderatu bide eman diete."
+        },
+        "train-s5001": {
+            "ratio": 0.897,
+            "original text": "Kontuak kontu, giroa ez da beste urteetan bezain beroa Katedralean.",
+            "output text": "Kontu kontuetan, giroa ez zen beste urteetan bezain bero katedralean."
+        },
+        "dev-s1623": {
+            "ratio": 0.809,
+            "original text": "NESSET Israelgo Legebiltzarrean dauden jatorri arabiarreko hamabi diputatuetako bat da Barakeh.",
+            "output text": "Nesseteko Israelgo legebiltzarrean jatorri arabiarrako hamabi diputatu bat izan dira Barakeh."
+        },
+        "test-s1209": {
+            "ratio": 0.897,
+            "original text": "Eztabaida handirik ez zuen eragin atzo Oinarrizko Eskubideen Agiriak; gaur, ordea, estatuen interesen arteko eztabaida azaleratzea espero da.",
+            "output text": "Eztabaida handirik ez du eragin atzo oinarrizko eskubideen agiria; gaur, ordea, estatuen arteko interesen eztabaida azaleratzerik espero da."
+        },
+        "test-s1626": {
+            "ratio": 0.591,
+            "original text": "Jendeak arraro begiratzen zidan, arroparengatik beharbada.",
+            "output text": "Jendearraroak begiratu behar zuen, beharbada arropagatik."
+        },
+        "train-s185": {
+            "ratio": 0.896,
+            "original text": "Berriro batzeko hitza mundu zabaleko politikan entzuten hasi zen.",
+            "output text": "Berriro batu da hitza mundu zabal politikan entzun hasi zen."
+        },
+        "train-s5363": {
+            "ratio": 0.789,
+            "original text": "EB Oinarrizko Eskubideen Agiriari lotu behar zaio.",
+            "output text": "EBren oinarrizko eskubideen agiriari lotutako beharra izaten da."
+        },
+        "test-s457": {
+            "ratio": 0.507,
+            "original text": "Erantzun zaila du galdera honek.",
+            "output text": "Galdera hau erantzun zaila ukan du."
+        },
+        "train-s3948": {
+            "ratio": 0.896,
+            "original text": "Sanchezek zeraman autobusaren gainetik pasatu zen Francisco Querol epailea zeraman autoa, leherketaren ondorioz, eta autobusak kolpe handia jaso ostean su hartu zuen.",
+            "output text": "Sanchezek autobusaren gainetik pasata izan da Francisco Querolepailea eramaten duen autoa, leherketaren ondorioz, eta autobusak kolpe handia jaso du oste su hartu *edun."
+        },
+        "dev-s521": {
+            "ratio": 1.0,
+            "original text": "Gainera, Hugo Gutierrez abokatuaren laguntza izango dute epaiketan.",
+            "output text": "Gainera, Hugo Gutierrez abokatuaren laguntza izango dute epaiketan."
+        },
+        "train-s3797": {
+            "ratio": 0.928,
+            "original text": "Oraintxe norgehiagoka bikaina jokatzen du aurkari indartsu baten kontra, oraintxe talde xume baten aurrean galtzen.",
+            "output text": "Oraintxe norgehiagoka bikain bat jokatu dute aukari indartsu baten kontra, oraintxe talde xume baten aurrean galdu dute."
+        },
+        "dev-s845": {
+            "ratio": 0.914,
+            "original text": "Bihurrikeriarik egin duenik ere bada maratoiaren historian.",
+            "output text": "Bihurrikeria egin duen ere izan da maratoiaren historian."
+        },
+        "dev-s417": {
+            "ratio": 0.944,
+            "original text": "Hicham El Guerrouj marokoarra 10.000 metroetan eta Ali Saidi-Sief algeriarra 5.000 metroetan, faborito argiak ziren urrezko domina irabazteko.",
+            "output text": "Hicham El Guerrouj marokoarra, 10.000 metroetan eta Saidi-Sief aljeriarra, 5.000 metroetan, faborito argiak izan dira urrezko domina irabazteko."
+        },
+        "train-s511": {
+            "ratio": 0.921,
+            "original text": "Garrantzitsuena beste herri batzuetan antzeko proiektuak sortzea eta elkarrekiko harreman sareak eratzea da.",
+            "output text": "Garrantzitsuena beste herri batzuetako antzeko proiektuak sortu eta elkarren harreman sareak eratu izan da."
+        },
+        "dev-s193": {
+            "ratio": 0.869,
+            "original text": "Scolak ACBn jokatu duen lehen denboraldian kalitateko jokalaria dela azaldu du.",
+            "output text": "Scolak Acb-n jokatu zuen lehen denboraldian kalitate handiko jokalaria izan da azaldu da."
+        },
+        "dev-s1013": {
+            "ratio": 0.915,
+            "original text": "EHEren idurikoz mugimendu euskaltzalearen eginkizuna horixe erdiestea da, \"20. urteurrena gogoratu beharrik ez izateko\".",
+            "output text": "EHEren iduriko mugimendu euskaltzalearen eginkizun hori erdietsi izan da, \"20. urteurrena gogoratu behar ez izan\"."
+        },
+        "train-s1004": {
+            "ratio": 0.937,
+            "original text": "Baina gehien kezkatu gaituztenak akordioa eta sor zitekeen egoera desitxuratzeko egin dituzten ahaleginak izan dira.",
+            "output text": "Baina gehien kezkatu gaituen akordioa eta sor litekeen egoera desitxuratu egin duten ahaleginak izan dira."
+        },
+        "test-s541": {
+            "ratio": 0.925,
+            "original text": "Azkenengo asanbladan, martxoaren 10ean eginikoa, adierazi zuten ez zutela denbora gehiagoan jarraitzeko asmorik, eta bazkideei laguntza eskatu zieten.",
+            "output text": "Azkenengo asanbladan, martxoaren 10ean egin zenak, adierazi zuten ez zutela denbora gehiagorik jarraitu nahi asmorik, eta bazkideei laguntza eskatu zieten."
+        },
+        "dev-s612": {
+            "ratio": 0.939,
+            "original text": "Goian zegoen balanka bat... dzast!",
+            "output text": "Goian egon balanka bat... Dzast!"
+        },
+        "dev-s108": {
+            "ratio": 0.975,
+            "original text": "Tiristorean bi egoera bereiz ditzakegu:",
+            "output text": "Tiristoreetan bi egoera bereiz ditzakegu:"
+        },
+        "test-s421": {
+            "ratio": 0.861,
+            "original text": "Alabaina, Nazio Batuen Erakundeko ordezkari batek esan zuenez, Milosevicek ez du onartu Moskuk artekari lanak egitea.",
+            "output text": "Alabaina, nazio batuetako erakundearen ordezkari batek esan zuen, Milosevicek ez zuen onartu, Moskuko artekariek lanak egin zituztela."
+        },
+        "dev-s1140": {
+            "ratio": 0.897,
+            "original text": "Halaber, UAko idazkari nagusi Pablo Mosquerak euskal gotzainek Legebiltzarran terrorismoaren inguruan euren iritzia ager dezaten eskatu du.",
+            "output text": "Halaber, UAn idazkari nagusi Pablo Mosquera euskal gotzainek legebiltzarrean terrorismoko inguruan eurak iritzia agertu ez zutela eskatu dute."
+        },
+        "dev-s909": {
+            "ratio": 0.878,
+            "original text": "Baina, egun, euren aroa amaitu egin da.",
+            "output text": "Baina, egun, eurak aroa amaitu eginda izan."
+        },
+        "train-s4314": {
+            "ratio": 0.913,
+            "original text": "Madrilgo Kongresuak 46.624 milioiko kreditua onartuko du ETAren biktimentzat.",
+            "output text": "Madrileko kongresuak 46.624 milioiko kreditua onartu du ETAren biktimei."
+        },
+        "train-s3371": {
+            "ratio": 0.932,
+            "original text": "\"Produktu ekologikoen kontsumorako kooperatiben antzeko zerbait martxan jartzen saiatuko gara.",
+            "output text": "\"Produktu ekologikoen kontsumoarekin kooperatibaren antzeko zerbait martxan jartzeko saiatu gara."
+        },
+        "train-s678": {
+            "ratio": 0.698,
+            "original text": "Bi ibai hauek aproposak dira amuarrain arrantzarako ere.",
+            "output text": "Bi hauek ibai aproposak izaten ari dira arrantza amuarrainentzako ere."
+        },
+        "train-s797": {
+            "ratio": 0.835,
+            "original text": "Cetinjeren erasoko jokoa nahikoa mugatua da, eta partiduak defentsan irabazten ditu.",
+            "output text": "Cetinjeko eraso jokoak nahiko mugatua izan zen, eta partiduak defentsan irabazi *edun."
+        },
+        "train-s4254": {
+            "ratio": 0.873,
+            "original text": "Muntsaratz auzoan izen bereko dorretxe gotikoa dago, sarrerako arku gotikoaren gainean armarria duena.",
+            "output text": "Muntsaratz auzoan izen bereko dorretxe gotikoa egon zen, sarrera arkugotikoaren gainean armarria ukan zuen dorretxeak."
+        },
+        "train-s2583": {
+            "ratio": 0.826,
+            "original text": "Pisuz betiko moduan nago, 71-72 kilotan; Tourra hasteko pisu ona da.",
+            "output text": "Pisuaz betiko moduan egon naiz, 71-72 kilotan; Tourra hasi aurretik pisu onean izan da."
+        },
+        "train-s370": {
+            "ratio": 0.791,
+            "original text": "Nahiko ongi ibili ginen, entrenamenduetan dena neurtuta eramaten genuelako, baina harri handia oso bestelakoa da.",
+            "output text": "Nahiko ongi ibili gara, entrenamenduetan dena neurtu behar izan dugun arren, baina harri handia oso bestelako bat izan da."
+        },
+        "train-s1387": {
+            "ratio": 0.7,
+            "original text": "- erantzun zuen andereñoak -.",
+            "output text": "- Erantzuna eman du andreakoak."
+        },
+        "dev-s629": {
+            "ratio": 0.905,
+            "original text": "Etorkizunari ere kementsu ekin nahi dio.",
+            "output text": "Etorkizunari ere kementsu ekin nahi izan du."
+        },
+        "dev-s1765": {
+            "ratio": 0.889,
+            "original text": "Leire Zuazubiskar arrasatearra da musika tailer honen arduraduna.",
+            "output text": "Leire Zuazubiskar arrasatearra izaten ari da musika tailer honetako arduraduna."
+        },
+        "dev-s586": {
+            "ratio": 0.8,
+            "original text": "Gure lana dohainekoa da.",
+            "output text": "Gure lana dohain izaten ari da."
+        },
+        "train-s275": {
+            "ratio": 0.983,
+            "original text": "Hamar herrialdetako korrikalariak ariko dira Sopelan biluzik.",
+            "output text": "Hamar herrialdetako korrikalariak ari dira Sopelan biluzik."
+        },
+        "train-s2136": {
+            "ratio": 0.896,
+            "original text": "Albertini eta Deschamps txartel banarekin iritsi ziren finalerdietara, baina ez zieten besterik erakutsi.",
+            "output text": "Albertini eta Deschampsek txartel bana iritsi dira finalerdietara, baina ez dute beste erakutsi."
+        },
+        "train-s4149": {
+            "ratio": 0.828,
+            "original text": "Elurretan oinatzak denboraren poderioz elurrez estaltzen dira, edo denbora aurrera joan ahala urtu egiten dira elurrarekin batera.",
+            "output text": "Elurrean oinatzak poderioz eta elurrez estali ziren, edo denbora aurrera joan ahala urtu egin ziren elurrekin bat."
+        },
+        "test-s260": {
+            "ratio": 0.833,
+            "original text": "Mirarigile, azti edo sorgin zeritzen\".",
+            "output text": "Mirarigileak, azti edo sorgin bat iritzi zuen."
+        },
+        "dev-s915": {
+            "ratio": 0.857,
+            "original text": "Dena iskanbila zen.",
+            "output text": "Dena iskanbila izan da."
+        },
+        "train-s2377": {
+            "ratio": 0.806,
+            "original text": "Pirlo 21 urtez azpiko selekzioko jokalaririk erabakigarriena izan arren, ez du lekurik aurkitu talde nagusian, baina litekeena da datorren denboraldian hura izatea Interreko joko antolatzailea.",
+            "output text": "Pirlo 21 urtez azpiko selekzioetako jokalari erabakigarria izan zen arren, ez zuen lekurik aurkitu talde nagusian, baina litekeena izan da etorri den denboraldi hartan Interreko joko antolatzailea izatea."
+        },
+        "dev-s717": {
+            "ratio": 0.96,
+            "original text": "Jaurlaritzak aurtengo aurrekontuak luzatu ditu, Legebiltzarrera berriak eraman ordez.",
+            "output text": "Jaurlaritzak aurtengo aurrekontuak luzatu ditu, legebiltzarrera berriak eramateko ordez."
+        },
+        "test-s629": {
+            "ratio": 0.779,
+            "original text": "Birlandatzeko garairik egokiena, landarearen sasoi aktiboa hastera doanekoa da.",
+            "output text": "Birlanda garai egokienetan, landarearen sasoi aktiboan hasi da joaten."
+        },
+        "train-s3299": {
+            "ratio": 0.835,
+            "original text": "Getxo izan zen laugarren lehen jardunaldian eta iaz.",
+            "output text": "Getxo laugarren izan da lehen jardunaldian eta iaz."
+        },
+        "train-s1898": {
+            "ratio": 0.732,
+            "original text": "Horregatik bota zuen kanpora Stamek.",
+            "output text": "Horregatik Stam-ek kanpora bota du."
+        },
+        "train-s292": {
+            "ratio": 0.869,
+            "original text": "Hau gertatu aurretik bahitutako beste erlijioso batek ihes egitea lortu zuen.",
+            "output text": "Hau aurretik bahitutako beste erlijioso batzuk ihes egin lortu dute."
+        },
+        "dev-s52": {
+            "ratio": 0.654,
+            "original text": "Mujika izan zen bigarrena.",
+            "output text": "Mujikak bigarrena izan da."
+        },
+        "test-s291": {
+            "ratio": 0.967,
+            "original text": "Mutilek lan bikaina egin dute.",
+            "output text": "Mutilok lan bikaina egin dute."
+        },
+        "dev-s298": {
+            "ratio": 0.84,
+            "original text": "Parisetik zein Madriletik etorri dira.",
+            "output text": "Paristik eta Madriletik etorriak izan dira."
+        },
+        "train-s137": {
+            "ratio": 0.886,
+            "original text": "Alemaniak eraman zuen urrea, Hungariak zilarra eta Errumaniak brontzea.",
+            "output text": "Alemaniak urrea eraman du, Hungariak zilarra eta Errumaniak brontzea."
+        },
+        "train-s1518": {
+            "ratio": 0.738,
+            "original text": "Txoferrak gelditu egin zuen autoa.",
+            "output text": "Txoferak autoa gelditu egin du."
+        },
+        "test-s47": {
+            "ratio": 0.803,
+            "original text": "Hori beste pertsona bati esaten badiozu, ez du ulertzen.",
+            "output text": "Horri beste pertsona bati esan behar zenion, ez ulertu zuela."
+        },
+        "train-s5101": {
+            "ratio": 0.857,
+            "original text": "\"Gaur egun txapelketa sendoak dira hangoak.",
+            "output text": "\"Gaur egun, txapelketa sendoak izaten dira han.\""
+        },
+        "test-s847": {
+            "ratio": 0.8,
+            "original text": "Sarritan preserbatiboa erabiltzea arazo da, susmagarria delako askorentzat.",
+            "output text": "Sarritan preserbatiboa erabili arazoa izan da, susmagarria izan daiteke askotan."
+        },
+        "train-s4214": {
+            "ratio": 1.0,
+            "original text": "Ondorioz, argindarrik gabe geratu ziren hiriko zenbait auzo.",
+            "output text": "Ondorioz, argindarrik gabe geratu ziren hiriko zenbait auzo."
+        },
+        "train-s4730": {
+            "ratio": 0.908,
+            "original text": "Gainera, krisitik ateratzeko Ernesto Zedillo egungo lehendakariak hartutako neurriek, egoera ekonomikoa onbideratu duten arren, areagoatu egin dute aberatsen eta pobreen arteko jauzia.",
+            "output text": "Gainera, krisitik atera zuen Ernesto Zedillo lehendakariak egun hartu zituen neurriek, egoera ekonomiko hobe bideratu duten arren, areagotu egin dute aberatsen eta pobreen arteko jauzia."
+        },
+        "train-s3386": {
+            "ratio": 0.878,
+            "original text": "Espediente horretan Urnietako San Juan T.Z.-ra joango den lurrazpiko elektrizitate-lineari (13,2 kv, zirkuito bakuna) administrazioaren baimena emateko eta egiteko proiektua onartzeko eskatzen da.",
+            "output text": "Espediente horretan Urnietan San Juan T.Z.ra joatekoak izan lurrazpiko elektrizitate-lineari (13,2 kv, zirkuitu bakun) administrazio baimena eman eta proiektua onartu eskatu izan da."
+        },
+        "test-s1731": {
+            "ratio": 0.944,
+            "original text": "Moskuk Txetxeniarako izendatutako agintari zibilaren laguntzaile Sergei Zverev eta Nurseda Khabuseieva Grozniko alkateordea hil zituzten bonbek.",
+            "output text": "Moskuk Txetxenian izendatutako agintari zibileko laguntzaile Sergei Zverev eta Nurseda Khabuseieva Grozniko alkateordeak hil dituzte bonbak."
+        },
+        "train-s1366": {
+            "ratio": 0.915,
+            "original text": "Giro freskoa eta lainotsua zegoen eta tarteka euri tantaren bat erori zen.",
+            "output text": "Giro freskoa eta lainotsua egon da eta tarteka euri-tantaren bat erori izan da."
+        },
+        "test-s1718": {
+            "ratio": 0.99,
+            "original text": "Roger Lemerre berak argi eta garbi adierazi du hori:",
+            "output text": "Roger Lemerrek berak argi eta garbi adierazi du hori:"
+        },
+        "train-s2850": {
+            "ratio": 0.824,
+            "original text": "Lurraren barnealdetik sortutako indarrei zor zaizkienak dira, eta beste atal batean landuko ditugu.",
+            "output text": "Lurraldeko sortutako indarrei zor izaten ari dira, eta beste atal bat landuko dute."
+        },
+        "dev-s471": {
+            "ratio": 0.902,
+            "original text": "Zuberera hiltzen du frantsesak, ez Batuak.",
+            "output text": "Zuberera hil zuen frantsesak, ez batuak."
+        },
+        "train-s298": {
+            "ratio": 0.758,
+            "original text": "Zorionak ematen dizkiet nire kide ohiei, eta guk aitzinera jarraitu beharko dugu Liga xapelgoan, finalera heltzeko\".",
+            "output text": "Zorionak eman dizkidate nire kide ohiei, eta jarraitu behar izan diogu Xapelgoaren ligari, finalera heldu arte."
+        },
+        "dev-s1414": {
+            "ratio": 0.824,
+            "original text": "EUROPAKO SUPERKOPAKO ajea lehenbailehen ahaztu eta hurrengo hilabete eta erdiko egutegi zurruna garaipen batekin hasteko xedea du Portland San Antoniok.",
+            "output text": "Europako Superkopa ajea lehenbailehen ahaztu eta hurrengo hilabete eta erdiko egutegi zurrun bateko garaipen bat hasi xede duen Portland san Antonio."
+        },
+        "train-s839": {
+            "ratio": 0.902,
+            "original text": "\"Oso azkar korritu da\".",
+            "output text": "\"Oso azkar korritu izan da\"."
+        },
+        "train-s3121": {
+            "ratio": 0.97,
+            "original text": "Beste milaka timortarrek, berriz, mendira jo zuten.",
+            "output text": "Beste milaka timortarrek, berriz, mendira jo dute."
+        },
+        "train-s741": {
+            "ratio": 0.848,
+            "original text": "Oren erdirako Tolosak hiru entsegu zituen eginak.",
+            "output text": "Oren erdiko Tolosak hiru entsegu ukan ditu egiten."
+        },
+        "dev-s1701": {
+            "ratio": 0.948,
+            "original text": "Hain zuzen ere, hiri horri buruz palestinarrekin negoziatzea ezinbestekoa dela esan zuen Beilinek.",
+            "output text": "Hain zuzen ere, hiri horri buruz palestinarrekin negoziatu ezinbestekoa izan esan zuen Beilinek."
+        },
+        "train-s5348": {
+            "ratio": 0.932,
+            "original text": "Harper, Bryant eta Glenn Ricek osatu zuten iaz hiruki hori.",
+            "output text": "Harper, Bryant eta Glenn Ricek iaz osatu zuten hiruki hori."
+        },
+        "train-s723": {
+            "ratio": 0.853,
+            "original text": "Atutxa jaunarena duzu argazki hau.",
+            "output text": "Atutxak jauna ukan du argazki hau."
+        },
+        "train-s899": {
+            "ratio": 0.822,
+            "original text": "Kasik ibilbide osoan denborarik onenak bereak izan ziren.",
+            "output text": "Kasik ibilbide osoan denbora onena izan dira izan."
+        },
+        "dev-s1107": {
+            "ratio": 0.877,
+            "original text": "Euskalduna horretako osagarri bat - beste bat -, da askoren artean.",
+            "output text": "Euskaldun hori osagarri bat - beste bat - izan da askoren arte."
+        },
+        "train-s815": {
+            "ratio": 0.857,
+            "original text": "Bof, primadera dun.",
+            "output text": "Bof, primadera ukan du."
+        },
+        "train-s4753": {
+            "ratio": 0.843,
+            "original text": "Bere tankerako aurreko txapeldunen estiloen nahasketa da bere jokoa.",
+            "output text": "Beren tankerako aurre txapeldunen estiloko nahasketak izaten dira jokoa."
+        },
+        "train-s4270": {
+            "ratio": 0.909,
+            "original text": "Aurrez aurre, Richard Tirapu eta Inaxio Errandonea izan zituzten.",
+            "output text": "Aurrez aurre, Richard Tirapu eta Inazio Errandonea izan ziren atzo."
+        },
+        "train-s158": {
+            "ratio": 0.891,
+            "original text": "Atentatua Grozni hegoaldean kokatutako Txernoretxie auzoan gertatu zen, aipatutako agintarien autoa igarotzean urrundik eragindako bi minak eztanda egin zutelarik.",
+            "output text": "Atentatua Groznin hegoaldean kokatutako Txernoretxie auzoan gertatu zen, agintarien autoa igarotzen ari zela urrundik eragindako bi minen eztandek egin zuten."
+        },
+        "test-s1207": {
+            "ratio": 0.899,
+            "original text": "Deigarria izan zen Monterok bere programaren barruan euskararen arloa jorratzen zuen atala euskaraz irakurtzen entzutea.",
+            "output text": "Deigarria izan da Monterok bere programaren barruan euskara arloa jorratu duen atala euskaraz irakurri eta entzutekoa."
+        },
+        "train-s1852": {
+            "ratio": 0.753,
+            "original text": "Nik ez diot jendeari esan HIESa daukadala.",
+            "output text": "Nik ez diot jendeari esan nuen hiesa eduki."
+        },
+        "train-s4338": {
+            "ratio": 0.809,
+            "original text": "CHEN KEJIE Txinako Herri Asanblea Nazionaleko lehendakariorde ohiari heriotza zigorra ezarri dio Pekingo Herri Auzitegiak, mesedeen truke dirua jasotzeagatik.",
+            "output text": "Chen Kejie Txinako herri asanbladako nazional lehendakariorde ohiari heriotza zigorra ezarri dio Pekingo herri auzitegiak, diru truke mesedegatik."
+        },
+        "train-s3060": {
+            "ratio": 1.0,
+            "original text": "Nola baieztatu?",
+            "output text": "Nola baieztatu?"
+        },
+        "train-s3742": {
+            "ratio": 0.864,
+            "original text": "Sasoi goiztiar honetan Oitz haurrak bideograbaketetan zehar halako ekoizpenik gauzatu ez arren, bere gurasoek bildu duten egunerokoan halako formak ere aurki ditzakegu.",
+            "output text": "Sasoigoiztiar honetan Oitzeko haurrak bideograbaketetan halako ekoizpen bat gauzatu ez arren, beraiek gurasoen bildutako egunerokoan halako formak ere aurkitu ezin izan dituzte."
+        },
+        "dev-s1033": {
+            "ratio": 0.973,
+            "original text": "Gobernu gorri-berdeak gizartearen erreformetan lortu du arrakasta handiena.",
+            "output text": "Gobernu gorri-berdeak gizarte erreformetan lortu du arrakasta handiena."
+        },
+        "train-s312": {
+            "ratio": 1.0,
+            "original text": "Gauean iritsi nintzen bertara.",
+            "output text": "Gauean iritsi nintzen bertara."
+        },
+        "dev-s389": {
+            "ratio": 0.913,
+            "original text": "Igor Galdeano, Angel Casero eta Abraham Olano, aldiz, ezkutuan jardun ziren, beste faboritoak baino atzeraxeago, baina haien arrastoa begi-bistan izanda beti.",
+            "output text": "Igor Galdeano, Angel Casero eta Abraham Olano, aldi berean, ezkutuan jardun izan dira, beste faborito batzuk baino atzeraxeago, baina haiek arrastoari begi-bista izan dira beti."
+        },
+        "train-s3519": {
+            "ratio": 0.864,
+            "original text": "Bestalde, oso argi planteatu genizuen orain sortu den egoera berria behin betirakoa izatearen ardura denona zela.",
+            "output text": "Bestalde, oso argi planteatu dugu orain sortu den egoera berriak behin betiko izan behar duela ardura dena."
+        },
+        "test-s44": {
+            "ratio": 0.825,
+            "original text": "- Kanguruari dagokionez, hortxe dugu don Meliton preso, eta hori zure kontua izan daiteke.",
+            "output text": "- Kanguruari egon zitzaigun hortxe Don Meliton preso, eta hori zure kontua izan lezake."
+        },
+        "dev-s1529": {
+            "ratio": 0.925,
+            "original text": "Asteburu horretan zehar Donostian hainbat istilu izan ziren, herritarrentzat ondorio larriak ekarri zituztenak.",
+            "output text": "Asteburu horretan Donostian hainbat istilu izan dira, herritarrentzat ondorio larriak ekarri dituzte."
+        },
+        "train-s2762": {
+            "ratio": 0.857,
+            "original text": "Bertan zenbait proba egin zizkioten, eta, medikuek adierazi dutenez, ez du lesio larririk.",
+            "output text": "Bertan zenbait proba egin dituzte, eta medikuek adierazi dute, ez dutela lesio larriak izan."
+        },
+        "train-s1348": {
+            "ratio": 0.827,
+            "original text": "Inaugurazio ekitaldia 20:30ean da.",
+            "output text": "Inaugurazio ekitaldia izango da 20:30ean."
+        },
+        "test-s1117": {
+            "ratio": 0.939,
+            "original text": "Milosevic, berriz, oposizioaren aurka mintzatu zen telebistaz nazioari irakurri zion mezuan.",
+            "output text": "Milosevic, berriz, oposizioaren aurka mintzatu izan zen telebistaz nazioari irakurri zioten mezu batean."
+        },
+        "train-s1498": {
+            "ratio": 0.795,
+            "original text": "Roberto Heras etapa garaileak eta Jan Ullrich alemaniarrak hurrengo egunetako etapa zailei ekiteko indartsu daudela erakusi nahi izan zuten.",
+            "output text": "Roberto Herasek eta Jan Ullrichek hurrengo egunetako etapa zailenetan indartsu ekin erakutsi nahi izan *edun."
+        },
+        "train-s2261": {
+            "ratio": 1.0,
+            "original text": "Bazkide zara?",
+            "output text": "Bazkide zara?"
+        },
+        "train-s3656": {
+            "ratio": 0.888,
+            "original text": "Toldori buruzko zalantzak handitu egin ziren Eurokopa hasi orduko, Hakan Sukur turkiarrak buruz baloi bat lapurtu eta gola sartu zuenean.",
+            "output text": "Toldori buruzko zalantzak handitu egin dira Eurokopa hasi denetik, Hakan Sukur turkiarrak buruarekin baloi bat lapurtu eta gol bat sartu du."
+        },
+        "train-s3991": {
+            "ratio": 0.91,
+            "original text": "AZKEN egunetan arazo txikiekin izan ostean, Javi Moreno eta Vlatko Djolonga osatu dira dagoeneko eta ondorioz, igandean Athleticen aurka jokatzeko moduan dira biak.",
+            "output text": "Azken egunetan arazo txikiekin izan da oste, Javi Moreno eta Vlatko Djolongak osatu dute dagoeneko eta ondorioz, igandean Athleticen aurka jokatu moduan izan dira biak."
+        },
+        "train-s2793": {
+            "ratio": 0.892,
+            "original text": "EAJko eta EAko bozeramaileak erabateko babesa agertu zioten Suduperi.",
+            "output text": "EAJ eta EAko bozeramaileek erabateko babesarekin agertu dute Suduperi."
+        },
+        "test-s883": {
+            "ratio": 0.95,
+            "original text": "Konpak gaizki jokatu zuelako eta Bereikuak ezin izan zuelako jokatu ez zuten asko lagundu, baina partidu nagusia ikusgarria izan zen.",
+            "output text": "Konpak gaizki jokatu zuen eta Bereikua ezin izan zen jokatu, ez zuten asko lagundu, baina partidu nagusia ikusgarria izan zen."
+        },
+        "train-s1632": {
+            "ratio": 0.866,
+            "original text": "Mina handituz zihoala ikusita, Athleticeko medikuei deitu zien.",
+            "output text": "Min handituz joan zen ikusi, Athletic-eko medikuei deitu zieten."
+        },
+        "test-s791": {
+            "ratio": 0.861,
+            "original text": "PANeko buruak jarraituko duen politika kritikatu duenik ere badago, ordea.",
+            "output text": "PAN buruak jarraituko lukeen politika kritikatu du ere egon da, ordea."
+        },
+        "train-s3180": {
+            "ratio": 0.863,
+            "original text": "Euskaltzaindiak deituta, euskararen Inguruko \"konklabea\" egin zen 1994ko urriaren 3tik 7ra.",
+            "output text": "Euskaltzaindiak, euskararen inguruko \"konklabea\" egin izan zuen 1994ko urriaren 3an eta 7an."
+        },
+        "dev-s1461": {
+            "ratio": 0.921,
+            "original text": "Baietz uste dut, asteazkenean lesionatu nintzen, baina dena ondo egiten ari naiz.",
+            "output text": "Bai, uste dut asteazkenean lesionatu nintzen, baina dena ondo ari naiz."
+        },
+        "dev-s776": {
+            "ratio": 0.839,
+            "original text": "Bainan beharko da jarri; botoila pasa ezan.",
+            "output text": "Baina behar izan du jarririk; botoila pasatu ezan."
+        },
+        "train-s1775": {
+            "ratio": 0.969,
+            "original text": "Atzean utzi ditut borreroak eta orain eguzkiarekin topo egiten dute nire begiek.",
+            "output text": "Atzean utzi ditut borreroak eta orain eguzkiarekin topo egin dut nire begiekin."
+        },
+        "dev-s1459": {
+            "ratio": 0.926,
+            "original text": "25. kilometro inguruan, aurre-aurrean ere jarri zara, tiraka.",
+            "output text": "25. kilometro inguruan, aurre-aurre ere jarri zinen, tiraka."
+        },
+        "train-s3178": {
+            "ratio": 0.785,
+            "original text": "Mindegia, aldiz, hobeto konpontzen da zutikakoekin, eta Nafarroako Txapelketan erakutsitako sasoiarekin bada, ahalegina egingo du.",
+            "output text": "Mindegia, aldiz, hobeto konpondu izan zitzaiken zutikakoek, eta Nafarroan txapelketa erakusti zuen sasoian izan zen, ahaleginak egin zituen."
+        },
+        "dev-s1286": {
+            "ratio": 0.878,
+            "original text": "Joan den otsailean hasi ziren istiluak gerra beteranoen eta lurjabe zurien artean.",
+            "output text": "Otsailean hasi zen joan diren istiluak gerra beteranoen eta lurjabe zurien artean."
+        },
+        "train-s2066": {
+            "ratio": 0.859,
+            "original text": "Bai eguraldi adituak, bai LASEMeko zientifikoak ohartu ziren kutsadura geruzatik 1,5 kilometrora hurbiltzean usain garratz bat oso nabari zela, eta hauen iritzian, styreno produktu kimikoarena zen.",
+            "output text": "Bai eguraldi adituak, bai LASEMko zientifikoek ohartu izan dira kutsadura geruzatik 1,5 kilometrora hurbildu denean usain garratz bat oso nabari izan dela, eta hauek iritzian, styrenozko produktu kimiko bat izan da."
+        },
+        "train-s1280": {
+            "ratio": 0.957,
+            "original text": "Osborne zeelandarrak egin zuen entsegu bakarra.",
+            "output text": "Osborne zeelandarrak egin du entsegu bakarra."
+        },
+        "train-s2282": {
+            "ratio": 0.933,
+            "original text": "Afaldu ondoren, literetan etzan ziren.",
+            "output text": "Afaldu ondoren, literetan etzan dira."
+        },
+        "test-s1081": {
+            "ratio": 0.799,
+            "original text": "UAko idazkari nagusi Pablo Mosquerak esan zuen \"tamalgarria\" dela, erasoek \"askotan entzundako abesti zaharkitu baten leloa\" diruditelako.",
+            "output text": "UAn idazkari nagusi Pablo Mosquera esan du \"tamalgarria\" izan dela, \"erasoak\" askotan entzun ditugun zaharkitutako abesti baten leloa iruditzen zaigu."
+        },
+        "dev-s965": {
+            "ratio": 0.894,
+            "original text": "Kontu handiz haranean aurrera abiatu ziren.",
+            "output text": "Kontu handiz haraneko aurrera abiatu dira."
+        },
+        "train-s3902": {
+            "ratio": 0.966,
+            "original text": "Eusko Trenbideak trenak eta autobusak jarriko ditu Donostiako geltokian ordu eta erdiro gaur eta bihar.",
+            "output text": "Euskotrenbideak trenak eta autobusak jarri ditu Donostiako geltokian orduro eta erdiro gaur eta bihar."
+        },
+        "test-s1336": {
+            "ratio": 0.937,
+            "original text": "300 kamioi gidari inguru 08:00etan Talluntxe Industrialdean Iruñera sartzeko toki garrantzitsuenetako batean elkarretaratu zen.",
+            "output text": "300 kamioi gidari inguruk 08:00etan Talluntxe industrialdean Iruñeako sartzeko toki garrantzitsuenetako bat elkarretaratu dira."
+        },
+        "train-s1836": {
+            "ratio": 0.906,
+            "original text": "India eta Ugandan esaterako, bost gizonetatik bik onartzen dute bikotekidea bortxaz tratatu izana.",
+            "output text": "Indiatik eta Ugandan esaterako, bost gizonengandik bi onartu dute bikotekidea bortxaz tratatua izan dela."
+        },
+        "test-s505": {
+            "ratio": 0.945,
+            "original text": "Oso saio txukuna egin zuten.",
+            "output text": "Oso saio txukuna egin dute."
+        },
+        "train-s4795": {
+            "ratio": 0.957,
+            "original text": "Gainera, bederatzi kontrol jarri zituzten Diliren eta Attabeiren artean.",
+            "output text": "Gainera, bederatzi kontrol jarri dituzte Dili eta Attabeiren artean."
+        },
+        "train-s14": {
+            "ratio": 0.881,
+            "original text": "Donostiako aurrelariak entrenamendua normaltasunez amaitu bazuen ere, etxera heltzean buruko mina zuelako, ospitalera joatea erabaki zuen.",
+            "output text": "Donostiako aurrelariak entrenamendua normaltasunez amaitu du ere, etxera heldu da buruko minarekin, ospitalera joan da erabaki du."
+        },
+        "test-s1093": {
+            "ratio": 0.956,
+            "original text": "urteoro edo bi urtetik behin lorapoteko lurra berritu, edo lurra mantendu eta ongarritu.",
+            "output text": "Urteoro edo bi urtetik behin, lorapoteetako lurrean berritu, edo lurra mantendu eta ongarritu."
+        },
+        "test-s436": {
+            "ratio": 0.943,
+            "original text": "Halako bihurrikeria asko egiten zuten inguruetako pertsonak eta abereak ikaratuz.",
+            "output text": "Halako bihurrikeria asko egin zuten inguruko pertsona eta abereak ikaratuta."
+        },
+        "train-s2352": {
+            "ratio": 0.845,
+            "original text": "- Euskal Herrian jaio dira, guraso euskaldunak dituzte eta lehen hizkuntza euskara dute.",
+            "output text": "- Euskal Herrian jaioak izan ziren, guraso euskaldunak ukan eta lehen hizkuntza euskara ukan zuten."
+        },
+        "train-s2082": {
+            "ratio": 0.774,
+            "original text": "Salaketarik ere egin zuen legelari bretoi honek.",
+            "output text": "Salaketa ere egin zuen bretoi legezain honek."
+        },
+        "test-s616": {
+            "ratio": 0.919,
+            "original text": "Ullrichek, minutu bat atzerago atera arren, ibilbidearen lehen zatian harrapatu zuen italiarra.",
+            "output text": "Ullrich, minutu bat atzera atera arren, ibilbideko lehen zatian harrapatu *edun italiarra."
+        },
+        "train-s1251": {
+            "ratio": 1.0,
+            "original text": "Egun, 23 urte ditu Landaluzek.",
+            "output text": "Egun, 23 urte ditu Landaluzek."
+        },
+        "train-s5109": {
+            "ratio": 0.825,
+            "original text": "cesar palacios eta Jose Manuel Yanguas nafarrek badakite Osasunarekin Lehen Mailan jokatzea zer den.",
+            "output text": "Cesar Palaciosek eta Jose Manuel Yanguasek nafarrak jakin dute Osasunarekin lehen mailan jokatu zela izan dela."
+        },
+        "train-s873": {
+            "ratio": 0.926,
+            "original text": "Andradas Asurmendi nafarra izango da derbiko epaile nagusia.",
+            "output text": "Andradas Azurmendi nafarra izango zen derbyko epaile nagusia."
+        },
+        "train-s2543": {
+            "ratio": 0.922,
+            "original text": "Espainian prezio industrialak %5,9 igo dira iazko urritik aurtengora eta, hori, ez da berri ona.",
+            "output text": "Espainian prezio industrialak %5,9 igo dira iaztik aurten, eta hori ez da berri ona."
+        },
+        "train-s4441": {
+            "ratio": 0.798,
+            "original text": "BIHAR arte ez da jakingo EHUko errektore berria nor den, atzoko bozketan hautagaietako inork ez baitzuen gehiengo osoa lortu.",
+            "output text": "Bihar arte ez jakin izanen da EHUko errektore berri nor izango den, atzo bozketa garaian inork ez zuen gehiengo osoa lortu."
+        },
+        "test-s589": {
+            "ratio": 0.984,
+            "original text": "Zelan itxarongo duzue aurkaria?",
+            "output text": "Zelan itxarongo duzu aurkaria?"
+        },
+        "train-s1513": {
+            "ratio": 0.888,
+            "original text": "ñapurrak-ek Baionarekin ukan zituen tiraldirik gogorrenak, baina ez zuen arazorik ukan gailentzeko.",
+            "output text": "Ñapurrakek Baionarekin ukan ditu tiraldi gogorrenak, baina ez du arazorik ukan gailendu."
+        },
+        "train-s910": {
+            "ratio": 1.0,
+            "original text": "Laugarren kirolaria, berriz, gipuzkoarra izango da:",
+            "output text": "Laugarren kirolaria, berriz, gipuzkoarra izango da:"
+        },
+        "train-s1882": {
+            "ratio": 0.904,
+            "original text": "Guk errespetua diegu Alaveseko jokalariei, eta giro kontuak baztertu egin nahi ditugu.",
+            "output text": "Gu errespetua ukan dugu Alaves jokalariei, eta giro kontuak baztertu egin nahi izan ditugu."
+        },
+        "train-s2924": {
+            "ratio": 0.735,
+            "original text": "Espezie arrunta da gure Herrian.",
+            "output text": "Espezie arrunta izaten gara herrian."
+        },
+        "test-s1058": {
+            "ratio": 0.962,
+            "original text": "Espainiako hautatzaile Iñaki Saezek, epaileari egotzi zion galdu izanaren errua:",
+            "output text": "Espainiako hautatzailea Iñaki Saez, epaileari egotzi dio galdu izanaren errua:"
+        },
+        "train-s705": {
+            "ratio": 0.949,
+            "original text": "Athleticek etapa berri bati ekin dio Txetxu Rojoren etorrerarekin.",
+            "output text": "Athletic-ek etapa berri batekin ekin zion Txetxu Rojoren etorrerarekin."
+        },
+        "train-s3461": {
+            "ratio": 0.918,
+            "original text": "Labezomorro bat pasa da bere aurrean, patxadaz, inguruarekiko axolagabe, eta amonari konplize irribarre bat marraztu zaio aurpegian.",
+            "output text": "Labezomorro bat pasatu zen bera aurrean, patxadaz, inguruan axolagabea, eta amonari konplize irribarre bat marraztu izan zion aurpegian."
+        },
+        "train-s2113": {
+            "ratio": 0.809,
+            "original text": "Gainera ikusten duzu jokalari piloa fitxatzeak ez duela ezer konpontzen.",
+            "output text": "Gainera, ikusi zuen jokalari pilo bat fitxatu ez zuela ezer konpondu."
+        },
+        "train-s5078": {
+            "ratio": 0.926,
+            "original text": "Behin batean Pasai Antxoko plazan jotzen geundelarik, ikus-entzuleen artean, aulkien lehenengo lerroan bazegoen mutil bat bere zakurrarekin.",
+            "output text": "Behin batean Pasai Antxoko plazan joan ginen, ikus-entzuleen artean, aulkien lehenengo lerroan egon zen mutil bat bere zakurrarekin."
+        },
+        "train-s790": {
+            "ratio": 0.824,
+            "original text": "\"Ez didate 5.000 kilometroko bidaia ordaindu karrera hasteko, amaitzeko baizik\".",
+            "output text": "\"Ez duzu 5.000 kilometroko bidaia ordaindu beharrik hasi, amaitu baizik\"."
+        },
+        "train-s1057": {
+            "ratio": 0.933,
+            "original text": "Ez zoaz oporretan ala?",
+            "output text": "Ez zoaz oporretara ala?"
+        },
+        "dev-s82": {
+            "ratio": 0.779,
+            "original text": "Zer irtenbide dago kasu horietarako?",
+            "output text": "Zer irtenbide egon daiteke kasu horietan?"
+        },
+        "dev-s99": {
+            "ratio": 0.946,
+            "original text": "Azken hilabeteetan, ordea, lasai zegoen giroa.",
+            "output text": "Azken hilabeteetan, ordea, lasai egon da giroa."
+        },
+        "train-s5324": {
+            "ratio": 0.851,
+            "original text": "Estatu horri dagokion senadoreaz jabetzeko borroka oso estua da, Hillary Clinton demokrataren eta Rick A. Lazio errepublikanoaren artean.",
+            "output text": "Estatu horri senadore batek jabetu borroka oso estua izan da, Hillary Clinton demokrata eta Rick Santorum errepublikanoaren artean."
+        },
+        "train-s5033": {
+            "ratio": 0.838,
+            "original text": "Edozein bazter eta gordeleku erabiltzen zen ezkutatzeko baina amiak gordelekua aurkitu ezkero, akabo.",
+            "output text": "Edozein bazter eta gordetoki erabili izan dira ezkutatzeko, baina amik gordetokia aurkitu duenez gero, akabo."
+        },
+        "test-s921": {
+            "ratio": 0.948,
+            "original text": "Lurrun-ihes bat sumatu eta Txernobilgo (Ukraina) zentral nuklearreko ingeniariek gelditu egin zuten martxan zegoen zentraleko azken erreaktorea (hiru ditu guztira), atzo goizeko 11:00 aldera.",
+            "output text": "Lurrun-ihes bat sumatu eta Txernobilgo (Ukraina) zentral nuklearreko ingeniariek gelditu egin dute martxan egon den zentralaren azken erreaktore bat (hiru guztira), atzo goizeko 11:00 aldera."
+        },
+        "train-s4955": {
+            "ratio": 0.946,
+            "original text": "Mateo Garraldak gaurko utzi du bere 31. urtebetetzearen ospakizuna.",
+            "output text": "Mateo Garraldak gaur utzi *du bere 31. urtebetetze ospakizuna."
+        },
+        "train-s758": {
+            "ratio": 0.84,
+            "original text": "Tolosarrek esperientzia handiko internazionalak dituzte aitzinean, eta nazioartean jokatuta, baliabideak bereganatzen dituzu.",
+            "output text": "Tolosarrek esperientzia handia izan dute nazioartean aitzinean, eta nazioarte jokatzen baliabideak bereganatu dituzte."
+        },
+        "test-s1632": {
+            "ratio": 0.941,
+            "original text": "Zuloak ahalik eta txikienak izan daitezela.",
+            "output text": "Zuloek ahalik eta txikienak izan daitezke."
+        },
+        "train-s2264": {
+            "ratio": 0.72,
+            "original text": "Gutxi gelditzen zait niri.",
+            "output text": "Gutxi gelditu izan naiz."
+        },
+        "train-s3492": {
+            "ratio": 0.874,
+            "original text": "Albrighten arabera, leku santuen gaineko kontrola da benetako gakoa Israel eta PAN Palestinako Aginte Nazionala ados jartzeko.",
+            "output text": "Albrighten arabera, leku santuetan kontrola izaten ari da benetako gakoa Israel eta PAN Palestinako aginte nazionalarekin ados jartzen."
+        },
+        "train-s1980": {
+            "ratio": 0.924,
+            "original text": "\"Munduan zerbait aldatu ahal izango banu, etxe handi guztiak txiki bihurtuko nituzke\".",
+            "output text": "\"Munduan zerbait aldatu ahal izango banu, etxe handi guztiak txikitu egingo nituzke\"."
+        },
+        "dev-s690": {
+            "ratio": 0.873,
+            "original text": "\"Talde publikoa izaki, gure erizpideetako bati jarraitu diogu lan hau aukeratzerakoan eta erizpide hori giza konpromezuarena da\".",
+            "output text": "\"Talde publiko izatea, gure irizpideetan bat jarraitu dugu lan hau aukeratzean eta irizpide hori giza konpromisoa izan da\"."
+        },
+        "train-s2294": {
+            "ratio": 0.815,
+            "original text": "Luis Moreno eta Raquel Garciaren kasuak oihartzuna izan du Belgikako prentsan.",
+            "output text": "Luis Moreno eta Raquel Garciak kasu handi bat izan du oihartzuna Belgikako prentsan."
+        },
+        "train-s1419": {
+            "ratio": 0.837,
+            "original text": "Taldeak askatasun pittin bat ematen badio, ez da esku-hutsik itzuliko.",
+            "output text": "Taldeak askatasunerako pittin bat eman zuen, ez zen esku-hutsik itzuli."
+        },
+        "train-s2814": {
+            "ratio": 0.844,
+            "original text": "Erasoak eginez Israelek ez duela ezer lortuko esan zuen Arafatek:",
+            "output text": "Erasoak egin dituen Israelgo ez du ezer lortu esan du Arafatek:"
+        },
+        "test-s1633": {
+            "ratio": 0.859,
+            "original text": "OSCAR SCHMIDT saskibaloiko jokalari brasildar ezagunak bere kirol ibilerako 45.000. puntua lortu zuen atzo Flamengo (Schmidten taldea) eta Botafogo taldeen aurkako partiduan.",
+            "output text": "Oscar Schmidt saskibaloiko jokalari brasildar ezaguna zen, bera kirol ibilbidean 45.000. puntu lortu zituen atzo Flamengo taldean (Schmidt talde) eta Botafogo taldearen aurkako partiduan."
+        },
+        "dev-s761": {
+            "ratio": 0.935,
+            "original text": "Gaur lasterketa polita eta ikusgarria gerta daiteke.",
+            "output text": "Gaurko lasterketa polita eta ikusgarria gertatu liteke."
+        },
+        "test-s1280": {
+            "ratio": 0.816,
+            "original text": "Lau estalpe ezarri dituzte Zumeltzako zelaietan, ekitaldi guztiak eguraldiaren beldurrik gabe egin ahal izateko.",
+            "output text": "Lau estalpe ezarri zituzten Zumeltzako zelaian, guztiak ekitaldi beldurgabe egin ahal izateko."
+        },
+        "train-s4851": {
+            "ratio": 0.887,
+            "original text": "Mediku emaitzen zain zen jarraitu ahal izanen duen jakiteko.",
+            "output text": "Medikuen emaitza zain izaten jarraitu ahal izango dute jakiteko."
+        },
+        "train-s2383": {
+            "ratio": 0.896,
+            "original text": "Zertara zetorren erretolika hori?",
+            "output text": "Zertara etorri da erretolika hori?"
+        },
+        "test-s1661": {
+            "ratio": 0.841,
+            "original text": "Fragaren arabera, gainera, abertzaleek iradoki dute \"nazionalistak demonizatzeko estrategiaren atzean ETAren kontrako porrot poliziala\" dagoela.",
+            "output text": "Fragaren arabera, gainera, abertzaleek iradoki dute \"nazionalistak demonizatu dutela ETAren kontrako porrot polizialaren atzean egon dela\"."
+        },
+        "dev-s969": {
+            "ratio": 0.839,
+            "original text": "\"Gai guztiez mintzatu gara.",
+            "output text": "\"Gai guztiekin mintzatu izan gara.\""
+        },
+        "test-s624": {
+            "ratio": 0.954,
+            "original text": "Serbiako abokatuen ganberak greba hasi zuen \"herritarren borondatea errespetatu arte\".",
+            "output text": "Serbiako abokatuen ganberak greba bat hasi du \"herritarren borondatea errespetatu arte\"."
+        },
+        "train-s3064": {
+            "ratio": 0.926,
+            "original text": "ORIOK lortu zuen denborarik onena Donibane-Lohizuneko banderaren lehen saioan, atzo (20 minutu, 47 segundo eta 36 ehuneneko).",
+            "output text": "Oriok lortu du denbora onena Donibane-Lohizuneko banderaren lehen saioan, atzo (20 minutu, 47 segundo eta 36 ehunen)."
+        },
+        "train-s4367": {
+            "ratio": 0.88,
+            "original text": "Australian egiten eta ingelesez idazten den gaur egungo literaturak ere bere lurrak landuta ditu jadanik.",
+            "output text": "Australiatik egin eta ingelesez idatzi izan da gaur eguneko literaturak ere bere lurraldeak landu ditu jadanik."
+        },
+        "train-s1115": {
+            "ratio": 0.834,
+            "original text": "Martxan 27 urte daramatza Euskal Herritik bost kilometrotara dagoen Garoñako zentral nuklearrak.",
+            "output text": "Martxan 27 urte eraman ditu euskal herriak bost kilometroetatik Garoñako zentral nuklearra."
+        },
+        "train-s886": {
+            "ratio": 0.785,
+            "original text": "25. GAILURRETAKO lasterkaldia jokatuko da gaur Ezpeletan (Lapurdi).",
+            "output text": "25. gailurretako lasterkaldia jokatuko zen gaur Ezpeletan (Lapurdi)."
+        },
+        "train-s4947": {
+            "ratio": 0.91,
+            "original text": "Olazabalek jardunaldi kaxkarra egin du Sun City Torneoan, eta liderrarengandik zazpi kolpera da.",
+            "output text": "Olazabalek jardunaldi kaxkarra egin zuen Sun Cityko torneoan, eta liderrengandik zazpi kolpera izan zen."
+        },
+        "test-s1777": {
+            "ratio": 0.898,
+            "original text": "Gorte Gorenak gaur erabakiko du Augusto Pinocheti forua kentzen dion edo ez.",
+            "output text": "Gorte gorenek gaur erabaki dute Augusto Pinocheti forua kentzea edo ez."
+        },
+        "train-s3674": {
+            "ratio": 0.81,
+            "original text": "\"Etxe barruan hiltzen diren landareetatik %90 gehiegi ureztatzeagatik izaten da\".",
+            "output text": "\"Etxe barruan hiltzen izan ziren landareak %90 gehiegi ureztatuak izan zirela izan da.\""
+        },
+        "train-s3704": {
+            "ratio": 0.888,
+            "original text": "Berak errespetu osoa adierazi dit niri eta nire familiari, eta, bien arteko lehia bizirik dagoen arren, lesioen ondorioz denok nahiko genukeen lasterketa egin ez duen honetan, berari eskaini nahi diot.",
+            "output text": "Berak errespetu osoa adierazi dit niri eta nire familiari, eta bi arte lehia bizirik egon arren, lesioen ondorio dena lasterketa egin ez duen hau, berari eskaini nahi ukan du."
+        },
+        "dev-s872": {
+            "ratio": 0.918,
+            "original text": "Bere klubean, harroin, 2. lerro eta 3. lerroan ere aritzen zela esan zigun Devichek.",
+            "output text": "Bere klubean, harroin, 2. lerroan eta 3. lerroan ere aritu izan dela esan du Devichek."
+        },
+        "dev-s3": {
+            "ratio": 0.919,
+            "original text": "Gure etxea, egun batean, ordu batzuetan, zeharo aldatu zen.",
+            "output text": "Gure etxea, egun batzuetan, ordu batzuetan zeharo aldatu izan da."
+        },
+        "train-s541": {
+            "ratio": 1.0,
+            "original text": "EEBBetako musikak ere lagundu egin zuen.",
+            "output text": "EEBBetako musikak ere lagundu egin zuen."
+        },
+        "train-s988": {
+            "ratio": 0.976,
+            "original text": "Hombrados atezaina eta Alberto Martin hegala baja izango dira.",
+            "output text": "Hombradosek atezaina eta Alberto Martin hegalak baja izango dira."
+        },
+        "test-s1467": {
+            "ratio": 0.95,
+            "original text": "Honela bada, Poliziak atentatua Abu Sayyafen taldearen ekintza izan zela uste du, izan ere, Sayyafek odolzale fama dauka.",
+            "output text": "Honela bada, poliziak atentatu bat Abu Sayyaf taldearen ekintza izan dela uste du, izan ere, Sayyafek odolzale fama du."
+        },
+        "dev-s1769": {
+            "ratio": 0.931,
+            "original text": "Kamioi ilara handienak Lapurdi eta Gipuzkoaren arteko mugaren bi aldeetan izan ziren, A-8 errepidean.",
+            "output text": "Kamioien ilara handienak Lapurdiko eta Gipuzkoako arteko mugaren bi aldeetan izan dira, A-8 errepidean."
+        },
+        "dev-s901": {
+            "ratio": 0.911,
+            "original text": "Nobel saria irabazteko hautagaia izan zen, eta Habanan egoera penagarrian zegoen ospitale psikiatriko bat hartu eta erabat aldatu zuen.",
+            "output text": "Nobel saria irabazi duen hautagaia izan zen, eta Habanako egoera penagarrian egon den ospitale psikiatriko batean hartu eta erabat aldatu egin da."
+        },
+        "train-s2802": {
+            "ratio": 0.667,
+            "original text": "BRASILEKO ezkerreko oposizioaren gora egite nabarmen batek markatu zituen, herri honetan joan den igandean egindako udal-hauteskundeen lehen txandako emaitzak.",
+            "output text": "Brasileko ezkerraren oposizioak nabarmen bat egin du gora, herri honetan igande honetan egin diren udal-hauteskundeetako lehen emaitzetan."
+        },
+        "train-s3281": {
+            "ratio": 0.868,
+            "original text": "HIRUGARREN eta azken jardunaldia dute gaur Arabako Txapelketan diharduten bost taldeek; 600 kiloetako jarduna izango dute, Artziniegan (17:00).",
+            "output text": "Hirugarren eta azken jardunaldia izan du gaur Arabako txapelketan jardun duten bost taldeek; 600 kiloko jarduna izango dute, Artziniegan (17:00)."
+        },
+        "train-s4087": {
+            "ratio": 0.83,
+            "original text": "EBren Oinarrizko Eskubideen Agiriak soil-soilik jatorria Bruselan duten legeei eragingo die, ezin ditu araudi nazionalak gainditu.",
+            "output text": "EBko oinarrizko eskubideen agiriak soil-soilik jatorria Bruselan ukan legeei eragina izango du, ezin izango ditu nazional araudiak gainditu."
+        },
+        "train-s1692": {
+            "ratio": 0.902,
+            "original text": "Han urrea zuen helburu bakarra, eta atsekabe handia izan zen laugarren geratu izana.",
+            "output text": "Han urrea ukan du helburu bakarra, eta atsekabe handia izan da, laugarren geratu da izan."
+        },
+        "train-s4467": {
+            "ratio": 0.905,
+            "original text": "Orduan Francine gizonaren begietaz arduratu zen.",
+            "output text": "Orduan Francinek gizonen begiekin arduratu zen."
+        },
+        "train-s601": {
+            "ratio": 0.77,
+            "original text": "\"Eguraldi freskoak lasterketa azkarra eragingo du, eta ibilbidea ere oso egokia da niretzat.",
+            "output text": "\"Eguraldi freskoa eragingo du lasterketa azkarrak, eta ibilbideak ere oso egokia izanen du ni.\""
+        },
+        "dev-s111": {
+            "ratio": 0.676,
+            "original text": "Bestetik, pentsatzekoa da Tolosak duela dena galtzeko, eta horregatik, gure jokalariak pittin bat lasaiago ariko direla \", zioen Laurent Rodriguez entrenatzaileak.",
+            "output text": "Bestetik, Tolosak ukan dena galdu izan duela pentsatzen ari izan ginen, eta horregatik, gu jokalari pittin bat lasaiago ari izan gara, esan du Laurent Rodriguez entrenatzaileak."
+        },
+        "test-s1275": {
+            "ratio": 0.696,
+            "original text": "Mikel Goñik Joxemari Zezeagarekin jokatuko du, eta Aimar Olaizolak Fernando Goñirekin.",
+            "output text": "Mikel Goñirekin eta Aimar Olaizolarekin Fernando Goñirekin jokatuko du,."
+        },
+        "test-s530": {
+            "ratio": 0.721,
+            "original text": "Hara 12 urterekin iristen dira mutikoak, kalitate kontrola pasatu ostean.",
+            "output text": "Hara iritsi izan dira 12 urteko mutikoak, kalitate kontrola pasatako oste."
+        },
+        "dev-s107": {
+            "ratio": 0.857,
+            "original text": "Eta lagunarekiko maitasuna adierazten dizute, ez errespetoz jantzi beldurrarenak.",
+            "output text": "Eta lagunaren maitasuna adierazi zuten, ez errespetuz jantzirik beldurra."
+        },
+        "dev-s74": {
+            "ratio": 0.857,
+            "original text": "Taxi gidariek lanuztea eginen dute gaur.",
+            "output text": "Taxigileek lanuztea egingo dute gaur."
+        },
+        "train-s2384": {
+            "ratio": 0.778,
+            "original text": "Nola hartzen duzu?",
+            "output text": "Nola hartu zenuen?"
+        },
+        "train-s1534": {
+            "ratio": 0.844,
+            "original text": "Gehienak, ordea, lotuta daude.",
+            "output text": "Gehienak, ordea, lotuta egon dira."
+        },
+        "train-s2859": {
+            "ratio": 0.944,
+            "original text": "Bigarren erreferentzia gunea zortzigarren kilometroan zegoen.",
+            "output text": "Bigarren erreferentziako gunea zortzigarren kilometroan egon da."
+        },
+        "test-s786": {
+            "ratio": 0.929,
+            "original text": "Suizan esaterako erreskate talde profesionalak daude eta erreskate onak egiten dituzte, asko arriskatuz.",
+            "output text": "Suizan esaterako erreskate talde profesionalak egon dira eta erreskate onak egin dituzte, asko arriskatuta."
+        },
+        "train-s2899": {
+            "ratio": 0.863,
+            "original text": "Leonen orroak lanean albokaren soinua nagusi da, eta ezohikoa bada ere, alboka, perkusioa eta trikitixarekin, edota euskal musika tradizionala eta Portugalgoarekin nahasi dute.",
+            "output text": "Leongo orroak lanetan nagusi izan dira, eta ezohikoak izan dira ere, alboka, perkusio eta trikitixarekin, edota euskal musika tradizionalarekin eta Portugalgoarekin nahastu dituzte."
+        },
+        "train-s5234": {
+            "ratio": 0.929,
+            "original text": "- Ederki asko berotuko diat, bai, ipurdi hori gauean, mukizu ahalena!",
+            "output text": "- Ederki asko berotuko zinduen bai, ipurdi hori gauean, mukizu ahalena!"
+        },
+        "dev-s693": {
+            "ratio": 0.873,
+            "original text": "Honezkero jakin beharko zenukete zer zen nagusi baserrietan.",
+            "output text": "Honezkero jakin behar zenituen zer ari ziren nagusiak baserrietan."
+        },
+        "train-s2896": {
+            "ratio": 0.809,
+            "original text": "Euskalaritzari zuzen-zuzenean lotzen bagatzaizkio, ostera, gertaera bi dira nahitaez nabarmendu beharreko.",
+            "output text": "Euskalaritzari zuzen-zuzenean lotu izan gara, osterako, bi gertaerak izaten ari dira nahitaez nabarmentzeko behar."
+        },
+        "dev-s572": {
+            "ratio": 0.827,
+            "original text": "Orain, baina, Batasunaren motorra haustekotan dabil.",
+            "output text": "Orain, baina, batasunaren motorra hautsita ibili da."
+        },
+        "train-s3150": {
+            "ratio": 0.951,
+            "original text": "Talde txuri-urdina gaur Anoetan entrenatuko da, 10:30ean, ateak itxita.",
+            "output text": "Talde txuri-urdina gaur Anoetan entrenatu da, 10:30ean, ateak itxi dira."
+        },
+        "test-s845": {
+            "ratio": 0.767,
+            "original text": "Apenas egin duen ezer Arifek Realean.",
+            "output text": "Arifek apenas egin zuen ezer Realen."
+        },
+        "train-s404": {
+            "ratio": 0.857,
+            "original text": "Argiaren hedapena nolakoa den aztertzea izango da jarduera honen helburu nagusia.",
+            "output text": "Argiaren hedapenak nolakoa izan behar duen aztertuko da jarduera honen helburu nagusia."
+        },
+        "test-s74": {
+            "ratio": 0.763,
+            "original text": "Erran iezaion Conchitari, atearen hesteko.",
+            "output text": "Erran ezazu Conchita, ateak hetsi."
+        },
+        "dev-s729": {
+            "ratio": 0.605,
+            "original text": "Baina, zer diot?",
+            "output text": "Baina, zer esaten ari naiz?"
+        },
+        "train-s3283": {
+            "ratio": 0.863,
+            "original text": "NAZIOARTEKO Test-partida bat jokatuko da soilik asteburuan, eta hori gaur jokatuko dute Zeelanda Berriak eta Eskoziak (Auckland).",
+            "output text": "Nazioarteko test-partida bat jokatu izan da soilik asteburuan, eta hori gaur jokatu *dute Zeelanda Berriko eta Eskoziako (Auckland) ."
+        },
+        "test-s1029": {
+            "ratio": 0.8,
+            "original text": "materia, atomo deituriko partikula txiki zatiezinez osaturik dago.",
+            "output text": "Materia, atomoak deitutako partikula txiki eta zatiezinak osatuta egon da."
+        },
+        "train-s615": {
+            "ratio": 0.867,
+            "original text": "Bigarren postua Mari Holden estatubatuarrak lortu zuen, eta brontzezko domina Jeannie Longo frantziarrarentzat izan zen.",
+            "output text": "Mari Holden estatubatuarrak bigarren postua lortu zuen, eta brontzezko domina Jeannie Longo frantziarrarentzat izan zen."
+        },
+        "test-s231": {
+            "ratio": 0.954,
+            "original text": "Hirugarren probak erabakiko zuen txapelduna, eta benetan, lehiatua bezain ikusgarria gertatu zen.",
+            "output text": "Hirugarren probak erabakiko duen txapelduna, eta benetan, lehiatu bezain ikusgarria gertatu izan da."
+        },
+        "train-s2925": {
+            "ratio": 1.0,
+            "original text": "Haizeak eragina izan du.",
+            "output text": "Haizeak eragina izan du."
+        },
+        "test-s611": {
+            "ratio": 0.882,
+            "original text": "Ahal baldin badugu beste ezusteko bat ematen saiatuko gara zaila izango dela jakin arren.",
+            "output text": "Ahal baldin baduzu, beste ezusteko bat eman saiatuko gara zaila izan arren jakin."
+        },
+        "dev-s599": {
+            "ratio": 0.724,
+            "original text": "Saiatuko nintzateke ikusten ez den lan hori guztia aipatzen.",
+            "output text": "Saiatuko nintzen lan hori guztia aipatzen ez ikusi izan."
+        },
+        "dev-s532": {
+            "ratio": 0.835,
+            "original text": "Debekatua dago haurrak lanerako kontratatzea.",
+            "output text": "Debekatuta egon dira haurrak lan kontratatzea."
+        },
+        "train-s4079": {
+            "ratio": 0.769,
+            "original text": "65 kolpe nahikoa izan zituen ibilbidea osatzeko zazpi parraren azpitik, eta sailkapeneko liderra da, Lee Westwood ingelesarekin batera.",
+            "output text": "65 kolpe nahikoa izan ziren ibilbide osatu zazpi parekin, eta lider izan zen sailkapeneko, Lee Westwood ingeles batekin."
+        },
+        "test-s764": {
+            "ratio": 0.843,
+            "original text": "Horietako 65 bi untzitan zihoazen eta Tarifako kostaldetik penintsulara sartzen saiatu ziren.",
+            "output text": "Horiek 65 ontzitan joan dira eta tarifa kostaldetik penintsulara sartzen saiatu dira."
+        },
+        "dev-s923": {
+            "ratio": 0.909,
+            "original text": "Aurten ez dago dominatzaile garbirik.",
+            "output text": "Aurten ez da dominatzaile garbirik egon."
+        },
+        "test-s930": {
+            "ratio": 0.984,
+            "original text": "\"Rubenek ez du bere onena eman.",
+            "output text": "\"Rubenek ez du bere onena eman.\""
+        },
+        "train-s761": {
+            "ratio": 0.875,
+            "original text": "Edurnezuri printzearekin ezkondu zenean, zazpi ipotxek edateari eman zioten.",
+            "output text": "Edurnezuri printzearekin ezkondu izan da, zazpi ipotxek edari emana."
+        },
+        "train-s2901": {
+            "ratio": 0.686,
+            "original text": "Azkarrago, altuago, indartsuago Marion Jones atleta izan da Sydneyko Olinpiar Jokoetako izarra, bost urre lortzea ezinezkoa izan duen arren.",
+            "output text": "Marion Jones azkar, altu, indartsu izan zen atleta, Sydneyko olinpiar jokoetako izarra izan zen, bost urre lortu ezinezkoa izan arren."
+        },
+        "train-s1231": {
+            "ratio": 0.964,
+            "original text": "Beraz, ez dira hain lasai egongo, eta hori baliatu behar dute miarriztarrek pittin bat nahasteko.",
+            "output text": "Beraz, ez dira hain lasai egon, eta hori baliatu behar izan dute miarriztarrek pittin bat nahasteko."
+        },
+        "train-s4988": {
+            "ratio": 0.879,
+            "original text": "Gure lehendabiziko kontzertu ohorezkoari hasiera emateko zorian ginen.",
+            "output text": "Gure lehendabiziko kontzertu ohorezkoari hasiera eman genion zorionean."
+        },
+        "train-s4788": {
+            "ratio": 0.887,
+            "original text": "Lehen alearen edukia, esandakoaren lekuko, anitza da.",
+            "output text": "Lehen aleari edukia, esandako lekukoa, anitz izan da."
+        },
+        "train-s1885": {
+            "ratio": 0.919,
+            "original text": "Delitu mota horregatik zenbait urtetako espetxe zigorra ere aurreikusten du zigor kodeak.",
+            "output text": "Delitu mota hori zenbait urtetako espetxe zigorra ere aurreikusi zuen zigor kodeak."
+        },
+        "test-s856": {
+            "ratio": 0.93,
+            "original text": "Luzea eta gogorra izan zen hura ere.",
+            "output text": "Luzea eta gogorra izan da hura ere."
+        },
+        "train-s343": {
+            "ratio": 0.926,
+            "original text": "Laosko agirien faltsifikazioan inkulpatu du Tardonek Roldan.",
+            "output text": "Laoseko agiri faltsifikazioetan inculpatu da Tardonek Roldan."
+        },
+        "train-s3934": {
+            "ratio": 0.834,
+            "original text": "Malkolm Braxe zuen izena; Emilierekin maiteminduta zegoen, eta beti egon izan zen, Magdalenak idazten duenez.",
+            "output text": "Malkolm Braxek izena eduki zuen; Emiliarekin maiteminduta egon zen, eta beti egon izan da, Magdalenak idatzi zuen."
+        },
+        "train-s756": {
+            "ratio": 0.905,
+            "original text": "Oraingo egoera eta lehen intifadan bizi izan zena gonbara daitezke?",
+            "output text": "Oraingo egoera eta lehen Intifadan bizi izan zen konparatu al daiteke?"
+        },
+        "train-s584": {
+            "ratio": 0.982,
+            "original text": "\"Normala\" iruditzen zaio hori guztia hondarribitarrari:",
+            "output text": "\"Normala\" iruditzen zaio hori guztiari hondarribitarrari:"
+        }
+    },
+    "sentence_count": 500,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-04-10_15-46-28/tb_output-cleaned.json"
+}

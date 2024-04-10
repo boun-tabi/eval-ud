@@ -1,0 +1,25 @@
+| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count |
+| --- | --- | --- | --- | --- | --- | --- |
+| UD_Basque-BDT | v2.10 | GPT-4 | 87.6% | 52.2% | Yes | 500 |
+| UD_English-EWT | v2.13 | GPT-4 | 96.5% | 81.2% | No | 500 |
+| UD_Finnish-TDT | v2.13 | GPT-4 | 94.5% | 75.4% | Yes | 500 |
+| UD_Turkish-BOUN | v2.11 | Claude-2-100k | 90.5% | 67.4% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Claude-2-100k | 89.0% | 65.2% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | Claude-3-Opus-200k | 95.2% | 83.0% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Claude-3-Opus-200k | 94.3% | 79.7% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | Claude-instant-100k | 87.5% | 57.0% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Claude-instant-100k | 86.1% | 54.7% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | GPT-3.5-Turbo | 85.6% | 51.7% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | GPT-3.5-Turbo | 84.8% | 50.8% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | GPT-4 | 93.0% | 71.3% | No | 499 |
+| UD_Turkish-BOUN | v2.8 | GPT-4 | 91.7% | 68.6% | No | 499 |
+| UD_Turkish-BOUN | v2.11 | GPT-4 | 90.7% | 65.9% | Yes | 490 |
+| UD_Turkish-BOUN | v2.8 | GPT-4 | 89.6% | 63.1% | Yes | 493 |
+| UD_Turkish-BOUN | v2.11 | Llama-2-70b | 78.9% | 36.9% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Llama-2-70b | 79.2% | 37.2% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | Mistral-Large | 87.5% | 58.1% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Mistral-Large | 86.6% | 55.6% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | Mistral-Medium | 85.7% | 51.6% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Mistral-Medium | 84.9% | 49.6% | No | 500 |
+| UD_Turkish-BOUN | v2.11 | Mixtral-8x7B-Chat | 78.8% | 34.6% | No | 500 |
+| UD_Turkish-BOUN | v2.8 | Mixtral-8x7B-Chat | 78.7% | 35.1% | No | 500 |

@@ -1,0 +1,47 @@
+{
+    "average ratio": 0.9021190832618533,
+    "results": {
+        "dev-s1033": {
+            "ratio": 0.877,
+            "original text": "Gobernu gorri-berdeak gizartearen erreformetan lortu du arrakasta handiena.",
+            "output text": "Gobernu gorri-berdeak gizarte erreformetan lortutako arrakasta handiena izan du."
+        },
+        "dev-s82": {
+            "ratio": 1.0,
+            "original text": "Zer irtenbide dago kasu horietarako?",
+            "output text": "Zer irtenbide dago kasu horietarako?"
+        },
+        "train-s4920": {
+            "ratio": 0.845,
+            "original text": "Eta igotzekotan, EBZk 2001. urteko lehen hiru hilabetera arte itxaron egingo duela uste dute.",
+            "output text": "Eta igotzen EBZk 2001. urteko lehen hiru hilabeteetara arte itxaron behar izan duen ustea ukan zuten."
+        },
+        "train-s1787": {
+            "ratio": 0.833,
+            "original text": "IBERDROLAK akziodunen biltzarra egingo du gaur Bilbon.",
+            "output text": "Iberdrolak akziodunen biltzarra egingo du gaur Bilbon."
+        },
+        "train-s2032": {
+            "ratio": 0.96,
+            "original text": "- Familia eta gertuko komunitatea erdaldunak dira gehienbat.",
+            "output text": "- Familia eta gertuko komunitatea erdaldunak izan dira gehienbat."
+        },
+        "train-s4949": {
+            "ratio": 0.969,
+            "original text": "Bestalde, bihar Bizkaiko PSE-EEren Kongresua egingo da, Bilbon, zatiketa giroan.",
+            "output text": "Bestalde, bihar Bizkaiko PSE-EEren kongresua egingo da Bilbon, zatiketa-giroan."
+        },
+        "train-s839": {
+            "ratio": 0.902,
+            "original text": "\"Oso azkar korritu da\".",
+            "output text": "\"Oso azkar korritu izan da\"."
+        },
+        "dev-s22": {
+            "ratio": 0.83,
+            "original text": "Ondorioz, forma musikalen aniztasuna egunetik egunera txikiagoa da eta komenigarria izango litzateke atzera begiratzea, lehen zegoena ezagutzeko.",
+            "output text": "Ondorioz, forma musikalen aniztasuna egunero txikiagoa izan da eta komenigarria izan balitz atzera begiratu, lehen ezagutzen ez zen."
+        }
+    },
+    "sentence_count": 8,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-10_17-48-28/tb_output-cleaned.json"
+}
