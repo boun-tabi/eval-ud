@@ -15,11 +15,17 @@ def main():
     lang = args.lang
     lang_dir = docs_dir / '_{}'.format(lang)
     pos_lang_dir = lang_dir / 'pos'
-    pos_lang_files = [f for f in pos_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
+    pos_lang_files = []
+    if pos_lang_dir.exists():
+        pos_lang_files = [f for f in pos_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
     dep_lang_dir = lang_dir / 'dep'
-    dep_lang_files = [f for f in dep_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
+    dep_lang_files = []
+    if dep_lang_dir.exists():
+        dep_lang_files = [f for f in dep_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
     feat_lang_dir = lang_dir / 'feat'
-    feat_lang_files = [f for f in feat_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
+    feat_lang_files = []
+    if feat_lang_dir.exists():
+        feat_lang_files = [f for f in feat_lang_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
     pos_u_dir = docs_dir / '_u-pos'
     pos_u_files = [f for f in pos_u_dir.iterdir() if f.suffix == '.md' and f.name != 'README.md' and f.name != 'index.md']
     dep_u_dir = docs_dir / '_u-dep'

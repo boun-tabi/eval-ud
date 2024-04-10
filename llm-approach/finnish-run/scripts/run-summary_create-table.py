@@ -40,7 +40,7 @@ def main():
         with md_file.open('r', encoding='utf-8') as f:
             run_info = json.load(f)
         treebank = run_info['treebank']
-        model = run_info['model']
+        model = run_info['model'].replace('poe_', '')
         version = run_info['version']
         dependency_included = run_info['dependency_included']
         output_file = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')][0]
