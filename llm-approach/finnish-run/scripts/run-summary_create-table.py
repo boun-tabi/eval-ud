@@ -5,10 +5,17 @@ run_dirs = [
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-04-10_15-46-28',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-10_17-48-28',
     'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-10_18-10-28',
-    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-10_18-11-38'
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-10_18-11-38',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-10_18-44-56',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.11-2024-04-10_18-47-10'
 ]
 
-pass_l = []
+pass_l = [
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-04-10_15-46-28',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-10_17-48-28',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-10_18-10-28',
+    'llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-10_18-11-38'
+]
 
 def main():
     script_dir = Path(__file__).parent
@@ -21,8 +28,8 @@ def main():
     # 3: compare-tokens.py
     compare_tokens_script_path = script_dir / 'compare-tokens.py'
     table = []
-    for run_dir in run_dirs:
-        run_dir = Path(run_dir)
+    for run_dir_str in run_dirs:
+        run_dir = Path(run_dir_str)
         md_file = run_dir / 'md.json'
         with md_file.open('r', encoding='utf-8') as f:
             run_info = json.load(f)
@@ -32,18 +39,18 @@ def main():
         dependency_included = run_info['dependency_included']
         output_file = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')][0]
         # 1: clean_output.py
-        if run_dir not in pass_l:
+        if run_dir_str not in pass_l:
             os.system(f'python {clean_script_path} -o {output_file}')
         cleaned_output_path = run_dir / (output_file.stem + '-cleaned.json')
         # 2: summarize_experiment-sequence_matching.py
-        if run_dir not in pass_l:
+        if run_dir_str not in pass_l:
             os.system(f'python {sequence_matching_script_path} -r {run_dir} -t {cleaned_output_path}')
         summary_path = run_dir / (cleaned_output_path.stem + '-summary.json')
         with summary_path.open('r', encoding='utf-8') as f:
             summary = json.load(f)
         sentence_count = summary['sentence_count']
         # 3: compare-tokens.py
-        if run_dir not in pass_l:
+        if run_dir_str not in pass_l:
             os.system(f'python {compare_tokens_script_path} -s {summary_path}')
         comparison_path = run_dir / (summary_path.stem + '-comparison.json')
         with comparison_path.open('r', encoding='utf-8') as f:

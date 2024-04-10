@@ -138,7 +138,7 @@ def main():
         conllu_files = list(treebank_dir.glob('*.conllu'))
         tb_d = get_treebank(conllu_files)
 
-        sent_ids_path = treebank_dir / 'sent_ids-{sent_count}.json'.format(sent_count=sent_count)
+        sent_ids_path = data_dir / 'sent_ids/{treebank}-{sent_count}.json'.format(treebank=treebank, sent_count=sent_count)
         if sent_ids_path.exists():
             with sent_ids_path.open('r', encoding='utf-8') as f:
                 content = json.load(f)
