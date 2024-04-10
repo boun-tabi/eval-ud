@@ -18,14 +18,22 @@ def main():
 
     note_pattern = re.compile(r'\(Note: .+\)$')
     par_pattern = re.compile(r'(\(.+\))$')
-    json_md_pattern = re.compile(r'^```json\n(.+)\n```$', re.DOTALL)
+    json_md_pattern = re.compile('^```json\n(.+)\n```$', re.DOTALL)
     new_output_d = {}
     for el in output:
         sent_id, original_text, output_text = el['sent_id'], el['text'], el['output']
         json_search = json_md_pattern.search(output_text)
         if json_search:
-            output_json = json.loads(json_search.group(1))
-            output_text = output_json['original_form']
+            found_group = json_search.group(1)
+            try:
+                output_text = json.loads(found_group)['original_form']
+            except:
+                temp_text = found_group
+                for i in range(3):
+                    temp_idx = temp_text.find('"')
+                    temp_text = temp_text[temp_idx + 1:]
+                temp_idx = temp_text.rfind('"')
+                output_text = temp_text[:temp_idx]
         else:
             for nl in ['\n\n', '\n']:
                 if nl in output_text:

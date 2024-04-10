@@ -15,6 +15,9 @@ def main():
     tb_out = Path(args.tb_output)
 
     res_d = {}
+    if not tb_out.exists():
+        print(f'File not found: {tb_out}')
+        return
     with open(tb_out, 'r', encoding='utf-8') as f:
         tb_results = json.load(f)
     for sent_id in tb_results.keys():
