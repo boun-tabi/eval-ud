@@ -2,32 +2,19 @@
 def get_example_prompt(table, pos_d, feat_d, dep_d=None):
     lines = table.split('\n')
     ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
-    dash_ids = [line.split('\t')[0] for line in lines if '-' in line.split('\t')[0]]
-    token_count = len(ids) - len(dash_ids)
-    token_order = 1
-    in_split, first_part_passed = False, False
+    token_count = len(ids)
     prompt_l = []
     for line in lines:
         fields = line.split('\t')
         id_t, lemma_t, pos_t, feats_t, head_t, dep_t = fields[0], fields[2], fields[3], fields[5], fields[6], fields[7]
         if '-' in id_t:
-            in_split = True
-            prompt_l.append('{no} token has 2 parts.'.format(no=number_d[token_order]))
-            first_part_passed = False
+            no1, no2 = id_t.split('-')
+            prompt_l.append('{no} and {no2} tokens make up a single word.'.format(no=number_d[int(no1)], no2=number_d[int(no2)]))
             continue
         feat_l = feats_t.split('|')
         if len(feat_l) == 1 and feat_l[0] == '_':
             feat_l = []
-        if in_split:
-            if not first_part_passed:
-                token_str_l = ['{no} token\'s first part\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
-                first_part_passed = True
-            else:
-                token_str_l = ['{no} token\'s second part\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
-                in_split = False
-                first_part_passed = False
-        else:
-            token_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
+        token_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[int(id_t)], lemma=lemma_t)]
         token_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
         for feat in feat_l:
             psor_on = False
@@ -52,67 +39,11 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None):
 
         token_str_l[-1] = 'and ' + token_str_l[-1]
         prompt_l.append(', '.join(token_str_l) + '.')
-        if not in_split:
-            token_order += 1
     question = '\n'.join(prompt_l)
     return token_count, question
 
 def get_sentence_prompt(template, example_sentence_surface, example_sentence_token, example_sentence_input, language, table, pos_d, feat_d, dep_d=None):
-    lines = table.split('\n')
-    ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
-    dash_ids = [line.split('\t')[0] for line in lines if '-' in line.split('\t')[0]]
-    token_count = len(ids) - len(dash_ids)
-    token_order = 1
-    in_split, first_part_passed = False, False
-    prompt_l = []
-    for line in lines:
-        fields = line.split('\t')
-        id_t, lemma_t, pos_t, feats_t, head_t, dep_t = fields[0], fields[2], fields[3], fields[5], fields[6], fields[7]
-        if '-' in id_t:
-            in_split = True
-            prompt_l.append('{no} token has 2 parts.'.format(no=number_d[token_order]))
-            first_part_passed = False
-            continue
-        feat_l = feats_t.split('|')
-        if len(feat_l) == 1 and feat_l[0] == '_':
-            feat_l = []
-        if in_split:
-            if not first_part_passed:
-                token_str_l = ['{no} token\'s first part\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
-                first_part_passed = True
-            else:
-                token_str_l = ['{no} token\'s second part\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
-                in_split = False
-                first_part_passed = False
-        else:
-            token_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[token_order], lemma=lemma_t)]
-        token_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
-        for feat in feat_l:
-            psor_on = False
-            feat_name, feat_value = feat.split('=')
-            if feat_name.endswith('[psor]'):
-                feat_name = feat_name.replace('[psor]', '')
-                psor_on = True
-            if feat_name in feat_d:
-                tag_shortdef = feat_d[feat_name]['shortdef']
-            if feat_value in feat_d[feat_name]:
-                feat_value = feat_d[feat_name][feat_value]['shortdef']
-            if psor_on:
-                token_str_l.append('its possessor\'s {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
-            else:
-                token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
-        if dep_d and dep_t != '_':
-            dep_name = dep_d[dep_t]['shortdef']
-            if head_t == '0':
-                token_str_l.append('it\'s the root token')
-            else:
-                token_str_l.append('it depends on the {head} token with the dependency relation of {dep}'.format(dep=dep_name, head=number_d[int(head_t)]))
-
-        token_str_l[-1] = 'and ' + token_str_l[-1]
-        prompt_l.append(', '.join(token_str_l) + '.')
-        if not in_split:
-            token_order += 1
-    question = '\n'.join(prompt_l)
+    token_count, question = get_example_prompt(table, pos_d, feat_d, dep_d)
     return template.format(example_surface=example_sentence_surface, example_token=example_sentence_token, example_input=example_sentence_input, token_count=token_count, test_input=question, language=language)
 
 # created on 2024-4-10
@@ -126,7 +57,7 @@ Your task is to find the surface form of the sentence. For example, your answer 
 
 {example_surface}
 
-Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
+Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order.
 
 {test_input}
 
