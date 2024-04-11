@@ -1,7 +1,7 @@
 from datetime import datetime
 import os, json, argparse, logging, subprocess, re, random, sys
 from pathlib import Path
-from templates import get_sentence_prompt, get_example_prompt, template_sentence_with_dep, template_sentence_without_dep
+from templates import get_sentence_prompt, get_example_prompt, template_sentence
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -187,12 +187,13 @@ def main():
             md = {'sent_count': sent_count, 'sent_ids': sent_ids, 'example_sent_id': example_sent_id, 'model': model, 'now': now, 'run_dir': str(run_dir), 'treebank': treebank, 'docs_dir': str(docs_dir), 'script_path': str(script_path), 'api_path': str(api_path), 'language': language, 'langs_path': str(langs_path), 'data_dir': str(data_dir), 'version': version}
             if args.has_dependency:
                 md['dependency_included'] = True
-                md['prompt'] = template_sentence_with_dep
-                template = template_sentence_with_dep
+                from templates import preamble_dep as preamble
             else:
                 md['dependency_included'] = False
-                md['prompt'] = template_sentence_without_dep
-                template = template_sentence_without_dep
+                from templates import preamble_no_dep as preamble
+            preamble = preamble.format(language=langs[language])
+            md['prompt'] = template_sentence
+            template = template_sentence
             if args.note:
                 md['note'] = args.note
             json.dump(md, f, ensure_ascii=False, indent=2)
@@ -244,7 +245,10 @@ def main():
     run_done = True
     asked_count = 0
     output_l = tb_output
-    example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, dep_d)
+    if args.has_dependency:
+        example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, dep_d)
+    else:
+        example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d)
     example_text = tb_d['sentences'][example_sent_id]['text']
     for i, sent_id in enumerate(sent_ids):
         print('Processing {i} of {count}.'.format(i=i, count=sent_count))
@@ -252,7 +256,10 @@ def main():
         if sent_id in tb_done_sents:
             continue
         text, table = table_d[sent_id]['text'], table_d[sent_id]['table']
-        prompt = get_sentence_prompt(template, example_text, example_token, example_input, langs[language], table, pos_d, feat_d, dep_d)
+        if args.has_dependency:
+            prompt = get_sentence_prompt(template, preamble, example_text, example_token, example_input, langs[language], table, pos_d, feat_d, dep_d)
+        else:
+            prompt = get_sentence_prompt(template, preamble, example_text, example_token, example_input, langs[language], table, pos_d, feat_d)
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model.startswith('poe'):
             try:

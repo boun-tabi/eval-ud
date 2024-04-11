@@ -42,12 +42,15 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None):
     question = '\n'.join(prompt_l)
     return token_count, question
 
-def get_sentence_prompt(template, example_sentence_surface, example_sentence_token, example_sentence_input, language, table, pos_d, feat_d, dep_d=None):
+def get_sentence_prompt(template, preamble, example_sentence_surface, example_sentence_token, example_sentence_input, language, table, pos_d, feat_d, dep_d=None):
     token_count, question = get_example_prompt(table, pos_d, feat_d, dep_d)
-    return template.format(example_surface=example_sentence_surface, example_token=example_sentence_token, example_input=example_sentence_input, token_count=token_count, test_input=question, language=language)
+    return template.format(preamble=preamble, example_surface=example_sentence_surface, example_token=example_sentence_token, example_input=example_sentence_input, token_count=token_count, test_input=question, language=language)
 
-# created on 2024-4-10
-template_sentence_without_dep = """The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech, morphological features given for each token.
+preamble_dep = 'The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech, morphological features and dependencies given for each token.'
+preamble_no_dep = 'The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech, morphological features given for each token.'
+
+# created on 2024-4-11
+template_sentence = '''{preamble}
 
 The sentence has {example_token} tokens.
 
@@ -63,26 +66,7 @@ Now, analyze the following test example and try to find the surface form of the 
 
 Answer in JSON, in the following format:
 
-{{"original_form": <SENTENCE>}}"""
-
-# created on 2024-1-19
-template_sentence_with_dep = """The following sentences detail linguistic features of a {language} sentence with lemmas, parts of speech, morphological features and dependencies given for each token.
-
-The sentence has {example_token} tokens.
-
-{example_input}
-
-Your task is to find the surface form of the sentence. For example, your answer for the previous parse should be:
-
-{example_surface}
-
-Now, analyze the following test example and try to find the surface form of the sentence. It has {token_count} tokens. Please include all the tokens in your answer in order. Output only the surface form without any explanations or sentences in English.
-
-{test_input}
-
-Answer in JSON, in the following format:
-
-{{"original_form": <SENTENCE>}}"""
+{{"original_form": <SENTENCE>}}'''
 
 number_d = {}
 for num in range(1, 157):
