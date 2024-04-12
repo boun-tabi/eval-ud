@@ -109,9 +109,11 @@ def main():
         with langs_path.open('r', encoding='utf-8') as f:
             langs = json.load(f)
         if md['dependency_included']:
-            template = template_sentence_with_dep
+            from templates import preamble_dep as preamble
         else:
-            template = template_sentence_without_dep
+            from templates import preamble_no_dep as preamble
+        preamble = preamble.format(language=langs[language])
+        template = template_sentence
     else:
         if not args.treebank or not args.sent_count or not args.docs or not args.api_key or not args.langs_path or not args.language or not args.version:
             logger.info('Please specify a treebank, a sentence count, a docs directory, an API key, a language, and a version.')
