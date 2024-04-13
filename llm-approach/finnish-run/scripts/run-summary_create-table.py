@@ -26,6 +26,7 @@ def main():
             md_file = run_dir / 'md.json'
             with md_file.open('r', encoding='utf-8') as f:
                 run_info = json.load(f)
+            date = run_info['now'].split('_')[0]
             treebank = run_info['treebank']
             model = run_info['model'].replace('poe_', '')
             version = run_info['version']
@@ -53,26 +54,59 @@ def main():
                 'dependency_included': dependency_included,
                 'character-based': summary['average ratio'],
                 'token-based': comparison['summary']['llm accuracy']['f1'],
-                'sentence_count': sentence_count
+                'sentence_count': sentence_count,
+                'date': date
             })
-            print(f'{treebank} {model} {dependency_included} {output_file.stem} done')
+            print(f'{treebank} {model} {dependency_included} done')
 
             with summary_table_path.open('w', encoding='utf-8') as f:
                 json.dump(table, f, indent=4, ensure_ascii=False)
     else:
         with summary_table_path.open('r', encoding='utf-8') as f:
             table = json.load(f)
+    
+    run_d = {}
+    for row in table:
+        treebank, version, character_accuracy, token_accuracy = row['treebank'], row['version'], row['character-based'], row['token-based']
+        if treebank not in run_d:
+            run_d[treebank] = {}
+        if version not in run_d[treebank]:
+            run_d[treebank][version] = {
+                'character-based': character_accuracy,
+                'token-based': token_accuracy,
+            }
+
+    for treebank in run_d:
+        versions = run_d[treebank]
+        if len(versions) < 2:
+            continue
+        max_character_accuracy, max_character_version, max_token_accuracy, max_token_version = None, None, None, None
+        for version in versions:
+            character_accuracy = run_d[treebank][version]['character-based']
+            if max_character_accuracy is None or character_accuracy > max_character_accuracy:
+                max_character_accuracy = character_accuracy
+                max_character_version = version
+            token_accuracy = run_d[treebank][version]['token-based']
+            if max_token_accuracy is None or token_accuracy > max_token_accuracy:
+                max_token_accuracy = token_accuracy
+                max_token_version = version
+        run_d[treebank][max_character_version]['max_character'] = True
+        run_d[treebank][max_token_version]['max_token'] = True
 
     markdown_summary_path = output_dir / 'summary-table.md'
     table.sort(key=lambda x: (x['treebank'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['model'], x['dependency_included']))
-    markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count |\n'
-    markdown_str += '| --- | --- | --- | --- | --- | --- | --- |\n'
+    markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date |\n'
+    markdown_str += '| --- | --- | --- | --- | --- | --- | --- | --- |\n'
     for row in table:
         character_accuracy, token_accuracy = '%.1f' % (row['character-based'] * 100) + '%', '%.1f' % (row['token-based'] * 100) + '%'
         dep_included = 'Yes' if row['dependency_included'] else 'No'
-        output_file = row['output_file']
-        version = row['version']
-        markdown_str += f"| {row['treebank']} | {version} | {row['model']} | {character_accuracy} | {token_accuracy} | {dep_included} | {row['sentence_count']} |\n"
+        date = row['date']
+        treebank, version, model, sentence_count = row['treebank'], row['version'], row['model'], row['sentence_count']
+        if 'max_character' in run_d[treebank][version]:
+            character_accuracy = f'**{character_accuracy}**'
+        if 'max_token' in run_d[treebank][version]:
+            token_accuracy = f'**{token_accuracy}**'
+        markdown_str += f"| {treebank} | {version} | {model} | {character_accuracy} | {token_accuracy} | {dep_included} | {sentence_count} | {date} |\n"
     with markdown_summary_path.open('w', encoding='utf-8') as f:
         f.write(markdown_str)
 
