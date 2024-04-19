@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8574290885389543,
+    "average ratio": 0.8580050968560592,
     "results": {
         "dev-s1140": {
             "ratio": 0.813,
@@ -67,9 +67,9 @@
             "output text": "Eskuineko hanka lotu du, eta herrenka ibili da."
         },
         "test-s399": {
-            "ratio": 0.33,
+            "ratio": 0.415,
             "original text": "Kezkatzen hasteko goizegi dela dio Lotinak.",
-            "output text": "{\"original_form\": \"Goiz hasi da kezkatzen Lotinak esan du.\"}"
+            "output text": "Goiz hasi da kezkatzen Lotinak esan du."
         },
         "train-s1504": {
             "ratio": 0.841,
@@ -742,9 +742,9 @@
             "output text": "1998 eta aurten Munsterrek (Irlandak) kanporatu ditu finalerdietan."
         },
         "train-s4405": {
-            "ratio": 0.806,
+            "ratio": 0.906,
             "original text": "\"ETAko kide izateaz akusatuta etorri, eta Jaurlaritzari buruz baino ez digu galdetu\".",
-            "output text": "{\"original_form\": \"\\\"ETAkide izan dena akusatuta etorri, eta jaurlaritzari buruz baino ez du galdetu.\\\".\"}"
+            "output text": "\\\"ETAkide izan dena akusatuta etorri, eta jaurlaritzari buruz baino ez du galdetu.\\\"."
         },
         "train-s1366": {
             "ratio": 0.899,
@@ -2117,9 +2117,9 @@
             "output text": "Roger Lemerre berak argi eta garbi adierazi zuen hori:"
         },
         "test-s624": {
-            "ratio": 0.856,
+            "ratio": 0.96,
             "original text": "Serbiako abokatuen ganberak greba hasi zuen \"herritarren borondatea errespetatu arte\".",
-            "output text": "{\"original_form\": \"Serbiako abokatuen ganberak greba hasi du, \\\"herritarren borondatea errespetatu arte\\\".\"}"
+            "output text": "Serbiako abokatuen ganberak greba hasi du, \\\"herritarren borondatea errespetatu arte\\\"."
         },
         "test-s1296": {
             "ratio": 0.932,

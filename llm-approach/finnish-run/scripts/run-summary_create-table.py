@@ -4,6 +4,7 @@ import os, json, argparse
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--calculate', action='store_true')
+    parser.add_argument('-cd', '--calculate-dir', type=str)
     parser.add_argument('-o', '--output-dir', type=str, required=True)
     return parser.parse_args()
 
@@ -11,6 +12,8 @@ def main():
     args = get_args()
     output_dir = Path(args.output_dir)
     run_dirs = [d for d in output_dir.iterdir() if d.is_dir()]
+    # if args.calculate_dir:
+    #     run_dirs = [d for d in run_dirs if str(d).endswith(args.calculate_dir)]
     script_dir = Path(__file__).parent
     summary_table_path = output_dir / 'summary-table.json'
     if args.calculate:
@@ -94,7 +97,7 @@ def main():
         run_d[treebank][max_token_version]['max_token'] = True
 
     markdown_summary_path = output_dir / 'summary-table.md'
-    table.sort(key=lambda x: (x['treebank'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['model'], x['dependency_included']))
+    table.sort(key=lambda x: (x['treebank'], x['model'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['dependency_included']))
     markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date |\n'
     markdown_str += '| --- | --- | --- | --- | --- | --- | --- | --- |\n'
     for row in table:

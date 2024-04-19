@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8494278385352564,
+    "average ratio": 0.850251233754646,
     "results": {
         "dev-s1140": {
             "ratio": 0.918,
@@ -1112,9 +1112,9 @@
             "output text": "Beste milaka timortarrek, berriz, mendira jo dute."
         },
         "test-s764": {
-            "ratio": 0.8,
+            "ratio": 0.818,
             "original text": "Horietako 65 bi untzitan zihoazen eta Tarifako kostaldetik penintsulara sartzen saiatu ziren.",
-            "output text": "**Horiek 65 ontzitan joan dira eta tarifa kostaldetik penintsulara sartu saiatu dira.**"
+            "output text": "Horiek 65 ontzitan joan dira eta tarifa kostaldetik penintsulara sartu saiatu dira."
         },
         "test-s231": {
             "ratio": 0.824,
@@ -1137,9 +1137,9 @@
             "output text": "**\"Arau juridikoak egon dira umeak babestuz, emakumeak eta errefuxiatuak babestu dituztelarik.\"**"
         },
         "train-s3386": {
-            "ratio": 0.813,
+            "ratio": 0.826,
             "original text": "Espediente horretan Urnietako San Juan T.Z.-ra joango den lurrazpiko elektrizitate-lineari (13,2 kv, zirkuito bakuna) administrazioaren baimena emateko eta egiteko proiektua onartzeko eskatzen da.",
-            "output text": "**\"Eskaera hori Urnieta san Juan T.Z.ra joan izan da lurrazpiko elektrizitate-linea (13,2 kv, zirkuitu bakun) administrazioaren baimena eman eta proiektua onartu izan da.\"**"
+            "output text": "Eskaera hori Urnieta san Juan T.Z.ra joan izan da lurrazpiko elektrizitate-linea (13,2 kv, zirkuitu bakun) administrazioaren baimena eman eta proiektua onartu izan da."
         },
         "dev-s1286": {
             "ratio": 0.946,
@@ -1822,9 +1822,9 @@
             "output text": "\"Barak Likuden politika egin zuen, ez dugu sostengatu izango.\""
         },
         "train-s4368": {
-            "ratio": 0.788,
+            "ratio": 0.881,
             "original text": "Hitzaurreko neska atzeratua hamasei edo hogei urteko neskatila oso polit bihurtu da.",
-            "output text": "{\"original_form\": \"Hitzaurreko atzeratutako neskak hamasei edo hogei urteko neskatila oso polit bihurtu izan da.\"}"
+            "output text": "Hitzaurreko atzeratutako neskak hamasei edo hogei urteko neskatila oso polit bihurtu izan da."
         },
         "test-s1661": {
             "ratio": 0.922,
@@ -2252,9 +2252,9 @@
             "output text": "Medikuen emaitza zain izaten jarraitu ahal izango du jakiteko."
         },
         "train-s547": {
-            "ratio": 0.423,
+            "ratio": 0.71,
             "original text": "Galdua zara!",
-            "output text": "{\"original_form\": \"Galdatzen ari zara!\"}"
+            "output text": "Galdatzen ari zara!"
         },
         "train-s2384": {
             "ratio": 0.778,
