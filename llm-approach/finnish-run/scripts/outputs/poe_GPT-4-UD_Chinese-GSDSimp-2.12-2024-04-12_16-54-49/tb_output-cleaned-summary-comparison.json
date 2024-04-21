@@ -110,8 +110,8 @@
         },
         "train-s1902": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.42105263157894735
             }
         },
         "train-s2483": {
@@ -128,8 +128,8 @@
         },
         "train-s1957": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.4375,
+                "recall": 0.5882352941176471
             }
         },
         "train-s3221": {
@@ -140,8 +140,8 @@
         },
         "train-s2431": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.38636363636363635
             }
         },
         "train-s3886": {
@@ -206,8 +206,8 @@
         },
         "dev-s461": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.95
             }
         },
         "dev-s463": {
@@ -290,8 +290,8 @@
         },
         "test-s84": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.34285714285714286
             }
         },
         "train-s1311": {
@@ -356,8 +356,8 @@
         },
         "train-s3159": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.7058823529411765
             }
         },
         "test-s482": {
@@ -410,8 +410,8 @@
         },
         "train-s382": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.5769230769230769
             }
         },
         "train-s791": {
@@ -476,8 +476,8 @@
         },
         "train-s3894": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.9777777777777777
             }
         },
         "train-s562": {
@@ -494,8 +494,8 @@
         },
         "train-s239": {
             "llm": {
-                "precision": 0.16666666666666666,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "train-s2631": {
@@ -518,8 +518,8 @@
         },
         "test-s458": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.65,
+                "recall": 1.0
             }
         },
         "train-s3583": {
@@ -549,7 +549,7 @@
         "train-s3154": {
             "llm": {
                 "precision": 0.5,
-                "recall": 0.5
+                "recall": 0.55
             }
         },
         "dev-s429": {
@@ -590,8 +590,8 @@
         },
         "train-s1249": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.574468085106383,
+                "recall": 0.9782608695652174
             }
         },
         "train-s157": {
@@ -620,8 +620,8 @@
         },
         "train-s444": {
             "llm": {
-                "precision": 0.6666666666666666,
-                "recall": 0.6666666666666666
+                "precision": 0.9565217391304348,
+                "recall": 0.25
             }
         },
         "train-s3053": {
@@ -632,8 +632,8 @@
         },
         "train-s772": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.6521739130434783,
+                "recall": 0.4
             }
         },
         "train-s2224": {
@@ -668,8 +668,8 @@
         },
         "train-s1229": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.6923076923076923,
+                "recall": 1.0
             }
         },
         "train-s99": {
@@ -698,8 +698,8 @@
         },
         "train-s2076": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.9473684210526315
             }
         },
         "train-s182": {
@@ -722,13 +722,13 @@
         },
         "train-s57": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.6551724137931034
             }
         },
         "train-s1068": {
             "llm": {
-                "precision": 0.3333333333333333,
+                "precision": 0.6595744680851063,
                 "recall": 0.0
             }
         },
@@ -770,8 +770,8 @@
         },
         "train-s2911": {
             "llm": {
-                "precision": 0.75,
-                "recall": 0.75
+                "precision": 1.0,
+                "recall": 0.44680851063829785
             }
         },
         "train-s3708": {
@@ -782,8 +782,8 @@
         },
         "train-s2467": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.75
             }
         },
         "train-s3479": {
@@ -812,14 +812,14 @@
         },
         "train-s46": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.8636363636363636,
+                "recall": 0.16666666666666666
             }
         },
         "train-s539": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.47619047619047616
             }
         },
         "train-s1031": {
@@ -920,8 +920,8 @@
         },
         "train-s1443": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.6857142857142857,
+                "recall": 1.0
             }
         },
         "train-s2945": {
@@ -1010,8 +1010,8 @@
         },
         "train-s2261": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.5588235294117647
             }
         },
         "train-s3798": {
@@ -1022,8 +1022,8 @@
         },
         "train-s2309": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.8857142857142857,
+                "recall": 0.1891891891891892
             }
         },
         "train-s3049": {
@@ -1089,7 +1089,7 @@
         "train-s3668": {
             "llm": {
                 "precision": 1.0,
-                "recall": 0.6666666666666666
+                "recall": 0.05555555555555555
             }
         },
         "train-s2636": {
@@ -1112,8 +1112,8 @@
         },
         "train-s2716": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.65
             }
         },
         "train-s3014": {
@@ -1250,8 +1250,8 @@
         },
         "train-s3758": {
             "llm": {
-                "precision": 0.6666666666666666,
-                "recall": 0.6666666666666666
+                "precision": 1.0,
+                "recall": 0.9642857142857143
             }
         },
         "test-s376": {
@@ -1322,14 +1322,14 @@
         },
         "train-s2247": {
             "llm": {
-                "precision": 0.6666666666666666,
+                "precision": 0.15384615384615385,
                 "recall": 1.0
             }
         },
         "train-s2492": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.44
             }
         },
         "train-s1669": {
@@ -1364,8 +1364,8 @@
         },
         "train-s3823": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.75
             }
         },
         "train-s2281": {
@@ -1388,8 +1388,8 @@
         },
         "train-s3306": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.6052631578947368
             }
         },
         "train-s148": {
@@ -1478,8 +1478,8 @@
         },
         "train-s941": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.42857142857142855,
+                "recall": 0.6086956521739131
             }
         },
         "train-s3604": {
@@ -1664,8 +1664,8 @@
         },
         "dev-s324": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.43333333333333335,
+                "recall": 0.47058823529411764
             }
         },
         "train-s330": {
@@ -1700,8 +1700,8 @@
         },
         "train-s413": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.9285714285714286
             }
         },
         "train-s2599": {
@@ -1808,8 +1808,8 @@
         },
         "train-s2086": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.40476190476190477,
+                "recall": 1.0
             }
         },
         "test-s438": {
@@ -1856,8 +1856,8 @@
         },
         "train-s3055": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.6333333333333333,
+                "recall": 0.24242424242424243
             }
         },
         "train-s1293": {
@@ -1940,8 +1940,8 @@
         },
         "train-s630": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.90625,
+                "recall": 1.0
             }
         },
         "dev-s17": {
@@ -2036,8 +2036,8 @@
         },
         "train-s1514": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.6956521739130435
             }
         },
         "train-s3188": {
@@ -2108,8 +2108,8 @@
         },
         "train-s1307": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.9117647058823529
             }
         },
         "train-s1711": {
@@ -2144,20 +2144,20 @@
         },
         "train-s2187": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.2903225806451613
             }
         },
         "test-s108": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.88,
+                "recall": 1.0
             }
         },
         "train-s3567": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.8823529411764706
             }
         },
         "train-s368": {
@@ -2180,8 +2180,8 @@
         },
         "train-s1814": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.5238095238095238
             }
         },
         "train-s1147": {
@@ -2216,8 +2216,8 @@
         },
         "dev-s242": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.7222222222222222
             }
         },
         "train-s2917": {
@@ -2240,20 +2240,20 @@
         },
         "train-s2038": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.8
             }
         },
         "train-s1148": {
             "llm": {
-                "precision": 0.6666666666666666,
-                "recall": 0.6666666666666666
+                "precision": 1.0,
+                "recall": 0.65
             }
         },
         "train-s2562": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.3333333333333333
             }
         },
         "train-s3192": {
@@ -2438,8 +2438,8 @@
         },
         "train-s2367": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.7142857142857143
             }
         },
         "train-s1742": {
@@ -2474,7 +2474,7 @@
         },
         "train-s898": {
             "llm": {
-                "precision": 0.5,
+                "precision": 0.16666666666666666,
                 "recall": 1.0
             }
         },
@@ -2516,14 +2516,14 @@
         },
         "train-s2530": {
             "llm": {
-                "precision": 0.8,
-                "recall": 0.8
+                "precision": 1.0,
+                "recall": 0.9622641509433962
             }
         },
         "train-s3557": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.9387755102040817,
+                "recall": 1.0
             }
         },
         "train-s1059": {
@@ -2564,8 +2564,8 @@
         },
         "train-s3640": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 0.96,
+                "recall": 0.88
             }
         },
         "train-s3081": {
@@ -2630,8 +2630,8 @@
         },
         "train-s2351": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.9523809523809523
             }
         },
         "train-s1038": {
@@ -2696,8 +2696,8 @@
         },
         "train-s3373": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.21428571428571427
             }
         },
         "train-s3967": {
@@ -2744,8 +2744,8 @@
         },
         "train-s329": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.6097560975609756
             }
         },
         "test-s137": {
@@ -2858,8 +2858,8 @@
         },
         "train-s2981": {
             "llm": {
-                "precision": 0.6666666666666666,
-                "recall": 0.6666666666666666
+                "precision": 1.0,
+                "recall": 0.9459459459459459
             }
         },
         "train-s217": {
@@ -2900,8 +2900,8 @@
         },
         "train-s276": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.35135135135135137
             }
         },
         "train-s129": {
@@ -2912,8 +2912,8 @@
         },
         "train-s106": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.7741935483870968
             }
         },
         "train-s1462": {
@@ -2936,8 +2936,8 @@
         },
         "dev-s12": {
             "llm": {
-                "precision": 0.5,
-                "recall": 0.5
+                "precision": 1.0,
+                "recall": 0.68
             }
         },
         "train-s1305": {
@@ -2996,16 +2996,16 @@
         },
         "train-s668": {
             "llm": {
-                "precision": 0.3333333333333333,
-                "recall": 0.5
+                "precision": 0.5405405405405406,
+                "recall": 0.972972972972973
             }
         }
     },
     "summary": {
         "llm accuracy": {
-            "f1": 0.9412666666666669,
-            "precision": 0.9414333333333333,
-            "recall": 0.9427666666666668
+            "f1": 0.9626781530915856,
+            "precision": 0.9840073794079909,
+            "recall": 0.9597996998087256
         }
     }
 }

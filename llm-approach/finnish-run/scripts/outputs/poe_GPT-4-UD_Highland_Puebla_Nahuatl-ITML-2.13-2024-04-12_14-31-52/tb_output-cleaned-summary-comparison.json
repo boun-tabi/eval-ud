@@ -440,8 +440,8 @@
         },
         "Xalpn_Botan_CVH329_siitaltomat-Solanaceae_2011-07-21-e_ed-2020-01-31_Trad-HSO_FORM.eaf:a80:1": {
             "llm": {
-                "precision": 0.6,
-                "recall": 0.6
+                "precision": 0.5,
+                "recall": 0.5
             }
         },
         "Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:369": {
@@ -602,8 +602,8 @@
         },
         "Tzina_Botan_JVC313-AND308_chapolistit-Verbenaceae_2011-07-13-l_ed-2019-11-25_Trad-ADA_FORM.eaf:a168": {
             "llm": {
-                "precision": 0.75,
-                "recall": 0.75
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666
             }
         },
         "Axolotl:Una_tortillita_nomás_-_Se_taxkaltsin_saj:382": {
@@ -825,9 +825,9 @@
     },
     "summary": {
         "llm accuracy": {
-            "f1": 0.5181586400536278,
-            "precision": 0.537543021578732,
-            "recall": 0.5166580675507025
+            "f1": 0.5168204405402458,
+            "precision": 0.53620482206535,
+            "recall": 0.5153198680373205
         }
     }
 }

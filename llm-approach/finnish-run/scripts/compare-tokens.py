@@ -1,6 +1,5 @@
 import json, argparse
 from pathlib import Path
-from spacy.lang.tr import Turkish
 from rapidfuzz import fuzz
 
 def get_args():
@@ -36,13 +35,37 @@ def main():
     dir = summary_path.parent
     with summary_path.open('r', encoding='utf-8') as f:
         summary = json.load(f)
+    md_file = dir / 'md.json'
+    with md_file.open('r', encoding='utf-8') as f:
+        md = json.load(f)
+    language = md['language']
 
     if 'results' not in summary:
         print('No results found in file')
         return
     results = summary['results']
 
-    nlp = Turkish()
+    if language == 'tr':
+        from spacy.lang.tr import Turkish
+        nlp = Turkish()
+    elif language == 'eu':
+        from spacy.lang.eu import Basque
+        nlp = Basque()
+    elif language == 'fi':
+        from spacy.lang.fi import Finnish
+        nlp = Finnish()
+    elif language == 'ga':
+        from spacy.lang.ga import Irish
+        nlp = Irish()
+    elif language == 'hi':
+        from spacy.lang.hi import Hindi
+        nlp = Hindi()
+    elif language == 'zh':
+        from spacy.lang.zh import Chinese
+        nlp = Chinese()
+    else:
+        from spacy.lang.en import English
+        nlp = English()
     tokenizer = nlp.tokenizer
 
     comparison_d = {}
