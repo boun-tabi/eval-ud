@@ -112,9 +112,6 @@ def main():
             sent_id, token_id, output = el['sent_id'], el['token_id'], el['output']
             constructions['difficult'].append({'sent_id': sent_id, 'token_id': token_id, 'forms': [output], 'annotator': 'GPT-4', 'version': 'v2', 'type': 'dep'})
 
-    last_data_path = Path(args.last_data)
-    with last_data_path.open('r', encoding='utf-8') as f:
-        last_data = json.load(f)
     relevant_keys = [k for k in meta.keys() if 15 <= int(k) <= 18]
     task_names = [v['task_name'] for k, v in meta.items() if k in relevant_keys]
     people = [v['person'] for k, v in meta.items() if k in relevant_keys]
@@ -140,10 +137,24 @@ def main():
                     form_values = [row[k].strip() for k in form_keys if row[k].strip()]
                     reconstruction = form_values[0]
                     last_manual_d[person][version].append(reconstruction)
+    
+    last_data_path = Path(args.last_data)
+    with last_data_path.open('r', encoding='utf-8') as f:
+        last_data = json.load(f)
+    easy_l, medium_l, random_l = [], [], []
     for el in last_data:
         sent_id, v1, v2, difficulty, is_dep = el['sent_id'], el['v1'], el['v2'], el['difficulty'], el['is_dep']
         v1_order, v2_order = v1['order'], v2['order']
         v1_id, v2_id = v1['id'], v2['id']
+        if difficulty == 'easy':
+            easy_l.append((sent_id, v1_id))
+            easy_l.append((sent_id, v2_id))
+        elif difficulty == 'medium':
+            medium_l.append((sent_id, v1_id))
+            medium_l.append((sent_id, v2_id))
+        elif difficulty == 'random':
+            random_l.append((sent_id, v1_id))
+            random_l.append((sent_id, v2_id))
         for person in people:
             for version in versions:
                 if version == 'v2.8':
@@ -153,6 +164,24 @@ def main():
                         continue
                     reconstruction = last_manual_d[person][version][v2_order-1]
                 constructions[difficulty].append({'sent_id': sent_id, 'forms': [reconstruction], 'annotator': person, 'version': 'v1' if version == 'v2.8' else 'v2' if version == 'v2.11' else version, 'type': 'dep' if is_dep else 'normal', 'token_id': v1_id if version == 'v2.8' else v2_id})
+    
+    other_dirs = [d for d in llm_dir.iterdir() if d.is_dir() and 'poe_GPT-4-2024-04-23_' in d.name]
+    for d in other_dirs:
+        v1_output_file, v2_output_file = d / 'v2.8_output.json', d / 'v2.11_output.json'
+        with v1_output_file.open(encoding='utf-8') as f:
+            v1_output = json.load(f)
+        for el in v1_output:
+            sent_id, token_id, output = el['sent_id'], el['token_id'], el['output']
+            for type_t in ['easy', 'medium', 'random']:
+                if (sent_id, token_id) in locals()[f'{type_t}_l']:
+                    constructions[type_t].append({'sent_id': sent_id, 'token_id': token_id, 'forms': [output], 'annotator': 'GPT-4', 'version': 'v1', 'type': 'dep'})
+        with v2_output_file.open(encoding='utf-8') as f:
+            v2_output = json.load(f)
+        for el in v2_output:
+            sent_id, token_id, output = el['sent_id'], el['token_id'], el['output']
+            for type_t in ['easy', 'medium', 'random']:
+                if (sent_id, token_id) in locals()[f'{type_t}_l']:
+                    constructions[type_t].append({'sent_id': sent_id, 'token_id': token_id, 'forms': [output], 'annotator': 'GPT-4', 'version': 'v2', 'type': 'dep'})
 
     for type_t in ['easy', 'medium', 'random', 'difficult']:
         d = {}

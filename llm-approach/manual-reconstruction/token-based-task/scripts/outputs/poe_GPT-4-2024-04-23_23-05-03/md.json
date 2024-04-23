@@ -1,0 +1,13 @@
+{
+  "model": "poe_GPT-4",
+  "now": "2024-04-23_23-05-03",
+  "run_dir": "/Users/furkan/repos/eval-ud/repo_eval-ud/llm-approach/manual-reconstruction/token-based-task/scripts/outputs/poe_GPT-4-2024-04-23_23-05-03",
+  "v2.8": "tr_boun/v2.8/treebank.json",
+  "v2.11": "tr_boun/v2.11/treebank.json",
+  "docs": "util/ud-docs/data",
+  "tokens": "llm-approach/manual-reconstruction/token-based-task/data/all-tokens_easy-medium-random.json",
+  "prompt": [
+    "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech, morphological features and dependencies.\n\n{example_input}\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"{example_surface}\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\n{test_input}",
+    "The following sentences detail linguistic features of a Turkish word with lemmas, parts of speech and morphological features.\n\n{example_input}\n\nYour task is to find the surface form of the word. For example, your answer for the previous parse should be: \"{example_surface}\".\n\nNow, analyze the following test example and try to find the surface form of the word. Output only the surface form without any explanations or sentences in English.\n\n{test_input}"
+  ]
+}
