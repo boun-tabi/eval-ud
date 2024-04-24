@@ -52,8 +52,8 @@ def main():
         markdown_str += f'| {header_type} | v2.8 | v2.11 |\n'
         markdown_str += '| --- | --- | --- |\n'
         for annotator in annotators:
-            score1, score2 = scores['v1_average'][type_t][annotator], scores['v2_average'][type_t][annotator]
-            markdown_str += f'| {annotator} | {score1:.2f} | {score2:.2f} |\n'
+            score1, score2 = scores['v1_average'][type_t][annotator] * 100, scores['v2_average'][type_t][annotator] * 100
+            markdown_str += f'| {annotator} | {score1:.1f}% | {score2:.1f}% |\n'
         markdown_str += '\n'
     markdown_path = dir / 'scores.md'
     with markdown_path.open('w', encoding='utf-8') as f:
