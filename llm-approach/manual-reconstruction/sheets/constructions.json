@@ -8,16 +8,19 @@
                         "Akif": "hakiki",
                         "Tarık": "hakiki",
                         "GPT-4": "hakiki"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "hakiki",
                     "annotators": {
+                        "Akif": "hakikiyi",
                         "Tarık": "hakikiyi",
                         "GPT-4": "hakikiyi"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -29,16 +32,19 @@
                         "Akif": "buna",
                         "Tarık": "buna",
                         "GPT-4": "buna"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "buna",
                     "annotators": {
+                        "Akif": "buna",
                         "Tarık": "buna",
                         "GPT-4": "buna"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -50,16 +56,19 @@
                         "Akif": "gölgeler",
                         "Tarık": "gölgeler",
                         "GPT-4": "gölgeler"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "8": {
                     "form": "gölgeler",
                     "annotators": {
+                        "Akif": "gölgeleri",
                         "Tarık": "gölgeleri",
                         "GPT-4": "gölgeleri"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -71,16 +80,19 @@
                         "Akif": "değişim",
                         "Tarık": "değişim",
                         "GPT-4": "değişimce"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "değişimlere",
                     "annotators": {
+                        "Akif": "değişimlere",
                         "Tarık": "değişimlere",
                         "GPT-4": "değişimlere"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -92,16 +104,19 @@
                         "Akif": "masa",
                         "Tarık": "masa",
                         "GPT-4": "masa"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "masalı",
                     "annotators": {
+                        "Akif": "masalı",
                         "Tarık": "masalı",
                         "GPT-4": "masalı"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -113,16 +128,19 @@
                         "Akif": "yer",
                         "Tarık": "yer",
                         "GPT-4": "yer"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "yer",
                     "annotators": {
+                        "Akif": "yeri",
                         "Tarık": "yeri",
                         "GPT-4": "yeri"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -134,16 +152,19 @@
                         "Akif": "gece",
                         "Tarık": "gece",
                         "GPT-4": "geceleyin"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "geceleri",
                     "annotators": {
+                        "Akif": "geceleri",
                         "Tarık": "geceleri",
                         "GPT-4": "geceleri"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -155,16 +176,19 @@
                         "Akif": "karşı",
                         "Tarık": "karşı",
                         "GPT-4": "karşı"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "9": {
                     "form": "karşıdan",
                     "annotators": {
+                        "Akif": "karşıdan",
                         "Tarık": "karşıdan",
                         "GPT-4": "karşıdan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -176,16 +200,19 @@
                         "Akif": "süsleyip",
                         "Tarık": "süsleyerek",
                         "GPT-4": "süsleyip"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "süsleyerek",
                     "annotators": {
+                        "Akif": "süsleyerek",
                         "Tarık": "süsleyerek",
                         "GPT-4": "süsleyip"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -197,16 +224,19 @@
                         "Akif": "vardı",
                         "Tarık": "vardı",
                         "GPT-4": "vardı"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "vardı",
                     "annotators": {
+                        "Akif": "var",
                         "Tarık": "var",
                         "GPT-4": "var"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -218,16 +248,19 @@
                         "Akif": "chateden",
                         "Tarık": "chate",
                         "GPT-4": "chate'de"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "chate",
                     "annotators": {
+                        "Akif": "chate",
                         "Tarık": "chat'e",
                         "GPT-4": "çata"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -239,16 +272,19 @@
                         "Akif": "anahtarla",
                         "Tarık": "anahtarla",
                         "GPT-4": "anahtarla"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "anahtarla",
                     "annotators": {
+                        "Akif": "anahtarla",
                         "Tarık": "anahtarla",
                         "GPT-4": "anahtarla"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -260,16 +296,19 @@
                         "Akif": "geçmiş",
                         "Tarık": "geçmiş",
                         "GPT-4": "zaten"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "geçmişte",
                     "annotators": {
+                        "Akif": "geçmişte",
                         "Tarık": "geçmişte",
                         "GPT-4": "geçmişte"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -281,16 +320,19 @@
                         "Akif": "sizlerin",
                         "Tarık": "sizin",
                         "GPT-4": "sizin"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "sizin",
                     "annotators": {
+                        "Akif": "sizlerin",
                         "Tarık": "sizin",
                         "GPT-4": "sizin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -302,16 +344,19 @@
                         "Akif": "not",
                         "Tarık": "not",
                         "GPT-4": "not"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "not",
                     "annotators": {
+                        "Akif": "notu",
                         "Tarık": "notu",
                         "GPT-4": "notu"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -323,16 +368,19 @@
                         "Akif": "orayı",
                         "Tarık": "orayı",
                         "GPT-4": "onu"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "orayı",
                     "annotators": {
+                        "Akif": "orayı",
                         "Tarık": "orayı",
                         "GPT-4": "orayı"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -344,16 +392,19 @@
                         "Akif": "olarak",
                         "Tarık": "olan",
                         "GPT-4": "gözenekte"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "12": {
                     "form": "olarak",
                     "annotators": {
+                        "Akif": "olup",
                         "Tarık": "olarak",
                         "GPT-4": "olup"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -365,16 +416,19 @@
                         "Akif": "bakılırsa",
                         "Tarık": "bakılırsa",
                         "GPT-4": "bakılsa"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "bakılır",
                     "annotators": {
+                        "Akif": "bakar",
                         "Tarık": "bakar",
                         "GPT-4": "bakan"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -386,16 +440,19 @@
                         "Akif": "gide",
                         "Tarık": "gide",
                         "GPT-4": "gide"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "gide",
                     "annotators": {
+                        "Akif": "giderek",
                         "Tarık": "giderek",
                         "GPT-4": "giderek"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -407,16 +464,19 @@
                         "Akif": "kola",
                         "Tarık": "kola",
                         "GPT-4": "kolayor"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "kola",
                     "annotators": {
+                        "Akif": "kola",
                         "Tarık": "kola",
                         "GPT-4": "kolaya"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -428,16 +488,19 @@
                         "Akif": "buna",
                         "Tarık": "buna",
                         "GPT-4": "buna"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "buna",
                     "annotators": {
+                        "Akif": "buna",
                         "Tarık": "buna",
                         "GPT-4": "buna"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -449,16 +512,19 @@
                         "Akif": "iş",
                         "Tarık": "iş",
                         "GPT-4": "işte"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "işte",
                     "annotators": {
+                        "Akif": "işte",
                         "Tarık": "işte",
                         "GPT-4": "işte"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -470,16 +536,19 @@
                         "Akif": "nerede",
                         "Tarık": "nerede",
                         "GPT-4": "nerede"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "nerde",
                     "annotators": {
+                        "Akif": "nerede",
                         "Tarık": "nerede",
                         "GPT-4": "nerede"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -491,16 +560,19 @@
                         "Akif": "sos",
                         "Tarık": "sos",
                         "GPT-4": "sos"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "sos",
                     "annotators": {
+                        "Akif": "sosu",
                         "Tarık": "sosu",
                         "GPT-4": "sosu"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -512,16 +584,19 @@
                         "Akif": "düşünmenin",
                         "Tarık": "düşünmenin",
                         "GPT-4": "düşüncünün"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "düşünün",
                     "annotators": {
+                        "Akif": "düşünün",
                         "Tarık": "düşünün",
                         "GPT-4": "düşünün"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -533,16 +608,19 @@
                         "Akif": "beni",
                         "Tarık": "beni",
                         "GPT-4": "beni"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "beni",
                     "annotators": {
+                        "Akif": "beni",
                         "Tarık": "beni",
                         "GPT-4": "beni"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -554,16 +632,19 @@
                         "Akif": "delil",
                         "Tarık": "delil",
                         "GPT-4": "delil"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "9": {
                     "form": "delil",
                     "annotators": {
+                        "Akif": "delili",
                         "Tarık": "delili",
                         "GPT-4": "delili"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -575,16 +656,19 @@
                         "Akif": "bunlar",
                         "Tarık": "bunlar",
                         "GPT-4": "bunlar"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "bunlar",
                     "annotators": {
+                        "Akif": "bunlar",
                         "Tarık": "bunlar",
                         "GPT-4": "bunlar"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -596,16 +680,19 @@
                         "Akif": "örnek",
                         "Tarık": "örnek",
                         "GPT-4": "örneğin"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "örneğin",
                     "annotators": {
+                        "Akif": "örneğin",
                         "Tarık": "örneğin",
                         "GPT-4": "örneğin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -617,16 +704,19 @@
                         "Akif": "oyuncak",
                         "Tarık": "oyuncak",
                         "GPT-4": "oyuncakla"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "oyuncak",
                     "annotators": {
+                        "Akif": "oyuncağı",
                         "Tarık": "oyuncağı",
                         "GPT-4": "oyuncakı"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -638,16 +728,19 @@
                         "Akif": "kus",
                         "Tarık": "kus",
                         "GPT-4": "kuş"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "kussan",
                     "annotators": {
+                        "Akif": "kussan",
                         "Tarık": "kusası",
                         "GPT-4": "kuşsan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -659,16 +752,19 @@
                         "Akif": "onun",
                         "Tarık": "onun",
                         "GPT-4": "onun"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "onun",
                     "annotators": {
+                        "Akif": "onun",
                         "Tarık": "onun",
                         "GPT-4": "onun"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -680,16 +776,19 @@
                         "Akif": "bulamaz",
                         "Tarık": "bulunmaz",
                         "GPT-4": "bulamaz"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "bulamayınca",
                     "annotators": {
+                        "Akif": "bulabilince",
                         "Tarık": "bulamayarak",
                         "GPT-4": "bulamayıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -701,16 +800,19 @@
                         "Akif": "yeri",
                         "Tarık": "yeri",
                         "GPT-4": "onun yeri"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "6": {
                     "form": "yeri",
                     "annotators": {
+                        "Akif": "yeri",
                         "Tarık": "yeri",
                         "GPT-4": "yeri"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -722,16 +824,19 @@
                         "Akif": "varsın",
                         "Tarık": "varsın",
                         "GPT-4": "var."
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "var",
                     "annotators": {
+                        "Akif": "var",
                         "Tarık": "var",
                         "GPT-4": "var"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -743,16 +848,19 @@
                         "Akif": "bunlar",
                         "Tarık": "bunlar",
                         "GPT-4": "bunlar"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "bunlar",
                     "annotators": {
+                        "Akif": "bunlar",
                         "Tarık": "bunlar",
                         "GPT-4": "bunlar"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -764,16 +872,19 @@
                         "Akif": "olarak",
                         "Tarık": "olan",
                         "GPT-4": "sefirin"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "olarak",
                     "annotators": {
+                        "Akif": "olup",
                         "Tarık": "olarak",
                         "GPT-4": "olarak"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -785,16 +896,19 @@
                         "Akif": "onu",
                         "Tarık": "onu",
                         "GPT-4": "onu"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "onu",
                     "annotators": {
+                        "Akif": "onu",
                         "Tarık": "onu",
                         "GPT-4": "onu"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -806,16 +920,19 @@
                         "Akif": "\"burada",
                         "Tarık": "\"burada",
                         "GPT-4": "burada"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "burada",
                     "annotators": {
+                        "Akif": "burada",
                         "Tarık": "burada",
                         "GPT-4": "burada"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -827,16 +944,19 @@
                         "Akif": "çeviriler",
                         "Tarık": "çeviriler",
                         "GPT-4": "çeviriler"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "çeviriler",
                     "annotators": {
+                        "Akif": "çevirileri",
                         "Tarık": "çevirileri",
                         "GPT-4": "çevirileri"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -848,16 +968,19 @@
                         "Akif": "ucuz",
                         "Tarık": "ucuz",
                         "GPT-4": "ucuza"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "ucuza",
                     "annotators": {
+                        "Akif": "ucuza",
                         "Tarık": "ucuza",
                         "GPT-4": "ucuza"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -869,16 +992,19 @@
                         "Akif": "poz",
                         "Tarık": "poz",
                         "GPT-4": "poz"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "8": {
                     "form": "poz",
                     "annotators": {
+                        "Akif": "pozu",
                         "Tarık": "pozu",
                         "GPT-4": "pozu"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -890,16 +1016,19 @@
                         "Akif": "seni",
                         "Tarık": "seni",
                         "GPT-4": "seni"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "seni",
                     "annotators": {
+                        "Akif": "seni",
                         "Tarık": "senin",
                         "GPT-4": "seni"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -911,16 +1040,19 @@
                         "Akif": "neden",
                         "Tarık": "neden",
                         "GPT-4": "neden"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "nedenle",
                     "annotators": {
+                        "Akif": "nedenle",
                         "Tarık": "nedeniyle",
                         "GPT-4": "nedenle"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -932,16 +1064,19 @@
                         "Akif": "el",
                         "Tarık": "el",
                         "GPT-4": "el"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "el",
                     "annotators": {
+                        "Akif": "eli",
                         "Tarık": "eli",
                         "GPT-4": "eli"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -953,16 +1088,19 @@
                         "Akif": "atatürk",
                         "Tarık": "atatürk",
                         "GPT-4": "atatürk'ün"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "atatürk'ten",
                     "annotators": {
+                        "Akif": "atatürk'ten",
                         "Tarık": "atatürk'ten",
                         "GPT-4": "atatürk'ten"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -974,16 +1112,19 @@
                         "Akif": "yürüyerek",
                         "Tarık": "yürüyerek",
                         "GPT-4": "yürüyüp"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "yürüyerek",
                     "annotators": {
+                        "Akif": "yürüyerek",
                         "Tarık": "yürüyerek",
                         "GPT-4": "yürüyüp"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -995,16 +1136,19 @@
                         "Akif": "orada",
                         "Tarık": "orada",
                         "GPT-4": "orada"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "8": {
                     "form": "orada",
                     "annotators": {
+                        "Akif": "orada",
                         "Tarık": "orada",
                         "GPT-4": "orada"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1016,16 +1160,19 @@
                         "Akif": "kus",
                         "Tarık": "kusan",
                         "GPT-4": "kaç kişi"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "kusan",
                     "annotators": {
+                        "Akif": "kusan",
                         "Tarık": "kusan",
                         "GPT-4": "kuşan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         }
@@ -1039,16 +1186,19 @@
                         "Akif": "istemiyorum",
                         "Tarık": "istemiyorum",
                         "GPT-4": "istemiyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "istemiyorum",
                     "annotators": {
+                        "Akif": "istemiyorum",
                         "Tarık": "istemem",
                         "GPT-4": "istemiyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1060,16 +1210,19 @@
                         "Akif": "olacağız",
                         "Tarık": "olacağım",
                         "GPT-4": "olacağız"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "6": {
                     "form": "olacağız",
                     "annotators": {
+                        "Akif": "olabilecek",
                         "Tarık": "olacağız",
                         "GPT-4": "olacağız"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1081,16 +1234,19 @@
                         "Akif": "atıldı",
                         "Tarık": "atıldı",
                         "GPT-4": "atıldı"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "18": {
                     "form": "atılıverdi",
                     "annotators": {
+                        "Akif": "attı",
                         "Tarık": "attı",
                         "GPT-4": "attı"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1102,16 +1258,19 @@
                         "Akif": "etkileyebilecek",
                         "Tarık": "etkileyebilecek",
                         "GPT-4": "etkileyebilir"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "etkileyebilecek",
                     "annotators": {
+                        "Akif": "etkileyebilecek",
                         "Tarık": "etkileyebilecek",
                         "GPT-4": "etkileyebilecek"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1123,16 +1282,19 @@
                         "Akif": "bulunan",
                         "Tarık": "bulunmak",
                         "GPT-4": "onlar"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "bulunduğunda",
                     "annotators": {
+                        "Akif": "bulundukları",
                         "Tarık": "bulunduğunda",
                         "GPT-4": "bulunduğunda"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1144,16 +1306,19 @@
                         "Akif": "tutmak",
                         "Tarık": "tutmak",
                         "GPT-4": "tut"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "tutulmalar",
                     "annotators": {
+                        "Akif": "tutulmalar",
                         "Tarık": "tutulurlar",
                         "GPT-4": "tutulmalar"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1165,16 +1330,19 @@
                         "Akif": "karıştırıp",
                         "Tarık": "karıştır",
                         "GPT-4": "karıştırıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "karıştırarak",
                     "annotators": {
+                        "Akif": "karıştırarak",
                         "Tarık": "karıştırarak",
                         "GPT-4": "karıştırıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1186,16 +1354,19 @@
                         "Akif": "yapacakları",
                         "Tarık": "yapacakları",
                         "GPT-4": "yapacakları"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "yapacakları",
                     "annotators": {
+                        "Akif": "yapabileceği",
                         "Tarık": "yapacakları",
                         "GPT-4": "yapacakları"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1207,16 +1378,19 @@
                         "Akif": "oynayacağım",
                         "Tarık": "oynayacağım",
                         "GPT-4": "oynayacağım"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "oynayacağım",
                     "annotators": {
+                        "Akif": "oynayacağım",
                         "Tarık": "oynayacağım",
                         "GPT-4": "oynayacağım"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1228,16 +1402,19 @@
                         "Akif": "vermemekteyiz",
                         "Tarık": "vermiyoruz",
                         "GPT-4": "vermiyoruz"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "vermiyoruz",
                     "annotators": {
+                        "Akif": "vermiyoruz",
                         "Tarık": "vermeyiz",
                         "GPT-4": "vermiyoruz"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1249,16 +1426,19 @@
                         "Akif": "bitmiyor",
                         "Tarık": "bitiyor",
                         "GPT-4": "bitiyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "9": {
                     "form": "bitiyor",
                     "annotators": {
+                        "Akif": "bitiyor",
                         "Tarık": "bitsin",
                         "GPT-4": "bitiyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1270,16 +1450,19 @@
                         "Akif": "belirlenmesinde",
                         "Tarık": "belirlenmesinde",
                         "GPT-4": "belirlenmiş"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "9": {
                     "form": "belirlenmesinde",
                     "annotators": {
+                        "Akif": "belirlenmesinde",
                         "Tarık": "belirlenmesinde",
                         "GPT-4": "belirlenişinde"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1291,16 +1474,19 @@
                         "Akif": "dağılıyor",
                         "Tarık": "dağılıyor",
                         "GPT-4": "dağılıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "dağılıyor",
                     "annotators": {
+                        "Akif": "dağılıyor",
                         "Tarık": "dağılsın",
                         "GPT-4": "dağılıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1312,16 +1498,19 @@
                         "Akif": "olmakta",
                         "Tarık": "oluyor",
                         "GPT-4": "oluyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "oluyor",
                     "annotators": {
+                        "Akif": "oluyor",
                         "Tarık": "olsun",
                         "GPT-4": "o\n"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1333,16 +1522,19 @@
                         "Akif": "olan",
                         "Tarık": "olan",
                         "GPT-4": "olan"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "olan",
                     "annotators": {
+                        "Akif": "olan",
                         "Tarık": "olan",
                         "GPT-4": "olan"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1354,16 +1546,19 @@
                         "Akif": "söndürmek",
                         "Tarık": "söndürme",
                         "GPT-4": "söndür"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "söndürmek",
                     "annotators": {
+                        "Akif": "söndürmek",
                         "Tarık": "söndürme",
                         "GPT-4": "söndürme"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1375,16 +1570,19 @@
                         "Akif": "saymaya",
                         "Tarık": "saymak",
                         "GPT-4": "söz"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "saydıklarımın",
                     "annotators": {
+                        "Akif": "saydıklarımızın",
                         "Tarık": "saydıklarımızın",
                         "GPT-4": "söylenmişim"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1396,16 +1594,19 @@
                         "Akif": "akıyor",
                         "Tarık": "akıyor",
                         "GPT-4": "akıyor"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "8": {
                     "form": "akıyor",
                     "annotators": {
+                        "Akif": "akıyor",
                         "Tarık": "aksın",
                         "GPT-4": "akıyor"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1417,16 +1618,19 @@
                         "Akif": "sevişiyor",
                         "Tarık": "sevişiyor",
                         "GPT-4": "sevişiyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "sevişiyor",
                     "annotators": {
+                        "Akif": "sevişiyor",
                         "Tarık": "sevişsin",
                         "GPT-4": "sevişiyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1438,16 +1642,19 @@
                         "Akif": "yapabileceğim",
                         "Tarık": "yapabileceğim",
                         "GPT-4": "yapabileceğim"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "6": {
                     "form": "yapabileceğim",
                     "annotators": {
+                        "Akif": "yapabileceğim",
                         "Tarık": "yapabileceğim",
                         "GPT-4": "yapabileceğim"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1459,16 +1666,19 @@
                         "Akif": "gözler",
                         "Tarık": "gözler",
                         "GPT-4": "gözler"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "16": {
                     "form": "gözler",
                     "annotators": {
+                        "Akif": "gözler",
                         "Tarık": "gözler",
                         "GPT-4": "gözler"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1480,16 +1690,19 @@
                         "Akif": "saklamak",
                         "Tarık": "saklar",
                         "GPT-4": "sakla"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "6": {
                     "form": "sakladınız",
                     "annotators": {
+                        "Akif": "sakladınız",
                         "Tarık": "sakladınız",
                         "GPT-4": "sakladınız"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1501,16 +1714,19 @@
                         "Akif": "etmek",
                         "Tarık": "etme",
                         "GPT-4": "et"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "ettiğinde",
                     "annotators": {
+                        "Akif": "ettiklerinde",
                         "Tarık": "ettiğinde",
                         "GPT-4": "edilmişinde"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1522,16 +1738,19 @@
                         "Akif": "soğutsunlar",
                         "Tarık": "soğutursunuz",
                         "GPT-4": "soğutun"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "soğutun",
                     "annotators": {
+                        "Akif": "soğutun",
                         "Tarık": "soğutun",
                         "GPT-4": "soğutun"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1543,16 +1762,19 @@
                         "Akif": "um",
                         "Tarık": "uman",
                         "GPT-4": "futbolmu"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "umarım",
                     "annotators": {
+                        "Akif": "umarım",
                         "Tarık": "umarım",
                         "GPT-4": "umuyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1564,16 +1786,19 @@
                         "Akif": "toplanmış",
                         "Tarık": "toplu",
                         "GPT-4": "toplunmuş"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "8": {
                     "form": "toplulaştırılmış",
                     "annotators": {
+                        "Akif": "toplulaşılan",
                         "Tarık": "toplulaşılsın",
                         "GPT-4": "toplulaşmış"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1585,16 +1810,19 @@
                         "Akif": "giyen",
                         "Tarık": "giyer",
                         "GPT-4": "giyinik"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "7": {
                     "form": "giydim",
                     "annotators": {
+                        "Akif": "giydim",
                         "Tarık": "giydim",
                         "GPT-4": "giydim"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1606,16 +1834,19 @@
                         "Akif": "düşürtecek",
                         "Tarık": "düşürtecek",
                         "GPT-4": "düşüreceк"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "düşürtecek",
                     "annotators": {
+                        "Akif": "düşürtebilecek",
                         "Tarık": "düşürecek",
                         "GPT-4": "düşüreceğim"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1627,16 +1858,19 @@
                         "Akif": "oturmak",
                         "Tarık": "oturma",
                         "GPT-4": "otur"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "otururlar",
                     "annotators": {
+                        "Akif": "otururlar",
                         "Tarık": "otururlar",
                         "GPT-4": "otururlar"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1648,16 +1882,19 @@
                         "Akif": "tanı",
                         "Tarık": "tanıyı",
                         "GPT-4": "tanıyı"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "10": {
                     "form": "tanıdıklarımıza",
                     "annotators": {
+                        "Akif": "tanıdıklarımıza",
                         "Tarık": "tanıdıklarımıza",
                         "GPT-4": "tanıdıklarımıza"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1669,16 +1906,19 @@
                         "Akif": "uçuş",
                         "Tarık": "uçak",
                         "GPT-4": "uç"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "uçan",
                     "annotators": {
+                        "Akif": "uçan",
                         "Tarık": "uçar",
                         "GPT-4": "uçan"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1690,16 +1930,19 @@
                         "Akif": "kılacağım",
                         "Tarık": "kılacağız",
                         "GPT-4": "kılacağız"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "10": {
                     "form": "kılacağız",
                     "annotators": {
+                        "Akif": "kılacağız",
                         "Tarık": "kılacağız",
                         "GPT-4": "kılacağız"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1711,16 +1954,19 @@
                         "Akif": "hapşırıyorum",
                         "Tarık": "hapşırıyorum",
                         "GPT-4": "hapşırıyorum"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "hapşırıyorum",
                     "annotators": {
+                        "Akif": "hapşırıyorum",
                         "Tarık": "hapşırırım",
                         "GPT-4": "hapşırıyorum"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1732,16 +1978,19 @@
                         "Akif": "bilinen",
                         "Tarık": "bilinmeyen",
                         "GPT-4": "bilgi"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "bildireceklerine",
                     "annotators": {
+                        "Akif": "bildirebileceği",
                         "Tarık": "bildireceklerine",
                         "GPT-4": "bil(e)dirtileceklerinin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1753,16 +2002,19 @@
                         "Akif": "çıkıyor",
                         "Tarık": "çıkıyor",
                         "GPT-4": "çıkıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "çıkıyor",
                     "annotators": {
+                        "Akif": "çıkıyor",
                         "Tarık": "çıksın",
                         "GPT-4": "çıkıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1774,16 +2026,19 @@
                         "Akif": "kalkış",
                         "Tarık": "kalkmak",
                         "GPT-4": "kalk"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "kalktıklarında",
                     "annotators": {
+                        "Akif": "kalktığında",
                         "Tarık": "kalktıklarında",
                         "GPT-4": "kalkmışlardaydı"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1795,16 +2050,19 @@
                         "Akif": "edilmeyecek",
                         "Tarık": "edilmeyecek",
                         "GPT-4": "edilmeyecek"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "edilemeyecek",
                     "annotators": {
+                        "Akif": "edilmeyecek",
                         "Tarık": "edilecek",
                         "GPT-4": "edilmemiş"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1816,16 +2074,19 @@
                         "Akif": "gitmek",
                         "Tarık": "gider",
                         "GPT-4": "git"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "15": {
                     "form": "gittiklerini",
                     "annotators": {
+                        "Akif": "gittiklerini",
                         "Tarık": "gittiklerini",
                         "GPT-4": "gitmişlerini"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1837,16 +2098,19 @@
                         "Akif": "koy",
                         "Tarık": "koy",
                         "GPT-4": "koyar"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "13": {
                     "form": "koydur",
                     "annotators": {
+                        "Akif": "koydurun",
                         "Tarık": "koydur",
                         "GPT-4": "koydur"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1858,16 +2122,19 @@
                         "Akif": "gelmekte",
                         "Tarık": "geliyor",
                         "GPT-4": "geliyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "geliyor",
                     "annotators": {
+                        "Akif": "geliyor",
                         "Tarık": "gelsin",
                         "GPT-4": "geliyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1879,16 +2146,19 @@
                         "Akif": "yapıyoruz",
                         "Tarık": "yapıyorsunuz",
                         "GPT-4": "yapıyorsunuz"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "yapıyorsunuz",
                     "annotators": {
+                        "Akif": "yapıyorsunuz",
                         "Tarık": "yapın",
                         "GPT-4": "yapıyorsunuz"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1900,16 +2170,19 @@
                         "Akif": "bulunan",
                         "Tarık": "bulundurmak",
                         "GPT-4": "bulundu"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "8": {
                     "form": "bulundurulduğunda",
                     "annotators": {
+                        "Akif": "bulunulduğunda",
                         "Tarık": "bulundurulduğunda",
                         "GPT-4": "bulunulmuşta"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1921,16 +2194,19 @@
                         "Akif": "istiyor",
                         "Tarık": "istiyor",
                         "GPT-4": "istiyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "17": {
                     "form": "istiyor",
                     "annotators": {
+                        "Akif": "istiyor",
                         "Tarık": "istesin",
                         "GPT-4": "ister"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -1942,16 +2218,19 @@
                         "Akif": "yayılıp",
                         "Tarık": "yayılarak",
                         "GPT-4": "yayılarak"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "yayılıp",
                     "annotators": {
+                        "Akif": "yayılıp",
                         "Tarık": "yayılarak",
                         "GPT-4": "yayılıp"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1963,16 +2242,19 @@
                         "Akif": "unutulan",
                         "Tarık": "unutulan",
                         "GPT-4": "unutulunca"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "unutulan",
                     "annotators": {
+                        "Akif": "unutulan",
                         "Tarık": "unutulan",
                         "GPT-4": "unutulan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -1984,16 +2266,19 @@
                         "Akif": "bakılmayacak",
                         "Tarık": "bakılacak",
                         "GPT-4": "bakılacak"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "bakılacak",
                     "annotators": {
+                        "Akif": "bakılabilecek",
                         "Tarık": "bakılacak",
                         "GPT-4": "bakılacak"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2005,16 +2290,19 @@
                         "Akif": "adanmaktan",
                         "Tarık": "adamadan",
                         "GPT-4": "adatılarak"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "adanmadan",
                     "annotators": {
+                        "Akif": "adanmaktan",
                         "Tarık": "adanılmadan",
                         "GPT-4": "adanıp"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2026,16 +2314,19 @@
                         "Akif": "varacağı",
                         "Tarık": "varacağı",
                         "GPT-4": "olacak"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "13": {
                     "form": "varacağı",
                     "annotators": {
+                        "Akif": "varabileceği",
                         "Tarık": "varacağı",
                         "GPT-4": "olacak"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2047,16 +2338,19 @@
                         "Akif": "dolandan",
                         "Tarık": "dolandan",
                         "GPT-4": "dolyalan"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "6": {
                     "form": "dolandan",
                     "annotators": {
+                        "Akif": "dolandan",
                         "Tarık": "dolandan",
                         "GPT-4": "dolan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2068,16 +2362,19 @@
                         "Akif": "sevmiyorum",
                         "Tarık": "sevmiyorum",
                         "GPT-4": "sevmiyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "sevmiyorum",
                     "annotators": {
+                        "Akif": "sevmiyorum",
                         "Tarık": "sevmem",
                         "GPT-4": "sevmiyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         }
@@ -2091,16 +2388,19 @@
                         "Akif": "hayat(ı)ı",
                         "Tarık": "hayat(ı)",
                         "GPT-4": "hayatı"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "hayatı",
                     "annotators": {
+                        "Akif": "hayatını",
                         "Tarık": "hayatını",
                         "GPT-4": "hayatını"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2112,16 +2412,19 @@
                         "Akif": "kendi",
                         "Tarık": "kendi",
                         "GPT-4": "kendi"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "17": {
                     "form": "kendi",
                     "annotators": {
+                        "Akif": "kendini",
                         "Tarık": "kendisi",
                         "GPT-4": "kendi"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2133,16 +2436,19 @@
                         "Akif": "yakala",
                         "Tarık": "yakalayan",
                         "GPT-4": "yakalı"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "25": {
                     "form": "yakalar",
                     "annotators": {
+                        "Akif": "yakalar",
                         "Tarık": "yakalar",
                         "GPT-4": "yakalar"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2154,16 +2460,19 @@
                         "Akif": "yusuf",
                         "Tarık": "yusuf",
                         "GPT-4": "yusuf"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "6": {
                     "form": "yusuf",
                     "annotators": {
+                        "Akif": "yusuf'u",
                         "Tarık": "yusuf'u",
                         "GPT-4": "yusuf'u"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2175,16 +2484,19 @@
                         "Akif": "eğitim",
                         "Tarık": "eğitim",
                         "GPT-4": "eğitim"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "eğitim",
                     "annotators": {
+                        "Akif": "eğitim",
                         "Tarık": "eğitimi",
                         "GPT-4": "eğitimi"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2196,16 +2508,19 @@
                         "Akif": "bunlara",
                         "Tarık": "bunlara",
                         "GPT-4": "bunlara"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "bunlara",
                     "annotators": {
+                        "Akif": "bunlara",
                         "Tarık": "bunları",
                         "GPT-4": "bunlara"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2217,16 +2532,19 @@
                         "Akif": "çıkmış",
                         "Tarık": "çıkmış",
                         "GPT-4": "çıkmış"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "6": {
                     "form": "çıkmış",
                     "annotators": {
+                        "Akif": "çıkılıyor",
                         "Tarık": "çıkıldığı",
                         "GPT-4": "çıkılıyor"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2238,16 +2556,19 @@
                         "Akif": "istek",
                         "Tarık": "istek",
                         "GPT-4": "isteyerek"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "isteklerinize",
                     "annotators": {
+                        "Akif": "isteklerinize",
                         "Tarık": "isteklerinize",
                         "GPT-4": "isteklerinize"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2259,16 +2580,19 @@
                         "Akif": "istemek",
                         "Tarık": "ister",
                         "GPT-4": "istе"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "13": {
                     "form": "istersiniz",
                     "annotators": {
+                        "Akif": "istersiniz",
                         "Tarık": "istersiniz",
                         "GPT-4": "istiyorsunuz"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2280,16 +2604,19 @@
                         "Akif": "yakmak",
                         "Tarık": "yakma",
                         "GPT-4": "yak"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "6": {
                     "form": "yakanda",
                     "annotators": {
+                        "Akif": "yakanda",
                         "Tarık": "yaktığında",
                         "GPT-4": "yakıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2301,16 +2628,19 @@
                         "Akif": "ne",
                         "Tarık": "neden",
                         "GPT-4": "o"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "ne",
                     "annotators": {
+                        "Akif": "ne",
                         "Tarık": "ne",
                         "GPT-4": "ne"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2322,16 +2652,19 @@
                         "Akif": "var",
                         "Tarık": "var",
                         "GPT-4": "var"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "var",
                     "annotators": {
+                        "Akif": "var",
                         "Tarık": "var",
                         "GPT-4": "var"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2343,16 +2676,19 @@
                         "Akif": "çık",
                         "Tarık": "çıkılarak",
                         "GPT-4": "çıkınca"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "çıkınca",
                     "annotators": {
+                        "Akif": "çıkıp",
                         "Tarık": "çıkarak",
                         "GPT-4": "çıkıp"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2364,16 +2700,19 @@
                         "Akif": "senin",
                         "Tarık": "senin",
                         "GPT-4": "senin"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "senin",
                     "annotators": {
+                        "Akif": "senin",
                         "Tarık": "senin",
                         "GPT-4": "senin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2385,16 +2724,19 @@
                         "Akif": "diyor",
                         "Tarık": "diyor",
                         "GPT-4": "diyor"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "diyor",
                     "annotators": {
+                        "Akif": "diyor",
                         "Tarık": "desin",
                         "GPT-4": "deder"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2406,16 +2748,19 @@
                         "Akif": "bizlere",
                         "Tarık": "bizlere",
                         "GPT-4": "bize"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "bizlere",
                     "annotators": {
+                        "Akif": "bizlere",
                         "Tarık": "bize",
                         "GPT-4": "bize"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2427,16 +2772,19 @@
                         "Akif": "kalabalık",
                         "Tarık": "kalabalık",
                         "GPT-4": "kalabalıkça"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "kalabalıktan",
                     "annotators": {
+                        "Akif": "kalabalıktan",
                         "Tarık": "kalabalıktan",
                         "GPT-4": "kalabalıktan"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2448,16 +2796,19 @@
                         "Akif": "olmasıyla",
                         "Tarık": "olduğuyla",
                         "GPT-4": "mensubu"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "21": {
                     "form": "oluşuyla",
                     "annotators": {
+                        "Akif": "olmasıyla",
                         "Tarık": "olmasıyla",
                         "GPT-4": "oluşu"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2469,16 +2820,19 @@
                         "Akif": "sıkıp",
                         "Tarık": "sıkarak",
                         "GPT-4": "sıkıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "sıkarak",
                     "annotators": {
+                        "Akif": "sıkarak",
                         "Tarık": "sıkarak",
                         "GPT-4": "sıkıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2490,16 +2844,19 @@
                         "Akif": "yapmaya",
                         "Tarık": "yapmaya",
                         "GPT-4": "yapsın"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "10": {
                     "form": "yapmaya",
                     "annotators": {
+                        "Akif": "yapmaya",
                         "Tarık": "yapmaya",
                         "GPT-4": "yapılması"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2511,16 +2868,19 @@
                         "Akif": "sizler",
                         "Tarık": "siz",
                         "GPT-4": "siz"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "siz",
                     "annotators": {
+                        "Akif": "sizler",
                         "Tarık": "sizler",
                         "GPT-4": "siz"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2532,16 +2892,19 @@
                         "Akif": "kâmile",
                         "Tarık": "kâmile",
                         "GPT-4": "ve"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "7": {
                     "form": "kâmile",
                     "annotators": {
+                        "Akif": "kâmile",
                         "Tarık": "kâmile",
                         "GPT-4": "kâmile"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2553,16 +2916,19 @@
                         "Akif": "gözetmek",
                         "Tarık": "gözetim",
                         "GPT-4": "gözetti"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "9": {
                     "form": "gözetmek",
                     "annotators": {
+                        "Akif": "gözetme",
                         "Tarık": "gözetmek",
                         "GPT-4": "gözetme"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2574,16 +2940,19 @@
                         "Akif": "edilmende",
                         "Tarık": "edilmende",
                         "GPT-4": "edilirin"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "3": {
                     "form": "edilmene",
                     "annotators": {
+                        "Akif": "edilmene",
                         "Tarık": "edilmene",
                         "GPT-4": "edilmeğin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2595,16 +2964,19 @@
                         "Akif": "savaşacaksınız",
                         "Tarık": "savaşacaksınız",
                         "GPT-4": "savaşacaksınız"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "savaşacaksınız",
                     "annotators": {
+                        "Akif": "savaşacaksınız",
                         "Tarık": "savaşacaksınız",
                         "GPT-4": "savaşacaksınız"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2616,16 +2988,19 @@
                         "Akif": "derinden",
                         "Tarık": "derinden",
                         "GPT-4": "derinden"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "derinden",
                     "annotators": {
+                        "Akif": "derinden",
                         "Tarık": "derinden",
                         "GPT-4": "derinden"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2637,16 +3012,19 @@
                         "Akif": "bizlerden",
                         "Tarık": "bizden",
                         "GPT-4": "bizden"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "bizden",
                     "annotators": {
+                        "Akif": "bizlerden",
                         "Tarık": "bizden",
                         "GPT-4": "bizden"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2658,16 +3036,19 @@
                         "Akif": "seni",
                         "Tarık": "seni",
                         "GPT-4": "seni"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "seni",
                     "annotators": {
+                        "Akif": "seni",
                         "Tarık": "senin",
                         "GPT-4": "seni"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2679,16 +3060,19 @@
                         "Akif": "kim",
                         "Tarık": "kim",
                         "GPT-4": "o"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "kim",
                     "annotators": {
+                        "Akif": "kim",
                         "Tarık": "kim",
                         "GPT-4": "kim"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2700,16 +3084,19 @@
                         "Akif": "yiyeceğim",
                         "Tarık": "yiyeceğiz",
                         "GPT-4": "yeyeceğiz"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "23": {
                     "form": "yiyeceğiz",
                     "annotators": {
+                        "Akif": "yiyebileceğiz",
                         "Tarık": "yiyeceğiz",
                         "GPT-4": "yeyeceğiz"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2721,16 +3108,19 @@
                         "Akif": "iniyor",
                         "Tarık": "iniyorum",
                         "GPT-4": "gidiyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "15": {
                     "form": "iniyorum",
                     "annotators": {
+                        "Akif": "iniyorum",
                         "Tarık": "inerim",
                         "GPT-4": "giriyorum"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2742,16 +3132,19 @@
                         "Akif": "onu",
                         "Tarık": "onu",
                         "GPT-4": "onu"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "onu",
                     "annotators": {
+                        "Akif": "onu",
                         "Tarık": "onu",
                         "GPT-4": "onu"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2763,16 +3156,19 @@
                         "Akif": "sana",
                         "Tarık": "sana",
                         "GPT-4": "ona"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "sana",
                     "annotators": {
+                        "Akif": "sana",
                         "Tarık": "sanmaya",
                         "GPT-4": "onun"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2784,16 +3180,19 @@
                         "Akif": "hazırla",
                         "Tarık": "hazırlayandır",
                         "GPT-4": "hazırla"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "hazırlanışı",
                     "annotators": {
+                        "Akif": "hazırlanması",
                         "Tarık": "hazıranması",
                         "GPT-4": "hazırlanması"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2805,16 +3204,19 @@
                         "Akif": "bizler",
                         "Tarık": "biz",
                         "GPT-4": "bizler"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "1": {
                     "form": "biz",
                     "annotators": {
+                        "Akif": "bizler",
                         "Tarık": "biz",
                         "GPT-4": "biz"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2826,16 +3228,19 @@
                         "Akif": "etmek",
                         "Tarık": "etmek",
                         "GPT-4": "et"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "10": {
                     "form": "edilir",
                     "annotators": {
+                        "Akif": "edilir",
                         "Tarık": "edilir",
                         "GPT-4": "edilir"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2847,16 +3252,19 @@
                         "Akif": "okumak",
                         "Tarık": "okumak",
                         "GPT-4": "okul"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "1": {
                     "form": "okuma",
                     "annotators": {
+                        "Akif": "okumak",
                         "Tarık": "okumak",
                         "GPT-4": "okuma"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2868,16 +3276,19 @@
                         "Akif": "üstlenmekten",
                         "Tarık": "üstlenmekten",
                         "GPT-4": "üstlenerek"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "10": {
                     "form": "üstlenmekten",
                     "annotators": {
+                        "Akif": "üstlenmekten",
                         "Tarık": "üstlenmekten",
                         "GPT-4": "üstlenerek"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2889,16 +3300,19 @@
                         "Akif": "dönüşme",
                         "Tarık": "dönüşmeme",
                         "GPT-4": "dönüşmüyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "8": {
                     "form": "dönüşmeyince",
                     "annotators": {
+                        "Akif": "dönüşmeyip",
                         "Tarık": "dönüşmeyerek",
                         "GPT-4": "dönüşmeyip"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2910,16 +3324,19 @@
                         "Akif": "bağlanma",
                         "Tarık": "bağlandı",
                         "GPT-4": "bağlanır"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "24": {
                     "form": "bağlanma",
                     "annotators": {
+                        "Akif": "bağlanma",
                         "Tarık": "bağlanma",
                         "GPT-4": "bağlanması"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2931,16 +3348,19 @@
                         "Akif": "derlemek",
                         "Tarık": "derledi",
                         "GPT-4": "derle"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "11": {
                     "form": "derler",
                     "annotators": {
+                        "Akif": "derler",
                         "Tarık": "derler",
                         "GPT-4": "deler"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -2952,16 +3372,19 @@
                         "Akif": "sevmek",
                         "Tarık": "sevmek",
                         "GPT-4": "sev"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "3": {
                     "form": "sevmeyenleri",
                     "annotators": {
+                        "Akif": "sevmemesi",
                         "Tarık": "sevmeyenleri",
                         "GPT-4": "sevilmeyenleri"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2973,16 +3396,19 @@
                         "Akif": "olan",
                         "Tarık": "olan",
                         "GPT-4": "sen"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "2": {
                     "form": "olsunlar",
                     "annotators": {
+                        "Akif": "olsunlar",
                         "Tarık": "olsun",
                         "GPT-4": "olsunlar"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -2994,16 +3420,19 @@
                         "Akif": "yürütmek",
                         "Tarık": "yürütme",
                         "GPT-4": "yürütür"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "yürütme",
                     "annotators": {
+                        "Akif": "yürütmek",
                         "Tarık": "yürütme",
                         "GPT-4": "yürütme"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3015,16 +3444,19 @@
                         "Akif": "öp",
                         "Tarık": "öpen",
                         "GPT-4": "öp"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "5": {
                     "form": "öp",
                     "annotators": {
+                        "Akif": "öp",
                         "Tarık": "öp",
                         "GPT-4": "öp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3036,16 +3468,19 @@
                         "Akif": "araştırma",
                         "Tarık": "araştırma",
                         "GPT-4": "araştırır"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "5": {
                     "form": "araştırma",
                     "annotators": {
+                        "Akif": "araştırma",
                         "Tarık": "araştırma",
                         "GPT-4": "araştırması"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3057,16 +3492,19 @@
                         "Akif": "bana",
                         "Tarık": "bana",
                         "GPT-4": "bana"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "4": {
                     "form": "bana",
                     "annotators": {
+                        "Akif": "bana",
                         "Tarık": "bana",
                         "GPT-4": "bana"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3078,16 +3516,19 @@
                         "Akif": "kim",
                         "Tarık": "kim",
                         "GPT-4": "o"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "4": {
                     "form": "kim",
                     "annotators": {
+                        "Akif": "kim",
                         "Tarık": "kim",
                         "GPT-4": "kim"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3099,16 +3540,19 @@
                         "Akif": "yırtılması",
                         "Tarık": "yırtılması",
                         "GPT-4": "yırtılır"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v2": {
                 "49": {
                     "form": "yırtılması",
                     "annotators": {
+                        "Akif": "yırtılması",
                         "Tarık": "yırtılması",
                         "GPT-4": "yırtılması"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3120,16 +3564,19 @@
                         "Akif": "ne",
                         "Tarık": "ne",
                         "GPT-4": "o"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v2": {
                 "2": {
                     "form": "ne",
                     "annotators": {
+                        "Akif": "ne",
                         "Tarık": "ne",
                         "GPT-4": "ne"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         }
@@ -3143,7 +3590,8 @@
                         "Tarık": "anlatmayı",
                         "Akif": "anlatmayı",
                         "GPT-4": "anlatışını"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "15": {
                     "form": "duymaktan",
@@ -3151,7 +3599,8 @@
                         "Tarık": "duymadan",
                         "Akif": "duymakta",
                         "GPT-4": "duyulduğu"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "3": {
                     "form": "uyandırmayı",
@@ -3159,7 +3608,8 @@
                         "Tarık": "uyandırmayı",
                         "Akif": "uyandırmayı",
                         "GPT-4": "uyandırma"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "10": {
                     "form": "kalmayı",
@@ -3167,7 +3617,8 @@
                         "Tarık": "kalmayı",
                         "Akif": "kalmayı",
                         "GPT-4": "kalmayı"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "4": {
                     "form": "sürdürebilmek",
@@ -3175,7 +3626,8 @@
                         "Tarık": "sürdürebilme",
                         "Akif": "sürdürebilmek",
                         "GPT-4": "sürdürebilir"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3185,7 +3637,8 @@
                         "Akif": "uyandırnayı",
                         "Tarık": "uyandırmayı",
                         "GPT-4": "uyandır"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "10": {
                     "form": "kalmayı",
@@ -3193,7 +3646,8 @@
                         "Akif": "kalmayı",
                         "Tarık": "kalmayı",
                         "GPT-4": "kalsın"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "4": {
                     "form": "sürdürebilmek",
@@ -3201,7 +3655,8 @@
                         "Akif": "sürdürebilmek",
                         "Tarık": "sürdürebilerek",
                         "GPT-4": "sürebilirim"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "1": {
                     "form": "anlatmayı",
@@ -3209,7 +3664,8 @@
                         "Tarık": "anlatmayı",
                         "Akif": "anlatmayı",
                         "GPT-4": "anlattı"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "15": {
                     "form": "duymaktan",
@@ -3217,7 +3673,8 @@
                         "Tarık": "duymadan",
                         "Akif": "duymaktan",
                         "GPT-4": "duyarak"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3229,7 +3686,8 @@
                         "Tarık": "demesiyle",
                         "Akif": "demesiyle",
                         "GPT-4": "dediğiyle"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3239,7 +3697,8 @@
                         "Tarık": "dediğiyle",
                         "Akif": "demesiyle",
                         "GPT-4": "dediğiyle"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3251,7 +3710,8 @@
                         "Tarık": "bulunmam",
                         "Akif": "bulunmuyorum",
                         "GPT-4": "bulunmuyorum"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "8": {
                     "form": "atlamış",
@@ -3259,7 +3719,8 @@
                         "Tarık": "atlayacak",
                         "Akif": "atlamış",
                         "GPT-4": "atladı"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3269,7 +3730,8 @@
                         "Tarık": "bulunmuyor",
                         "Akif": "bulunmuyorum",
                         "GPT-4": "bulunmuyorum"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "8": {
                     "form": "atlamış",
@@ -3277,7 +3739,8 @@
                         "Tarık": "atlamış",
                         "Akif": "atlamış",
                         "GPT-4": "atlamış"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3289,7 +3752,8 @@
                         "Tarık": "bulunmakta",
                         "Akif": "bulunmakta",
                         "GPT-4": "bulunduğu"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3299,7 +3763,8 @@
                         "Tarık": "bulunmakta",
                         "Akif": "bulunmakta",
                         "GPT-4": "bulunarak"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3311,7 +3776,8 @@
                         "Tarık": "dinleneceğimiz",
                         "Akif": "dinleneceğimiz",
                         "GPT-4": "dinleneceğiz"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "8": {
                     "form": "oynayacağımız",
@@ -3319,7 +3785,8 @@
                         "Tarık": "oynayacağımız",
                         "Akif": "oynayacağımız",
                         "GPT-4": "oynayacağımız"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "14": {
                     "form": "yapacağımız",
@@ -3327,7 +3794,8 @@
                         "Tarık": "yapacağımız",
                         "Akif": "yapacağımız",
                         "GPT-4": "yapacağımız"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "11": {
                     "form": "yiyip",
@@ -3335,7 +3803,8 @@
                         "Tarık": "yiyip",
                         "Akif": "yiyip",
                         "GPT-4": "yiyip"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3345,7 +3814,8 @@
                         "Akif": "yiyip",
                         "Tarık": "yeniden",
                         "GPT-4": "yiyip"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "6": {
                     "form": "dinleneceğimiz",
@@ -3353,7 +3823,8 @@
                         "Tarık": "dinlenmek",
                         "Akif": "dinlenmek",
                         "GPT-4": "dinleni"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "8": {
                     "form": "oynayacağımız",
@@ -3361,7 +3832,8 @@
                         "Tarık": "oynamak",
                         "Akif": "oynamak",
                         "GPT-4": "oynayabilirim"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "14": {
                     "form": "yapacağımız",
@@ -3369,7 +3841,8 @@
                         "Tarık": "yapacağımız",
                         "Akif": "yapacağımız",
                         "GPT-4": "yapacağımız"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3381,7 +3854,8 @@
                         "Tarık": "anlaşılır",
                         "Akif": "anlaşılıyor",
                         "GPT-4": "anlaşılıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3391,7 +3865,8 @@
                         "Tarık": "anlaşılıyor",
                         "Akif": "anlaşılıyor",
                         "GPT-4": "anlaşılıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3403,7 +3878,8 @@
                         "Tarık": "birleştirmek",
                         "Akif": "birleştirmek",
                         "GPT-4": "birleştirme"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3413,7 +3889,8 @@
                         "Tarık": "birleştir",
                         "Akif": "birleştirmek",
                         "GPT-4": "birleştir"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3425,7 +3902,8 @@
                         "Tarık": "alınmaması",
                         "Akif": "alınmaması",
                         "GPT-4": "alınmaması"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3435,7 +3913,8 @@
                         "Tarık": "alınmaması",
                         "Akif": "alınmaması",
                         "GPT-4": "alınmıyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3447,7 +3926,8 @@
                         "Tarık": "ısınmaya",
                         "Akif": "ısınmaya",
                         "GPT-4": "ısınına"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "14": {
                     "form": "tanıyabilmek",
@@ -3455,7 +3935,8 @@
                         "Tarık": "tanıyabilme",
                         "Akif": "tanıyabilmek",
                         "GPT-4": "tanıyabilirsiniz"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3465,7 +3946,8 @@
                         "Akif": "tanıyabilmek",
                         "Tarık": "tanıyabilme",
                         "GPT-4": "tanıyabilir"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "8": {
                     "form": "ısınmaya",
@@ -3473,7 +3955,8 @@
                         "Tarık": "ısınmaya",
                         "Akif": "ısınmakta",
                         "GPT-4": "ısınıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3485,7 +3968,8 @@
                         "Tarık": "olup",
                         "Akif": "olup",
                         "GPT-4": "olup"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3495,7 +3979,8 @@
                         "Tarık": "olarak",
                         "Akif": "olarak",
                         "GPT-4": "olan"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3507,7 +3992,8 @@
                         "Tarık": "yapacakları",
                         "Akif": "yapacakları",
                         "GPT-4": "yapacakları"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3517,7 +4003,8 @@
                         "Tarık": "yapacakları",
                         "Akif": "yapacağı",
                         "GPT-4": "yapacakları"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3529,7 +4016,8 @@
                         "Tarık": "durdurma",
                         "Akif": "durdurmak",
                         "GPT-4": "durdurma"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "5": {
                     "form": "yürütmeyi",
@@ -3537,7 +4025,8 @@
                         "Tarık": "yürütmeyi",
                         "Akif": "yürütmeyi",
                         "GPT-4": "yürütmeyi"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3547,7 +4036,8 @@
                         "Tarık": "durdur",
                         "Akif": "durdurmak",
                         "GPT-4": "durdur"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "5": {
                     "form": "yürütmeyi",
@@ -3555,7 +4045,8 @@
                         "Tarık": "yürütmeyi",
                         "Akif": "yürütmeyi",
                         "GPT-4": "yürüt"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3567,7 +4058,8 @@
                         "Tarık": "vuruluyorken",
                         "Akif": "vuruluyorken",
                         "GPT-4": "vurulup"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3577,7 +4069,8 @@
                         "Tarık": "vurularak",
                         "Akif": "vurulup",
                         "GPT-4": "vurulup"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3589,7 +4082,8 @@
                         "Tarık": "olmadan",
                         "Akif": "taşıyıp",
                         "GPT-4": "olup"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "7": {
                     "form": "bilmek",
@@ -3597,7 +4091,8 @@
                         "Tarık": "bilmek",
                         "Akif": "bilmek",
                         "GPT-4": "bilir"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3607,7 +4102,8 @@
                         "Tarık": "ol",
                         "Akif": "olmak",
                         "GPT-4": "olacak"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "7": {
                     "form": "bilmek",
@@ -3615,7 +4111,8 @@
                         "Tarık": "bilmek",
                         "Akif": "bilmek",
                         "GPT-4": "biliyor"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3627,7 +4124,8 @@
                         "Tarık": "denilecek",
                         "Akif": "denilecek",
                         "GPT-4": "denecek"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3637,7 +4135,8 @@
                         "Tarık": "denilecek",
                         "Akif": "denilecek",
                         "GPT-4": "\"denilecek\""
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3649,7 +4148,8 @@
                         "Tarık": "taşıyıp",
                         "Akif": "olup",
                         "GPT-4": "taşıyıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3659,7 +4159,8 @@
                         "Tarık": "taşıyarak",
                         "Akif": "taşıyarak",
                         "GPT-4": "taşıyıp"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3671,7 +4172,8 @@
                         "Tarık": "gülen",
                         "Akif": "gülen",
                         "GPT-4": "gülen"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3681,7 +4183,8 @@
                         "Tarık": "gülerken",
                         "Akif": "gülerken",
                         "GPT-4": "gülsün"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3693,7 +4196,8 @@
                         "Tarık": "etmeye",
                         "Akif": "etmeye",
                         "GPT-4": "etmeye"
-                    }
+                    },
+                    "type": "normal"
                 }
             },
             "v1": {
@@ -3703,7 +4207,8 @@
                         "Tarık": "etmeye",
                         "Akif": "etmeye",
                         "GPT-4": "etsin"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3715,7 +4220,8 @@
                         "Tarık": "gitmeyen",
                         "Akif": "gitmeyen",
                         "GPT-4": "gitmeyen"
-                    }
+                    },
+                    "type": "normal"
                 },
                 "1": {
                     "form": "bırakmaz",
@@ -3723,7 +4229,8 @@
                         "Tarık": "bırakmaz",
                         "Akif": "bırakmaz",
                         "GPT-4": "bırakmayan"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3733,7 +4240,8 @@
                         "Akif": "bırakmaz",
                         "Tarık": "bırakmaz",
                         "GPT-4": "bırakmaz"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "6": {
                     "form": "gitmez",
@@ -3741,7 +4249,8 @@
                         "Tarık": "gitmez",
                         "Akif": "gitmiyor",
                         "GPT-4": "gitmez"
-                    }
+                    },
+                    "type": "normal"
                 }
             }
         },
@@ -3753,7 +4262,8 @@
                         "Tarık": "olarak",
                         "Akif": "olarak",
                         "GPT-4": "olup"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3763,7 +4273,8 @@
                         "Akif": "olarak",
                         "Tarık": "olarak",
                         "GPT-4": "olan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3775,7 +4286,8 @@
                         "Tarık": "yapacağı",
                         "Akif": "yapacağı",
                         "GPT-4": "yapacak"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "7": {
                     "form": "verilmesine",
@@ -3783,7 +4295,8 @@
                         "Tarık": "verilmesine",
                         "Akif": "verilmesine",
                         "GPT-4": "verilmişine"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "3": {
                     "form": "çözülür",
@@ -3791,7 +4304,8 @@
                         "Tarık": "çözen",
                         "Akif": "çözer",
                         "GPT-4": "çözümünde"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3801,7 +4315,8 @@
                         "Akif": "yapacağı",
                         "Tarık": "yapacağı",
                         "GPT-4": "yapacak"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "5": {
                     "form": "verilmesine",
@@ -3809,7 +4324,8 @@
                         "Akif": "verilmesine",
                         "Tarık": "verilmesine",
                         "GPT-4": "verilsin"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "2": {
                     "form": "çözülürse",
@@ -3817,7 +4333,8 @@
                         "Akif": "çözülürse",
                         "Tarık": "çözülürse",
                         "GPT-4": "çözülse"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3829,7 +4346,8 @@
                         "Tarık": "olup",
                         "Akif": "olarak",
                         "GPT-4": "olup"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3839,7 +4357,8 @@
                         "Akif": "olarak",
                         "Tarık": "olarak",
                         "GPT-4": "olan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3851,7 +4370,8 @@
                         "Tarık": "yaşamaya",
                         "Akif": "yaşamaya",
                         "GPT-4": "yaşamak"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3861,7 +4381,8 @@
                         "Akif": "yaşamaya",
                         "Tarık": "yaşamaya",
                         "GPT-4": "yaşasın"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3873,7 +4394,8 @@
                         "Tarık": "gelmeye",
                         "Akif": "gelmeye",
                         "GPT-4": "gelince"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "4": {
                     "form": "satmaya",
@@ -3881,7 +4403,8 @@
                         "Tarık": "satmaya",
                         "Akif": "satmaya",
                         "GPT-4": "satış"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3891,7 +4414,8 @@
                         "Akif": "gelmeye",
                         "Tarık": "gelmeye",
                         "GPT-4": "gelip"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "4": {
                     "form": "satmaya",
@@ -3899,7 +4423,8 @@
                         "Akif": "satmaya",
                         "Tarık": "satmaya",
                         "GPT-4": "satsın"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3911,7 +4436,8 @@
                         "Tarık": "yaşamak",
                         "Akif": "yaşamak",
                         "GPT-4": "yaşam"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3921,7 +4447,8 @@
                         "Akif": "yaşamak",
                         "Tarık": "yaşama",
                         "GPT-4": "yaşa"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3933,7 +4460,8 @@
                         "Tarık": "olmaz",
                         "Akif": "olmuyor",
                         "GPT-4": "değil"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "2": {
                     "form": "olmuyor",
@@ -3941,7 +4469,8 @@
                         "Tarık": "olmaz",
                         "Akif": "olmuyor",
                         "GPT-4": "değil"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3951,7 +4480,8 @@
                         "Akif": "olmuyor",
                         "Tarık": "olmuyor",
                         "GPT-4": "değil"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "2": {
                     "form": "olmuyor",
@@ -3959,7 +4489,8 @@
                         "Akif": "olmuyor",
                         "Tarık": "olmuyor",
                         "GPT-4": "değil"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3971,7 +4502,8 @@
                         "Tarık": "kullanmaya",
                         "Akif": "kullanmaya",
                         "GPT-4": "kullanılması"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -3981,7 +4513,8 @@
                         "Akif": "kullanmaya",
                         "Tarık": "kullanmaya",
                         "GPT-4": "kullanılacak"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -3993,7 +4526,8 @@
                         "Tarık": "sorsunlar",
                         "Akif": "soruyorsunuz",
                         "GPT-4": "soruyorsunuz"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "1": {
                     "form": "döner",
@@ -4001,7 +4535,8 @@
                         "Tarık": "döner",
                         "Akif": "döner",
                         "GPT-4": "dönen"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -4011,7 +4546,8 @@
                         "Akif": "soruyorsunuz",
                         "Tarık": "soruyorsunuz",
                         "GPT-4": "soruyorsunuz"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "1": {
                     "form": "dönerken",
@@ -4019,7 +4555,8 @@
                         "Akif": "döner",
                         "Tarık": "dönerek",
                         "GPT-4": "dönüp"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -4031,7 +4568,8 @@
                         "Tarık": "gelmesinin",
                         "Akif": "gelmesinin",
                         "GPT-4": "gelinin"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "31": {
                     "form": "yükselmeye",
@@ -4039,7 +4577,8 @@
                         "Tarık": "yükselmeye",
                         "Akif": "yükselmeye",
                         "GPT-4": "yükselişe"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -4049,7 +4588,8 @@
                         "Akif": "gelmesinin",
                         "Tarık": "gelmesinin",
                         "GPT-4": "geliştirme"
-                    }
+                    },
+                    "type": "dep"
                 },
                 "31": {
                     "form": "yükselmeye",
@@ -4057,7 +4597,8 @@
                         "Akif": "yükselmeye",
                         "Tarık": "yükselmeye",
                         "GPT-4": "yükselsin"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -4069,7 +4610,8 @@
                         "Tarık": "şekerli",
                         "Akif": "şekerli",
                         "GPT-4": "şekerli"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -4079,7 +4621,8 @@
                         "Akif": "şeker",
                         "Tarık": "şeker",
                         "GPT-4": "şeker"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -4091,7 +4634,8 @@
                         "Tarık": "konuşmalardan",
                         "Akif": "konuşmalardan",
                         "GPT-4": "konuşmalardan"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -4101,7 +4645,8 @@
                         "Akif": "konuşmalardan",
                         "Tarık": "konuşmalardan",
                         "GPT-4": "konuşmalardan"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         },
@@ -4113,7 +4658,8 @@
                         "Tarık": "kaybeden",
                         "Akif": "kaybeden",
                         "GPT-4": "kaybeden"
-                    }
+                    },
+                    "type": "dep"
                 }
             },
             "v1": {
@@ -4123,7 +4669,8 @@
                         "Akif": "kaybeden",
                         "Tarık": "kaybeden",
                         "GPT-4": "kaybeden"
-                    }
+                    },
+                    "type": "dep"
                 }
             }
         }

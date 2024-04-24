@@ -195,7 +195,8 @@ def main():
             token_id = el['token_id']
             form = get_form(sent_id, token_id, version, tbs)
             if token_id not in d[sent_id][version]:
-                d[sent_id][version][token_id] = {'form': form, 'annotators': {}}
+                has_dep = el['type']
+                d[sent_id][version][token_id] = {'form': form, 'annotators': {}, 'type': 'dep' if has_dep == 'dep' else 'normal'}
             annotator = el['annotator']
             d[sent_id][version][token_id]['annotators'][annotator] = lower(el['forms'][0])
         constructions[type_t] = d
