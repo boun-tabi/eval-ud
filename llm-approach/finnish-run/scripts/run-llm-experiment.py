@@ -113,7 +113,8 @@ def main():
         conllu_files = list(treebank_dir.glob('*.conllu'))
         tb_d = get_treebank(conllu_files)
         docs_dir = Path(md['docs_dir'])
-        api_path = Path(md['api_path'])
+        if 'api_path' in md:
+            api_path = Path(md['api_path'])
         language = md['language']
         langs_path = Path(md['langs_path'])
         with langs_path.open('r', encoding='utf-8') as f:
@@ -123,8 +124,8 @@ def main():
         has_dependency = md['dependency_included']
         special_tr = md.get('special_tr', False)
     else:
-        if not args.treebank or not args.sent_count or not args.docs or not args.api_key or not args.langs_path or not args.language or not args.version:
-            logger.info('Please specify a treebank, a sentence count, a docs directory, an API key, a language, and a version.')
+        if not args.treebank or not args.sent_count or not args.docs or not args.langs_path or not args.language or not args.version:
+            logger.info('Please specify a treebank, a sentence count, a docs directory, a language, and a version.')
             exit()
         sent_count = int(args.sent_count)
         data_dir = Path(args.data_dir)
@@ -188,11 +189,16 @@ def main():
         os.makedirs(run_dir, exist_ok=True)
         with open(run_dir / 'script.py', 'w', encoding='utf-8') as f:
             f.write(script_content)
-        api_path = args.api_key
+        if model.startswith('poe'):
+            api_path = Path(args.api_key)
+        else:
+            api_path = None
         has_dependency = args.has_dependency
         special_tr = args.special_tr
         with open(run_dir / 'md.json', 'w', encoding='utf-8') as f:
-            md = {'sent_count': sent_count, 'sent_ids': sent_ids, 'example_sent_id': example_sent_id, 'model': model, 'now': now, 'run_dir': str(run_dir), 'treebank': treebank, 'docs_dir': str(docs_dir), 'script_path': str(script_path), 'api_path': str(api_path), 'language': language, 'langs_path': str(langs_path), 'data_dir': str(data_dir), 'version': version}
+            md = {'sent_count': sent_count, 'sent_ids': sent_ids, 'example_sent_id': example_sent_id, 'model': model, 'now': now, 'run_dir': str(run_dir), 'treebank': treebank, 'docs_dir': str(docs_dir), 'script_path': str(script_path), 'language': language, 'langs_path': str(langs_path), 'data_dir': str(data_dir), 'version': version}
+            if api_path:
+                md['api_path'] = str(api_path)
             if has_dependency:
                 md['dependency_included'] = True
                 from templates import preamble_dep as preamble
