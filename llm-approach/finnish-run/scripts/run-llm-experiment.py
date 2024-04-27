@@ -3,6 +3,13 @@ import os, json, argparse, logging, subprocess, re, random, sys
 from pathlib import Path
 from templates import get_sentence_prompt, get_example_prompt, template_sentence
 
+def clone_repo(treebank, treebank_dir):
+    treebank_url = f'https://github.com/UniversalDependencies/{treebank}.git'
+    subprocess.run(['git', 'clone', treebank_url, treebank_dir])
+    if not treebank_dir.exists():
+        logger.info('Treebank {treebank} not cloned.'.format(treebank=treebank))
+        exit()
+
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-tb', '--treebank', type=str)
@@ -82,7 +89,7 @@ def main():
         data_dir = Path(md['data_dir'])
         treebank = md['treebank']
         sent_count = md['sent_count']
-        tb_dir = data_dir / treebank
+        treebank_dir = data_dir / treebank
         sent_ids_path = data_dir / 'sent_ids/{treebank}-{sent_count}.json'.format(treebank=treebank, sent_count=sent_count)
         if sent_ids_path.exists():
             with sent_ids_path.open('r', encoding='utf-8') as f:
@@ -93,7 +100,9 @@ def main():
             sent_ids = md['sent_ids']
             example_sent_id = md['example_sent_id']
         version = md['version']
-        os.chdir(tb_dir)
+        if not treebank_dir.exists():
+            clone_repo(treebank, treebank_dir)
+        os.chdir(treebank_dir)
         tags = [i for i in subprocess.check_output(['git', 'tag', '-l']).decode('utf-8').strip().split('\n') if i and tag_pattern.match(i)]
         current_tag = f'r{version}'
         if current_tag not in tags:
@@ -101,7 +110,7 @@ def main():
             exit()
         subprocess.run(['git', 'checkout', current_tag])
         os.chdir(THIS_DIR)
-        conllu_files = list(tb_dir.glob('*.conllu'))
+        conllu_files = list(treebank_dir.glob('*.conllu'))
         tb_d = get_treebank(conllu_files)
         docs_dir = Path(md['docs_dir'])
         api_path = Path(md['api_path'])
@@ -123,11 +132,7 @@ def main():
         version = args.version
         treebank_dir = data_dir / treebank
         if not treebank_dir.exists():
-            treebank_url = f'https://github.com/UniversalDependencies/{treebank}.git'
-            subprocess.run(['git', 'clone', treebank_url, treebank_dir])
-            if not treebank_dir.exists():
-                logger.info('Treebank {treebank} not cloned.'.format(treebank=treebank))
-                exit()
+            clone_repo(treebank, treebank_dir)
         os.chdir(treebank_dir)
         tags = [i for i in subprocess.check_output(['git', 'tag', '-l']).decode('utf-8').strip().split('\n') if i and tag_pattern.match(i)]
         current_tag = f'r{version}'
