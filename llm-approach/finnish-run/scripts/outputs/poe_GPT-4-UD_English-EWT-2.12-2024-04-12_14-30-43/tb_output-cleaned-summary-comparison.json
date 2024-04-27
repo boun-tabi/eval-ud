@@ -350,8 +350,8 @@
         },
         "newsgroup-groups.google.com_Meditation20051_1027f5a3651d547c_ENG_20050316_085700-0036": {
             "llm": {
-                "precision": 0.15384615384615385,
-                "recall": 0.0
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "email-enronsent30_02-0031": {
@@ -386,8 +386,8 @@
         },
         "email-enronsent37_01-0120": {
             "llm": {
-                "precision": 0.038461538461538464,
-                "recall": 0.0
+                "precision": 0.7777777777777778,
+                "recall": 0.7777777777777778
             }
         },
         "answers-20090801154222AA09uXV_ans-0004": {
@@ -1838,8 +1838,8 @@
         },
         "reviews-355325-0005": {
             "llm": {
-                "precision": 0.1111111111111111,
-                "recall": 0.0
+                "precision": 0.8,
+                "recall": 1.0
             }
         },
         "reviews-034501-0003": {
@@ -2102,8 +2102,8 @@
         },
         "weblog-juancole.com_juancole_20040604210986_ENG_20040604_210986-0001": {
             "llm": {
-                "precision": 0.15384615384615385,
-                "recall": 0.0
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "weblog-blogspot.com_healingiraq_20050121235804_ENG_20050121_235804-0033": {
@@ -2324,8 +2324,8 @@
         },
         "email-enronsent05_01-0010": {
             "llm": {
-                "precision": 0.07142857142857142,
-                "recall": 0.0
+                "precision": 0.8333333333333334,
+                "recall": 0.8333333333333334
             }
         },
         "email-enronsent21_02-0032": {
@@ -2396,8 +2396,8 @@
         },
         "answers-20111108104724AAuBUR7_ans-0049": {
             "llm": {
-                "precision": 0.15384615384615385,
-                "recall": 0.0
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "newsgroup-groups.google.com_misc.consumers_a534e32067078b08_ENG_20060116_030800-0014": {
@@ -2924,8 +2924,8 @@
         },
         "answers-20111108091921AAaLK4e_ans-0024": {
             "llm": {
-                "precision": 0.11764705882352941,
-                "recall": 0.0
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "answers-20111108091921AAaLK4e_ans-0017": {
@@ -3003,9 +3003,9 @@
     },
     "summary": {
         "llm accuracy": {
-            "f1": 0.8214710931991253,
-            "precision": 0.8229924683679529,
-            "recall": 0.8637973912564336
+            "f1": 0.8344710931991253,
+            "precision": 0.8342143171074489,
+            "recall": 0.8770196134786558
         }
     }
 }

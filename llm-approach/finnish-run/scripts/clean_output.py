@@ -22,7 +22,7 @@ def main():
     json_pattern = re.compile(r'^{"original_form": "(.+)"}$')
     new_output_d = {}
     for el in output:
-        sent_id, original_text, output_text = el['sent_id'], el['text'], el['output']
+        sent_id, original_text, output_text = el['sent_id'], el['text'], el['output'].strip()
         json_md_search = json_md_pattern.search(output_text)
         if json_md_search:
             found_group = json_md_search.group(1)
@@ -56,6 +56,12 @@ def main():
                         break
                     output_text = max_split
                     break
+                else:
+                    json_search = json_pattern.search(output_text)
+                    if json_search:
+                        output_text = json_search.group(1)
+                        found_json = True
+                        break
             if not found_json:
                 output_text = note_pattern.sub('', output_text).strip()
                 par_search = par_pattern.search(output_text)

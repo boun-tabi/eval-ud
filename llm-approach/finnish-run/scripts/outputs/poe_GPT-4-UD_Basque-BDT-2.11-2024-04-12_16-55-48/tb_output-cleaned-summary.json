@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8580050968560592,
+    "average ratio": 0.8635827916274139,
     "results": {
         "dev-s1140": {
             "ratio": 0.813,
@@ -77,9 +77,9 @@
             "output text": "Tajineko osagaiak haragi edo arraina eta barazkiak izan dira, izena, prestaturiko erabili izan den ontzitik etorri da."
         },
         "test-s505": {
-            "ratio": 0.553,
+            "ratio": 0.764,
             "original text": "Oso saio txukuna egin zuten.",
-            "output text": "{\"original_form\": \"Oso txukun saioa egin dute.\"}"
+            "output text": "Oso txukun saioa egin dute."
         },
         "train-s2459": {
             "ratio": 0.85,
@@ -212,9 +212,9 @@
             "output text": "Bestalde, bihar Bizkaiko PSE-EEren kongresua egingo da, Bilbon, zatiketa giroan."
         },
         "train-s63": {
-            "ratio": 0.832,
+            "ratio": 1.0,
             "original text": "Ez dugu ahantzi, baina aitzinean hobeto lotuko gara.",
-            "output text": "{\"original_form\": \"Ez dugu ahantzi, baina aitzinean hobeto lotuko gara.\"}"
+            "output text": "Ez dugu ahantzi, baina aitzinean hobeto lotuko gara."
         },
         "train-s789": {
             "ratio": 0.9,
@@ -317,9 +317,9 @@
             "output text": "Kantauriko arrain bereiziko lukeen etiketa sortu proposatu du Eusko Jaurlaritzak beste erkidegoei."
         },
         "train-s5363": {
-            "ratio": 0.687,
+            "ratio": 0.818,
             "original text": "EB Oinarrizko Eskubideen Agiriari lotu behar zaio.",
-            "output text": "{\"original_form\": \"EBk oinarrizko eskubideen agiriari lotutako beharra izan du.\"}"
+            "output text": "EBk oinarrizko eskubideen agiriari lotutako beharra izan du."
         },
         "train-s503": {
             "ratio": 0.887,
@@ -362,9 +362,9 @@
             "output text": "Halako bihurrikeria asko egin du inguruko pertsona eta abereak ikaratuta."
         },
         "train-s292": {
-            "ratio": 0.633,
+            "ratio": 0.73,
             "original text": "Hau gertatu aurretik bahitutako beste erlijioso batek ihes egitea lortu zuen.",
-            "output text": "{\"original_form\": \"Hau aurretik beste erlijioso bat bahitua ihes egin lortu du.\"}"
+            "output text": "Hau aurretik beste erlijioso bat bahitua ihes egin lortu du."
         },
         "train-s5087": {
             "ratio": 0.864,
@@ -487,9 +487,9 @@
             "output text": "Horietako 22 arrasto kokainaren aurkitu dituzte."
         },
         "dev-s586": {
-            "ratio": 0.615,
+            "ratio": 0.909,
             "original text": "Gure lana dohainekoa da.",
-            "output text": "{\"original_form\": \"Gure lana dohain da.\"}"
+            "output text": "Gure lana dohain da."
         },
         "train-s1251": {
             "ratio": 0.923,
@@ -732,9 +732,9 @@
             "output text": "Bertsolari batzuk, bertsoetan ez ezik, antzerkian ere aritu izan dira."
         },
         "train-s988": {
-            "ratio": 0.849,
+            "ratio": 0.992,
             "original text": "Hombrados atezaina eta Alberto Martin hegala baja izango dira.",
-            "output text": "{\"original_form\": \"Hombrados atezaina eta Alberto Martin hegalak baja izango dira.\"}"
+            "output text": "Hombrados atezaina eta Alberto Martin hegalak baja izango dira."
         },
         "train-s843": {
             "ratio": 0.962,
@@ -797,9 +797,9 @@
             "output text": "\"Etxe barruan hiltzea izan dira landareak %90 gehiegi ureztatu izanak izan dira\"."
         },
         "train-s441": {
-            "ratio": 0.844,
+            "ratio": 0.944,
             "original text": "Liga hasi aitzin NBAn hautsak harrotu ditu, Isiah Rider jokalari polemikoa fitxatuta.",
-            "output text": "{\"original_form\": \"Liga hasi aitzin NBA-n hautsak harrotu ditu, Isiah Rider jokalari polemikoa fitxatu duelarik.\"}"
+            "output text": "Liga hasi aitzin NBA-n hautsak harrotu ditu, Isiah Rider jokalari polemikoa fitxatu duelarik."
         },
         "train-s2204": {
             "ratio": 0.969,
@@ -1027,9 +1027,9 @@
             "output text": "Bestalde, 600 gora zauritu dira dagoeneko."
         },
         "test-s291": {
-            "ratio": 0.716,
+            "ratio": 0.967,
             "original text": "Mutilek lan bikaina egin dute.",
-            "output text": "{\"original_form\": \"Mutilok lan bikaina egin dute.\"}"
+            "output text": "Mutilok lan bikaina egin dute."
         },
         "test-s360": {
             "ratio": 0.905,
@@ -1462,9 +1462,9 @@
             "output text": "Honezkero jakin behar zenuten zer izan zen nagusi baserrietan."
         },
         "train-s1632": {
-            "ratio": 0.735,
+            "ratio": 0.857,
             "original text": "Mina handituz zihoala ikusita, Athleticeko medikuei deitu zien.",
-            "output text": "{\"original_form\": \"Mina handituz joan zen ikusi, Athletic-eko medikuei deitu edun.\"}"
+            "output text": "Mina handituz joan zen ikusi, Athletic-eko medikuei deitu edun."
         },
         "dev-s1418": {
             "ratio": 0.902,
@@ -1947,14 +1947,14 @@
             "output text": "Igande lehenetik, 26 herrialdeko 15 hiriburutik hautatu dituzte eurak auzapezak."
         },
         "train-s2275": {
-            "ratio": 0.853,
+            "ratio": 0.955,
             "original text": "Bungalow bakoitzak sukaldea, egongela, logela (1 edo 2), bainugela eta berogailua du.",
-            "output text": "{\"original_form\": \"Bungalow bakoitzak sukalde, egongela, logela (1 edo 2), bainugela eta berogailua ukan ditu.\"}"
+            "output text": "Bungalow bakoitzak sukalde, egongela, logela (1 edo 2), bainugela eta berogailua ukan ditu."
         },
         "test-s219": {
-            "ratio": 0.782,
+            "ratio": 0.886,
             "original text": "\"Nahiko genuke Ibarretxek ere beste biolentzia mota horiek kontuan hartzea\".",
-            "output text": "{\"original_form\": \"\\\"Nahi izanen genuke Ibarretxe ere beste biolentzia mota horiek kontuan hartuta.\\\"\"}"
+            "output text": "\\\"Nahi izanen genuke Ibarretxe ere beste biolentzia mota horiek kontuan hartuta.\\\""
         },
         "train-s119": {
             "ratio": 0.868,
@@ -2047,14 +2047,14 @@
             "output text": "Tentsioa eta nerbioak uxatu dira, Oronozer joan da gaur plantillak igandera arte, kontzentrazioa egin du."
         },
         "train-s2801": {
-            "ratio": 0.659,
+            "ratio": 0.875,
             "original text": "Nork hartuko du jokoaren ekimena?",
-            "output text": "{\"original_form\": \"Nor hartuko du joko ekimen hau?\"}"
+            "output text": "Nor hartuko du joko ekimen hau?"
         },
         "test-s616": {
-            "ratio": 0.886,
+            "ratio": 0.984,
             "original text": "Ullrichek, minutu bat atzerago atera arren, ibilbidearen lehen zatian harrapatu zuen italiarra.",
-            "output text": "{\"original_form\": \"Ullrich-ek, minutu bat atzera atera arren, ibilbidearen lehen zatian harrapatu zuen italiarra.\"}"
+            "output text": "Ullrich-ek, minutu bat atzera atera arren, ibilbidearen lehen zatian harrapatu zuen italiarra."
         },
         "test-s1014": {
             "ratio": 0.892,
@@ -2072,9 +2072,9 @@
             "output text": "Necso Txuri-Urdinek Bartzelonaren aurka jokatu du gaur (20:30)."
         },
         "dev-s729": {
-            "ratio": 0.475,
+            "ratio": 0.737,
             "original text": "Baina, zer diot?",
-            "output text": "{\"original_form\": \"Baina, zer esaten dut?\"}"
+            "output text": "Baina, zer esaten dut?"
         },
         "train-s2859": {
             "ratio": 0.908,
@@ -2207,9 +2207,9 @@
             "output text": "Bestalde, oso argi planteatu dugu orain sortu den egoera berri bat behin betirako izan den arduraduna izan dela."
         },
         "test-s1195": {
-            "ratio": 0.708,
+            "ratio": 0.829,
             "original text": "Ez nuen ezertxo ere nabaritzen eta begiak hazkuretan neuzkan.",
-            "output text": "{\"original_form\": \"Ez dut ezertxo ere nabaritu eta begiak hazkuretan eduki ditut.\"}"
+            "output text": "Ez dut ezertxo ere nabaritu eta begiak hazkuretan eduki ditut."
         },
         "train-s4087": {
             "ratio": 0.828,
@@ -2302,9 +2302,9 @@
             "output text": "Lau estalpe ezarri dituzte Zumeltzako zelaian, ekitaldi guztiak eguraldi beldur gabeko egin ahal izan direlako."
         },
         "train-s2099": {
-            "ratio": 0.6,
+            "ratio": 0.814,
             "original text": "JL-1 deritze urpeko horiei.",
-            "output text": "{\"original_form\": \"JL-1 iritzi dabil urpeko horiei.\"}"
+            "output text": "JL-1 iritzi dabil urpeko horiei."
         },
         "train-s754": {
             "ratio": 0.918,
@@ -2487,9 +2487,9 @@
             "output text": "Bi puntu eta erdiko aldea ukan dute gasteiztarrek."
         },
         "dev-s572": {
-            "ratio": 0.733,
+            "ratio": 0.889,
             "original text": "Orain, baina, Batasunaren motorra haustekotan dabil.",
-            "output text": "{\"original_form\": \"Orain, baina, batasunaren motorra hautsi dabil.\"}"
+            "output text": "Orain, baina, batasunaren motorra hautsi dabil."
         },
         "train-s4149": {
             "ratio": 0.87,

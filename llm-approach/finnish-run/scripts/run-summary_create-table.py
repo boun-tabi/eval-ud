@@ -31,7 +31,9 @@ def main():
                 run_info = json.load(f)
             date = run_info['now'].split('_')[0]
             treebank = run_info['treebank']
-            model = run_info['model'].replace('poe_', '')
+            model = run_info['model']
+            for model_name_t in ['poe', 'trendyol']:
+                model = model.replace(f'{model_name_t}_', '')
             version = run_info['version']
             dependency_included = run_info['dependency_included']
             output_file = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')][0]
