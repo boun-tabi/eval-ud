@@ -18,6 +18,7 @@ def get_args():
     parser.add_argument('-v', '--version', type=str)
     parser.add_argument('--ud-docs', type=str)
     parser.add_argument('--has-dependency', action='store_true')
+    parser.add_argument('--special-tr', action='store_true')
     return parser.parse_args()
 
 def get_logger():
@@ -194,6 +195,10 @@ def main():
                 md['dependency_included'] = False
                 from templates import preamble_no_dep as preamble
             preamble = preamble.format(language=langs[language])
+            if args.special_tr:
+                md['special_tr'] = True
+                preamble += ' Lemma "y" represents the overt copula in Turkish and surfaces as "i".'
+            md['preamble'] = preamble
             md['prompt'] = template_sentence
             template = template_sentence
             if args.note:
@@ -217,8 +222,11 @@ def main():
         pos_d = json.load(f)
     with feat_path.open('r', encoding='utf-8') as f:
         feat_d = json.load(f)
-    with dep_path.open('r', encoding='utf-8') as f:
-        dep_d = json.load(f)
+    if args.has_dependency:
+        with dep_path.open('r', encoding='utf-8') as f:
+            dep_d = json.load(f)
+    else:
+        dep_d = None
 
     if model.startswith('poe'):
         with open(api_path) as f:
@@ -247,10 +255,7 @@ def main():
     run_done = True
     asked_count = 0
     output_l = tb_output
-    if args.has_dependency:
-        example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, dep_d)
-    else:
-        example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d)
+    example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, args.has_dependency, args.special_tr)
     example_text = tb_d['sentences'][example_sent_id]['text']
     for i, sent_id in enumerate(sent_ids):
         print('Processing {i} of {count}.'.format(i=i, count=sent_count))
@@ -258,10 +263,7 @@ def main():
         if sent_id in tb_done_sents:
             continue
         text, table = table_d[sent_id]['text'], table_d[sent_id]['table']
-        if args.has_dependency:
-            prompt = get_sentence_prompt(template, preamble, example_text, example_token, example_input, langs[language], table, pos_d, feat_d, dep_d)
-        else:
-            prompt = get_sentence_prompt(template, preamble, example_text, example_token, example_input, langs[language], table, pos_d, feat_d)
+        prompt = get_sentence_prompt(template, preamble, example_text, example_token, example_input, langs[language], table, pos_d, feat_d, dep_d)
         d = {'sent_id': sent_id, 'text': text, 'prompt': prompt}
         if model.startswith('poe'):
             try:

@@ -1,5 +1,5 @@
 
-def get_example_prompt(table, pos_d, feat_d, dep_d=None):
+def get_example_prompt(table, pos_d, feat_d, dep_d=None, tr_sort=False):
     lines = table.split('\n')
     ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
     token_count = len(ids)
@@ -16,20 +16,28 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None):
             feat_l = []
         token_str_l = ['{no} token\'s lemma is "{lemma}"'.format(no=number_d[int(id_t)], lemma=lemma_t)]
         token_str_l.append('its part of speech is {pos}'.format(pos=pos_d[pos_t]['shortdef']))
+        if tr_sort and pos_t in ['NOUN', 'VERB']:
+            sorted_feat_l = []
+            feat_copy = feat_l.copy()
+            if pos_t == 'NOUN':
+                order_l = tr_noun_order
+            elif pos_t == 'VERB':
+                order_l = tr_verb_order
+            for feat_name in order_l:
+                for feat in feat_l:
+                    tag, _ = feat.split('=')
+                    if tag == feat_name:
+                        sorted_feat_l.append(feat)
+                        feat_copy.remove(feat)
+            sorted_feat_l.extend(feat_copy)
+            feat_l = sorted_feat_l
         for feat in feat_l:
-            psor_on = False
             feat_name, feat_value = feat.split('=')
-            if feat_name.endswith('[psor]'):
-                feat_name = feat_name.replace('[psor]', '')
-                psor_on = True
             if feat_name in feat_d:
                 tag_shortdef = feat_d[feat_name]['shortdef']
             if feat_value in feat_d[feat_name]:
                 feat_value = feat_d[feat_name][feat_value]['shortdef']
-            if psor_on:
-                token_str_l.append('its possessor\'s {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
-            else:
-                token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
+            token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
         if dep_d and dep_t != '_':
             dep_name = dep_d[dep_t]['shortdef']
             if head_t == '0':
@@ -68,6 +76,8 @@ Answer in JSON, in the following format:
 
 {{"original_form": <SENTENCE>}}'''
 
+tr_noun_order = ['Person', 'Number', 'Person[psor]', 'Number[psor]', 'Case']
+tr_verb_order = ['Voice', 'Mood', 'Polarity', 'Tense', 'Aspect', 'Person', 'Number']
 number_d = {}
 for num in range(1, 157):
     str_num = str(num)
