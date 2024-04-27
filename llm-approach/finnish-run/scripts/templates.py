@@ -36,8 +36,13 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None, tr_sort=False):
             if feat_name in feat_d:
                 tag_shortdef = feat_d[feat_name]['shortdef']
             if feat_value in feat_d[feat_name]:
-                feat_value = feat_d[feat_name][feat_value]['shortdef']
-            token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
+                feat_value = feat_d[feat_name][feat_value]['shortdef'].lower()
+                if '/' in feat_value:
+                    feat_value = feat_value.split('/')[0].strip()
+            if tag_shortdef.startswith('whether'):
+                token_str_l.append('it is {fv}'.format(fv=feat_value))
+            else:
+                token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
         if dep_d and dep_t != '_':
             dep_name = dep_d[dep_t]['shortdef']
             if head_t == '0':

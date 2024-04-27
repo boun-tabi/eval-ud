@@ -109,10 +109,12 @@ def main():
         langs_path = Path(md['langs_path'])
         with langs_path.open('r', encoding='utf-8') as f:
             langs = json.load(f)
-        preamble = md['preamble']
+        if md['dependency_included']:
+            from templates import preamble_dep as preamble
+        else:
+            from templates import preamble_no_dep as preamble
+        preamble = preamble.format(language=langs[language])
         template = template_sentence
-        has_dependency = md['dependency_included']
-        special_tr = md.get('special_tr', False)
     else:
         if not args.treebank or not args.sent_count or not args.docs or not args.api_key or not args.langs_path or not args.language or not args.version:
             logger.info('Please specify a treebank, a sentence count, a docs directory, an API key, a language, and a version.')
@@ -184,18 +186,16 @@ def main():
         with open(run_dir / 'script.py', 'w', encoding='utf-8') as f:
             f.write(script_content)
         api_path = args.api_key
-        has_dependency = args.has_dependency
-        special_tr = args.special_tr
         with open(run_dir / 'md.json', 'w', encoding='utf-8') as f:
             md = {'sent_count': sent_count, 'sent_ids': sent_ids, 'example_sent_id': example_sent_id, 'model': model, 'now': now, 'run_dir': str(run_dir), 'treebank': treebank, 'docs_dir': str(docs_dir), 'script_path': str(script_path), 'api_path': str(api_path), 'language': language, 'langs_path': str(langs_path), 'data_dir': str(data_dir), 'version': version}
-            if has_dependency:
+            if args.has_dependency:
                 md['dependency_included'] = True
                 from templates import preamble_dep as preamble
             else:
                 md['dependency_included'] = False
                 from templates import preamble_no_dep as preamble
             preamble = preamble.format(language=langs[language])
-            if special_tr:
+            if args.special_tr:
                 md['special_tr'] = True
                 preamble += ' Lemma "y" represents the overt copula in Turkish and surfaces as "i".'
             md['preamble'] = preamble
@@ -222,7 +222,7 @@ def main():
         pos_d = json.load(f)
     with feat_path.open('r', encoding='utf-8') as f:
         feat_d = json.load(f)
-    if has_dependency:
+    if args.has_dependency:
         with dep_path.open('r', encoding='utf-8') as f:
             dep_d = json.load(f)
     else:
@@ -255,7 +255,7 @@ def main():
     run_done = True
     asked_count = 0
     output_l = tb_output
-    example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, dep_d, special_tr)
+    example_token, example_input = get_example_prompt(tb_d['sentences'][example_sent_id]['table'], pos_d, feat_d, dep_d, args.special_tr)
     example_text = tb_d['sentences'][example_sent_id]['text']
     for i, sent_id in enumerate(sent_ids):
         print('Processing {i} of {count}.'.format(i=i, count=sent_count))
