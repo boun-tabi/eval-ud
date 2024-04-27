@@ -241,6 +241,9 @@ def main():
             async for partial in get_bot_response(messages=[message], bot_name=bot_name, api_key=api_key):
                 output += partial.text
             return output
+    elif model.startswith('trendyol'):
+        from run_local_llm import TrendyolLLM
+        trendyol_llm = TrendyolLLM()
     else:
         exit('Unknown model: {model}'.format(model=model))
 
@@ -272,15 +275,18 @@ def main():
             except:
                 continue
             d['output'] = output
+        elif model.startswith('trendyol'):
+            output = trendyol_llm.generate_output(prompt)
+            ...
+            d['output'] = output
         else:
             print('Unknown model: {model}'.format(model=model))
-            d['output'] = ''
-        if d['output'] == '':
-            continue
-        output_l.append(d)
-        asked_count += 1
-        with open(tb_out, 'w', encoding='utf-8') as f:
-            json.dump(output_l, f, ensure_ascii=False, indent=4)
+            d['output'] = None
+        if d['output']:
+            output_l.append(d)
+            asked_count += 1
+            with open(tb_out, 'w', encoding='utf-8') as f:
+                json.dump(output_l, f, ensure_ascii=False, indent=4)
     with open(tb_out, 'w', encoding='utf-8') as f:
         json.dump(output_l, f, ensure_ascii=False, indent=4)
     print('Asked {count} questions.'.format(count=asked_count))
