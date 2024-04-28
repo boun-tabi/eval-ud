@@ -36,6 +36,10 @@ def main():
                 model = model.replace(f'{model_name_t}_', '')
             version = run_info['version']
             dependency_included = run_info['dependency_included']
+            if 'special_tr' in run_info:
+                special_tr = run_info['special_tr']
+            else:
+                special_tr = False
             output_file = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')][0]
             # 1: clean_output.py
             os.system(f'python {clean_script_path} -o {output_file}')
@@ -60,7 +64,8 @@ def main():
                 'character-based': summary['average ratio'],
                 'token-based': comparison['summary']['llm accuracy']['f1'],
                 'sentence_count': sentence_count,
-                'date': date
+                'date': date,
+                'special_tr': special_tr
             })
             print(f'{treebank} {model} {dependency_included} done')
 
@@ -100,8 +105,8 @@ def main():
 
     markdown_summary_path = output_dir / 'summary-table.md'
     table.sort(key=lambda x: (x['treebank'], x['model'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['dependency_included']))
-    markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date |\n'
-    markdown_str += '| --- | --- | --- | --- | --- | --- | --- | --- |\n'
+    markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date | Special TR |\n'
+    markdown_str += '| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n'
     for row in table:
         character_accuracy, token_accuracy = '%.1f' % (row['character-based'] * 100) + '%', '%.1f' % (row['token-based'] * 100) + '%'
         dep_included = 'Yes' if row['dependency_included'] else 'No'
@@ -111,7 +116,8 @@ def main():
             character_accuracy = f'**{character_accuracy}**'
         if 'max_token' in run_d[treebank][version]:
             token_accuracy = f'**{token_accuracy}**'
-        markdown_str += f"| {treebank} | {version} | {model} | {character_accuracy} | {token_accuracy} | {dep_included} | {sentence_count} | {date} |\n"
+        special_tr = row['special_tr']
+        markdown_str += f'| {treebank} | {version} | {model} | {character_accuracy} | {token_accuracy} | {dep_included} | {sentence_count} | {date} | {special_tr} |\n'
     with markdown_summary_path.open('w', encoding='utf-8') as f:
         f.write(markdown_str)
 

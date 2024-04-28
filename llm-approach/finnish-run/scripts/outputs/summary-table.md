@@ -1,20 +1,20 @@
-| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| UD_Basque-BDT | 2.10 | GPT-4 | 85.3% | 46.7% | Yes | 500 | 2024-04-12 |
-| UD_Basque-BDT | 2.11 | GPT-4 | **86.4%** | **49.2%** | Yes | 500 | 2024-04-12 |
-| UD_Chinese-GSDSimp | 2.11 | GPT-4 | **99.8%** | **97.7%** | Yes | 500 | 2024-04-12 |
-| UD_Chinese-GSDSimp | 2.12 | GPT-4 | 99.7% | 96.3% | Yes | 500 | 2024-04-12 |
-| UD_English-EWT | 2.12 | GPT-4 | **95.9%** | **83.4%** | Yes | 500 | 2024-04-12 |
-| UD_English-EWT | 2.13 | GPT-4 | 95.7% | 82.6% | Yes | 500 | 2024-04-12 |
-| UD_Finnish-TDT | 2.13 | GPT-4 | 94.5% | 76.3% | Yes | 500 | 2024-03-12 |
-| UD_Highland_Puebla_Nahuatl-ITML | 2.13 | GPT-4 | 81.4% | 54.9% | Yes | 137 | 2024-04-12 |
-| UD_Hindi-HDTB | 2.9 | GPT-4 | 93.5% | 68.7% | Yes | 500 | 2024-04-12 |
-| UD_Hindi-HDTB | 2.10 | GPT-4 | **93.6%** | **70.2%** | Yes | 500 | 2024-04-12 |
-| UD_Irish-IDT | 2.7 | GPT-4 | **93.6%** | **73.1%** | Yes | 500 | 2024-04-12 |
-| UD_Irish-IDT | 2.8 | GPT-4 | 93.3% | 69.7% | Yes | 500 | 2024-04-12 |
-| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.4% | 62.1% | Yes | 144 | 2024-04-27 |
-| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.3% | 60.6% | Yes | 500 | 2024-04-11 |
-| UD_Turkish-BOUN | 2.11 | GPT-4 | **88.7%** | **63.3%** | Yes | 500 | 2024-04-11 |
-| UD_Turkish-BOUN | 2.8 | Llama-3-70B-T | 84.3% | 51.0% | Yes | 500 | 2024-04-19 |
-| UD_Turkish-BOUN | 2.11 | Llama-3-70B-T | **85.1%** | **53.4%** | Yes | 500 | 2024-04-19 |
-| UD_Turkish-BOUN | 2.8 | trendyol_Trendyol-LLM-7b-chat-v1.0 | 61.0% | 20.2% | Yes | 158 | 2024-04-27 |
+| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date | Special TR |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UD_Basque-BDT | 2.10 | GPT-4 | 85.3% | 46.7% | Yes | 500 | 2024-04-12 | False |
+| UD_Basque-BDT | 2.11 | GPT-4 | **86.4%** | **49.2%** | Yes | 500 | 2024-04-12 | False |
+| UD_Chinese-GSDSimp | 2.11 | GPT-4 | **99.8%** | **97.7%** | Yes | 500 | 2024-04-12 | False |
+| UD_Chinese-GSDSimp | 2.12 | GPT-4 | 99.7% | 96.3% | Yes | 500 | 2024-04-12 | False |
+| UD_English-EWT | 2.12 | GPT-4 | **95.9%** | **83.4%** | Yes | 500 | 2024-04-12 | False |
+| UD_English-EWT | 2.13 | GPT-4 | 95.7% | 82.6% | Yes | 500 | 2024-04-12 | False |
+| UD_Finnish-TDT | 2.13 | GPT-4 | 94.5% | 76.3% | Yes | 500 | 2024-03-12 | False |
+| UD_Highland_Puebla_Nahuatl-ITML | 2.13 | GPT-4 | 81.4% | 54.9% | Yes | 137 | 2024-04-12 | False |
+| UD_Hindi-HDTB | 2.9 | GPT-4 | 93.5% | 68.7% | Yes | 500 | 2024-04-12 | False |
+| UD_Hindi-HDTB | 2.10 | GPT-4 | **93.6%** | **70.2%** | Yes | 500 | 2024-04-12 | False |
+| UD_Irish-IDT | 2.7 | GPT-4 | **93.6%** | **73.1%** | Yes | 500 | 2024-04-12 | False |
+| UD_Irish-IDT | 2.8 | GPT-4 | 93.3% | 69.7% | Yes | 500 | 2024-04-12 | False |
+| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.5% | 62.1% | Yes | 165 | 2024-04-27 | True |
+| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.3% | 60.6% | Yes | 500 | 2024-04-11 | False |
+| UD_Turkish-BOUN | 2.11 | GPT-4 | **88.7%** | **63.3%** | Yes | 500 | 2024-04-11 | False |
+| UD_Turkish-BOUN | 2.8 | Llama-3-70B-T | 84.3% | 51.0% | Yes | 500 | 2024-04-19 | False |
+| UD_Turkish-BOUN | 2.11 | Llama-3-70B-T | **85.1%** | **53.4%** | Yes | 500 | 2024-04-19 | False |
+| UD_Turkish-BOUN | 2.8 | Trendyol-LLM-7b-chat-v1.0 | 61.0% | 21.8% | Yes | 500 | 2024-04-27 | False |
