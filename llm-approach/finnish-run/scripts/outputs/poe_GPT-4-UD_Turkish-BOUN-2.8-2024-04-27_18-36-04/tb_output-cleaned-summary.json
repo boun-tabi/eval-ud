@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8847866001642324,
+    "average ratio": 0.8892196070029255,
     "results": {
         "ins_822": {
             "ratio": 1.0,
@@ -825,8 +825,903 @@
             "ratio": 0.92,
             "original text": "Yeter ki önemli olduğunu düşündüğünüz şeyi iyice bir eleyin ve bakın bakalım hayatınızın gidişatını engelliyor mu, engellemiyor mu?",
             "output text": "Yeter ki önemli olan düşündüğün şeyi iyice bir ele al ve bakalım hayatınızın gidişatını engelliyor mu, engellemiyor mu?"
+        },
+        "pop_1066": {
+            "ratio": 0.427,
+            "original text": "Yatırımı Bolu'ya kaydırdı...",
+            "output text": "```json\n{\"original_form\": \"Bolu'ya yatırımı kaydırdı...\"}\n```"
+        },
+        "pop_1469": {
+            "ratio": 0.995,
+            "original text": "İnsanların güvenlik kaygısı arttıkça ahşap kapılar söküldü; Türkiye, \"çelik kapılı ülke\" oldu.",
+            "output text": "İnsanların güvenlik kaygısı arttıkça, ahşap kapılar söküldü; Türkiye, \"çelik kapılı ülke\" oldu."
+        },
+        "news_311": {
+            "ratio": 0.946,
+            "original text": "Ben de son deplasmanda bazı şeyler öğrendim.",
+            "output text": "Ben de sondaki deplasmanda bazı şeyleri öğrendim."
+        },
+        "ins_1365": {
+            "ratio": 0.88,
+            "original text": "Fatma Hanım ise onun favorisi olan tostu mümkün olan en büyük şekilde hazırlamakla meşgul oluyordu.",
+            "output text": "Fatma Hanım eğer onun favori olan tostu mümkün olan en büyük şekilde hazırlamış ol meşguldü."
+        },
+        "news_1471": {
+            "ratio": 0.814,
+            "original text": "Khazirabi'nin ülkesinde kumarhaneye gitmenin yasak olduğunu bilmesine rağmen bu hareketi yapması şaşkınlıkla karşılanırken, genç oyuncunun futbol kariyerinin bittiği ifade ediliyor.",
+            "output text": "Khazirabi ülkesinde kumarhaneye gitmesi yasak olmuş olduğu halde bu hareketi yapınca şaşkınlaşıyor, genç oyuncunun futbol kariyeri bitmiş ifade ediliyor."
+        },
+        "bio_1999": {
+            "ratio": 0.767,
+            "original text": "Ahmet'in geri dönmesini kararlaştırdık.",
+            "output text": "Ahmet'in geri dönüş kararı verdik."
+        },
+        "pop_331": {
+            "ratio": 0.669,
+            "original text": "İşleri o sınıflar yapar, nemalanacaklarsa onlar nemalanır, zarar göreceklerse onlar zarar görür (üç kuruş da onlar alasıymış ne iyi olurmuş).",
+            "output text": "İşleri o sınıf yapıyor, neması olsa onu nema yapar, zararı görürler o zarar görür (üç kuruş da onlar alsa ne iyi olur)."
+        },
+        "news_1073": {
+            "ratio": 0.789,
+            "original text": "İnsan yaşarken defnedileceği mezar armağan olarak verilir mi?\" sözleriyle bu duruma tepki gösterdi.",
+            "output text": "İnsan yaşayıp defnedilmesini mezar armağan olsun mu? \"Sözler bu duruma tepki gösterdi."
+        },
+        "ins_1067": {
+            "ratio": 1.0,
+            "original text": "Yarını iple çekiyorum.",
+            "output text": "Yarını iple çekiyorum."
+        },
+        "ess_1184": {
+            "ratio": 1.0,
+            "original text": "1955'in 6 Eylül günüydü.",
+            "output text": "1955'in 6 Eylül günüydü."
+        },
+        "bio_51": {
+            "ratio": 0.915,
+            "original text": "Rehberimiz yılların verdiği ustalıkla, önünde durduğumuz her yapı hakkında bilgi veriyor bize.",
+            "output text": "Rehber yıllar verdiği ustalıkla, önünde duran her yapı hakkında bilgi veriyor bize."
+        },
+        "news_1823": {
+            "ratio": 0.922,
+            "original text": "İkinci çeyreğe Mustafa Abi'nin yerine Ender'le başlayan Efes, Diamantidis ve Lakovic'in serbest atışlarıyla farkın 8 sayıya çıkmasına engel olamadı.",
+            "output text": "İki çeyrekte Mustafa Abi'nin yeriyle Ender'le başlayan Efes, Diamantidis ve Lakovic'in serbest atışlarındaki fark 8 sayıya çıkınca engel olunamadı."
+        },
+        "bio_1366": {
+            "ratio": 0.2,
+            "original text": "PARANIN ARKASINDA NE VAR?",
+            "output text": "Paranın arkasında ne var?"
+        },
+        "pop_1662": {
+            "ratio": 1.0,
+            "original text": "Ama şimdi söylüyorum işte.",
+            "output text": "Ama şimdi söylüyorum işte."
+        },
+        "pop_657": {
+            "ratio": 1.0,
+            "original text": "Renkler sahte ve karmakarışıktı çünkü...",
+            "output text": "Renkler sahte ve karmakarışıktı çünkü..."
+        },
+        "ins_630": {
+            "ratio": 0.932,
+            "original text": "1924'ten beri de kış sporlarının yer aldığı Kış olimpiyatları düzenleniyor.",
+            "output text": "1924'ten beri de kış sporları yer almış kış olimpiyatları düzenleniyor."
+        },
+        "news_820": {
+            "ratio": 0.965,
+            "original text": "Bir süre tüketici programı da hazırlayan Soysal'ın yaşamındaki değişiklik yemek programıyla başlamış.",
+            "output text": "Bir süre tüketim programını da hazırlayan Soysal'ın yaşamında değişiklik yemek programıyla başlamış."
+        },
+        "ess_1128": {
+            "ratio": 0.867,
+            "original text": "\"Baba\" deriz, \"baba ölüm nedir?",
+            "output text": "\"Baba\" dedik, \"baba ölüm ne?\""
+        },
+        "news_353": {
+            "ratio": 0.94,
+            "original text": "Amatör Küme'ye yükselen Ortaklarspor'un takım kaptanlığını da yapan baba Ali Kurtöz, savunma oyuncusu olan oğlunun iyi bir futbolcu olması için çaba sarfediyor.",
+            "output text": "Amatör kümeye yükselen Ortaklarspor takımının kaptanı da yapan baba Ali Kurtöz, savunma oyununu olan oğlunun iyi bir futbolcu olması için çaba sarf ediyor."
+        },
+        "bio_1378": {
+            "ratio": 1.0,
+            "original text": "Akıllıca bir laf etti.",
+            "output text": "Akıllıca bir laf etti."
+        },
+        "ins_38": {
+            "ratio": 0.889,
+            "original text": "Saçlarından tutup birer birer,",
+            "output text": "Saçlarından tut bir bir,"
+        },
+        "pop_1562": {
+            "ratio": 1.0,
+            "original text": "Malzemeler:",
+            "output text": "Malzemeler:"
+        },
+        "ess_155": {
+            "ratio": 0.941,
+            "original text": "Her ne kadar burçlara inanmasam da burcumun bazı özelliklerini birebir yansıtmaktayım.",
+            "output text": "Her ne kadar burçlara inanmasam da burcumun bazı özelliklerini birebir yansıtıyorum."
+        },
+        "bio_982": {
+            "ratio": 0.921,
+            "original text": "Zaten olsaydım bu günlere de gelemezdim.",
+            "output text": "Zaten olsaydım bu günlere de gelmem."
+        },
+        "ess_1720": {
+            "ratio": 0.809,
+            "original text": "ÇEVİR KAZI YANMASINKendi içindeki bu çatışma, yalnızca o beyinsizler arasında dönüp dursa iyi...",
+            "output text": "Çevir Kazı Yanı kendi içindeki bu çatışma, yalnızca o beyinler arasında dönüp duruyor iyi..."
+        },
+        "pop_733": {
+            "ratio": 0.936,
+            "original text": "Japon Denizi'nin ortasında, bir gemi enkazına tutunmuş 3-4 Japon balıkçı Sahil Güvenlik tarafından kurtarılmış.",
+            "output text": "Japon Deniz'in ortasında, bir gemi enkazına tutunan 3-4 Japon balıkçı sahil güvenlik tarafından kurtarıldı."
+        },
+        "ess_130": {
+            "ratio": 0.893,
+            "original text": "Bölgelerinden ayrılmayanlar bile kırdan kente göç ettiler...",
+            "output text": "Bölgelerden ayrılmayanlar bile kırılmış kente göç etmişler..."
+        },
+        "ess_1679": {
+            "ratio": 0.945,
+            "original text": "Kimse bana bir şey sormasa.",
+            "output text": "Kimse bana bir şey sormasın."
+        },
+        "ins_786": {
+            "ratio": 0.798,
+            "original text": "Araştırmalar gösteriyor ki insanoğlu olarak bizler, genelde duygularıyla hareket eden varlıklarız.",
+            "output text": "Araştırmalar gösteriyor ki insanoğlu bizimle, genel olarak duygularla hareket ediyor."
+        },
+        "pop_373": {
+            "ratio": 0.947,
+            "original text": "Bu hafif beyaz sakallı, nur yüzlü ve çok nazik bilim adamının o gün gösterdiği ilgiyi unutamam.",
+            "output text": "Bu hafif beyaz sakallı, nur yüzlü ve çok nazik bilim adamı o gün gösterdiği ilgiyi unutmuyorum."
+        },
+        "bio_494": {
+            "ratio": 1.0,
+            "original text": "O arada bir arsa aldım.",
+            "output text": "O arada bir arsa aldım."
+        },
+        "bio_1719": {
+            "ratio": 0.915,
+            "original text": "Bir yandan da \"Buranın çıkışı vardır, burada yılan vardır\" diye düşünüp kendi kendime gülüyorum.",
+            "output text": "Bir yandan da \"buranın çıkışı var, burada yılanı var\", diye düşün kendine kendine gülüyorum."
+        },
+        "ins_497": {
+            "ratio": 1.0,
+            "original text": "Ne yol bitiyor ne yeşil ne de mavi.",
+            "output text": "Ne yol bitiyor ne yeşil ne de mavi."
+        },
+        "bio_1507": {
+            "ratio": 0.892,
+            "original text": "İçimde ne olduğunu bilmediğim tuhaf bir şeyin cız ettiğini somut olarak duydum.",
+            "output text": "İçimde ne olduğunu bilmediğim tuhaf bir şey cız ettiği somut olmuştu."
+        },
+        "ess_1565": {
+            "ratio": 0.841,
+            "original text": "Putunu kendi yapar kendi tapar. \" Ben kendimle konuşuyorum ama kimseyle konuşmak istemediğim için yapıyorum bunu.",
+            "output text": "Kendi putunu yaparken kendi tapıyor. \"Ben kendiyle konuşuyorum, ama kimseyle konuşulmasını istemedim için yapıyorum bu.\""
+        },
+        "pop_283": {
+            "ratio": 0.952,
+            "original text": "O zamanlar orada çok zaman geçiriyordum, fazla puan yapmak için.",
+            "output text": "O zamanlar orada çok zaman geçirdim, fazla puan yapmak için."
+        },
+        "news_775": {
+            "ratio": 0.735,
+            "original text": "\"Alıp Götürsen Beni Oraya\"",
+            "output text": "\"Al, götür beni oraya.\""
+        },
+        "ess_1105": {
+            "ratio": 0.854,
+            "original text": "Musa'yı durduran Emevi halifesi ve yakınlarının haklı bir sebepleri var mıydı acaba?",
+            "output text": "Musa durduğu Emevi halifesi ve yakınları hakkında bir sebep var mı acaba?"
+        },
+        "bio_379": {
+            "ratio": 0.977,
+            "original text": "Bir türlü değişemiyor.",
+            "output text": "Bir türlü değişmiyor."
+        },
+        "ins_1553": {
+            "ratio": 0.8,
+            "original text": "Çevremdeki insanlardan daha küçüğüm.",
+            "output text": "**\"Çevremde insan daha küçüğüm.\"**"
+        },
+        "pop_1648": {
+            "ratio": 0.954,
+            "original text": "O hangi işle meşgul olursa olsun son derece dikkatlidir.",
+            "output text": "O hangi işle meşgul olursa olsun, son derece dikkati."
+        },
+        "pop_876": {
+            "ratio": 0.938,
+            "original text": "Eee, ne de olsa Necip Mirkelamoğlu'nun yeğeni değil miydi?",
+            "output text": "EEE, ne de olsa Necip Mirkelamoğlu'nun yeğeni değil mi?"
+        },
+        "ins_1860": {
+            "ratio": 0.814,
+            "original text": "Annesi, hiçbir şey yapmıyormuş.",
+            "output text": "Anne, hiçbir şey yapılmamış."
+        },
+        "news_1270": {
+            "ratio": 0.752,
+            "original text": "Kendi üzerime düşeni yaptım, bundan sonrasına karışmam diyemem\" şeklinde konuştu.",
+            "output text": "Kendi üzerinde düştüm, bu sonradan karışmam dedi, şekilde konuşuldu."
+        },
+        "news_1501": {
+            "ratio": 0.906,
+            "original text": "Daha önce Ferrari'yle test sürüşleri yapan, hatta F1'e geçmesi bile gündeme gelen Rossi, bu defa Dünya Ralli Şampiyonası'nın Yeni Zelanda ayağında ortaya çıktı.",
+            "output text": "Daha önce Ferrari ile test sürüşleri yapıp, hatta F1'e bile geçmiş gündeme geldi Rossi, bu defa Dünya ralli şampiyonasının Yeni Zelanda ayağında ortaya çıktı."
+        },
+        "pop_1008": {
+            "ratio": 0.889,
+            "original text": "\"Kobra Öztürk\"",
+            "output text": "Kobra Öztürk."
+        },
+        "news_1386": {
+            "ratio": 0.955,
+            "original text": "Harekat sırasında en az 28 sivil de hayatını kaybetmişti.",
+            "output text": "Harekât sırasında en az 28 sivil de hayatını kaybetti."
+        },
+        "bio_402": {
+            "ratio": 0.909,
+            "original text": "Belirlenen gün Eminönü Halkevi'ne gittik, çeşitli fakülte mensubu kızlarla delikanlılar fikirlerini ortaya koyuyorlardı.",
+            "output text": "Belirlenen gün Eminönü Halkevi'ne git, çeşitli fakülte mensup kızlarla ve delikanlılar fikirleri ortaya koymuş."
+        },
+        "bio_455": {
+            "ratio": 0.849,
+            "original text": "Abdülhamit'in dönemine ve gezip gördüğü yerlere ait anlattıkları, hele yılan eti yemek zorunda kaldığı günler, hurmaların toplanışına ait anıları belleğimden hiç silinmemiştir.",
+            "output text": "Abdülhamit döneminde gezilip görülen yerler ait anlatıldı, hele yılan eti yemenin zor olduğu kalmış günler, hurmalar toplanmış ait anılardan belleğimden hiç silinmemiş."
+        },
+        "ins_165": {
+            "ratio": 0.943,
+            "original text": "Nihayet kasaya yaklaşmıştım.",
+            "output text": "Nihayet kasaya yaklaştım."
+        },
+        "bio_1635": {
+            "ratio": 0.971,
+            "original text": "Yeter ki bana bir gün önceden haber ver, hazırlığımı ona göre yapayım.\"",
+            "output text": "Yeter ki bana bir gün önce haber ver, hazırlığımı ona göre yapayım."
+        },
+        "news_328": {
+            "ratio": 0.901,
+            "original text": "Hastalar sabah kalktıklarında kendilerini yorgun ve güçsüz hissederler.",
+            "output text": "Hastalar sabah kalkışında kendini yorgun ve güçsüz hisseder."
+        },
+        "news_909": {
+            "ratio": 0.97,
+            "original text": "- İstanbul size neyi hatırlatıyor?",
+            "output text": "- İstanbul size ne hatırlatıyor?"
+        },
+        "pop_291": {
+            "ratio": 1.0,
+            "original text": "Artist: Perran Kutman",
+            "output text": "Artist: Perran Kutman"
+        },
+        "news_1268": {
+            "ratio": 1.0,
+            "original text": "Bosna-Hersek'te Türk firmalarının yatırımı hızla artıyor.",
+            "output text": "Bosna-Hersek'te Türk firmalarının yatırımı hızla artıyor."
+        },
+        "ess_1893": {
+            "ratio": 0.88,
+            "original text": "Fakat adam oğlunu mutlu etmeyi o kadar arzular ki, aklına çalıntı bisiklet almak gelir.",
+            "output text": "Fakat adam oğlunu mutlu ettiği kadar arzular ki, akla çalınan bisikleti al gel."
+        },
+        "ins_639": {
+            "ratio": 0.966,
+            "original text": "Benim de içimi üzüntü kapladı.",
+            "output text": "Ben de içimi üzüntü kapladı."
+        },
+        "pop_1675": {
+            "ratio": 0.988,
+            "original text": "Enginarlar yumuşayınca süt kreması, tuz ve karabiberi ilave edip 5 dakika daha pişirin.",
+            "output text": "Enginarlar yumuşayınca süt kreması, tuz ve karabiberi ilave edip 5 dakika daha pişir."
+        },
+        "pop_1970": {
+            "ratio": 0.932,
+            "original text": "(4)'le belirtilen ve Güneş'in diğer yanında kalan büyük gezegen Jüpiter'dir.",
+            "output text": "(4)'de belirlenen ve Güneş'in diğer yanında kalan büyük gezegen Jüpiter."
+        },
+        "pop_1346": {
+            "ratio": 0.918,
+            "original text": "Kova, Evrensel Burçlar arasında insancılık, bireycilik ve ideal toplum arasındaki çelişkilerin farkına varan burçtur.",
+            "output text": "Kova, Evrensel burçlar arasında insan, birey ve ideal toplum arasındaki çelişkilerin farkında var burç."
+        },
+        "pop_991": {
+            "ratio": 0.975,
+            "original text": "Kabakları temizleyip iri iri rendeleyip fazla suyunu sıkın.",
+            "output text": "Kabakları temizleyip iri iri rendeleyin, fazla suyunu sıkın."
+        },
+        "pop_1828": {
+            "ratio": 0.889,
+            "original text": "O zaman da yandı gülüm keten helva oluyor.",
+            "output text": "O zaman da yanmış Gülümke helva oluyor."
+        },
+        "news_1436": {
+            "ratio": 0.974,
+            "original text": "Bu da bizi sevindiriyor.\" diye konuştu.",
+            "output text": "Bu da bizi sevindiriyor diye konuştu."
+        },
+        "news_130": {
+            "ratio": 0.849,
+            "original text": "\"Dünyadaki en önemli neyzenlerden biri\" olarak kabul edilen Umumi, neyin hüzünlü sesiyle kendi yaşamındaki acıların örtüştüğünü söylüyor.",
+            "output text": "\"Dünya'nın en önemli neyzenlerinden biri olarak kabul edilen Umumi, ne hüzünlü sesi kendi yaşamının acılarıyla örtüşüyor.\""
+        },
+        "news_1230": {
+            "ratio": 0.922,
+            "original text": "Buna göre maçlar ikişer dakikadan üç devre üzerinden yapılacak ve iki seti kazanan güreşçi müsabakadan galip ayrılacak.",
+            "output text": "Bu göre maçlar iki dakikadan üç devresi üzer yapılacak ve iki set kazanan güreş müsabakasından galip ayrılacak."
+        },
+        "ess_605": {
+            "ratio": 0.879,
+            "original text": "Konumuz varsa başlayalım mı artık?",
+            "output text": "Konumuz var mı başlayalım artık?"
+        },
+        "news_1447": {
+            "ratio": 0.884,
+            "original text": "Akakçe alanın tümünü kullanarak mekân düzenlemesine de giriyor.",
+            "output text": "Akakçe'nin alanı tümünü kullanarak mekânını düzenleyip de giriyor."
+        },
+        "bio_536": {
+            "ratio": 0.885,
+            "original text": "\"Heyhat! Atatürk, belki karakterinin yüceliğinden, kendi sağlığını koruyamadı.",
+            "output text": "\"Heyhat! ATATÜRK, belki karakterinin yüceliğinden, kendi sağlığını korumamış.\""
+        },
+        "pop_1459": {
+            "ratio": 0.964,
+            "original text": "İkisi de ayrı ayrı sağ olsun.",
+            "output text": "İki de ayrı ayrı sağ olsun."
+        },
+        "pop_631": {
+            "ratio": 0.842,
+            "original text": "Osman Hamdi Bey, Sadrazam İbrahim Ethem Paşa'nın oğluydu.",
+            "output text": "Osman Hamdi Bey, İbrahim Ethem Paşa'nın sadrazam oğluydu."
+        },
+        "pop_784": {
+            "ratio": 0.971,
+            "original text": "Çok sıkı tutmayın.",
+            "output text": "Çok sık tutmayın."
+        },
+        "bio_1035": {
+            "ratio": 0.903,
+            "original text": "Akşama doğru karnı iyice şişti.",
+            "output text": "Akşam doğru karın iyice şişmiş."
+        },
+        "bio_787": {
+            "ratio": 0.948,
+            "original text": "Asansörün kapısını açtılar ve tam o sırada asansörün içinden mi, kıyısından mı, oralardan bir yerden, başbakanın ayaklarına doğru bir sıçan fırladı.",
+            "output text": "Asansör kapısını açtılar ve tam o sırada asansörden mi, kıyıdan mı, oralardan bir yerden mi, başbakanın ayaklarına doğru bir sıçan fırladı."
+        },
+        "news_145": {
+            "ratio": 0.85,
+            "original text": "Postmodernleşen dünyayla birlikte edebiyatın algılanışı da dönüştü; giderek bir eğlence nesnesi, hoşça vakit geçirme aracı olarak değerlendiriliyor.",
+            "output text": "Postmodern Dünya ile birlikte edebiyat algısı da dönüştü; git bir eğlence nesnesi, hoş vakit geçirme aracı ol ve değerlendir."
+        },
+        "ess_1407": {
+            "ratio": 0.989,
+            "original text": "İstanbul'un varoşlarında ise durum tam tersi.",
+            "output text": "İstanbul'un varoşlarında ise durum tam ters."
+        },
+        "pop_581": {
+            "ratio": 1.0,
+            "original text": "Fırını önceden 125 dereceye ısıtın.",
+            "output text": "Fırını önceden 125 dereceye ısıtın."
+        },
+        "ins_404": {
+            "ratio": 1.0,
+            "original text": "Perdeler yavaşça açıldı.",
+            "output text": "Perdeler yavaşça açıldı."
+        },
+        "pop_987": {
+            "ratio": 0.78,
+            "original text": "\"Aaa... Çok teşekkür ederim.",
+            "output text": "\"AAA... çok teşekkür ediyorum.\""
+        },
+        "pop_385": {
+            "ratio": 0.849,
+            "original text": "Bir keresinde de bir gay arkadaşımla gay kanalına girmiştim.",
+            "output text": "Bir kerede bir gay arkadaşım gay kanala girdi."
+        },
+        "bio_1236": {
+            "ratio": 0.649,
+            "original text": "Siz duymadınız denizlere olan hasreti",
+            "output text": "Siz denizlere olacak hasreti duymadınız."
+        },
+        "ess_1305": {
+            "ratio": 0.828,
+            "original text": "Anlamaya çalışıyorum işte...",
+            "output text": "**\"Anlaya çalışıyorum iş...\"**"
+        },
+        "pop_1088": {
+            "ratio": 1.0,
+            "original text": "2 çorba kaşığı tereyağı",
+            "output text": "2 çorba kaşığı tereyağı"
+        },
+        "bio_1443": {
+            "ratio": 0.545,
+            "original text": "Asıl bizi ilgilendiren varil başına alacağımız ücrettir.",
+            "output text": "Asıl biz varilin başına ilgileniyor ücreti."
+        },
+        "news_1790": {
+            "ratio": 0.982,
+            "original text": "Türk göçmenin davası başladı",
+            "output text": "Türk göçmenin davası başladı."
+        },
+        "bio_237": {
+            "ratio": 1.0,
+            "original text": "Zemin nasıldı? İçeride kaç kamp vardı?",
+            "output text": "Zemin nasıldı? İçeride kaç kamp vardı?"
+        },
+        "bio_876": {
+            "ratio": 0.943,
+            "original text": "Çünkü şampanya içiliyormuş.",
+            "output text": "Çünkü şampanya içiliyordu."
+        },
+        "ess_71": {
+            "ratio": 0.79,
+            "original text": "Herkesin koşarak yürüdüğü İstanbul caddelerinde, ister istemez katılıyordunuz bu eldesiz maratona.",
+            "output text": "**\"Herkes koşarak yürüdüğü İstanbul caddelerinde, ister istemez, bu elinizdeki maratona katıldınız.\"**"
+        },
+        "bio_1748": {
+            "ratio": 0.872,
+            "original text": "Bizim oğlan sana âşık, o sensiz yapamaz.",
+            "output text": "Bizim oğlan sana âşık, o sen yapmıyor."
+        },
+        "news_1736": {
+            "ratio": 0.894,
+            "original text": "Özcan, Üniversitelerarası Kurul (ÜAK) kontenjanlı iki üye bulamamaları halinde yürütme kurulunu 7 kişi işleteceğini açıkladı.",
+            "output text": "Özcan, Üniversitelerarası Kurul (ÜAK) kontenjan iki üye bulamayan hallerde yürütülecek kurulu 7 kişi işleyeceği açıkladı."
+        },
+        "pop_7": {
+            "ratio": 0.822,
+            "original text": "Zaman zaman 25'e çıkan ve 15'in altına düşmeyen YÜKSEK TANSİYON, Manço kadar doktorlarını da düşündürüyor!",
+            "output text": "Zaman zaman 25'e çıkıp ve 15'in altına düşmeyen yüksek tansiyonumuz, Manço kadar doktorları da düşündürüyor!"
+        },
+        "news_1482": {
+            "ratio": 0.333,
+            "original text": "SIFIR AÇLIK:",
+            "output text": "Sıfır Açlık:"
+        },
+        "ins_1181": {
+            "ratio": 0.857,
+            "original text": "İki veli dokunulsa ağlayacaktı.",
+            "output text": "İki veli dokunduğunda ağlayacak."
+        },
+        "news_1167": {
+            "ratio": 0.949,
+            "original text": "Ayrıca Meclis'in fazla mesai yapması konusunun da ele alınacağı ifade ediliyor.",
+            "output text": "Ayrıca Meclis'in fazla mesai yapması konusunda da el alınacak ifade ediliyor."
+        },
+        "pop_523": {
+            "ratio": 0.857,
+            "original text": "Hayatta kalanların ilk tepkisi, \"Suuu...\" bağırışları...",
+            "output text": "**\"Hayatta kalanların ilk tepkisi, 'Suuu' bağırışı...\"**"
+        },
+        "bio_1431": {
+            "ratio": 0.778,
+            "original text": "Sevgilerin yaşadığına tanıklık ettiler.",
+            "output text": "Sevgilerin yaşanmış tanıklığı et."
+        },
+        "news_944": {
+            "ratio": 0.887,
+            "original text": "Aynı dönem içinde net asgari ücret ise 3.2 arttırıldı.",
+            "output text": "Aynı dönemin içinde net asgari ücreti 3.2 artmıştır."
+        },
+        "ins_932": {
+            "ratio": 0.896,
+            "original text": "Edison bu buluşuyla 42 yaşında tüm dünyanın hayranlığını bir kez daha kazanıyordu.",
+            "output text": "Edison bu buluşla 42 yaşında tüm Dünya'nın hayranı bir kez daha kazandı."
+        },
+        "pop_1413": {
+            "ratio": 0.908,
+            "original text": "Kur'an-ı Kerim'de \"İşte bu, kavmine karşı İbrahim'e verdiğimiz delillerimizdir\" buyuruluyor.",
+            "output text": "Kur'an-ı Kerim, \"işte bu, kavmine karşı İbrahim'e verdiğimiz delilleri buyuruyor.\""
+        },
+        "pop_328": {
+            "ratio": 0.959,
+            "original text": "Çok sağlıklı olmayan kaynaklardan elde ettiğim bilgilere göre ÇKP'nin bugünkü üye sayısı 60 milyon dolayında.",
+            "output text": "Çok sağlıklı olmayan kaynaklardan elde edilen bilgilere göre ÇKP'nin bugünkü üye sayısı 60 milyon dolayında."
+        },
+        "bio_181": {
+            "ratio": 1.0,
+            "original text": "- Şefik, yarın Hermes'ten Turgut Bey'le görüşeceğim.",
+            "output text": "- Şefik, yarın Hermes'ten Turgut Bey'le görüşeceğim."
+        },
+        "bio_1536": {
+            "ratio": 0.964,
+            "original text": "Stüdyoyu bir başka spiker arkadaşa emanet edip gidiyorum.",
+            "output text": "Stüdyoyu bir başka spiker arkadaşa emanet et gidiyorum."
+        },
+        "pop_1085": {
+            "ratio": 1.0,
+            "original text": "15 adet kürek hareketi (sol bacak ile)",
+            "output text": "15 adet kürek hareketi (sol bacak ile)"
+        },
+        "bio_1020": {
+            "ratio": 0.968,
+            "original text": "- Burası sizin fabrikanız, tabii ki gezeceksiniz.",
+            "output text": "- Burası sizin fabrika, tabii ki gezeceksiniz."
+        },
+        "ess_1612": {
+            "ratio": 0.762,
+            "original text": "Fenalık geçirip yere yığılmaları.",
+            "output text": "Fena geçirilen yere yığılıyor."
+        },
+        "ess_149": {
+            "ratio": 0.8,
+            "original text": "Baydemir, bununda farkında mıdır? İsmini dedem yabancı bir filmden almış.",
+            "output text": "Baydemir, bunu fark mı ediyor? Dede, yabancı bir filmden aldı."
+        },
+        "news_1320": {
+            "ratio": 0.931,
+            "original text": "Internet Security Systems'a (ISS) göre, son bir yılda internet alan adlarının sayısı yüzde 21, yeni Web sayfalarının sayısı ise yüzde 17 arttı.",
+            "output text": "Internet Security Systems (ISS) göre, son bir yıl içinde İnternet'in adlarının sayısı yüzde 21, yeni Web sayfalarının sayısı ise yüzde 17 artmış."
+        },
+        "ess_1185": {
+            "ratio": 0.968,
+            "original text": "Şu son yıllarda bile, hâlâ öğrenemediniz mi bunu?",
+            "output text": "Şu son yıllarda bile, hâlâ öğrenmediniz mi bu?"
+        },
+        "news_1118": {
+            "ratio": 0.818,
+            "original text": "Böyle bir bağlantı ortaya çıkarsa kurum içinde değerlendirme yapılacaktır.",
+            "output text": "Böyle bir bağlantı orta çıkış kurumun içinde değerlendirilecek."
+        },
+        "news_8": {
+            "ratio": 0.975,
+            "original text": "Mısır yetkililerinin sınırda ilk kez Türk vatandaşlarını tutukladığı öne sürüldü.",
+            "output text": "Mısır yetkilileri sınırda ilk kez Türk vatandaşlarını tutukladığı ön sürüldü."
+        },
+        "ess_1094": {
+            "ratio": 0.825,
+            "original text": "Dünya katmanlarına girdiğimde, birileri benim enerjimi ifade ettiğim şekilde değil, kendi enerji ifade edişiyle duygu, görüntü, hissediş olarak algılayacaktır.",
+            "output text": "Dünya katmanlarına girilmiş, biri benim enerjimi ifade etmiş şekilde değil, kendi enerjisini ifade etmiş şekilde, duyguları, görüntüleri, hissetleri algılayacak."
+        },
+        "pop_1872": {
+            "ratio": 0.905,
+            "original text": "Onlar beni tanır; benim şeriatımla yaşarlar.",
+            "output text": "Onlar beni tanıyorlar; benim şeriatımla yaşıyorlar."
+        },
+        "pop_426": {
+            "ratio": 0.825,
+            "original text": "Daha sonra çırpmaya ara vermeden kaynar sebzeli sudan kaşık kaşık alıp, terbiyenin içine katın.",
+            "output text": "**\"Daha sonra çırpıp ver, kaynar sebze sudan kaşık kaşık al, terbiye içine kat.\"**"
+        },
+        "ess_373": {
+            "ratio": 0.891,
+            "original text": "\"Mekân\" deyince kişinin doğrudan kendinin yaşayacağı odalar, evi vb.",
+            "output text": "\"Mekân\" dediği kişi doğrudan kendi yaşayacağı odalar, ev vb."
+        },
+        "ess_1749": {
+            "ratio": 0.94,
+            "original text": "Ecvet Bey'le Nadir Bey'in ilkelerinin uyuşmadığını söyledi.",
+            "output text": "Ecvet Bey'in Nadir Bey'in ilkelerine uyuşmadığını söyledi."
+        },
+        "pop_1671": {
+            "ratio": 0.824,
+            "original text": "Kızılcıkları yıkayıp süzün.",
+            "output text": "Kızılları yıkayınca süz."
+        },
+        "ess_1569": {
+            "ratio": 0.844,
+            "original text": "bir bakıma manen ve maddeten yeryüzünden silinmesi demekmiş.",
+            "output text": "Bir bakıma manen ve maddeden yeryüzü silinmiş de."
+        },
+        "pop_958": {
+            "ratio": 0.891,
+            "original text": "Mars enerjisini Merkür'e aktararak iletişimi güçlendirirken, Merkür Mars'ın zihinselliğini alarak entellektüel bir boyut kazanacaktır.",
+            "output text": "Mars enerjiyi Merkür'e aktarırken iletişimi güçlendir, Merkür Mars'ın zihinsel yeteneklerini alarak entellektüel bir boyut kazanacak."
+        },
+        "ins_1405": {
+            "ratio": 0.831,
+            "original text": "Öğürtü ile beraber kan gelirse bunun tahrişe bağlı olduğunu anlatıp sakinleştirmek gerekir.",
+            "output text": "Öğürtü ile beraber kan gelse bu tahrişe bağlı olanı anlatırken sakin gerek."
+        },
+        "bio_1682": {
+            "ratio": 0.855,
+            "original text": "\"İnsanlar dünyanın dört bir köşesinden Ani'yi görmeye geliyorlar...\"",
+            "output text": "İnsanlar Dünya'nın dört bir köşesinden Ani'yi görüyor..."
+        },
+        "ins_1574": {
+            "ratio": 0.968,
+            "original text": "A. Biz Atatürk'ün çocuklarıyız.",
+            "output text": "A! Biz Atatürk'ün çocuklarıyız."
+        },
+        "ess_1513": {
+            "ratio": 0.94,
+            "original text": "Meriç Nehri'nde coşar, Fırat kıyılarında durulur, Kızılırmak'ta hoyrat çığlıklarda buluşurdu.",
+            "output text": "Meriç Nehri'nde Coşar, Fırat'ın kıyılarında durur, Kızılırmak'ta hoyrat çığlıklar buluşur."
+        },
+        "pop_659": {
+            "ratio": 0.929,
+            "original text": "Yarın da bilebilir ki bu hiç üzmez beni, 10 sene de sürebilir, sevinirim...",
+            "output text": "Yarın da bilir ki bu hiç üzmez beni, 10 sene de sürer, sevinir..."
+        },
+        "pop_1403": {
+            "ratio": 0.857,
+            "original text": "Ama alıcıya yani halka ulaştı mı bunlar? Hayır.",
+            "output text": "Ama ala da halka ulaştı mı bu? Hayır."
+        },
+        "ess_422": {
+            "ratio": 1.0,
+            "original text": "VIII.",
+            "output text": "VIII."
+        },
+        "ess_419": {
+            "ratio": 0.945,
+            "original text": "Efsanenin çekiciliği, beyaz saçlı üç delikanlının değil, John Lennon'ın değişmeyen siluetini kazıyacak her Beatles abidesinin üstüne.",
+            "output text": "Efsane çekici, beyaz saçlı üç delikanlı değil, John Lennon'ın değişmeyen silueti kazılacak her Beatles abidesinin üstüne."
+        },
+        "pop_1749": {
+            "ratio": 1.0,
+            "original text": "1 su bardağı su",
+            "output text": "1 su bardağı su"
+        },
+        "bio_1501": {
+            "ratio": 0.973,
+            "original text": "Allahım yardım et.",
+            "output text": "Allah'ım yardım et."
+        },
+        "ins_891": {
+            "ratio": 0.938,
+            "original text": "Atatürkçülükte \"Milli duygu ile dil arasındaki bağ çok kuvvetlidir.",
+            "output text": "Atatürkçülükte \"milli duygu ile dil arasında bağ çok kuvvetli.\""
+        },
+        "bio_83": {
+            "ratio": 0.978,
+            "original text": "Fakat toplumsal bir yararın elde edilmesi bu yöntemle mümkün değildir.",
+            "output text": "Fakat toplumsal bir yararın elde edilmesi bu yöntemle mümkün değil."
+        },
+        "pop_558": {
+            "ratio": 0.852,
+            "original text": "Yozlaşmış bir ortam olduğu için, aile kavramı da dahil herşeyi basite indirgiyordu.",
+            "output text": "Yoz bir ortam olmuştu için, aile kavramı da dahil herşey basitçe indirgenmişti."
+        },
+        "bio_1867": {
+            "ratio": 0.853,
+            "original text": "Alelacele el edip durdurdum ve bindik.",
+            "output text": "Alelacele el ettim, durdum ve bindim."
+        },
+        "bio_1336": {
+            "ratio": 0.953,
+            "original text": "Ferruh Beyin öğrendiğine göre ilacın fiyatı 90 milyon liraymış.",
+            "output text": "Ferruh Bey'in öğrendiğine göre ilacın fiyatı 90 milyon lira imiş."
+        },
+        "ins_619": {
+            "ratio": 0.912,
+            "original text": "Suyu emme yeteneği fazladır.",
+            "output text": "Suyu emme yeteneği fazlaymış."
+        },
+        "ins_888": {
+            "ratio": 0.873,
+            "original text": "Ama sizin soy nedense gider",
+            "output text": "Ama sizin soy neden gidiyor?"
+        },
+        "bio_356": {
+            "ratio": 0.745,
+            "original text": "Dikkat ederseniz bu saydıklarımın hiçbirine özen gösterildiği yok artık konuşmalarda.",
+            "output text": "Dikkat et bu sayıya hiçbiri özen gösterilmiyorsa artık konuşulmuyor."
+        },
+        "ess_556": {
+            "ratio": 0.954,
+            "original text": "Sırtımdan büyük bir yük kalkmıştı.",
+            "output text": "Sırtımdan büyük bir yük kalktı."
+        },
+        "pop_69": {
+            "ratio": 0.973,
+            "original text": "Türkiye şu sıralar akşam Mirkelam'la yatıyor, sabah Mirkelam'la kalkıyor.",
+            "output text": "Türkiye şu sıralar akşam Mirkelâm'la yatıyor, sabah Mirkelâm'la kalkıyor."
+        },
+        "bio_16": {
+            "ratio": 0.882,
+            "original text": "Yoksa benim aklıma bile gelmez öyle şeyler\" demez mi?",
+            "output text": "Yok benim aklıma bile gelmiyor öyle şeyler de mi?"
+        },
+        "pop_1560": {
+            "ratio": 0.837,
+            "original text": "Çiftçiydi ve eğitimsizdi.",
+            "output text": "Çiftçi ve eğitimi."
+        },
+        "news_1197": {
+            "ratio": 0.987,
+            "original text": "\"En küçük oğlum Mahmut Can, çok zekiydi.",
+            "output text": "En küçük oğlum Mahmut Can, çok zekiydi."
+        },
+        "news_1233": {
+            "ratio": 0.889,
+            "original text": "Hükümet kurulduktan sonra Denktaş'ın müzakereleri yürütmesini doğrusu çok arzu ederiz.",
+            "output text": "Hükümet kurulduktan sonra Denktaş'ın müzakereleri yürüttüğü doğru, çok arzu ediyoruz."
+        },
+        "pop_1217": {
+            "ratio": 0.875,
+            "original text": "Bununla birlikte insanlar binlerce yıllık gözlemlerini biriktirip ilerleterek, doğum saatiyle başarı arasında bazı ilgiler yakalamışlardır.",
+            "output text": "Bu birlikte insanlar binlerce yıllık gözlemleri biriktirerek ilerleyip, doğum saati başarısı arasında bazı ilgileri yakalamış."
+        },
+        "news_953": {
+            "ratio": 0.739,
+            "original text": "Argun, 2007 yılında yüksek fırın için çalışmalara başlandığını belirtti.",
+            "output text": "```json\n{\"original_form\": \"Argun, 2007 yılında yüksek fırın için çalışmalara başlanmış belirlendi.\"}\n```"
+        },
+        "ins_1943": {
+            "ratio": 1.0,
+            "original text": "Dost, sırdaş ve nihayet komşuyduk...",
+            "output text": "Dost, sırdaş ve nihayet komşuyduk..."
+        },
+        "news_1854": {
+            "ratio": 0.889,
+            "original text": "Benim için şaka gibiydi\" dedi.",
+            "output text": "Benim için şaka gibiydi."
+        },
+        "bio_1667": {
+            "ratio": 1.0,
+            "original text": "Gece evde gazeteyi okumaya başladım.",
+            "output text": "Gece evde gazeteyi okumaya başladım."
+        },
+        "ins_676": {
+            "ratio": 0.982,
+            "original text": "\"Üniversiteden bulabilirsin.",
+            "output text": "\"Üniversiteden bulabilirsin.\""
+        },
+        "ins_806": {
+            "ratio": 0.872,
+            "original text": "Bütün Türk evlerinde olduğu gibi Ankara evlerinin de bariz özelliği sofaya açılan odalardır.",
+            "output text": "Bütün Türk evlerindeki gibi Ankara evlerinde de bazı özellikleri sofaya açılan odaları."
+        },
+        "ins_486": {
+            "ratio": 0.828,
+            "original text": "Artık birçok otu bulamıyormuş.",
+            "output text": "Artık birçok ot bulunamamış."
+        },
+        "ins_1812": {
+            "ratio": 0.779,
+            "original text": "Neyin ne zaman gerçekleşmesinin istendiği, her bir hedef kitle için oluşturulan sonuçlara ulaşıldığında ne olacağı ile ilgilidir.",
+            "output text": "Ne ne zaman gerçeği istense, her bir hedef kitle için oluşan sonuçlara ulaşacak ne olursa ilgili."
+        },
+        "ess_819": {
+            "ratio": 0.909,
+            "original text": "Videoda filmler, en kalınından romanlar...",
+            "output text": "**\"Videoda filmler, en kalından romanlar...\"**"
+        },
+        "ess_294": {
+            "ratio": 1.0,
+            "original text": "Bilinen ve söylenmeyen bütün sırlar ortaya çıkıyor.",
+            "output text": "Bilinen ve söylenmeyen bütün sırlar ortaya çıkıyor."
+        },
+        "bio_58": {
+            "ratio": 0.974,
+            "original text": "Orada bir arzuhalci var, kör bir adam.",
+            "output text": "Orada bir arzuhâlci var, kör bir adam."
+        },
+        "news_1914": {
+            "ratio": 0.883,
+            "original text": "Ege'de bir uzlaşmanın, ilişkileri iyileştirmek için uygun atmosfer yaratacağı ve yakın gelecekte Ecevit ile Simitis'in bir araya gelmesine imkân sağlayacağına inanılıyor.\"",
+            "output text": "Ege'de bir uzlaşma, ilişkileri iyi için uygun atmosfer yaratacak ve yakın gelecekte Ecevit ile Simitis arasında bir ara gelme imkânı sağlayacak inanılıyor."
+        },
+        "ins_428": {
+            "ratio": 0.894,
+            "original text": "Ese kaşlarını çatmış:",
+            "output text": "Esenin kaşlarını çatmıştı:"
+        },
+        "ins_918": {
+            "ratio": 1.0,
+            "original text": "Gençliğim, heyecanım, gayretim.",
+            "output text": "Gençliğim, heyecanım, gayretim."
+        },
+        "bio_1418": {
+            "ratio": 0.971,
+            "original text": "Hatta ve hatta bir gün belki bütün kötü yolları bırakarak yeni bir hayata başlayacaktır.",
+            "output text": "Hatta ve hat bir gün belki bütün kötü yolları bırakarak yeni bir hayata başlayacak."
+        },
+        "bio_1317": {
+            "ratio": 0.976,
+            "original text": "Nedenini bilemiyorum.",
+            "output text": "Nedenini bilmiyorum."
+        },
+        "bio_1697": {
+            "ratio": 0.878,
+            "original text": "Hatta bir sabah, sözgelimi yedide uyandıracağıma altıda uyandırmışım.",
+            "output text": "Hatta bir sabah, sözgelimi yedide uyan altıda uyandım."
+        },
+        "bio_1504": {
+            "ratio": 0.917,
+            "original text": "(Murat Astsubay'ın sık sık büyük şehirden siparişleri olurdu.)",
+            "output text": "(Murat astsubay sık sık büyük şehirden siparişler oluyor.)"
+        },
+        "ins_289": {
+            "ratio": 0.982,
+            "original text": "Sadece sınıfın içinde, öğrencilerin arasında gezinmiş.",
+            "output text": "Sadece sınıfın içinde, öğrencilerin arasında gezinilmiş."
+        },
+        "news_1836": {
+            "ratio": 0.763,
+            "original text": "1500 yolcu kapasiteli yeni vapurlar, mevcutlardan yüzde 40 daha süratli olacak.",
+            "output text": "Yeni vapurlar 1500 yolcu kapasitesi, mevcut yüzde 40 daha süratli olacak."
+        },
+        "pop_600": {
+            "ratio": 0.92,
+            "original text": "Bir kap içerisinde 3 adet yumurta sarısını limon suyu ile biraz karıştırın.",
+            "output text": "Bir kâp içerisinde 3 adet yumurta sarısı ve limon suyu ile biraz karışıyor."
+        },
+        "bio_704": {
+            "ratio": 0.862,
+            "original text": "Yaşlılar ve hastalar, kendi karneleriyle aldırdıkları ekmeği çocuklar ve gençlerin gereksinmeleri için ayırmaktadırlar.",
+            "output text": "Yaşlı ve hasta, kendi karnelerini aldırdıkları ekmek çocuk ve gençlerin gereksini için ayırıyorlar."
+        },
+        "ins_866": {
+            "ratio": 0.969,
+            "original text": "Bizim desteğimiz cumhuriyettir...",
+            "output text": "Bizim desteğimiz cumhuriyeti..."
+        },
+        "bio_670": {
+            "ratio": 0.983,
+            "original text": "Gazetenin genel yayın yönetmeni, Vatan gazetesinin eski yazı işleri müdürü ve eski CHP Hatay milletvekili İhsan Ada'dır.",
+            "output text": "Gazetenin genel yayın yönetmeni, Vatan gazetesinin eski yazı işleri müdürü ve eski CHP Hatay milletvekili İhsan Ada."
+        },
+        "ess_671": {
+            "ratio": 0.77,
+            "original text": "Belki yüzyıl yaşayan birinden daha çok soluk alıp vermek zorunda kaldı; dünyanın temiz havası yetersizdi, tüm dünya temiz havaya kavuşunca astım dinebilir, ruh dinginliğine kavuşabilirdi.",
+            "output text": "Belki yüzyıl yaşayan birinden daha çok soluk almak zor kalmıştır; Dünya'nın havası yetersiz kalmış, tüm Dünya'ya hava kavuşamamış, astım dinlemiş, ruha dinginlik kavuşmuştur."
+        },
+        "ins_1071": {
+            "ratio": 0.898,
+            "original text": "Bir de buzdan tuzağın var",
+            "output text": "Bir de buzdan tuzak var."
+        },
+        "pop_544": {
+            "ratio": 1.0,
+            "original text": "1.5 su bardağı su",
+            "output text": "1.5 su bardağı su"
+        },
+        "ins_1644": {
+            "ratio": 0.966,
+            "original text": "O hâlde insana bu kadar faydası olan kitap, neden iyi bir arkadaş olmasın?",
+            "output text": "O halde insan bu kadar faydalı olan kitap, neden iyi bir arkadaş olmasın?"
+        },
+        "pop_1631": {
+            "ratio": 0.826,
+            "original text": "Bu iddiaların en akla yakınları ise Kennedy'nin bizzat CIA tarafından öldürülmüş olabileceği üzerine kurulanlardı.",
+            "output text": "Bu iddiaların en aklı yakın olanı Kennedy'nin bizzat CIA tarafından öldürüldüğü üzerine kurulmuştu."
+        },
+        "ins_1647": {
+            "ratio": 0.532,
+            "original text": "Ekmeğini denizden çıkarırdı bu deniz insanları.",
+            "output text": "```json\n{\"original_form\": \"Ekmek denizden bu denizin insanları çıkardı.\"}\n```"
+        },
+        "pop_1971": {
+            "ratio": 0.895,
+            "original text": "Bu sayede, \"teknik kapasitesi düşük\" makine-adamların her önüne geleni kaba kuvvetle bezdirerek yendikleri bir futbol âlemine doğru yönelmiş gidişat durdurulabildi.",
+            "output text": "Bu sayede, \"teknik kapasite düşük\" makine-adam her önüne geleni kaba kuvvetle bezdirip yenen bir futbol âlemine doğru yönelmiş gidişatı durdurmuştur."
+        },
+        "news_1029": {
+            "ratio": 0.889,
+            "original text": "1968'de Ruslar Prag'a girince çift Cenevre'ye kaçar.",
+            "output text": "1968'de Ruslar Prag'a girerken, çift Cenevre'ye kaçıyor."
+        },
+        "pop_695": {
+            "ratio": 0.944,
+            "original text": "1 paket krem şanti",
+            "output text": "1 paket krem Şanti"
+        },
+        "news_300": {
+            "ratio": 1.0,
+            "original text": "Namağlup tek şampiyon: Beşiktaş",
+            "output text": "Namağlup tek şampiyon: Beşiktaş"
+        },
+        "pop_1365": {
+            "ratio": 0.8,
+            "original text": "Ramayana özgün olarak Sanskritçe yazılmış bir destandır.",
+            "output text": "Ramayana'ya Sanskritçe yazılmış özgü bir destanı."
+        },
+        "ess_147": {
+            "ratio": 0.947,
+            "original text": "Beni din-le-mi-yor! Yalova...",
+            "output text": "Beni dinle-mi yor! Yalova..."
+        },
+        "bio_1511": {
+            "ratio": 0.929,
+            "original text": "Tamam, deyip görüşmeye gider.",
+            "output text": "Tamam, deyip görüşmeye git."
         }
     },
-    "sentence_count": 165,
+    "sentence_count": 344,
     "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-27_18-36-04/tb_output-cleaned.json"
 }
