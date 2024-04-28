@@ -3,12 +3,13 @@
         "run_dir": "llm-approach/finnish-run/scripts/outputs/trendyol_Trendyol-LLM-7b-chat-v1.0-UD_Turkish-BOUN-2.8-2024-04-27_16-49-11",
         "treebank": "UD_Turkish-BOUN",
         "version": "2.8",
-        "model": "trendyol_Trendyol-LLM-7b-chat-v1.0",
+        "model": "Trendyol-LLM-7b-chat-v1.0",
         "dependency_included": true,
-        "character-based": 0.6098256277622758,
-        "token-based": 0.20246000152877314,
-        "sentence_count": 158,
-        "date": "2024-04-27"
+        "character-based": 0.6104116209375827,
+        "token-based": 0.21811706591927368,
+        "sentence_count": 500,
+        "date": "2024-04-27",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.7-2024-04-12_14-28-03",
@@ -19,7 +20,8 @@
         "character-based": 0.9362644710313769,
         "token-based": 0.73101192537876,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Chinese-GSDSimp-2.12-2024-04-12_16-54-49",
@@ -30,7 +32,8 @@
         "character-based": 0.9966894906968071,
         "token-based": 0.9626781530915856,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Irish-IDT-2.8-2024-04-12_16-52-50",
@@ -41,7 +44,8 @@
         "character-based": 0.93334746890863,
         "token-based": 0.6970955166223951,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.13-2024-04-12_16-56-35",
@@ -52,7 +56,8 @@
         "character-based": 0.9573225031367856,
         "token-based": 0.8264762894839394,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Highland_Puebla_Nahuatl-ITML-2.13-2024-04-12_14-31-52",
@@ -63,7 +68,8 @@
         "character-based": 0.8141371963859513,
         "token-based": 0.5492518320204078,
         "sentence_count": 137,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Chinese-GSDSimp-2.11-2024-04-12_14-33-18",
@@ -74,7 +80,8 @@
         "character-based": 0.9975968324463195,
         "token-based": 0.9771853120576692,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.9-2024-04-12_14-28-27",
@@ -85,7 +92,8 @@
         "character-based": 0.9353456264703824,
         "token-based": 0.6873114918344723,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-27_18-36-04",
@@ -93,10 +101,11 @@
         "version": "2.8",
         "model": "GPT-4",
         "dependency_included": true,
-        "character-based": 0.8835931748394105,
-        "token-based": 0.6209433089140345,
-        "sentence_count": 144,
-        "date": "2024-04-27"
+        "character-based": 0.8847866001642324,
+        "token-based": 0.6212626033806881,
+        "sentence_count": 165,
+        "date": "2024-04-27",
+        "special_tr": true
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-11_14-00-08",
@@ -107,7 +116,8 @@
         "character-based": 0.8834445473194571,
         "token-based": 0.6059594195824749,
         "sentence_count": 500,
-        "date": "2024-04-11"
+        "date": "2024-04-11",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.11-2024-04-11_14-03-02",
@@ -118,7 +128,8 @@
         "character-based": 0.8868772544530495,
         "token-based": 0.63287563615724,
         "sentence_count": 500,
-        "date": "2024-04-11"
+        "date": "2024-04-11",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.10-2024-04-12_16-53-06",
@@ -129,7 +140,8 @@
         "character-based": 0.9355926943343971,
         "token-based": 0.7024287567514599,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-12_14-30-43",
@@ -140,7 +152,8 @@
         "character-based": 0.9592805343839732,
         "token-based": 0.8344710931991253,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-3-70B-T-UD_Turkish-BOUN-2.11-2024-04-19_11-08-02",
@@ -151,7 +164,8 @@
         "character-based": 0.850882941126844,
         "token-based": 0.5343845213212194,
         "sentence_count": 500,
-        "date": "2024-04-19"
+        "date": "2024-04-19",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-2024-03-12_14-39-51",
@@ -162,7 +176,8 @@
         "character-based": 0.9446732388688404,
         "token-based": 0.763289808085402,
         "sentence_count": 500,
-        "date": "2024-03-12"
+        "date": "2024-03-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-3-70B-T-UD_Turkish-BOUN-2.8-2024-04-19_10-59-00",
@@ -173,7 +188,8 @@
         "character-based": 0.8428495418462699,
         "token-based": 0.5103331906544641,
         "sentence_count": 500,
-        "date": "2024-04-19"
+        "date": "2024-04-19",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.10-2024-04-12_14-29-42",
@@ -184,7 +200,8 @@
         "character-based": 0.8534727184781586,
         "token-based": 0.4668796860834593,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     },
     {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.11-2024-04-12_16-55-48",
@@ -195,6 +212,7 @@
         "character-based": 0.8635827916274139,
         "token-based": 0.4924619261630387,
         "sentence_count": 500,
-        "date": "2024-04-12"
+        "date": "2024-04-12",
+        "special_tr": false
     }
 ]
