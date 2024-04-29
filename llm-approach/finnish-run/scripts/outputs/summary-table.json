@@ -144,6 +144,18 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/trendyol_Trendyol-LLM-7b-chat-v1.0-UD_Turkish-BOUN-2.11-2024-04-28_15-47-01",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Trendyol-LLM-7b-chat-v1.0",
+        "dependency_included": true,
+        "character-based": 0.615384029358217,
+        "token-based": 0.22093923249270725,
+        "sentence_count": 500,
+        "date": "2024-04-28",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Hindi-HDTB-2.10-2024-04-12_16-53-06",
         "treebank": "UD_Hindi-HDTB",
         "version": "2.10",

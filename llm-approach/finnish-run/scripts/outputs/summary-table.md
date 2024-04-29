@@ -19,3 +19,4 @@
 | UD_Turkish-BOUN | 2.11 | Llama-3-70B-T | **85.1%** | **53.4%** | Yes | 500 | 2024-04-19 | False |
 | UD_Turkish-BOUN | 2.8 | Trendyol-LLM-7b-chat-v1.0 | 61.0% | 21.8% | Yes | 500 | 2024-04-27 | False |
 | UD_Turkish-BOUN | 2.11 | Trendyol-LLM-7b-chat-v1.0 | **64.1%** | **24.0%** | No | 500 | 2024-04-28 | False |
+| UD_Turkish-BOUN | 2.11 | Trendyol-LLM-7b-chat-v1.0 | **61.5%** | **22.1%** | Yes | 500 | 2024-04-28 | False |
