@@ -1,4 +1,4 @@
-import json, argparse, csv
+import json, argparse, random
 from pathlib import Path
 from spacy.lang.tr import Turkish
 from rapidfuzz import fuzz
@@ -67,6 +67,9 @@ def main():
     with open(file2, 'r', encoding='utf-8') as f:
         v2_llm = json.load(f)
     sent_ids = list(v1_llm.keys())
+    random.seed(42)
+    random.shuffle(sent_ids)
+    sent_ids = sent_ids[:50]
     
     manual = Path(args.manual)
     with open(manual, 'r', encoding='utf-8') as f:
