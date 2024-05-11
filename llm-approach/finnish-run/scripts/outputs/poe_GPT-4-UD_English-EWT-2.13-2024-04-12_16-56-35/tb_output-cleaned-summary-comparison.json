@@ -45,7 +45,7 @@
         "answers-20111108102204AAIivYN_ans-0010": {
             "llm": {
                 "precision": 0.8461538461538461,
-                "recall": 0.5384615384615384
+                "recall": 0.8461538461538461
             }
         },
         "reviews-363234-0003": {
@@ -56,8 +56,8 @@
         },
         "answers-20111108104724AAuBUR7_ans-0084": {
             "llm": {
-                "precision": 0.3684210526315789,
-                "recall": 0.7058823529411765
+                "precision": 0.5263157894736842,
+                "recall": 1.0
             }
         },
         "reviews-018562-0010": {
@@ -80,8 +80,8 @@
         },
         "email-enronsent39_01-0036": {
             "llm": {
-                "precision": 0.21951219512195122,
-                "recall": 0.14705882352941177
+                "precision": 0.3902439024390244,
+                "recall": 0.23529411764705882
             }
         },
         "weblog-juancole.com_juancole_20040708181175_ENG_20040708_181175-0037": {
@@ -98,13 +98,13 @@
         },
         "email-enronsent23_04-0005": {
             "llm": {
-                "precision": 0.7333333333333333,
+                "precision": 0.8,
                 "recall": 0.8571428571428571
             }
         },
         "email-enronsent41_01-0004": {
             "llm": {
-                "precision": 0.5833333333333334,
+                "precision": 0.875,
                 "recall": 0.9130434782608695
             }
         },
@@ -158,7 +158,7 @@
         },
         "email-enronsent19_01-0068": {
             "llm": {
-                "precision": 0.7272727272727273,
+                "precision": 0.8636363636363636,
                 "recall": 0.9047619047619048
             }
         },
@@ -188,7 +188,7 @@
         },
         "answers-20101109081414AAZ3hSI_ans-0008": {
             "llm": {
-                "precision": 0.13333333333333333,
+                "precision": 0.8666666666666667,
                 "recall": 0.9285714285714286
             }
         },
@@ -266,7 +266,7 @@
         },
         "newsgroup-groups.google.com_alt.animals_0e65f540816d780c_ENG_20041116_124800-0031": {
             "llm": {
-                "precision": 0.21428571428571427,
+                "precision": 0.8928571428571429,
                 "recall": 0.9259259259259259
             }
         },
@@ -278,7 +278,7 @@
         },
         "answers-20111108064026AA86V9T_ans-0032": {
             "llm": {
-                "precision": 0.6,
+                "precision": 0.7333333333333333,
                 "recall": 0.7857142857142857
             }
         },
@@ -297,7 +297,7 @@
         "answers-20111108065616AAKtL2c_ans-0036": {
             "llm": {
                 "precision": 0.8333333333333334,
-                "recall": 0.5
+                "recall": 0.8333333333333334
             }
         },
         "newsgroup-groups.google.com_GuildWars_086f0f64ab633ab3_ENG_20041111_173500-0010": {
@@ -326,7 +326,7 @@
         },
         "reviews-045972-0002": {
             "llm": {
-                "precision": 0.2727272727272727,
+                "precision": 0.9090909090909091,
                 "recall": 0.9523809523809523
             }
         },
@@ -386,7 +386,7 @@
         },
         "email-enronsent37_01-0120": {
             "llm": {
-                "precision": 0.5217391304347826,
+                "precision": 0.6086956521739131,
                 "recall": 0.0
             }
         },
@@ -428,14 +428,14 @@
         },
         "answers-20111108104724AAuBUR7_ans-0033": {
             "llm": {
-                "precision": 0.7142857142857143,
+                "precision": 0.8571428571428571,
                 "recall": 0.9230769230769231
             }
         },
         "email-enronsent18_02-0049": {
             "llm": {
-                "precision": 0.125,
-                "recall": 0.18181818181818182
+                "precision": 0.1875,
+                "recall": 0.5
             }
         },
         "newsgroup-groups.google.com_alt.animals.bear_395d998336aec581_ENG_20031225_105300-0002": {
@@ -464,7 +464,7 @@
         },
         "answers-20111108065616AAKtL2c_ans-0027": {
             "llm": {
-                "precision": 0.8181818181818182,
+                "precision": 0.9090909090909091,
                 "recall": 1.0
             }
         },
@@ -488,7 +488,7 @@
         },
         "weblog-blogspot.com_dakbangla_20050210141134_ENG_20050210_141134-0027": {
             "llm": {
-                "precision": 0.5,
+                "precision": 1.0,
                 "recall": 1.0
             }
         },
@@ -518,7 +518,7 @@
         },
         "reviews-047762-0001": {
             "llm": {
-                "precision": 0.16666666666666666,
+                "precision": 0.6666666666666666,
                 "recall": 0.8
             }
         },
@@ -530,13 +530,13 @@
         },
         "reviews-376320-0008": {
             "llm": {
-                "precision": 0.8148148148148148,
+                "precision": 0.9629629629629629,
                 "recall": 1.0
             }
         },
         "answers-20090205181308AAZghOH_ans-0009": {
             "llm": {
-                "precision": 0.0,
+                "precision": 0.42857142857142855,
                 "recall": 0.6
             }
         },
@@ -566,7 +566,7 @@
         },
         "reviews-018465-0009": {
             "llm": {
-                "precision": 0.36,
+                "precision": 0.96,
                 "recall": 1.0
             }
         },
@@ -578,7 +578,7 @@
         },
         "reviews-047184-0006": {
             "llm": {
-                "precision": 0.0625,
+                "precision": 0.125,
                 "recall": 0.41379310344827586
             }
         },
@@ -596,7 +596,7 @@
         },
         "answers-20111108094831AAnOjgr_ans-0007": {
             "llm": {
-                "precision": 0.75,
+                "precision": 0.875,
                 "recall": 0.875
             }
         },
@@ -621,7 +621,7 @@
         "answers-20111108092029AAsHTYP_ans-0006": {
             "llm": {
                 "precision": 0.5555555555555556,
-                "recall": 0.14285714285714285
+                "recall": 0.5357142857142857
             }
         },
         "answers-20111108072912AAccket_ans-0006": {
@@ -644,7 +644,7 @@
         },
         "email-enronsent34_01-0018": {
             "llm": {
-                "precision": 0.7777777777777778,
+                "precision": 0.8888888888888888,
                 "recall": 1.0
             }
         },
@@ -704,7 +704,7 @@
         },
         "reviews-336049-0005": {
             "llm": {
-                "precision": 0.5789473684210527,
+                "precision": 0.9473684210526315,
                 "recall": 1.0
             }
         },
@@ -764,8 +764,8 @@
         },
         "reviews-287454-0004": {
             "llm": {
-                "precision": 0.8421052631578947,
-                "recall": 0.14285714285714285
+                "precision": 0.8947368421052632,
+                "recall": 0.23809523809523808
             }
         },
         "reviews-326439-0001": {
@@ -782,7 +782,7 @@
         },
         "reviews-376503-0004": {
             "llm": {
-                "precision": 0.3333333333333333,
+                "precision": 0.8666666666666667,
                 "recall": 0.9285714285714286
             }
         },
@@ -818,7 +818,7 @@
         },
         "weblog-blogspot.com_alaindewitt_20060924104100_ENG_20060924_104100-0228": {
             "llm": {
-                "precision": 0.7619047619047619,
+                "precision": 0.9523809523809523,
                 "recall": 1.0
             }
         },
@@ -872,7 +872,7 @@
         },
         "newsgroup-groups.google.com_alt.animals.bear_395d998336aec581_ENG_20031225_105300-0001": {
             "llm": {
-                "precision": 0.3333333333333333,
+                "precision": 0.8333333333333334,
                 "recall": 1.0
             }
         },
@@ -897,12 +897,12 @@
         "answers-20111031103114AA61BW3_ans-0003": {
             "llm": {
                 "precision": 0.8333333333333334,
-                "recall": 0.08
+                "recall": 0.8
             }
         },
         "answers-20111108094927AA5NjHj_ans-0007": {
             "llm": {
-                "precision": 0.25,
+                "precision": 0.8333333333333334,
                 "recall": 0.9090909090909091
             }
         },
@@ -950,8 +950,8 @@
         },
         "weblog-juancole.com_juancole_20040823064025_ENG_20040823_064025-0010": {
             "llm": {
-                "precision": 0.8888888888888888,
-                "recall": 0.8888888888888888
+                "precision": 1.0,
+                "recall": 1.0
             }
         },
         "email-enronsent37_01-0122": {
@@ -980,7 +980,7 @@
         },
         "email-enronsent23_01-0005": {
             "llm": {
-                "precision": 0.125,
+                "precision": 0.75,
                 "recall": 0.8571428571428571
             }
         },
@@ -992,13 +992,13 @@
         },
         "reviews-010378-0005": {
             "llm": {
-                "precision": 0.6666666666666666,
+                "precision": 0.9166666666666666,
                 "recall": 1.0
             }
         },
         "answers-20111108091921AAaLK4e_ans-0050": {
             "llm": {
-                "precision": 0.4444444444444444,
+                "precision": 0.6666666666666666,
                 "recall": 0.75
             }
         },
@@ -1028,7 +1028,7 @@
         },
         "reviews-063549-0001": {
             "llm": {
-                "precision": 0.3333333333333333,
+                "precision": 0.5,
                 "recall": 0.75
             }
         },
@@ -1041,7 +1041,7 @@
         "reviews-354474-0003": {
             "llm": {
                 "precision": 0.9473684210526315,
-                "recall": 0.55
+                "recall": 0.95
             }
         },
         "answers-20111107094641AATmyb6_ans-0010": {
@@ -1118,19 +1118,19 @@
         },
         "answers-20111108101850AAhNuvz_ans-0019": {
             "llm": {
-                "precision": 0.7058823529411765,
+                "precision": 0.8235294117647058,
                 "recall": 0.875
             }
         },
         "reviews-162567-0004": {
             "llm": {
-                "precision": 0.5483870967741935,
-                "recall": 0.4482758620689655
+                "precision": 0.6451612903225806,
+                "recall": 0.9655172413793104
             }
         },
         "email-enronsent30_02-0022": {
             "llm": {
-                "precision": 0.8181818181818182,
+                "precision": 0.9090909090909091,
                 "recall": 1.0
             }
         },
@@ -1142,8 +1142,8 @@
         },
         "answers-20111108100918AATaSIx_ans-0007": {
             "llm": {
-                "precision": 0.32,
-                "recall": 0.6521739130434783
+                "precision": 0.88,
+                "recall": 0.9565217391304348
             }
         },
         "weblog-typepad.com_ripples_20040407125600_ENG_20040407_125600-0063": {
@@ -1154,8 +1154,8 @@
         },
         "weblog-blogspot.com_rigorousintuition_20060511134300_ENG_20060511_134300-0175": {
             "llm": {
-                "precision": 0.8947368421052632,
-                "recall": 0.14285714285714285
+                "precision": 0.9473684210526315,
+                "recall": 0.3333333333333333
             }
         },
         "reviews-121987-0007": {
@@ -1209,7 +1209,7 @@
         "newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0001": {
             "llm": {
                 "precision": 0.8,
-                "recall": 0.2
+                "recall": 0.8
             }
         },
         "reviews-287501-0001": {
@@ -1310,8 +1310,8 @@
         },
         "answers-20111108033619AAb3VQ4_ans-0002": {
             "llm": {
-                "precision": 0.3157894736842105,
-                "recall": 0.8235294117647058
+                "precision": 0.42105263157894735,
+                "recall": 1.0
             }
         },
         "weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0016": {
@@ -1322,7 +1322,7 @@
         },
         "answers-20111108051456AAQJaXR_ans-0005": {
             "llm": {
-                "precision": 0.5517241379310345,
+                "precision": 0.9655172413793104,
                 "recall": 0.9642857142857143
             }
         },
@@ -1370,7 +1370,7 @@
         },
         "answers-20111108080049AAgT0iA_ans-0006": {
             "llm": {
-                "precision": 0.8928571428571429,
+                "precision": 0.9642857142857143,
                 "recall": 0.9642857142857143
             }
         },
@@ -1394,8 +1394,8 @@
         },
         "reviews-361316-0001": {
             "llm": {
-                "precision": 0.23809523809523808,
-                "recall": 0.3888888888888889
+                "precision": 0.38095238095238093,
+                "recall": 0.5
             }
         },
         "reviews-150192-0004": {
@@ -1448,7 +1448,7 @@
         },
         "reviews-235423-0004": {
             "llm": {
-                "precision": 0.13043478260869565,
+                "precision": 0.9130434782608695,
                 "recall": 0.9545454545454546
             }
         },
@@ -1466,7 +1466,7 @@
         },
         "email-enronsent20_01-0024": {
             "llm": {
-                "precision": 0.36363636363636365,
+                "precision": 0.9545454545454546,
                 "recall": 1.0
             }
         },
@@ -1496,14 +1496,14 @@
         },
         "email-enronsent02_01-0023": {
             "llm": {
-                "precision": 0.18181818181818182,
-                "recall": 0.625
+                "precision": 0.5454545454545454,
+                "recall": 1.0
             }
         },
         "reviews-160073-0007": {
             "llm": {
                 "precision": 0.9285714285714286,
-                "recall": 0.6
+                "recall": 0.8666666666666667
             }
         },
         "answers-20110909115731AAl3uzs_ans-0004": {
@@ -1544,7 +1544,7 @@
         },
         "answers-20111108103957AAcF3iZ_ans-0014": {
             "llm": {
-                "precision": 0.9166666666666666,
+                "precision": 0.9583333333333334,
                 "recall": 1.0
             }
         },
@@ -1611,13 +1611,13 @@
         "weblog-blogspot.com_rigorousintuition_20060511134300_ENG_20060511_134300-0070": {
             "llm": {
                 "precision": 0.85,
-                "recall": 0.23809523809523808
+                "recall": 0.8095238095238095
             }
         },
         "answers-20111108104724AAuBUR7_ans-0011": {
             "llm": {
                 "precision": 0.6666666666666666,
-                "recall": 0.07692307692307693
+                "recall": 0.7692307692307693
             }
         },
         "weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0003": {
@@ -1790,7 +1790,7 @@
         },
         "newsgroup-groups.google.com_civilization_1201f7692b7769fb_ENG_20050908_010400-0001": {
             "llm": {
-                "precision": 0.4,
+                "precision": 0.5,
                 "recall": 0.42857142857142855
             }
         },
@@ -1808,7 +1808,7 @@
         },
         "answers-20111108083309AAg9jwT_ans-0009": {
             "llm": {
-                "precision": 0.16666666666666666,
+                "precision": 0.8666666666666667,
                 "recall": 0.896551724137931
             }
         },
@@ -1838,7 +1838,7 @@
         },
         "reviews-355325-0005": {
             "llm": {
-                "precision": 0.8,
+                "precision": 0.9,
                 "recall": 1.0
             }
         },
@@ -1850,7 +1850,7 @@
         },
         "reviews-080178-0005": {
             "llm": {
-                "precision": 0.5625,
+                "precision": 0.9375,
                 "recall": 1.0
             }
         },
@@ -1898,7 +1898,7 @@
         },
         "reviews-026883-0013": {
             "llm": {
-                "precision": 0.55,
+                "precision": 0.9,
                 "recall": 0.9473684210526315
             }
         },
@@ -1941,7 +1941,7 @@
         "weblog-juancole.com_juancole_20051126063000_ENG_20051126_063000-0016": {
             "llm": {
                 "precision": 1.0,
-                "recall": 0.07692307692307693
+                "recall": 0.9615384615384616
             }
         },
         "reviews-348247-0004": {
@@ -2018,7 +2018,7 @@
         },
         "answers-20111107213255AAT0HQq_ans-0001": {
             "llm": {
-                "precision": 0.6111111111111112,
+                "precision": 0.9444444444444444,
                 "recall": 1.0
             }
         },
@@ -2030,8 +2030,8 @@
         },
         "reviews-238839-0004": {
             "llm": {
-                "precision": 0.45,
-                "recall": 0.8947368421052632
+                "precision": 0.9,
+                "recall": 0.9473684210526315
             }
         },
         "reviews-149922-0003": {
@@ -2054,8 +2054,8 @@
         },
         "answers-20111108085945AAgJhOG_ans-0013": {
             "llm": {
-                "precision": 0.3333333333333333,
-                "recall": 0.0
+                "precision": 0.4166666666666667,
+                "recall": 0.1111111111111111
             }
         },
         "answers-20111106035951AADq0Qg_ans-0007": {
@@ -2090,14 +2090,14 @@
         },
         "answers-20111108104352AASs5OZ_ans-0001": {
             "llm": {
-                "precision": 0.5454545454545454,
-                "recall": 0.3333333333333333
+                "precision": 0.6363636363636364,
+                "recall": 0.7777777777777778
             }
         },
         "answers-20111108110012AAK8Azy_ans-0029": {
             "llm": {
-                "precision": 0.2857142857142857,
-                "recall": 0.6923076923076923
+                "precision": 0.8214285714285714,
+                "recall": 0.8846153846153846
             }
         },
         "weblog-juancole.com_juancole_20040604210986_ENG_20040604_210986-0001": {
@@ -2120,13 +2120,13 @@
         },
         "answers-20111108064026AA86V9T_ans-0010": {
             "llm": {
-                "precision": 0.75,
+                "precision": 0.875,
                 "recall": 1.0
             }
         },
         "reviews-164580-0006": {
             "llm": {
-                "precision": 0.1875,
+                "precision": 0.8125,
                 "recall": 0.8666666666666667
             }
         },
@@ -2180,7 +2180,7 @@
         },
         "reviews-048644-0001": {
             "llm": {
-                "precision": 0.1111111111111111,
+                "precision": 0.7777777777777778,
                 "recall": 0.875
             }
         },
@@ -2228,8 +2228,8 @@
         },
         "reviews-101398-0006": {
             "llm": {
-                "precision": 0.8181818181818182,
-                "recall": 0.8095238095238095
+                "precision": 0.9090909090909091,
+                "recall": 0.9523809523809523
             }
         },
         "reviews-398243-0005": {
@@ -2306,7 +2306,7 @@
         },
         "newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-0002": {
             "llm": {
-                "precision": 0.09090909090909091,
+                "precision": 0.45454545454545453,
                 "recall": 0.5
             }
         },
@@ -2408,13 +2408,13 @@
         },
         "email-enronsent29_01-0087": {
             "llm": {
-                "precision": 0.5555555555555556,
-                "recall": 0.42857142857142855
+                "precision": 0.6666666666666666,
+                "recall": 0.8571428571428571
             }
         },
         "answers-20111107214231AA68BMD_ans-0003": {
             "llm": {
-                "precision": 0.05263157894736842,
+                "precision": 0.7894736842105263,
                 "recall": 0.8823529411764706
             }
         },
@@ -2427,7 +2427,7 @@
         "email-enronsent23_14-0008": {
             "llm": {
                 "precision": 0.8928571428571429,
-                "recall": 0.7857142857142857
+                "recall": 0.8928571428571429
             }
         },
         "reviews-186275-0001": {
@@ -2462,13 +2462,13 @@
         },
         "answers-20111104175256AAL21Ha_ans-0023": {
             "llm": {
-                "precision": 0.68,
+                "precision": 0.92,
                 "recall": 0.9583333333333334
             }
         },
         "reviews-345182-0013": {
             "llm": {
-                "precision": 0.84,
+                "precision": 0.92,
                 "recall": 0.9583333333333334
             }
         },
@@ -2522,19 +2522,19 @@
         },
         "reviews-030875-0001": {
             "llm": {
-                "precision": 0.25,
+                "precision": 0.75,
                 "recall": 0.8571428571428571
             }
         },
         "answers-20111108111203AA6gfnr_ans-0002": {
             "llm": {
-                "precision": 0.05,
+                "precision": 0.85,
                 "recall": 0.8947368421052632
             }
         },
         "weblog-blogspot.com_dakbangla_20041016151002_ENG_20041016_151002-0010": {
             "llm": {
-                "precision": 0.4074074074074074,
+                "precision": 0.9259259259259259,
                 "recall": 0.9615384615384616
             }
         },
@@ -2564,7 +2564,7 @@
         },
         "email-enronsent00_01-0029": {
             "llm": {
-                "precision": 0.5555555555555556,
+                "precision": 0.8518518518518519,
                 "recall": 0.3103448275862069
             }
         },
@@ -2576,7 +2576,7 @@
         },
         "reviews-030430-0001": {
             "llm": {
-                "precision": 0.5,
+                "precision": 0.75,
                 "recall": 1.0
             }
         },
@@ -2625,12 +2625,12 @@
         "answers-20111107094641AATmyb6_ans-0036": {
             "llm": {
                 "precision": 0.4,
-                "recall": 0.36363636363636365
+                "recall": 0.45454545454545453
             }
         },
         "answers-20111024210025AAVtDL7_ans-0003": {
             "llm": {
-                "precision": 0.8125,
+                "precision": 0.9375,
                 "recall": 1.0
             }
         },
@@ -2792,13 +2792,13 @@
         },
         "answers-20111108105146AAtiEx7_ans-0004": {
             "llm": {
-                "precision": 0.4375,
+                "precision": 0.75,
                 "recall": 0.8
             }
         },
         "weblog-juancole.com_juancole_20051126063000_ENG_20051126_063000-0029": {
             "llm": {
-                "precision": 0.7,
+                "precision": 0.9,
                 "recall": 1.0
             }
         },
@@ -2816,8 +2816,8 @@
         },
         "email-enronsent29_01-0067": {
             "llm": {
-                "precision": 0.5294117647058824,
-                "recall": 0.4666666666666667
+                "precision": 0.7647058823529411,
+                "recall": 0.9333333333333333
             }
         },
         "newsgroup-groups.google.com_Meditation20051_1027f5a3651d547c_ENG_20050316_085700-0022": {
@@ -2876,13 +2876,13 @@
         },
         "reviews-149741-0003": {
             "llm": {
-                "precision": 0.16666666666666666,
+                "precision": 0.2,
                 "recall": 0.7777777777777778
             }
         },
         "weblog-juancole.com_juancole_20040823064025_ENG_20040823_064025-0092": {
             "llm": {
-                "precision": 0.6666666666666666,
+                "precision": 0.9166666666666666,
                 "recall": 1.0
             }
         },
@@ -2918,7 +2918,7 @@
         },
         "email-enronsent41_01-0059": {
             "llm": {
-                "precision": 0.07142857142857142,
+                "precision": 0.42857142857142855,
                 "recall": 0.9166666666666666
             }
         },
@@ -2936,13 +2936,13 @@
         },
         "answers-20111108100523AA1i7no_ans-0012": {
             "llm": {
-                "precision": 0.125,
+                "precision": 0.75,
                 "recall": 0.8571428571428571
             }
         },
         "answers-20111107203006AA9ojw8_ans-0005": {
             "llm": {
-                "precision": 0.13333333333333333,
+                "precision": 0.9333333333333333,
                 "recall": 1.0
             }
         },
@@ -2954,7 +2954,7 @@
         },
         "email-enronsent19_01-0055": {
             "llm": {
-                "precision": 0.3448275862068966,
+                "precision": 0.9655172413793104,
                 "recall": 1.0
             }
         },
@@ -2990,8 +2990,8 @@
         },
         "email-enronsent38_01-0043": {
             "llm": {
-                "precision": 0.19230769230769232,
-                "recall": 0.3181818181818182
+                "precision": 0.46153846153846156,
+                "recall": 0.5909090909090909
             }
         },
         "reviews-077213-0006": {
@@ -3003,9 +3003,9 @@
     },
     "summary": {
         "llm accuracy": {
-            "f1": 0.8264762894839394,
-            "precision": 0.8240258852375585,
-            "recall": 0.8706627166676996
+            "f1": 0.878369954259705,
+            "precision": 0.8745204046784684,
+            "recall": 0.890782319558727
         }
     }
 }

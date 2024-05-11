@@ -10,11 +10,10 @@ def get_args():
 def get_matches(original_tokens, generated_tokens):
     match_generated_d = {}
     for i, token in enumerate(original_tokens):
-        for j in range(1, 3):
-            ratios = [fuzz.ratio(token, generated_tokens[k]) for k in range(j) if k < len(generated_tokens)]
-            max_ratio = max(ratios)
-            max_index = ratios.index(max_ratio)
-            match_generated_d[i] = generated_tokens[max_index]
+        ratios = [fuzz.ratio(token, generated_tokens[k]) for k in range(3) if k < len(generated_tokens)]
+        max_ratio = max(ratios)
+        max_index = ratios.index(max_ratio)
+        match_generated_d[i] = generated_tokens[max_index]
         if len(generated_tokens) > len(original_tokens) - i:
             generated_tokens = generated_tokens[1:]
     matches = [(original_tokens[i], match_generated_d[i]) for i in range(len(original_tokens))]

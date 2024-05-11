@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.8892196070029255,
+    "average ratio": 0.8884394474035574,
     "results": {
         "ins_822": {
             "ratio": 1.0,
@@ -1720,8 +1720,38 @@
             "ratio": 0.929,
             "original text": "Tamam, deyip görüşmeye gider.",
             "output text": "Tamam, deyip görüşmeye git."
+        },
+        "ins_1393": {
+            "ratio": 0.636,
+            "original text": "Su sızdırmayan kova durmadan gururlanırmış:",
+            "output text": "Su sızmaz kova dururdu:"
+        },
+        "pop_1720": {
+            "ratio": 0.902,
+            "original text": "Yay kadınının beklentileri cinsellikten ziyade akılla ilgilidir.",
+            "output text": "Yayın kadının beklentileri cinselden ziyade akılla ilgili."
+        },
+        "ins_924": {
+            "ratio": 0.921,
+            "original text": "Birkaç yıl sonra adı, Türk Hava Kurumu oldu.",
+            "output text": "Birkaç yıl sonra adı, Türk hava kurumu olmuş."
+        },
+        "ess_1607": {
+            "ratio": 0.829,
+            "original text": "Gene de ahlaklılıklarını, barış duygularını, sabırlarını ve dirençlerini örselettirmiyorlar...",
+            "output text": "Gen de, ahlakları, barış duyguları, sabır ve dirençler örselenmiyor..."
+        },
+        "ess_1420": {
+            "ratio": 0.883,
+            "original text": "Ölülerine dönüp de bakmazsınDuydunuz mu, ak saçlı ak kaşlı hocamız Haydar Dümen'e suikast düzenlemişler! Hep ters yönden esecek rüzgârlar.",
+            "output text": "Ölülere dön de bakma duydun mu, ak saçlı ak kaşlı hocamız Haydar dümen suikast düzenledi! Hep ters yönden eser rüzgâr."
+        },
+        "bio_705": {
+            "ratio": 0.891,
+            "original text": "Bu ucuz biletlerden biriydi ve çoğunluğunu üniversite öğrencilerinin oluşturduğu 40 kişiyle bir yatakhaneyi paylaşıyorduk.",
+            "output text": "Bu ucuz biletlerden biri ve çoğunluğu üniversite öğrencilerinden oluşan 40 kişiyle bir yatakhane paylaştık."
         }
     },
-    "sentence_count": 344,
+    "sentence_count": 350,
     "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Turkish-BOUN-2.8-2024-04-27_18-36-04/tb_output-cleaned.json"
 }
