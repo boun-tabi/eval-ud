@@ -12,7 +12,7 @@
 | UD_Hindi-HDTB | 2.10 | GPT-4 | **93.6%** | **79.5%** | Yes | 500 | 2024-04-12 | False |
 | UD_Irish-IDT | 2.7 | GPT-4 | **93.6%** | **79.5%** | Yes | 500 | 2024-04-12 | False |
 | UD_Irish-IDT | 2.8 | GPT-4 | 93.3% | 77.5% | Yes | 500 | 2024-04-12 | False |
-| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.8% | 68.8% | Yes | 350 | 2024-04-27 | True |
+| UD_Turkish-BOUN | 2.8 | GPT-4 | 88.4% | 67.4% | Yes | 500 | 2024-04-27 | True |
 | UD_Turkish-BOUN | 2.8 | GPT-4 | 88.3% | 67.4% | Yes | 500 | 2024-04-11 | False |
 | UD_Turkish-BOUN | 2.11 | GPT-4 | **88.7%** | **70.3%** | Yes | 500 | 2024-04-11 | False |
 | UD_Turkish-BOUN | 2.8 | Llama-3-70B-T | 84.3% | 57.4% | Yes | 500 | 2024-04-19 | False |
