@@ -104,7 +104,7 @@ def main():
         run_d[treebank][max_token_version]['max_token'] = True
 
     markdown_summary_path = output_dir / 'summary-table.md'
-    table.sort(key=lambda x: (x['treebank'], x['model'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['dependency_included']))
+    table.sort(key=lambda x: (x['treebank'], x['model'], x['special_tr'], int(x['version'].split('.')[0]), int(x['version'].split('.')[1]), x['dependency_included']))
     markdown_str = '| Treebank | Version | Model | Character-based | Token-based | Dependency-included | Sentence count | Date | Special TR |\n'
     markdown_str += '| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n'
     for row in table:
