@@ -17,6 +17,7 @@
 | UD_Turkish-BOUN | 2.8 | GPT-4 | 88.4% | 67.4% | Yes | 500 | 2024-04-27 | True |
 | UD_Turkish-BOUN | 2.11 | GPT-4 | **89.2%** | **70.0%** | Yes | 500 | 2024-05-13 | True |
 | UD_Turkish-BOUN | 2.8 | GPT-4o | 89.8% | 69.6% | Yes | 500 | 2024-05-14 | False |
+| UD_Turkish-BOUN | 2.11 | GPT-4o | **90.9%** | **74.1%** | Yes | 500 | 2024-05-23 | False |
 | UD_Turkish-BOUN | 2.8 | Llama-3-70B-T | 84.3% | 57.4% | Yes | 500 | 2024-04-19 | False |
 | UD_Turkish-BOUN | 2.11 | Llama-3-70B-T | **85.1%** | **59.4%** | Yes | 500 | 2024-04-19 | False |
 | UD_Turkish-BOUN | 2.8 | Trendyol-LLM-7b-chat-v1.0 | 61.0% | 26.3% | Yes | 500 | 2024-04-27 | False |

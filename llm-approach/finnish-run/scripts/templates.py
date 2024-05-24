@@ -48,7 +48,7 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None, tr_sort=False):
             if head_t == '0':
                 token_str_l.append('it\'s the root token')
             else:
-                token_str_l.append('it depends on the {head} token with the dependency relation of {dep}'.format(dep=dep_name, head=number_d[int(head_t)]))
+                token_str_l.append('it depends on the {head} token with the relation of {dep}'.format(dep=dep_name, head=number_d[int(head_t)]))
 
         token_str_l[-1] = 'and ' + token_str_l[-1]
         prompt_l.append(', '.join(token_str_l) + '.')
