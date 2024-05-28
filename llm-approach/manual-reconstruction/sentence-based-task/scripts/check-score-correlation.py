@@ -55,7 +55,14 @@ def main():
         out_d[sent_id]['llm'][version2] = v2_data[sent_id]['output_text']
 
     p1_v1_l, p1_v2_l, p2_v1_l, p2_v2_l, llm_v1_l, llm_v2_l = [], [], [], [], [], []
+
+    random.seed(42)
+    sent_ids = list(v1_data.keys())
+    random.shuffle(sent_ids)
+    sent_ids = sent_ids[:50]
     for sent_id in out_d.keys():
+        if sent_id not in sent_ids:
+            continue
         p1_v1_correct, p1_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version1], tokenizer)
         p1_v1_accuracy = p1_v1_correct / p1_v1_all
         # p1_v1_accuracy = '{:.2f}'.format(p1_v1_correct / p1_v1_all * 100)
@@ -108,56 +115,22 @@ def main():
     print('Pearson correlation coefficient between llm_{} and {}: {}'.format(version1, 'random', pearsonr(llm_v1_accuracies, random_accuracies)[0]))
     print('Pearson correlation coefficient between llm_{} and {}: {}'.format(version2, 'random', pearsonr(llm_v2_accuracies, random_accuracies)[0]))
 
-    # p1_v1_l.sort(key=lambda x: x['sent_id'])
-    # p1_v1_l.sort(key=lambda x: x['accuracy'])
-    # p1_v1_sent_ids = '-'.join([x['sent_id'] for x in p1_v1_l])
-    # random_v1_sent_ids = [x['sent_id'] for x in p1_v1_l]
-    # random.shuffle(random_v1_sent_ids)
-    # random_v1_sent_ids = '-'.join(random_v1_sent_ids)
-    # p1_v2_l.sort(key=lambda x: x['sent_id'])
-    # p1_v2_l.sort(key=lambda x: x['accuracy'])
-    # p1_v2_sent_ids = '-'.join([x['sent_id'] for x in p1_v2_l])
-    # random_v2_sent_ids = [x['sent_id'] for x in p1_v2_l]
-    # random.shuffle(random_v2_sent_ids)
-    # random_v2_sent_ids = '-'.join(random_v2_sent_ids)
-    # p2_v1_l.sort(key=lambda x: x['sent_id'])
-    # p2_v1_l.sort(key=lambda x: x['accuracy'])
-    # p2_v1_sent_ids = '-'.join([x['sent_id'] for x in p2_v1_l])
-    # p2_v2_l.sort(key=lambda x: x['sent_id'])
-    # p2_v2_l.sort(key=lambda x: x['accuracy'])
-    # p2_v2_sent_ids = '-'.join([x['sent_id'] for x in p2_v2_l])
-    # llm_v1_l.sort(key=lambda x: x['sent_id'])
-    # llm_v1_l.sort(key=lambda x: x['accuracy'])
-    # llm_v1_sent_ids = '-'.join([x['sent_id'] for x in llm_v1_l])
-    # llm_v2_l.sort(key=lambda x: x['sent_id'])
-    # llm_v2_l.sort(key=lambda x: x['accuracy'])
-    # llm_v2_sent_ids = '-'.join([x['sent_id'] for x in llm_v2_l])
-
-    # print('fuzz.ratio between {}_{} and {}_{}: {}'.format(person1, version1, person2, version1, fuzz.ratio(p1_v1_sent_ids, p2_v1_sent_ids)))
-    # print('fuzz.ratio between {}_{} and {}_{}: {}'.format(person1, version2, person2, version2, fuzz.ratio(p1_v2_sent_ids, p2_v2_sent_ids)))
-    # print('fuzz.ratio between {}_{} and llm_{}: {}'.format(person1, version1, version1, fuzz.ratio(p1_v1_sent_ids, llm_v1_sent_ids)))
-    # print('fuzz.ratio between {}_{} and llm_{}: {}'.format(person1, version2, version2, fuzz.ratio(p1_v2_sent_ids, llm_v2_sent_ids)))
-    # print('fuzz.ratio between {}_{} and llm_{}: {}'.format(person2, version1, version1, fuzz.ratio(p2_v1_sent_ids, llm_v1_sent_ids)))
-    # print('fuzz.ratio between {}_{} and llm_{}: {}'.format(person2, version2, version2, fuzz.ratio(p2_v2_sent_ids, llm_v2_sent_ids)))
-    # print('fuzz.ratio between {}_{} and {}_{}: {}'.format(person1, version1, 'random', version1, fuzz.ratio(p1_v1_sent_ids, random_v1_sent_ids)))
-    # print('fuzz.ratio between {}_{} and {}_{}: {}'.format(person1, version2, 'random', version2, fuzz.ratio(p1_v2_sent_ids, random_v2_sent_ids)))
-
 if __name__ == '__main__':
     main()
 
 '''
 Pearson correlation coefficient between:
 
-Tarık_v2.8 and Akif_v2.8:	0.4429585134314543
-Tarık_v2.11 and Akif_v2.11:	0.43517720228151874
-Tarık_v2.8 and llm_v2.8:	-0.13433693009452538
-Tarık_v2.11 and llm_v2.11:	0.5302166693989327
-Akif_v2.8 and llm_v2.8:	    -0.032525321480106735
-Akif_v2.11 and llm_v2.11:	0.21785170546886162
-Tarık_v2.8 and random:	    -0.05960489303232497
-Tarık_v2.11 and random:	    -0.31099951534107984
-Akif_v2.8 and random:	    -0.23488581726523558
-Akif_v2.11 and random:	    -0.0911716915826565
-llm_v2.8 and random:	    -0.1027797223804541
-llm_v2.11 and random:	    -0.00985869223401618
+Tarık_v2.8 and Akif_v2.8: 0.4584762210377269
+Tarık_v2.11 and Akif_v2.11: 0.4406540820074279
+Tarık_v2.8 and llm_v2.8: -0.11325674222829674
+Tarık_v2.11 and llm_v2.11: 0.5359704294923077
+Akif_v2.8 and llm_v2.8: -0.04897737858793731
+Akif_v2.11 and llm_v2.11: 0.21916060638319626
+Tarık_v2.8 and random: -0.07214568067718903
+Tarık_v2.11 and random: -0.09583643375566393
+Akif_v2.8 and random: -0.33618053702645617
+Akif_v2.11 and random: -0.276309916064479
+llm_v2.8 and random: 0.035931904779650456
+llm_v2.11 and random: -0.011960921608288778
 '''
