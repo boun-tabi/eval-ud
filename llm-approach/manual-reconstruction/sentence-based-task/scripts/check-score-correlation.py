@@ -59,7 +59,7 @@ def main():
     random.seed(42)
     sent_ids = list(v1_data.keys())
     random.shuffle(sent_ids)
-    sent_ids = sent_ids[:50]
+    sent_ids = sent_ids[:50] # ['bio_1990', 'bio_889', 'bio_433'] removed
     for sent_id in out_d.keys():
         if sent_id not in sent_ids:
             continue

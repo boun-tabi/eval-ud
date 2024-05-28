@@ -1,9 +1,11 @@
+import re
 
 def get_example_prompt(table, pos_d, feat_d, dep_d=None, tr_sort=False):
     lines = table.split('\n')
     ids = [line.split('\t')[0] for line in lines if '-' not in line.split('\t')[0]]
     token_count = len(ids)
     prompt_l = []
+    parentheses_pattern = re.compile(r'\((.*?)\)')
     for line in lines:
         fields = line.split('\t')
         id_t, lemma_t, pos_t, feats_t, head_t, dep_t = fields[0], fields[2], fields[3], fields[5], fields[6], fields[7]
@@ -37,10 +39,13 @@ def get_example_prompt(table, pos_d, feat_d, dep_d=None, tr_sort=False):
                 tag_shortdef = feat_d[feat_name]['shortdef']
             if feat_value in feat_d[feat_name]:
                 feat_value = feat_d[feat_name][feat_value]['shortdef'].lower()
+                feat_value = parentheses_pattern.sub('', feat_value).strip()
                 if '/' in feat_value:
-                    feat_value = feat_value.split('/')[0].strip()
+                    feat_value = feat_value.split('/')[0].strip() # 'nominative / direct' becomes 'nominative'
+                elif ',' in feat_value:
+                    feat_value = feat_value.split(',')[0].strip() # 'positive, affirmative' becomes 'positive'
             if tag_shortdef.startswith('whether'):
-                token_str_l.append('it is {fv}'.format(fv=feat_value))
+                token_str_l.append('it is {fv}'.format(fv=feat_value)) # 'its whether the word can be or is negated is negative' becomes 'it is negative'
             else:
                 token_str_l.append('its {fn} is {fv}'.format(fn=tag_shortdef, fv=feat_value))
         if dep_d and dep_t != '_':
