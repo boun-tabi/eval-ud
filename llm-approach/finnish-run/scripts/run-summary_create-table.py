@@ -62,12 +62,14 @@ def main():
                 'model': model,
                 'dependency_included': dependency_included,
                 'character-based': summary['average ratio'],
-                'token-based': comparison['summary']['llm accuracy']['f1'],
+                'token-based': comparison['summary']['llm accuracy'],
                 'sentence_count': sentence_count,
                 'date': date,
                 'special_tr': special_tr
             })
             print(f'{treebank} {model} {dependency_included} done')
+            print(f'character-based: {summary["average ratio"]}, token-based: {comparison["summary"]["llm accuracy"]}')
+            print('-----------------------------------')
 
             with summary_table_path.open('w', encoding='utf-8') as f:
                 json.dump(table, f, indent=4, ensure_ascii=False)
