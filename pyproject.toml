@@ -1,15 +1,18 @@
 [tool.poetry]
-name = "boun-treebank-evaluation"
+name = "eval-ud"
 version = "0.1.0"
 description = ""
-authors = ["Onur Gungor <onurgu@gmail.com>"]
+authors = ["Furkan Akkurt <furkanakkurt9285@gmail.com>"]
 readme = "README.md"
-packages = [{include = "boun_treebank_evaluation"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-langchain = "^0.0.188"
-openai = "^0.27.7"
+python = "^3.12"
+regex = "^2024.5.15"
+colorama = "^0.4.6"
+xlsxwriter = "^3.2.0"
+fastapi-poe = "^0.0.44"
+spacy = "^3.7.4"
+rapidfuzz = "^3.9.2"
 
 
 [build-system]
