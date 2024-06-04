@@ -7,8 +7,7 @@
 source /opt/python3/venv/base/bin/activate
 
 cd ~/eval-ud
-pip install poetry
-poetry install
+pip install fastapi-poe
 echo "Dependencies installed"
 
 main_dir="llm-approach/finnish-run/scripts/outputs"
