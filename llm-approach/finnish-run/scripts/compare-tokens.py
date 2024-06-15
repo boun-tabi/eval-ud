@@ -24,7 +24,7 @@ def get_matches(tokens1, tokens2):
             idx2 += 1
         else:
             idx2 += 1
-    return match_count, matches    
+    return match_count, matches
 
 def get_correct_all(matches):
     correct, all = 0, 0

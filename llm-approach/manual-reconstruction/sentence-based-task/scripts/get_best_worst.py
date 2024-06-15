@@ -14,44 +14,30 @@ def get_args():
     return parser.parse_args()
 
 def get_accuracy(original_text, output_text, tokenizer):
-    original_tokens = []
+    tokens1 = []
     for token in tokenizer(original_text):
-        original_tokens.append(token.text)
-    output_tokens = []
+        tokens1.append(token.text)
+    tokens2 = []
     for token in tokenizer(output_text):
-        output_tokens.append(token.text)
-    match_d = {}
-    original_tokens_len = len(original_tokens)
-    for i, token in enumerate(original_tokens):
-        output_tokens_len = len(output_tokens)
-        if output_tokens_len == 0:
+        tokens2.append(token.text)
+    idx1, idx2 = 0, 0
+    match_count = 0
+    matches = []
+    while True:
+        if idx1 >= len(tokens1) or idx2 >= len(tokens2):
             break
-        elif output_tokens_len == 1:
-            match_d[i] = output_tokens[0]
-        elif output_tokens_len == 2:
-            ratio1, ratio2 = fuzz.ratio(token, output_tokens[0]), fuzz.ratio(token, output_tokens[1])
-            if ratio1 > ratio2:
-                match_d[i] = output_tokens[0]
-            else:
-                match_d[i] = output_tokens[1]
-        elif output_tokens_len > 2:
-            first_three_items = output_tokens[:3]
-            ratio1, ratio2, ratio3 = fuzz.ratio(token, first_three_items[0]), fuzz.ratio(token, first_three_items[1]), fuzz.ratio(token, first_three_items[2])
-            max_ratio = max(ratio1, ratio2, ratio3)
-            if max_ratio == ratio1:
-                match_d[i] = output_tokens[0]
-            elif max_ratio == ratio2:
-                match_d[i] = output_tokens[1]
-            else:
-                match_d[i] = output_tokens[2]
-        if len(output_tokens) > original_tokens_len - i:
-            output_tokens = output_tokens[1:]
-    correct = 0
-    for i, token in enumerate(original_tokens):
-        output_token = match_d[i]
-        if token == output_token:
-            correct += 1
-    return correct, len(original_tokens)
+        if tokens1[idx1] == tokens2[idx2]:
+            match_count += 1
+            matches.append({
+                'token': tokens1[idx1],
+                'idx1': idx1,
+                'idx2': idx2
+            })
+            idx1 += 1
+            idx2 += 1
+        else:
+            idx2 += 1
+    return 2 * match_count / (len(tokens1) + len(tokens2))
 
 def get_best_worst(accuracies, output_d, type_t):
     accuracies.sort(reverse=True)

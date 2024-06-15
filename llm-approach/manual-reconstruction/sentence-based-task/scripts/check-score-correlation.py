@@ -63,29 +63,17 @@ def main():
     for sent_id in out_d.keys():
         if sent_id not in sent_ids:
             continue
-        p1_v1_correct, p1_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version1], tokenizer)
-        p1_v1_accuracy = p1_v1_correct / p1_v1_all
-        # p1_v1_accuracy = '{:.2f}'.format(p1_v1_correct / p1_v1_all * 100)
+        p1_v1_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version1], tokenizer)
         p1_v1_l.append({'sent_id': sent_id, 'accuracy': p1_v1_accuracy})
-        p1_v2_correct, p1_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version2], tokenizer)
-        p1_v2_accuracy = p1_v2_correct / p1_v2_all
-        # p1_v2_accuracy = '{:.2f}'.format(p1_v2_correct / p1_v2_all * 100)
+        p1_v2_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person1][version2], tokenizer)
         p1_v2_l.append({'sent_id': sent_id, 'accuracy': p1_v2_accuracy})
-        p2_v1_correct, p2_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version1], tokenizer)
-        p2_v1_accuracy = p2_v1_correct / p2_v1_all
-        # p2_v1_accuracy = '{:.2f}'.format(p2_v1_correct / p2_v1_all * 100)
+        p2_v1_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version1], tokenizer)
         p2_v1_l.append({'sent_id': sent_id, 'accuracy': p2_v1_accuracy})
-        p2_v2_correct, p2_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version2], tokenizer)
-        p2_v2_accuracy = p2_v2_correct / p2_v2_all
-        # p2_v2_accuracy = '{:.2f}'.format(p2_v2_correct / p2_v2_all * 100)
+        p2_v2_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id][person2][version2], tokenizer)
         p2_v2_l.append({'sent_id': sent_id, 'accuracy': p2_v2_accuracy})
-        llm_v1_correct, llm_v1_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version1], tokenizer)
-        llm_v1_accuracy = llm_v1_correct / llm_v1_all
-        # llm_v1_accuracy = '{:.2f}'.format(llm_v1_correct / llm_v1_all * 100)
+        llm_v1_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version1], tokenizer)
         llm_v1_l.append({'sent_id': sent_id, 'accuracy': llm_v1_accuracy})
-        llm_v2_correct, llm_v2_all = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version2], tokenizer)
-        # llm_v2_accuracy = '{:.2f}'.format(llm_v2_correct / llm_v2_all * 100)
-        llm_v2_accuracy = llm_v2_correct / llm_v2_all
+        llm_v2_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version2], tokenizer)
         llm_v2_l.append({'sent_id': sent_id, 'accuracy': llm_v2_accuracy})
     
     p1_v1_l.sort(key=lambda x: x['sent_id'])
@@ -121,16 +109,16 @@ if __name__ == '__main__':
 '''
 Pearson correlation coefficient between:
 
-Tarık_v2.8 and Akif_v2.8: 0.4584762210377269
-Tarık_v2.11 and Akif_v2.11: 0.4406540820074279
-Tarık_v2.8 and llm_v2.8: -0.11325674222829674
-Tarık_v2.11 and llm_v2.11: 0.5359704294923077
-Akif_v2.8 and llm_v2.8: -0.04897737858793731
-Akif_v2.11 and llm_v2.11: 0.21916060638319626
-Tarık_v2.8 and random: -0.07214568067718903
-Tarık_v2.11 and random: -0.09583643375566393
-Akif_v2.8 and random: -0.33618053702645617
-Akif_v2.11 and random: -0.276309916064479
-llm_v2.8 and random: 0.035931904779650456
-llm_v2.11 and random: -0.011960921608288778
+Tarık_v2.8 and Akif_v2.8: 0.4017330248281491
+Tarık_v2.11 and Akif_v2.11: 0.5634848457338214
+Tarık_v2.8 and llm_v2.8: 0.20495715591867494
+Tarık_v2.11 and llm_v2.11: 0.32564391165039824
+Akif_v2.8 and llm_v2.8: 0.2992647619615047
+Akif_v2.11 and llm_v2.11: 0.3367023953105025
+Tarık_v2.8 and random: 0.09374457833957385
+Tarık_v2.11 and random: 0.02284347843878367
+Akif_v2.8 and random: -0.0530533012966345
+Akif_v2.11 and random: 0.061313008650800326
+llm_v2.8 and random: 0.12957605818179854
+llm_v2.11 and random: 0.14830011885974398
 '''
