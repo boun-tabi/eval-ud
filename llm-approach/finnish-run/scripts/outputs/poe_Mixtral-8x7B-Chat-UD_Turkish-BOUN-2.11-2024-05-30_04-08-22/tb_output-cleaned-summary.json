@@ -1,0 +1,27 @@
+{
+    "average ratio": 0.7577013053033481,
+    "results": {
+        "bio_1754": {
+            "ratio": 0.765,
+            "original text": "Onun da, konuğun da.",
+            "output text": "O da konuk da."
+        },
+        "news_428": {
+            "ratio": 0.893,
+            "original text": "Vestel, PC pazarında lider",
+            "output text": "Vestel, PC'nin pazarına lider."
+        },
+        "ins_294": {
+            "ratio": 0.771,
+            "original text": "Önce organın tam veya kısmi koptuğu yere basınç uygulanır, kalp seviyesinden yukarı kaldırılır.",
+            "output text": "```json\n{\n  \"original_form\": \"Önce organun tam kısmi kopmuş yerine basınç uygulanır, kalp seviyesinden yukarı kaldırılır.\"\n}\n```"
+        },
+        "pop_657": {
+            "ratio": 0.602,
+            "original text": "Renkler sahte ve karmakarışıktı çünkü...",
+            "output text": "{\"original\\_form\": \"Sahte renkler ve karmakarışık y, çünkü...\"}"
+        }
+    },
+    "sentence_count": 4,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.11-2024-05-30_04-08-22/tb_output-cleaned.json"
+}

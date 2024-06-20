@@ -1,0 +1,27 @@
+{
+    "average ratio": 0.5698574185004182,
+    "results": {
+        "ins_786": {
+            "ratio": 0.66,
+            "original text": "Araştırmalar gösteriyor ki insanoğlu olarak bizler, genelde duygularıyla hareket eden varlıklarız.",
+            "output text": "{\"original\\_form\": \"Araştırma göster ki, insanoğlul ol biz, genel duygu hareket ettiğimiz var.\"}"
+        },
+        "pop_1374": {
+            "ratio": 0.876,
+            "original text": "Protokol ile ilgilenen, bu alanda kafa yoran, emek veren hemen herkes de Aker'in bu düşüncelerini paylaşıyor.",
+            "output text": "{\"original\\_form\": \"Protokol ile ilgilen, bu alanda kaf yor, emek ver hemen herkes de Aker'in bu düşüncelerini paylaşıyor.\"}"
+        },
+        "news_580": {
+            "ratio": 0.087,
+            "original text": "EKSİKLİKLER",
+            "output text": "Explanation:"
+        },
+        "news_934": {
+            "ratio": 0.657,
+            "original text": "Vuruş yanlışları yaptık.",
+            "output text": "{\"original\\_form\": \"Vurum yanlışları yaptık.\"}"
+        }
+    },
+    "sentence_count": 4,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Mistral-Medium-UD_Turkish-BOUN-2.8-2024-05-30_03-29-47/tb_output-cleaned.json"
+}

@@ -1,0 +1,17 @@
+{
+    "average ratio": 0.5991341991341991,
+    "results": {
+        "news_546": {
+            "ratio": 0.436,
+            "original text": "Onlara şans dilerim.",
+            "output text": "{\n\"original_form\": \"O şans dile.\"\n}"
+        },
+        "pop_1971": {
+            "ratio": 0.762,
+            "original text": "Bu sayede, \"teknik kapasitesi düşük\" makine-adamların her önüne geleni kaba kuvvetle bezdirerek yendikleri bir futbol âlemine doğru yönelmiş gidişat durdurulabildi.",
+            "output text": "original_form\": \"Bu saye teknik kapasite düşük makine adam her ön gel kaba kuvvet bez yen bir futbol âlem doğru yönel gidişat dur."
+        }
+    },
+    "sentence_count": 2,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Llama-2-70b-UD_Turkish-BOUN-2.11-2024-05-28_18-49-41/tb_output-cleaned.json"
+}

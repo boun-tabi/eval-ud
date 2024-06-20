@@ -24,6 +24,30 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-2-70b-UD_Turkish-BOUN-2.8-2024-05-28_18-07-41",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Llama-2-70b",
+        "dependency_included": true,
+        "character-based": 0.6406688300805947,
+        "token-based": 0.08853754940711463,
+        "sentence_count": 5,
+        "date": "2024-05-28",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-2-70b-UD_Turkish-BOUN-2.11-2024-05-28_18-49-41",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Llama-2-70b",
+        "dependency_included": true,
+        "character-based": 0.5991341991341991,
+        "token-based": 0.038461538461538464,
+        "sentence_count": 2,
+        "date": "2024-05-28",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Chinese-GSDSimp-2.12-2024-04-12_16-54-49",
         "treebank": "UD_Chinese-GSDSimp",
         "version": "2.12",
@@ -84,6 +108,30 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mistral-Large-UD_Turkish-BOUN-2.11-2024-05-30_02-55-47",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Mistral-Large",
+        "dependency_included": true,
+        "character-based": 0.9041234986888134,
+        "token-based": 0.2915317866276946,
+        "sentence_count": 10,
+        "date": "2024-05-30",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.11-2024-05-30_04-08-22",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Mixtral-8x7B-Chat",
+        "dependency_included": true,
+        "character-based": 0.7577013053033481,
+        "token-based": 0.10132575757575758,
+        "sentence_count": 4,
+        "date": "2024-05-30",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Chinese-GSDSimp-2.11-2024-04-12_14-33-18",
         "treebank": "UD_Chinese-GSDSimp",
         "version": "2.11",
@@ -93,6 +141,18 @@
         "token-based": 0.9830505747262198,
         "sentence_count": 500,
         "date": "2024-04-12",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-instant-100k-UD_Turkish-BOUN-2.11-2024-05-28_11-38-41",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Claude-instant-100k",
+        "dependency_included": true,
+        "character-based": 0.8186919057630757,
+        "token-based": 0.25145768833849325,
+        "sentence_count": 10,
+        "date": "2024-05-28",
         "special_tr": false
     },
     {
@@ -180,6 +240,18 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-3.5-Turbo-UD_Turkish-BOUN-2.11-2024-05-29_23-08-19",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "GPT-3.5-Turbo",
+        "dependency_included": true,
+        "character-based": 0.8338757922608394,
+        "token-based": 0.201566260365022,
+        "sentence_count": 25,
+        "date": "2024-05-29",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_English-EWT-2.12-2024-04-12_14-30-43",
         "treebank": "UD_English-EWT",
         "version": "2.12",
@@ -204,6 +276,18 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-instant-100k-UD_Turkish-BOUN-2.8-2024-05-28_00-37-10",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Claude-instant-100k",
+        "dependency_included": true,
+        "character-based": 0.8435393904820336,
+        "token-based": 0.21975802133138858,
+        "sentence_count": 487,
+        "date": "2024-05-28",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4o-UD_Turkish-BOUN-2.11-2024-05-23_12-51-27",
         "treebank": "UD_Turkish-BOUN",
         "version": "2.11",
@@ -213,6 +297,18 @@
         "token-based": 0.3789068651101908,
         "sentence_count": 500,
         "date": "2024-05-23",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-3-Opus-200k-UD_Turkish-BOUN-2.8-2024-05-28_15-59-41",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Claude-3-Opus-200k",
+        "dependency_included": true,
+        "character-based": 0.9431769754012835,
+        "token-based": 0.7692640692640692,
+        "sentence_count": 6,
+        "date": "2024-05-28",
         "special_tr": false
     },
     {
@@ -228,6 +324,18 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mistral-Medium-UD_Turkish-BOUN-2.8-2024-05-30_03-29-47",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Mistral-Medium",
+        "dependency_included": true,
+        "character-based": 0.5698574185004182,
+        "token-based": 0.021739130434782608,
+        "sentence_count": 4,
+        "date": "2024-05-30",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-3-70B-T-UD_Turkish-BOUN-2.8-2024-04-19_10-59-00",
         "treebank": "UD_Turkish-BOUN",
         "version": "2.8",
@@ -240,6 +348,42 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-3.5-Turbo-UD_Turkish-BOUN-2.8-2024-05-28_22-58-45",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "GPT-3.5-Turbo",
+        "dependency_included": true,
+        "character-based": 0.8199040005926714,
+        "token-based": 0.15086741992267425,
+        "sentence_count": 376,
+        "date": "2024-05-28",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-2-100k-UD_Turkish-BOUN-2.11-2024-05-28_14-07-41",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Claude-2-100k",
+        "dependency_included": true,
+        "character-based": 0.8756789673330398,
+        "token-based": 0.27902161139087955,
+        "sentence_count": 430,
+        "date": "2024-05-28",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.8-2024-05-30_03-52-34",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Mixtral-8x7B-Chat",
+        "dependency_included": true,
+        "character-based": 0.5962940571912219,
+        "token-based": 0.041666666666666664,
+        "sentence_count": 4,
+        "date": "2024-05-30",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Basque-BDT-2.10-2024-04-12_14-29-42",
         "treebank": "UD_Basque-BDT",
         "version": "2.10",
@@ -249,6 +393,30 @@
         "token-based": 0.22984749653572525,
         "sentence_count": 500,
         "date": "2024-04-12",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mistral-Large-UD_Turkish-BOUN-2.8-2024-05-29_23-27-30",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Mistral-Large",
+        "dependency_included": true,
+        "character-based": 0.8696313910216431,
+        "token-based": 0.19323417961348996,
+        "sentence_count": 13,
+        "date": "2024-05-29",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-3-Opus-200k-UD_Turkish-BOUN-2.11-2024-05-28_17-04-17",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Claude-3-Opus-200k",
+        "dependency_included": true,
+        "character-based": 0.9836065573770492,
+        "token-based": 1.4545454545454546,
+        "sentence_count": 1,
+        "date": "2024-05-28",
         "special_tr": false
     },
     {
@@ -273,6 +441,18 @@
         "token-based": 0.24017730256854386,
         "sentence_count": 500,
         "date": "2024-04-12",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Claude-2-100k-UD_Turkish-BOUN-2.8-2024-05-28_13-15-11",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.8",
+        "model": "Claude-2-100k",
+        "dependency_included": true,
+        "character-based": 0.8544353379145926,
+        "token-based": 0.26715108586950675,
+        "sentence_count": 23,
+        "date": "2024-05-28",
         "special_tr": false
     }
 ]

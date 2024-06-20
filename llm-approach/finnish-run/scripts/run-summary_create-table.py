@@ -49,6 +49,8 @@ def main():
             summary_path = run_dir / (cleaned_output_path.stem + '-summary.json')
             with summary_path.open('r', encoding='utf-8') as f:
                 summary = json.load(f)
+            if 'sentence_count' not in summary:
+                continue
             sentence_count = summary['sentence_count']
             # 3: compare-tokens.py
             os.system(f'python {compare_tokens_script_path} -s {summary_path}')

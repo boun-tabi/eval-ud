@@ -1,0 +1,27 @@
+{
+    "average ratio": 0.5962940571912219,
+    "results": {
+        "bio_1204": {
+            "ratio": 0.876,
+            "original text": "İki gün sonra kabus dolu bir uykudan çığlıklarla uyandım.",
+            "output text": "iki gün sonra kâbus dolu bir uyku çığlıkla uyan."
+        },
+        "pop_396": {
+            "ratio": 0.196,
+            "original text": "Yüzük metodu",
+            "output text": "{\"original\\_form\": \"metotun yüzükleri\"}"
+        },
+        "pop_302": {
+            "ratio": 0.748,
+            "original text": "Şimdi de \"Lale Manço ne zaman doğurdu ki?\" diye sormayın.",
+            "output text": "{\n\"original\\_form\": \"Şimdi de \\\"Lâle Manço ne zaman doğurdu ki?\\\" diye soralım.\"\n}"
+        },
+        "pop_1320": {
+            "ratio": 0.565,
+            "original text": "Aslan Burcu'nun doğal evi olan V.",
+            "output text": "{\n\"original_form\": \"Aslan'ın doğal evi olmakta V.\"\n}"
+        }
+    },
+    "sentence_count": 4,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.8-2024-05-30_03-52-34/tb_output-cleaned.json"
+}

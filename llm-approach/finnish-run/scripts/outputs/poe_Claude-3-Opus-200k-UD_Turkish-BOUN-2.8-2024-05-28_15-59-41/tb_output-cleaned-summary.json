@@ -1,0 +1,37 @@
+{
+    "average ratio": 0.9431769754012835,
+    "results": {
+        "pop_702": {
+            "ratio": 0.985,
+            "original text": "Nasıl olsa yine giderim diye kadınlar kendilerini koyverirler veee.",
+            "output text": "Nasıl olsa yine giderim diye kadınlar kendilerini koyuverirler veeee."
+        },
+        "ins_1884": {
+            "ratio": 0.968,
+            "original text": "Fakat kentteki işi bitip de kasabaya döndüğü zaman eli boşmuş.",
+            "output text": "Fakat kentteki işi bitince de kasabaya döndüğü zaman eli boşmuş."
+        },
+        "pop_689": {
+            "ratio": 1.0,
+            "original text": "Clarins ve Nivea piyasaya ilk girenler oldu.",
+            "output text": "Clarins ve Nivea piyasaya ilk girenler oldu."
+        },
+        "ins_793": {
+            "ratio": 0.894,
+            "original text": "Bunu söylemek istemiştim.",
+            "output text": "Bunu söylemek istedim."
+        },
+        "bio_1908": {
+            "ratio": 0.824,
+            "original text": "Onların en ölümsek zamanlarında bile bir zulüm öldürücüleri, bir Sütçü İmamları vardır.",
+            "output text": "Onların en öldüğümüz zamanlarda bile bir zulmün ölüsü, bir süt imamları vardı."
+        },
+        "pop_657": {
+            "ratio": 0.988,
+            "original text": "Renkler sahte ve karmakarışıktı çünkü...",
+            "output text": "Renkler sahte ve karmakarışıktı çünkü ..."
+        }
+    },
+    "sentence_count": 6,
+    "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Claude-3-Opus-200k-UD_Turkish-BOUN-2.8-2024-05-28_15-59-41/tb_output-cleaned.json"
+}

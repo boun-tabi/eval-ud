@@ -34,13 +34,16 @@ def main():
         ratio_acc += ratio
         all_count += 1
         out_d['results'][sent_id] = {'ratio': float('{:.3f}'.format(ratio)), 'original text': original_text, 'output text': output_text}
-    out_d['average ratio'] = ratio_acc / all_count
+    if all_count == 0:
+        out_d = {}
+    else:
+        out_d['average ratio'] = ratio_acc / all_count
 
-    out_d['sentence_count'] = all_count
+        out_d['sentence_count'] = all_count
 
-    keys = list(out_d.keys())
-    keys.sort()
-    out_d = {k: out_d[k] for k in keys}
+        keys = list(out_d.keys())
+        keys.sort()
+        out_d = {k: out_d[k] for k in keys}
 
     summary_path = run_dir / (tb_out.stem + '-summary.json')
     with open(summary_path, 'w', encoding='utf-8') as f:
