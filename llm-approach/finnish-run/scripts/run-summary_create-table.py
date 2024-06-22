@@ -11,11 +11,7 @@ def get_args():
 def main():
     args = get_args()
     output_dir = Path(args.output_dir)
-    dirs_exclude = [
-        'trendyol_Trendyol-LLM-7b-chat-v1.0-UD_Turkish-BOUN-2.11-2024-04-28_09-11-16',
-        'poe_GPT-4-UD_Highland_Puebla_Nahuatl-ITML-2.13-2024-04-12_14-31-52'
-    ]
-    run_dirs = [d for d in output_dir.iterdir() if d.is_dir() and d.name not in dirs_exclude]
+    run_dirs = [d for d in output_dir.iterdir() if d.is_dir()]
     # if args.calculate_dir:
     #     run_dirs = [d for d in run_dirs if str(d).endswith(args.calculate_dir)]
     script_dir = Path(__file__).parent
