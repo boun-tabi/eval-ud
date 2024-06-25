@@ -6,11 +6,12 @@
 | UD_Chinese-GSDSimp | 2.12 | GPT-4 | 99.7% | 94.0% | Yes | 500 | 2024-04-12 | False |
 | UD_English-EWT | 2.12 | GPT-4 | **95.9%** | **70.8%** | Yes | 500 | 2024-04-12 | False |
 | UD_English-EWT | 2.13 | GPT-4 | 95.7% | 68.8% | Yes | 500 | 2024-04-12 | False |
-| UD_Finnish-TDT | 2.13 | GPT-4 | 94.5% | 48.9% | Yes | 500 | 2024-03-12 | False |
 | UD_Hindi-HDTB | 2.9 | GPT-4 | 93.5% | 36.0% | Yes | 500 | 2024-04-12 | False |
 | UD_Hindi-HDTB | 2.10 | GPT-4 | **93.6%** | **37.2%** | Yes | 500 | 2024-04-12 | False |
 | UD_Irish-IDT | 2.7 | GPT-4 | **93.6%** | 30.6% | Yes | 500 | 2024-04-12 | False |
 | UD_Irish-IDT | 2.8 | GPT-4 | 93.3% | **30.7%** | Yes | 500 | 2024-04-12 | False |
+| UD_Turkish-BOUN | 2.8 | Claude-instant-100k | 84.4% | 21.9% | Yes | 500 | 2024-05-28 | False |
+| UD_Turkish-BOUN | 2.11 | Claude-instant-100k | **85.7%** | **24.1%** | Yes | 500 | 2024-05-28 | False |
 | UD_Turkish-BOUN | 2.8 | GPT-4 | 88.3% | 33.0% | Yes | 500 | 2024-04-11 | False |
 | UD_Turkish-BOUN | 2.11 | GPT-4 | **88.7%** | **36.1%** | Yes | 500 | 2024-04-11 | False |
 | UD_Turkish-BOUN | 2.8 | GPT-4 | 88.4% | 32.0% | Yes | 500 | 2024-04-27 | True |
@@ -20,4 +21,5 @@
 | UD_Turkish-BOUN | 2.8 | Llama-3-70B-T | 84.3% | 20.9% | Yes | 500 | 2024-04-19 | False |
 | UD_Turkish-BOUN | 2.11 | Llama-3-70B-T | **85.1%** | **22.2%** | Yes | 500 | 2024-04-19 | False |
 | UD_Turkish-BOUN | 2.8 | Trendyol-LLM-7b-chat-v1.0 | 61.0% | 10.1% | Yes | 500 | 2024-04-27 | False |
+| UD_Turkish-BOUN | 2.11 | Trendyol-LLM-7b-chat-v1.0 | **64.1%** | **10.9%** | No | 500 | 2024-04-28 | False |
 | UD_Turkish-BOUN | 2.11 | Trendyol-LLM-7b-chat-v1.0 | **61.5%** | **10.5%** | Yes | 500 | 2024-04-28 | False |

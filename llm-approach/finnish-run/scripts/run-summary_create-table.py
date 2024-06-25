@@ -27,6 +27,8 @@ def main():
         table = []
         for run_dir in run_dirs:
             md_file = run_dir / 'md.json'
+            if not md_file.exists():
+                continue
             with md_file.open('r', encoding='utf-8') as f:
                 run_info = json.load(f)
             date = run_info['now'].split('_')[0]
