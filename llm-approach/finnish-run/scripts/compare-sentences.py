@@ -1,5 +1,6 @@
 import argparse
 from spacy.lang.en import English
+from difflib import SequenceMatcher
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -27,6 +28,19 @@ def main():
 
     sent1, sent2 = args.sentence1, args.sentence2
 
+    sequence_matching = SequenceMatcher(None, sent1, sent2)
+    print('Sequence matching:')
+    match_blocks = sequence_matching.get_matching_blocks()
+    print('Match blocks:')
+    match_count = 0
+    for match_block in match_blocks:
+        match_count += match_block.size
+    sequence_matching_ratio = sequence_matching.ratio()
+    print(f'Sequence matching ratio: {sequence_matching_ratio:.3f}')
+    print(f'Match count: {match_count}')
+    character_count = len(sent1) + len(sent2)
+    print(f'Character count: {character_count}')
+
     nlp = English()
     tokenizer = nlp.tokenizer
 
@@ -37,7 +51,11 @@ def main():
     for token in tokenizer(sent2):
         sent2_tokens.append(token.text)
     match_count, matches = get_matches(sent1_tokens, sent2_tokens)
+    token_count = len(sent1_tokens) + len(sent2_tokens)
+
+    print('Token matching:')
     print(f'Match count: {match_count}')
+    print(f'Token count: {token_count}')
     print('Matches:')
     for match in matches:
         print(f'{match["token"]} ({match["idx1"]}, {match["idx2"]})')
