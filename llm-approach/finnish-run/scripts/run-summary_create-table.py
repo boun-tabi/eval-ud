@@ -42,7 +42,10 @@ def main():
                 special_tr = run_info['special_tr']
             else:
                 special_tr = False
-            output_file = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')][0]
+            files = [f for f in run_dir.iterdir() if f.is_file() and f.suffix == '.json' and f.stem.endswith('output')]
+            if len(files) == 0:
+                continue
+            output_file = files[0]
             with output_file.open('r', encoding='utf-8') as f:
                 output = json.load(f)
             if len(output) < 500:

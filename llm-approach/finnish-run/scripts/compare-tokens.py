@@ -7,23 +7,18 @@ def get_args():
     return parser.parse_args()
 
 def get_matches(tokens1, tokens2):
-    idx1, idx2 = 0, 0
     match_count = 0
     matches = []
-    while True:
-        if idx1 >= len(tokens1) or idx2 >= len(tokens2):
-            break
-        if tokens1[idx1] == tokens2[idx2]:
-            match_count += 1
-            matches.append({
-                'token': tokens1[idx1],
-                'idx1': idx1,
-                'idx2': idx2
-            })
-            idx1 += 1
-            idx2 += 1
-        else:
-            idx2 += 1
+    tokens2_matched = {i: False for i in range(len(tokens2))}
+    for i, token1 in enumerate(tokens1):
+        for j, token2 in enumerate(tokens2):
+            if tokens2_matched[j]:
+                continue
+            if token1 == token2:
+                match_count += 1
+                tokens2_matched[j] = True
+                matches.append({'token': token1, 'idx1': i, 'idx2': j})
+                break
     return match_count, matches
 
 def get_correct_all(matches):
