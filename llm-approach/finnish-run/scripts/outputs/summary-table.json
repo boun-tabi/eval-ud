@@ -72,6 +72,18 @@
         "special_tr": false
     },
     {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.11-2024-05-30_04-08-22",
+        "treebank": "UD_Turkish-BOUN",
+        "version": "2.11",
+        "model": "Mixtral-8x7B-Chat",
+        "dependency_included": true,
+        "character-based": 0.643996681640638,
+        "token-based": 0.37141832469902475,
+        "sentence_count": 500,
+        "date": "2024-05-30",
+        "special_tr": false
+    },
+    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_GPT-4-UD_Chinese-GSDSimp-2.11-2024-04-12_14-33-18",
         "treebank": "UD_Chinese-GSDSimp",
         "version": "2.11",

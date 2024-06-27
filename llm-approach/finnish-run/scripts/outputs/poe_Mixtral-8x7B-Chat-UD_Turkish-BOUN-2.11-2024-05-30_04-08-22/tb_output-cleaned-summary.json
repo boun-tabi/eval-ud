@@ -1,5 +1,5 @@
 {
-    "average ratio": 0.7577013053033481,
+    "average ratio": 0.643996681640638,
     "results": {
         "bio_1754": {
             "ratio": 0.765,
@@ -20,8 +20,2488 @@
             "ratio": 0.602,
             "original text": "Renkler sahte ve karmakarışıktı çünkü...",
             "output text": "{\"original\\_form\": \"Sahte renkler ve karmakarışık y, çünkü...\"}"
+        },
+        "bio_1204": {
+            "ratio": 0.735,
+            "original text": "İki gün sonra kabus dolu bir uykudan çığlıklarla uyandım.",
+            "output text": "original\\_form\": \"İki gün sonra kâbım dolu bir uykudan çığlık çıkar uyanıyorum."
+        },
+        "ess_1222": {
+            "ratio": 0.828,
+            "original text": "Geçen yıllarda bu sorun çözüldü, fakat bu sene henüz herhangi bir kurum sponsorluğu üstlenmediği için dergimiz matbaada bekliyor.",
+            "output text": "original\\_form\": \"Geçen yıllar bu sorun çözülmüş, fakat bu sene henüz herhangi bir kurumun sponsorluk üstlenmemiş dergi matbaasında beklenmiyor."
+        },
+        "news_583": {
+            "ratio": 0.707,
+            "original text": "Polis de, \"güvenlik\" gerekçesiyle yürüyüşe izin vermedi.",
+            "output text": "original\\_form\": \"Polis de, güvenlik 'nin gerekçesi ile yürü izin verilmiyor."
+        },
+        "bio_925": {
+            "ratio": 0.155,
+            "original text": "Bırakmak istiyorum, bırakamıyorum.",
+            "output text": "[\n  {\"original_form\": \"bırak\"},\n  {\"original_form\": \"iste,\"},\n  {\"original_form\": \"bırak\"},\n  {\"original_form\": \"bile\"},\n  {\"original_form\": \".\"}\n]"
+        },
+        "ess_332": {
+            "ratio": 0.495,
+            "original text": "Kemikli iricene, çirkin ve itici.",
+            "output text": "The sentence is \"kemikli, çirkin ve itici.\" in its surface form."
+        },
+        "pop_144": {
+            "ratio": 0.716,
+            "original text": "Dünya, özellikle de deyimin anayurdu Amerika, tabandan tavana çıkanların yolculuk hikayeleriyle dolu.",
+            "output text": "original\\_form\": \"Dünya, özellikle de 'anay y Amerika' tabanından, tavanından çık yolculuk hikâyeleri dolu hikâye."
+        },
+        "news_1834": {
+            "ratio": 0.605,
+            "original text": "Bu oyunda sahnede oynarken de yazdığım oluyor.",
+            "output text": "original\\_form\": \"Bu oyun sahnesinde oynan yıldızlı oyuncu de yaz oluyor."
+        },
+        "pop_1996": {
+            "ratio": 0.667,
+            "original text": "Demir kafeslerle yolların üzerine sardırmışlar.",
+            "output text": "original_form\": \"Demir kafesler yollarını Üzer sarıldı."
+        },
+        "news_1999": {
+            "ratio": 0.576,
+            "original text": "İlk vokal denememdi, beni profesyonel zannettiler.",
+            "output text": "```json\n{\n  \"original_form\": \"Ilk vokal deneyim yaparım, profesyonel zannetmişler.\"\n}\n```"
+        },
+        "ess_606": {
+            "ratio": 0.596,
+            "original text": "Umurumda bile değil.",
+            "output text": "original\\_form\": \"Umrimde bile değil."
+        },
+        "news_1154": {
+            "ratio": 0.729,
+            "original text": "Kent bizi gökkuşağı gibi sarmalıyor.",
+            "output text": "original\\_form\": \"Kent bizim gökkuşagımız gibi sarmalanıyor."
+        },
+        "ins_615": {
+            "ratio": 0.582,
+            "original text": "Atatürk genç öğrencinin verdiği bu cevap karşısında çok duygulanmıştı.",
+            "output text": "original\\_form\": \"ATATÜRK'ün genç öğrenci verdiği bu cevap karşı duyguyu çok hissetti y."
+        },
+        "ess_992": {
+            "ratio": 0.606,
+            "original text": "Herkes kendisini birazcık daha sevsin, teşekkürü yeterince almıştır öteki.",
+            "output text": "```json\n{\n  \"original_form\": \"Herkes kendini birazcık daha sev, alıp teşekkür edip öteki yeterince öğrenir.\"\n}\n```"
+        },
+        "ins_573": {
+            "ratio": 0.698,
+            "original text": "Arkada, kendi hâline terk edilmiş tek katlı iki ev vardı.",
+            "output text": "{\"original\\_form\": \"Arka kendi hâlinda terk etmiş tek katlı ev var.\"}"
+        },
+        "pop_714": {
+            "ratio": 0.636,
+            "original text": "Doktor yoklayıp baktı:",
+            "output text": "{\"original\\_form\": \"Doktor yoklayıp bakti:\"}"
+        },
+        "news_281": {
+            "ratio": 0.703,
+            "original text": "Liderin son görevi teşekkür etmektir.",
+            "output text": "{\"original\\_form\": \"Lideri son görevi teşekkür etti.\"}"
+        },
+        "news_420": {
+            "ratio": 0.707,
+            "original text": "Elektronik göstergeli CNC işleme makinasıyla (freze) üretimi yapılan ürünlerin bu ülkeye gönderilmesi sonucu, 2 yılda 200 bin Euro ülke ekonomisine katkı sağladık.",
+            "output text": "elektronik göstergeli CNC işle makinası ile 2 yıl sonra 200 bin euro ülke ekonomisine katkı sağladı."
+        },
+        "ins_521": {
+            "ratio": 0.383,
+            "original text": "Mahmutlar, Kâzımlar, İsmailler",
+            "output text": "[\n{\"original_form\": \"Mahmut,\"},\n{\"original_form\": \"Kâzım,\"},\n{\"original_form\": \"İsmail\"}\n]"
+        },
+        "pop_872": {
+            "ratio": 0.633,
+            "original text": "CAN KOZANOĞLU (Sosyolog yazar)",
+            "output text": "Can Kozanoğlu (sosyolog yazar)"
+        },
+        "news_1823": {
+            "ratio": 0.626,
+            "original text": "İkinci çeyreğe Mustafa Abi'nin yerine Ender'le başlayan Efes, Diamantidis ve Lakovic'in serbest atışlarıyla farkın 8 sayıya çıkmasına engel olamadı.",
+            "output text": "{\"original\\_form\": \"İki çeyrek Mustafa abisi için Ender ile Lakovic serbest atış farkı 8 sayıya çık engel olmaz.\"}"
+        },
+        "bio_742": {
+            "ratio": 0.561,
+            "original text": "Otele geldik, yavaşladı derken, birden yeniden gazlamaz mı ? Feryat figan bağırıyorum, Duygu duymuyor ve de önünü görmeden kullanıyor arabayı.",
+            "output text": "otel'e gel birden yeniden gazla mi?\", \"surface_form\": \"Otel'e gel birden yeniden gazla mi, Figan bağırıyor, Duygu duymaz ve onun önünde gör kullanarak araba kullanıyor?"
+        },
+        "bio_1378": {
+            "ratio": 0.667,
+            "original text": "Akıllıca bir laf etti.",
+            "output text": "{\"original\\_form\": \"Akıllıca bir laf etti.\"}"
+        },
+        "pop_733": {
+            "ratio": 0.732,
+            "original text": "Japon Denizi'nin ortasında, bir gemi enkazına tutunmuş 3-4 Japon balıkçı Sahil Güvenlik tarafından kurtarılmış.",
+            "output text": "original\\_form\": \"Japon Deniz'in ortasında bir gemi, 3-4 yıl önce Japonya balıkçısının sahil güvenlik tarafından kurtarıldı."
+        },
+        "pop_1257": {
+            "ratio": 0.73,
+            "original text": "63. Bütün ağaçlar ve tabiat kutsaldır, ayırım yapmadan.",
+            "output text": "63. Bütün ağaçlar ve tabiat, kutsal ayırım yapılmaz. Ayırım yapılmaz ağaçlar konu."
+        },
+        "pop_956": {
+            "ratio": 0.728,
+            "original text": "Bayanlar liginin en kuvvetli ekibi, 1993/94'te başlayan ligde tam dört sezon üst üste şampiyon olan İstanbul'un Dinarsu takımıydı.",
+            "output text": "```bash\nBayanların liginde en kuvvetli ekip, 1993/94 başlayan dört sezon üstü İstanbul Dinarsu takımı şampiyon oldu.\n```"
+        },
+        "pop_876": {
+            "ratio": 0.758,
+            "original text": "Eee, ne de olsa Necip Mirkelamoğlu'nun yeğeni değil miydi?",
+            "output text": "{\"original\\_form\": \"EEE, ne de ol Necip Mirkelamoğlu'nun yeğen değil mi?\"}"
+        },
+        "bio_1719": {
+            "ratio": 0.546,
+            "original text": "Bir yandan da \"Buranın çıkışı vardır, burada yılan vardır\" diye düşünüp kendi kendime gülüyorum.",
+            "output text": "```json\n{\n  \"original_form\": \"Bir yan da, bura çık varı, yılan var i diye, 'düşün kendi kendine gül.'.\"\n}\n```"
+        },
+        "bio_1507": {
+            "ratio": 0.58,
+            "original text": "İçimde ne olduğunu bilmediğim tuhaf bir şeyin cız ettiğini somut olarak duydum.",
+            "output text": "{\"original\\_form\": \"Üçüncü kişi içimde ne ol-du-ğun, benim bil-me-di-ği tuhaf bir şey, somut ol-du-ğun duy-du-m?\"}"
+        },
+        "ess_102": {
+            "ratio": 0.4,
+            "original text": "- Nedenmiş o?",
+            "output text": "{\"original\\_form\": \"Neden yildiz o?\"}"
+        },
+        "pop_1971": {
+            "ratio": 0.849,
+            "original text": "Bu sayede, \"teknik kapasitesi düşük\" makine-adamların her önüne geleni kaba kuvvetle bezdirerek yendikleri bir futbol âlemine doğru yönelmiş gidişat durdurulabildi.",
+            "output text": "Bu saye teknik kapasitedeki düşük makine adamın her ön gelen kaba kuvvetiyle bezdiği yen bir futbol âlemine doğru yönel gidişatı, durabilir."
+        },
+        "news_300": {
+            "ratio": 0.738,
+            "original text": "Namağlup tek şampiyon: Beşiktaş",
+            "output text": "{\"original\\_form\": \"Namağlup tek şampiyon: Beşiktaş\"}"
+        },
+        "pop_1365": {
+            "ratio": 0.708,
+            "original text": "Ramayana özgün olarak Sanskritçe yazılmış bir destandır.",
+            "output text": "{\n\"original\\_form\": \"Ramayana özgü ol Sanskritçe yazılan bir destanı i.\"\n}"
+        },
+        "pop_742": {
+            "ratio": 0.583,
+            "original text": "Sebzeleri tencerenin içerisine alın, 5-6 dakika daha kavurun.",
+            "output text": "[\n  \"Sebze\",\n  \"tenceresi\",\n  \"içeri\",\n  \"alın\",\n  \"5'\",\n  \"-\",\n  \"6 dakika\",\n  \"daha\",\n  \"kavur\",\n  \".\",\n]"
+        },
+        "news_1436": {
+            "ratio": 0.532,
+            "original text": "Bu da bizi sevindiriyor.\" diye konuştu.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu da biz'i sevin diye konuşuldu.\"\n}\n```"
+        },
+        "news_669": {
+            "ratio": 0.769,
+            "original text": "24 yaşındaki sürücü Sofuoğlu'nun takımı Honda da markalar birinciliğine uzandı.",
+            "output text": "original\\_form\": \"24 yaşında ki sürücü Sofuoğlu takımın Honda da markasını birincilik uza."
+        },
+        "ess_605": {
+            "ratio": 0.528,
+            "original text": "Konumuz varsa başlayalım mı artık?",
+            "output text": "```json\n{\"original_form\": \"Konumuzun var yoksa biz başla mi artık?\"}\n```"
+        },
+        "news_547": {
+            "ratio": 0.746,
+            "original text": "ARGE faaliyetleri sonucu yaratılan tahmini katma değer >60 milyon dolar civarında.",
+            "output text": "original\\_form\": \"ARGE'nin faaliyetlerinin sonuçları yaratılan kat değerinin >60 milyon dolar civarında"
+        },
+        "bio_314": {
+            "ratio": 0.613,
+            "original text": "\"Yılmaz Güney'i sevk ediyorlar, neresi olduğunu bilmiyoruz, bugün ziyaret yasak,\" dedi ve dediği gibi izinden dönen mahkûmları alıp gitti.",
+            "output text": "\"\" Yılmaz Güney'i sevk ediyor, nere olup bugün ziyaret etmiyorum, çünkü yasak, \"de\" bir şey izleyemiyorum. Dönüştüğümde, mahkûm alıp gitmişler. \"\""
+        },
+        "pop_611": {
+            "ratio": 0.818,
+            "original text": "Albüm yeni; ama, içinde mutlaka bir eski var.",
+            "output text": "Yeni; ama, içde mutlaka bir eski albüm var."
+        },
+        "ins_1438": {
+            "ratio": 0.973,
+            "original text": "Ama her şeyi ile...",
+            "output text": "Ama her şey ile..."
+        },
+        "ess_1319": {
+            "ratio": 0.821,
+            "original text": "Öğrenciler bunu yaptıktan sonra, \"tek numaralar geçti, çift numaralar kaldı, hadi yallah \" diye gönderir.",
+            "output text": "Öğrenciler bu yapılan sonra tek numara geçmiş, çift numara kalmış diye hadi yallah gönder."
+        },
+        "pop_762": {
+            "ratio": 0.338,
+            "original text": "İnanılmaz kavgalar da ettik, sayısını bilmediğim...",
+            "output text": "```json\n{\n  \"original_form\": \"Kavga da etmiş, inanılmaz sayı bilmiyor...\"\n}\n```"
+        },
+        "bio_929": {
+            "ratio": 0.727,
+            "original text": "Bir de özel medrese kurulmasına izin verildi.",
+            "output text": "original\\_form\": \"Bir de özel medrese kurulmaz izin, verilmiştir."
+        },
+        "ess_469": {
+            "ratio": 0.716,
+            "original text": "En azından ergenlik çağında tanışmayacak kadın olmanın zorluklarıyla.",
+            "output text": "original_form\": \"En azı ergenlik çağında tanış kadın ol zorluklarıyla yapılmaz."
+        },
+        "news_1896": {
+            "ratio": 0.861,
+            "original text": "Bir kez daha yazmıştım ama sırası geldi.",
+            "output text": "Bir kez daha yazdım ama sırada gelmedi."
+        },
+        "pop_116": {
+            "ratio": 0.778,
+            "original text": "Vakıfbank Sanat Galerisi yöneticisi Ebru Zeynep Gökmen'i sinirlendiren de \"nü\"ye itiraz edenler.",
+            "output text": "original\\_form\": \"Vakıfbank sanat galerisinin yönetici Ebru, Zeynep'i Gökmen'i sinirlen de nü ye itiraz et."
+        },
+        "news_98": {
+            "ratio": 0.821,
+            "original text": "Askerlerin önceliği vardır.",
+            "output text": "Askerlerin öncelikleri varmı?"
+        },
+        "news_1153": {
+            "ratio": 0.884,
+            "original text": "Araştırmacılar ayrıca çapalar, halat parçaları, mumluk, saç fırçaları ve sandaletler gibi kişisel eşyalar çıkarttılar.",
+            "output text": "Araştırmacılar ayrıca çapa, halat parça, mum gibi, saç fırçası ve sandaletler gibi kişisel eşyaları çıkar."
+        },
+        "ess_1612": {
+            "ratio": 0.268,
+            "original text": "Fenalık geçirip yere yığılmaları.",
+            "output text": "[\n  {\"original_form\": \"fenalık\"},\n  {\"original_form\": \"geç\"},\n  {\"original_form\": \"yer\"},\n  {\"original_form\": \"yığar\"},\n  {\"original_form\": \".\"}\n]"
+        },
+        "bio_1774": {
+            "ratio": 0.491,
+            "original text": "Ömrümün yarıdan çoğu ağlamakla geçti benim.",
+            "output text": "```json\n{\n  \"original_form\": \"Ömürüm yarısı çok ağladım geç ben.\"\n}\n```"
+        },
+        "pop_225": {
+            "ratio": 0.828,
+            "original text": "İmparator uygulamaya hemen geçmiş, Avrupa'ya, İran'a Türkistan'a, Türkiye'ye, Hindistan'ın bütün şehirlerine haber salmış, oralardan birer proje istemişti.",
+            "output text": "İmparatör uygulamaya hemen geçmiş, Avrupa, İran ve Türkistan'a, Türkiye'de bütün şehirlerde haber salınca oradan bir proje işte y."
+        },
+        "ess_1094": {
+            "ratio": 0.716,
+            "original text": "Dünya katmanlarına girdiğimde, birileri benim enerjimi ifade ettiğim şekilde değil, kendi enerji ifade edişiyle duygu, görüntü, hissediş olarak algılayacaktır.",
+            "output text": "```json\n{\n  \"original_form\": \"Dünyanın katmanına girmediğim biri benim enerjimdeki ifade etmediği şekilde, kendi enerjimdeki ifade etmiş, duygu, görüntü ve hisset olarak algıla bilir.\"\n}\n```"
+        },
+        "pop_1671": {
+            "ratio": 0.473,
+            "original text": "Kızılcıkları yıkayıp süzün.",
+            "output text": "```json\n{\n  \"original_form\": \"kızılcıklarını yıkan süzüntü!\"\n}\n```"
+        },
+        "ins_1574": {
+            "ratio": 0.543,
+            "original text": "A. Biz Atatürk'ün çocuklarıyız.",
+            "output text": "{\"original\\_form\": \"A. Biz ATATÜRK'ün çocukları.\"}"
+        },
+        "ess_1079": {
+            "ratio": 0.5,
+            "original text": "Senin de öyle.",
+            "output text": "{\"original\\_form\": \"Sen de öyle.\"}"
+        },
+        "pop_1749": {
+            "ratio": 0.229,
+            "original text": "1 su bardağı su",
+            "output text": "[\n  {\"original_form\": \"1\"},\n  {\"original_form\": \"suyu\"},\n  {\"original_form\": \"bardağı\"},\n  {\"original_form\": \"su\"}\n]"
+        },
+        "ins_959": {
+            "ratio": 0.881,
+            "original text": "Sonra ders çalışmak için masayı sildik, kitaplarımızı açıp çalışmaya başladık.",
+            "output text": "Sonra ders çalışır için masa sildi, kitaplarımızı açıp çalıştığımız yer başladık."
+        },
+        "ess_532": {
+            "ratio": 0.692,
+            "original text": "Hayvan hakları, son zamanların tartışılan konusu.",
+            "output text": "original\\_form\": \"Hayvan hakında son zaman tartışılan konu"
+        },
+        "pop_1846": {
+            "ratio": 0.713,
+            "original text": "Balık için de durum benzer olmuş.",
+            "output text": "{\"original\\_form\": \"Balık için de durum benzə olmuş.\"}"
+        },
+        "pop_1263": {
+            "ratio": 0.662,
+            "original text": "Bunda ise en büyük etken, tanıştığınız kişiye samimi yaklaşımlarınızdır.",
+            "output text": "original\\_form\": \"Bu i en büyük etken için tanış kişilere samimi yaklaşıyorlar."
+        },
+        "bio_16": {
+            "ratio": 0.508,
+            "original text": "Yoksa benim aklıma bile gelmez öyle şeyler\" demez mi?",
+            "output text": "```json\n{\n  \"original_form\": \"Yoksa benim akıl bile gelmez mi?\"\n}\n```"
+        },
+        "ess_1403": {
+            "ratio": 0.718,
+            "original text": "Sonunda, biraz istemeye istemeye de olsa onu idama mahkûm ettiler.",
+            "output text": "{\"original\\_form\": \"sonunda, biraz iste iste de ol o idam mahkûm etmişler.\"}"
+        },
+        "news_953": {
+            "ratio": 0.722,
+            "original text": "Argun, 2007 yılında yüksek fırın için çalışmalara başlandığını belirtti.",
+            "output text": "original\\_form\": \"Argun, 2007 yılında yüksek fırın için çalışma başlayan şey, belirtilen nedenle."
+        },
+        "ess_1411": {
+            "ratio": 0.605,
+            "original text": "YAŞAR NE YOK NE DE VAR Şimdi beyaz ülkeden yeşil ülkeye geçiyoruz, dedi rehberimiz.",
+            "output text": "{\"original\\_form\": \"Yaşar ne yok, ne de Var şimdi beyaz ülkeden yeşil ülkeye geçmiş de rehberler mi?\"}"
+        },
+        "ess_1485": {
+            "ratio": 0.669,
+            "original text": "\"Zavallı ölümlülerin -kendilerini işlerine kaptırmış ölümlülerin- en güzel günlerinin, ilk önce geçip giden günler olduğundan kuşku duyulabilir mi?",
+            "output text": "\"Zavallı olumlu kendilerini kap yaptıkları günler, en güzel ilk önce geçtikten sonra gün ol olmuş kuşkuları duyabilir mi?\""
+        },
+        "ins_428": {
+            "ratio": 0.478,
+            "original text": "Ese kaşlarını çatmış:",
+            "output text": "{\"original\\_form\": \"Ese'nin kaşları çatıldı.\"}"
+        },
+        "pop_994": {
+            "ratio": 0.138,
+            "original text": "BADEMLİ ELMA",
+            "output text": "Badem elmas oldu."
+        },
+        "ins_289": {
+            "ratio": 0.74,
+            "original text": "Sadece sınıfın içinde, öğrencilerin arasında gezinmiş.",
+            "output text": "{\"original\\_form\": \"Sadece sınıfın içinde öğrenciler aran gezinmişti, .\"}"
+        },
+        "ins_1778": {
+            "ratio": 0.76,
+            "original text": "Tarihi kitapları daima harita ile takip ederek okur ve savaşlar için ayrıca krokiler çizerdi.",
+            "output text": "original\\_form\": \"Tarihli kitaplar daima haritaya ile takip eden okur çiz ve savaş için ayrıca kroki yapar."
+        },
+        "ess_1216": {
+            "ratio": 0.613,
+            "original text": "Onun bir birikimi var bende.",
+            "output text": "{\"original\\_form\": \"O bir birikimin var ben .\"}"
+        },
+        "ins_446": {
+            "ratio": 0.914,
+            "original text": "Bir ara çok cılız bir ses geldi kulağına.",
+            "output text": "Bir ara çok cılız bir ses gelmiş kulaga."
+        },
+        "bio_154": {
+            "ratio": 0.613,
+            "original text": "Babam da annem de 'deli oğlan'larının bu işi yapabileceğine bir inandılar bir inanamadılar ama hep yanımda oldular.",
+            "output text": "original\\_form\": \"Baba da anne de 'oğlan'ın bu işi yapabilecek bir şey yok, ama hep yan olmıştık."
+        },
+        "news_20": {
+            "ratio": 0.856,
+            "original text": "İskoçya'nın başkenti Edinburg'taki Dolar Akademisi'nde İngilizce, Dundee Üniversitesi'nde siyaset, Cardiff'te gazetecilik eğitimleri alan Johnston BBC'ye 1991 yılında katıldı.",
+            "output text": "İskoçya'nın başkentinde, Edinburg'da ki Dolar akademisinin İngilizce öğretimi konulu Dundee Üniversitesi'nde siyaset ve gazetecilik eğitimi alan Johnston BBC'ye 1991 yılında kat edildi."
+        },
+        "pop_1867": {
+            "ratio": 0.818,
+            "original text": "Bunun en belirgin örneği Necm suresi olayıdır.",
+            "output text": "Bu en belirgin örnek Necmi'nin sure olayı."
+        },
+        "ess_1301": {
+            "ratio": 0.823,
+            "original text": "Meselâ İslâm hukukuna göre yönetilmeyen bir ülkede, kadınların başlarını örtmelerine müsaade edilse; hırsızlık, cinayet vb.",
+            "output text": "Meselâ İslâm hukuk göre yönetilmeyen bir ülke için kadınların başı örtülmüş müsaade edilmemeli, hırsızlık ve cinayet VB."
+        },
+        "pop_1954": {
+            "ratio": 0.691,
+            "original text": "Hafifçe rengi dönmüş patlıcanları tepsiye yayıp tuzlayım Üzerine hazırladığınız köfteleri dizin.",
+            "output text": "```json\n{\n  \"original_form\": \"Hafifçe renk döndüğü patlıcanı tepsiye yay tuz ile Üzer hazırladığım köfteler dizinden.\"\n}\n```"
+        },
+        "bio_1350": {
+            "ratio": 0.343,
+            "original text": "Ama resim oldukları için değil, resmettikleri İstanbul olduğu için.",
+            "output text": "original\\_form\": \"Ol ama resim resmet için İstanbul, ol için değil."
+        },
+        "ess_600": {
+            "ratio": 0.625,
+            "original text": "Aman denize gidelim, aman tatile çıkalım, zaman ayıralım, para harcayalım, mayo alalım, kumlanalım, sıcaktan bunalalım.",
+            "output text": "{\"original\\_form\": \"Aman, denize git eyer, tatil için çık eyer, zaman ayır eyer, para harca eyer, mayo al eyer, kumla sıcak bunal eyer.\"}"
+        },
+        "pop_302": {
+            "ratio": 0.8,
+            "original text": "Şimdi de \"Lale Manço ne zaman doğurdu ki?\" diye sormayın.",
+            "output text": "Şimdi de 'Lâle Manço ne doğurdu?' diye sorulmaz."
+        },
+        "ess_1248": {
+            "ratio": 0.099,
+            "original text": "BIRAKMAZ DEDİKLERİM ÇOKTAN TERKETTİ, GİTMEZ SANDIKLARIM MEÇHUL.",
+            "output text": "[\n{\"original_form\": \"Bırak-ma-dım\"},\n{\"original_form\": \"de\"},\n{\"original_form\": \"çok\"},\n{\"original_form\": \"TERKETTİ\"},\n{\"original_form\": \",\"},\n{\"original_form\": \"git-me-z\"},\n{\"original_form\": \"sandık-ımız\"},\n{\"original_form\": \"MEÇHUL\"},\n{\"original_form\": \".\"}\n]"
+        },
+        "bio_869": {
+            "ratio": 0.664,
+            "original text": "\"Git kız buradan, şimdi seni yakalarım, döverim,\" diyordu; ama kızın umurunda değildi; tel örgünün dışından içeri bağırarak türkü söylüyordu.",
+            "output text": "```json\n{\n  \"original_form\": \"Git kız bura, şimdi sen yakala, döv, 'de' umurunda değil, 'tel örgü dışında içeri bağır türkü söyley y',.\"\n}\n```"
+        },
+        "news_156": {
+            "ratio": 0.794,
+            "original text": "Elazığspor özellikle hücuma çıkışlarda yitirdiği toplarda kalesinde büyük tehlikeler yaşadı.",
+            "output text": "{\"original\\_form\": \"Elazığspor özellikle hücum çıkın, yitirdiği top kalesinde büyük tehlike yaşandı.\"}"
+        },
+        "pop_1117": {
+            "ratio": 0.542,
+            "original text": "Ama Ada vapuruna, üç, dört saat vardı.",
+            "output text": "```json\n{\n  \"original_form\": \"Ada vapuru üç, dört saat yoktur.\"\n}\n```"
+        },
+        "news_1332": {
+            "ratio": 0.809,
+            "original text": "Rotterdam öncesi adı sanı bilinmeyen birçok yönetmen çok sözü edilir hale gelir.",
+            "output text": "original\\_form\": \"Rotterdam'ın önce adı sanı bilinmeyen birçok yönetmen çok söz et hâl gelir."
+        },
+        "pop_1713": {
+            "ratio": 0.612,
+            "original text": "Bu yeni gelişen makarna sevdam nedeniyle oldukça fazla kilo almıştım.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu yeni gelişmekte olan makarna sevdayım neden fazla kilo aldım?\"\n}\n```"
+        },
+        "pop_1469": {
+            "ratio": 0.617,
+            "original text": "İnsanların güvenlik kaygısı arttıkça ahşap kapılar söküldü; Türkiye, \"çelik kapılı ülke\" oldu.",
+            "output text": "```json\n{\n  \"original_form\": \"İnsanların güvenlik kaygısı, ahşap kapıların sökülmesi artın Türkiye'nin çelik kapılık ülkesi olma konusunda önem taşıyor.\"\n}\n```"
+        },
+        "bio_1999": {
+            "ratio": 0.632,
+            "original text": "Ahmet'in geri dönmesini kararlaştırdık.",
+            "output text": "{\"original\\_form\": \"Ahmet'in geri dönme kararı alındı.\"}"
+        },
+        "bio_51": {
+            "ratio": 0.683,
+            "original text": "Rehberimiz yılların verdiği ustalıkla, önünde durduğumuz her yapı hakkında bilgi veriyor bize.",
+            "output text": "```json\n{\n  \"original_form\": \"Rehberimiz yılların verdiği ustalık önce durduğumuz hakkı bilgi verebiliz.\"\n}\n```"
+        },
+        "ess_1240": {
+            "ratio": 0.69,
+            "original text": "Mehmet Akdemir'den başlayarak...",
+            "output text": "{\"original\\_form\": \"Mehmet Akdemir'den başlayan...\"}"
+        },
+        "bio_982": {
+            "ratio": 0.533,
+            "original text": "Zaten olsaydım bu günlere de gelemezdim.",
+            "output text": "```json\n{\n  \"original_form\": \"Zaten ol-y-sa bu gün-ler-de gel-me-y-y-dim.\"\n}\n```"
+        },
+        "pop_283": {
+            "ratio": 0.928,
+            "original text": "O zamanlar orada çok zaman geçiriyordum, fazla puan yapmak için.",
+            "output text": "O zamanlar orada çok zaman geçirdim, fazla puan yaparak için."
+        },
+        "bio_202": {
+            "ratio": 0.655,
+            "original text": "Sonra bir de öğüt verdi: \"Size genç bir radyocu olduğunuz için birkaç söz söylememe izin verirsiniz sanırım.",
+            "output text": "original\\_form\": \"Sonra bir de genç bir radyocu olarak için birkaç söz söyleme izin vermediler siz için. San verir miyiz?"
+        },
+        "ins_1860": {
+            "ratio": 0.226,
+            "original text": "Annesi, hiçbir şey yapmıyormuş.",
+            "output text": "Based on the linguistic features provided, the surface form of the Turkish sentence would be:"
+        },
+        "ess_1934": {
+            "ratio": 0.479,
+            "original text": "\"Health Thatcher'e, 'O kadın,' diyor,\" demişler başlıkta.",
+            "output text": "```json\n{\n  \"original_form\": \"\\\"Health, Thatcher'da o kadın', de, 'de' başlıkta konulu konuşuluyor.\"\n}\n```"
+        },
+        "ins_165": {
+            "ratio": 0.256,
+            "original text": "Nihayet kasaya yaklaşmıştım.",
+            "output text": "The second and third tokens combine to form a single word \"yaklaşty\" in the surface form."
+        },
+        "ess_1893": {
+            "ratio": 0.763,
+            "original text": "Fakat adam oğlunu mutlu etmeyi o kadar arzular ki, aklına çalıntı bisiklet almak gelir.",
+            "output text": "{\"original\\_form\": \"Fakat adam oğlu mutlu et-ti kadar arzu ki, akıl-a çalın-mış bisiklet-i al-mak gel-ir.\"}"
+        },
+        "ess_1965": {
+            "ratio": 0.737,
+            "original text": "Yalnız yalnızlık filan Ailesi onu İngiltere'ye üniversiteye yolladı.",
+            "output text": "Yalnızlık filan aile, İngiltere üniversite yolla yalnız yollandı."
+        },
+        "pop_1970": {
+            "ratio": 0.574,
+            "original text": "(4)'le belirtilen ve Güneş'in diğer yanında kalan büyük gezegen Jüpiter'dir.",
+            "output text": "```json\n{\n  \"original_form\": \"4 (le Güneş'in diğer yanında) belirtilen yan kalan büyük gezegen Jüpiter'i belirlenmiyor.\"\n}\n```"
+        },
+        "pop_991": {
+            "ratio": 0.569,
+            "original text": "Kabakları temizleyip iri iri rendeleyip fazla suyunu sıkın.",
+            "output text": "```json\n{\"original_form\": \"Kabakları temizle iri iri, suyu sıkın.\"}\n```"
+        },
+        "bio_705": {
+            "ratio": 0.644,
+            "original text": "Bu ucuz biletlerden biriydi ve çoğunluğunu üniversite öğrencilerinin oluşturduğu 40 kişiyle bir yatakhaneyi paylaşıyorduk.",
+            "output text": "original\\_form\": \"Bu uçuz biletlerden biri y yatakhane paylaştığımız çoğunlukün üniversite öğrencileri için oluşan 40 kişiye kadar yer yoktur."
+        },
+        "news_1230": {
+            "ratio": 0.795,
+            "original text": "Buna göre maçlar ikişer dakikadan üç devre üzerinden yapılacak ve iki seti kazanan güreşçi müsabakadan galip ayrılacak.",
+            "output text": "> Bu göre maç iki dakika üç devre sonrasında yapılacak, ve iki set kazan küçük çocuk müsabaka galip ayrılacak."
+        },
+        "bio_27": {
+            "ratio": 0.5,
+            "original text": "Onda ilkbahara özgü gelip geçici kasırgalar çeşidinden kaynamalar taşmalar olurdu.",
+            "output text": "```json\n{\n  \"original_form\": \"O ilkbahar özgü kasırga çeşitleri kayna taşırken, ol yapıldı.\"\n}\n```"
+        },
+        "pop_1459": {
+            "ratio": 0.511,
+            "original text": "İkisi de ayrı ayrı sağ olsun.",
+            "output text": "```json\n{\n  \"original_form\": \"İki de ayrı ayrı sağ ol!\"\n}\n```"
+        },
+        "ess_1061": {
+            "ratio": 0.552,
+            "original text": "Mutlulukla aramızda duran en büyük engel kendimiz miyiz yoksa? \"500 mgr.\" dedik.",
+            "output text": "```json\n{\n  \"original_form\": \"Mutluluk ara duran en büyük kendi mi yok y '500 MGR'-i de vardı.\"\n}\n```"
+        },
+        "pop_27": {
+            "ratio": 0.369,
+            "original text": "İş bu ya eliyle beni ateşe atsın",
+            "output text": "[\n  {\"original_form\": \"İş bu ya el ben\"},\n  {\"original_form\": \"ateş\"},\n  {\"original_form\": \"at\"}\n]"
+        },
+        "pop_1106": {
+            "ratio": 0.619,
+            "original text": "* Eğer bifteğinizi yapışmaz tavada yapacaksanız, benzer kurallara yine riayet edin.",
+            "output text": "```json\n{\n  \"original_form\": \"* Eğer biftek yapıştıramazsanız, tava 'dan yap yaparız, benzer kural yine riayet eder. Et.\"\n}\n```"
+        },
+        "ess_123": {
+            "ratio": 0.857,
+            "original text": "Kurtuluş anları daha sık yaşanır olur.",
+            "output text": "kurtuluşu an daha sık yaşan olur"
+        },
+        "ess_1305": {
+            "ratio": 0.338,
+            "original text": "Anlamaya çalışıyorum işte...",
+            "output text": "{\"original\\_form\": \"anlaşılıyor işimde çalış...\"}"
+        },
+        "bio_237": {
+            "ratio": 0.141,
+            "original text": "Zemin nasıldı? İçeride kaç kamp vardı?",
+            "output text": "Based on the given linguistic features, the surface form of the Turkish sentence would be:"
+        },
+        "news_1482": {
+            "ratio": 0.087,
+            "original text": "SIFIR AÇLIK:",
+            "output text": "{\"original\\_form\": \"sıfır açlık:\"}"
+        },
+        "ins_932": {
+            "ratio": 0.836,
+            "original text": "Edison bu buluşuyla 42 yaşında tüm dünyanın hayranlığını bir kez daha kazanıyordu.",
+            "output text": "original\\_form\": \"Edison bu buluşan 42 yaşında tüm dünyanın hayranlığını bir kez daha kazanmış."
+        },
+        "bio_181": {
+            "ratio": 0.812,
+            "original text": "- Şefik, yarın Hermes'ten Turgut Bey'le görüşeceğim.",
+            "output text": "-, Şefik, , yarın, Hermes Turgut Bey, görüş."
+        },
+        "pop_1085": {
+            "ratio": 0.545,
+            "original text": "15 adet kürek hareketi (sol bacak ile)",
+            "output text": "{\"original\\_form\": \"15 adet kürekler ile sol bacak hareketi\"}"
+        },
+        "ess_1519": {
+            "ratio": 0.752,
+            "original text": "Her şeye karşın, onun orada bir yerde, gerilerde ve yukarıda, eski Roma Tanrıçası Diana gibi sessizce durduğunu bilmek varlığımı sarsmıştı.",
+            "output text": "*Her şey karşın o orada bir yerin geri ve yukarı, eski Roma Tanrıça gibi sessiz duran Diana'nın sarsılmış varlığı var.*"
+        },
+        "pop_1082": {
+            "ratio": 0.6,
+            "original text": "Sarımsağı et suyundan çıkarıp ezin.",
+            "output text": "{\"original\\_form\": \"Sarımsakları etin sudan çıkar ez.\"}"
+        },
+        "pop_1872": {
+            "ratio": 0.238,
+            "original text": "Onlar beni tanır; benim şeriatımla yaşarlar.",
+            "output text": "[\n  {\"original_form\": \"Onlar\"},\n  {\"original_form\": \"ben\"},\n  {\"original_form\": \"tanıyor\"},\n  {\"original_form\": \";\"},\n  {\"original_form\": \"benim\"},\n  {\"original_form\": \"şeriatıyla\"},\n  {\"original_form\": \"yaşarlar\"},\n  {\"original_form\": \".\"}\n]"
+        },
+        "ess_1569": {
+            "ratio": 0.581,
+            "original text": "bir bakıma manen ve maddeten yeryüzünden silinmesi demekmiş.",
+            "output text": "```json\n{\n  \"original_form\": \"Bir bakım manen bakımından, maddeten yeryüzü silinmedi de.\"\n}\n```"
+        },
+        "ins_892": {
+            "ratio": 0.519,
+            "original text": "Savaşa girer gibi yetiş bize!",
+            "output text": "{\"original\\_form\": \"Savaşa gibi gir gerek yet biz!\"}"
+        },
+        "pop_1403": {
+            "ratio": 0.783,
+            "original text": "Ama alıcıya yani halka ulaştı mı bunlar? Hayır.",
+            "output text": "Ama al-ın yani halk-a da ulaş-mı-ş bu? Hayır."
+        },
+        "bio_987": {
+            "ratio": 0.623,
+            "original text": "Neden bilmem ama, Mahmut gelmek istemiş.",
+            "output text": "original_form\": \"Neden biliyor musun ama Mahmut gelmedi mi istedi?"
+        },
+        "bio_83": {
+            "ratio": 0.573,
+            "original text": "Fakat toplumsal bir yararın elde edilmesi bu yöntemle mümkün değildir.",
+            "output text": "```json\n{\n  \"original_form\": \"Fakat toplumsal bir yararın el etme mümkün değil, bu yöntem ile.\"\n}\n```"
+        },
+        "bio_772": {
+            "ratio": 0.691,
+            "original text": "Kendini ve hayatı çok sev, işini sevgi ile yap, sana yetecek olan gelir arkasından gelecektir...",
+            "output text": "```json\n{\n  \"original_form\": \"Kendini ve hayatını çok sev, iş sevgisi ile yap, san yet olan şeyi gelir arka gel...\"\n}\n```"
+        },
+        "ess_1483": {
+            "ratio": 0.724,
+            "original text": "Ne inançlarının gücünden, ne de ellerindeki maddi imkanların değerinden haberleri var.",
+            "output text": "original\\_form\": \"Ne inançların güçünden el ki maddi imkânların değerinden haber var mı?"
+        },
+        "pop_361": {
+            "ratio": 0.713,
+            "original text": "1 diş sarımsağı soyup ince ince kıyın.",
+            "output text": "{\"original\\_form\": \"1 dişi sarımsağı soyince ince ince kıyın.\"}"
+        },
+        "news_1233": {
+            "ratio": 0.764,
+            "original text": "Hükümet kurulduktan sonra Denktaş'ın müzakereleri yürütmesini doğrusu çok arzu ederiz.",
+            "output text": "```json\n{\n  \"original_form\": \"Hükümet kurulan sonra Denktaş'ın müzakere yürütmesini doğru çok arzu ederiz.\"\n}\n```"
+        },
+        "news_338": {
+            "ratio": 0.587,
+            "original text": "Develioğlu, kampanyada 20 markanın yer aldığını, isteyen markalara kapılarının açık olduğunu söyledi.",
+            "output text": "Develioğlu, kampanya yerinde 20 marka kapısı açık olan ikinci el arabaları işleyen marka için iste kapısını olmuştur."
+        },
+        "bio_450": {
+            "ratio": 0.205,
+            "original text": "Felaket sıcaktı ...",
+            "output text": "The surface form of the sentence would be \"sıcak y...\" with the adverb \"felaket\" modifying the noun \"sıcak\"."
+        },
+        "ess_819": {
+            "ratio": 0.8,
+            "original text": "Videoda filmler, en kalınından romanlar...",
+            "output text": "Video filmdede, en kalından roman okunur..."
+        },
+        "ins_918": {
+            "ratio": 0.651,
+            "original text": "Gençliğim, heyecanım, gayretim.",
+            "output text": "original\\_form\": \"Gençlik, heyecanım ve gayretim, .."
+        },
+        "pop_1939": {
+            "ratio": 0.721,
+            "original text": "Anonim bir halk türküsünün yöresinden çıkıp koca bir ülke halkına ulaşması öylesine kolay bir iş değil...",
+            "output text": "Anonim bir halkın Türküsü çık-arak koca bir ülke halkına ulaş-tığı iş değil..."
+        },
+        "news_934": {
+            "ratio": 0.289,
+            "original text": "Vuruş yanlışları yaptık.",
+            "output text": "[\n  {\"original_form\": \"yap-tık-ım yanlış vurular\"}\n]"
+        },
+        "ins_866": {
+            "ratio": 0.565,
+            "original text": "Bizim desteğimiz cumhuriyettir...",
+            "output text": "{\"original\\_form\": \"bizlerin destek cumhuriyeti...\"}"
+        },
+        "ins_1071": {
+            "ratio": 0.898,
+            "original text": "Bir de buzdan tuzağın var",
+            "output text": "Bir de buzdan tuzak var."
+        },
+        "pop_544": {
+            "ratio": 0.576,
+            "original text": "1.5 su bardağı su",
+            "output text": "{\"original\\_form\": \"1.5'in su bardağı su\"}"
+        },
+        "ins_822": {
+            "ratio": 0.657,
+            "original text": "Daha sağlam, daha çabuk.",
+            "output text": "{\"original\\_form\": \"Daha Sağlam, daha çabuk.\"}"
+        },
+        "pop_702": {
+            "ratio": 0.696,
+            "original text": "Nasıl olsa yine giderim diye kadınlar kendilerini koyverirler veee.",
+            "output text": "original\\_form\": \"Nasıl ol yine gitdiye kadın kendiplarını koyver veee."
+        },
+        "pop_1884": {
+            "ratio": 0.729,
+            "original text": "Ama saldırgan hareketlerinizden vazgeçtiğinizde, bu kadının kalbini kazanabilirsiniz.",
+            "output text": "original_form\": \"Ama saldırgan hareketlerinden vazgeçmiş bu kadının kalpı kazanırsın."
+        },
+        "ess_242": {
+            "ratio": 0.635,
+            "original text": "Aşağıdaki manzara 80'li yılların akıl almaz kavgalarından bir manzaraymış gibi geldi.",
+            "output text": "original\\_form\": \"aşağıki80'li yıl akıl almayan kavga bir manzaradan gibi gelmişti y."
+        },
+        "ins_951": {
+            "ratio": 0.851,
+            "original text": "Hellen Keller 1968 yılında 88'inci doğum gününe çok az kala Arcan Ridge'te öldü.",
+            "output text": "Hellen keller 1968'de 88. doğum günü çok az kala Arcan Ridge'de ölü."
+        },
+        "pop_42": {
+            "ratio": 0.647,
+            "original text": "Şirketler ona, \"Sen daha küçüksün, ileride olabilir\" demişler.",
+            "output text": "{\"original\\_form\": \"Şirket o zamanlar, sen daha küçük ijerinde olabilir de.\"}"
+        },
+        "ins_325": {
+            "ratio": 0.64,
+            "original text": "Türk insanı konukseverdir.",
+            "output text": "{\"original\\_form\": \"Türk insanının konukseveri.\"}"
+        },
+        "bio_424": {
+            "ratio": 0.687,
+            "original text": "Küt, plan değişiyor; Akademi'nin bahçesi, ortalık ana baba günü.",
+            "output text": "original\\_form\": \"Küt, plan değişken akademi bahçesi, ana baba gün."
+        },
+        "news_1809": {
+            "ratio": 0.827,
+            "original text": "Stadın ise uzun bir öyküye dönüşen talihsiz serüveni hâlâ sürmekte.",
+            "output text": "Stat-i i uzun bir öykü-ye dönüş talihsiz serüven-in hâlâ sür-üyor."
+        },
+        "bio_498": {
+            "ratio": 0.492,
+            "original text": "Bu sinirlilik gardiyanlara da bulaşmıştı.",
+            "output text": "So, the surface form of the sentence would be \"bu sinirlilik gardiyan bulaştı y.\""
+        },
+        "ess_452": {
+            "ratio": 0.593,
+            "original text": "Çok iyi anladım.",
+            "output text": "{\"original\\_form\": \"Çok iyi anladım.\"}"
+        },
+        "news_1045": {
+            "ratio": 0.39,
+            "original text": "Çin'den dünya rekoru",
+            "output text": "{\"original\\_form\": \"Çin dünyasından rekor kaydediliyor.\"}"
+        },
+        "ess_1144": {
+            "ratio": 0.745,
+            "original text": "Telefonla konuşmayı bu yüzden sevmiyorum.",
+            "output text": "{\"original\\_form\": \"telefonla konuşma bu yüzden sevmiyorum.\"}"
+        },
+        "news_1073": {
+            "ratio": 0.579,
+            "original text": "İnsan yaşarken defnedileceği mezar armağan olarak verilir mi?\" sözleriyle bu duruma tepki gösterdi.",
+            "output text": "{\"original\\_form\": [\"Insan\", \"yaşa\", \"defnet\", \"mezar\", \"armağan\", \"ol\", \"ver\", \"mi\", \"?\", \"\\\"\\\"\\\"\", \"sözler\", \"bu\", \"durum\", \"tepki\", \"gösterdi\", \".\"] }"
+        },
+        "pop_1308": {
+            "ratio": 0.612,
+            "original text": "3 adet tatlı kırmızı biber",
+            "output text": "```json\n{\"original_form\": \"3 adet tatlı kırmızı biber\"}\n```"
+        },
+        "news_820": {
+            "ratio": 0.813,
+            "original text": "Bir süre tüketici programı da hazırlayan Soysal'ın yaşamındaki değişiklik yemek programıyla başlamış.",
+            "output text": "{\"original\\_form\": \"Bir süre tüketici programına hazırladığı Soysal yaşamın ki değişiklik yemek programıyla başladı.\"}"
+        },
+        "ess_1770": {
+            "ratio": 0.407,
+            "original text": "Aradan bir müddet geçti, Gazetede mahkeme neticelerini anlatan bir yazı.",
+            "output text": "```json\n{\n  \"original_form\": \"Bir ara müddet sonra gazete mesajı anlatılan mahkeme neticesi göz önünde.\"\n}\n```"
+        },
+        "ess_1699": {
+            "ratio": 0.462,
+            "original text": "İstanbul'a taşmmamıştık.",
+            "output text": "{\"original\\_form\": \"İstanbul'a taşıyıp yıldızlandık.\"}"
+        },
+        "pop_1648": {
+            "ratio": 0.625,
+            "original text": "O hangi işle meşgul olursa olsun son derece dikkatlidir.",
+            "output text": "```json\n{\n  \"original_form\": \"O hangi işmeşgul oluyorsa o son derece dikkatli ol!\"\n}\n```"
+        },
+        "ess_768": {
+            "ratio": 0.659,
+            "original text": "Para insanlara ulaşmak istediği herşeye ulaşma imkanı sağlarken; aynı zamanda insanların duygu ve düşüncelerinde de değişimlere neden olmaktadır.",
+            "output text": "{\"original\\_form\": \"Para insanlara ulaşan her şey, sağlayan y'in aynı zaman insanlardan duygu ve düşünce değişimi neden ol ol.\"}"
+        },
+        "ins_497": {
+            "ratio": 0.518,
+            "original text": "Ne yol bitiyor ne yeşil ne de mavi.",
+            "output text": "```json\n{\n  \"original_form\": \"Yol bitince ne, yeşil ne de mavi oluyor.\"\n}\n```"
+        },
+        "news_328": {
+            "ratio": 0.752,
+            "original text": "Hastalar sabah kalktıklarında kendilerini yorgun ve güçsüz hissederler.",
+            "output text": "original\\_form\": \"Hastalar sabah kalkıp kendilerini yorgun ve güçsüz hissetti."
+        },
+        "news_1029": {
+            "ratio": 0.632,
+            "original text": "1968'de Ruslar Prag'a girince çift Cenevre'ye kaçar.",
+            "output text": "original\\_form\": \"1968'de Rus Prag'a, çift gir-di Cenevre'de kaç?"
+        },
+        "ins_298": {
+            "ratio": 0.699,
+            "original text": "Annem, dayımın tekerlemeci yönünden ilk kez o akşam söz etmişti.",
+            "output text": "```json\n{\n  \"original_form\": \"Anne, dayımın tekerleme yönünden ilk kez o akşam söz etti yapmış.\"\n}\n```"
+        },
+        "pop_1959": {
+            "ratio": 0.69,
+            "original text": "Bunun üzerine hükümet, bir yanlış anlaşılma olduğunu söyleyerek özür dilemiş; ancak ilişkiler bir süre eski sıcaklığından uzak kalmıştır.",
+            "output text": "{\"original\\_form\": \"Bu üzerine hükümette bir yanlış anlaş olmuş, özür diledi ki ancak ilişki bir süre sürmüş olsa da eski sıcaklıktan uzak kaldı.\"}"
+        },
+        "ins_254": {
+            "ratio": 0.464,
+            "original text": "İzmir'de üzüm",
+            "output text": "{\"original\\_form\": \"İzmir'de üzüm yerler.\"}"
+        },
+        "ins_429": {
+            "ratio": 0.809,
+            "original text": "-Allah'ım! Bana güç ver.",
+            "output text": "- Allah! Ben güç ver. ."
+        },
+        "pop_784": {
+            "ratio": 0.848,
+            "original text": "Çok sıkı tutmayın.",
+            "output text": "Çok sıkı tutma!"
+        },
+        "news_1920": {
+            "ratio": 0.663,
+            "original text": "Bu medeniyetin bize yüklediği bir görev ile yapılmaktadır, bu medeniyetten aldığımız o ilham ve heyecanla yapılmaktadır.",
+            "output text": "> Bu medeniyetin biz yüklenmiş bir görevi ile İlham ve heyecan yapılıyor."
+        },
+        "news_17": {
+            "ratio": 0.744,
+            "original text": "Trabzonspor'da kaptanlık konusunda tecrübeleri bulunan Kamerunlu Rigobert Song, Egemen Korkmaz ve Tony Sylva da öne çıkan isimler arasında yer alıyor.",
+            "output text": "```json\n{\n  \"original_form\": \"Trabzonspor'da kaptan konu bulunan Kamerun'un Rigobert Song'un Egemen Korkmaz ve Tony Sylva da ön çıkan isimleri araya al.\"\n}\n```"
+        },
+        "pop_385": {
+            "ratio": 0.636,
+            "original text": "Bir keresinde de bir gay arkadaşımla gay kanalına girmiştim.",
+            "output text": "```json\n{\n  \"original_form\": \"Bir kere de bir gay arkadaşımın kanalına girilmiş yim.\"\n}\n```"
+        },
+        "news_1790": {
+            "ratio": 0.947,
+            "original text": "Türk göçmenin davası başladı",
+            "output text": "Türk göçmenin davaşı başladı."
+        },
+        "news_1167": {
+            "ratio": 0.79,
+            "original text": "Ayrıca Meclis'in fazla mesai yapması konusunun da ele alınacağı ifade ediliyor.",
+            "output text": "original\\_form\": \"Meclisin fazla mesai yapma konusu da el alınıf ifade edilir."
+        },
+        "pop_1413": {
+            "ratio": 0.872,
+            "original text": "Kur'an-ı Kerim'de \"İşte bu, kavmine karşı İbrahim'e verdiğimiz delillerimizdir\" buyuruluyor.",
+            "output text": "Kur'an-ı, \"- I Kerim'de işte bu kavim karşı İbrahim'e verdiğimiz delil-ler buyuruluyor."
+        },
+        "ess_1399": {
+            "ratio": 0.418,
+            "original text": "Bunlar arasında, soyluluk, neredeyse Ortaçağ ile özdeşleşmiştir.",
+            "output text": "{\"original\\_form\": \"Bu ara lar Ortaçağ ile özdeş neredeyse soyluluk.\"}"
+        },
+        "ess_1199": {
+            "ratio": 0.675,
+            "original text": "Elbette asla orada uyumuyorlar.",
+            "output text": "{\"original\\_form\": \"Elbet asla orada uyuyorlar.\"}"
+        },
+        "bio_1740": {
+            "ratio": 0.617,
+            "original text": "\"Sabaha kadar bunlara uyku yok şimdi,\" dedi Cevdet.",
+            "output text": "```json\n{\n  \"original_form\": \"\\\"Sabah kadar bu uyku yok, şimdi de Cevdet\\\".\"\n}\n```"
+        },
+        "pop_1172": {
+            "ratio": 0.59,
+            "original text": "yarım bardak kuşüzümü",
+            "output text": "{\"original\\_form\": \"yarım bardak kuşüz\"}"
+        },
+        "pop_958": {
+            "ratio": 0.237,
+            "original text": "Mars enerjisini Merkür'e aktararak iletişimi güçlendirirken, Merkür Mars'ın zihinselliğini alarak entellektüel bir boyut kazanacaktır.",
+            "output text": "```json\n{\n  \"original_form\": \"Mars'ın enerjiyi Merküre aktar, Merkür ileri güç iletişim kuracak, Mars'ın zihinselliklerini al, bir boyut kazan.\"\n}\n```\nNote that the surface form of the sentence is in the present tense, while the verb forms in the input features are in the imperative mood. I assumed this was a mistake and converted them to the present tense for the surface form."
+        },
+        "ess_427": {
+            "ratio": 0.673,
+            "original text": "Timur'un Osmanlı saltanatını sallamasından doğan karışıklık ve Batı Anadolu'da esmeye başlayan \"beylik\" hesaplaşmalarından yararlanarak, aklının süzgecinden geçirdiği öğretisini yaymanın zamanı geldiğine inanmaktadır.",
+            "output text": "{\"original\\_form\": \"Timur'un Osmanlı saltanatının salla doğusundan Batı Anadolu'ya es baslayan beylikler hesaplasıldığı karışıklık akıl süzgeçten geçir öğreti yay zamanın gelince inanılmıyor.\"}"
+        },
+        "bio_1501": {
+            "ratio": 0.478,
+            "original text": "Allahım yardım et.",
+            "output text": "{\"original\\_form\": \"Allah yardım et benim için.\"}"
+        },
+        "pop_1153": {
+            "ratio": 0.523,
+            "original text": "Adaçayı (Elma) Yağı",
+            "output text": "{\"original\\_form\": \"Adaçayı (elma) ), yağını\"}"
+        },
+        "ins_563": {
+            "ratio": 0.522,
+            "original text": "Su yerine iyilikle dol,",
+            "output text": "{\"original\\_form\": \"Yerin suyu iyilikle dol.\"}"
+        },
+        "pop_69": {
+            "ratio": 0.698,
+            "original text": "Türkiye şu sıralar akşam Mirkelam'la yatıyor, sabah Mirkelam'la kalkıyor.",
+            "output text": "{\"original\\_form\": \"Türkiye'de şu sıralar akşam Mirkelâm ile yat, sabah ise Mirkelâm ile kalk.\"}"
+        },
+        "bio_313": {
+            "ratio": 0.841,
+            "original text": "Kâtip Lütfi'nin bugüne kadar bir tutuklu ya da hükümlüye tokat attığı duyulmamış, ama bu kez atmak için fırsat kolluyor.",
+            "output text": "Kâtip Lütfi'nin bugün kadar bir tutuklu ya da hükümlü Tokat'ta atıldığına duyuldu, fakat bu kez fırsatı kolluyor."
+        },
+        "news_289": {
+            "ratio": 0.708,
+            "original text": "İsrail, işadamlarından oluşan bir heyetin Özbekistan ziyaretini de iptal etti.",
+            "output text": "```json\n{\n  \"original_form\": \"İsrail, işadam oluş bir heyetin Özbekistan ziyaret de iptal et.\"\n}\n```"
+        },
+        "ins_1273": {
+            "ratio": 0.982,
+            "original text": "Ne güzel böyle hep birlikte",
+            "output text": "Ne güzel böyle hep birlikte?"
+        },
+        "news_1914": {
+            "ratio": 0.57,
+            "original text": "Ege'de bir uzlaşmanın, ilişkileri iyileştirmek için uygun atmosfer yaratacağı ve yakın gelecekte Ecevit ile Simitis'in bir araya gelmesine imkân sağlayacağına inanılıyor.\"",
+            "output text": "{\"original\\_form\": \"Ege'de bir uzlaşma için iyileştirilecek ilişki, Ecevit'le Simitis ile arada gelim sağlayacak imkân inanılmaz.\"}"
+        },
+        "bio_1504": {
+            "ratio": 0.594,
+            "original text": "(Murat Astsubay'ın sık sık büyük şehirden siparişleri olurdu.)",
+            "output text": "```json\n{\n    \"original_form\": \"( Murat'in astsubay olduğu sık sık büyük şehirden sipariş eder.)\"\n}\n```"
+        },
+        "pop_600": {
+            "ratio": 0.613,
+            "original text": "Bir kap içerisinde 3 adet yumurta sarısını limon suyu ile biraz karıştırın.",
+            "output text": "original\\_form\": \"bir kâpının içeri 3 adet sarı yumurta, limon su ile karıştır biraz."
+        },
+        "news_1012": {
+            "ratio": 0.556,
+            "original text": "Transfer bitiyor",
+            "output text": "{\"original\\_form\": \"transfer bitiyor\"}"
+        },
+        "bio_1990": {
+            "ratio": 0.618,
+            "original text": "Bizim Şefik dert dağıtım merkezi sanki.",
+            "output text": "original\\_form\": \"Bizim Şefik'in dağıtım merkezinde sanki bir dert yok."
+        },
+        "bio_1987": {
+            "ratio": 0.667,
+            "original text": "Benim burnumu çektiğimi duyunca, \"Ya sen şu Pardayanlar'ı okuyordun.",
+            "output text": "original_form\": \"Ben burumu çektirdim, duyuyor musun? Y sen şu Pardayanlar'ı okuyacakmısın?"
+        },
+        "ins_722": {
+            "ratio": 0.846,
+            "original text": "Teknede kaza veya tekne kazası her an herkesin başına gelebilir, deniz sürprizlerle doludur.",
+            "output text": "Tekne kaza ya da tekne kazasının her anı herkes başına gelir, deniz sürpriz dolu y."
+        },
+        "ins_1131": {
+            "ratio": 0.682,
+            "original text": "Milli Mücadele'nin zaferle sonuçlanmasından sonra genç Türkiye Cumhuriyeti kurulmuştu.",
+            "output text": "original\\_form\": \"Milli mücadele zafer sonunda Genç Türkiye'nin cumhuriyeti kuruldu."
+        },
+        "ins_28": {
+            "ratio": 0.711,
+            "original text": "Evren Türküsü adlı kitaba Türk Dil Kurumu şiir ödülünü kazandı.",
+            "output text": "{\"original\\_form\": \"evren Türküsü adı li kitap Türk dil kurumu şiirine odül kazandı.\"}"
+        },
+        "news_546": {
+            "ratio": 0.387,
+            "original text": "Onlara şans dilerim.",
+            "output text": "{\"original\\_form\": \"Bize şans ver olsun.\"}"
+        },
+        "pop_484": {
+            "ratio": 0.673,
+            "original text": "Rüyamda ak sakallı, nur yüzlü bir adam karşıma çıkıp aynen şöyle dedi: \"Muhterem yetkili, bu ülkeye geldiğinizden beri gece gündüz sizi izliyorum.",
+            "output text": "```json\n{\n  \"original_form\": \"Rüya AK sakallı bir adam karşısında, nur yüzlü çık aynen şöyle de:  'Muhterem yetkili, bu ülke gel beri gece gündüz siz izleyecektir.'.\"\n}\n```"
+        },
+        "ins_1256": {
+            "ratio": 0.478,
+            "original text": "Gerek yeraltı ve gerek işlem görmüş yerüstü sularının alimantasyona verilebilmesi için temizliklerinin isbat edilmiş olması lazımdır.",
+            "output text": "{\"original\\_form\": \"Gerek yeraltının ve gerek işlemin görülmesi için yerüsü su alımantasyonu verilmelidir temiz için, işbat etmelidir ol.\"}"
+        },
+        "ess_888": {
+            "ratio": 0.878,
+            "original text": "Çünkü müdür yardımcımız Osman Hoca, son derece adaletsizdi.",
+            "output text": "> Çünkü müdürümün yardımcısı Osman hoca, son derece adaletsiz y."
+        },
+        "ess_1394": {
+            "ratio": 0.098,
+            "original text": "Kadını eve getirirler; güzel kadın, annesiyle babasının eski yatak odasında, çocukken baktığı aynalara bakarak, üç yüz altın karşılığında tanımadığı biriyle sevişmek için hazırlanır.",
+            "output text": "original\\_form\": \"Getir third-person-plural habitual-aspect positive-polarity present-tense kadın-acc third-person-plural present-tense ev-dat to third-person-plural present-tense hazırla-conj. Güzel third-person-singular kadın-nom, third-person-singular possessive-nominal-modifier anne-inst, third-person-singular genitive-case third-person-singular possessive-nominal-modifier baba-gen, third-person-singular eski-adj-modifier yatak-nom-poss, third-person-singular singular-possessor locative-case oda-loc, third-person-singular past-tense perfect-aspect participle bak-verb, third-person-plural dative-case plural-number ayna-dat, third-person-singular progressive-aspect converb bak-verb, cardinal-number üç-num, cardinal-number yüz-num altın-nom-poss karşılık-loc, third-person-singular past-tense negative-polarity perfect-aspect participle tanı-verb, third-person-singular instrumental-case singular-possessor biri-nom, third-person-singular singular-possessor seviş-verb-nominal-modifier için, third-person-singular singular-number singular-person reflexive-voice hazırla-verb. ;"
+        },
+        "ess_1740": {
+            "ratio": 0.395,
+            "original text": "Kadın çığlık çığlığaydı:*",
+            "output text": "```json\n{\n  \"original_form\": \"kadın çığlık çığy,.\"\n}\n```"
+        },
+        "pop_1496": {
+            "ratio": 0.49,
+            "original text": "Buradaki Ayetler Kitabı ise tamamen kendisine özgü bir metindir.",
+            "output text": "original\\_form\": \"Bura ayetlerin kitabında kendi özgü metnisi tamamen i var mi?"
+        },
+        "ins_270": {
+            "ratio": 0.639,
+            "original text": "Hızla şişen mukozanın nefes borusunu tıkaması sonucu kişi boğulabilir.",
+            "output text": "original\\_form\": \"Hız ile şişmukoza nefesi boru alınacak sonucu kişi boğulur."
+        },
+        "pop_1898": {
+            "ratio": 0.494,
+            "original text": "Yeter ki önemli olduğunu düşündüğünüz şeyi iyice bir eleyin ve bakın bakalım hayatınızın gidişatını engelliyor mu, engellemiyor mu?",
+            "output text": "original\\_form\": \"Yeter ki önemli olmuş şeyleri iyice bir ele ve bak, bakıyor musunuz ve bakıyor musunuz mi?"
+        },
+        "pop_1662": {
+            "ratio": 0.638,
+            "original text": "Ama şimdi söylüyorum işte.",
+            "output text": "Şimdi ama söyle işte."
+        },
+        "pop_1562": {
+            "ratio": 0.842,
+            "original text": "Malzemeler:",
+            "output text": "Malzeme:"
+        },
+        "bio_1718": {
+            "ratio": 0.725,
+            "original text": "Kendileri Çin'in kuzeyinden geliyorlardı.",
+            "output text": "Kendi Çin kuzeyden gelmiş y."
+        },
+        "ins_1553": {
+            "ratio": 0.591,
+            "original text": "Çevremdeki insanlardan daha küçüğüm.",
+            "output text": "{\"original\\_form\": \"çevremindeki insan daha küçük.\"}"
+        },
+        "bio_1672": {
+            "ratio": 0.591,
+            "original text": "Lisede İngilizce öğretmenliği yapan Esin yengeme \"Ben İngilizceyi hatırlıyorum\" dediğimi; hatta bana İngilizce birkaç cümle söylediğini ve Türkçeye çevirdiğimi hatırlıyorum.",
+            "output text": "original\\_form\": \"Lise İngiliz öğretmenleri yapan esin yenge 'ben İngilizce birkaç cümle' hatırla de hat benimle Türkçe çevir. Hatırla."
+        },
+        "bio_617": {
+            "ratio": 0.678,
+            "original text": "Takvimdeki iki gün geçti, Dana Adams Schimidt Ankara'ya, randevu günü de takvimin üst yaprağına geldi.",
+            "output text": "original\\_form\": \"takvimki iki gün geçten dana Adams Schimidt'in Ankara randevu günü de üst yaprak takviminin yaprak üstünde gelmişti."
+        },
+        "pop_695": {
+            "ratio": 0.54,
+            "original text": "1 paket krem şanti",
+            "output text": "{\"original\\_form\": \"1 paket kremi Şanti'nin\"}"
+        },
+        "pop_1720": {
+            "ratio": 0.879,
+            "original text": "Yay kadınının beklentileri cinsellikten ziyade akılla ilgilidir.",
+            "output text": "Yay kadının beklentisi cinsellik ziyade akıl ilgili."
+        },
+        "ess_1420": {
+            "ratio": 0.529,
+            "original text": "Ölülerine dönüp de bakmazsınDuydunuz mu, ak saçlı ak kaşlı hocamız Haydar Dümen'e suikast düzenlemişler! Hep ters yönden esecek rüzgârlar.",
+            "output text": "```json\n{\"original_form\": \"Ölüler dönde de bakma, Haydar'a Dümen'e suikast duyulmuş.\\nHep ters yönde Rüzgâr'a es.\"}\n```"
+        },
+        "bio_9": {
+            "ratio": 0.417,
+            "original text": "Fakülteyi bitirenler en uçtan göreve başlıyorlarmış.",
+            "output text": "```json\n{\n  \"original_form\": \"Fakülteyi en uçta başlayan görevi bitirmeyi y yapılmaz.\"\n}\n```"
+        },
+        "ins_1708": {
+            "ratio": 0.743,
+            "original text": "Sonunda ikisinin de alacakları bilgisayar ve bisikletle ilgili anlatacakları bitmişti.",
+            "output text": "original\\_form\": \"Sonunda iki de alınacak bilgisayar ve bisiklet ilgili anlatılacak bit y"
+        },
+        "pop_869": {
+            "ratio": 0.676,
+            "original text": "Kızdırılmış Çin tavasını (sakın küfür ederek kızdırmayın) yağlayın.",
+            "output text": "original\\_form\": \"Kızlanmış Çin Tavası sakı küfür edilerek kız yağlatın!"
+        },
+        "bio_1084": {
+            "ratio": 0.695,
+            "original text": "Biraz sonra o dönemin rektörü Devletler Hukuku profesörü.",
+            "output text": "{\n\"original_form\": \"Biraz sonra o dönemde rektör devlet hukuku profesörününe ait.\"\n}"
+        },
+        "ess_1407": {
+            "ratio": 0.745,
+            "original text": "İstanbul'un varoşlarında ise durum tam tersi.",
+            "output text": "original\\_form\": \"İstanbullu varoşlarında durum tam ters."
+        },
+        "ins_1386": {
+            "ratio": 0.845,
+            "original text": "Bir mizah dehası olan Hoca'nın pek çok fıkrasında eşeği de yer alır.",
+            "output text": "Bir mizahında deha-si olan hoca-nın pek çok fıkrasında eşek yer alıyor de."
+        },
+        "ess_71": {
+            "ratio": 0.723,
+            "original text": "Herkesin koşarak yürüdüğü İstanbul caddelerinde, ister istemez katılıyordunuz bu eldesiz maratona.",
+            "output text": "Herkes koşan yürüyen İstanbul'un caddelerinde istediği kat yaptığı bu el sizin maratonunuzda."
+        },
+        "bio_1431": {
+            "ratio": 0.552,
+            "original text": "Sevgilerin yaşadığına tanıklık ettiler.",
+            "output text": "```json\n{\n  \"original_form\": \"Sevgi yaşadığı tanıklık etti.\"\n}\n```"
+        },
+        "ins_597": {
+            "ratio": 0.084,
+            "original text": "Son yılda yat inşa sanayimiz büyük gelişme göstererek, özellikle el yapımı özel sipariş tekne ve büyük yatlarda uygun fiyat ve iyi işçilikle dünya piyasasında önemli yer edinmiştir.",
+            "output text": "original\\_form\": \"Son yıl yatın yılında inşa sanayi büyük geliş gösterdi. Özellikle el yapımı özel sipariş tekne için büyük yatında uygun fiyat ve iyi işçilik edin. Dünya piyasasında önemli yer edin i."
+        },
+        "ins_1186": {
+            "ratio": 0.744,
+            "original text": "İşte ancak böyle bir zorunluluk karşısında anlayabileceksiniz baktığınız yerdeki tüm ayrıntıları.",
+            "output text": "{\"original\\_form\": \"İş ancak böyle bir zorunluluk karşı anlayacaksınız, bak yerki tüm ayrıntıları. .\"}"
+        },
+        "ess_149": {
+            "ratio": 0.573,
+            "original text": "Baydemir, bununda farkında mıdır? İsmini dedem yabancı bir filmden almış.",
+            "output text": "```json\n{\n  \"original_form\": \"Baydemir, bunda fark mi? Dede, yabancı bir film aldığımış isim dedi.\"\n}\n```"
+        },
+        "ess_407": {
+            "ratio": 0.979,
+            "original text": "Yahu bir gün de prezervatif dağıtın şu halka be!",
+            "output text": "Yahu bir gün de prezervatif dağıt şu halka be!"
+        },
+        "ins_1770": {
+            "ratio": 0.632,
+            "original text": "Adada elektrik yoktu.",
+            "output text": "Elektrik ada yok."
+        },
+        "ess_1827": {
+            "ratio": 0.702,
+            "original text": "Bu bölgede saydığımız ülkelerin hemen hepsinin ortak özelliği, zengin yeraltı ve yerüstü kaynaklarına; tarım çeşitliliği ve verimli topraklara sahip olmaları.",
+            "output text": "{\"original\\_form\": \"Bu bölgede bizim çeşitlilik hemen hep bizim ortak özellikler sayan ülkelerimizde, zengin yeraltı ve yerüstü kaynakların tarım ve verimli topraklara sahip olur.\"}"
+        },
+        "bio_1881": {
+            "ratio": 0.633,
+            "original text": "Aşağı baktığımda, cesedimi orada görüyordum.",
+            "output text": "```json\n{\n  \"original_form\": \"Aşağı baktım, cesetimi orada görüyorum.\"\n}\n```"
+        },
+        "ess_1886": {
+            "ratio": 0.727,
+            "original text": "Bu herşeyi boş verdiğim anlamına gelmesin, emin olun özel hayatınızda mutlu olunca bazı şeyler kendiliğinden yola giriyor ve bunu görmek de sizi çok mutlu ediyor.",
+            "output text": "original\\_form\": \"Bu her şeyi boş veren anlam gelin emin ol. O zaman özel hayatınızda mutlu olabilecek bazı şeyler kendilik yolunda girecek ve siz çok mutlu et."
+        },
+        "ins_619": {
+            "ratio": 0.621,
+            "original text": "Suyu emme yeteneği fazladır.",
+            "output text": "Onun yetenekleri fazla i eder."
+        },
+        "pop_1560": {
+            "ratio": 0.571,
+            "original text": "Çiftçiydi ve eğitimsizdi.",
+            "output text": "original\\_form\": \"Çiftçi yedi eğitimsiz ve y."
+        },
+        "ins_81": {
+            "ratio": 0.701,
+            "original text": "Mavi yolculuğun babası, \"Mavi Sürgün\" Cevat Şakir, yani Halikarnas Balıkçısı'na göre altmış altı bük var bu mavi ovada, \"yavru\" koyları hesaba katmazsak tabii.",
+            "output text": "original\\_form\": \"Mavi yolculuk baba'nın, 'Cevat Şakir' gibi mavi sürgün Cevat yani Halikarnas balıkçısı göre al altı bük var, bu mavi ova yavru koy hesaplarında kat tabii."
+        },
+        "ins_1943": {
+            "ratio": 0.7,
+            "original text": "Dost, sırdaş ve nihayet komşuyduk...",
+            "output text": "Dostum, sırdaşım ve komşumu nihayet yaptı..."
+        },
+        "ins_806": {
+            "ratio": 0.667,
+            "original text": "Bütün Türk evlerinde olduğu gibi Ankara evlerinin de bariz özelliği sofaya açılan odalardır.",
+            "output text": "original\\_form\": \"Bütün Türklerin evleri gibi Ankara'daki evlerde ba özellikli sofalar açılır."
+        },
+        "bio_1418": {
+            "ratio": 0.845,
+            "original text": "Hatta ve hatta bir gün belki bütün kötü yolları bırakarak yeni bir hayata başlayacaktır.",
+            "output text": "Hatta hat ve bir gün belki bütün kötü yol bırak yeni bir hayat başlaya y."
+        },
+        "bio_1516": {
+            "ratio": 0.631,
+            "original text": "Biraz iç kısımdaki poşetlilerden, tezgâhın üç sıra arkasındaki \"vatan-millet-sakarya\" taifesine kadar...",
+            "output text": "```json\n{\n  \"original_form\": \"Biraz iç kısımki poşetliden tezgâhın üç sırasındaki arka kı taifeye kadar Sakarya...\"\n}\n```"
+        },
+        "ess_1685": {
+            "ratio": 0.697,
+            "original text": "Akşam geri verince bana gözlerini \"O gördüğün yüzlerce kafatası içinde yedisi oğullarımdı.",
+            "output text": "original\\_form\": \"Akşam geri ver ben gözü o gördü yüzlerce kafatası iç yedi oğuluydu."
+        },
+        "bio_670": {
+            "ratio": 0.702,
+            "original text": "Gazetenin genel yayın yönetmeni, Vatan gazetesinin eski yazı işleri müdürü ve eski CHP Hatay milletvekili İhsan Ada'dır.",
+            "output text": "```json\n{\n  \"original_form\": \"Genel Yayın yönetmeni vatan gazetesinin eski yazısı ve CHP Hatay milletvekili Ihsan Ada'nın\"\n}\n```"
+        },
+        "bio_1405": {
+            "ratio": 0.926,
+            "original text": "Kırkından sonra tempo inanılmaz biçimde hızlanır.",
+            "output text": "Kırk sonra tempo inanılmaz biçimde hızlanıyor."
+        },
+        "pop_689": {
+            "ratio": 0.68,
+            "original text": "Clarins ve Nivea piyasaya ilk girenler oldu.",
+            "output text": "{\"original\\_form\": \"Clarins ve Nivea piyasa ilk girer.\"}"
+        },
+        "ins_852": {
+            "ratio": 0.886,
+            "original text": "Gelinin annesi ve bütün akrabaları, kumaşın üstüne, beş, on, yirmi, elli liralık paralar attılar.",
+            "output text": "Gelin annemin ve bütün akrabaların kumaşı üstünde beş on yirmi elli liralık para atıldı."
+        },
+        "news_1227": {
+            "ratio": 0.545,
+            "original text": "Bozer'in, Özal'ın mezarının açılması teklifine sıcak bakmayan Semra Özal, onun yerine kendisinde bulunan saç telinin incelenmesini istedi.",
+            "output text": "original\\_form\": \"Bozer'in Özal'in mezarının açılmasına Semra Özal'a karşı teklif edildiği sıcak bakın, o yerin kendi saçının incelemesi gerekiyor. Semra Özal'ın istediği işlem yapıldı."
+        },
+        "bio_1908": {
+            "ratio": 0.682,
+            "original text": "Onların en ölümsek zamanlarında bile bir zulüm öldürücüleri, bir Sütçü İmamları vardır.",
+            "output text": "{\"original\\_form\": \"Onların en ölümsek zamanlarının bir zulümü öldürücü imamlarında var i.\"}"
+        },
+        "bio_426": {
+            "ratio": 0.877,
+            "original text": "Baktım herkes benim kadar tezcanlı.",
+            "output text": "Bak herkes benim kadar tezcanlı oldum."
+        },
+        "ess_1455": {
+            "ratio": 0.847,
+            "original text": "Birkaç yüz, belki birkaç bin kişiyi birbiriyle çatıştırmayı başardılar.",
+            "output text": ">\"birkaç yüz, belki birkaç bin kişi birbiri çatıştırıp başarılı oldular.\""
+        },
+        "bio_1317": {
+            "ratio": 0.431,
+            "original text": "Nedenini bilemiyorum.",
+            "output text": "{\"original\\_form\": \"Neden biliyor musunuz?\"}"
+        },
+        "news_1736": {
+            "ratio": 0.68,
+            "original text": "Özcan, Üniversitelerarası Kurul (ÜAK) kontenjanlı iki üye bulamamaları halinde yürütme kurulunu 7 kişi işleteceğini açıkladı.",
+            "output text": "{\n\"original\\_form\": \"Özcan, Üniversitelerarası kurul kontenjanlı iki üye bula hâl yürü kurul açıkla. 7 kişi işle.\"\n}"
+        },
+        "news_945": {
+            "ratio": 0.839,
+            "original text": "6 milyon 315 bin liralık cirosu ile Fransa ikinci sırada yer alırken, Almanya 5 milyon 570 bin lira ciro ile bu ülkeyi takip etti.",
+            "output text": "original\\_form\": \"6 milyon 315 bin liralık ciro ile Fransa iki sıra, Almanya 5 milyon 570 bin lira ciro ile bu ülke takip et."
+        },
+        "ess_753": {
+            "ratio": 0.65,
+            "original text": "Gerçek olmayan birinin kılığına girerken, onun gibi konuşurken, hatta onun gibi düşünürken kendi gerçek kimliğine ne oluyor, o gerçek kimlik nereye saklanıyor?",
+            "output text": "original\\_form\": \"Gerçek olmayan bir kılık gibi konuşan biri, hatta o gibi düşünür iken, kendi gerçek kimliğini sakla."
+        },
+        "news_944": {
+            "ratio": 0.742,
+            "original text": "Aynı dönem içinde net asgari ücret ise 3.2 arttırıldı.",
+            "output text": "{\"original\\_form\": \"Aynı dönemi iç içinde net asgari ücret 3.2'yi artırıldı.\"}"
+        },
+        "pop_1374": {
+            "ratio": 0.889,
+            "original text": "Protokol ile ilgilenen, bu alanda kafa yoran, emek veren hemen herkes de Aker'in bu düşüncelerini paylaşıyor.",
+            "output text": "Protokolü ile ilgilen bu alanda kafa yoran herkes de Aker'in bu düşüncelerini paylaşıyor."
+        },
+        "news_1611": {
+            "ratio": 0.459,
+            "original text": "4. Alkol kullanımı",
+            "output text": "```json\n{\n  \"original_form\": \"4. alkoli kullanımı\"\n}\n```"
+        },
+        "bio_680": {
+            "ratio": 0.647,
+            "original text": "\"Bak ne yapmışlar, Atatürk'e suikast girişiminde bulunmuşlar...",
+            "output text": "{\"original\\_form\": \"Bak ne yapılmış ATATÜRK'e suikast girişimini bulun...?\"}"
+        },
+        "bio_1635": {
+            "ratio": 0.747,
+            "original text": "Yeter ki bana bir gün önceden haber ver, hazırlığımı ona göre yapayım.\"",
+            "output text": "{\"original\\_form\": \"Yeter ki ben bir gün önce haber ver, hazırlık o göre yap.\"}"
+        },
+        "pop_396": {
+            "ratio": 0.292,
+            "original text": "Yüzük metodu",
+            "output text": "{\"original\\_form\": \"metodun yüzükü\"}"
+        },
+        "ess_556": {
+            "ratio": 0.477,
+            "original text": "Sırtımdan büyük bir yük kalkmıştı.",
+            "output text": "```json\n{\n  \"original_form\": \"Benim sırttan büyük bir yük kalkınca. \"\n}\n```"
+        },
+        "pop_1847": {
+            "ratio": 0.689,
+            "original text": "Bir kaba nişasta ile pirinç ununu koyarak, üstlerine 1 bardak suyu sicim gibi akıtın ve bir taraftan da karıştırarak eritin.",
+            "output text": "{\"original\\_form\": \"Bir kap ile nişasta koyun, üstte 1 bardak suyu sicim gibi akıt ve bir taraf da karış eri.\"}"
+        },
+        "pop_331": {
+            "ratio": 0.608,
+            "original text": "İşleri o sınıflar yapar, nemalanacaklarsa onlar nemalanır, zarar göreceklerse onlar zarar görür (üç kuruş da onlar alasıymış ne iyi olurmuş).",
+            "output text": "Özellikle işleri o sınıf yapar, üç kuruş alanlar da o nemalan görür o nemalan y, o zarar görür. (O zararı iyi olmuş y.)"
+        },
+        "bio_1314": {
+            "ratio": 0.491,
+            "original text": "Hastalığını unutmuş gibiydi.",
+            "output text": "unutulan hastalık gibi y."
+        },
+        "pop_1760": {
+            "ratio": 0.954,
+            "original text": "Ağır ama emin adımlarla ilerleyin.",
+            "output text": "Ağır ama emin adımlarla ilerle."
+        },
+        "bio_297": {
+            "ratio": 0.738,
+            "original text": "Elindeki anahtarla kapıyı açar gibi yaptı ama açmadı.",
+            "output text": "{\"original\\_form\": \"elkiyle anahtarla kapıyı açgibi yap ama açmadı.\"}"
+        },
+        "pop_1416": {
+            "ratio": 0.669,
+            "original text": "Gerçekten de 3-5 suskun ilim adamının dışında, Kopernik'in bu iddialarını ciddiye alan pek çıkmadı.",
+            "output text": "```json\n{\n  \"original_form\": \"Gerçekten de 3-5 suskun ilimli adam dıştaki Kopernik'in bu iddiacıdır ki, ciddi bir şekilde çıkmadı.\"\n}\n```"
+        },
+        "bio_1697": {
+            "ratio": 0.662,
+            "original text": "Hatta bir sabah, sözgelimi yedide uyandıracağıma altıda uyandırmışım.",
+            "output text": "Hatta bir sabah, sözgelimi yedi uyan, altı uyan, ben uyandırdım."
+        },
+        "pop_426": {
+            "ratio": 0.725,
+            "original text": "Daha sonra çırpmaya ara vermeden kaynar sebzeli sudan kaşık kaşık alıp, terbiyenin içine katın.",
+            "output text": "original\\_form\": \"Daha sonra çırpanın ara verdiği Kaynar sebze Sudan, kaşık kaşığı alınan terbiye için kat eder."
+        },
+        "ess_708": {
+            "ratio": 0.457,
+            "original text": "Üç beş kişiden ibaret olduklarını mı sanıyorduk?",
+            "output text": "The surface form of the sentence is: \"Üç beş kişi ibaret olmuş san-yız y-imiz?\""
+        },
+        "pop_1066": {
+            "ratio": 0.494,
+            "original text": "Yatırımı Bolu'ya kaydırdı...",
+            "output text": "{\"original\\_form\": \"kaydı Bolu'ya yatırım yaptırıldı...\"}"
+        },
+        "pop_1631": {
+            "ratio": 0.705,
+            "original text": "Bu iddiaların en akla yakınları ise Kennedy'nin bizzat CIA tarafından öldürülmüş olabileceği üzerine kurulanlardı.",
+            "output text": "Bu iddiadın en ak çıkarılan yakın kişileri Kennedy'nin bizzat tarafından öldürülüp Üzer kurulduğu kurumun y oldu."
+        },
+        "news_10": {
+            "ratio": 0.628,
+            "original text": "Zirveye Başbakan Mesut Yılmaz, Devlet Bakanı Güneş Taner, ekonomiyle ilgili üst düzey bürokratlar ve yabancı finans uzmanları katıldı.",
+            "output text": "original\\_form\": \"Zirve başbakan Mesut Yılmaz'a Güneş Taner ile birlikte devlet bakanına ekonomi işi ilgili üst düzey bürokratların katıldı."
+        },
+        "pop_581": {
+            "ratio": 0.449,
+            "original text": "Fırını önceden 125 dereceye ısıtın.",
+            "output text": "```json\n{\"original_form\": \"Önce fırını 125 derece ısıt.\\.\"}\n```"
+        },
+        "bio_1332": {
+            "ratio": 0.602,
+            "original text": "Ben \"Reis\" olduğum için mallar bizim bahçede saklanırdı.",
+            "output text": "{\n\"original\\_form\": \"Ben, reis için malı bizim bahçede saklanmış olmuştur.\"\n}"
+        },
+        "news_399": {
+            "ratio": 0.757,
+            "original text": "Bu arada Öz'ün 1.5 yıl önce otomobiliyle çarptığı bir apartman görevlisinin oğlunun ölümüne sebep olduğu öne sürüldü.",
+            "output text": "original\\_form\": \"Bu ara Öz'in 1.5 yıl önce otomobil ile çarpınan apartman görevlisi oğulunun ölüm sebebi oluşan ön sürebilir."
+        },
+        "ess_1753": {
+            "ratio": 0.649,
+            "original text": "(Bu yazı yazıldığında Birgün gazetesinin Forum sayfasını yönetiyordum.",
+            "output text": "original\\_form\": \"( Bu yazı, Birgün gazetesi'nin forum sayfasında yönet yapılmıştı.)"
+        },
+        "ins_1845": {
+            "ratio": 0.764,
+            "original text": "Birkaç gün sonra mahalle mektebinden çıkarak Şemsi Efendi ilkokuluna kaydoldum.\"",
+            "output text": "\"original\\_form\": \"Birkaç gün sonra mahallemektep çık şems efendi ilkokula kaydoldu.\""
+        },
+        "ess_1932": {
+            "ratio": 0.584,
+            "original text": "Aileye gelen ilk torun olmamdan dolayı adımı İlknur koymuşlar ki ben bundan çok memnunum.",
+            "output text": "```json\n{\n  \"original_form\": \"Aileye gelen ilk torunumun İlknur adımından dolayı adım benim bu çok memnun koydum.\"\n}\n```"
+        },
+        "ins_1067": {
+            "ratio": 0.762,
+            "original text": "Yarını iple çekiyorum.",
+            "output text": "Ip yarını çekiyorum."
+        },
+        "ins_1234": {
+            "ratio": 0.711,
+            "original text": "Sevincini de üzüntüsünü de memleketin gidişatını da konuşmak, paylaşmak istiyor biriyle.",
+            "output text": "original\\_form\": \"Sevinç de üzüntü de memleket gidişatının da konuşup paylaşan biri istiyor."
+        },
+        "news_1854": {
+            "ratio": 0.505,
+            "original text": "Benim için şaka gibiydi\" dedi.",
+            "output text": "```json\n{\n  \"original_form\": \"Ben için şaka gibi y de.\"\n}\n```"
+        },
+        "ess_1322": {
+            "ratio": 0.684,
+            "original text": "İnsanların ideolojik tutumlarıyla birlikte bilim anlayışlarına yön vermeleridir.",
+            "output text": "```json\n{\n  \"original_form\": \"insanların ideolojik tutumları birlikte bilim anlayışı yönünde veriliyor.\"\n}\n```"
+        },
+        "pop_1059": {
+            "ratio": 0.411,
+            "original text": "Dünya Savaşı'nda tarafsız kalmayı tercih eden Eleutherios Venizelos, 51 yaşında iken İtilâf Devletleri'nin verdiği teminatla Çanakkale'ye kuvvet göndermeye kalkışınca, Kral Konstantinos tarafından istifaya zorlandı.",
+            "output text": "original\\_form\": \"Dünya Savaşının tarafsız kalma tercihi Eleutherios'un 51 yaşında İtilâf devletlerinin verdiği teminat ile Çanakkale'ye gönderdiği kuvvetlerin kalkışı konusunda, kral Konstantinos'un tarafından istifa zorla"
+        },
+        "ess_1476": {
+            "ratio": 0.552,
+            "original text": "Engizisyonun temelini dayadığı inanca göre, kişi suçsuz ise ateş onu yakamazdı.",
+            "output text": "```json\n{\n  \"original_form\": \"engizisyonu temelini dayadığı kişinin suçsuz göre ateşi yakmadığını yak yiyerek gördük.\"\n}\n```"
+        },
+        "pop_1114": {
+            "ratio": 0.686,
+            "original text": "Meyveleri, kabukları ve kökü kullanılır.",
+            "output text": "{\n\"original\\_form\": \"Meyveler, kabuklu ve kök kullanılıyor.\"\n}"
+        },
+        "ins_1812": {
+            "ratio": 0.524,
+            "original text": "Neyin ne zaman gerçekleşmesinin istendiği, her bir hedef kitle için oluşturulan sonuçlara ulaşıldığında ne olacağı ile ilgilidir.",
+            "output text": "> Ne için her bir kitle için oluşturulan hedef sonucu neden ulaşılmaz, ilgili ol?"
+        },
+        "ess_1749": {
+            "ratio": 0.816,
+            "original text": "Ecvet Bey'le Nadir Bey'in ilkelerinin uyuşmadığını söyledi.",
+            "output text": "Ecvet Bey ile Nadir Bey'in ilkeleri üzerine uyuşduğunu söylemiyor."
+        },
+        "bio_1653": {
+            "ratio": 0.683,
+            "original text": "Bulgaristan'ı, o zamanlar Yugoslavya olan Mareşal Tito'nun ülkesini, Kuzey İtalya'yı hep bu seyahatimde ilk defa gördüm.",
+            "output text": "original\\_form\": \"Bulgaristan'ı o zaman Yugoslavya ol Tito'nun ülkesi kuzeyde olan İtalya'da bana ilk defa seyahat gördüm hep bu."
+        },
+        "news_874": {
+            "ratio": 0.826,
+            "original text": "ABD Başkanı George W.",
+            "output text": "ABD'nin başkanı George w."
+        },
+        "ins_1649": {
+            "ratio": 0.692,
+            "original text": "Dümenin belli bir dereceyle döndürülmesi isteniyorsa \"iskele beş\", \"sancak on\" şeklinde söylenir.",
+            "output text": "Dümen belli bir derece dönülecek iskele beş şekli söyle on."
+        },
+        "news_1181": {
+            "ratio": 0.535,
+            "original text": "Brezilya'da isyan dindi",
+            "output text": "{\"original\\_form\": \"Brezilya'da isyan yapıldı.\"}"
+        },
+        "pop_413": {
+            "ratio": 0.685,
+            "original text": "Nelson Mandela, 46 yaşından yargılanarak müebbed hapse mahkum oldu.",
+            "output text": "original\\_form\": \"Nelson, Mandela'nın 46 yaşında yargılanmış, müebbet hapis olmuş."
+        },
+        "pop_347": {
+            "ratio": 0.763,
+            "original text": "Çünkü chat olmadığı zamanlarda, iş ile ev arasında geçen monoton bir hayatım vardı.",
+            "output text": "Çünkü chat olmamış, işte evle ile ara geçen monoton bir hayat varmış."
+        },
+        "news_1409": {
+            "ratio": 0.798,
+            "original text": "Böyle kariyerli ve başarılı oyunculardan övgüler almak benim adıma çok güzel.",
+            "output text": "Böyle kariyerli ve başarılı oyunlardan alınan bu övgü, benim adımı çok güzel yansıtır."
+        },
+        "pop_1828": {
+            "ratio": 0.94,
+            "original text": "O zaman da yandı gülüm keten helva oluyor.",
+            "output text": "O zaman da yan gülü keten helvası oluyor."
+        },
+        "ess_1105": {
+            "ratio": 0.571,
+            "original text": "Musa'yı durduran Emevi halifesi ve yakınlarının haklı bir sebepleri var mıydı acaba?",
+            "output text": "{\"original\\_form\": \"Musa durutur Emevi'nin yakın halifesini sebepleri neden var mi acaba?\"}"
+        },
+        "ins_40": {
+            "ratio": 0.757,
+            "original text": "O, hiç değişmeyen toplum olaylarının tabii akışı içinde, her çağda yaşayıp durdu.",
+            "output text": "{\"original\\_form\": \"O, hiç değişen toplumun olayların tabii ak içinde her çağ yaşadur.\"}"
+        },
+        "ins_1505": {
+            "ratio": 0.824,
+            "original text": "Oynaşır çocuklar,",
+            "output text": "Oynasan çocuklar,"
+        },
+        "news_1924": {
+            "ratio": 0.876,
+            "original text": "Trabzonspor Galatasaray karşısında tarih yazmış!..",
+            "output text": "Trabzonspor'un Galatasaray'ın karşısında tarih yazıldı!"
+        },
+        "pop_558": {
+            "ratio": 0.651,
+            "original text": "Yozlaşmış bir ortam olduğu için, aile kavramı da dahil herşeyi basite indirgiyordu.",
+            "output text": "```json\n{\n  \"original_form\": \"Yoz bir ortam, ol için aile kavramı da dahil her şeyi basit indirgeyen bir çevrimi vardı.\"\n}\n```"
+        },
+        "bio_1020": {
+            "ratio": 0.718,
+            "original text": "- Burası sizin fabrikanız, tabii ki gezeceksiniz.",
+            "output text": "{\n\"original\\_form\": \"Bura sizin fabrikanızın tabii ki gezersiniz.\"\n}"
+        },
+        "bio_1443": {
+            "ratio": 0.639,
+            "original text": "Asıl bizi ilgilendiren varil başına alacağımız ücrettir.",
+            "output text": "```json\n{\n  \"original_form\": \"Asıl biz'i ilgilenene varıl başına alacağı ücret y.\"\n}\n```"
+        },
+        "ins_460": {
+            "ratio": 0.667,
+            "original text": "Her zaman, her toplulukta dile geldi.",
+            "output text": "{\"original\\_form\": \"Her zaman, her topluluk diluna gelinmiş.\"}"
+        },
+        "news_1270": {
+            "ratio": 0.654,
+            "original text": "Kendi üzerime düşeni yaptım, bundan sonrasına karışmam diyemem\" şeklinde konuştu.",
+            "output text": "original\\_form\": \"Kendi üzeri düşen bu sonra karışan de şekilde konuşan."
+        },
+        "ess_1184": {
+            "ratio": 0.885,
+            "original text": "1955'in 6 Eylül günüydü.",
+            "output text": "1955'in 6. eylül günü yüzdü."
+        },
+        "ins_1114": {
+            "ratio": 0.738,
+            "original text": "Ne güzel bir davranış değil mi?",
+            "output text": "{\"original\\_form\": \"Ne güzel bir davranış değil mi?\"}"
+        },
+        "bio_1475": {
+            "ratio": 0.537,
+            "original text": "- 10 adet kol düğmesi",
+            "output text": "{\"original\\_form\": \"10 adet kolundaki düğme.\"}"
+        },
+        "news_1760": {
+            "ratio": 0.785,
+            "original text": "\"Asimetrix\" her pazartesi saat 20.00'de Muammer Karaca Sahnesi'nde.",
+            "output text": "{\"original\\_form\": '\"\" Asimetrix \"\" her pazartesi saat 20.00 -i-nde Muammer Karaca sahnesinde.'}"
+        },
+        "ess_294": {
+            "ratio": 0.727,
+            "original text": "Bilinen ve söylenmeyen bütün sırlar ortaya çıkıyor.",
+            "output text": "{\"original\\_form\": \"Bilinmeyen ve söyleyilemeyen bütün sırlar orta çıkarılıyor.\"}"
+        },
+        "bio_356": {
+            "ratio": 0.611,
+            "original text": "Dikkat ederseniz bu saydıklarımın hiçbirine özen gösterildiği yok artık konuşmalarda.",
+            "output text": "```json\n{\n  \"original_form\": \"Dikkat ettiğim bu sayıhların hiçbiri özen gösterilmemiş artık konuş.\"\n}\n```"
+        },
+        "ins_1431": {
+            "ratio": 0.409,
+            "original text": "ÖĞRETMEN: Söyleyin bakalım, Estergon Kalesi nerededir? (Kapı vurulur.) Geel.",
+            "output text": "öğretmen: \"öğretmen\" : \":\" söyle \"bizimle Estergon kalesi'nin nere kapısı vuruluyor mu?\" diye bak \"bakalım\", \"Estergon\" kale \"nere\" ? (\"kapı\" vur \".\") Geel \".\""
+        },
+        "ins_1013": {
+            "ratio": 0.481,
+            "original text": "Sokağı görmek için dışarı çıkabilirsin.",
+            "output text": "```json\n{\n  \"original_form\": \"Sokak görmek için çık dışarısın.\"\n}\n```"
+        },
+        "pop_857": {
+            "ratio": 0.974,
+            "original text": "Sonra değişik bir nickle Mynet'e girdim.",
+            "output text": "Sonra değişik bir nick Mynet'e girdim."
+        },
+        "pop_631": {
+            "ratio": 0.729,
+            "original text": "Osman Hamdi Bey, Sadrazam İbrahim Ethem Paşa'nın oğluydu.",
+            "output text": "{\"original\\_form\": \"Osman Hamdi bey, sadrazam İbrahim Paşa'nın oğlu y.\"}"
+        },
+        "bio_409": {
+            "ratio": 0.828,
+            "original text": "(beyin şimdilik dursun) \"bir tek insana\" aittir.",
+            "output text": "( Beyin şimdilik Dursun'a bir tek insan aitti. ) \"\""
+        },
+        "ins_17": {
+            "ratio": 0.529,
+            "original text": "Bunlar maden kömürü idi.",
+            "output text": "{\"original\\_form\": \"Bu maden kömürü i var.\"}"
+        },
+        "news_1386": {
+            "ratio": 0.698,
+            "original text": "Harekat sırasında en az 28 sivil de hayatını kaybetmişti.",
+            "output text": "original\\_form\": \"Harekât sırada en az 28 sivilde hayat kaybediyor y."
+        },
+        "news_353": {
+            "ratio": 0.747,
+            "original text": "Amatör Küme'ye yükselen Ortaklarspor'un takım kaptanlığını da yapan baba Ali Kurtöz, savunma oyuncusu olan oğlunun iyi bir futbolcu olması için çaba sarfediyor.",
+            "output text": "Amatör kümesi Orthaklarspor takımının kaptanlığı da yükselen yapılan baba Ali Kurtöz savunucunun oğlu iyi bir futbolcu ol sarfet."
+        },
+        "ess_115": {
+            "ratio": 0.833,
+            "original text": "Kötü adam yerine, \"mutlu son\" yok oldu.",
+            "output text": "Kötü adam, yerine mutlu son bir yok olmuştur."
+        },
+        "bio_1188": {
+            "ratio": 0.711,
+            "original text": "Benzerlerini başka yerde duyduğum zaman, bana İstanbul'u veya İstanbul'un bir macerasını hatırlatır birlikte yaşadığımız...",
+            "output text": "original\\_form\": \"benzer başka yerlere ben İstanbul'u ya da İstanbul'un bir macerasını hatırla birlikte yaşıyoruz..."
+        },
+        "pop_1183": {
+            "ratio": 0.658,
+            "original text": "Delikli kepçe ile çıkartın.",
+            "output text": "{\"original\\_form\": \"Delikli kepçe ile çıkar.\"}"
+        },
+        "ins_714": {
+            "ratio": 0.694,
+            "original text": "Ancak insanlar yazıyı birdenbire öğrenmediler.",
+            "output text": "original_form\": \"Ancak insanlar birdenbire öğrenmez."
+        },
+        "ins_1644": {
+            "ratio": 0.837,
+            "original text": "O hâlde insana bu kadar faydası olan kitap, neden iyi bir arkadaş olmasın?",
+            "output text": "O hâl ki insan bu kadar fayda olmuyor kitap neden iyi bir arkadaş olmayacaktır?"
+        },
+        "ins_967": {
+            "ratio": 0.429,
+            "original text": "Ben sanatçıyım.",
+            "output text": "{\"original\\_form\": \"Ben sanatım nullim.\"}"
+        },
+        "bio_704": {
+            "ratio": 0.664,
+            "original text": "Yaşlılar ve hastalar, kendi karneleriyle aldırdıkları ekmeği çocuklar ve gençlerin gereksinmeleri için ayırmaktadırlar.",
+            "output text": "{\"original\\_form\": \"Yaşlılar ve hasta kendi karne aldırıp, çocuklar Genç gereksinimi için ayırıyor.\"}"
+        },
+        "ess_1561": {
+            "ratio": 0.431,
+            "original text": "KENDİLERİNE YETİŞTİĞİM VE FEYİZ ALDIĞIM SON OSMANLI ALİMLERİ Poe, yazılardan yaptığı denizaltılarla, duyduğu acıdan uzaklaşmasına, istediği derine inmesine imkân olmadığını düşünüp içkiden yeni denizaltılar yaptı.",
+            "output text": "original\\_form\": \"Kendi yetişip feyiz aldıktan sonra Osmanlı ve Poe'nin yazılarından denizaltı yapılanları duyduk, onlar uzak içki de içtikten sonra inimkâna olmadığını düşünüyoruz."
+        },
+        "ins_1849": {
+            "ratio": 0.71,
+            "original text": "Sorumlulukların paylaşılması, sevgi ve saygının aile üyelerini birbirine bağlaması da aile kurumu için çok önemlidir.",
+            "output text": "```json\n{\n  \"original_form\": \"Sorumluluk paylaşınan sevgi ve saygı ailece birbiri bağlayan da aile kurumu için çok önemli i.\"\n}\n```"
+        },
+        "ins_1884": {
+            "ratio": 0.653,
+            "original text": "Fakat kentteki işi bitip de kasabaya döndüğü zaman eli boşmuş.",
+            "output text": "original\\_form\": \"Fakat kentteki iş bitmeden de kasaba gittiğim zaman el boş bırakılmış."
+        },
+        "pop_263": {
+            "ratio": 0.092,
+            "original text": "BOMBA BİZDE OLSAYDI",
+            "output text": "{\"original\\_form\": \"Bomba bizde olmak ister.\"}"
+        },
+        "pop_1438": {
+            "ratio": 0.844,
+            "original text": "Yoksa onu toptan yok etmek değil.",
+            "output text": "Yoksa o toptan yok et değil mi?"
+        },
+        "ins_243": {
+            "ratio": 0.661,
+            "original text": "Bunun sonucunda yüzlerce İngilizce site geldi.",
+            "output text": "{\"original\\_form\": \"bu sonuçta yüzlerce İngilizce site gelmişti.\"}"
+        },
+        "ins_1362": {
+            "ratio": 0.639,
+            "original text": "Peki, her zaman güzel rüyalar mı görürüz?",
+            "output text": "[\"peki\", \",\", \"her\", \"zaman\", \"güzel\", \"rüyalarımızı\", \"mi\", \"görüyoruz\", \"?\"]"
+        },
+        "bio_1781": {
+            "ratio": 0.481,
+            "original text": "O da biliyordu bunu, demekki yanımdakinin tayinine bakıyordu.",
+            "output text": "```json\n{\n  \"original_form\": \"O o biliyor bu, de tayin bakıyor y.\"\n}\n```"
+        },
+        "ess_262": {
+            "ratio": 0.75,
+            "original text": "Anlaşabileceğim bir arkadaşla tabii.",
+            "output text": "Anlaşır bir arkadaşım tabii."
+        },
+        "ins_947": {
+            "ratio": 0.651,
+            "original text": "Sel sularında neler yoktu ki...",
+            "output text": "original\\_form\": \"Selinin suplarında ne yokmuş ki..."
+        },
+        "pop_1008": {
+            "ratio": 1.0,
+            "original text": "\"Kobra Öztürk\"",
+            "output text": "\"Kobra Öztürk\""
+        },
+        "ess_147": {
+            "ratio": 0.505,
+            "original text": "Beni din-le-mi-yor! Yalova...",
+            "output text": "```json\n{\n  \"original_form\": \"Ben din-i le-si mi-si, yor-du. Yalova...!\"\n}\n```"
+        },
+        "ins_1257": {
+            "ratio": 0.505,
+            "original text": "Atatürk, \"Türk milletinin dili Türkçedir.",
+            "output text": "{\"original\\_form\": \"ATATÜRK,\\\"Türk\\\" milletinin, \\\"Türkçe\\\".\"}"
+        },
+        "pop_1096": {
+            "ratio": 0.71,
+            "original text": "\"Ey inanan...",
+            "output text": "\\\"Ey inanıyor...\\\""
+        },
+        "news_1118": {
+            "ratio": 0.759,
+            "original text": "Böyle bir bağlantı ortaya çıkarsa kurum içinde değerlendirme yapılacaktır.",
+            "output text": "{\"original\\_form\": \"Böyle bir bağlantı ortada çıkabilir kurumun için değerlen yapılacaktı.\"}"
+        },
+        "news_900": {
+            "ratio": 0.545,
+            "original text": "Komintern belgelerini çıkardık koyduk.",
+            "output text": "```json\n{\"original_form\": \"Komintern'in bir belge çıkartıp koyduk.\"}\n```"
+        },
+        "pop_1924": {
+            "ratio": 0.615,
+            "original text": "10 adet koyun paçası",
+            "output text": "{\"original\\_form\": \"10 adet koyunun paçası\" }"
+        },
+        "pop_949": {
+            "ratio": 0.5,
+            "original text": "Biraz tuz üstüne, biraz da yağ.",
+            "output text": "```json\n{\"original_form\": \"Tuz biraz üst, biraz da yağ.\"}\n```"
+        },
+        "ess_1069": {
+            "ratio": 0.467,
+            "original text": "Ha şunu bileydin!",
+            "output text": "{\"original\\_form\": \"ha şu sey bilseydin !\"}"
+        },
+        "ins_1736": {
+            "ratio": 0.376,
+            "original text": "Sabah alışverişe çıkarken annem:",
+            "output text": "original\\_form\": \"Çıkar annemen sabahı alışveriş yap."
+        },
+        "ins_38": {
+            "ratio": 0.4,
+            "original text": "Saçlarından tutup birer birer,",
+            "output text": "```json\n{\n  \"original_form\": \"Saçlarından bir bir tutulmaz\"\n}\n```"
+        },
+        "ins_639": {
+            "ratio": 0.558,
+            "original text": "Benim de içimi üzüntü kapladı.",
+            "output text": "{\"original\\_form\": \"Ben de beni iç üzüntü kaplamıştım.\"}"
+        },
+        "ess_545": {
+            "ratio": 0.745,
+            "original text": "Okulları bile atmaya çalışıyorlar kentlerin kıyılarındaki daha ucuz yerlere...",
+            "output text": "Okul bile at yıyacakları kent kıyısına daha ucuz yerleri..."
+        },
+        "bio_75": {
+            "ratio": 0.603,
+            "original text": "Tarihi yalılar müstesna...",
+            "output text": "{\"original\\_form\": \"tarihi yalıları Müstesna.\"}"
+        },
+        "news_668": {
+            "ratio": 0.581,
+            "original text": "ABD ordusu ve Irak askerleri, \"El Kaide'ye karşı\" olduğu öne sürülen yeni bir operasyon başlattı.",
+            "output text": "```json\n{\n  \"original_form\": \"ABD'nin ordu'su ve Irak'ın askerleri, el kaidesi karşı yeni bir operasyon ön sürdü.\"\n}\n```"
+        },
+        "ess_549": {
+            "ratio": 0.794,
+            "original text": "Hiç bir sorunun artık kolay, rahat, ucuz çözümü yoktur.",
+            "output text": "original\\_form\": \"Hiç bir sorunun artık kolay, rahat ve ucuz çözüm yok."
+        },
+        "ess_109": {
+            "ratio": 0.511,
+            "original text": "Kardeşin kardeşi öldürdüğü cinayetler.",
+            "output text": "original\\_form\": \"Kardeşimin ölümüne cinayet edilmiştir."
+        },
+        "news_909": {
+            "ratio": 0.634,
+            "original text": "- İstanbul size neyi hatırlatıyor?",
+            "output text": "{\"original\\_form\": \"- İstanbul siz ne hatırla?\"}"
+        },
+        "bio_1236": {
+            "ratio": 0.639,
+            "original text": "Siz duymadınız denizlere olan hasreti",
+            "output text": "{\"original\\_form\": \"Siz duymadınız denize olmuş hasretler.\"}"
+        },
+        "news_1769": {
+            "ratio": 0.584,
+            "original text": "Hangi anlayışla, beğeniyle yaklaşırsanız yaklaşın, şiirine yanıt alabiliyorsunuz.",
+            "output text": "```json\n{\n  \"original_form\": \"Hangi anlayış ile beğeni yaklaşıyorsunuz, şiiriniz yanıt alırsınız?\"\n}\n```"
+        },
+        "bio_1678": {
+            "ratio": 0.219,
+            "original text": "Toplumda ne bir ses ne bir nefes...",
+            "output text": "Based on the provided linguistic features, the surface form of the Turkish sentence would be:"
+        },
+        "ins_1372": {
+            "ratio": 0.824,
+            "original text": "Bugün cumhuriyetimizin onuncu yılını doldurduğu en büyük bayramdır.",
+            "output text": "original\\_form\": \"Bugün cumhuriyetimizin onuncu yılın dolduğu en büyük bayramı i."
+        },
+        "bio_959": {
+            "ratio": 0.776,
+            "original text": "Karım gündüz çalıştığından küçük ailemiz için bu iyi bir çözüm oldu.",
+            "output text": "original\\_form\": \"Karım gündüz çalışmış küçük aile için bu iyi bir çözüm olmuş."
+        },
+        "ess_62": {
+            "ratio": 0.68,
+            "original text": "Hep bardağın boş kısmına bakmak doğru mudur?",
+            "output text": "original_form\": \"hep bardağımız boş kısımı bak doğru mu?"
+        },
+        "bio_1383": {
+            "ratio": 0.695,
+            "original text": "Genel yapısı içerisinde ihracat teşviki yok denecek bir seviyede bulunmaktadır.",
+            "output text": "{\"original\\_form\": \"Genel yapı içeri ihracatın teşvik yok, de bir seviye bulunuyor.\"}"
+        },
+        "pop_816": {
+            "ratio": 0.308,
+            "original text": "4 adet çarliston biber",
+            "output text": "[\n  {\"original_form\": \"4\"},\n  {\"original_form\": \"âdet\"},\n  {\"original_form\": \"çarliston\"},\n  {\"original_form\": \"biber\"}\n]"
+        },
+        "bio_455": {
+            "ratio": 0.654,
+            "original text": "Abdülhamit'in dönemine ve gezip gördüğü yerlere ait anlattıkları, hele yılan eti yemek zorunda kaldığı günler, hurmaların toplanışına ait anıları belleğimden hiç silinmemiştir.",
+            "output text": "{\"original\\_form\": \"Abdülhamit'in dönemi gez görülmüş yerlere, Eti yemek yemeyi zor kalmış günlerde, hurma toplamaya ait anı, bellekten hiç silinmez.\"}"
+        },
+        "ess_690": {
+            "ratio": 0.824,
+            "original text": "\"Oğlum Mehmet...",
+            "output text": "\\\"oğlu Mehmet...\\\""
+        },
+        "pop_1217": {
+            "ratio": 0.652,
+            "original text": "Bununla birlikte insanlar binlerce yıllık gözlemlerini biriktirip ilerleterek, doğum saatiyle başarı arasında bazı ilgiler yakalamışlardır.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu birlikte insanlar binlerce yıllık gözlem biriktiren doğum saatına, ara bazı ilgi yakalayıp yıyor.\"\n}\n```"
+        },
+        "bio_691": {
+            "ratio": 0.872,
+            "original text": "Zaten zayıf bir çocuktum, büsbütün zayıflamışım.",
+            "output text": "Zaten zayıf bir çocuk yimmi, büsbütün zayıfla."
+        },
+        "news_1447": {
+            "ratio": 0.65,
+            "original text": "Akakçe alanın tümünü kullanarak mekân düzenlemesine de giriyor.",
+            "output text": "```json\n{\n  \"original_form\": \"Akakçe'nin alanını tüm kullanan mekân düzenle de giriyor.\"\n}\n```"
+        },
+        "bio_1682": {
+            "ratio": 0.915,
+            "original text": "\"İnsanlar dünyanın dört bir köşesinden Ani'yi görmeye geliyorlar...\"",
+            "output text": "\"İnsanlar dünyanın dört bir köşesinde ani görmeye geliyor...\""
+        },
+        "pop_1320": {
+            "ratio": 0.617,
+            "original text": "Aslan Burcu'nun doğal evi olan V.",
+            "output text": "original_form\": \"Aslanın Burç doğal evi olmuş V."
+        },
+        "ess_1607": {
+            "ratio": 0.768,
+            "original text": "Gene de ahlaklılıklarını, barış duygularını, sabırlarını ve dirençlerini örselettirmiyorlar...",
+            "output text": "original\\_form\": \"Gen de ahlaklılıkların, barış duygularının, sabır ve dirençlerin örsele olmaz."
+        },
+        "ess_422": {
+            "ratio": 0.312,
+            "original text": "VIII.",
+            "output text": "{\"original\\_form\": \"VIII.\"}"
+        },
+        "news_862": {
+            "ratio": 0.634,
+            "original text": "İsrail ise hedeflerinin Arafat'ı koruyan Kuvvet-17'nin merkezi olduğunu söyledi.",
+            "output text": "original\\_form\": \"İsrail'i, Arafat'ı koruyan Kuvvet'in 17. merkezini olmuş söyleyen."
+        },
+        "pop_856": {
+            "ratio": 0.559,
+            "original text": "Ama sanal maske farklı.",
+            "output text": "{\"original\\_form\": \"maske sanal ama farklı.\"}"
+        },
+        "bio_944": {
+            "ratio": 0.743,
+            "original text": "Elim kaleme uzansa yazacak çok hikâye var.",
+            "output text": "original\\_form\": \"Elim kalemine uza yazılacak çok hikâyesi var."
+        },
+        "bio_399": {
+            "ratio": 0.11,
+            "original text": "Kişilerin değerlendirilmesinde ölçü, dini inancı olmamalıdır.",
+            "output text": "Here is the surface form of the given Turkish sentence with all the tokens in order:"
+        },
+        "pop_987": {
+            "ratio": 0.556,
+            "original text": "\"Aaa... Çok teşekkür ederim.",
+            "output text": "\"\"\", \"AAA\", \"...\", \"çok\", \"teşekkür et\", \".\""
+        },
+        "bio_58": {
+            "ratio": 0.737,
+            "original text": "Orada bir arzuhalci var, kör bir adam.",
+            "output text": "original_form\": \"Ora bir arzuhâlci'nin var, kör bir adam."
+        },
+        "news_1268": {
+            "ratio": 0.744,
+            "original text": "Bosna-Hersek'te Türk firmalarının yatırımı hızla artıyor.",
+            "output text": "original\\_form\": \"Bosna- - Hersek'te Türk firma'ların yatırım hızı art-."
+        },
+        "ins_1024": {
+            "ratio": 0.742,
+            "original text": "Bir de şu gerçek var ki çizgi karakterler sanal dünyaya aitler.",
+            "output text": "```json\n{\"original_form\": \"Bir de şu gerçek var ki, çizgi karakterleri sanal Dünya'ya ait.\"}\n```"
+        },
+        "bio_1860": {
+            "ratio": 0.816,
+            "original text": "Aslında sonra da hep bu giysilerle göreceğiz onu: Siyah düz bir etek, dümdüz mor bir tişört...",
+            "output text": "original\\_form\": \"Aslında sonra da hep bu giysileri görüyoruz: siyah düz bir etek, dümdüz mor bir tişört..."
+        },
+        "bio_1794": {
+            "ratio": 0.27,
+            "original text": "12 Aralık'ta \"Seni seviyorum\" dedi.",
+            "output text": "```json\n{\n  \"original_form\": \"12'de sen sevdim.\"\n}\n```"
+        },
+        "ess_1435": {
+            "ratio": 0.786,
+            "original text": "Belki de ölüler diriliyor ve tenimizden dalıp ruhumuza giriyor ve biz öylece kendi tenine gizlenen insan oluyoruz.",
+            "output text": "Belki de ölüler diril, ten dal ve ruh gir, ve biz öylece kendi ten gizle insan ol."
+        },
+        "bio_433": {
+            "ratio": 0.747,
+            "original text": "Berlin'de, her gün biraz daha fazla ısınmaya başladığım bu ülkeyi daha iyi tanıyabilmek amacıyla Türkler ve Almanlar arasındaki geleneksel bağları konu alan belgeleri araştırdım.",
+            "output text": "{\"original\\_form\": \"Berlin'de her gün biraz daha fazla ısın başlayan bu ülkeyi daha iyi tanımak amaçlı Türk ve Almanlar araki ki geleneksel bağ konusunda araştırıyor y.\"}"
+        },
+        "ess_114": {
+            "ratio": 0.811,
+            "original text": "Kime anlattığımızın çok da önemi yoktu.",
+            "output text": "Kim anlatmıştır, çok da önem yoktu."
+        },
+        "pop_1649": {
+            "ratio": 0.699,
+            "original text": "O sabah da First Lady \"başım ağrıyor\" dediğinde, anladılar ki koşuşturmaları gerek.",
+            "output text": "original\\_form\": \"O sabah da First Lady'nin başım ağrıyor. De anla ki, koşuş gerek."
+        },
+        "ess_1503": {
+            "ratio": 0.815,
+            "original text": "\"İşte gerillalarla ordu arasındaki en çetin savaşların yer aldığı köy.\" ...",
+            "output text": "\"İşte gerilla ile ara-ki en Çetin savaşları yer aldığı köy.\""
+        },
+        "bio_494": {
+            "ratio": 0.889,
+            "original text": "O arada bir arsa aldım.",
+            "output text": "O ara bir arası aldım."
+        },
+        "pop_1299": {
+            "ratio": 0.745,
+            "original text": "Bu çok hoş bir gelişme ve ilişkiler yumağıydı.",
+            "output text": "original\\_form\": \"Bu çok hoş bir geliş ve ilişki yumadı."
+        },
+        "bio_402": {
+            "ratio": 0.652,
+            "original text": "Belirlenen gün Eminönü Halkevi'ne gittik, çeşitli fakülte mensubu kızlarla delikanlılar fikirlerini ortaya koyuyorlardı.",
+            "output text": "```json\n{\n  \"original_form\": \"Belirlenen gün Eminönü halkevi'na çeşitli fakülte mensupları orta gitmiş kızların delikanlıları fikirlieri koyulmuştur.\"\n}\n```"
+        },
+        "ins_1047": {
+            "ratio": 0.523,
+            "original text": "* Gece gökyüzünü gözlemleyiniz.",
+            "output text": "```json\n{\"original_form\": \"Gece gökyüzü gözlemle.*.\"}\n```"
+        },
+        "bio_536": {
+            "ratio": 0.242,
+            "original text": "\"Heyhat! Atatürk, belki karakterinin yüceliğinden, kendi sağlığını koruyamadı.",
+            "output text": "Here is the surface form of the Turkish sentence, with all the tokens in order:"
+        },
+        "news_1874": {
+            "ratio": 0.656,
+            "original text": "Başka bir krize neden olan MGK toplantısı ise sadece 30 dakika sürmüştü.",
+            "output text": "```json\n{\n  \"original_form\": \"Başka bir kriz neden MGK'nin topplantısı sadece 30 dakika sürse yokmuş.\"\n}\n```"
+        },
+        "bio_1748": {
+            "ratio": 0.556,
+            "original text": "Bizim oğlan sana âşık, o sensiz yapamaz.",
+            "output text": "The surface form of the sentence is: \"Biz'in oğlanını san âşık o sensiz yapmayabilir.\""
+        },
+        "ess_1584": {
+            "ratio": 0.521,
+            "original text": "Eğer beni tanısaydınız bütün bunları bilirdiniz.",
+            "output text": "```json\n{\n  \"original_form\": \"Eğer beni tanıt bütün bu bilirsen.\"\n}\n```"
+        },
+        "pop_965": {
+            "ratio": 0.695,
+            "original text": "Düştükten sonra kardeşleri onu Isparta'ya götürdüler.",
+            "output text": "original\\_form\": \"Düş sonra kardeşleri O Isparta'ya götürülmüştü."
+        },
+        "news_299": {
+            "ratio": 0.234,
+            "original text": "Basın işkolunda da geçen yıl 8 bini aşkın kişi zorunlu ya da isteğiyle işinden ayrıldı.",
+            "output text": "Here is the surface form of the given Turkish sentence with all the tokens in order:"
+        },
+        "ess_1529": {
+            "ratio": 0.868,
+            "original text": "Elbette bu kolay bir iş değil ve romancının çok çalışmasını gerektirir!",
+            "output text": "Elbette bu kolay bir iş değil, ve romancı çok çalış gerek."
+        },
+        "pop_328": {
+            "ratio": 0.571,
+            "original text": "Çok sağlıklı olmayan kaynaklardan elde ettiğim bilgilere göre ÇKP'nin bugünkü üye sayısı 60 milyon dolayında.",
+            "output text": "```json\n{\n  \"original_form\": \"Çok sağlıklı olmayan çok CKP'den bugünkü ki üye Sayısı 60 milyon dolayından el etmez.\"\n}\n```"
+        },
+        "pop_373": {
+            "ratio": 0.745,
+            "original text": "Bu hafif beyaz sakallı, nur yüzlü ve çok nazik bilim adamının o gün gösterdiği ilgiyi unutamam.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu hafif beyaz sakallı, nur yüzlü ve çok nazik bir bilim adamının gösterdiği gün, ilgisini unutmaz.\"\n}\n```"
+        },
+        "bio_922": {
+            "ratio": 0.886,
+            "original text": "1836 ile 1838 arasında Hispar, Mustagh ve Karakurum geçitlerine ulaşmak için Keşmir Vadisi, Baltistan ve Ladakh'a detaylı bir keşif yolculuğu yaptı.",
+            "output text": "1836 ile 1838'ler arasında Hispar, Mustagh ve Karakurum geçitleri için Keşmir vadi, Baltistan ve Ladakh'a detaylı bir keşif yapıldı."
+        },
+        "news_8": {
+            "ratio": 0.761,
+            "original text": "Mısır yetkililerinin sınırda ilk kez Türk vatandaşlarını tutukladığı öne sürüldü.",
+            "output text": "{\n\"original\\_form\": \"Mısır yetkili sınırında ilk kez Türk vatandaşlarının tutuklandığı ön sürebilir.\"\n}"
+        },
+        "pop_1675": {
+            "ratio": 0.804,
+            "original text": "Enginarlar yumuşayınca süt kreması, tuz ve karabiberi ilave edip 5 dakika daha pişirin.",
+            "output text": "original\\_form\": \"Enginarı yumuşa süt krema-sını, tuz ve karabiberi ilave et 5 dakika daha pişir."
+        },
+        "bio_1526": {
+            "ratio": 0.688,
+            "original text": "Biraz abarttım, ama Üstün'ün kafası hep böyle şeylere çalışır.",
+            "output text": "```json\n{\n  \"original_form\": \"Biraz abarttım, Üstün kafası hep böyle şeylere çalışıyor ama.\"\n}\n```"
+        },
+        "bio_1667": {
+            "ratio": 0.682,
+            "original text": "Gece evde gazeteyi okumaya başladım.",
+            "output text": "{\"original\\_form\": \"Gece evde gazete oku başladım.\"}"
+        },
+        "bio_1382": {
+            "ratio": 1.0,
+            "original text": "Ancak bu bir teferruat gayet tabii ki.",
+            "output text": "Ancak bu bir teferruat gayet tabii ki."
+        },
+        "news_1312": {
+            "ratio": 0.752,
+            "original text": "- Ben müziğin, ritmin içinde kayboluyorum bir anda.",
+            "output text": "- Ben müzik'in ritimini içken bir an kayboluyorum."
+        },
+        "news_237": {
+            "ratio": 0.658,
+            "original text": "Gürel: Kıbrıs'ta ödün yok",
+            "output text": "{\"original\\_form\": \"Gürel: Kıbrıs'da ödün yok.\"}"
+        },
+        "ins_793": {
+            "ratio": 0.153,
+            "original text": "Bunu söylemek istemiştim.",
+            "output text": "Based on the linguistic features provided, the surface form of the Turkish sentence would be:"
+        },
+        "bio_587": {
+            "ratio": 0.523,
+            "original text": "Yıl Marşı'nı söylemeye başladılar.",
+            "output text": "{\"original\\_form\": \"yılı marşın söylenişini başladı.\"}"
+        },
+        "ess_1185": {
+            "ratio": 0.822,
+            "original text": "Şu son yıllarda bile, hâlâ öğrenemediniz mi bunu?",
+            "output text": "Şu son yıllar bile hâlâ öğrenmiyor mu bu?"
+        },
+        "bio_876": {
+            "ratio": 0.769,
+            "original text": "Çünkü şampanya içiliyormuş.",
+            "output text": "Çünkü şampanyayı içmiş y."
+        },
+        "bio_1511": {
+            "ratio": 0.639,
+            "original text": "Tamam, deyip görüşmeye gider.",
+            "output text": "original\\_form\": \"Tamam, dey görüşme gitdi."
+        },
+        "pop_827": {
+            "ratio": 0.771,
+            "original text": "Elma dilimlerini tabaklara bölüştürün.",
+            "output text": "Elimdeki dilimleri tabaka bölüş."
+        },
+        "ess_1565": {
+            "ratio": 0.608,
+            "original text": "Putunu kendi yapar kendi tapar. \" Ben kendimle konuşuyorum ama kimseyle konuşmak istemediğim için yapıyorum bunu.",
+            "output text": "{\"original\\_form\": \"Putu kendi yapar, ben kendi ile konuş-ar ama kimse konuş-maz. İşte bu için yap-ar.\"}"
+        },
+        "bio_930": {
+            "ratio": 0.623,
+            "original text": "Ancak, aldığı yanıta dudak ucuyla güldü, inanmadı.",
+            "output text": "{\"original\\_form\": \"Ancak alınan yanıt, dudak uçundaki gül, inanılmaz.\"}"
+        },
+        "bio_1273": {
+            "ratio": 0.735,
+            "original text": "Hay demez olsaydım,\" ne ihalesi be kardeşim orasının şimdiye kadar bitmesi gerekiyordu\" diye bağırmaya başladı, ben yoluma devam ettim.",
+            "output text": "Hay de olsa, ne ihalen kardeşim orası kadar bitmediği mi diye bağırıp başlayacağım yol devam ettim."
+        },
+        "bio_588": {
+            "ratio": 0.717,
+            "original text": "Namazdan önce Meral'le vedalaşmak istediğimi söyledim.",
+            "output text": "original\\_form\": \"Namazdan önce meral ile vedalaş istediğim seçti."
+        },
+        "pop_1616": {
+            "ratio": 0.846,
+            "original text": "* Sesinizi hiç bir şekilde yükseltmeyin.",
+            "output text": "* seslerini hiç bir şekilde yükseltme!"
+        },
+        "bio_1688": {
+            "ratio": 0.569,
+            "original text": "\"Muayeneden sonra Atatürk, Neşet Ömer Bey'den karnında ve ayaklarındaki şişliğin sebeplerini sordu.",
+            "output text": "\"original\\_form\": \"',' sonra ATATÜRK'in Neşet Ömer Bey'in karında, ayak ki şişlik sebebi soruldu.\""
+        },
+        "bio_1249": {
+            "ratio": 0.825,
+            "original text": "Ve pek çok kadın ile erkeğin yaşadığını sandığım gibi \"çok geç.\"",
+            "output text": "ve pek çok kadın ile erkek yaşa san gibi, çok geç."
+        },
+        "bio_272": {
+            "ratio": 0.706,
+            "original text": "Erkenden mutfağa girip tüm hünerlerimi sergiledim.",
+            "output text": "{\n\"original_form\": \"Erken mutfaka girip tüm hünerimden sergiledim.\"\n}"
+        },
+        "bio_1991": {
+            "ratio": 0.577,
+            "original text": "Alanya, 4 Mayıs",
+            "output text": "{\"original\\_form\": \"Alanya, 4 Mayıs\"}"
+        },
+        "ins_1773": {
+            "ratio": 0.66,
+            "original text": "Çöller, çok az yağış alan kurak alanlardır.",
+            "output text": "original_form\": \"Çöller, çok az yağış alan alani i."
+        },
+        "ess_1720": {
+            "ratio": 0.651,
+            "original text": "ÇEVİR KAZI YANMASINKendi içindeki bu çatışma, yalnızca o beyinsizler arasında dönüp dursa iyi...",
+            "output text": "Çevir kazını kendi içki kı, bu çatışı yalnızca o beyinsiz ara dön. Iyi..."
+        },
+        "pop_291": {
+            "ratio": 0.538,
+            "original text": "Artist: Perran Kutman",
+            "output text": "The sentence in Turkish would be: \"Artist: Perran Kutman\""
+        },
+        "ins_924": {
+            "ratio": 0.615,
+            "original text": "Birkaç yıl sonra adı, Türk Hava Kurumu oldu.",
+            "output text": "{\n\"original\\_form\": \"Birkaç yıl sonra Türk hava kurumu adını olmuştur.\"\n}"
+        },
+        "ess_1787": {
+            "ratio": 0.73,
+            "original text": "Çarşı pazar akşama kadar dolaşır, imkân sahiplerini ziyaret eder, herkes onun yardımına ve desteğine koşar.",
+            "output text": "```json\n{\n  \"original_form\": \"Çarşı pazar akşam kadar dolaş, imkân sahip ziyaret eden herkes o yardım ve destek koş.\"\n}\n```"
+        },
+        "ess_206": {
+            "ratio": 0.673,
+            "original text": "Kız hâlâ gülümseyerek izliyordu delikanlıyı.",
+            "output text": "{\"original\\_form\": \"kız hâlâ gülümse-yerek izle-di delikanlı.\"}"
+        },
+        "ins_1931": {
+            "ratio": 0.567,
+            "original text": "Hemen işe başladı.",
+            "output text": "{\"original\\_form\": \"hemen iş(e) başladı.\"}"
+        },
+        "bio_642": {
+            "ratio": 0.544,
+            "original text": "Senin eve de bulaşmış olabilir, tedbirini al.\" Soluk bile almadan ama titrek bir sesle konuşuyordu: \"Birlikte görülmüş olabiliriz.",
+            "output text": "{\"original\\_form\": \"Senin evinde de bulaşan tedbirleri, almak konusunda birlikte görülmeyebilir.\"}"
+        },
+        "ins_1079": {
+            "ratio": 0.632,
+            "original text": "Bundan başka zorunlu olarak yapılan birtakım istemli ve istemsiz hareketler vardır.",
+            "output text": "Bu baska zorunlu ol birtakım istemli istem hareket var-i ve istemler."
+        },
+        "ins_888": {
+            "ratio": 0.484,
+            "original text": "Ama sizin soy nedense gider",
+            "output text": "```json\n{\n  \"original_form\": \"Ama sizin soyun neden gitmiyor?\"\n}\n```"
+        },
+        "ins_239": {
+            "ratio": 0.939,
+            "original text": "Üstün tanır her millet.",
+            "output text": "Üstünü tanıyor her millet."
+        },
+        "news_1325": {
+            "ratio": 0.745,
+            "original text": "Buna göre SSK'nın açıkları 2006 yılında 12 milyar 508.8 milyon YTL'ye ulaşacak.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu göre SSK'nin açık olduğu 2006 yılında 12 milyar 508.8 milyon YTL'ye ulaşacak.\"\n}\n```"
+        },
+        "bio_1843": {
+            "ratio": 0.944,
+            "original text": "Bu normal bir şey.",
+            "output text": "bu normal bir şey."
+        },
+        "ins_630": {
+            "ratio": 0.685,
+            "original text": "1924'ten beri de kış sporlarının yer aldığı Kış olimpiyatları düzenleniyor.",
+            "output text": "```json\n{\n  \"original_form\": \"1924'ten beri de kış sporlarının yeri olmakta olimpiyat düzenleniyor.\"\n}\n```"
+        },
+        "news_775": {
+            "ratio": 0.341,
+            "original text": "\"Alıp Götürsen Beni Oraya\"",
+            "output text": "```json\n{\n  \"original_form\": \"\\\"Algötüysez ben oraya.\\\"\"\n}\n```"
+        },
+        "ins_1393": {
+            "ratio": 0.441,
+            "original text": "Su sızdırmayan kova durmadan gururlanırmış:",
+            "output text": "Su sız kovanın dürgürmez."
+        },
+        "bio_787": {
+            "ratio": 0.235,
+            "original text": "Asansörün kapısını açtılar ve tam o sırada asansörün içinden mi, kıyısından mı, oralardan bir yerden, başbakanın ayaklarına doğru bir sıçan fırladı.",
+            "output text": "[\n{\"original\\_form\": \"asansör\"},\n{\"original\\_form\": \"kapısını\"},\n{\"original\\_form\": \"açtı\"},\n{\"original\\_form\": \"ve\"},\n{\"original\\_form\": \"tam\"},\n{\"original\\_form\": \"o\"},\n{\"original\\_form\": \"sıralar\"},\n{\"original\\_form\": \"asansörün\"},\n{\"original\\_form\": \"içinden\"},\n{\"original\\_form\": \"mi\"},\n{\"original\\_form\": \"kıyısından\"},\n{\"original\\_form\": \"mi\"},\n{\"original\\_form\": \",\"},\n{\"original\\_form\": \"ora\"},\n{\"original\\_form\": \"bir\"},\n{\"original\\_form\": \"yerden\"},\n{\"original\\_form\": \",\"},\n{\"original\\_form\": \"başbakanın\"},\n{\"original\\_form\": \"ayaklarına\"},\n{\"original\\_form\": \"doğru\"},\n{\"original\\_form\": \"bir\"},\n{\"original\\_form\": \"sıçanı\"},\n{\"original\\_form\": \"fırladı\"},\n{\"original\\_form\": \".\"}\n]"
+        },
+        "pop_523": {
+            "ratio": 0.529,
+            "original text": "Hayatta kalanların ilk tepkisi, \"Suuu...\" bağırışları...",
+            "output text": "```json\n{\n  \"original_form\": \"Hayatta kalan ilk tepki Su'nun bağırısıdır.\"\n}\n```"
+        },
+        "pop_6": {
+            "ratio": 0.557,
+            "original text": "6 dilim tost ekmeği",
+            "output text": "{\"original\\_form\": \"6 dilim tostun ekmek\"}"
+        },
+        "ess_419": {
+            "ratio": 0.777,
+            "original text": "Efsanenin çekiciliği, beyaz saçlı üç delikanlının değil, John Lennon'ın değişmeyen siluetini kazıyacak her Beatles abidesinin üstüne.",
+            "output text": "* Efsanesinin çekicilikten bayaz saçlan üç delikanlısının John Lennon'un değişmeyen silueti, Beatles abidesi üstünde kazılacak."
+        },
+        "bio_1336": {
+            "ratio": 0.645,
+            "original text": "Ferruh Beyin öğrendiğine göre ilacın fiyatı 90 milyon liraymış.",
+            "output text": "```json\n{\n  \"original_form\": \"Ferruh beyin öğren göre ilaç fiyatına 90 milyon lira y.\"\n}\n```"
+        },
+        "ess_842": {
+            "ratio": 0.699,
+            "original text": "Bu bölümde hukukun, unfree tenureları lorda bırakarak, sadece free tenurelarla ilgilendiği açık seçik görüldü.",
+            "output text": "```json\n{\n  \"original_form\": \"Bu bölümünde hukukunun unfree tenures' Lord'a sadece free tenurelerle ilgilenmiş açık seçik görülüyor.\"\n}\n```"
+        },
+        "pop_155": {
+            "ratio": 0.5,
+            "original text": "Element: Toprak",
+            "output text": "{\"original\\_form\": \"element: toprak\"}"
+        },
+        "ess_857": {
+            "ratio": 0.389,
+            "original text": "Görmeyi istemek de önemli.",
+            "output text": "{\"original\\_form\": \"Görmek önemli istedi de.\"}"
+        },
+        "bio_1366": {
+            "ratio": 0.14,
+            "original text": "PARANIN ARKASINDA NE VAR?",
+            "output text": "Üçteki paranın arkasında ne var?"
+        },
+        "news_1501": {
+            "ratio": 0.833,
+            "original text": "Daha önce Ferrari'yle test sürüşleri yapan, hatta F1'e geçmesi bile gündeme gelen Rossi, bu defa Dünya Ralli Şampiyonası'nın Yeni Zelanda ayağında ortaya çıktı.",
+            "output text": "Daha önce Ferrari ile test sürüş yapılan, hatta F1 geçen bile gündemde gelecek Rossi, bu defa Dünya ralli Yeni Zelanda ayak ortasında çıktı."
+        },
+        "news_1807": {
+            "ratio": 0.721,
+            "original text": "Devleti de, memleketi de, asansör gibi düşünsek olmaz mı? Biz, asansörle alt kata indik, bodrum katına...",
+            "output text": "```json\n{\n  \"original_form\": \"Devlet de memleket de, asansör gibi düşün olmiyor mi? Biz asansör alt kat ile inmiş, bodrum katımızda...\",\n}\n```"
+        },
+        "ins_404": {
+            "ratio": 1.0,
+            "original text": "Perdeler yavaşça açıldı.",
+            "output text": "Perdeler yavaşça açıldı."
+        },
+        "ins_1225": {
+            "ratio": 0.545,
+            "original text": "Eller, gönüller birleşir,",
+            "output text": "{\"original\\_form\": \"eller, gönül birleş\"}"
+        },
+        "pop_578": {
+            "ratio": 0.743,
+            "original text": "Chat vasıtası ile tanıdığım insanlardan, çok sevdiğim ve değer verdiklerim oldu.",
+            "output text": "Chatın vasıtasıyla tanınan insanlar çok sev ve değer veren olmuştuk."
+        },
+        "news_321": {
+            "ratio": 0.724,
+            "original text": "Ankara'da Festival filmleri, bu yıl Fransız Kültür Merkezi Kavaklıdere Sineması ve Alman Kültür Merkezi'nde gösterilecek.",
+            "output text": "{\"original\\_form\": \"Ankara festival'da bu yıl Fransız kültür merkezi Kavaklıdere sinemasında Alman kültür merkeziyle konulu filmler gösterilecek.\"}"
+        },
+        "bio_1201": {
+            "ratio": 0.694,
+            "original text": "Gerçi şimdilik beni kullandıkları yok ama yeri geliyor evladın bile seni sömürüyor.",
+            "output text": "```json\n{\n  \"original_form\": \"Gerçi şimdilik ben kullanılmış yok, ama yerim gelip evlatsız bile sömürüyor.\"\n}\n```"
+        },
+        "ess_671": {
+            "ratio": 0.743,
+            "original text": "Belki yüzyıl yaşayan birinden daha çok soluk alıp vermek zorunda kaldı; dünyanın temiz havası yetersizdi, tüm dünya temiz havaya kavuşunca astım dinebilir, ruh dinginliğine kavuşabilirdi.",
+            "output text": "original\\_form\": \"Belki yüzyıl yaşanan biri daha çok soluk al ver zor kal; Dünya te hava yetersiz yüzüldü. Tüm Dünya te hava kavuştığında astım din, ruh dinginlik kavuş. ;"
+        },
+        "ins_1365": {
+            "ratio": 0.82,
+            "original text": "Fatma Hanım ise onun favorisi olan tostu mümkün olan en büyük şekilde hazırlamakla meşgul oluyordu.",
+            "output text": "original\\_form\": \"Fatma hanım i o favori ol tostu mümkün olan en büyük şekilde hazırla meşgul oluyor."
+        },
+        "ins_786": {
+            "ratio": 0.698,
+            "original text": "Araştırmalar gösteriyor ki insanoğlu olarak bizler, genelde duygularıyla hareket eden varlıklarız.",
+            "output text": "* Araştırma göster ki insanoğlu biz genelde duygu ile varlık null eder."
+        },
+        "news_130": {
+            "ratio": 0.61,
+            "original text": "\"Dünyadaki en önemli neyzenlerden biri\" olarak kabul edilen Umumi, neyin hüzünlü sesiyle kendi yaşamındaki acıların örtüştüğünü söylüyor.",
+            "output text": "```json\n{\n  \"original_form\": \"\\\"Dünya'nın en önemli neyzen biri, umumi kabul edileniş sesi kendi yaşamına ki acı örtüşecektir,\\\" söylüyor.\"\n}\n```"
+        },
+        "pop_1088": {
+            "ratio": 0.603,
+            "original text": "2 çorba kaşığı tereyağı",
+            "output text": "{\"original\\_form\": \"2 çorbasının kaşığı tereyаğı\"}"
+        },
+        "ess_373": {
+            "ratio": 0.767,
+            "original text": "\"Mekân\" deyince kişinin doğrudan kendinin yaşayacağı odalar, evi vb.",
+            "output text": "\"Mekân\", Dey kişinin doğrudan kendi yaşayabilecek odası, 'ev' VB."
+        },
+        "ins_676": {
+            "ratio": 0.571,
+            "original text": "\"Üniversiteden bulabilirsin.",
+            "output text": "{\"original_form\": '\"\"den üniversiteden bulunabilir mi?'}"
+        },
+        "pop_1925": {
+            "ratio": 0.844,
+            "original text": "Kalan dondurmayı da bardaklar arasında bölüştürün.",
+            "output text": "Kalan don da bardakların ara bölüştürün."
+        },
+        "news_392": {
+            "ratio": 0.658,
+            "original text": "Akar, aksi halde ortaya çıkacak rekabet ortamında, dünyadaki piyasa fiyatlarının düşebileceğini öne sürdü.",
+            "output text": "```json\n{\n  \"original_form\": \"Akar, ak hâl orta çıkacak rekabet ortamında Dünya'da ki piyasada düşecek ön sürer.\"\n}\n```"
+        },
+        "ess_130": {
+            "ratio": 0.239,
+            "original text": "Bölgelerinden ayrılmayanlar bile kırdan kente göç ettiler...",
+            "output text": "[\n  {\"original_form\": \"bölgelerden\"},\n  {\"original_form\": \"ayrılmıyor\"},\n  {\"original_form\": \"bile\"},\n  {\"original_form\": \"kır\"},\n  {\"original_form\": \"kente\"},\n  {\"original_form\": \"göç\"},\n  {\"original_form\": \"etmişler\"},\n  {\"original_form\": \"...\"}\n]"
+        },
+        "ins_1420": {
+            "ratio": 0.864,
+            "original text": "- Biraz daha bekleyelim.",
+            "output text": "- Biraz daha bekle.."
+        },
+        "ins_1181": {
+            "ratio": 0.565,
+            "original text": "İki veli dokunulsa ağlayacaktı.",
+            "output text": "{\"original\\_form\": \"iki veli dokunulacağı ağlayan y.\"}"
+        },
+        "pop_659": {
+            "ratio": 0.831,
+            "original text": "Yarın da bilebilir ki bu hiç üzmez beni, 10 sene de sürebilir, sevinirim...",
+            "output text": "yarın da bil ki bu hiç üz ben, 10 sene de sür, sevin..."
+        },
+        "news_1197": {
+            "ratio": 0.923,
+            "original text": "\"En küçük oğlum Mahmut Can, çok zekiydi.",
+            "output text": "\"En küçük oğlum, Mahmut, çok zekiydi.\""
+        },
+        "news_770": {
+            "ratio": 0.913,
+            "original text": "\"Füzeler ABD'ye çevrili\"",
+            "output text": "\"Füze ABD'ye çevrili.\""
+        },
+        "news_1471": {
+            "ratio": 0.551,
+            "original text": "Khazirabi'nin ülkesinde kumarhaneye gitmenin yasak olduğunu bilmesine rağmen bu hareketi yapması şaşkınlıkla karşılanırken, genç oyuncunun futbol kariyerinin bittiği ifade ediliyor.",
+            "output text": "```json\n{\n  \"original_form\": \"Khazirabi'nin ulke-si'nde kumarhane-ya git yasak olduğu için, genç oyuncu-nun futbol kariyer-i bitmesse ragmen, hareket-i yap-tırılır.\"\n}\n```"
+        },
+        "pop_1275": {
+            "ratio": 0.694,
+            "original text": "Biberin yüzde 60'ı Islahiye'de üretilir.",
+            "output text": "[\"Biberin\", \"yüzde\", \"60\", \"Islahiye'de\", \"ürülüyor\", \".\"]"
+        },
+        "ins_1125": {
+            "ratio": 0.523,
+            "original text": "Evlerimizin kesişen noktaları vardı o zamanlar.",
+            "output text": "{\"original\\_form\": \"Üç evimizin kesiştiği noktalar varmış.\"}"
+        },
+        "bio_1536": {
+            "ratio": 0.811,
+            "original text": "Stüdyoyu bir başka spiker arkadaşa emanet edip gidiyorum.",
+            "output text": "Stüdyo bir başka spiker arkadaşının emanet ettiği git."
+        },
+        "bio_1867": {
+            "ratio": 0.623,
+            "original text": "Alelacele el edip durdurdum ve bindik.",
+            "output text": "{\"original\\_form\": \"Alelacele el etti, ben durdurulup ve binerdim.\"}"
+        },
+        "ess_1625": {
+            "ratio": 0.78,
+            "original text": "Diğer kıtalara nazaran Madagaskarda cumhuriyet yönetim şekli olarak benimsenmiştir.",
+            "output text": "{\"original\\_form\": \"Diğer kıtalar nazaran Madagaskarı'da cumhuriyet yönetimin şekli benimsemiyor.\"}"
+        },
+        "ins_1324": {
+            "ratio": 0.79,
+            "original text": "Kaya kırlangıçları, yardımlaşma ve dayanışmada çok ileri gitmişlerdir.",
+            "output text": "original\\_form\": \"Kaya'nın kırlangıçları, yardımlaşarak ve dayanış çok ileri gitmişler."
+        },
+        "ins_1361": {
+            "ratio": 0.55,
+            "original text": "Oluşan kabarcıklar patlatılmaz.",
+            "output text": "{\"original\\_form\": \"oluş kabarcıklar patlamıyor\"}"
+        },
+        "ins_1405": {
+            "ratio": 0.696,
+            "original text": "Öğürtü ile beraber kan gelirse bunun tahrişe bağlı olduğunu anlatıp sakinleştirmek gerekir.",
+            "output text": "{\"original\\_form\": \"Öğürtü ile beraber kan geliyse bu tahriş bağlı ol anlatılması gerek.\"}"
+        },
+        "ins_196": {
+            "ratio": 0.958,
+            "original text": "\"Demokrasiyi çok sevdim.",
+            "output text": "\"Demokrasiyi çok sevdi.\""
+        },
+        "ins_817": {
+            "ratio": 0.14,
+            "original text": "Bir şeyi yok.\" dedi.",
+            "output text": "The sentence can be translated as \"There was nothing.\" in English."
+        },
+        "ess_1245": {
+            "ratio": 0.682,
+            "original text": "Ben Patrikhane'ye ve Hahambaşılığa danıştım, CHP'lileri ve geri kalan Türkleri bu topraklarda misafir etmekten bir rahatsızlık duymuyorlarmış.",
+            "output text": "{\"original\\_form\": \"Ben patrikhane-a hahambaşılık danıştım, CHP ve geri kalan Türk'ler bu toprak-ta misafir etti, duy-du y.\"}"
+        },
+        "news_1320": {
+            "ratio": 0.686,
+            "original text": "Internet Security Systems'a (ISS) göre, son bir yılda internet alan adlarının sayısı yüzde 21, yeni Web sayfalarının sayısı ise yüzde 17 arttı.",
+            "output text": "```json\n{\n  \"original_form\": \"Internet Security Systems (ISS) göre, son bir yıl İnternet alanında yüz yüz 21 yeni Web sayfası sayısı artmıştı. 17'den artmıştı.\"\n}\n```"
+        },
+        "news_1836": {
+            "ratio": 0.925,
+            "original text": "1500 yolcu kapasiteli yeni vapurlar, mevcutlardan yüzde 40 daha süratli olacak.",
+            "output text": "1500 yolcu kapasiteli yeni vapur, mevcut yüz 40 daha süratli olacak."
+        },
+        "ess_155": {
+            "ratio": 0.802,
+            "original text": "Her ne kadar burçlara inanmasam da burcumun bazı özelliklerini birebir yansıtmaktayım.",
+            "output text": "Her ne kadar burçlara da inanmazsam bazı özellikleri birebir yansıyabilirim."
+        },
+        "pop_7": {
+            "ratio": 0.392,
+            "original text": "Zaman zaman 25'e çıkan ve 15'in altına düşmeyen YÜKSEK TANSİYON, Manço kadar doktorlarını da düşündürüyor!",
+            "output text": "{\"original\\_form\": \"Zaman zaman da 25. dakikada Manço'nun doktorlarına yüksek tansiyon çıkması düşünülür, 15 dakikada alt düşülmesi.\"}"
+        },
+        "ins_891": {
+            "ratio": 0.679,
+            "original text": "Atatürkçülükte \"Milli duygu ile dil arasındaki bağ çok kuvvetlidir.",
+            "output text": "{\"original\\_form\": \"Atatürkçülüklerinde milli duygu ile ara ki bağlanan çok kuvvetli i.\"}"
+        },
+        "ess_1191": {
+            "ratio": 0.557,
+            "original text": "Büyük bir aldanışla karşı karşıyayız.",
+            "output text": "```json\n{\n  \"original_form\": \"Büyük bir aldan karşı karşıyla geliyoruz.\"\n}\n```"
+        },
+        "bio_1035": {
+            "ratio": 0.714,
+            "original text": "Akşama doğru karnı iyice şişti.",
+            "output text": "{\"original\\_form\": \"Akşama doğru karın iyice şişti.\"}"
+        },
+        "news_558": {
+            "ratio": 0.682,
+            "original text": "Dört yıl boyunca Batılı magazin medyasına malzeme üretmek dışında herhangi bir faaliyette bulunmadığı için de unutup gitmiştik.",
+            "output text": "{\n\"original\\_form\": \"Dört yıl boyunca Batılı magazin medyanın dış herhangi bir faaliyetin unutulmamasının için de gitmiyoruz.\"\n}"
+        },
+        "pop_1371": {
+            "ratio": 0.709,
+            "original text": "Kurtlar Kanunu, Esir Şehrin İnsanları, Hür Şehrin İnsanları, Yedi Çınar Yaylası ve daha nicelerini sular seller gibi yuttum.",
+            "output text": "{\"original\\_form\": \"Kurtlar kânun esir şehir insanın, Hür şehir insanının, yedi Çınar yaylasının ve daha nice su sel gibi yuttu.\"}"
+        },
+        "pop_1346": {
+            "ratio": 0.737,
+            "original text": "Kova, Evrensel Burçlar arasında insancılık, bireycilik ve ideal toplum arasındaki çelişkilerin farkına varan burçtur.",
+            "output text": "original\\_form\": \"Kova, evrensel burçlar arasında insanlık, bireycilik ve ideal toplum ki çelişki farkı var. Ara ki çelişki, farkı burç y."
+        },
+        "bio_403": {
+            "ratio": 0.55,
+            "original text": "Çok olgun, aklı başında.",
+            "output text": "\"original\\_form\": \"Çok olgun bir akıl başında olanlar.\","
+        },
+        "bio_379": {
+            "ratio": 0.829,
+            "original text": "Bir türlü değişemiyor.",
+            "output text": "Bir türlü değişmez."
+        },
+        "ess_1513": {
+            "ratio": 0.759,
+            "original text": "Meriç Nehri'nde coşar, Fırat kıyılarında durulur, Kızılırmak'ta hoyrat çığlıklarda buluşurdu.",
+            "output text": "original\\_form\": \"Meriç'in nehirinde coşarak Fırat'ın kıyısında durur, Kızılırmak'ta hoyrat çığlığı buluşuyor."
+        },
+        "bio_1129": {
+            "ratio": 0.214,
+            "original text": "İkinci kapıdan da çıkardı.",
+            "output text": "[\n  {\"original_form\": \"iki\"},\n  {\"original_form\": \"kapıdan\"},\n  {\"original_form\": \"da\"},\n  {\"original_form\": \"çıky\"},\n  {\"original_form\": \"y\"},\n  {\"original_form\": \".\"}\n]"
+        },
+        "bio_1559": {
+            "ratio": 0.667,
+            "original text": "Bu belki de mümkündür ama o sessizlik nasıl anlatılabilir?",
+            "output text": "```json\n{\n  \"original_form\": \"Bu belki de mümkün y ama o sessizlik nasıl anlatılacak?\"\n}\n```"
+        },
+        "ins_486": {
+            "ratio": 0.48,
+            "original text": "Artık birçok otu bulamıyormuş.",
+            "output text": "```json\n{\n  \"original_form\": \"Artık birçok ot bulunamayı yaptı.\"\n}\n```"
+        },
+        "news_145": {
+            "ratio": 0.579,
+            "original text": "Postmodernleşen dünyayla birlikte edebiyatın algılanışı da dönüştü; giderek bir eğlence nesnesi, hoşça vakit geçirme aracı olarak değerlendiriliyor.",
+            "output text": "[\n\"Postmodernleşen\",\n\"dünya\",\n\"birlikte\",\n\"edebiyatin\",\n\"algılanan\",\n\"dönüş\",\n\";\",\n\"Git\",\n\"bir\",\n\"eğlence\",\n\"nnesnesi\",\n\",\",\n\"hoşça\",\n\"vakit\",\n\"geçir\",\n\"araç\",\n\"ol\",\n\"değer\",\n\".\"\n]"
+        },
+        "ess_1128": {
+            "ratio": 0.311,
+            "original text": "\"Baba\" deriz, \"baba ölüm nedir?",
+            "output text": "```json\n{\"original_form\": \"\\\"Biz de, baba, 'ne işleyüyor?', baba ölümüne konuşuyor.\\\"\"}\n```"
+        },
+        "ess_1679": {
+            "ratio": 0.557,
+            "original text": "Kimse bana bir şey sormasa.",
+            "output text": "{\"original\\_form\": \"Kimse benim bir şeyi sormuyor.\"}"
+        },
+        "ins_1647": {
+            "ratio": 0.628,
+            "original text": "Ekmeğini denizden çıkarırdı bu deniz insanları.",
+            "output text": "{\"original\\_form\": \"Ekmek denizden çıkyan bu deniz insanları bilinmiyor.\"}"
+        },
+        "pop_1849": {
+            "ratio": 0.671,
+            "original text": "Doktor (Alooo...) der demez ölü (Alo buyrunuz...) diye dikelmiş...\"",
+            "output text": "\"original\\_form\": \"Doktor ( Alo ... ) de de ölü de, Alo buyur diye dikel ... .\""
+        },
+        "news_311": {
+            "ratio": 0.741,
+            "original text": "Ben de son deplasmanda bazı şeyler öğrendim.",
+            "output text": "{\"original\\_form\": \"Ben de son deplasman bazı şeyler öğrenip .\"}"
+        },
+        "news_580": {
+            "ratio": 0.087,
+            "original text": "EKSİKLİKLER",
+            "output text": "Explanation:"
+        },
+        "news_2000": {
+            "ratio": 0.61,
+            "original text": "Kan su gibi akıyor",
+            "output text": "{\"original\\_form\": \"Kan su gibi akıyor.\"}"
+        },
+        "news_455": {
+            "ratio": 0.776,
+            "original text": "B Grubu'ndaki mücadelede ise grup lideri G.",
+            "output text": "B grubunda mücadele eden grup lideri g'nin"
         }
     },
-    "sentence_count": 4,
+    "sentence_count": 500,
     "tb_path": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.11-2024-05-30_04-08-22/tb_output-cleaned.json"
 }
