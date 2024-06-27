@@ -6,6 +6,12 @@ dirs=($(ls -d $main_dir/*/))
 # iterate over all directories
 for dir in "${dirs[@]}"
 do
+    # if md.json doesn't exist, continue
+    md_file="$dir/md.json"
+    if [ ! -f $md_file ]
+    then
+        continue
+    fi
     tb_output_file="$dir/tb_output.json"
     # if file does not exist
     if [ ! -f $tb_output_file ]
