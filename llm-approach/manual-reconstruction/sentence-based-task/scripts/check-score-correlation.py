@@ -2,8 +2,29 @@ import argparse, json, random
 from pathlib import Path
 from spacy.lang.tr import Turkish
 from get_best_worst import get_accuracy
-from rapidfuzz import fuzz
 from scipy.stats import pearsonr
+import numpy as np
+from scipy.stats import norm
+
+def fisher_r_to_z(r):
+    return 0.5 * np.log((1 + r) / (1 - r))
+
+def z_to_p(z):
+    return 2 * (1 - norm.cdf(abs(z)))
+
+def compare_correlations(r1, r2, n):
+    z1 = fisher_r_to_z(r1) # Convert r1 to z value
+    z2 = fisher_r_to_z(r2) # Convert r2 to z value
+
+    delta_z = z1 - z2 # Calculate the difference between z values
+
+    se = np.sqrt(2 / (n - 3)) # Standard error of the difference
+
+    z = delta_z / se # z score for the difference
+
+    p_value = z_to_p(z) # p-value for the difference
+
+    return z, p_value
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -76,49 +97,46 @@ def main():
         llm_v2_accuracy = get_accuracy(out_d[sent_id]['original'], out_d[sent_id]['llm'][version2], tokenizer)
         llm_v2_l.append({'sent_id': sent_id, 'accuracy': llm_v2_accuracy})
     
+    accuracies = {person: {version: [] for version in [version1, version2]} for person in [person1, person2, 'llm', 'random']}
     p1_v1_l.sort(key=lambda x: x['sent_id'])
-    p1_v1_accuracies = [x['accuracy'] for x in p1_v1_l]
-    random_accuracies = [random.random() for _ in range(len(p1_v1_accuracies))]
-    p1_v2_l.sort(key=lambda x: x['sent_id'])
-    p1_v2_accuracies = [x['accuracy'] for x in p1_v2_l]
+    accuracies[person1][version1] = [x['accuracy'] for x in p1_v1_l]
+    accuracies['random'][version1] = [random.random() for _ in range(len(accuracies[person1][version1]))]
     p2_v1_l.sort(key=lambda x: x['sent_id'])
-    p2_v1_accuracies = [x['accuracy'] for x in p2_v1_l]
-    p2_v2_l.sort(key=lambda x: x['sent_id'])
-    p2_v2_accuracies = [x['accuracy'] for x in p2_v2_l]
+    accuracies[person2][version1] = [x['accuracy'] for x in p2_v1_l]
     llm_v1_l.sort(key=lambda x: x['sent_id'])
-    llm_v1_accuracies = [x['accuracy'] for x in llm_v1_l]
+    accuracies['llm'][version1] = [x['accuracy'] for x in llm_v1_l]
+    p1_v2_l.sort(key=lambda x: x['sent_id'])
+    accuracies[person1][version2] = [x['accuracy'] for x in p1_v2_l]
+    accuracies['random'][version2] = [random.random() for _ in range(len(accuracies[person1][version2]))]
+    p2_v2_l.sort(key=lambda x: x['sent_id'])
+    accuracies[person2][version2] = [x['accuracy'] for x in p2_v2_l]
     llm_v2_l.sort(key=lambda x: x['sent_id'])
-    llm_v2_accuracies = [x['accuracy'] for x in llm_v2_l]
+    accuracies['llm'][version2] = [x['accuracy'] for x in llm_v2_l]
 
-    print('Pearson correlation coefficient between {}_{} and {}_{}: {}'.format(person1, version1, person2, version1, pearsonr(p1_v1_accuracies, p2_v1_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and {}_{}: {}'.format(person1, version2, person2, version2, pearsonr(p1_v2_accuracies, p2_v2_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and llm_{}: {}'.format(person1, version1, version1, pearsonr(p1_v1_accuracies, llm_v1_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and llm_{}: {}'.format(person1, version2, version2, pearsonr(p1_v2_accuracies, llm_v2_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and llm_{}: {}'.format(person2, version1, version1, pearsonr(p2_v1_accuracies, llm_v1_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and llm_{}: {}'.format(person2, version2, version2, pearsonr(p2_v2_accuracies, llm_v2_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and {}: {}'.format(person1, version1, 'random', pearsonr(p1_v1_accuracies, random_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and {}: {}'.format(person1, version2, 'random', pearsonr(p1_v2_accuracies, random_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and {}: {}'.format(person2, version1, 'random', pearsonr(p2_v1_accuracies, random_accuracies)[0]))
-    print('Pearson correlation coefficient between {}_{} and {}: {}'.format(person2, version2, 'random', pearsonr(p2_v2_accuracies, random_accuracies)[0]))
-    print('Pearson correlation coefficient between llm_{} and {}: {}'.format(version1, 'random', pearsonr(llm_v1_accuracies, random_accuracies)[0]))
-    print('Pearson correlation coefficient between llm_{} and {}: {}'.format(version2, 'random', pearsonr(llm_v2_accuracies, random_accuracies)[0]))
+    print('Pearson correlation coefficient between:\n')
+    pearsons = {}
+    for version in [version1, version2]:
+        for p1 in [person1, person2, 'llm', 'random']:
+            for p2 in [person1, person2, 'llm', 'random']:
+                if p1 == p2:
+                    continue
+                pearson = pearsonr(accuracies[p1][version], accuracies[p2][version])[0]
+                if version not in pearsons:
+                    pearsons[version] = {}
+                pearsons[version][(p1, p2)] = pearson
+                pearson_rounded = round(pearson, 3)
+                print('{}_{} and {}_{}: {}'.format(p1, version, p2, version, pearson_rounded))
+    print()
+
+    print('Significance test between Pearson correlation coefficients:\n')
+    for version in pearsons.keys():
+        for (p1, p2) in pearsons[version].keys():
+            for (p3, p4) in pearsons[version].keys():
+                _, p_value = compare_correlations(pearsons[version][(p1, p2)], pearsons[version][(p3, p4)], len(accuracies[p1][version]))
+                if p_value < 0.05:
+                    print('{}_{} and {}_{} to {}_{} and {}_{}: p = {}'.format(p1, version, p2, version, p3, version, p4, version, 'significant'))
+                else:
+                    print('{}_{} and {}_{} to {}_{} and {}_{}: p = {}'.format(p1, version, p2, version, p3, version, p4, version, 'not significant'))
 
 if __name__ == '__main__':
     main()
-
-'''
-Pearson correlation coefficient between:
-
-Tarık_v2.8 and Akif_v2.8: 0.4017330248281491
-Tarık_v2.11 and Akif_v2.11: 0.5634848457338214
-Tarık_v2.8 and llm_v2.8: 0.20495715591867494
-Tarık_v2.11 and llm_v2.11: 0.32564391165039824
-Akif_v2.8 and llm_v2.8: 0.2992647619615047
-Akif_v2.11 and llm_v2.11: 0.3367023953105025
-Tarık_v2.8 and random: 0.09374457833957385
-Tarık_v2.11 and random: 0.02284347843878367
-Akif_v2.8 and random: -0.0530533012966345
-Akif_v2.11 and random: 0.061313008650800326
-llm_v2.8 and random: 0.12957605818179854
-llm_v2.11 and random: 0.14830011885974398
-'''

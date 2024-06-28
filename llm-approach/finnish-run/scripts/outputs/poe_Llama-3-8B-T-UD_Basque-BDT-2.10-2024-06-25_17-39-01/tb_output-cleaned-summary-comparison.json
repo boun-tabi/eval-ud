@@ -1,0 +1,2507 @@
+{
+    "comparison_d": {
+        "train-s5087": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "train-s2414": {
+            "llm": {
+                "accuracy": 0.5625
+            }
+        },
+        "train-s2416": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "train-s2802": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "dev-s1459": {
+            "llm": {
+                "accuracy": 0.6923076923076923
+            }
+        },
+        "train-s541": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "train-s1881": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s4679": {
+            "llm": {
+                "accuracy": 0.45161290322580644
+            }
+        },
+        "train-s2459": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4245": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "test-s1006": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s2082": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s370": {
+            "llm": {
+                "accuracy": 0.4864864864864865
+            }
+        },
+        "dev-s112": {
+            "llm": {
+                "accuracy": 0.3125
+            }
+        },
+        "test-s1532": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "test-s628": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "train-s3743": {
+            "llm": {
+                "accuracy": 0.35555555555555557
+            }
+        },
+        "train-s4235": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "test-s1467": {
+            "llm": {
+                "accuracy": 0.5365853658536586
+            }
+        },
+        "train-s298": {
+            "llm": {
+                "accuracy": 0.34146341463414637
+            }
+        },
+        "train-s4563": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "test-s1777": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1149": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "dev-s1510": {
+            "llm": {
+                "accuracy": 0.5777777777777777
+            }
+        },
+        "dev-s396": {
+            "llm": {
+                "accuracy": 0.5555555555555556
+            }
+        },
+        "train-s1632": {
+            "llm": {
+                "accuracy": 0.21052631578947367
+            }
+        },
+        "train-s2901": {
+            "llm": {
+                "accuracy": 0.4186046511627907
+            }
+        },
+        "train-s3121": {
+            "llm": {
+                "accuracy": 0.5882352941176471
+            }
+        },
+        "train-s4988": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "test-s534": {
+            "llm": {
+                "accuracy": 0.358974358974359
+            }
+        },
+        "train-s2264": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s787": {
+            "llm": {
+                "accuracy": 0.3076923076923077
+            }
+        },
+        "train-s5234": {
+            "llm": {
+                "accuracy": 0.7142857142857143
+            }
+        },
+        "dev-s1087": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s4702": {
+            "llm": {
+                "accuracy": 0.5909090909090909
+            }
+        },
+        "dev-s915": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1504": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s1348": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "test-s1632": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s1251": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s2793": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "dev-s1160": {
+            "llm": {
+                "accuracy": 0.30303030303030304
+            }
+        },
+        "train-s4599": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "test-s871": {
+            "llm": {
+                "accuracy": 0.8333333333333334
+            }
+        },
+        "train-s2968": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s414": {
+            "llm": {
+                "accuracy": 0.47368421052631576
+            }
+        },
+        "dev-s599": {
+            "llm": {
+                "accuracy": 0.47619047619047616
+            }
+        },
+        "dev-s690": {
+            "llm": {
+                "accuracy": 0.425531914893617
+            }
+        },
+        "test-s1093": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "train-s2032": {
+            "llm": {
+                "accuracy": 0.5555555555555556
+            }
+        },
+        "test-s696": {
+            "llm": {
+                "accuracy": 0.6451612903225806
+            }
+        },
+        "train-s4955": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s3948": {
+            "llm": {
+                "accuracy": 0.46808510638297873
+            }
+        },
+        "train-s1135": {
+            "llm": {
+                "accuracy": 0.6153846153846154
+            }
+        },
+        "test-s1158": {
+            "llm": {
+                "accuracy": 0.375
+            }
+        },
+        "train-s678": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s2762": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s2192": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "test-s847": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "dev-s717": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "train-s3408": {
+            "llm": {
+                "accuracy": 0.6060606060606061
+            }
+        },
+        "train-s4467": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s2275": {
+            "llm": {
+                "accuracy": 0.6486486486486487
+            }
+        },
+        "train-s2857": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s1300": {
+            "llm": {
+                "accuracy": 0.3870967741935484
+            }
+        },
+        "dev-s702": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "dev-s720": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s5109": {
+            "llm": {
+                "accuracy": 0.3870967741935484
+            }
+        },
+        "dev-s726": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "train-s4849": {
+            "llm": {
+                "accuracy": 0.6774193548387096
+            }
+        },
+        "train-s3461": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s714": {
+            "llm": {
+                "accuracy": 0.3
+            }
+        },
+        "train-s1518": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "test-s1058": {
+            "llm": {
+                "accuracy": 0.34782608695652173
+            }
+        },
+        "train-s681": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s4270": {
+            "llm": {
+                "accuracy": 0.8181818181818182
+            }
+        },
+        "train-s1115": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "dev-s1140": {
+            "llm": {
+                "accuracy": 0.391304347826087
+            }
+        },
+        "test-s530": {
+            "llm": {
+                "accuracy": 0.2608695652173913
+            }
+        },
+        "test-s1291": {
+            "llm": {
+                "accuracy": 0.8
+            }
+        },
+        "train-s1077": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "train-s4314": {
+            "llm": {
+                "accuracy": 0.2
+            }
+        },
+        "train-s3144": {
+            "llm": {
+                "accuracy": 0.3076923076923077
+            }
+        },
+        "test-s1678": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "train-s4273": {
+            "llm": {
+                "accuracy": 0.7272727272727273
+            }
+        },
+        "train-s1283": {
+            "llm": {
+                "accuracy": 0.5925925925925926
+            }
+        },
+        "dev-s776": {
+            "llm": {
+                "accuracy": 0.23529411764705882
+            }
+        },
+        "dev-s385": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "train-s1035": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "dev-s629": {
+            "llm": {
+                "accuracy": 0.6153846153846154
+            }
+        },
+        "dev-s389": {
+            "llm": {
+                "accuracy": 0.7719298245614035
+            }
+        },
+        "dev-s990": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "dev-s417": {
+            "llm": {
+                "accuracy": 0.6046511627906976
+            }
+        },
+        "test-s1043": {
+            "llm": {
+                "accuracy": 0.4666666666666667
+            }
+        },
+        "train-s5078": {
+            "llm": {
+                "accuracy": 0.43902439024390244
+            }
+        },
+        "train-s3367": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s2377": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s3861": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "train-s3656": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s2261": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s1057": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s741": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s1932": {
+            "llm": {
+                "accuracy": 0.34782608695652173
+            }
+        },
+        "train-s1882": {
+            "llm": {
+                "accuracy": 0.24
+            }
+        },
+        "train-s3178": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s4688": {
+            "llm": {
+                "accuracy": 0.3125
+            }
+        },
+        "train-s988": {
+            "llm": {
+                "accuracy": 0.631578947368421
+            }
+        },
+        "train-s2898": {
+            "llm": {
+                "accuracy": 0.42424242424242425
+            }
+        },
+        "train-s3975": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "test-s786": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s292": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "test-s921": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "dev-s368": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1299": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "test-s47": {
+            "llm": {
+                "accuracy": 0.47619047619047616
+            }
+        },
+        "train-s4209": {
+            "llm": {
+                "accuracy": 0.2631578947368421
+            }
+        },
+        "test-s1275": {
+            "llm": {
+                "accuracy": 0.3870967741935484
+            }
+        },
+        "test-s178": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "test-s1718": {
+            "llm": {
+                "accuracy": 0.631578947368421
+            }
+        },
+        "train-s4594": {
+            "llm": {
+                "accuracy": 0.47058823529411764
+            }
+        },
+        "train-s826": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "dev-s82": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "train-s2384": {
+            "llm": {
+                "accuracy": 0.0
+            }
+        },
+        "train-s201": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "train-s2859": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s4860": {
+            "llm": {
+                "accuracy": 0.3225806451612903
+            }
+        },
+        "train-s4947": {
+            "llm": {
+                "accuracy": 0.4375
+            }
+        },
+        "test-s655": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "test-s219": {
+            "llm": {
+                "accuracy": 0.4666666666666667
+            }
+        },
+        "dev-s1552": {
+            "llm": {
+                "accuracy": 0.34285714285714286
+            }
+        },
+        "train-s1249": {
+            "llm": {
+                "accuracy": 0.16
+            }
+        },
+        "train-s3060": {
+            "llm": {
+                "accuracy": 1.0
+            }
+        },
+        "train-s1175": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s4214": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s3057": {
+            "llm": {
+                "accuracy": 0.38461538461538464
+            }
+        },
+        "train-s3281": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "test-s865": {
+            "llm": {
+                "accuracy": 0.15384615384615385
+            }
+        },
+        "train-s5192": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s3867": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s1943": {
+            "llm": {
+                "accuracy": 0.3902439024390244
+            }
+        },
+        "dev-s193": {
+            "llm": {
+                "accuracy": 0.3076923076923077
+            }
+        },
+        "test-s930": {
+            "llm": {
+                "accuracy": 0.26666666666666666
+            }
+        },
+        "test-s293": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "train-s1885": {
+            "llm": {
+                "accuracy": 0.43478260869565216
+            }
+        },
+        "dev-s1045": {
+            "llm": {
+                "accuracy": 0.3870967741935484
+            }
+        },
+        "train-s3161": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s5101": {
+            "llm": {
+                "accuracy": 0.375
+            }
+        },
+        "train-s1970": {
+            "llm": {
+                "accuracy": 0.6363636363636364
+            }
+        },
+        "train-s4039": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s843": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "test-s106": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s3710": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "test-s1731": {
+            "llm": {
+                "accuracy": 0.5294117647058824
+            }
+        },
+        "test-s1705": {
+            "llm": {
+                "accuracy": 0.24242424242424243
+            }
+        },
+        "dev-s521": {
+            "llm": {
+                "accuracy": 0.8421052631578947
+            }
+        },
+        "train-s4432": {
+            "llm": {
+                "accuracy": 0.34146341463414637
+            }
+        },
+        "dev-s1444": {
+            "llm": {
+                "accuracy": 0.47058823529411764
+            }
+        },
+        "train-s1468": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "test-s498": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "train-s4368": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "test-s1739": {
+            "llm": {
+                "accuracy": 0.37037037037037035
+            }
+        },
+        "train-s4441": {
+            "llm": {
+                "accuracy": 0.35
+            }
+        },
+        "train-s275": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s1692": {
+            "llm": {
+                "accuracy": 0.7333333333333333
+            }
+        },
+        "train-s409": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s381": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "train-s511": {
+            "llm": {
+                "accuracy": 0.41379310344827586
+            }
+        },
+        "test-s1115": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s758": {
+            "llm": {
+                "accuracy": 0.27586206896551724
+            }
+        },
+        "train-s3283": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "train-s2066": {
+            "llm": {
+                "accuracy": 0.576271186440678
+            }
+        },
+        "dev-s1249": {
+            "llm": {
+                "accuracy": 0.4090909090909091
+            }
+        },
+        "train-s5324": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "dev-s225": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4727": {
+            "llm": {
+                "accuracy": 0.6470588235294118
+            }
+        },
+        "train-s1004": {
+            "llm": {
+                "accuracy": 0.5625
+            }
+        },
+        "train-s4262": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s3742": {
+            "llm": {
+                "accuracy": 0.4782608695652174
+            }
+        },
+        "test-s360": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "test-s475": {
+            "llm": {
+                "accuracy": 0.5217391304347826
+            }
+        },
+        "train-s3221": {
+            "llm": {
+                "accuracy": 0.4666666666666667
+            }
+        },
+        "test-s1618": {
+            "llm": {
+                "accuracy": 0.723404255319149
+            }
+        },
+        "test-s249": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "test-s810": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s3466": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4405": {
+            "llm": {
+                "accuracy": 0.37037037037037035
+            }
+        },
+        "train-s705": {
+            "llm": {
+                "accuracy": 0.5263157894736842
+            }
+        },
+        "dev-s267": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "dev-s1414": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s4550": {
+            "llm": {
+                "accuracy": 0.6808510638297872
+            }
+        },
+        "train-s2294": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "test-s629": {
+            "llm": {
+                "accuracy": 0.18181818181818182
+            }
+        },
+        "train-s1726": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "train-s2814": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s3608": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "dev-s919": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "dev-s427": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "dev-s612": {
+            "llm": {
+                "accuracy": 0.3076923076923077
+            }
+        },
+        "train-s4127": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "test-s1208": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1280": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "train-s3410": {
+            "llm": {
+                "accuracy": 0.5625
+            }
+        },
+        "test-s231": {
+            "llm": {
+                "accuracy": 0.41379310344827586
+            }
+        },
+        "dev-s314": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s4551": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "dev-s381": {
+            "llm": {
+                "accuracy": 0.6296296296296297
+            }
+        },
+        "test-s484": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s693": {
+            "llm": {
+                "accuracy": 0.42105263157894735
+            }
+        },
+        "dev-s586": {
+            "llm": {
+                "accuracy": 0.19047619047619047
+            }
+        },
+        "test-s1014": {
+            "llm": {
+                "accuracy": 0.5945945945945946
+            }
+        },
+        "dev-s107": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "train-s4229": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "dev-s405": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s1534": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "train-s2801": {
+            "llm": {
+                "accuracy": 0.8333333333333334
+            }
+        },
+        "train-s2365": {
+            "llm": {
+                "accuracy": 0.32
+            }
+        },
+        "train-s756": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "train-s3519": {
+            "llm": {
+                "accuracy": 0.5405405405405406
+            }
+        },
+        "dev-s906": {
+            "llm": {
+                "accuracy": 0.631578947368421
+            }
+        },
+        "train-s286": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "train-s4461": {
+            "llm": {
+                "accuracy": 0.47058823529411764
+            }
+        },
+        "dev-s845": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s1454": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "test-s1296": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s2955": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "test-s897": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s2896": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "test-s611": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s2543": {
+            "llm": {
+                "accuracy": 0.5882352941176471
+            }
+        },
+        "dev-s1033": {
+            "llm": {
+                "accuracy": 0.7272727272727273
+            }
+        },
+        "train-s1898": {
+            "llm": {
+                "accuracy": 0.8333333333333334
+            }
+        },
+        "train-s3797": {
+            "llm": {
+                "accuracy": 0.5294117647058824
+            }
+        },
+        "train-s441": {
+            "llm": {
+                "accuracy": 0.5185185185185185
+            }
+        },
+        "train-s4149": {
+            "llm": {
+                "accuracy": 0.45
+            }
+        },
+        "train-s1766": {
+            "llm": {
+                "accuracy": 0.47619047619047616
+            }
+        },
+        "test-s26": {
+            "llm": {
+                "accuracy": 0.48148148148148145
+            }
+        },
+        "train-s1263": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s1496": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "train-s3960": {
+            "llm": {
+                "accuracy": 0.4827586206896552
+            }
+        },
+        "train-s1791": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s3371": {
+            "llm": {
+                "accuracy": 0.43478260869565216
+            }
+        },
+        "train-s3180": {
+            "llm": {
+                "accuracy": 0.4827586206896552
+            }
+        },
+        "train-s2095": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s839": {
+            "llm": {
+                "accuracy": 0.6153846153846154
+            }
+        },
+        "train-s4458": {
+            "llm": {
+                "accuracy": 0.5294117647058824
+            }
+        },
+        "dev-s188": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s119": {
+            "llm": {
+                "accuracy": 0.45161290322580644
+            }
+        },
+        "train-s3299": {
+            "llm": {
+                "accuracy": 0.7777777777777778
+            }
+        },
+        "train-s4079": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "train-s954": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "train-s899": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "train-s3386": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "train-s5363": {
+            "llm": {
+                "accuracy": 0.375
+            }
+        },
+        "train-s4248": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s5336": {
+            "llm": {
+                "accuracy": 0.4827586206896552
+            }
+        },
+        "test-s664": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "dev-s394": {
+            "llm": {
+                "accuracy": 0.2702702702702703
+            }
+        },
+        "train-s3428": {
+            "llm": {
+                "accuracy": 0.7142857142857143
+            }
+        },
+        "test-s421": {
+            "llm": {
+                "accuracy": 0.41025641025641024
+            }
+        },
+        "test-s369": {
+            "llm": {
+                "accuracy": 0.5263157894736842
+            }
+        },
+        "test-s291": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "test-s1633": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "test-s260": {
+            "llm": {
+                "accuracy": 0.8
+            }
+        },
+        "train-s1509": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "test-s436": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "train-s2352": {
+            "llm": {
+                "accuracy": 0.6896551724137931
+            }
+        },
+        "train-s5348": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "dev-s108": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s4153": {
+            "llm": {
+                "accuracy": 0.08333333333333333
+            }
+        },
+        "train-s3288": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "train-s1352": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s789": {
+            "llm": {
+                "accuracy": 0.34782608695652173
+            }
+        },
+        "test-s74": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s2637": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s404": {
+            "llm": {
+                "accuracy": 0.34782608695652173
+            }
+        },
+        "train-s503": {
+            "llm": {
+                "accuracy": 0.5581395348837209
+            }
+        },
+        "train-s2099": {
+            "llm": {
+                "accuracy": 0.8
+            }
+        },
+        "train-s584": {
+            "llm": {
+                "accuracy": 0.7058823529411765
+            }
+        },
+        "train-s1231": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "test-s1626": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s2676": {
+            "llm": {
+                "accuracy": 0.6046511627906976
+            }
+        },
+        "dev-s1385": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "train-s2027": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "test-s509": {
+            "llm": {
+                "accuracy": 0.46153846153846156
+            }
+        },
+        "train-s3674": {
+            "llm": {
+                "accuracy": 0.4827586206896552
+            }
+        },
+        "test-s603": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "dev-s17": {
+            "llm": {
+                "accuracy": 0.6923076923076923
+            }
+        },
+        "test-s624": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "train-s2383": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "dev-s872": {
+            "llm": {
+                "accuracy": 0.5555555555555556
+            }
+        },
+        "train-s4107": {
+            "llm": {
+                "accuracy": 0.24
+            }
+        },
+        "train-s723": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s1168": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s2924": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s111": {
+            "llm": {
+                "accuracy": 0.32653061224489793
+            }
+        },
+        "train-s1980": {
+            "llm": {
+                "accuracy": 0.6451612903225806
+            }
+        },
+        "train-s3116": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "test-s44": {
+            "llm": {
+                "accuracy": 0.3125
+            }
+        },
+        "train-s1889": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "test-s1506": {
+            "llm": {
+                "accuracy": 0.45161290322580644
+            }
+        },
+        "train-s312": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "test-s976": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1909": {
+            "llm": {
+                "accuracy": 0.26666666666666666
+            }
+        },
+        "dev-s812": {
+            "llm": {
+                "accuracy": 0.5833333333333334
+            }
+        },
+        "train-s1926": {
+            "llm": {
+                "accuracy": 0.4489795918367347
+            }
+        },
+        "train-s682": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "dev-s1418": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s856": {
+            "llm": {
+                "accuracy": 0.7058823529411765
+            }
+        },
+        "train-s1836": {
+            "llm": {
+                "accuracy": 0.35714285714285715
+            }
+        },
+        "train-s97": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "train-s1136": {
+            "llm": {
+                "accuracy": 0.42105263157894735
+            }
+        },
+        "test-s1209": {
+            "llm": {
+                "accuracy": 0.358974358974359
+            }
+        },
+        "dev-s901": {
+            "llm": {
+                "accuracy": 0.5853658536585366
+            }
+        },
+        "dev-s471": {
+            "llm": {
+                "accuracy": 0.26666666666666666
+            }
+        },
+        "train-s4254": {
+            "llm": {
+                "accuracy": 0.27586206896551724
+            }
+        },
+        "dev-s1529": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "dev-s1005": {
+            "llm": {
+                "accuracy": 0.75
+            }
+        },
+        "train-s5001": {
+            "llm": {
+                "accuracy": 0.5833333333333334
+            }
+        },
+        "train-s601": {
+            "llm": {
+                "accuracy": 0.45161290322580644
+            }
+        },
+        "train-s3305": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s910": {
+            "llm": {
+                "accuracy": 0.5882352941176471
+            }
+        },
+        "train-s509": {
+            "llm": {
+                "accuracy": 0.875
+            }
+        },
+        "test-s1483": {
+            "llm": {
+                "accuracy": 0.5641025641025641
+            }
+        },
+        "dev-s1623": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s2899": {
+            "llm": {
+                "accuracy": 0.509090909090909
+            }
+        },
+        "train-s3796": {
+            "llm": {
+                "accuracy": 0.34782608695652173
+            }
+        },
+        "dev-s1340": {
+            "llm": {
+                "accuracy": 0.42105263157894735
+            }
+        },
+        "train-s2113": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "test-s1647": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "train-s1419": {
+            "llm": {
+                "accuracy": 0.5185185185185185
+            }
+        },
+        "test-s615": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s3829": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "dev-s3": {
+            "llm": {
+                "accuracy": 0.17391304347826086
+            }
+        },
+        "train-s4087": {
+            "llm": {
+                "accuracy": 0.26666666666666666
+            }
+        },
+        "train-s754": {
+            "llm": {
+                "accuracy": 0.42857142857142855
+            }
+        },
+        "train-s2288": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s3362": {
+            "llm": {
+                "accuracy": 0.56
+            }
+        },
+        "train-s815": {
+            "llm": {
+                "accuracy": 0.8
+            }
+        },
+        "test-s1336": {
+            "llm": {
+                "accuracy": 0.45161290322580644
+            }
+        },
+        "train-s3934": {
+            "llm": {
+                "accuracy": 0.47368421052631576
+            }
+        },
+        "train-s2136": {
+            "llm": {
+                "accuracy": 0.5517241379310345
+            }
+        },
+        "train-s797": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s1154": {
+            "llm": {
+                "accuracy": 0.14285714285714285
+            }
+        },
+        "train-s343": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s1787": {
+            "llm": {
+                "accuracy": 0.14285714285714285
+            }
+        },
+        "dev-s969": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4053": {
+            "llm": {
+                "accuracy": 0.3
+            }
+        },
+        "train-s3991": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "dev-s656": {
+            "llm": {
+                "accuracy": 0.6923076923076923
+            }
+        },
+        "train-s1467": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s5058": {
+            "llm": {
+                "accuracy": 0.5185185185185185
+            }
+        },
+        "train-s664": {
+            "llm": {
+                "accuracy": 0.38461538461538464
+            }
+        },
+        "dev-s1769": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4521": {
+            "llm": {
+                "accuracy": 0.2222222222222222
+            }
+        },
+        "train-s63": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "test-s553": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "train-s1923": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s253": {
+            "llm": {
+                "accuracy": 0.5833333333333334
+            }
+        },
+        "train-s1128": {
+            "llm": {
+                "accuracy": 0.23076923076923078
+            }
+        },
+        "dev-s1304": {
+            "llm": {
+                "accuracy": 0.4878048780487805
+            }
+        },
+        "test-s1517": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s1701": {
+            "llm": {
+                "accuracy": 0.3448275862068966
+            }
+        },
+        "train-s1366": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s1122": {
+            "llm": {
+                "accuracy": 0.625
+            }
+        },
+        "dev-s264": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "train-s1582": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "train-s1513": {
+            "llm": {
+                "accuracy": 0.35714285714285715
+            }
+        },
+        "train-s886": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "train-s3944": {
+            "llm": {
+                "accuracy": 0.7
+            }
+        },
+        "test-s616": {
+            "llm": {
+                "accuracy": 0.4666666666666667
+            }
+        },
+        "dev-s729": {
+            "llm": {
+                "accuracy": 0.7272727272727273
+            }
+        },
+        "dev-s1765": {
+            "llm": {
+                "accuracy": 0.5263157894736842
+            }
+        },
+        "train-s21": {
+            "llm": {
+                "accuracy": 0.6363636363636364
+            }
+        },
+        "train-s4795": {
+            "llm": {
+                "accuracy": 0.47619047619047616
+            }
+        },
+        "train-s4532": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s796": {
+            "llm": {
+                "accuracy": 0.375
+            }
+        },
+        "train-s40": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s158": {
+            "llm": {
+                "accuracy": 0.45
+            }
+        },
+        "dev-s1319": {
+            "llm": {
+                "accuracy": 0.48
+            }
+        },
+        "train-s4517": {
+            "llm": {
+                "accuracy": 0.4186046511627907
+            }
+        },
+        "test-s1661": {
+            "llm": {
+                "accuracy": 0.2631578947368421
+            }
+        },
+        "dev-s298": {
+            "llm": {
+                "accuracy": 0.8333333333333334
+            }
+        },
+        "test-s791": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "dev-s1013": {
+            "llm": {
+                "accuracy": 0.24242424242424243
+            }
+        },
+        "test-s883": {
+            "llm": {
+                "accuracy": 0.5641025641025641
+            }
+        },
+        "test-s1207": {
+            "llm": {
+                "accuracy": 0.3125
+            }
+        },
+        "train-s3150": {
+            "llm": {
+                "accuracy": 0.6206896551724138
+            }
+        },
+        "dev-s793": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "test-s1029": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s2735": {
+            "llm": {
+                "accuracy": 0.9090909090909091
+            }
+        },
+        "test-s845": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1775": {
+            "llm": {
+                "accuracy": 0.4166666666666667
+            }
+        },
+        "dev-s761": {
+            "llm": {
+                "accuracy": 0.625
+            }
+        },
+        "test-s1081": {
+            "llm": {
+                "accuracy": 0.23255813953488372
+            }
+        },
+        "train-s1218": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "test-s57": {
+            "llm": {
+                "accuracy": 0.10526315789473684
+            }
+        },
+        "test-s457": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "test-s251": {
+            "llm": {
+                "accuracy": 0.35294117647058826
+            }
+        },
+        "train-s4440": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s4949": {
+            "llm": {
+                "accuracy": 0.5333333333333333
+            }
+        },
+        "test-s117": {
+            "llm": {
+                "accuracy": 0.5652173913043478
+            }
+        },
+        "dev-s22": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "test-s589": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "test-s1195": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s873": {
+            "llm": {
+                "accuracy": 0.5555555555555556
+            }
+        },
+        "dev-s765": {
+            "llm": {
+                "accuracy": 0.26666666666666666
+            }
+        },
+        "dev-s1667": {
+            "llm": {
+                "accuracy": 0.6363636363636364
+            }
+        },
+        "train-s3538": {
+            "llm": {
+                "accuracy": 0.2962962962962963
+            }
+        },
+        "dev-s1361": {
+            "llm": {
+                "accuracy": 0.6086956521739131
+            }
+        },
+        "train-s573": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s2925": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "test-s1600": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "dev-s803": {
+            "llm": {
+                "accuracy": 0.3829787234042553
+            }
+        },
+        "train-s790": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "test-s541": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "test-s1368": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s22": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "train-s1867": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "dev-s1520": {
+            "llm": {
+                "accuracy": 0.6451612903225806
+            }
+        },
+        "train-s4474": {
+            "llm": {
+                "accuracy": 0.5882352941176471
+            }
+        },
+        "test-s399": {
+            "llm": {
+                "accuracy": 0.13333333333333333
+            }
+        },
+        "train-s3707": {
+            "llm": {
+                "accuracy": 0.38461538461538464
+            }
+        },
+        "train-s4205": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s624": {
+            "llm": {
+                "accuracy": 0.625
+            }
+        },
+        "dev-s1461": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s3233": {
+            "llm": {
+                "accuracy": 0.75
+            }
+        },
+        "train-s629": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s1968": {
+            "llm": {
+                "accuracy": 0.52
+            }
+        },
+        "test-s1117": {
+            "llm": {
+                "accuracy": 0.3125
+            }
+        },
+        "train-s1591": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "test-s1280": {
+            "llm": {
+                "accuracy": 0.5806451612903226
+            }
+        },
+        "test-s1704": {
+            "llm": {
+                "accuracy": 0.7272727272727273
+            }
+        },
+        "train-s5034": {
+            "llm": {
+                "accuracy": 0.3684210526315789
+            }
+        },
+        "train-s252": {
+            "llm": {
+                "accuracy": 0.6086956521739131
+            }
+        },
+        "dev-s1286": {
+            "llm": {
+                "accuracy": 0.5833333333333334
+            }
+        },
+        "train-s2504": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "train-s4851": {
+            "llm": {
+                "accuracy": 0.3157894736842105
+            }
+        },
+        "train-s4470": {
+            "llm": {
+                "accuracy": 0.3793103448275862
+            }
+        },
+        "train-s2693": {
+            "llm": {
+                "accuracy": 0.47058823529411764
+            }
+        },
+        "train-s2041": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s3064": {
+            "llm": {
+                "accuracy": 0.75
+            }
+        },
+        "train-s4595": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "train-s2850": {
+            "llm": {
+                "accuracy": 0.35714285714285715
+            }
+        },
+        "test-s856": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s2138": {
+            "llm": {
+                "accuracy": 0.6111111111111112
+            }
+        },
+        "dev-s52": {
+            "llm": {
+                "accuracy": 1.0
+            }
+        },
+        "dev-s972": {
+            "llm": {
+                "accuracy": 0.125
+            }
+        },
+        "train-s14": {
+            "llm": {
+                "accuracy": 0.2777777777777778
+            }
+        },
+        "test-s917": {
+            "llm": {
+                "accuracy": 0.45454545454545453
+            }
+        },
+        "train-s4920": {
+            "llm": {
+                "accuracy": 0.5294117647058824
+            }
+        },
+        "train-s4338": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "dev-s572": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        },
+        "test-s764": {
+            "llm": {
+                "accuracy": 0.3076923076923077
+            }
+        },
+        "dev-s179": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s2282": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s5203": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "test-s505": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s965": {
+            "llm": {
+                "accuracy": 0.2857142857142857
+            }
+        },
+        "train-s4492": {
+            "llm": {
+                "accuracy": 0.3888888888888889
+            }
+        },
+        "train-s2656": {
+            "llm": {
+                "accuracy": 0.6428571428571429
+            }
+        },
+        "train-s547": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s2687": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s2440": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "dev-s1107": {
+            "llm": {
+                "accuracy": 0.64
+            }
+        },
+        "train-s2583": {
+            "llm": {
+                "accuracy": 0.4666666666666667
+            }
+        },
+        "train-s1387": {
+            "llm": {
+                "accuracy": 0.2
+            }
+        },
+        "train-s1061": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "dev-s346": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "dev-s909": {
+            "llm": {
+                "accuracy": 0.7
+            }
+        },
+        "dev-s923": {
+            "llm": {
+                "accuracy": 0.6666666666666666
+            }
+        },
+        "train-s4367": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "dev-s532": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s4730": {
+            "llm": {
+                "accuracy": 0.4489795918367347
+            }
+        },
+        "train-s1100": {
+            "llm": {
+                "accuracy": 0.5882352941176471
+            }
+        },
+        "train-s185": {
+            "llm": {
+                "accuracy": 0.5
+            }
+        },
+        "dev-s431": {
+            "llm": {
+                "accuracy": 0.23529411764705882
+            }
+        },
+        "train-s1995": {
+            "llm": {
+                "accuracy": 0.37037037037037035
+            }
+        },
+        "train-s3902": {
+            "llm": {
+                "accuracy": 0.6875
+            }
+        },
+        "train-s1852": {
+            "llm": {
+                "accuracy": 0.375
+            }
+        },
+        "train-s4528": {
+            "llm": {
+                "accuracy": 0.5384615384615384
+            }
+        },
+        "train-s4788": {
+            "llm": {
+                "accuracy": 0.4
+            }
+        },
+        "train-s1864": {
+            "llm": {
+                "accuracy": 0.6
+            }
+        },
+        "train-s2204": {
+            "llm": {
+                "accuracy": 0.2608695652173913
+            }
+        },
+        "dev-s142": {
+            "llm": {
+                "accuracy": 0.3333333333333333
+            }
+        },
+        "train-s3492": {
+            "llm": {
+                "accuracy": 0.42105263157894735
+            }
+        },
+        "train-s761": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "train-s615": {
+            "llm": {
+                "accuracy": 0.6486486486486487
+            }
+        },
+        "train-s1498": {
+            "llm": {
+                "accuracy": 0.5365853658536586
+            }
+        },
+        "train-s4753": {
+            "llm": {
+                "accuracy": 0.38095238095238093
+            }
+        },
+        "train-s3439": {
+            "llm": {
+                "accuracy": 0.2553191489361702
+            }
+        },
+        "dev-s99": {
+            "llm": {
+                "accuracy": 0.7058823529411765
+            }
+        },
+        "train-s204": {
+            "llm": {
+                "accuracy": 0.42424242424242425
+            }
+        },
+        "train-s4065": {
+            "llm": {
+                "accuracy": 0.32432432432432434
+            }
+        },
+        "train-s2999": {
+            "llm": {
+                "accuracy": 0.6875
+            }
+        },
+        "dev-s74": {
+            "llm": {
+                "accuracy": 0.5714285714285714
+            }
+        },
+        "test-s218": {
+            "llm": {
+                "accuracy": 0.25
+            }
+        },
+        "train-s5033": {
+            "llm": {
+                "accuracy": 0.6206896551724138
+            }
+        },
+        "train-s137": {
+            "llm": {
+                "accuracy": 0.5454545454545454
+            }
+        },
+        "train-s4389": {
+            "llm": {
+                "accuracy": 0.36363636363636365
+            }
+        },
+        "test-s49": {
+            "llm": {
+                "accuracy": 0.4444444444444444
+            }
+        }
+    },
+    "summary": {
+        "llm accuracy": 0.4682644320158916
+    }
+}
