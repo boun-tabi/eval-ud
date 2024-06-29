@@ -23,6 +23,6 @@ do
     then
         echo 'Sent ID count is not 500 for' $dir
         echo Running $dir
-        python3 llm-approach/finnish-run/scripts/run-llm-experiment.py -r $dir
+        python3 llm-approach/finnish-run/scripts/run-llm-experiment.py -r $dir -t 3
     fi
 done

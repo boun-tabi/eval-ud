@@ -2,8 +2,10 @@ from datetime import datetime
 import os, json, argparse, logging, subprocess, re, random, sys
 from pathlib import Path
 from templates import get_sentence_prompt, get_example_prompt, template_sentence
+from time import sleep
 
 def clone_repo(treebank, treebank_dir):
+    logger = get_logger()
     treebank_url = f'https://github.com/UniversalDependencies/{treebank}.git'
     subprocess.run(['git', 'clone', treebank_url, treebank_dir])
     if not treebank_dir.exists():
@@ -26,6 +28,7 @@ def get_args():
     parser.add_argument('--ud-docs', type=str)
     parser.add_argument('--has-dependency', action='store_true')
     parser.add_argument('--special-tr', action='store_true')
+    parser.add_argument('-t', '--time', type=int, default=0, help='Time to wait before querying the model again.')
     return parser.parse_args()
 
 def get_logger():
@@ -282,6 +285,7 @@ def main():
         if model.startswith('poe'):
             try:
                 specific_model = model.replace('poe_', '')
+                sleep(args.time)
                 output = asyncio.run(get_response(prompt, specific_model, api_key))
             except:
                 continue
