@@ -60,18 +60,6 @@
         "special_tr": false
     },
     {
-        "run_dir": "llm-approach/finnish-run/scripts/outputs/trendyol_Trendyol-LLM-7b-chat-v1.0-UD_Turkish-BOUN-2.11-2024-04-28_09-11-16",
-        "treebank": "UD_Turkish-BOUN",
-        "version": "2.11",
-        "model": "Trendyol-LLM-7b-chat-v1.0",
-        "dependency_included": false,
-        "character-based": 0.6408670262104992,
-        "token-based": 0.379747705248226,
-        "sentence_count": 500,
-        "date": "2024-04-28",
-        "special_tr": false
-    },
-    {
         "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Mixtral-8x7B-Chat-UD_Turkish-BOUN-2.11-2024-05-30_04-08-22",
         "treebank": "UD_Turkish-BOUN",
         "version": "2.11",
@@ -213,6 +201,18 @@
         "token-based": 0.6150867190325653,
         "sentence_count": 500,
         "date": "2024-04-19",
+        "special_tr": false
+    },
+    {
+        "run_dir": "llm-approach/finnish-run/scripts/outputs/poe_Llama-3-8B-T-UD_Basque-BDT-2.10-2024-06-25_17-39-01",
+        "treebank": "UD_Basque-BDT",
+        "version": "2.10",
+        "model": "Llama-3-8B-T",
+        "dependency_included": true,
+        "character-based": 0.8113252845429232,
+        "token-based": 0.4682644320158916,
+        "sentence_count": 500,
+        "date": "2024-06-25",
         "special_tr": false
     },
     {
